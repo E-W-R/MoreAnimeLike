@@ -16,7 +16,7 @@ header {
     background-color: #3c3b3a;
     color: white;
     justify-content: space-between; /* Distribute space between items */
-    padding: 0px 20px; /* Add padding to the sides */
+    padding: 1px 20px; /* Add padding to the sides */
     font-size: 1.3vw;
 }
 
@@ -116,6 +116,7 @@ a {
     width: 100%;
     margin: 0 0 0 0;
     padding: 2px;
+    font-size: 1.2vw;
 }
 
 /* Switch Styles */
