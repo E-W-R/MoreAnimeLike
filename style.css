@@ -17,6 +17,7 @@ header {
     color: white;
     justify-content: space-between; /* Distribute space between items */
     padding: 0px 20px; /* Add padding to the sides */
+    font-size: 1.3vw;
 }
 
 .header-content {
@@ -28,22 +29,22 @@ header {
 }
 
 .home-icon {
-    padding-left: 20px;
-    font-size: 2.5em; /* Adjust size as needed */
+    padding-left: 1.5vw;
+    font-size: 3.5vw; /* Adjust size as needed */
     color: white; /* Set color for the icon */
 }
 
 h1 {
     text-align: center;
-    margin-right: 20px;
+    margin-right: 1.5vw;
 }
 
 #searchBox {
     padding: 5px;
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 2.5vw;
     font-weight: bold;
-    min-width: 150px;
+    min-width: 12vw;
     max-width: 60vw;
     border-radius: 10px;
     border: 2px solid #d4d4d4;
@@ -74,7 +75,7 @@ a {
     border-top: none;
     z-index: 99;
     /* position the autocomplete items to be the same width as the container: */
-    top: 72px; /* Adjust based on your layout */
+    top: 5.8vw; /* Adjust based on your layout */
     left: 0;
     right: auto;
     background-color: white;
@@ -119,12 +120,12 @@ a {
 
 /* Switch Styles */
 .switch {
-    margin-right: 20px;
+    margin-right: 1.5vw;
     position: relative;
     display: inline-block;
-    width: 80px;
-    height: 40px;
-    margin-left: 20px;
+    width: 6vw;
+    height: 3vw;
+    margin-left: 1.5vw;
 }
 
 .switch input {
@@ -142,16 +143,16 @@ a {
     bottom: 0;
     background-color: white;
     transition: .4s;
-    border-radius: 34px;
+    border-radius: 2.55vw;
 }
 
 .slider:before {
     position: absolute;
     content: "";
-    height: 34px;
-    width: 34px;
-    left: 3px;
-    bottom: 3px;
+    height: 2.55vw;
+    width: 2.55vw;
+    left: 0.225vw;
+    bottom: 0.225vw;
     background-color: #d4d4d4;
     transition: .4s;
     border-radius: 50%;
@@ -162,6 +163,6 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-    transform: translateX(40px);
+    transform: translateX(3vw);
     background-color: white;
 }
