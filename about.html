@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoreAnimeLike.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <input type="text" id="searchBox" class="searchBox" placeholder="">
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <script src="script.js"></script>
+    <main>
+        <h2>About the Website</h2>
+
+        <p>You just finished the best anime of your life and want to keep experiencing the exact same thing but slightly different as many times as you can.</p>
+
+        <p>So you search “what are some more anime like Attack on Titan” or “anime to watch if you liked Your Name”.</p>
+            
+        <p>But all you get are those lame articles with dozens of ads written by people who barely watch anime citing the same generic recommendations over and over with no objective reasoning.</p>
+            
+        <p>That used to be me, so I fixed the problem.</p>
+            
+        <p>One website, 5,000 anime, 100,000 recommendations, no ads, no meandering introductions, and one really good algorithm.</p>
+        
+        <br>
+
+        <p>Here’s how it works.</p>
+            
+        <p>Anime nerds like to keep track of everything they’ve watched. So they turn to sites like MyAnimeList and AniList for logging and rating. This gives us a lot of data to work with.</p>
+            
+        <p>Too much data, really. So I only looked at 102,615 different people’s opinions. Which took a lot of space on my computer.</p>
+            
+        <p>But yeah. Basically we say that two anime are similar if the people we have data on tended to give them similar ratings.</p>
+            
+        <p>Nothing complicated, really, but it’s pretty powerful. The effect is that if you liked an anime, you’re very likely to like a corresponding recommendation.</p>
+            
+        <p>Because the recommendations are based on data and math, not vibes.</p>
+            
+        <p>And if you’re curious about the math, it’s just the mean absolute deviation of two very large vectors. One vector per anime and one dimension for each person who has seen them both.</p>
+    
+        <br>
+        
+        <p>Thanks for visiting,</p>
+
+        <p>Evan</p>
+
+        <img src="coding.png" width="100">
+    </main>
+</body>
+</html>
