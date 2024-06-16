@@ -13,7 +13,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #3c3b3a;
+    background-color: #eb345e;
     color: white;
     justify-content: space-between; /* Distribute space between items */
     padding: 0px 20px; /* Add padding to the sides */
@@ -63,7 +63,7 @@ a {
 
 .black-bar {
     width: 100%;
-    height: 2px;  /* Adjust the height as needed */
+    height: 2px;
     background-color: black;
 }
 
@@ -73,10 +73,6 @@ a {
     border-bottom: none;
     border-top: none;
     z-index: 99;
-    /* position the autocomplete items to be the same width as the container: */
-    top: 72px; /* Adjust based on your layout */
-    left: 0;
-    right: auto;
     background-color: white;
     border-radius: 10px;
 }

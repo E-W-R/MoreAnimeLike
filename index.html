@@ -8,13 +8,15 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
     <header>
         <a href="index.html" class="home-icon"><i class="fas fa-home"></i></a>
         <div class="header-content">
             <h1>Find more anime like: </h1>
-            <input type="text" id="searchBox" placeholder="">
+            <input type="text" id="searchBox" class="searchBox" placeholder="">
+            <div id="autocomplete-list" class="autocomplete-items"></div>
         </div>
         <label class="switch">
             <input type="checkbox" id="themeToggle">
@@ -24,7 +26,6 @@
     <p id="tagline"><a href="about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
     <div class="black-bar"></div>
     <svg></svg>
-    <div id="autocomplete-list" class="autocomplete-items"></div>
     <script src="script.js"></script>
 </body>
 </html>

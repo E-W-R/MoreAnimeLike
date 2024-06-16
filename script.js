@@ -2,13 +2,47 @@ function updateNodeTextColor(color) {
     d3.selectAll(".nodes text").attr("fill", color);
 }
 
+const applyD3Theme = (isDark) => {
+    d3.selectAll("text").attr("fill", isDark ? "white" : "black");
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    const themeToggle = document.getElementById('themeToggle');
+
+    // Function to apply the theme
+    const applyTheme = (isDark) => {
+        if (isDark) {
+            document.body.style.backgroundColor = '#242526';
+            document.body.style.color = 'white';
+            d3.selectAll("text").attr("fill", "white");
+        } else {
+            document.body.style.backgroundColor = 'white';
+            document.body.style.color = 'black';
+            d3.selectAll("text").attr("fill", "black");
+        }
+    };
+
+    // Load the stored theme state from localStorage
+    const isDarkTheme = localStorage.getItem('themeToggle') === 'true';
+    themeToggle.checked = isDarkTheme;
+    applyTheme(isDarkTheme);
+
+    // Save the theme state to localStorage and apply theme when it changes
+    themeToggle.addEventListener('change', () => {
+        const isChecked = themeToggle.checked;
+        localStorage.setItem('themeToggle', isChecked);
+        applyTheme(isChecked);
+    });
+});
+
 document.addEventListener('DOMContentLoaded', function() {
+
     autocomplete(document.getElementById('searchBox'));
 
     const themeToggle = document.getElementById('themeToggle');
     themeToggle.addEventListener('change', function() {
         if (themeToggle.checked) {
-            document.body.style.backgroundColor = '#242526';
+            document.body.style.backgroundColor = '#262728';
             d3.selectAll("text").attr("fill", "white");
         } else {
             document.body.style.backgroundColor = 'white';
@@ -43,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         svg.call(zoom);
 
-        const initialScale = 0.1;
+        const initialScale = 0.13;
         const initialTranslateX = (width / 2) * (1 - initialScale);
         const initialTranslateY = (height / 2) * (1 - initialScale);
         const initialTransform = d3.zoomIdentity.translate(initialTranslateX, initialTranslateY).scale(initialScale);
@@ -90,6 +124,9 @@ document.addEventListener('DOMContentLoaded', function() {
             .text(d => d.name)
             .attr("font-size", "48px");
 
+        const isDarkTheme = localStorage.getItem('themeToggle') === 'true';
+        applyD3Theme(isDarkTheme)
+
         simulation
             .nodes(nodes)
             .on("tick", ticked);
@@ -129,8 +166,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.getElementById('searchBox').addEventListener('input', adjustSearchBoxWidth);
 
-adjustSearchBoxWidth();
-
 function autocomplete(inp, searchOptions) {
     let currentFocus;
     inp.addEventListener("input", function(e) {
@@ -144,6 +179,7 @@ function autocomplete(inp, searchOptions) {
         a.setAttribute("class", "autocomplete-items");
 
         a.style.left = this.getBoundingClientRect().left + "px";
+        a.style.top = this.getBoundingClientRect().bottom + "px";
         a.style.width = this.offsetWidth + "px";
 
         document.body.appendChild(a);
@@ -180,7 +216,7 @@ function autocomplete(inp, searchOptions) {
             if (currentFocus > -1) {
                 if (x) x[currentFocus].click();
             } else if (x && x.length > 0) {
-                x[0].click(); // Click the top result if nothing is hovered
+                x[0].click();
             }
         }
     });
@@ -208,7 +244,6 @@ function autocomplete(inp, searchOptions) {
         closeAllLists(e.target);
     });
 
-    // Adjust the width of the search box based on the placeholder
     adjustSearchBoxWidth(inp);
 }
 
