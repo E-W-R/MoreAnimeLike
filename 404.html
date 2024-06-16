@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoreAnimeLike.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            margin-top: 50px;
+            max-width: 50%;
+            height: auto;
+            border: 4px solid black;
+            border-radius: 16px;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <input type="text" id="searchBox" class="searchBox" placeholder="">
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <script src="script.js"></script>
+    <div class="container">
+        <img src="luffy.webp">
+        <p>Error 404: Unlike the One Piece, this page is not real.</p>
+    </div>
+</body>
+</html>
