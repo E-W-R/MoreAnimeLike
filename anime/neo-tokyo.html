@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Neo Tokyo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "1951";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/6/18685l.webp" alt="Neo Tokyo">
+                <div>
+                    <h2 id="title">Neo Tokyo</h2>
+                    <p>Other Genre</p>
+                    <p>1987</p>
+                    <br><br>
+                    <p>In the bustling city of Neo Tokyo, three childhood friends find themselves embroiled in a web of government corruption, psychic powers, and rebellion. As they navigate the dangerous streets and uncover dark secrets, they must confront their own fears and inner demons. With the fate of the city hanging in the balance, they must band together to fight for justice and freedom against powerful forces that seek to control them.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 23%;"></span>
+                        </div>
+                        <p>23% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/15874l.jpg" alt="Afro Samurai">
+                <div class="details">
+                    <a href="afro-samurai.html"><h3>Afro Samurai</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In a futuristic, feudal Japan, the legendary swordsman Afro Samurai seeks revenge against Justice, the man who killed his father in front of him as a child. Armed with both his father's ancient headband and his deadly skills with a katana, Afro embarks on a violent and bloody journey to claim the number one headband and confront Justice in a final showdown.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1958/93533l.jpg" alt="Megalobox">
+                <div class="details">
+                    <a href="megalobox.html"><h3>Megalobox</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a gritty future where society is divided by class, underground fighters participate in high-stakes boxing matches using metal gear to enhance their abilities. Junk Dog, a talented but unknown fighter, aims to break free from his lower-class background and make a name for himself in the prestigious Megalonia tournament. With the help of his trainer Gansaku Nanbu and ambitious manager Sachio, Junk Dog confronts powerful opponents and personal demons on his journey to the top.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1873/98756l.jpg" alt="Barefoot Gen">
+                <div class="details">
+                    <a href="barefoot-gen.html"><h3>Barefoot Gen</h3></a>
+                    <p>Drama</p>
+                    <p>1983</p>
+                    <br>
+                    <p>Barefoot Gen follows the story of Gen, a young boy living in Hiroshima during World War II. After the atomic bomb is dropped on the city, Gen must navigate the harsh reality of the aftermath and try to survive amidst the destruction and chaos. As he copes with loss, trauma, and suffering, Gen finds strength in the bonds he forms with those around him and strives to rebuild his life in the face of overwhelming devastation.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1827/112657l.jpg" alt="Dead Leaves">
+                <div class="details">
+                    <a href="dead-leaves.html"><h3>Dead Leaves</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Pandy and Retro wake up with no memories and robotic implants, embarking on a violent rampage to uncover the truth. Captured and sent to a high-security prison on the moon, they must navigate a surreal world filled with bizarre characters and dangerous obstacles to make their escape. As they battle their way through the chaos, shocking secrets about their pasts and the government's sinister experiments begin to surface.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1974/116417l.webp" alt="The Secret World of Arrietty">
+                <div class="details">
+                    <a href="the-secret-world-of-arrietty.html"><h3>The Secret World of Arrietty</h3></a>
+                    <p>Other Genre</p>
+                    <p>2010</p>
+                    <br>
+                    <p>The Secret World of Arrietty follows the adventures of a tiny Borrower named Arrietty who lives beneath the floorboards of a house. When she is discovered by a human boy named Shawn, their unlikely friendship blossoms despite the dangers posed by their difference in size. As they navigate the challenges of their respective worlds, they must find a way to protect Arrietty's family secret while forging a bond that transcends their physical disparities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/50453l.webp" alt="Kuroko's Basketball">
+                <div class="details">
+                    <a href="kuroko%27s-basketball.html"><h3>Kuroko's Basketball</h3></a>
+                    <p>Sports</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Kuroko's Basketball, the Seirin High basketball team, led by skilled player Taiga Kagami and the seemingly invisible transfer student, Tetsuya Kuroko, competes to become the best in Japan. Despite Kuroko's lack of presence on the court, his exceptional passing skills and teamwork prove invaluable in taking down other powerful teams. The series follows their journey as they face fierce opponents and strive to win the Interhigh and Winter Cup championships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/78466l.jpg" alt="Kiznaiver">
+                <div class="details">
+                    <a href="kiznaiver.html"><h3>Kiznaiver</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Kiznaiver, a group of teenagers are connected through a scientific experiment that allows them to share each other's pain. As they navigate their newfound interconnectedness, they must learn to understand and support one another while facing their own personal struggles. With the help of each other, they strive to find a way to break free from the experiment and discover the true meaning of empathy and friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 28%;"></span>
+                        </div>
+                        <p>28% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1289/138708l.webp" alt="Only Yesterday">
+                <div class="details">
+                    <a href="only-yesterday.html"><h3>Only Yesterday</h3></a>
+                    <p>Romance</p>
+                    <p>1991</p>
+                    <br>
+                    <p>Only Yesterday follows Taeko, a 27-year-old office worker who goes on a trip to the countryside. As she reconnects with nature and meets new people, memories of her fifth-grade self surface. Through a series of flashbacks, Taeko reflects on her past, including her first crush and the challenges she faced growing up. The film beautifully weaves together Taeko's present and past, exploring themes of nostalgia, self-discovery, and the passage of time.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 31%;"></span>
+                        </div>
+                        <p>31% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/3211l.jpg" alt="Pale Cocoon">
+                <div class="details">
+                    <a href="pale-cocoon.html"><h3>Pale Cocoon</h3></a>
+                    <p>Drama</p>
+                    <p>2005</p>
+                    <br>
+                    <p>In a future world where the Earth is mostly uninhabitable, a young archivist named Ura uncovers a mysterious video from the past that challenges the beliefs of his society. As he delves deeper into the history of humanity, he begins to question the truth behind their existence. With the help of his colleague, he embarks on a journey to unravel the secrets of their past and discover the fate of the lost civilization.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 31%;"></span>
+                        </div>
+                        <p>31% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1103/99778l.webp" alt="Children of the Sea">
+                <div class="details">
+                    <a href="children-of-the-sea.html"><h3>Children of the Sea</h3></a>
+                    <p>Mystery</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Children of the Sea follows the story of a young girl named Ruka who befriends two mysterious boys, Umi and Sora, who were raised by dugongs. As the boys are connected to the disappearing sea life, Ruka's summer becomes a journey of oceanic wonders and supernatural events. Together, they unravel the mysteries of the sea and the boys' enigmatic connection to the underwater world, leading to a breathtaking and emotional exploration of nature's majesty.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/32547l.jpg" alt="From Up on Poppy Hill">
+                <div class="details">
+                    <a href="from-up-on-poppy-hill.html"><h3>From Up on Poppy Hill</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In From Up on Poppy Hill, set in 1963 Yokohama, Japan, high school students Umi and Shun work together to save their school's clubhouse from demolition. As they form a strong bond, they discover a shared connection from their pasts. Amidst personal struggles and social change, the two must navigate their emotions and uncover the truth behind their intertwined destinies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1962/138712l.jpg" alt="Pom Poko">
+                <div class="details">
+                    <a href="pom-poko.html"><h3>Pom Poko</h3></a>
+                    <p>Other Genre</p>
+                    <p>1994</p>
+                    <br>
+                    <p>In Pom Poko, a group of shape-shifting raccoons uses their supernatural abilities to protect their forest home from destruction by humans. As the forest faces increasing development, the raccoons must find a way to preserve their land and way of life. With their unique powers and resourcefulness, they embark on a mission to save their home from being destroyed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1331/138727l.webp" alt="Ponyo">
+                <div class="details">
+                    <a href="ponyo.html"><h3>Ponyo</h3></a>
+                    <p>Other Genre</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Ponyo follows the magical journey of a goldfish princess named Ponyo who dreams of becoming human after meeting a young boy named Sosuke. As their friendship blossoms, Ponyo's magical powers inadvertently cause a dangerous imbalance in the world. Sosuke and Ponyo must navigate through obstacles to restore order and be together. With themes of love, friendship, and environmental harmony, Ponyo is a heartwarming tale of adventure and wonder.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1889/105337l.jpg" alt="ID: INVADED">
+                <div class="details">
+                    <a href="id%3A-invaded.html"><h3>ID: INVADED</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where the minds of criminals can be infiltrated, a detective must navigate a complex psychological landscape to solve gruesome crimes. With the help of a mysterious girl named Kaeru, and a team of experts, they dive into the Id Well - a simulation of the suspect's subconscious. As they delve deeper into each case, they unravel the mysteries behind the serial killings and the detective's own forgotten past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/84241l.jpg" alt="Cat Soup">
+                <div class="details">
+                    <a href="cat-soup.html"><h3>Cat Soup</h3></a>
+                    <p>Psychological</p>
+                    <p>2001</p>
+                    <br>
+                    <p>In Cat Soup, a young cat embarks on a surreal and mind-bending journey to save the soul of his sister from the grasp of death itself. Through a series of strange and symbolic encounters, he must navigate the bizarre and unsettling world around him to bring his sister back to life. Filled with abstract imagery and unconventional storytelling, Cat Soup explores themes of life, death, and the human experience in a unique and captivating way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1811/112663l.jpg" alt="Royal Space Force: The Wings of Honneamise">
+                <div class="details">
+                    <a href="royal-space-force%3A-the-wings-of-honneamise.html"><h3>Royal Space Force: The Wings of Honneamise</h3></a>
+                    <p>Action</p>
+                    <p>1987</p>
+                    <br>
+                    <p>In a world on the brink of war, a young man named Shirotsugh Lhadatt dreams of becoming an astronaut. Despite facing ridicule and skepticism, he joins the struggling Royal Space Force to realize his ambitions. As he undergoes grueling training and experiences personal setbacks, Shiro must confront his own doubts and the harsh realities of the world around him. Will his determination and belief in the potential of space travel be enough to overcome the challenges he faces?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/24648l.jpg" alt="Chobits">
+                <div class="details">
+                    <a href="chobits.html"><h3>Chobits</h3></a>
+                    <p>Romance</p>
+                    <p>2002</p>
+                    <br>
+                    <p>In Chobits, a young man discovers an abandoned persocom (humanoid computer) in the shape of a girl. As he activates her, he realizes she is different from other persocoms. Together, they embark on a journey to uncover the mystery behind her origins and what sets her apart from the rest. Along the way, they develop a unique and heartwarming relationship, navigating through the complexities of love, technology, and the boundaries between humans and machines.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/41257l.jpg" alt="Battle Angel Alita">
+                <div class="details">
+                    <a href="battle-angel-alita.html"><h3>Battle Angel Alita</h3></a>
+                    <p>Drama</p>
+                    <p>1993</p>
+                    <br>
+                    <p>In a post-apocalyptic world, a kind scientist discovers a cyborg girl with no memories. He names her Alita and helps her navigate the dangerous streets of Iron City. As she learns about her mysterious past and incredible fighting abilities, Alita becomes determined to uncover the truth. With thrilling battles and powerful adversaries, Alita must fight to protect her loved ones and herself.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/21278l.jpg" alt="Steamboy">
+                <div class="details">
+                    <a href="steamboy.html"><h3>Steamboy</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Steamboy follows the story of a young inventor in Victorian England who receives a mysterious metal ball from his scientist grandfather. Unbeknownst to him, the ball holds the key to a powerful source of energy that could change the course of history. As various factions seek to possess the ball for their own gain, the young inventor must navigate a dangerous world of steam-powered technology and political intrigue to protect it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1048/128385l.webp" alt="Kakushigoto">
+                <div class="details">
+                    <a href="kakushigoto.html"><h3>Kakushigoto</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Kakushi Goto is a heartwarming slice-of-life anime following the secret life of a famous manga artist and his young daughter, Hime. Despite his success, Kakushi works hard to keep his job hidden from Hime to protect her innocence. As he navigates the challenges of fatherhood and the pressures of his profession, Kakushi must juggle his double life while cherishing the precious moments he shares with his beloved daughter.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/75601l.webp" alt="Metropolis">
+                <div class="details">
+                    <a href="metropolis.html"><h3>Metropolis</h3></a>
+                    <p>Romance</p>
+                    <p>2001</p>
+                    <br>
+                    <p>In a bustling futuristic city where humans and robots coexist, a young boy and a private detective find themselves entangled in a dangerous conspiracy that could change the course of their society. As they delve deeper into the mystery surrounding a mysterious scientist and his creation, they uncover dark secrets and face powerful forces that threaten to tear their world apart. Will they be able to navigate through the chaos and uncover the truth behind Metropolis?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/74781l.webp" alt="Memories">
+                <div class="details">
+                    <a href="memories.html"><h3>Memories</h3></a>
+                    <p>Psychological</p>
+                    <p>1995</p>
+                    <br>
+                    <p>Memories is a collection of three standalone short films that each explore different aspects of humanity. The first film follows a man as he reminisces about his childhood. The second film takes place in a dystopian world where a deadly virus spreads. The final film follows a group of space travelers who encounter a mysterious phenomenon. Each story delves into themes of nostalgia, survival, and the unknown future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1834/116568l.jpg" alt="Ninja Scroll">
+                <div class="details">
+                    <a href="ninja-scroll.html"><h3>Ninja Scroll</h3></a>
+                    <p>Action</p>
+                    <p>1993</p>
+                    <br>
+                    <p>In Ninja Scroll, skilled swordsman Jubei finds himself embroiled in a deadly mission when he encounters a female ninja who enlists his help to defeat the Eight Devils of Kimon, a group of dangerous warriors with supernatural powers. As Jubei battles these formidable foes, he uncovers a sinister conspiracy that threatens the entire country. With intense combat scenes and betrayals at every turn, Jubei must use all his skills to survive and protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/74786l.webp" alt="Patlabor: The Movie">
+                <div class="details">
+                    <a href="patlabor%3A-the-movie.html"><h3>Patlabor: The Movie</h3></a>
+                    <p>Action</p>
+                    <p>1989</p>
+                    <br>
+                    <p>After a series of mysterious malfunctions involving Labor robots, a special unit of the police force is tasked with investigating the incidents. As they dig deeper, they uncover a complex web of corruption and conspiracy that threatens to plunge the city into chaos. As they race against time to stop the perpetrators, they must also confront their own beliefs and values in the face of overwhelming odds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/58763l.jpg" alt="Cyber City">
+                <div class="details">
+                    <a href="cyber-city.html"><h3>Cyber City</h3></a>
+                    <p>Action</p>
+                    <p>1990</p>
+                    <br>
+                    <p>In a futuristic world where cybernetic enhancements are common, a team of skilled individuals is recruited to undertake dangerous missions to defend the city against high-tech criminals. Each member of the team brings their unique abilities and backgrounds to the table, forming an unstoppable force against the growing threat in the cyber city. As they navigate through intricate cyber networks and face powerful foes, they must also confront their own inner demons and past traumas.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1584/93628l.jpg" alt="Roujin Z">
+                <div class="details">
+                    <a href="roujin-z.html"><h3>Roujin Z</h3></a>
+                    <p>Drama</p>
+                    <p>1991</p>
+                    <br>
+                    <p>In a futuristic society, an elderly man is chosen to test a new state-of-the-art hospital bed named Roujin Z. As the bed reveals its advanced capabilities, a young high school student forms a bond with the man and vows to protect him from the powerful forces that seek to exploit the bed's true purpose. Together, they embark on a thrilling and heartwarming adventure that challenges societal norms and the meaning of compassion.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1910/98828l.jpg" alt="Genius Party">
+                <div class="details">
+                    <a href="genius-party.html"><h3>Genius Party</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Genius Party is a collection of short animated films by various directors, each with its own unique art style and narrative. From surreal adventures to thought-provoking stories, these short films offer a glimpse into the imagination of talented creators. Viewers are taken on a visual journey through a series of captivating and diverse worlds, showcasing the creativity and innovation of the anime medium.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/2769l.jpg" alt="Gunsmith Cats">
+                <div class="details">
+                    <a href="gunsmith-cats.html"><h3>Gunsmith Cats</h3></a>
+                    <p>Action</p>
+                    <p>1995</p>
+                    <br>
+                    <p>Gunsmith Cats follows the adventures of two young women, Rally Vincent and Minnie May Hopkins, who run a gun shop in Chicago by day and work as bounty hunters by night. With their expert marksmanship and combat skills, they take on dangerous missions to catch criminals and bring them to justice. As they navigate the world of illegal arms dealers and high-octane car chases, Rally and Minnie May form an unlikely but formidable duo in the world of law enforcement.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 76%;"></span>
+                        </div>
+                        <p>76% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1732/96096l.jpg" alt="Cencoroll">
+                <div class="details">
+                    <a href="cencoroll.html"><h3>Cencoroll</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Cencoroll, a high school student named Tetsu encounters a mysterious shape-shifting creature named Cenco. As they develop a unique bond, they find themselves drawn into a series of unexpected events involving other creatures like Cenco. Tetsu must navigate these challenges while uncovering the truth behind Cenco's existence and the secrets of their town. Action-packed and full of unexpected twists, Cencoroll delves into the thrilling adventures of Tetsu and Cenco as they face unknown dangers together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 99%;"></span>
+                        </div>
+                        <p>99% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1834/92929l.webp" alt="Robot Carnival">
+                <div class="details">
+                    <a href="robot-carnival.html"><h3>Robot Carnival</h3></a>
+                    <p>Other Genre</p>
+                    <p>1987</p>
+                    <br>
+                    <p>Robot Carnival is a collection of short anime films with varying styles and themes, all centered around robots. Each story explores different aspects of technology and its impact on society, showcasing unique and imaginative narratives through the lens of robotics. From heartwarming tales to action-packed adventures, Robot Carnival offers a diverse and visually stunning portrayal of the relationship between humans and machines.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

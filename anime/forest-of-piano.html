@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Forest of Piano</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "36652";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1501/91916l.webp" alt="Forest of Piano">
+                <div>
+                    <h2 id="title">Forest of Piano</h2>
+                    <p>Drama</p>
+                    <p>2018</p>
+                    <br><br>
+                    <p>Forest of Piano follows the captivating story of two young piano prodigies from different backgrounds who form an unlikely friendship through their shared love of music. As they navigate the world of competitive music and face personal challenges, they find inspiration and growth in each other's talents. With the grand piano as their common ground, the two protagonists strive to reach new heights in their musical journey amidst fierce rivalry and unforeseen obstacles.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/64897l.jpg" alt="Inari Kon Kon">
+                <div class="details">
+                    <a href="inari-kon-kon.html"><h3>Inari Kon Kon</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Inari Kon Kon, a young girl named Inari saves a fox spirit from danger and is granted the ability to transform into anyone she wants. With her newfound power, Inari navigates her daily life, learning valuable lessons about friendship and self-acceptance along the way. As she tries to balance her ordinary life with extraordinary abilities, Inari must also come to terms with her own desires and insecurities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1311/120270l.jpg" alt="Heroines Run the Show: The Unpopular Girl and the Secret Task">
+                <div class="details">
+                    <a href="heroines-run-the-show%3A-the-unpopular-girl-and-the-secret-task.html"><h3>Heroines Run the Show: The Unpopular Girl and the Secret Task</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where magical girls reign supreme, an unnoticed high school girl is recruited to join their ranks. With a unique power she must keep hidden, she trains to fight dark forces threatening their city. As she struggles to balance her ordinary life with her newfound responsibilities, she discovers the true power of friendship and courage. Her journey will test her resolve, but she is determined to prove that even the most unassuming individual can become a hero.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1109/130452l.jpg" alt="Why Raeliana Ended up at the Duke's Mansion">
+                <div class="details">
+                    <a href="why-raeliana-ended-up-at-the-duke%27s-mansion.html"><h3>Why Raeliana Ended up at the Duke's Mansion</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After a car accident, Raeliana wakes up in the body of a character from her favorite romance novel. She realizes she is now the villainess and must carefully navigate the plot to avoid her tragic fate. When she is summoned to the Duke's mansion, she must use her knowledge of the original story to survive in this new world of political intrigue and romance. Will she be able to change her destiny and find her own happy ending?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1799/137123l.webp" alt="Ron Kamonohashi's Forbidden Deductions">
+                <div class="details">
+                    <a href="ron-kamonohashi%27s-forbidden-deductions.html"><h3>Ron Kamonohashi's Forbidden Deductions</h3></a>
+                    <p>Mystery</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In this mystery anime, Ron Kamonohashi, a brilliant detective with a hidden past, is tasked with solving various enigmatic cases that are shrouded in secrecy. Using his exceptional deductive skills, Ron delves deep into the mysteries surrounding each case, unraveling the truth behind them one deduction at a time. As he uncovers the hidden motives and dark secrets of those involved, Ron must navigate through intricate webs of deceit and betrayal to bring justice to the truth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/63361l.jpg" alt="Baby Steps">
+                <div class="details">
+                    <a href="baby-steps.html"><h3>Baby Steps</h3></a>
+                    <p>Sports</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Eiichirou Maruo, a studious and introverted high school student, decides to pick up tennis to get some exercise. With dedication and hard work, he trains rigorously to improve his skills and compete in tournaments. Along the way, he encounters talented rivals, forms new friendships, and navigates the challenges of balancing sports with academics. Eiichirou's journey in the world of tennis pushes him out of his comfort zone and helps him discover his passion for the sport.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/87177l.jpg" alt="Hozuki's Coolheadedness">
+                <div class="details">
+                    <a href="hozuki%27s-coolheadedness.html"><h3>Hozuki's Coolheadedness</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Hozuki's Coolheadedness follows Hozuki, the brilliant and stoic chief deputy to the Great King Enma in the Japanese Hell. Juggling the demands of his job, solving various problems, and dealing with eccentric colleagues such as demons and animal spirits, Hozuki navigates the supernatural realm with a calm demeanor and sharp wit. With a blend of dark humor and mythological elements, the series offers a unique glimpse into the underworld and Hozuki's daily adventures.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1397/133339l.jpg" alt="Sacrificial Princess and the King of Beasts">
+                <div class="details">
+                    <a href="sacrificial-princess-and-the-king-of-beasts.html"><h3>Sacrificial Princess and the King of Beasts</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where humans and beasts coexist, a princess is chosen to be sacrificed to the King of Beasts to ensure peace between the two races. However, rather than meeting a savage beast, she encounters a kind and gentle king. As they spend more time together, they begin to understand each other's worlds and strive to bridge the gap between their species. Will their growing bond be enough to overcome the prejudices of their people?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1251/99191l.jpg" alt="My Roommate is a Cat">
+                <div class="details">
+                    <a href="my-roommate-is-a-cat.html"><h3>My Roommate is a Cat</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>My Roommate is a Cat follows the story of a socially awkward mystery novelist who unexpectedly adopts a stray cat. Through this unlikely companionship, both the writer and the feline learn to navigate the ups and downs of life, finding solace and understanding in each other's company. As they gradually open up to one another, they discover the healing power of friendship and companionship in overcoming their respective past traumas.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1360/93571l.jpg" alt="Tsurune: Kazemai High School Kyudo Club">
+                <div class="details">
+                    <a href="tsurune%3A-kazemai-high-school-kyudo-club.html"><h3>Tsurune: Kazemai High School Kyudo Club</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Kazemai High School's Kyudo Club, once a powerhouse, is struggling to regain its former glory. Minato Narumiya, a former archery prodigy who lost his passion for the sport, joins the club alongside his childhood friends. Together, they work to overcome their individual struggles and aim for success in the upcoming tournament. Through dedication, friendship, and self-discovery, the members of the Kyudo Club learn valuable lessons both on and off the archery range.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1054/121949l.jpg" alt="Deaimon: Recipe for Happiness">
+                <div class="details">
+                    <a href="deaimon%3A-recipe-for-happiness.html"><h3>Deaimon: Recipe for Happiness</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Deaimon: Recipe for Happiness, Sachi, a talented chef, rediscovers her passion for cooking after facing setbacks in her career. Through her determination and the support of her friends and family, she embarks on a journey to fulfill her dream of opening her own restaurant. Along the way, Sachi learns valuable lessons about perseverance, friendship, and the true meaning of happiness. Join her as she navigates the challenges of the culinary world and strives to create dishes that bring joy to others.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/73280l.jpg" alt="Jormungand">
+                <div class="details">
+                    <a href="jormungand.html"><h3>Jormungand</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Jormungand follows arms dealer Koko Hekmatyar and her team of bodyguards as they navigate the dangerous world of international weapons trafficking. Jonah, a child soldier seeking revenge, joins the group and must come to terms with their morally grey operations. As they travel the globe, they encounter rival arms dealers, military organizations, and various conflicts, forcing them to confront the consequences of their actions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1456/94897l.jpg" alt="Sirius the Jaeger">
+                <div class="details">
+                    <a href="sirius-the-jaeger.html"><h3>Sirius the Jaeger</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Sirius the Jaeger, a group of vampire hunters called Jaegers is on a mission to hunt down vampires that have infiltrated Tokyo. Yuliy, a young werewolf and one of the last surviving members of the Sirius werewolf tribe, joins forces with the Jaegers to seek revenge against the vampires responsible for the destruction of his home. As the intense battle between the Jaegers and vampires escalates, dark secrets and ancient prophecies are revealed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1947/114235l.webp" alt="The Saint's Magic Power is Omnipotent">
+                <div class="details">
+                    <a href="the-saint%27s-magic-power-is-omnipotent.html"><h3>The Saint's Magic Power is Omnipotent</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After being summoned to a parallel world as the Saint who will save the kingdom, office worker Sei Takanashi finds herself overshadowed by another girl. Embracing a quieter life, Sei discovers her true calling lies in potion-making. As she settles into her new role, she unknowingly starts a ripple effect that will change the kingdom's fate. With her growing magic powers and gentle demeanor, Sei begins to carve her own path in this enchanting fantasy world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1140/120215l.jpg" alt="Salaryman's Club">
+                <div class="details">
+                    <a href="salaryman%27s-club.html"><h3>Salaryman's Club</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Salaryman's Club follows a group of office workers who form an after-hours club to destress and bond over their hectic work lives. As they navigate the challenges of the corporate world, they find solace in the support and camaraderie of their fellow club members. Together, they learn valuable lessons about friendship, teamwork, and the importance of work-life balance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1932/114952l.jpg" alt="The Aquatope on White Sand">
+                <div class="details">
+                    <a href="the-aquatope-on-white-sand.html"><h3>The Aquatope on White Sand</h3></a>
+                    <p>Drama</p>
+                    <p>2021</p>
+                    <br>
+                    <p>The Aquatope on White Sand follows the story of a disillusioned young woman who stumbles upon an aquarium in a small seaside town. She befriends a former idol who is now working at the struggling aquarium, and together they work towards revitalizing the business. As they face challenges and forge new connections with the marine life, both women find inspiration and healing in the depths of the ocean.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1008/140287l.jpg" alt="The Unwanted Undead Adventurer">
+                <div class="details">
+                    <a href="the-unwanted-undead-adventurer.html"><h3>The Unwanted Undead Adventurer</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After mysteriously dying, warrior Fukamori regains consciousness in a dark cave. Realizing he's become an undead, he struggles to cope with his new existence. Determined to uncover the truth behind his resurrection, Fukamori sets off on a journey filled with danger and surprises. With his new companion, a healer named Alice, by his side, Fukamori faces otherworldly creatures and challenges, all while trying to make sense of his undead status.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/53257l.jpg" alt="Knights of Sidonia">
+                <div class="details">
+                    <a href="knights-of-sidonia.html"><h3>Knights of Sidonia</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In the distant future, humanity is on the brink of extinction after an alien race called the Gauna destroyed Earth. The few survivors now live on a massive spaceship called Sidonia. As the Gauna return, a young pilot named Nagate Tanikaze emerges as a key player in the fight to protect what remains of humanity. With the help of his friends and advanced mechs, they must battle against the powerful alien threat to ensure the survival of their species.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1454/122063l.jpg" alt="The Yakuza's Guide to Babysitting">
+                <div class="details">
+                    <a href="the-yakuza%27s-guide-to-babysitting.html"><h3>The Yakuza's Guide to Babysitting</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When a tough yakuza member suddenly becomes the guardian of a young child, he is completely out of his element. Forced to navigate the world of diapers and nap times, he must protect the adorable child from the dangers of his criminal world. As he struggles to balance his tough-as-nails reputation with the responsibilities of childcare, he begins to discover a softer side of himself he never knew existed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/21624l.jpg" alt="The Prince of Tennis">
+                <div class="details">
+                    <a href="the-prince-of-tennis.html"><h3>The Prince of Tennis</h3></a>
+                    <p>Sports</p>
+                    <p>2001</p>
+                    <br>
+                    <p>The Prince of Tennis follows the story of Ryoma Echizen, a young tennis prodigy who joins the Seishun Academy tennis team. Despite his small stature, Ryoma possesses incredible skill and determination on the court as he navigates challenging matches and forms bonds with his teammates. With intense training and fierce competition, Ryoma aims to become one of the best tennis players in the country.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/86666l.jpg" alt="Restaurant to Another World">
+                <div class="details">
+                    <a href="restaurant-to-another-world.html"><h3>Restaurant to Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Restaurant to Another World follows the story of a seemingly ordinary restaurant in contemporary Tokyo that mysteriously opens its doors to a fantasy world every seven days. Various creatures and beings from different realms visit the restaurant to enjoy its delicious meals and find comfort in familiar dishes. As the series progresses, viewers learn more about the customers' backgrounds and the heartwarming connections they form with the restaurant staff.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1284/106945l.jpg" alt="Arte">
+                <div class="details">
+                    <a href="arte.html"><h3>Arte</h3></a>
+                    <p>Drama</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a time where women are expected to conform to societal norms, Arte, a young noblewoman in 16th century Florence, Italy, dreams of becoming an artist. Despite her family's disapproval, she apprentices under a skilled master to pursue her passion for art. Through dedication and perseverance, Arte navigates the challenges of a male-dominated field, forging her path as a professional artist. Will she prove that talent knows no gender boundaries in the Renaissance art world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1035/95056l.webp" alt="Kakuriyo: Bed and Breakfast for Spirits">
+                <div class="details">
+                    <a href="kakuriyo%3A-bed-and-breakfast-for-spirits.html"><h3>Kakuriyo: Bed and Breakfast for Spirits</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After being whisked away to the spirit world, Aoi must repay her grandfather’s debt by working at a traditional inn for spirits. Determined to maintain her independence and return to the human realm, she navigates the challenges of her new environment while forging unexpected connections with the supernatural beings around her. As Aoi delves deeper into the inn's mysteries, she discovers her own hidden powers and must confront powerful adversaries to protect her loved ones.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1544/104540l.webp" alt="Smile Down the Runway">
+                <div class="details">
+                    <a href="smile-down-the-runway.html"><h3>Smile Down the Runway</h3></a>
+                    <p>Drama</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Chiyuki dreams of becoming a top model despite her short stature. On the other hand, Ikuto aspires to design haute couture and join his family's business, but lacks confidence. The two form an unlikely partnership to pursue their fashion dreams, supporting and inspiring each other along the way in this competitive industry. They face challenges and rivals as they strive to make a name for themselves in the world of fashion.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1120/124644l.jpg" alt="Parallel World Pharmacy">
+                <div class="details">
+                    <a href="parallel-world-pharmacy.html"><h3>Parallel World Pharmacy</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Reiji Kirio is a young pharmacist who mysteriously gets summoned to a fantasy world where magic and alchemy exist. Using his knowledge of modern pharmacology, Reiji decides to open up his own pharmacy in this new world. As he crafts unique potions and remedies, Reiji finds himself caught up in various adventures and encounters with mystical creatures. Will his pharmaceutical expertise be enough to navigate this unfamiliar and dangerous realm?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1901/139910l.jpg" alt="Tearmoon Empire">
+                <div class="details">
+                    <a href="tearmoon-empire.html"><h3>Tearmoon Empire</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In the Tearmoon Empire, a spoiled noblewoman is suddenly reincarnated as the villainess in her favorite otome game. Determined to avoid her character's tragic fate, she must navigate political intrigue, mend relationships with the game's characters, and secure her happy ending. With her sharp wit and charm, she sets out to rewrite her destiny and become the beloved queen of the empire.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/75631l.jpg" alt="Nura: Rise of the Yokai Clan">
+                <div class="details">
+                    <a href="nura%3A-rise-of-the-yokai-clan.html"><h3>Nura: Rise of the Yokai Clan</h3></a>
+                    <p>Action</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Rikuo Nura, a middle school student, is part human and part yokai (demon). As the heir to the Nura Clan, he must come to terms with his dual nature and lead the yokai community. With escalating conflicts between yokai and humans, Rikuo must navigate his duties while protecting his loved ones from danger. Balancing his human and yokai sides, Rikuo must decide what kind of leader he wants to become.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 75%;"></span>
+                        </div>
+                        <p>75% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1841/111554l.jpg" alt="Those Snow White Notes">
+                <div class="details">
+                    <a href="those-snow-white-notes.html"><h3>Those Snow White Notes</h3></a>
+                    <p>Drama</p>
+                    <p>2021</p>
+                    <br>
+                    <p>A talented shamisen player named Setsu Sawamura struggles to find his own sound after the death of his grandfather, a renowned master of the instrument. With his music overshadowed by his grandfather's legacy, Setsu embarks on a journey of self-discovery, hoping to find his own unique voice and passion for playing the shamisen. Through encounters with other musicians and experiences in the competitive world of traditional Japanese music, Setsu seeks to create music that truly reflects his emotions and soul.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 76%;"></span>
+                        </div>
+                        <p>76% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/74945l.jpg" alt="Ushio & Tora (2015)">
+                <div class="details">
+                    <a href="ushio-%26-tora-%282015%29.html"><h3>Ushio & Tora (2015)</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When a young boy named Ushio stumbles upon a basement filled with ancient weapons, he unknowingly frees a powerful demon named Tora. Forced to team up to battle malevolent spirits known as Youkai, they form an unlikely bond. As they navigate a dangerous world filled with supernatural threats, they must learn to trust each other and work together to protect humanity from impending doom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 76%;"></span>
+                        </div>
+                        <p>76% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/82343l.jpg" alt="Poco's Udon World">
+                <div class="details">
+                    <a href="poco%27s-udon-world.html"><h3>Poco's Udon World</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the death of his father, Souta returns to his hometown to close the family udon shop. When he discovers a mysterious boy named Poco with supernatural abilities hiding in the shop, Souta decides to take care of him. As Souta juggles between managing the shop and unraveling Poco's secrets, he learns valuable life lessons and the true importance of family bonds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <p>80% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1974/95289l.webp" alt="Hinomaru Sumo">
+                <div class="details">
+                    <a href="hinomaru-sumo.html"><h3>Hinomaru Sumo</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Hinomaru Sumo follows Hinomaru Ushio, a small-statured high school student with a big dream of becoming a professional sumo wrestler. Despite his size, Hinomaru's determination, strength, and unwavering spirit inspire those around him as he faces off against rival wrestlers in fierce competitions. With the support of his teammates from Oodachi High School's sumo club, Hinomaru confronts various challenges in his quest to reach the pinnacle of the traditional Japanese sport.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

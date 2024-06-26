@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Oruchuban Ebichu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "1060";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/4/79591l.jpg" alt="Oruchuban Ebichu">
+                <div>
+                    <h2 id="title">Oruchuban Ebichu</h2>
+                    <p>Comedy</p>
+                    <p>1999</p>
+                    <br><br>
+                    <p>Oruchuban Ebichu follows the misadventures of a talking hamster named Ebichu who tries her best to keep her owner's household in order, despite her clumsy nature. From dealing with relationship problems to tackling household chores, Ebichu finds herself in various comedic situations as she navigates through the daily lives of her owner and his girlfriend. Will Ebichu's well-intentioned actions lead to chaos or bring happiness to those around her?</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 18%;"></span>
+                        </div>
+                        <p>18% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1566/129181l.webp" alt="Aggretsuko (ONA)">
+                <div class="details">
+                    <a href="aggretsuko-%28ona%29.html"><h3>Aggretsuko (ONA)</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Meet Retsuko, a mild-mannered red panda who navigates the struggles of office life. To cope with her demanding boss and gossipy coworkers, she unleashes her frustrations through death metal karaoke. Follow Retsuko as she balances work, friendship, and romance while discovering her own strength and independence in this charming comedy series.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 18%;"></span>
+                        </div>
+                        <p>18% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/85435l.webp" alt="Amagi Brilliant Park">
+                <div class="details">
+                    <a href="amagi-brilliant-park.html"><h3>Amagi Brilliant Park</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>When the amusement park, Amagi Brilliant Park, is on the verge of being shut down due to poor performance, Seiya Kanie, a high school student, is tasked with reviving it. Despite his initial reluctance, Seiya soon discovers that the park's staff are actually magical creatures from a different realm who need the park's success to survive. With his business acumen and the help of the quirky staff, Seiya works towards attracting more visitors to the park while unraveling its magical secrets.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 18%;"></span>
+                        </div>
+                        <p>18% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/53235l.jpg" alt="My Mental Choices Are Completely Interfering With My School Romantic Comedy">
+                <div class="details">
+                    <a href="my-mental-choices-are-completely-interfering-with-my-school-romantic-comedy.html"><h3>My Mental Choices Are Completely Interfering With My School Romantic Comedy</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Kanade Amakusa's life takes a crazy turn when a strange choice system forces him to select absurd options at any given moment. As he navigates school life, an unexpected turn of events leads him to choose between joining the school's game development club or finding a romantic partner. With his choices dictating his fate, Kanade must overcome his embarrassing predicament while forming new relationships along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 18%;"></span>
+                        </div>
+                        <p>18% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/37799l.jpg" alt="Castle in the Sky">
+                <div class="details">
+                    <a href="castle-in-the-sky.html"><h3>Castle in the Sky</h3></a>
+                    <p>Romance</p>
+                    <p>1986</p>
+                    <br>
+                    <p>Castle in the Sky follows a young girl named Sheeta who possesses a mysterious crystal necklace that pirates and the government seek to control. She teams up with a boy named Pazu to unravel the secret of a legendary floating castle that could hold the key to her identity. Together, they navigate through various obstacles and encounters to uncover the truth behind the castle's ancient technology and the forces determined to exploit it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 20%;"></span>
+                        </div>
+                        <p>20% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/32873l.webp" alt="Haganai: I don't have many friends">
+                <div class="details">
+                    <a href="haganai%3A-i-don%27t-have-many-friends.html"><h3>Haganai: I don't have many friends</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Kodaka Hasegawa is a high school student who struggles to make friends due to his intimidating looks. He meets the solitary and blunt Yozora Mikazuki, and together they decide to form the Neighbors Club to help each other make friends. Through various hijinks and interactions with other social misfits, the club members navigate the complexities of friendship, self-discovery, and the ups and downs of teenage life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 20%;"></span>
+                        </div>
+                        <p>20% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1715/103419l.jpg" alt="Cautious Hero: The Hero Is Overpowered but Overly Cautious">
+                <div class="details">
+                    <a href="cautious-hero%3A-the-hero-is-overpowered-but-overly-cautious.html"><h3>Cautious Hero: The Hero Is Overpowered but Overly Cautious</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>The goddess Ristarte summons Seiya Ryuuguuin to save a world threatened by the Demon Lord. Seiya proves to be incredibly powerful, but his cautious nature leads him to overprepare for every situation. Frustrated by his excessive caution, Ristarte must balance Seiya's meticulousness with the urgency of their quest to defeat the Demon Lord.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 20%;"></span>
+                        </div>
+                        <p>20% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/47677l.webp" alt="Blood Lad">
+                <div class="details">
+                    <a href="blood-lad.html"><h3>Blood Lad</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Blood Lad follows Staz, a powerful vampire and leader of the Eastern District of Demon World. His world turns upside down when a human girl named Fuyumi accidentally wanders into Demon World and dies. Determined to bring her back to life, Staz embarks on a comedic and action-packed adventure, with help from his friends, to find a way to resurrect Fuyumi. Along the way, they face various challenges and encounter other supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 21%;"></span>
+                        </div>
+                        <p>21% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/15033l.jpg" alt="Eden of The East">
+                <div class="details">
+                    <a href="eden-of-the-east.html"><h3>Eden of The East</h3></a>
+                    <p>Mystery</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Eden of The East, a young woman named Saki encounters a mysterious man with no memories and only a gun and a cell phone. Together, they unravel a conspiracy involving a deadly game that could change the future of Japan. As they work to uncover the truth, they become entangled in a complex web of politics and high stakes, where the lines between right and wrong blur.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 23%;"></span>
+                        </div>
+                        <p>23% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/39779l.jpg" alt="My Little Monster">
+                <div class="details">
+                    <a href="my-little-monster.html"><h3>My Little Monster</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Shizuku, a serious and dedicated student, crosses paths with Haru, a troublemaking and impulsive classmate. Their unexpected encounter ignites a unique friendship that takes them on a rollercoaster ride of emotions and self-discovery. As they navigate the complexities of relationships and growing up, Shizuku and Haru learn valuable lessons about love, friendship, and the importance of understanding and accepting oneself and others.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 23%;"></span>
+                        </div>
+                        <p>23% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/50389l.webp" alt="Baka & Test - Summon the Beasts">
+                <div class="details">
+                    <a href="baka-%26-test---summon-the-beasts.html"><h3>Baka & Test - Summon the Beasts</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>At Fumizuki Academy, students can summon avatars to battle each other based on their test scores. A low-scoring student named Akihisa Yoshii finds himself among the lower ranks, constantly clashing with his rival, the top student. With the help of his classmates, Akihisa aims to overthrow the higher-ranked students and bring his class to the top. However, comedic chaos ensues as their unique abilities and personalities collide in unexpected ways.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 23%;"></span>
+                        </div>
+                        <p>23% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/80271l.webp" alt="Drifters">
+                <div class="details">
+                    <a href="drifters.html"><h3>Drifters</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After being transported to a fantasy world, historical warriors known as Drifters must band together to fight against an evil group known as the Ends. With their unique skills and abilities, the Drifters form alliances with other fantastical beings in order to protect the innocent and ultimately bring an end to the chaos engulfing the land. As they navigate through battles and political intrigues, the Drifters face tough decisions that will determine the fate of this new world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/51581l.webp" alt="Non Non Biyori">
+                <div class="details">
+                    <a href="non-non-biyori.html"><h3>Non Non Biyori</h3></a>
+                    <p>Other Genre</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Non Non Biyori follows the daily lives of four schoolgirls living in the small rural village of Asahigaoka. The series showcases their simple yet charming adventures as they navigate through the challenges and joys of countryside living. From attending school with only five students to exploring the beauty of nature that surrounds them, the girls create precious memories and form strong bonds with each other in this heartwarming slice-of-life anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1649/93412l.jpg" alt="How Not to Summon a Demon Lord">
+                <div class="details">
+                    <a href="how-not-to-summon-a-demon-lord.html"><h3>How Not to Summon a Demon Lord</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In How Not to Summon a Demon Lord, a socially awkward gamer is transported into a virtual game world as his character, a powerful Demon Lord. With his vast knowledge of the game and newfound abilities, he must navigate this new world filled with magic and danger. Along the way, he forms unexpected friendships with two girls who also summoned him, as they embark on a quest to uncover the mysteries surrounding their summoning.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/77976l.webp" alt="Grimgar: Ashes and Illusions">
+                <div class="details">
+                    <a href="grimgar%3A-ashes-and-illusions.html"><h3>Grimgar: Ashes and Illusions</h3></a>
+                    <p>Isekai</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After waking up in a mysterious world with no memories, a group of strangers must band together to survive. Tasked with hunting monsters for a living, they face the harsh reality of their new surroundings and the fragile nature of life. As they struggle to adapt and find their place in this unfamiliar land, they must also deal with their own fears, insecurities, and the weight of their pasts.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1612/120636l.jpg" alt="Aharen-san wa Hakarenai">
+                <div class="details">
+                    <a href="aharen-san-wa-hakarenai.html"><h3>Aharen-san wa Hakarenai</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Aharen-san wa Hakarenai follows the adorable yet socially awkward high school student, Kojima, and his daily interactions with his classmate, the mysterious and eccentric Aharen. Despite Aharen's odd behavior, Kojima finds himself drawn to her unique personality as they navigate through hilarious misunderstandings and heartwarming moments together. With Aharen always managing to surprise Kojima at every turn, their budding friendship leads to unexpected and heartwarming adventures in their school life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/75106l.webp" alt="SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn't Exist">
+                <div class="details">
+                    <a href="shimoneta%3A-a-boring-world-where-the-concept-of-dirty-jokes-doesn%27t-exist.html"><h3>SHIMONETA: A Boring World Where the Concept of Dirty Jokes Doesn't Exist</h3></a>
+                    <p>Comedy</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a society where all lewd and inappropriate behavior is strictly monitored and censored, a high school student named Tanukichi Okuma finds himself embroiled in the antics of a notorious perverted terrorist known as Blue Snow. Tasked with bringing down Blue Snow, Tanukichi navigates a world devoid of dirty jokes and struggles to uphold his moral values while getting involved in hilarious and provocative situations.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 28%;"></span>
+                        </div>
+                        <p>28% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/76583l.jpg" alt="Plastic Neesan">
+                <div class="details">
+                    <a href="plastic-neesan.html"><h3>Plastic Neesan</h3></a>
+                    <p>Comedy</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Plastic Neesan follows the daily antics of a group of high school girls in their plastic model club. The series showcases the girls' passion for building and collecting model kits while dealing with their quirky personalities and comedic misadventures. With each episode focusing on a different model project, viewers are taken on a light-hearted journey filled with laughter and friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 28%;"></span>
+                        </div>
+                        <p>28% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1819/97947l.jpg" alt="The Quintessential Quintuplets">
+                <div class="details">
+                    <a href="the-quintessential-quintuplets.html"><h3>The Quintessential Quintuplets</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Futaro Uesugi, a high school student low on luck and money, is hired to tutor the wealthy and academically challenged Nakano quintuplets. Despite their varying personalities and disinterest in studying, Futaro is determined to help them succeed. As he navigates the challenges of teaching the quintuplets, he uncovers their family secrets and realizes there is more to them than meets the eye. Along the way, bonds are formed, and unexpected feelings develop.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <p>30% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1069/123309l.webp" alt="That Time I Got Reincarnated as a Slime">
+                <div class="details">
+                    <a href="that-time-i-got-reincarnated-as-a-slime.html"><h3>That Time I Got Reincarnated as a Slime</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After dying in a brutal stabbing incident, Satoru Mikami is reincarnated in a fantasy world as a slime with unique abilities. Taking on the name Rimuru Tempest, he sets out on an adventure to make friends, allies, and create a peaceful community where all races can coexist. With his newfound powers and wisdom, Rimuru embarks on a journey to explore the new world and foster relationships with both humans and monsters.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 31%;"></span>
+                        </div>
+                        <p>31% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1277/117155l.jpg" alt="Mieruko-chan">
+                <div class="details">
+                    <a href="mieruko-chan.html"><h3>Mieruko-chan</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After gaining the ability to see horrifying supernatural creatures, high school girl Miko is determined to ignore them to live a normal life. However, she soon realizes that pretending they aren't there may not be as easy as she thought. With the help of her friend Hana, Miko navigates the terrifying world around her while trying to keep her unique gift a secret from everyone else.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 33%;"></span>
+                        </div>
+                        <p>33% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/39665l.jpg" alt="Kokoro Connect">
+                <div class="details">
+                    <a href="kokoro-connect.html"><h3>Kokoro Connect</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Five high school students start experiencing strange phenomena that cause them to swap bodies with each other. As they try to navigate their new reality, they uncover hidden truths about each other and themselves. With their bonds tested and emotions running high, the group must learn to work together to overcome the challenges they face and ultimately discover the source of these mysterious events.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/88286l.webp" alt="BLEND-S">
+                <div class="details">
+                    <a href="blend-s.html"><h3>BLEND-S</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Maika Sakuranomiya is a high school student with a sadistic look in her eyes that often scares others away. Desperate to find a part-time job, she lands a position at Café Stile, a unique café where the waitresses play specific character roles. Despite her intimidating appearance, Maika is assigned the role of a sweet and submissive waitress, leading to amusing and chaotic interactions with her eccentric coworkers as they navigate the ups and downs of working in the service industry.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1009/103187l.jpg" alt="Welcome to Demon School! Iruma-kun">
+                <div class="details">
+                    <a href="welcome-to-demon-school%21-iruma-kun.html"><h3>Welcome to Demon School! Iruma-kun</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Iruma Suzuki, a kind-hearted and overworked teenage boy, finds himself sold to a demon by his irresponsible parents. To his surprise, the demon he is sent to live with, Sullivan, is caring and enrolls him in the demon school. Trying to keep his human identity a secret, Iruma navigates the challenges of demon school life while making friends and unintentionally becoming popular. Follow his hilarious and heartwarming adventures as he discovers his place in the demon world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/83417l.jpg" alt="Interviews With Monster Girls">
+                <div class="details">
+                    <a href="interviews-with-monster-girls.html"><h3>Interviews With Monster Girls</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Interviews With Monster Girls follows high school teacher Tetsuo Takahashi as he researches demi-humans - individuals with supernatural traits like vampires and succubi. Through interviews with his students who are demi-humans, Tetsuo aims to understand their daily struggles and experiences. As he digs deeper into their lives, he forges meaningful connections with these special girls and learns valuable lessons about acceptance and empathy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/75287l.jpg" alt="I Can't Understand What My Husband Is Saying">
+                <div class="details">
+                    <a href="i-can%27t-understand-what-my-husband-is-saying.html"><h3>I Can't Understand What My Husband Is Saying</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Kaoru is a typical office worker married to Hajime, a hardcore otaku. Despite their differences, they navigate their contrasting lifestyles with love and humor, trying to understand each other's quirks and find common ground. From attending anime conventions to dealing with family gatherings, their daily lives are filled with laughter, challenges, and the realization that love can transcend even the most unexpected differences.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1048/128385l.webp" alt="Kakushigoto">
+                <div class="details">
+                    <a href="kakushigoto.html"><h3>Kakushigoto</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Kakushi Goto is a heartwarming slice-of-life anime following the secret life of a famous manga artist and his young daughter, Hime. Despite his success, Kakushi works hard to keep his job hidden from Hime to protect her innocence. As he navigates the challenges of fatherhood and the pressures of his profession, Kakushi must juggle his double life while cherishing the precious moments he shares with his beloved daughter.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/75249l.jpg" alt="Engaged to the Unidentified">
+                <div class="details">
+                    <a href="engaged-to-the-unidentified.html"><h3>Engaged to the Unidentified</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Engaged to the Unidentified follows the story of Kobeni, who finds out on her 16th birthday that she is engaged to a boy named Hakuya. However, things take an unexpected turn when Hakuya and his little sister Mashiro move in with Kobeni and her family. As Kobeni navigates her new relationship and living arrangements, she uncovers surprising secrets about Hakuya and Mashiro's past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/60781l.webp" alt="Cardcaptor Sakura">
+                <div class="details">
+                    <a href="cardcaptor-sakura.html"><h3>Cardcaptor Sakura</h3></a>
+                    <p>Drama</p>
+                    <p>1998</p>
+                    <br>
+                    <p>Cardcaptor Sakura follows Sakura Kinomoto, a young girl who accidentally releases a set of magical cards. Tasked with recapturing the cards, Sakura enlists the help of her best friend, Tomoyo, and a magical guardian named Kero. As Sakura captures each card, she must face various challenges and enemies while uncovering the mysteries behind the cards and her own powers. Together, they embark on a whimsical and enchanting adventure to protect the world from the chaos caused by the cards.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1483/107061l.webp" alt="My Next Life as a Villainess: All Routes Lead to Doom!">
+                <div class="details">
+                    <a href="my-next-life-as-a-villainess%3A-all-routes-lead-to-doom%21.html"><h3>My Next Life as a Villainess: All Routes Lead to Doom!</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>After hitting her head, high schooler Katarina Claes remembers her past life as a Japanese otaku. She realizes she's been reincarnated into an otome game she used to play as the villainess. Desperate to avoid her doom ending, she navigates the game's world and tries to change her fate, inadvertently winning the hearts of all the male leads. Will her efforts lead her to a happy ending, or is her destiny set in stone?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 48%;"></span>
+                        </div>
+                        <p>48% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1449/142053l.jpg" alt="Blood Blockade Battlefront">
+                <div class="details">
+                    <a href="blood-blockade-battlefront.html"><h3>Blood Blockade Battlefront</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In the chaotic city of Hellsalem's Lot, where humans and supernatural beings coexist, young photographer Leonardo Watch gains the All-Seeing Eyes of the Gods and joins an organization called Libra. Together, they maintain peace and order by battling threats from otherworldly creatures and maintaining the balance between dimensions. As Leonardo navigates this new world and uncovers dark secrets, he must use his newfound powers to protect his friends and the city from impending danger.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

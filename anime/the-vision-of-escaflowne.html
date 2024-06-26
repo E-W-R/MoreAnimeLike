@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like The Vision of Escaflowne</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "182";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/5/30689l.webp" alt="The Vision of Escaflowne">
+                <div>
+                    <h2 id="title">The Vision of Escaflowne</h2>
+                    <p>Isekai</p>
+                    <p>1996</p>
+                    <br><br>
+                    <p>The Vision of Escaflowne follows Hitomi Kanzaki, a high school girl who is transported to the mystical world of Gaea. There, she becomes entwined in the struggles between the peaceful country of Fanelia and the militaristic Zaibach Empire. With the help of a young prince named Van, Hitomi discovers she has the power of precognition and must navigate political intrigue, romance, and epic battles to find her way home.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/75259l.jpg" alt="Full Metal Panic!">
+                <div class="details">
+                    <a href="full-metal-panic%21.html"><h3>Full Metal Panic!</h3></a>
+                    <p>Action</p>
+                    <p>2002</p>
+                    <br>
+                    <p>In Full Metal Panic!, Sousuke Sagara, a stoic military operative, is assigned to protect high school student Kaname Chidori, who possesses a mysterious power sought after by various organizations. Balancing his duties as a protector with the challenges of high school life, Sousuke must navigate secrecy and danger while forming relationships with his classmates. As the threats against Kaname escalate, he must use his combat skills to keep her safe at all costs.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/87463l.webp" alt="Recovery of an MMO Junkie">
+                <div class="details">
+                    <a href="recovery-of-an-mmo-junkie.html"><h3>Recovery of an MMO Junkie</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>30-year-old Moriko Morioka has quit her job to become a NEET and immerse herself in the world of online gaming. As the male character Hayashi, she meets a female character named Lily, forming a close friendship in the virtual world. Things get complicated when Moriko encounters a handsome and friendly man in real life who may have a connection to Lily. Balancing her virtual and real identities becomes a challenge as Moriko navigates the complexities of relationships both on and offline.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/73908l.webp" alt="Ghost Hunt">
+                <div class="details">
+                    <a href="ghost-hunt.html"><h3>Ghost Hunt</h3></a>
+                    <p>Mystery</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Ghost Hunt follows high school student Mai Taniyama as she becomes involved with a paranormal research team led by the enigmatic Kazuya Shibuya. Together, they investigate various ghostly occurrences, from haunted schools to possessed dolls. As Mai's psychic abilities begin to manifest, she finds herself drawn deeper into the world of the supernatural, assisting the team in solving eerie mysteries and confronting malevolent spirits. With each case posing new dangers, Mai and her companions must navigate the unknown with courage and determination.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/75262l.webp" alt="Wagnaria!!">
+                <div class="details">
+                    <a href="wagnaria%21%21.html"><h3>Wagnaria!!</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Wagnaria!! follows the comedic daily lives of the quirky staff members working at the Wagnaria family restaurant. The story primarily focuses on the new hire, Sota, who finds himself surrounded by eccentric coworkers, leading to hilarious and chaotic situations in the workplace. As they navigate through their unique personalities and relationships, they learn about teamwork, friendship, and personal growth in this heartwarming comedy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/19870l.webp" alt="Slayers">
+                <div class="details">
+                    <a href="slayers.html"><h3>Slayers</h3></a>
+                    <p>Action</p>
+                    <p>1995</p>
+                    <br>
+                    <p>In a medieval world, the fiery red-headed sorceress Lina Inverse travels with swordsman Gourry Gabriev as they embark on adventures filled with magic, monsters, and comedic mishaps. Along the way, they encounter new friends and foes while seeking out powerful magical artifacts. As they navigate through various challenges and battles, Lina's immense magical abilities and Gourry's skilled swordsmanship are put to the test in their quest for treasure and glory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/43361l.jpg" alt="The World God Only Knows">
+                <div class="details">
+                    <a href="the-world-god-only-knows.html"><h3>The World God Only Knows</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Keima Katsuragi is known as the God of Conquest in the gaming world for his ability to conquer dating sim games. However, his skills are put to the test when he is tasked by a demon to capture lost souls disguised as spirits within real girls by making them fall in love with him. Keima must now use his virtual dating expertise in the real world to save these girls from their fate.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1743/125204l.jpg" alt="Uncle from Another World">
+                <div class="details">
+                    <a href="uncle-from-another-world.html"><h3>Uncle from Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When a young man named Hiro loses his job and feels directionless in life, he receives an unexpected inheritance from his late uncle: a mysterious amulet. To his surprise, the amulet transports him to a parallel fantasy world where his uncle is a legendary hero. As Hiro navigates this new world and learns about his uncle's past, he must decide whether to embrace his newfound destiny or find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/74786l.webp" alt="Patlabor: The Movie">
+                <div class="details">
+                    <a href="patlabor%3A-the-movie.html"><h3>Patlabor: The Movie</h3></a>
+                    <p>Action</p>
+                    <p>1989</p>
+                    <br>
+                    <p>After a series of mysterious malfunctions involving Labor robots, a special unit of the police force is tasked with investigating the incidents. As they dig deeper, they uncover a complex web of corruption and conspiracy that threatens to plunge the city into chaos. As they race against time to stop the perpetrators, they must also confront their own beliefs and values in the face of overwhelming odds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1402/134007l.jpg" alt="Insomniacs After School">
+                <div class="details">
+                    <a href="insomniacs-after-school.html"><h3>Insomniacs After School</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Insomniacs After School is a poignant anime about Ganta Nakami and Isaki Magari, two high school students who struggle with insomnia. They find solace in each other's company after discovering an abandoned observatory at school, where they spend sleepless nights together. As they bond over their shared struggles, their friendship deepens, helping them cope with their condition. The series beautifully explores themes of friendship, understanding, and the quiet moments that connect us.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1217/129604l.jpg" alt="Akiba Maid War">
+                <div class="details">
+                    <a href="akiba-maid-war.html"><h3>Akiba Maid War</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a futuristic city where advanced technology and virtual reality are the norm, the most popular entertainment is the virtual reality game Akiba Maid War. Players from all over the world compete as their customized characters to become the top maid cafe in Akiba district. As the competition heats up, relationships form, secrets are revealed, and the line between reality and the virtual world starts to blur for the players. Who will emerge victorious in this high-stakes battle of maid cafes?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/28848l.jpg" alt="Outlaw Star">
+                <div class="details">
+                    <a href="outlaw-star.html"><h3>Outlaw Star</h3></a>
+                    <p>Action</p>
+                    <p>1998</p>
+                    <br>
+                    <p>Outlaw Star follows Gene Starwind and his ragtag crew as they take on various jobs in space to make a living. When they come into possession of a mysterious girl and a spaceship with advanced technology, they find themselves embroiled in a dangerous adventure. Along the way, they encounter bounty hunters, pirates, and powerful organizations, all while searching for the legendary Galactic Leyline. With action-packed space battles and colorful characters, Gene and his crew must navigate the dangers of the galaxy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/13776l.jpg" alt="Tokyo Magnitude 8.0">
+                <div class="details">
+                    <a href="tokyo-magnitude-8.0.html"><h3>Tokyo Magnitude 8.0</h3></a>
+                    <p>Drama</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After a powerful earthquake hits Tokyo, siblings Mirai and Yuuki must navigate the devastated city to reach their family. They meet a woman named Mari who helps them on their journey, facing challenges and dangers along the way. As they encounter the true extent of the disaster and the kindness of strangers in the aftermath, Mirai and Yuuki's bond is tested in this emotional tale of survival and resilience.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/58383l.jpg" alt="My Bride is a Mermaid">
+                <div class="details">
+                    <a href="my-bride-is-a-mermaid.html"><h3>My Bride is a Mermaid</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Nagasumi Michishio's summer vacation takes an unexpected turn when he almost drowns and is saved by a beautiful mermaid named Sun Seto. The catch? According to mermaid law, to maintain their secret existence, Nagasumi must marry Sun or face the consequences. Now navigating high school and adjusting to his new life with a chaotic underwater family, Nagasumi must keep his marriage a secret while dealing with quirky and dangerous mermaid traditions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/74781l.webp" alt="Memories">
+                <div class="details">
+                    <a href="memories.html"><h3>Memories</h3></a>
+                    <p>Psychological</p>
+                    <p>1995</p>
+                    <br>
+                    <p>Memories is a collection of three standalone short films that each explore different aspects of humanity. The first film follows a man as he reminisces about his childhood. The second film takes place in a dystopian world where a deadly virus spreads. The final film follows a group of space travelers who encounter a mysterious phenomenon. Each story delves into themes of nostalgia, survival, and the unknown future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1936/129119l.jpg" alt="Run with the Wind">
+                <div class="details">
+                    <a href="run-with-the-wind.html"><h3>Run with the Wind</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Ten former college track stars come together to form a long-distance running team. Initially hesitant, they commit to training for the famed Hakone Ekiden marathon race. As they face personal struggles and lack of experience, their dedication grows. Through teamwork and perseverance, they learn the true meaning of running and friendship. With each step they take, they get closer to achieving their dream of crossing the finish line together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1401/118483l.jpg" alt="The Case Study of Vanitas">
+                <div class="details">
+                    <a href="the-case-study-of-vanitas.html"><h3>The Case Study of Vanitas</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where vampires and humans coexist, a young vampire named Noé is searching for a mysterious grimoire known as The Book of Vanitas that is said to bring chaos to the vampire society. With the help of a human doctor named Vanitas, who claims to be a vampire expert, they embark on a journey filled with dark secrets, supernatural creatures, and unexpected alliances. As they delve deeper into the truth behind the book, they unravel a conspiracy that threatens the balance between humans and vampires.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1464/108330l.jpg" alt="Moriarty the Patriot">
+                <div class="details">
+                    <a href="moriarty-the-patriot.html"><h3>Moriarty the Patriot</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In Moriarty the Patriot, a young William James Moriarty roams the streets of London, using his brilliant mind to orchestrate elaborate schemes to bring justice to those failed by the corrupt British government. With his loyal companions, he navigates through the aristocratic society, challenging the oppressive class system in place. As his reputation grows, Moriarty's schemes become increasingly intricate, leading him on a path towards uncovering dark truths and secrets hidden within society.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1119/118609l.webp" alt="Utawarerumono">
+                <div class="details">
+                    <a href="utawarerumono.html"><h3>Utawarerumono</h3></a>
+                    <p>Action</p>
+                    <p>2006</p>
+                    <br>
+                    <p>A man wakes up in a strange world with no memories and a mask fused to his face. He is taken in by a kind-hearted village girl and soon becomes entangled in a war between different nations. As he navigates this new world and uncovers secrets about his past, he must choose whether to fight for his new friends or seek his own truth. The man's mysterious origins and unique abilities make him a key player in the conflicts escalating around him.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/79531l.jpg" alt="Alderamin on the Sky">
+                <div class="details">
+                    <a href="alderamin-on-the-sky.html"><h3>Alderamin on the Sky</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>A lazy and cunning young man, Ikuta, despite his distaste for the military, finds himself caught up in a war-torn world. Through his strategic genius and the help of skilled companions, Ikuta rises in the ranks, eventually becoming a key player in shaping the outcome of the war. Amidst battles, political intrigue, and unexpected alliances, Ikuta navigates a dangerous and changing landscape to protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 48%;"></span>
+                        </div>
+                        <p>48% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/86666l.jpg" alt="Restaurant to Another World">
+                <div class="details">
+                    <a href="restaurant-to-another-world.html"><h3>Restaurant to Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Restaurant to Another World follows the story of a seemingly ordinary restaurant in contemporary Tokyo that mysteriously opens its doors to a fantasy world every seven days. Various creatures and beings from different realms visit the restaurant to enjoy its delicious meals and find comfort in familiar dishes. As the series progresses, viewers learn more about the customers' backgrounds and the heartwarming connections they form with the restaurant staff.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1644/92493l.jpg" alt="Record of Lodoss War">
+                <div class="details">
+                    <a href="record-of-lodoss-war.html"><h3>Record of Lodoss War</h3></a>
+                    <p>Action</p>
+                    <p>1990</p>
+                    <br>
+                    <p>In the aftermath of a great war, a young warrior named Parn sets out on a quest to uncover the truth behind the mysterious island of Lodoss. Along the way, he joins forces with a diverse group of adventurers as they face powerful foes and uncover ancient prophecies. As dark forces loom over the land, Parn and his companions must band together to protect Lodoss from impending doom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1518/138730l.jpg" alt="Skip and Loafer">
+                <div class="details">
+                    <a href="skip-and-loafer.html"><h3>Skip and Loafer</h3></a>
+                    <p>Drama</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Skip and Loafer follows the story of Mitsumi Iwakura, a small-town girl with big dreams of attending a prestigious high school in Tokyo. As she navigates the challenges of city life and high school, she meets Sousuke Shima, a laid-back and popular classmate. Despite their contrasting personalities, the two form an unlikely friendship, supporting each other through the ups and downs of teenage life. The series explores themes of ambition, friendship, and self-discovery, blending humor and heartfelt moments.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1424/113342l.jpg" alt="Shadows House">
+                <div class="details">
+                    <a href="shadows-house.html"><h3>Shadows House</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Shadows House, living dolls serve as the faces for the shadow aristocrats, who are beings made of soot and ash. A young living doll named Emilico begins serving Kate, a shadow aristocrat who seems to hide many secrets within the mysterious mansion they both reside in. As Emilico navigates her duties and uncovers the truth behind the shadows, she learns more about her own identity and the dark history of the Shadows Household.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/6441l.jpg" alt="Ranma ½">
+                <div class="details">
+                    <a href="ranma-%C2%BD.html"><h3>Ranma ½</h3></a>
+                    <p>Action</p>
+                    <p>1989</p>
+                    <br>
+                    <p>Ranma ½ follows the humorous adventures of Ranma Saotome, a skilled martial artist who has a peculiar curse. When splashed with cold water, he transforms into a girl and back into a boy when doused with hot water. With this secret, Ranma navigates various challenges, including rival martial artists, love interests, and his own chaotic family dynamics. As he faces these obstacles, Ranma must find a way to break the curse while honing his martial arts skills.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1952/116031l.webp" alt="Words Bubble Up Like Soda Pop">
+                <div class="details">
+                    <a href="words-bubble-up-like-soda-pop.html"><h3>Words Bubble Up Like Soda Pop</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Words Bubble Up Like Soda Pop, a shy boy who expresses himself through haiku poetry forms an unexpected connection with a popular and cheerful girl who loves all things fashion. The two meet at a shopping mall and develop a unique friendship as they navigate their personal struggles and insecurities. Through their shared love of music and words, they learn valuable lessons about communication, understanding, and the beauty of human connections.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1448/108514l.jpg" alt="Sleepy Princess in the Demon Castle">
+                <div class="details">
+                    <a href="sleepy-princess-in-the-demon-castle.html"><h3>Sleepy Princess in the Demon Castle</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>When the princess is kidnapped by demons, her main concern is getting a good night's sleep. Eager to create better conditions for herself, she goes on comedic escapades, causing chaos in the demon castle and engaging with its inhabitants. Each episode explores her bizarre methods to secure the perfect sleep environment, much to the dismay of the demons trying to keep her captive.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1757/116931l.webp" alt="Blue Period">
+                <div class="details">
+                    <a href="blue-period.html"><h3>Blue Period</h3></a>
+                    <p>Drama</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Blue Period follows Yatora Yaguchi, a high school student who feels lost and unsure about his future. After discovering a hidden talent for art, Yatora becomes obsessed with painting and decides to pursue a future in the competitive world of art. As he navigates the challenges of pursuing his passion, Yatora faces self-doubt, criticism, and competition from his peers. Will he find success and fulfillment in his artistic journey?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1805/132335l.jpg" alt="Handyman Saitou in Another World">
+                <div class="details">
+                    <a href="handyman-saitou-in-another-world.html"><h3>Handyman Saitou in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After a freak accident, repairman Saitou finds himself transported to a fantasy world where his skills with machines and tools are in high demand. Embracing his new role as a handyman, Saitou navigates through the challenges of this magical realm, using his expertise to help those in need while also learning about the unique customs and creatures that inhabit the world. Join Saitou on his journey as he fixes more than just broken objects in this captivating new world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/27361l.jpg" alt="Bubblegum Crisis">
+                <div class="details">
+                    <a href="bubblegum-crisis.html"><h3>Bubblegum Crisis</h3></a>
+                    <p>Action</p>
+                    <p>1987</p>
+                    <br>
+                    <p>In the futuristic city of Mega-Tokyo, a group of vigilante mercenaries known as the Knight Sabers fights against rogue robots called Boomers, who threaten the safety of the city. Led by the skilled fighter Sylia Stingray, the team battles against powerful corporations and criminal syndicates to protect the citizens from the technology gone awry. With high-tech suits and advanced weaponry, the Knight Sabers face intense battles and dangerous enemies in their mission to maintain peace and order in the city.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1690/97048l.webp" alt="Bokurano">
+                <div class="details">
+                    <a href="bokurano.html"><h3>Bokurano</h3></a>
+                    <p>Psychological</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In Bokurano, a group of fifteen children discover a mysterious underground facility and are tricked into piloting a giant robot to save Earth from destruction. As they face off against other robots in battles that become increasingly intense, the children must grapple with the moral dilemmas and personal sacrifices that come with their newfound responsibility. Each fight exposes more about the darkness lurking beneath the surface, leading to a gripping and emotional journey for the pilots.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

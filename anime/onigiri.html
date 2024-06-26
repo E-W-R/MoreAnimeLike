@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Onigiri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "32606";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1725/134446l.webp" alt="Onigiri">
+                <div>
+                    <h2 id="title">Onigiri</h2>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br><br>
+                    <p>Onigiri follows a group of young women with unique abilities who are known as the Oni clan. Together, they must protect their world from demonic creatures and supernatural threats. As they battle evil forces and uncover dark secrets, they forge strong bonds of friendship and face challenges that will test their powers and resilience. Join them on their action-packed journey as they fight to maintain peace and harmony in their land.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 16%;"></span>
+                        </div>
+                        <p>16% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/78858l.jpg" alt="Hundred">
+                <div class="details">
+                    <a href="hundred.html"><h3>Hundred</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world threatened by mysterious creatures called Savage, Earth's only defense lies in the Hundred, a weapon capable of transforming into various forms. Hayato Kisaragi, a new recruit at the prestigious Little Garden academy, must uncover the secrets behind the Savage while battling alongside his peers. As Hayato navigates intense training and complex relationships, he finds himself entangled in a web of political intrigue and power struggles that could determine the fate of humanity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 18%;"></span>
+                        </div>
+                        <p>18% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1267/103421l.jpg" alt="Assassins Pride">
+                <div class="details">
+                    <a href="assassins-pride.html"><h3>Assassins Pride</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where noble families wield magical powers, aspiring assassin, Melida, lacks the ability to manipulate mana. Teaming up with Kufa, a talented assassin, she seeks to prove her worth by mastering her skills and attending the prestigious academy. As secrets unravel and dark forces threaten the kingdom, Melida must navigate through political schemes and deadly challenges to unveil her true potential.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <p>30% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/79757l.jpg" alt="Big Order (TV)">
+                <div class="details">
+                    <a href="big-order-%28tv%29.html"><h3>Big Order (TV)</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where individuals possess unique powers known as Orders, a young man named Eiji Hoshimiya holds the power to make his orders a reality on a large scale. With the ability to potentially reshape the world as he sees fit, Eiji finds himself embroiled in a dangerous conflict involving other Order users as he struggles to uncover the truth behind a devastating incident from his past. As he navigates complex relationships and confronts formidable foes, Eiji must come to terms with the consequences of his power.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

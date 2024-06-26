@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Bakuon!!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "30795";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/3/78914l.webp" alt="Bakuon!!">
+                <div>
+                    <h2 id="title">Bakuon!!</h2>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br><br>
+                    <p>High school student Hane Sakura is passionate about motorcycles but doesn't know how to ride. After encountering fellow student Onsa Amano, who is part of the school's motorcycle club, Hane decides to learn how to ride and joins the club. Along with their classmates, they embark on motorcycle adventures, forming bonds and experiencing the thrill of the open road.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/43155l.jpg" alt="Busou Shinki: Armored War Goddess">
+                <div class="details">
+                    <a href="busou-shinki%3A-armored-war-goddess.html"><h3>Busou Shinki: Armored War Goddess</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In a futuristic world, advanced miniature androids called Busou Shinki are created to assist their human masters in daily tasks. However, these androids can also be equipped with powerful armor and weapons to engage in intense battles known as the Armor Wars. Follow the adventurous journey of a group of Busou Shinki as they navigate through thrilling battles and uncover the secrets of their origins.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/83933l.jpg" alt="Nyanko Days">
+                <div class="details">
+                    <a href="nyanko-days.html"><h3>Nyanko Days</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Nyanko Days follows the adorable and heartwarming daily life of Tomoko, a shy high school girl, and her three adorable pet cats who have their own colorful personalities. As they navigate everyday challenges and adventures, Tomoko learns valuable lessons about friendship, responsibility, and the joys of having loyal companions by her side. Each episode is a charming and light-hearted slice-of-life story that is sure to warm the hearts of viewers of all ages.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1724/121343l.jpg" alt="In the Heart of Kunoichi Tsubaki">
+                <div class="details">
+                    <a href="in-the-heart-of-kunoichi-tsubaki.html"><h3>In the Heart of Kunoichi Tsubaki</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In the heart of Kunoichi Tsubaki, follow the journey of Tsubaki, a young ninja-in-training who dreams of becoming a legendary kunoichi. As she navigates the challenges of mastering various ninja techniques and facing formidable foes, Tsubaki also discovers the importance of loyalty, friendship, and self-discovery. Alongside her comrades, she must confront her fears and insecurities to unlock her full potential and protect her village from imminent danger. Witness Tsubaki's growth and determination in this action-packed adventure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/61733l.jpg" alt="Atelier Escha & Logy: Alchemists of the Dusk Sky">
+                <div class="details">
+                    <a href="atelier-escha-%26-logy%3A-alchemists-of-the-dusk-sky.html"><h3>Atelier Escha & Logy: Alchemists of the Dusk Sky</h3></a>
+                    <p>Other Genre</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a world where alchemy controls the forces of nature, two young alchemists, Escha and Logy, are assigned to work together in a remote town. The pair must navigate their differing approaches to alchemy while tackling various assignments and unraveling the mysteries of the ancient ruins that dot the landscape. As they strive to improve the town's conditions, they forge new friendships and face challenges that test their skills and teamwork.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1300/111361l.webp" alt="ENDRO!">
+                <div class="details">
+                    <a href="endro%21.html"><h3>ENDRO!</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>ENDRO! follows a group of young girls training to become heroes at a school for adventurers. The girls face various challenges in their quest to defeat the Demon Lord and bring peace to their land. With a mix of magic and friendship, they embark on whimsical and comedic adventures while learning important lessons along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/86644l.jpg" alt="Clean Freak! Aoyama-kun">
+                <div class="details">
+                    <a href="clean-freak%21-aoyama-kun.html"><h3>Clean Freak! Aoyama-kun</h3></a>
+                    <p>Sports</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Soccer prodigy Aoyama is not just talented on the field but also known for his extreme cleanliness habits. Follow his endeavors as he navigates through the world of soccer, dealing with his obsessive-compulsive disorder while striving for victory. Aoyama's unique approach to the game sets him apart from his teammates, leading to amusing and inspiring situations both on and off the pitch.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/52529l.webp" alt="Fantasista Doll">
+                <div class="details">
+                    <a href="fantasista-doll.html"><h3>Fantasista Doll</h3></a>
+                    <p>Other Genre</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Fantasista Doll, the protagonist Uzume is introduced to a mysterious card game that involves summoning powerful girls known as Dolls to battle. As she delves deeper into the game, Uzume discovers a hidden world full of secrets and challenges. With the help of her Doll companions, she embarks on a journey to uncover the truth behind the game and its connection to her own destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1787/115817l.webp" alt="Drug Store in Another World: The Slow Life of a Cheat Pharmacist">
+                <div class="details">
+                    <a href="drug-store-in-another-world%3A-the-slow-life-of-a-cheat-pharmacist.html"><h3>Drug Store in Another World: The Slow Life of a Cheat Pharmacist</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Reiji Kirio is transported to another world where he opens a drugstore. With his knowledge of pharmaceuticals from his previous life, Reiji uses his skills to create potions that can heal various ailments. Settling into a slow-paced life, he meets unique characters who come to rely on his remedies. As he navigates this new world, Reiji finds fulfillment in helping others and discovers the true value of his abilities as a cheat pharmacist.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/86625l.jpg" alt="Frame Arms Girl">
+                <div class="details">
+                    <a href="frame-arms-girl.html"><h3>Frame Arms Girl</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Frame Arms Girl follows the story of Ao Gennai, a high school student who receives a mysterious package containing Gourai, a tiny robot girl known as a Frame Arms Girl. As Ao learns how to customize and battle with Gourai, she meets more Frame Arms Girls who join in the fun. Together, they embark on exciting adventures and face off against other Frame Arms Girls in friendly competitions. With each battle, Ao and her new friends grow closer and discover the true power of teamwork.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/86767l.webp" alt="A Centaur's Life">
+                <div class="details">
+                    <a href="a-centaur%27s-life.html"><h3>A Centaur's Life</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a world where humans coexist with various mythical creatures, A Centaur's Life follows the daily lives of Himeno, a kind-hearted centaur, and her friends as they navigate the ups and downs of high school life. From dealing with cultural festivals to exploring their identity and relationships, the group learns to embrace their differences and find strength in their unique abilities. However, amidst the ordinary moments, dark secrets from the past start to resurface, threatening the harmony of their diverse society.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/84858l.jpg" alt="Hinako Note">
+                <div class="details">
+                    <a href="hinako-note.html"><h3>Hinako Note</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Hinako Note follows Hinako Sakuragi, a shy girl with a fear of talking to strangers. She moves to the countryside to attend high school and decides to join a theater company to overcome her shyness. With the help of her eccentric new friends, Hinako navigates her fear of people while discovering the joy of performing on stage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/65309l.jpg" alt="Locodol">
+                <div class="details">
+                    <a href="locodol.html"><h3>Locodol</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>High school student Nanako is unexpectedly recruited to become a local idol in her hometown by her uncle, a manager of a small talent agency. Together with her best friend Yukari, they form a duo and aim to promote the town and its attractions through various performances. As Nanako navigates the world of being an idol, she discovers the importance of community and friendship in their journey to bring joy to the town's residents.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/78701l.jpg" alt="Anne-Happy">
+                <div class="details">
+                    <a href="anne-happy.html"><h3>Anne-Happy</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Anne-Happy follows the unlucky students of Tennomifune Academy's Class 1-7, who are assigned to a special class for students with various misfortunes. The story focuses on the cheerful Anne and her classmates as they navigate their daily lives and try to overcome their bad luck with the help of their eccentric teacher. Through their adventures and mishaps, the girls form strong friendships and learn valuable life lessons.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/76700l.webp" alt="Aria the Scarlet Ammo AA">
+                <div class="details">
+                    <a href="aria-the-scarlet-ammo-aa.html"><h3>Aria the Scarlet Ammo AA</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Aria the Scarlet Ammo AA follows Akari Mamiya, a bubbly and determined student at Tokyo Butei High School, where students are trained in combat skills. Akari idolizes Aria, a skilled Butei known as Quadra for her abilities in marksmanship. The series showcases Akari's adventures as she trains to become a great Butei like Aria, all while forming friendships and facing various challenges along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1890/131473l.jpg" alt="Saving 80,000 Gold in Another World for My Retirement">
+                <div class="details">
+                    <a href="saving-80%2C000-gold-in-another-world-for-my-retirement.html"><h3>Saving 80,000 Gold in Another World for My Retirement</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After a salaryman dies and is reincarnated in a fantasy world, he decides to live a relaxed life by saving up 80,000 gold coins for his retirement. Using his knowledge of economics and business strategies from his past life, he navigates the new world's markets and forms unexpected alliances. Along the way, he faces challenges, makes new friends, and learns valuable lessons about life and the importance of planning for the future in this heartwarming and humorous isekai anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1924/95212l.jpg" alt="Harukana Receive">
+                <div class="details">
+                    <a href="harukana-receive.html"><h3>Harukana Receive</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Haruka moves to Okinawa to live with her cousin Kanata. Despite their height difference and Kanata's reluctance to play beach volleyball again, the two cousins decide to team up and compete in a local tournament. As they face off against various rivals and strive to improve their skills, they forge new friendships and deepen their bond as they aim to become top beach volleyball players.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/62655l.jpg" alt="Invaders of the Rokujyoma!?">
+                <div class="details">
+                    <a href="invaders-of-the-rokujyoma%21%3F.html"><h3>Invaders of the Rokujyoma!?</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After finding a perfect and affordable apartment, high schooler Kotaro moves in, only to realize his new home is already crowded – with a ghost, a magical girl, an alien princess, a girl with superhuman strength, and a underground dweller. As they all claim the apartment as their own, Kotaro finds himself in the middle of a cosmic conflict over the living space. Despite the chaos, they must learn to coexist and navigate their differences to live peacefully.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1332/134658l.webp" alt="Too Cute Crisis">
+                <div class="details">
+                    <a href="too-cute-crisis.html"><h3>Too Cute Crisis</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where all the animals have suddenly turned into adorable creatures, chaos ensues as humans find themselves overwhelmed by the cuteness overload. Follow the hilarious antics of a group of friends as they navigate their way through this 'too cute crisis', trying to resist the overwhelming urge to cuddle every little creature they come across. Will they be able to find a way to reverse the curse and restore the balance before it's too late?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1035/111624l.webp" alt="After School Dice Club">
+                <div class="details">
+                    <a href="after-school-dice-club.html"><h3>After School Dice Club</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After School Dice Club follows a high school girl named Miki who discovers the joys of board games when she joins the school's gaming club. Alongside her friends, they explore various board games, from strategy-heavy ones to lighter, luck-based ones. As they play together, Miki not only learns about different games but also forms new friendships and grows as a person through the power of gaming.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1723/117854l.jpg" alt="Banished From The Hero's Party, I Decided To Live A Quiet Life In The Countryside">
+                <div class="details">
+                    <a href="banished-from-the-hero%27s-party%2C-i-decided-to-live-a-quiet-life-in-the-countryside.html"><h3>Banished From The Hero's Party, I Decided To Live A Quiet Life In The Countryside</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After being kicked out of the hero's party, Red tries to live a peaceful life in a secluded village. However, his past catches up to him when a beautiful knight and a magical girl appear on his doorstep, seeking his help in fighting the demon king threatening the world. Reluctantly, Red must decide whether to stay out of the conflict or embrace his destiny once again.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/89982l.jpg" alt="Slow Start">
+                <div class="details">
+                    <a href="slow-start.html"><h3>Slow Start</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Hana Ichinose's high school life gets off to a rocky start after an illness causes her to miss the entrance exams. As she navigates the challenges of being a year behind her classmates, Hana discovers new friendships and opportunities to grow. With the support of her new friends and her own determination, she sets out to make the most of her slow start and find her place in both school and in life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/89876l.jpg" alt="Ms. Koizumi Loves Ramen Noodles">
+                <div class="details">
+                    <a href="ms.-koizumi-loves-ramen-noodles.html"><h3>Ms. Koizumi Loves Ramen Noodles</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Follow the daily life of Yū Ōsawa as she tries to befriend her classmate Koizumi, who seems to have an obsession with ramen noodles. Despite Koizumi's initial disinterest in forming close relationships, Yū persists in her efforts to bond over their shared love for ramen. Together, they embark on various ramen adventures, trying out different types of ramen and visiting various noodle shops. Through their interactions, Yū begins to uncover the layers of Koizumi's true personality.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/64299l.webp" alt="JINSEI -Life Consulting-">
+                <div class="details">
+                    <a href="jinsei--life-consulting-.html"><h3>JINSEI -Life Consulting-</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In JINSEI -Life Consulting-, the main character is selected to join the school's notorious newspaper club. His task is to give advice to students' dilemmas. With an unusual twist, his responses are generated by a mysterious machine. Through tackling various problems, he learns more about himself and his classmates. Misadventures and unexpected outcomes ensue as he navigates the complexities of high school life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1626/108849l.jpg" alt="Iwa Kakeru! Sport Climbing Girls">
+                <div class="details">
+                    <a href="iwa-kakeru%21-sport-climbing-girls.html"><h3>Iwa Kakeru! Sport Climbing Girls</h3></a>
+                    <p>Sports</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Konomi Kasahara discovers her passion for sport climbing and joins Hanamiya Girls' High School's climbing team. Determined to reach new heights and face challenging routes, Konomi befriends her teammates and rivals, striving to compete in various tournaments. As she overcomes obstacles and pushes her limits, Konomi learns the importance of teamwork, dedication, and perseverance in the world of competitive sport climbing.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1001/98636l.webp" alt="Kamisama Dolls">
+                <div class="details">
+                    <a href="kamisama-dolls.html"><h3>Kamisama Dolls</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Kyohei returns to his rural village to escape his past, only to be pulled back into a conflict involving ancient supernatural beings called kakashi controlled by special stone tablets. As tensions rise between those who seek to utilize the kakashi's power for their own ends, Kyohei must confront his own history and protect his loved ones from the dangerous forces at play.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1051/93862l.jpg" alt="Anima Yell!">
+                <div class="details">
+                    <a href="anima-yell%21.html"><h3>Anima Yell!</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After being inspired by a cheerleading performance, high school student Kohane decides to start a cheerleading club with her friends. Determined to become top cheerleaders despite their initial lack of skills, the group faces challenges and works hard to improve, all while forming close bonds and supporting each other along the way. As they strive to reach new heights and participate in cheerleading competitions, the girls learn valuable lessons about teamwork, dedication, and friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1512/111549l.jpg" alt="Suppose a Kid from the Last Dungeon Boonies Moved to a Starter Town?">
+                <div class="details">
+                    <a href="suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town%3F.html"><h3>Suppose a Kid from the Last Dungeon Boonies Moved to a Starter Town?</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Lloyd, who hails from a village near a legendary dungeon, moves to a town to fulfill his dream of becoming a soldier. Despite his seemingly weak abilities, he captures the attention of the townspeople and the military with his unparalleled strength. Unbeknownst to Lloyd, the true source of his power lies in his hometown's unique environment. As he navigates his new life, Lloyd's extraordinary strength continues to surprise those around him.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/75646l.jpg" alt="Tower of Druaga: The Aegis of Uruk">
+                <div class="details">
+                    <a href="tower-of-druaga%3A-the-aegis-of-uruk.html"><h3>Tower of Druaga: The Aegis of Uruk</h3></a>
+                    <p>Action</p>
+                    <p>2008</p>
+                    <br>
+                    <p>In a world where a mysterious tower holds a powerful treasure at its peak, a young warrior named Jil sets out on a dangerous quest to conquer the Tower of Druaga. Alongside a diverse group of companions, Jil must battle monsters, navigate treacherous traps, and overcome his own doubts to reach the top. As the journey unfolds, secrets about the tower and its true purpose begin to surface, testing the group's resolve and bonds of friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/82255l.jpg" alt="Long Riders!">
+                <div class="details">
+                    <a href="long-riders%21.html"><h3>Long Riders!</h3></a>
+                    <p>Sports</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After getting hooked on cycling, university student Ami decides to buy a folding bike and take up the sport. Joined by her friends, she embarks on cycling adventures to explore the joys and challenges of the sport. Along the way, the group trains hard, overcomes obstacles, and forms lasting bonds as they pursue their passion for cycling.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 81%;"></span>
+                        </div>
+                        <p>81% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/86741l.jpg" alt="Action Heroine Cheer Fruits">
+                <div class="details">
+                    <a href="action-heroine-cheer-fruits.html"><h3>Action Heroine Cheer Fruits</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a town where local heroines entertain the citizens, a group of high school girls form their own superhero team to revitalize their community. With determination and teamwork, they aim to win over the hearts of the people through their entertaining performances and exciting adventures. However, they must overcome challenges and rivals to achieve their goal of becoming beloved heroines.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

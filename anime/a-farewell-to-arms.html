@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like A Farewell to Arms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "17677";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/4/53169l.jpg" alt="A Farewell to Arms">
+                <div>
+                    <h2 id="title">A Farewell to Arms</h2>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br><br>
+                    <p>Set during World War I, A Farewell to Arms follows the story of an American ambulance driver serving in the Italian army, who falls in love with a British nurse. As they navigate the complexities of war and the uncertainties of their relationship, they strive to find solace and happiness amidst the chaos and destruction surrounding them. Their love is put to the test as they struggle to hold on to hope in a time of despair and loss.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 15%;"></span>
+                        </div>
+                        <p>15% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/19634l.webp" alt="Higurashi: When They Cry">
+                <div class="details">
+                    <a href="higurashi%3A-when-they-cry.html"><h3>Higurashi: When They Cry</h3></a>
+                    <p>Mystery</p>
+                    <p>2006</p>
+                    <br>
+                    <p>In the small village of Hinamizawa, a group of friends enjoy their peaceful lives. However, things take a dark turn as the annual Watanagashi Festival approaches. Keiichi Maebara begins to uncover sinister secrets and realizes that not everything is as it seems in the village. As paranoia and distrust grow among the friends, a series of mysterious and horrifying events unfold, leading to a cycle of tragedy and violence that repeats itself every year.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 18%;"></span>
+                        </div>
+                        <p>18% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1719/95621l.jpg" alt="Goblin Slayer">
+                <div class="details">
+                    <a href="goblin-slayer.html"><h3>Goblin Slayer</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a fantasy world plagued by goblins, a stoic adventurer known as the Goblin Slayer dedicates his life to eradicating every last one of these creatures. With the help of his companions, including a priestess, a dwarf, and a lizardman, the Goblin Slayer embarks on dangerous quests to eliminate goblin nests and protect the innocent. But as they delve deeper into the world of goblins, they uncover dark secrets and face increasingly powerful foes.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 18%;"></span>
+                        </div>
+                        <p>18% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/75764l.jpg" alt="Snow White with the Red Hair">
+                <div class="details">
+                    <a href="snow-white-with-the-red-hair.html"><h3>Snow White with the Red Hair</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In Snow White with the Red Hair, a talented herbalist named Shirayuki flees her kingdom after catching the eye of the selfish prince. Settling in a new land, she befriends a young prince named Zen. Together, they navigate the complexities of royal life, blossoming feelings, and the challenges that come with Shirayuki's unique red hair. As their bond deepens, they face political intrigue and personal growth that will test their love and resolve.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 20%;"></span>
+                        </div>
+                        <p>20% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/52353l.jpg" alt="The Wind Rises">
+                <div class="details">
+                    <a href="the-wind-rises.html"><h3>The Wind Rises</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>The Wind Rises follows the story of Jiro Horikoshi, a young aspiring aircraft designer with a passion for aviation. Set in Japan during the World War II era, Jiro navigates personal and professional challenges as he strives to create beautiful and innovative aircraft. Along the way, he encounters love, friendship, and the harsh realities of war. Balancing his dreams with the responsibilities of his creations, Jiro must confront the moral implications of his work as the world around him changes.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 20%;"></span>
+                        </div>
+                        <p>20% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/50559l.jpg" alt="Flowers of Evil">
+                <div class="details">
+                    <a href="flowers-of-evil.html"><h3>Flowers of Evil</h3></a>
+                    <p>Psychological</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Flowers of Evil follows the life of Takao Kasuga, a bookish and introverted high school student who finds himself entangled in a dark and complex relationship with his classmate, the enigmatic and rebellious Sawa Nakamura. As their unconventional bond deepens, Takao is forced to confront his own desires and fears, leading to a series of events that blur the line between obsession and reality.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 23%;"></span>
+                        </div>
+                        <p>23% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1002/135430l.jpg" alt="Accel World">
+                <div class="details">
+                    <a href="accel-world.html"><h3>Accel World</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Haruyuki Arita is a socially awkward high school student who escapes reality by indulging in virtual games. When the popular and beautiful Kuroyukihime introduces him to a mysterious program called Brain Burst, Haruyuki discovers a virtual world where time freezes and players engage in fast-paced duels. With the promise of fulfilling his desires and uncovering the program's secrets, Haruyuki plunges into the thrilling and competitive virtual realm of Accel World.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/32547l.jpg" alt="From Up on Poppy Hill">
+                <div class="details">
+                    <a href="from-up-on-poppy-hill.html"><h3>From Up on Poppy Hill</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In From Up on Poppy Hill, set in 1963 Yokohama, Japan, high school students Umi and Shun work together to save their school's clubhouse from demolition. As they form a strong bond, they discover a shared connection from their pasts. Amidst personal struggles and social change, the two must navigate their emotions and uncover the truth behind their intertwined destinies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/85435l.webp" alt="Amagi Brilliant Park">
+                <div class="details">
+                    <a href="amagi-brilliant-park.html"><h3>Amagi Brilliant Park</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>When the amusement park, Amagi Brilliant Park, is on the verge of being shut down due to poor performance, Seiya Kanie, a high school student, is tasked with reviving it. Despite his initial reluctance, Seiya soon discovers that the park's staff are actually magical creatures from a different realm who need the park's success to survive. With his business acumen and the help of the quirky staff, Seiya works towards attracting more visitors to the park while unraveling its magical secrets.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/80271l.webp" alt="Drifters">
+                <div class="details">
+                    <a href="drifters.html"><h3>Drifters</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After being transported to a fantasy world, historical warriors known as Drifters must band together to fight against an evil group known as the Ends. With their unique skills and abilities, the Drifters form alliances with other fantastical beings in order to protect the innocent and ultimately bring an end to the chaos engulfing the land. As they navigate through battles and political intrigues, the Drifters face tough decisions that will determine the fate of this new world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1141/117446l.webp" alt="Cells at Work!">
+                <div class="details">
+                    <a href="cells-at-work%21.html"><h3>Cells at Work!</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In this anime, human cells are personified as characters working together in a bustling city-like body to protect and maintain the health of their host. The story follows a red blood cell and a white blood cell as they navigate daily tasks and battle against various pathogens and threats to the body. The anime showcases the inner workings of the human body through an entertaining and educational lens, highlighting the importance of each cell's role in maintaining overall health.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <p>30% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/75287l.jpg" alt="I Can't Understand What My Husband Is Saying">
+                <div class="details">
+                    <a href="i-can%27t-understand-what-my-husband-is-saying.html"><h3>I Can't Understand What My Husband Is Saying</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Kaoru is a typical office worker married to Hajime, a hardcore otaku. Despite their differences, they navigate their contrasting lifestyles with love and humor, trying to understand each other's quirks and find common ground. From attending anime conventions to dealing with family gatherings, their daily lives are filled with laughter, challenges, and the realization that love can transcend even the most unexpected differences.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <p>30% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/73443l.jpg" alt="Tales from Earthsea">
+                <div class="details">
+                    <a href="tales-from-earthsea.html"><h3>Tales from Earthsea</h3></a>
+                    <p>Other Genre</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Tales from Earthsea follows the journey of a young wizard named Arren who sets out to discover the source of the imbalance in the world of Earthsea. Along the way, he meets a wise mentor named Sparrowhawk and encounters various challenges and dangers. As Arren delves deeper into the mysteries of magic and the darkness that threatens to consume the land, he must confront his own inner demons to restore peace and harmony to Earthsea.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 31%;"></span>
+                        </div>
+                        <p>31% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/83776l.jpg" alt="ACCA: 13-Territory Inspection Dept.">
+                <div class="details">
+                    <a href="acca%3A-13-territory-inspection-dept..html"><h3>ACCA: 13-Territory Inspection Dept.</h3></a>
+                    <p>Mystery</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a kingdom divided into 13 autonomous districts, the Inspection Department's vice-chairman, Jean Otus, is tasked with traveling throughout the country to audit the government agencies. As he performs his duties, Jean uncovers political intrigue, conspiracy, and explores the complex relationships between the districts. With his calm demeanor and sharp observational skills, Jean navigates through a web of secrets and allegiances, unraveling a mystery that could have widespread consequences for the kingdom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 33%;"></span>
+                        </div>
+                        <p>33% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/24648l.jpg" alt="Chobits">
+                <div class="details">
+                    <a href="chobits.html"><h3>Chobits</h3></a>
+                    <p>Romance</p>
+                    <p>2002</p>
+                    <br>
+                    <p>In Chobits, a young man discovers an abandoned persocom (humanoid computer) in the shape of a girl. As he activates her, he realizes she is different from other persocoms. Together, they embark on a journey to uncover the mystery behind her origins and what sets her apart from the rest. Along the way, they develop a unique and heartwarming relationship, navigating through the complexities of love, technology, and the boundaries between humans and machines.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 33%;"></span>
+                        </div>
+                        <p>33% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1145/90880l.jpg" alt="Golden Kamuy">
+                <div class="details">
+                    <a href="golden-kamuy.html"><h3>Golden Kamuy</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Golden Kamuy, a tale set in early 20th-century Japan, Sugimoto, a veteran from the Russo-Japanese war, teams up with an Ainu girl named Asirpa to search for hidden Ainu gold. The treasure's location is split into pieces, each marked on a convict's body as tattoos. Together, they navigate dangers, including rival treasure hunters and harsh terrain. Through their journey, they uncover secrets of the past and form unlikely alliances to survive in the unforgiving wilderness.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1538/95686l.webp" alt="Dagashi Kashi">
+                <div class="details">
+                    <a href="dagashi-kashi.html"><h3>Dagashi Kashi</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Dagashi Kashi, Kokonotsu Shikada is trying to decide whether to take over his family's dagashi (Japanese snack) store. His peaceful life is disrupted when a quirky girl named Hotaru Shidare appears, determined to recruit his father to work at her family's big candy company. To convince Kokonotsu's father, she challenges Kokonotsu to learn more about the world of dagashi. As Kokonotsu learns about different snacks, he also grows closer to Hotaru.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/50177l.jpg" alt="The Devil is a Part-Timer!">
+                <div class="details">
+                    <a href="the-devil-is-a-part-timer%21.html"><h3>The Devil is a Part-Timer!</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>After being defeated by the hero Emilia, the Demon Lord Satan finds himself stranded in modern-day Tokyo without his powers. Forced to take on a part-time job at a fast-food restaurant to survive, Satan, now known as Sadao Maou, navigates the human world alongside his loyal general Ashiya. As Sadao rises through the ranks at MgRonald's, he must also contend with threats from his past and new enemies who seek to disrupt his peaceful life on Earth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/50551l.jpg" alt="[C] CONTROL - The Money and Soul of Possibility">
+                <div class="details">
+                    <a href="%5Bc%5D-control---the-money-and-soul-of-possibility.html"><h3>[C] CONTROL - The Money and Soul of Possibility</h3></a>
+                    <p>Mystery</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Kimimaro Yoga is a college student struggling to make ends meet until he is introduced to the Financial District, where individuals can wager their future in high-stakes battles. With the help of his Asset Mashu, Kimimaro must navigate this cutthroat world of economics and danger to protect his future and uncover the dark secrets behind the Financial District.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/39333l.jpg" alt="Good Luck Girl!">
+                <div class="details">
+                    <a href="good-luck-girl%21.html"><h3>Good Luck Girl!</h3></a>
+                    <p>Comedy</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Good Luck Girl! follows the story of Ichiko Sakura, a girl who is blessed with good fortune and is followed by misfortune deities seeking to restore balance. When Ichiko encounters Momiji, a poverty god sent to take her fortune, their battles lead to unexpected consequences. Through their hilarious interactions, they both learn valuable lessons about luck, friendship, and the true meaning of happiness.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/21741l.webp" alt="The Garden of Sinners Chapter 1: Overlooking View">
+                <div class="details">
+                    <a href="the-garden-of-sinners-chapter-1%3A-overlooking-view.html"><h3>The Garden of Sinners Chapter 1: Overlooking View</h3></a>
+                    <p>Mystery</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In The Garden of Sinners Chapter 1: Overlooking View, Mikiya investigates a series of mysterious suicides happening in the city. He meets Shiki, a girl with a unique ability to see the death of things as lines. Together, they uncover a dark connection between the victims and a paranormal presence. As they delve deeper into the investigation, they become entangled in a web of secrets and supernatural forces that threaten their lives.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/80039l.jpg" alt="Flying Witch">
+                <div class="details">
+                    <a href="flying-witch.html"><h3>Flying Witch</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Flying Witch follows the story of Makoto, a young witch who moves to the countryside to complete her witch training. Living with her relatives, she navigates her way through daily life while also using her magical abilities to help those around her. With the support of her friends and family, Makoto explores the world of witchcraft, encountering both the wonders and challenges that come with her powers. The series blends elements of magic, comedy, and everyday life in a heartwarming and charming way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/89563l.jpg" alt="Blade Runner: Black Out 2022">
+                <div class="details">
+                    <a href="blade-runner%3A-black-out-2022.html"><h3>Blade Runner: Black Out 2022</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In Blade Runner: Black Out 2022, set three years after the events of the original Blade Runner movie, a group of Replicant freedom fighters orchestrates a massive blackout in Los Angeles to erase the Replicant registry. As chaos ensues, the Replicants fight for their right to exist and challenge the oppressive system that seeks to control them. With stunning animation and intense action sequences, this short film explores themes of identity, rebellion, and the struggle for freedom in a dystopian future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/82292l.jpg" alt="Flip Flappers">
+                <div class="details">
+                    <a href="flip-flappers.html"><h3>Flip Flappers</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Flip Flappers follows Cocona, a reserved schoolgirl, who is swept into a mysterious world by a lively girl named Papika. Together, they journey through different dimensions known as Pure Illusion to collect fragments. As they navigate through various worlds, facing challenges and meeting new characters, Cocona and Papika's bond strengthens. However, the true purpose of their quest remains unclear, leading to unexpected twists and revelations along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/44844l.jpg" alt="Date A Live">
+                <div class="details">
+                    <a href="date-a-live.html"><h3>Date A Live</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In a world where dangerous beings called Spirits threaten humanity, average high school student Shido Itsuka is recruited by a secret organization to stop them. Shido's mission is unique – he must make the Spirits fall in love with him and seal their powers. Through various dates and challenges, Shido navigates the complexities of multiple Spirits while uncovering the truth behind their existence. As he forms deep connections with these otherworldly beings, Shido's journey becomes a delicate balance between love and duty.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1732/96096l.jpg" alt="Cencoroll">
+                <div class="details">
+                    <a href="cencoroll.html"><h3>Cencoroll</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Cencoroll, a high school student named Tetsu encounters a mysterious shape-shifting creature named Cenco. As they develop a unique bond, they find themselves drawn into a series of unexpected events involving other creatures like Cenco. Tetsu must navigate these challenges while uncovering the truth behind Cenco's existence and the secrets of their town. Action-packed and full of unexpected twists, Cencoroll delves into the thrilling adventures of Tetsu and Cenco as they face unknown dangers together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/75259l.jpg" alt="Full Metal Panic!">
+                <div class="details">
+                    <a href="full-metal-panic%21.html"><h3>Full Metal Panic!</h3></a>
+                    <p>Action</p>
+                    <p>2002</p>
+                    <br>
+                    <p>In Full Metal Panic!, Sousuke Sagara, a stoic military operative, is assigned to protect high school student Kaname Chidori, who possesses a mysterious power sought after by various organizations. Balancing his duties as a protector with the challenges of high school life, Sousuke must navigate secrecy and danger while forming relationships with his classmates. As the threats against Kaname escalate, he must use his combat skills to keep her safe at all costs.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1976/93666l.jpg" alt="Blame!: The Movie">
+                <div class="details">
+                    <a href="blame%21%3A-the-movie.html"><h3>Blame!: The Movie</h3></a>
+                    <p>Psychological</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a vast, ever-expanding city with technology beyond human control, a mysterious virus turns everything against the inhabitants. Killy, a traveler with a powerful weapon, embarks on a quest to find the Net Terminal Gene, the key to restoring order. As he navigates through the endless labyrinth of corridors and deadly cyborgs, Killy encounters factions vying for control and must outwit relentless enemies to fulfill his mission and bring hope to the desolate world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/32873l.webp" alt="Haganai: I don't have many friends">
+                <div class="details">
+                    <a href="haganai%3A-i-don%27t-have-many-friends.html"><h3>Haganai: I don't have many friends</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Kodaka Hasegawa is a high school student who struggles to make friends due to his intimidating looks. He meets the solitary and blunt Yozora Mikazuki, and together they decide to form the Neighbors Club to help each other make friends. Through various hijinks and interactions with other social misfits, the club members navigate the complexities of friendship, self-discovery, and the ups and downs of teenage life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1787/132772l.webp" alt="Deca-Dence">
+                <div class="details">
+                    <a href="deca-dence.html"><h3>Deca-Dence</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Deca-Dence is set in a post-apocalyptic world where humanity is on the brink of extinction due to the appearance of giant creatures called Gadoll. The survivors reside in the fortress city of Deca-dence, where they work as warriors to fight against the Gadoll. The story follows Natsume, a young girl with dreams of becoming a fighter, and Kaburagi, a disillusioned veteran warrior. As they uncover the dark secrets behind Deca-dence, they join forces to bring about change and fight for a better future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/46741l.jpg" alt="Someone's Gaze">
+                <div class="details">
+                    <a href="someone%27s-gaze.html"><h3>Someone's Gaze</h3></a>
+                    <p>Other Genre</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Someone's Gaze, high school student Aoi finds herself entangled in a web of secrets when she discovers a mysterious ability to see glimpses of others' pasts simply by looking into their eyes. As she navigates this newfound power, Aoi must grapple with the consequences of revealing long-buried truths and the impact it has on her relationships with those around her. With each gaze, Aoi delves deeper into the interconnected lives of her peers, uncovering hidden emotions and untold stories.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

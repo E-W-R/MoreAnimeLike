@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Ponyo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "2890";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1331/138727l.webp" alt="Ponyo">
+                <div>
+                    <h2 id="title">Ponyo</h2>
+                    <p>Other Genre</p>
+                    <p>2008</p>
+                    <br><br>
+                    <p>Ponyo follows the magical journey of a goldfish princess named Ponyo who dreams of becoming human after meeting a young boy named Sosuke. As their friendship blossoms, Ponyo's magical powers inadvertently cause a dangerous imbalance in the world. Sosuke and Ponyo must navigate through obstacles to restore order and be together. With themes of love, friendship, and environmental harmony, Ponyo is a heartwarming tale of adventure and wonder.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/82343l.jpg" alt="Poco's Udon World">
+                <div class="details">
+                    <a href="poco%27s-udon-world.html"><h3>Poco's Udon World</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the death of his father, Souta returns to his hometown to close the family udon shop. When he discovers a mysterious boy named Poco with supernatural abilities hiding in the shop, Souta decides to take care of him. As Souta juggles between managing the shop and unraveling Poco's secrets, he learns valuable life lessons and the true importance of family bonds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/74781l.webp" alt="Memories">
+                <div class="details">
+                    <a href="memories.html"><h3>Memories</h3></a>
+                    <p>Psychological</p>
+                    <p>1995</p>
+                    <br>
+                    <p>Memories is a collection of three standalone short films that each explore different aspects of humanity. The first film follows a man as he reminisces about his childhood. The second film takes place in a dystopian world where a deadly virus spreads. The final film follows a group of space travelers who encounter a mysterious phenomenon. Each story delves into themes of nostalgia, survival, and the unknown future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/20673l.jpg" alt="Dirty Pair">
+                <div class="details">
+                    <a href="dirty-pair.html"><h3>Dirty Pair</h3></a>
+                    <p>Comedy</p>
+                    <p>1985</p>
+                    <br>
+                    <p>Dirty Pair follows the adventures of Kei and Yuri, two trouble consultants for the World Welfare Works Association, solving cases across the galaxy. Known for their efficiency and penchant for destruction, the duo's missions often involve high-stakes situations, leading to chaotic but humorous outcomes. Together, they navigate through various challenges, facing dangerous criminals and uncovering dark conspiracies while trying to avoid causing too much collateral damage in the process.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/64293l.webp" alt="When Marnie Was There">
+                <div class="details">
+                    <a href="when-marnie-was-there.html"><h3>When Marnie Was There</h3></a>
+                    <p>Mystery</p>
+                    <p>2014</p>
+                    <br>
+                    <p>When Marnie Was There follows the story of Anna, a young girl struggling with feelings of loneliness and isolation. Sent to live in the countryside for the summer, Anna discovers an abandoned mansion where she meets a mysterious and enigmatic girl named Marnie. As the two form a deep bond, Anna begins to unravel the secrets surrounding Marnie's past and her own family history, leading to a journey of self-discovery and healing.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/75191l.jpg" alt="Kekkaishi">
+                <div class="details">
+                    <a href="kekkaishi.html"><h3>Kekkaishi</h3></a>
+                    <p>Action</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Yoshimori Sumimura and Tokine Yukimura are young kekkaishi, warriors with the ability to create barriers to eliminate evil creatures. Tasked with protecting Karasumori, a powerful and mysterious land, they must battle Ayakashi, supernatural beings drawn to its energy. As they face increasing threats and uncover the secrets of Karasumori, the two cousins must navigate their responsibilities as kekkaishi and the challenges of their own complicated relationship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1518/138730l.jpg" alt="Skip and Loafer">
+                <div class="details">
+                    <a href="skip-and-loafer.html"><h3>Skip and Loafer</h3></a>
+                    <p>Drama</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Skip and Loafer follows the story of Mitsumi Iwakura, a small-town girl with big dreams of attending a prestigious high school in Tokyo. As she navigates the challenges of city life and high school, she meets Sousuke Shima, a laid-back and popular classmate. Despite their contrasting personalities, the two form an unlikely friendship, supporting each other through the ups and downs of teenage life. The series explores themes of ambition, friendship, and self-discovery, blending humor and heartfelt moments.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1084/119096l.jpg" alt="Nodame Cantabile Finale">
+                <div class="details">
+                    <a href="nodame-cantabile-finale.html"><h3>Nodame Cantabile Finale</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Nodame Cantabile Finale continues the story of piano prodigy Shinichi Chiaki and eccentric pianist Megumi Noda as they navigate the challenges of pursuing their musical dreams while facing personal and professional hurdles. As they strive for greatness in the competitive world of classical music, their relationship deepens, leading to moments of joy, heartache, and growth. Through dedication, passion, and perseverance, Chiaki and Nodame inspire each other to reach new heights in their musical careers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1189/111994l.webp" alt="Tanaka-kun is Always Listless">
+                <div class="details">
+                    <a href="tanaka-kun-is-always-listless.html"><h3>Tanaka-kun is Always Listless</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>The series follows Tanaka, a high school student who is perpetually tired and unenthusiastic about everything. His goal is to live life as effortlessly as possible and avoid any form of exertion. Despite his apathetic demeanor, Tanaka's friends continue to involve him in various activities, leading to comedic situations and heartwarming moments as they navigate the ups and downs of high school life together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1402/134007l.jpg" alt="Insomniacs After School">
+                <div class="details">
+                    <a href="insomniacs-after-school.html"><h3>Insomniacs After School</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Insomniacs After School is a poignant anime about Ganta Nakami and Isaki Magari, two high school students who struggle with insomnia. They find solace in each other's company after discovering an abandoned observatory at school, where they spend sleepless nights together. As they bond over their shared struggles, their friendship deepens, helping them cope with their condition. The series beautifully explores themes of friendship, understanding, and the quiet moments that connect us.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/73540l.jpg" alt="The Boy and the Beast">
+                <div class="details">
+                    <a href="the-boy-and-the-beast.html"><h3>The Boy and the Beast</h3></a>
+                    <p>Isekai</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When a lonely young boy stumbles into the beastly realm of beasts, he becomes the apprentice to a bear-like creature. As they train together in the ways of the beastly warriors, they form an unlikely bond that will be tested as they face dangerous enemies lurking in the shadows. Will the boy be able to prove himself as a true warrior and find his place in the beastly world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/52353l.jpg" alt="The Wind Rises">
+                <div class="details">
+                    <a href="the-wind-rises.html"><h3>The Wind Rises</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>The Wind Rises follows the story of Jiro Horikoshi, a young aspiring aircraft designer with a passion for aviation. Set in Japan during the World War II era, Jiro navigates personal and professional challenges as he strives to create beautiful and innovative aircraft. Along the way, he encounters love, friendship, and the harsh realities of war. Balancing his dreams with the responsibilities of his creations, Jiro must confront the moral implications of his work as the world around him changes.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1076/134431l.jpg" alt="Yume-iro Pâtissière">
+                <div class="details">
+                    <a href="yume-iro-p%C3%A2tissi%C3%A8re.html"><h3>Yume-iro Pâtissière</h3></a>
+                    <p>Other Genre</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Ichigo Amano is a clumsy and sweet teenager who dreams of becoming a skilled pastry chef. She enrolls in the prestigious St. Marie Academy culinary school, where she discovers her natural talent for creating delicious desserts. With the help of her friends and mentors, Ichigo navigates through various challenges and competitions to improve her skills and achieve her dream of becoming a professional patissier.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1970/122297l.webp" alt="Ya Boy Kongming!">
+                <div class="details">
+                    <a href="ya-boy-kongming%21.html"><h3>Ya Boy Kongming!</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Ya Boy Kongming! is an entertaining anime about the legendary Chinese strategist Zhuge Liang Kongming, who is reincarnated in modern-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and uses his tactical genius to help her achieve her dreams of becoming a music star. The series blends historical elements with contemporary music and comedy, creating a delightful story about ambition, friendship, and pursuing one's dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/74786l.webp" alt="Patlabor: The Movie">
+                <div class="details">
+                    <a href="patlabor%3A-the-movie.html"><h3>Patlabor: The Movie</h3></a>
+                    <p>Action</p>
+                    <p>1989</p>
+                    <br>
+                    <p>After a series of mysterious malfunctions involving Labor robots, a special unit of the police force is tasked with investigating the incidents. As they dig deeper, they uncover a complex web of corruption and conspiracy that threatens to plunge the city into chaos. As they race against time to stop the perpetrators, they must also confront their own beliefs and values in the face of overwhelming odds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1048/128385l.webp" alt="Kakushigoto">
+                <div class="details">
+                    <a href="kakushigoto.html"><h3>Kakushigoto</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Kakushi Goto is a heartwarming slice-of-life anime following the secret life of a famous manga artist and his young daughter, Hime. Despite his success, Kakushi works hard to keep his job hidden from Hime to protect her innocence. As he navigates the challenges of fatherhood and the pressures of his profession, Kakushi must juggle his double life while cherishing the precious moments he shares with his beloved daughter.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1320/93443l.jpg" alt="Penguin Highway">
+                <div class="details">
+                    <a href="penguin-highway.html"><h3>Penguin Highway</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Penguin Highway, a curious fourth-grade boy embarks on a mysterious adventure when a surge of penguins inexplicably invades his suburban town. Fueled by his inquisitive nature, he sets out to uncover the truth behind this fantastical occurrence, leading him to unravel secrets beyond his imagination. As he delves deeper into the peculiar phenomenon, the boy discovers that the penguins' presence may be connected to a strange woman who works at his dentist's office.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/25873l.jpg" alt="Professor Layton and the Eternal Diva">
+                <div class="details">
+                    <a href="professor-layton-and-the-eternal-diva.html"><h3>Professor Layton and the Eternal Diva</h3></a>
+                    <p>Mystery</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Professor Layton and his assistant Luke receive an invitation to the mysterious Crown Petone to witness a performance by the opera singer Janice Quatlane. However, the event takes a sinister turn when Janice is seemingly resurrected after her death, setting off a series of puzzles and challenges for the professor to solve. As Layton unravels the secrets behind the Eternal Diva, the true motives behind the enigmatic organization behind the event are revealed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/37799l.jpg" alt="Castle in the Sky">
+                <div class="details">
+                    <a href="castle-in-the-sky.html"><h3>Castle in the Sky</h3></a>
+                    <p>Romance</p>
+                    <p>1986</p>
+                    <br>
+                    <p>Castle in the Sky follows a young girl named Sheeta who possesses a mysterious crystal necklace that pirates and the government seek to control. She teams up with a boy named Pazu to unravel the secret of a legendary floating castle that could hold the key to her identity. Together, they navigate through various obstacles and encounters to uncover the truth behind the castle's ancient technology and the forces determined to exploit it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1764/138714l.webp" alt="Whisper of the Heart">
+                <div class="details">
+                    <a href="whisper-of-the-heart.html"><h3>Whisper of the Heart</h3></a>
+                    <p>Romance</p>
+                    <p>1995</p>
+                    <br>
+                    <p>Whisper of the Heart follows the story of a young girl named Shizuku Tsukishima who discovers a mysterious antique cat statue in a shop. Inspired by the statue's backstory, she sets out on a journey of self-discovery and creativity. Through her passion for writing and determination to follow her dreams, Shizuku navigates the challenges of adolescence and learns valuable lessons about love, friendship, and the pursuit of one's aspirations.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1728/138709l.webp" alt="Porco Rosso">
+                <div class="details">
+                    <a href="porco-rosso.html"><h3>Porco Rosso</h3></a>
+                    <p>Action</p>
+                    <p>1992</p>
+                    <br>
+                    <p>Set in the Adriatic Sea during the 1920s, Porco Rosso follows the story of a former World War I fighter pilot who has been cursed with the appearance of a pig. Now working as a freelance bounty hunter, Porco Rosso must navigate the dangers of aerial dogfights and the challenges of his own personal demons. When he crosses paths with an ambitious American pilot, tensions rise and the true test of his skills and courage begins.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1055/118890l.webp" alt="My Senpai is Annoying">
+                <div class="details">
+                    <a href="my-senpai-is-annoying.html"><h3>My Senpai is Annoying</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Futaba Igarashi is a hard-working office employee who is constantly annoyed by her loud and childish senpai, Harumi Takeda. Despite her frustrations, Futaba finds herself developing a close friendship with Harumi as they navigate the ups and downs of office life together. Will Futaba learn to tolerate her annoying senpai, or will their contrasting personalities lead to even more chaos in the workplace?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/42007l.jpg" alt="Utakoi">
+                <div class="details">
+                    <a href="utakoi.html"><h3>Utakoi</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Utakoi follows the tale of legendary poets Ono no Komachi and Fujiwara no Teika's love stories through the lens of 100 poems included in the ancient Uta Monogatari. Each episode delves into the romantic entanglements and obstacles faced by historical figures as they navigate their feelings amidst societal expectations. As the poets strive to express their deepest emotions through their verses, their relationships illuminate the complexities of love in a bygone era.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/32547l.jpg" alt="From Up on Poppy Hill">
+                <div class="details">
+                    <a href="from-up-on-poppy-hill.html"><h3>From Up on Poppy Hill</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In From Up on Poppy Hill, set in 1963 Yokohama, Japan, high school students Umi and Shun work together to save their school's clubhouse from demolition. As they form a strong bond, they discover a shared connection from their pasts. Amidst personal struggles and social change, the two must navigate their emotions and uncover the truth behind their intertwined destinies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1360/93571l.jpg" alt="Tsurune: Kazemai High School Kyudo Club">
+                <div class="details">
+                    <a href="tsurune%3A-kazemai-high-school-kyudo-club.html"><h3>Tsurune: Kazemai High School Kyudo Club</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Kazemai High School's Kyudo Club, once a powerhouse, is struggling to regain its former glory. Minato Narumiya, a former archery prodigy who lost his passion for the sport, joins the club alongside his childhood friends. Together, they work to overcome their individual struggles and aim for success in the upcoming tournament. Through dedication, friendship, and self-discovery, the members of the Kyudo Club learn valuable lessons both on and off the archery range.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/17488l.jpg" alt="Ristorante Paradiso">
+                <div class="details">
+                    <a href="ristorante-paradiso.html"><h3>Ristorante Paradiso</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Ristorante Paradiso, a young woman named Nicoletta travels to Rome to confront her estranged mother, who secretly runs a restaurant staffed by older gentlemen with one unique quirk each. As Nicoletta becomes entwined in the lives of the staff and regular customers, she navigates complex relationships and discovers the true meaning of family and love in this heartwarming tale set against the backdrop of an enchanting Italian restaurant.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1141/112764l.jpg" alt="Fog Hill of Five Elements">
+                <div class="details">
+                    <a href="fog-hill-of-five-elements.html"><h3>Fog Hill of Five Elements</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where elemental warriors protect their land, a powerful demon threatens to bring chaos and destruction. To stop him, a young warrior must journey to the Fog Hill and awaken the remaining elemental warriors. With each warrior possessing unique abilities, they must work together to harness their powers and save their world from impending doom. But as secrets unravel and alliances are tested, the true extent of their enemies' strength becomes clear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1579/140483l.jpg" alt="Kiki's Delivery Service">
+                <div class="details">
+                    <a href="kiki%27s-delivery-service.html"><h3>Kiki's Delivery Service</h3></a>
+                    <p>Drama</p>
+                    <p>1989</p>
+                    <br>
+                    <p>Kiki's Delivery Service follows the story of a young witch named Kiki who sets out on a journey to a new town as part of her traditional training. She starts a delivery service using her flying broomstick and befriends a kind baker and an artist along the way. As Kiki faces challenges and self-doubt, she learns valuable lessons about independence, friendship, and finding her own unique talents.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/75923l.webp" alt="My Neighbor Totoro">
+                <div class="details">
+                    <a href="my-neighbor-totoro.html"><h3>My Neighbor Totoro</h3></a>
+                    <p>Other Genre</p>
+                    <p>1988</p>
+                    <br>
+                    <p>Two young sisters move to the countryside with their father to be closer to their mother, who is recovering from an illness at a nearby hospital. As they explore their new home, they encounter friendly forest spirits, including Totoro, a giant cuddly creature. Together, they embark on magical adventures and form a special bond with the whimsical creatures of the forest.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 83%;"></span>
+                        </div>
+                        <p>83% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1974/116417l.webp" alt="The Secret World of Arrietty">
+                <div class="details">
+                    <a href="the-secret-world-of-arrietty.html"><h3>The Secret World of Arrietty</h3></a>
+                    <p>Other Genre</p>
+                    <p>2010</p>
+                    <br>
+                    <p>The Secret World of Arrietty follows the adventures of a tiny Borrower named Arrietty who lives beneath the floorboards of a house. When she is discovered by a human boy named Shawn, their unlikely friendship blossoms despite the dangers posed by their difference in size. As they navigate the challenges of their respective worlds, they must find a way to protect Arrietty's family secret while forging a bond that transcends their physical disparities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 91%;"></span>
+                        </div>
+                        <p>91% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1854/106930l.jpg" alt="All Saints Street">
+                <div class="details">
+                    <a href="all-saints-street.html"><h3>All Saints Street</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>All Saints Street follows the daily life of a group of supernatural beings living amongst humans in a bustling city. As they navigate through quirky adventures, mysterious incidents, and heartwarming moments, they form bonds and uncover the secrets of their existence. The series combines elements of comedy, supernatural, and slice of life genres, showcasing the unique dynamics between humans and otherworldly creatures in an urban setting.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

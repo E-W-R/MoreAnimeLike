@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Uzaki-chan Wants to Hang Out!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "41226";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1540/108292l.jpg" alt="Uzaki-chan Wants to Hang Out!">
+                <div>
+                    <h2 id="title">Uzaki-chan Wants to Hang Out!</h2>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br><br>
+                    <p>Sakurai's peaceful college life gets disrupted by the arrival of his energetic and boisterous underclassman, Uzaki-chan. Despite his desire for solitude, Uzaki-chan is determined to spend time with him, leading to comedic and heartwarming everyday adventures as their friendship grows. With Uzaki-chan's relentless teasing and Sakurai's exasperated reactions, the two navigate the ups and downs of their quirky relationship.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1900/110097l.jpg" alt="Don't Toy with Me, Miss Nagatoro">
+                <div class="details">
+                    <a href="don%27t-toy-with-me%2C-miss-nagatoro.html"><h3>Don't Toy with Me, Miss Nagatoro</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Nagatoro, a mischievous high school girl, constantly teases her upperclassman, an introverted and timid boy. Despite her relentless teasing, Nagatoro's interactions with him slowly evolve into something more meaningful as they navigate the ups and downs of high school life together. While Nagatoro enjoys provoking reactions from her classmate, her intentions might not be as malicious as they initially seem.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/80009l.jpg" alt="The Morose Mononokean">
+                <div class="details">
+                    <a href="the-morose-mononokean.html"><h3>The Morose Mononokean</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>The Morose Mononokean follows the story of high school student Hanae Ashiya, who accidentally summons a yokai and seeks help from the Mononokean, an exorcist who helps cleanse spirits and yokai. To repay his debt, Hanae becomes the Mononokean's assistant, embarking on various supernatural adventures and learning about the spirit world along the way. Together, they solve yokai-related issues and unravel mysteries surrounding the supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/42015l.jpg" alt="Love, Election and Chocolate">
+                <div class="details">
+                    <a href="love%2C-election-and-chocolate.html"><h3>Love, Election and Chocolate</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Love, Election and Chocolate, the story follows Yuki Ojima, a high school student who becomes involved in a student council election filled with rivalry and drama. As the election heats up, secrets are revealed, friendships are tested, and unexpected relationships bloom. In the midst of political maneuvering and personal struggles, Yuki must navigate his feelings while trying to make a difference in his school and protect what he holds dear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1568/101203l.webp" alt="If It's for My Daughter, I'd Even Defeat a Demon Lord">
+                <div class="details">
+                    <a href="if-it%27s-for-my-daughter%2C-i%27d-even-defeat-a-demon-lord.html"><h3>If It's for My Daughter, I'd Even Defeat a Demon Lord</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After saving a young demon girl, Dale decides to become her guardian, naming her Latina. He raises her in the quiet village of Kreuz, unaware of her mysterious past. As Latina grows, their bond deepens, but dark forces lurk in the shadows. Dale will do anything to protect his daughter, even if it means facing a powerful demon lord.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/64897l.jpg" alt="Inari Kon Kon">
+                <div class="details">
+                    <a href="inari-kon-kon.html"><h3>Inari Kon Kon</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Inari Kon Kon, a young girl named Inari saves a fox spirit from danger and is granted the ability to transform into anyone she wants. With her newfound power, Inari navigates her daily life, learning valuable lessons about friendship and self-acceptance along the way. As she tries to balance her ordinary life with extraordinary abilities, Inari must also come to terms with her own desires and insecurities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1879/136721l.webp" alt="Level 1 Demon Lord and One Room Hero">
+                <div class="details">
+                    <a href="level-1-demon-lord-and-one-room-hero.html"><h3>Level 1 Demon Lord and One Room Hero</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In Level 1 Demon Lord and One Room Hero, a powerful demon lord is transported to modern-day Tokyo. Despite his intimidating abilities, he is reduced to level 1 upon arrival. Now living in a small apartment, he forms an unlikely alliance with a young hero who aspires to become stronger. Together, they navigate the challenges of everyday life while encountering various foes from the demon lord's past. Will their partnership lead to victory or chaos?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1602/100510l.jpg" alt="We Never Learn: BOKUBEN">
+                <div class="details">
+                    <a href="we-never-learn%3A-bokuben.html"><h3>We Never Learn: BOKUBEN</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>We Never Learn: BOKUBEN follows Nariyuki Yuiga, a hardworking high school student tasked with tutoring three genius girls in different subjects to secure a scholarship. However, each girl excels in areas outside their specialty, leading to comedic and heartwarming mishaps as Nariyuki helps them navigate their academic and personal struggles. As he forms close bonds with the girls, Nariyuki realizes there might be more to teaching and learning than just books and exams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/74878l.jpg" alt="Wakaba Girl">
+                <div class="details">
+                    <a href="wakaba-girl.html"><h3>Wakaba Girl</h3></a>
+                    <p>Other Genre</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Wakaba Girl follows the everyday life of four high school girls— Wakaba, Moeko, Mao, and Nao— as they navigate school, friendship, and their individual interests. Despite their contrasting personalities, the girls form a close bond and support each other through the ups and downs of adolescence. The series focuses on the comedic and heartwarming moments that arise from their interactions and experiences as they grow and learn together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1733/140802l.jpg" alt="The Wrong Way to Use Healing Magic">
+                <div class="details">
+                    <a href="the-wrong-way-to-use-healing-magic.html"><h3>The Wrong Way to Use Healing Magic</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After accidentally killing a demon lord, novice healer Mitoshi is banished to a remote village. With no combat skills, he relies on his healing magic to survive, but there's a catch: he can only use it for destructive purposes. As he navigates his new life, Mitoshi must find a way to control his powers and protect those around him from the dangers that threaten the village.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1173/131830l.jpg" alt="Malevolent Spirits: Mononogatari">
+                <div class="details">
+                    <a href="malevolent-spirits%3A-mononogatari.html"><h3>Malevolent Spirits: Mononogatari</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a small village plagued by malevolent spirits, a young priestess with the ability to communicate with the supernatural becomes the last hope for its inhabitants. Together with a group of outcast warriors, she embarks on a dangerous journey to uncover the source of the spirits' anger and put an end to the curse that has haunted the village for generations. Amidst betrayal and dark secrets, they must face their own inner demons to save the village from doom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/85224l.webp" alt="Grimoire of Zero">
+                <div class="details">
+                    <a href="grimoire-of-zero.html"><h3>Grimoire of Zero</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a world where witches are feared and hunted, a young mercenary encounters a witch named Zero who is searching for a powerful grimoire. Despite his initial reservations, he agrees to help her in exchange for a cure for his curse. As they journey together, they face prejudice and persecution, gradually forming a deep bond as they navigate political intrigue and magical battles while trying to uncover the secrets of the grimoire.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1949/112982l.jpg" alt="Witch Craft Works">
+                <div class="details">
+                    <a href="witch-craft-works.html"><h3>Witch Craft Works</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Witch Craft Works, high school student Honoka finds himself protected by his school's Princess Ayaka, a powerful witch. As he becomes entangled in the world of magic and witches, Honoka must navigate through various dangers and challenges alongside Ayaka, all while uncovering the secrets behind his own role in this mystical world. Together, they must face formidable adversaries and protect their school from dark forces threatening to destroy everything they hold dear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1303/90909l.jpg" alt="Isekai Izakaya: Japanese Food From Another World">
+                <div class="details">
+                    <a href="isekai-izakaya%3A-japanese-food-from-another-world.html"><h3>Isekai Izakaya: Japanese Food From Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Isekai Izakaya: Japanese Food From Another World, a traditional Japanese izakaya mysteriously appears in a medieval European town through a magical door. The eatery's chef and waitress begin to serve the townspeople delicious Japanese dishes, captivating them with the unique flavors. As they share food and stories, the customers and staff forge new connections and friendships that transcend cultural boundaries in this heartwarming culinary tale.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1120/124644l.jpg" alt="Parallel World Pharmacy">
+                <div class="details">
+                    <a href="parallel-world-pharmacy.html"><h3>Parallel World Pharmacy</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Reiji Kirio is a young pharmacist who mysteriously gets summoned to a fantasy world where magic and alchemy exist. Using his knowledge of modern pharmacology, Reiji decides to open up his own pharmacy in this new world. As he crafts unique potions and remedies, Reiji finds himself caught up in various adventures and encounters with mystical creatures. Will his pharmaceutical expertise be enough to navigate this unfamiliar and dangerous realm?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/62655l.jpg" alt="Invaders of the Rokujyoma!?">
+                <div class="details">
+                    <a href="invaders-of-the-rokujyoma%21%3F.html"><h3>Invaders of the Rokujyoma!?</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After finding a perfect and affordable apartment, high schooler Kotaro moves in, only to realize his new home is already crowded – with a ghost, a magical girl, an alien princess, a girl with superhuman strength, and a underground dweller. As they all claim the apartment as their own, Kotaro finds himself in the middle of a cosmic conflict over the living space. Despite the chaos, they must learn to coexist and navigate their differences to live peacefully.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/50395l.webp" alt="Hanamaru Kindergarten">
+                <div class="details">
+                    <a href="hanamaru-kindergarten.html"><h3>Hanamaru Kindergarten</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Hanamaru Kindergarten follows Anzu, a playful and imaginative young girl who starts attending a kindergarten where her crush, the teacher Tsuchida, works. Alongside her friends, the mischievous Hiiragi and the level-headed Koume, Anzu embarks on various adventures and schemes to capture Tsuchida's attention. The series explores the daily lives and whimsical antics of the children at Hanamaru Kindergarten, filled with laughter, friendship, and innocent romance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1720/139131l.webp" alt="I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness">
+                <div class="details">
+                    <a href="i%27m-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness.html"><h3>I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After rescuing a noble lady from a precarious situation, a kind-hearted individual decides to teach her the ways of the world. Through a series of misadventures and amusing encounters, the once sheltered lady learns about the ways of society and discovers her own desires. As the two grow closer, they navigate the complexities of relationships and self-discovery, all while facing the challenges of their conflicting backgrounds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1418/108748l.jpg" alt="Love Me, Love Me Not">
+                <div class="details">
+                    <a href="love-me%2C-love-me-not.html"><h3>Love Me, Love Me Not</h3></a>
+                    <p>Romance</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Love Me, Love Me Not follows the intertwined stories of four high school students as they navigate the complexities of love and friendship. Yuna and Akari have opposite views on romance, while Rio is dealing with a one-sided crush and Kazuomi tries to decipher his feelings for a friend. As they support and confide in each other, their relationships and emotions become intertwined in unexpected ways.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1947/114235l.webp" alt="The Saint's Magic Power is Omnipotent">
+                <div class="details">
+                    <a href="the-saint%27s-magic-power-is-omnipotent.html"><h3>The Saint's Magic Power is Omnipotent</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After being summoned to a parallel world as the Saint who will save the kingdom, office worker Sei Takanashi finds herself overshadowed by another girl. Embracing a quieter life, Sei discovers her true calling lies in potion-making. As she settles into her new role, she unknowingly starts a ripple effect that will change the kingdom's fate. With her growing magic powers and gentle demeanor, Sei begins to carve her own path in this enchanting fantasy world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/88465l.webp" alt="Code:Realize ~Guardian of Rebirth~">
+                <div class="details">
+                    <a href="code%3Arealize-~guardian-of-rebirth~.html"><h3>Code:Realize ~Guardian of Rebirth~</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a steampunk world, protagonist Cardia Beckford discovers she carries a deadly poison in her skin. An encounter with the charming thief, Arsène Lupin, leads her on a journey to uncover the secrets of her past. Together with famous literary characters such as Victor Frankenstein and Abraham Van Helsing, Cardia seeks the truth behind her condition and unravels a conspiracy that puts the world at risk.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1462/98802l.jpg" alt="Yuuna and the Haunted Hot Springs">
+                <div class="details">
+                    <a href="yuuna-and-the-haunted-hot-springs.html"><h3>Yuuna and the Haunted Hot Springs</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Fuyuzora Kogarashi is a high school student haunted by spirits. In search of affordable housing, he moves into Yuragi-sou, a hot springs inn rumored to be haunted. There, he meets Yuuna, a sweet ghost unable to move on. Determined to help her pass on peacefully, Kogarashi decides to stay and protect the inn's residents from supernatural dangers. Along the way, he forms bonds with fellow tenants and discovers the secrets of Yuragi-sou.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1091/135041l.jpg" alt="A Galaxy Next Door">
+                <div class="details">
+                    <a href="a-galaxy-next-door.html"><h3>A Galaxy Next Door</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a futuristic world, humanity has colonized other planets. A young woman living on a distant planet dreams of exploring the galaxy. When a mysterious spaceship crash-lands near her home, she discovers a wounded alien pilot who needs her help to repair the ship and return home. Together, they embark on an adventure across the galaxy, encountering new civilizations and facing dangerous challenges along the way. Will they be able to navigate through the vast unknown of space and find their way back home?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/18299l.jpg" alt="Nyan Koi!">
+                <div class="details">
+                    <a href="nyan-koi%21.html"><h3>Nyan Koi!</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After breaking a cat statue, Junpei gains the ability to understand cats. In order to lift the curse, he must help 100 cats. Despite being allergic, he embarks on this quest while trying to keep his newfound talent a secret. With the assistance of his crush and fellow cat lover, Kaede, Junpei navigates between his affection for her and the chaos caused by the feline friends he finds himself surrounded by.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 75%;"></span>
+                        </div>
+                        <p>75% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1361/120706l.jpg" alt="Skeleton Knight in Another World">
+                <div class="details">
+                    <a href="skeleton-knight-in-another-world.html"><h3>Skeleton Knight in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After mysteriously being transported to a medieval fantasy world, a young man named Arc decides to use his gaming skills to become the feared Skeleton Knight. With his powerful skeleton armor and newfound abilities, Arc embarks on a journey to uncover the truth behind his arrival in this world. Along the way, he forms alliances, battles formidable foes, and seeks to protect those in need, all while trying to find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 75%;"></span>
+                        </div>
+                        <p>75% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1945/126130l.jpg" alt="When Will Ayumu Make His Move?">
+                <div class="details">
+                    <a href="when-will-ayumu-make-his-move%3F.html"><h3>When Will Ayumu Make His Move?</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Ayumu is a shy high school student who has feelings for his outgoing and popular classmate, Maki. With the help of his friends, he embarks on a journey to find the courage to confess his feelings to her. As Ayumu navigates through the challenges of school life and relationships, he must confront his own insecurities and fears in order to take a leap of faith and express his love for Maki.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 75%;"></span>
+                        </div>
+                        <p>75% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/84461l.webp" alt="Tsugumomo">
+                <div class="details">
+                    <a href="tsugumomo.html"><h3>Tsugumomo</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Tsugumomo follows Kazuya Kagami, who discovers that his late mother's obi (sash) possesses a spirit named Kiriha. With Kiriha's powerful abilities and tsukumogami form, Kazuya enters a world filled with dangerous supernatural beings. Together, they embark on a journey to defeat evil spirits and uncover the truth behind his family's past. Through battles and trials, Kazuya must learn to harness the obi's power and protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <p>80% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/75284l.jpg" alt="You're Being Summoned, Azazel">
+                <div class="details">
+                    <a href="you%27re-being-summoned%2C-azazel.html"><h3>You're Being Summoned, Azazel</h3></a>
+                    <p>Comedy</p>
+                    <p>2011</p>
+                    <br>
+                    <p>When a detective seeks the help of amateur demon summoner Akutabe to solve various cases involving demons, chaos ensues. Together with his demonic familiar Azazel, the duo must navigate through the quirky and sometimes dangerous world of demon summoning in order to uncover the truth behind each case. As they delve deeper into the supernatural, they encounter a colorful cast of demons and humans, each with their own secrets and motives.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <p>80% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/71963l.webp" alt="Gourmet Girl Graffiti">
+                <div class="details">
+                    <a href="gourmet-girl-graffiti.html"><h3>Gourmet Girl Graffiti</h3></a>
+                    <p>Other Genre</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Gourmet Girl Graffiti follows the story of Ryou, a high school girl who discovers the power of meals to bring joy and comfort. Through her passion for cooking, she forms deep connections with friends and family, exploring the feelings and memories that food can evoke. Together with her cousin, Kirin, they embark on a journey of culinary delights, learning valuable life lessons along the way. This heartwarming anime celebrates the simple joys of food and friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <p>80% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1008/140287l.jpg" alt="The Unwanted Undead Adventurer">
+                <div class="details">
+                    <a href="the-unwanted-undead-adventurer.html"><h3>The Unwanted Undead Adventurer</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After mysteriously dying, warrior Fukamori regains consciousness in a dark cave. Realizing he's become an undead, he struggles to cope with his new existence. Determined to uncover the truth behind his resurrection, Fukamori sets off on a journey filled with danger and surprises. With his new companion, a healer named Alice, by his side, Fukamori faces otherworldly creatures and challenges, all while trying to make sense of his undead status.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 81%;"></span>
+                        </div>
+                        <p>81% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/19934l.jpg" alt="KimiKiss: Pure Rouge">
+                <div class="details">
+                    <a href="kimikiss%3A-pure-rouge.html"><h3>KimiKiss: Pure Rouge</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Kouichi is a high school student who crosses paths with several girls, leading to feelings of love and friendship. As relationships form and bonds deepen, Kouichi must navigate the complexities of young romance and understanding his own emotions. With a mix of heartwarming moments and emotional conflicts, KimiKiss: Pure Rouge explores the beauty and challenges of adolescent relationships.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

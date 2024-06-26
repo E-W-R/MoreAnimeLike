@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Gal & Dino</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "40358";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <input type="text" id="searchBox" class="searchBox" value="Gal & Dino">
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1603/111352l.jpg" alt="Gal & Dino">
+                <div>
+                    <h2 id="title">Gal & Dino</h2>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br><br>
+                    <p>Gal & Dino follows the unconventional friendship between a fashionable gal named Kaede and a dinosaur named Dino who moves into her apartment. Despite their differences, they navigate everyday life together, leading to humorous and heartwarming adventures. With Dino's unique abilities and Kaede's outgoing personality, the pair embark on various escapades, encountering both the joyful and the unpredictable aspects of their worlds.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 6%;"></span>
+                        </div>
+                        <p>6% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/61921l.jpg" alt="Inugami-san to Nekoyama-san">
+                <div class="details">
+                    <a href="inugami-san-to-nekoyama-san.html"><h3>Inugami-san to Nekoyama-san</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Inugami-san to Nekoyama-san follows the comedic slice-of-life adventures of the unlikely pair, Inugami and Nekoyama. Despite being polar opposites in personality, Inugami, resembling a dog, and Nekoyama, resembling a cat, find themselves drawn to each other. As they navigate their daily lives at school with their friends, their bond deepens, leading to light-hearted and charming interactions filled with humor and friendship.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Ride Your Wave</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "38594";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1893/99701l.jpg" alt="Ride Your Wave">
+                <div>
+                    <h2 id="title">Ride Your Wave</h2>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br><br>
+                    <p>Hinako, a devoted surfer, moves to a seaside town for college. She befriends firefighter Minato, and they quickly fall in love. However, tragedy strikes, and Hinako must learn to cope with her loss. Surprisingly, she discovers a mystical connection to Minato whenever she sings a certain song. Now, Hinako must navigate this newfound ability while coming to terms with her grief and finding a way to move forward in life.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1045/106389l.webp" alt="A Whisker Away">
+                <div class="details">
+                    <a href="a-whisker-away.html"><h3>A Whisker Away</h3></a>
+                    <p>Romance</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In A Whisker Away, a girl named Miyo discovers a mysterious mask that allows her to transform into a cat. She uses this ability to get closer to her crush, but the line between her human and cat selves begins to blur. As she navigates the challenges of her double identity, she must ultimately learn to accept herself for who she truly is.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/81654l.jpg" alt="Sound of the Sky">
+                <div class="details">
+                    <a href="sound-of-the-sky.html"><h3>Sound of the Sky</h3></a>
+                    <p>Other Genre</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In a post-apocalyptic world, a young girl named Kanata joins the 1121st Platoon in the remote town of Seize. With a history of warfare and lost technology, the group now focuses on playing music to heal and connect with one another. As Kanata learns the trumpet, she uncovers the town's past and discovers the power of friendship in a world still haunted by its history.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/80546l.webp" alt="Sweetness & Lightning">
+                <div class="details">
+                    <a href="sweetness-%26-lightning.html"><h3>Sweetness & Lightning</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the death of his wife, a single father decides to improve his cooking skills in order to properly feed his daughter. With the help of one of his students, they begin to learn how to cook delicious meals together and form a heartwarming bond. Through their culinary adventures, they also become closer as a family. The anime follows their journey of healing, growth, and the joy of good food.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1009/103187l.jpg" alt="Welcome to Demon School! Iruma-kun">
+                <div class="details">
+                    <a href="welcome-to-demon-school%21-iruma-kun.html"><h3>Welcome to Demon School! Iruma-kun</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Iruma Suzuki, a kind-hearted and overworked teenage boy, finds himself sold to a demon by his irresponsible parents. To his surprise, the demon he is sent to live with, Sullivan, is caring and enrolls him in the demon school. Trying to keep his human identity a secret, Iruma navigates the challenges of demon school life while making friends and unintentionally becoming popular. Follow his hilarious and heartwarming adventures as he discovers his place in the demon world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1055/118890l.webp" alt="My Senpai is Annoying">
+                <div class="details">
+                    <a href="my-senpai-is-annoying.html"><h3>My Senpai is Annoying</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Futaba Igarashi is a hard-working office employee who is constantly annoyed by her loud and childish senpai, Harumi Takeda. Despite her frustrations, Futaba finds herself developing a close friendship with Harumi as they navigate the ups and downs of office life together. Will Futaba learn to tolerate her annoying senpai, or will their contrasting personalities lead to even more chaos in the workplace?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1393/118374l.jpg" alt="Irina: The Vampire Cosmonaut">
+                <div class="details">
+                    <a href="irina%3A-the-vampire-cosmonaut.html"><h3>Irina: The Vampire Cosmonaut</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where vampires secretly coexist with humans, Irina, a skilled vampire cosmonaut, embarks on a mission to explore a distant planet. As she navigates the challenges of space travel and encounters new life forms, Irina must also confront her own inner struggles and past traumas. With the fate of both worlds hanging in the balance, Irina's journey leads her to uncover secrets that could change everything she knows about herself and her kind.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1462/125397l.jpg" alt="The Tunnel to Summer, the Exit of Goodbyes">
+                <div class="details">
+                    <a href="the-tunnel-to-summer%2C-the-exit-of-goodbyes.html"><h3>The Tunnel to Summer, the Exit of Goodbyes</h3></a>
+                    <p>Mystery</p>
+                    <p>2022</p>
+                    <br>
+                    <p>As a group of friends embarks on a nostalgic trip, they discover a mysterious tunnel that leads them to a different time period in their town's history. Struggling to find a way back home, they uncover hidden secrets and face challenges that test their friendship. With each journey through the tunnel, they learn valuable lessons about love, loss, and the importance of cherishing the present moment.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1827/113510l.jpg" alt="Backflip!!">
+                <div class="details">
+                    <a href="backflip%21%21.html"><h3>Backflip!!</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Backflip!! follows a group of high school boys who join their school's struggling gymnastics team in hopes of reviving it to its former glory. Each of the boys brings their unique skills and personalities to the team, working together to overcome challenges, form strong bonds, and improve both individually and as a team. As they strive to compete on a national level, they also navigate personal growth, friendship dynamics, and the competitive world of gymnastics.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1747/116922l.jpg" alt="Fortune Favors Lady Nikuko">
+                <div class="details">
+                    <a href="fortune-favors-lady-nikuko.html"><h3>Fortune Favors Lady Nikuko</h3></a>
+                    <p>Drama</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where luck is everything, Lady Nikuko possesses a mysterious power that allows her to manipulate fortune. However, her ability attracts the attention of dark forces who seek to harness her gift for their own gain. With the help of a group of unlikely allies, Lady Nikuko must navigate a dangerous game of deceit and betrayal to protect her powers and those she holds dear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1958/117686l.jpg" alt="Star Wars: Visions">
+                <div class="details">
+                    <a href="star-wars%3A-visions.html"><h3>Star Wars: Visions</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Star Wars: Visions is a unique anthology anime series that explores various stories set in the beloved Star Wars universe. Each episode presents a new and original tale, offering a fresh perspective on the iconic franchise through the lens of Japanese animation. From Jedi warriors to Sith lords, viewers are taken on a thrilling journey filled with action, adventure, and the eternal battle between light and dark.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1149/107242l.jpg" alt="A Letter to Momo">
+                <div class="details">
+                    <a href="a-letter-to-momo.html"><h3>A Letter to Momo</h3></a>
+                    <p>Drama</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After the loss of her father, young Momo moves to a small island with her mother. Soon, she discovers a mysterious letter from her father, urging her to be strong. As she grapples with her grief, supernatural occurrences begin happening around her, making her question if her father's spirit is trying to reach out to her. With the help of two yokai, Momo embarks on a journey of self-discovery and healing.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1454/122063l.jpg" alt="The Yakuza's Guide to Babysitting">
+                <div class="details">
+                    <a href="the-yakuza%27s-guide-to-babysitting.html"><h3>The Yakuza's Guide to Babysitting</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When a tough yakuza member suddenly becomes the guardian of a young child, he is completely out of his element. Forced to navigate the world of diapers and nap times, he must protect the adorable child from the dangers of his criminal world. As he struggles to balance his tough-as-nails reputation with the responsibilities of childcare, he begins to discover a softer side of himself he never knew existed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1263/124155l.jpg" alt="Drifting Home">
+                <div class="details">
+                    <a href="drifting-home.html"><h3>Drifting Home</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Drifting Home follows a group of friends who embark on a journey to find a place they can call home, exploring different cities and landscapes along the way. As they navigate through challenges and form deep bonds with each other, they discover the true meaning of belonging and the importance of friendship. Set against the backdrop of stunning scenery, the group's adventures teach them valuable life lessons and lead them to unexpected destinations.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/21278l.jpg" alt="Steamboy">
+                <div class="details">
+                    <a href="steamboy.html"><h3>Steamboy</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Steamboy follows the story of a young inventor in Victorian England who receives a mysterious metal ball from his scientist grandfather. Unbeknownst to him, the ball holds the key to a powerful source of energy that could change the course of history. As various factions seek to possess the ball for their own gain, the young inventor must navigate a dangerous world of steam-powered technology and political intrigue to protect it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1535/116583l.jpg" alt="Sing a Bit of Harmony">
+                <div class="details">
+                    <a href="sing-a-bit-of-harmony.html"><h3>Sing a Bit of Harmony</h3></a>
+                    <p>Drama</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Sing a Bit of Harmony, a high school girl named Shion crosses paths with a peculiar artificial being named Harmony. Through their unusual friendship, they embark on a heartwarming adventure that challenges societal norms and confronts the boundaries of technology and human emotions. As they navigate their way through a world filled with secrets and discoveries, Shion and Harmony must learn to understand each other and themselves in order to bring about change.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1818/132330l.jpg" alt="Kubo Won't Let Me Be Invisible">
+                <div class="details">
+                    <a href="kubo-won%27t-let-me-be-invisible.html"><h3>Kubo Won't Let Me Be Invisible</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Kubo Won't Let Me Be Invisible is a heartwarming anime about Junta Shiraishi, a high school student who often goes unnoticed. His life changes when Nagisa Kubo, a lively classmate, starts giving him attention and refuses to let him stay invisible. Through Kubo's persistent and playful interactions, Junta begins to experience the joys of being noticed. The series blends comedy and romance, focusing on their growing relationship and the transformative impact of kindness and recognition.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1828/90335l.jpg" alt="Mary and the Witch's Flower">
+                <div class="details">
+                    <a href="mary-and-the-witch%27s-flower.html"><h3>Mary and the Witch's Flower</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Mary and the Witch's Flower follows a young girl named Mary who discovers a mysterious flower that grants her magical powers for one night. Transported to a school for witches and wizards, Mary finds herself caught up in a thrilling adventure. As she explores this new world, she uncovers dark secrets and must use her newfound powers to save herself and her friends.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1947/114235l.webp" alt="The Saint's Magic Power is Omnipotent">
+                <div class="details">
+                    <a href="the-saint%27s-magic-power-is-omnipotent.html"><h3>The Saint's Magic Power is Omnipotent</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After being summoned to a parallel world as the Saint who will save the kingdom, office worker Sei Takanashi finds herself overshadowed by another girl. Embracing a quieter life, Sei discovers her true calling lies in potion-making. As she settles into her new role, she unknowingly starts a ripple effect that will change the kingdom's fate. With her growing magic powers and gentle demeanor, Sei begins to carve her own path in this enchanting fantasy world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1444/131828l.webp" alt="Tomo-chan Is a Girl!">
+                <div class="details">
+                    <a href="tomo-chan-is-a-girl%21.html"><h3>Tomo-chan Is a Girl!</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Tomo Aizawa is a girl with a tomboyish personality and has been friends with her neighbor, Junichirou Kubota, since they were kids. Unbeknownst to Tomo, Jun has developed romantic feelings for her over the years. The series follows their everyday high school life filled with comedic misunderstandings, awkward situations, and Jun's attempts to confess his love to Tomo. Will Jun finally be able to express his feelings to Tomo, or will their friendship remain the same?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1320/93443l.jpg" alt="Penguin Highway">
+                <div class="details">
+                    <a href="penguin-highway.html"><h3>Penguin Highway</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Penguin Highway, a curious fourth-grade boy embarks on a mysterious adventure when a surge of penguins inexplicably invades his suburban town. Fueled by his inquisitive nature, he sets out to uncover the truth behind this fantastical occurrence, leading him to unravel secrets beyond his imagination. As he delves deeper into the peculiar phenomenon, the boy discovers that the penguins' presence may be connected to a strange woman who works at his dentist's office.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/62655l.jpg" alt="Invaders of the Rokujyoma!?">
+                <div class="details">
+                    <a href="invaders-of-the-rokujyoma%21%3F.html"><h3>Invaders of the Rokujyoma!?</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After finding a perfect and affordable apartment, high schooler Kotaro moves in, only to realize his new home is already crowded – with a ghost, a magical girl, an alien princess, a girl with superhuman strength, and a underground dweller. As they all claim the apartment as their own, Kotaro finds himself in the middle of a cosmic conflict over the living space. Despite the chaos, they must learn to coexist and navigate their differences to live peacefully.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1954/129158l.jpg" alt="Lonely Castle in the Mirror">
+                <div class="details">
+                    <a href="lonely-castle-in-the-mirror.html"><h3>Lonely Castle in the Mirror</h3></a>
+                    <p>Mystery</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Lonely Castle in the Mirror, a group of lonely high school students discover a mysterious mirror that leads them to a magical world where wishes can come true. As they navigate this enchanting realm, each character confronts their deepest desires and insecurities, forming bonds with one another along the way. Together, they must confront the challenges of the magical world and face their inner demons to find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1350/133642l.jpg" alt="My Clueless First Friend">
+                <div class="details">
+                    <a href="my-clueless-first-friend.html"><h3>My Clueless First Friend</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>When shy and introverted high school student Hana befriends the outgoing and popular Ayumi, their unlikely friendship blossoms as they navigate the ups and downs of adolescence together. With Ayumi's infectious energy and Hana's level-headed nature, the two girls learn valuable lessons about friendship, love, and acceptance as they support each other through various challenges. My Clueless First Friend is a heartwarming tale of the transformative power of friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1733/140802l.jpg" alt="The Wrong Way to Use Healing Magic">
+                <div class="details">
+                    <a href="the-wrong-way-to-use-healing-magic.html"><h3>The Wrong Way to Use Healing Magic</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After accidentally killing a demon lord, novice healer Mitoshi is banished to a remote village. With no combat skills, he relies on his healing magic to survive, but there's a catch: he can only use it for destructive purposes. As he navigates his new life, Mitoshi must find a way to control his powers and protect those around him from the dangers that threaten the village.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1952/116031l.webp" alt="Words Bubble Up Like Soda Pop">
+                <div class="details">
+                    <a href="words-bubble-up-like-soda-pop.html"><h3>Words Bubble Up Like Soda Pop</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Words Bubble Up Like Soda Pop, a shy boy who expresses himself through haiku poetry forms an unexpected connection with a popular and cheerful girl who loves all things fashion. The two meet at a shopping mall and develop a unique friendship as they navigate their personal struggles and insecurities. Through their shared love of music and words, they learn valuable lessons about communication, understanding, and the beauty of human connections.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/85430l.webp" alt="Zakuro">
+                <div class="details">
+                    <a href="zakuro.html"><h3>Zakuro</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In an alternate version of Japan's Meiji era, half-spirit beings known as zakuro work alongside humans to maintain harmony. The story follows a young lieutenant from the Ministry of Spirit Affairs and his team of zakuro as they investigate mysterious incidents and confront the challenges of bridging the gap between the two worlds. As they uncover hidden truths and face danger, they must learn to trust each other and work together to protect the fragile peace between humans and spirits.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1039/131684l.jpg" alt=""Ippon" again!">
+                <div class="details">
+                    <a href="%22ippon%22-again%21.html"><h3>"Ippon" again!</h3></a>
+                    <p>Sports</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Aspiring young judo practitioner, Kaito, dreams of becoming a national champion to honor his late father. With determination and hard work, he joins an elite judo team known for producing top athletes. Alongside his talented teammates, Kaito faces tough opponents and internal struggles on his journey to success. Through intense training and fierce competitions, he learns the true meaning of perseverance and the importance of teamwork in achieving his goals. Will Kaito's passion for judo lead him to victory?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/84260l.jpg" alt="Lu Over the Wall">
+                <div class="details">
+                    <a href="lu-over-the-wall.html"><h3>Lu Over the Wall</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Lu Over the Wall follows the story of a young boy named Kai who befriends a mermaid named Lu. As Lu explores the human world through her love for music and dance, their friendship faces challenges from those who fear her magical abilities. Together, Kai and Lu embark on a whimsical and heartwarming adventure filled with friendship, music, and a little bit of magic.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1839/123300l.jpg" alt="Aki no Kanade">
+                <div class="details">
+                    <a href="aki-no-kanade.html"><h3>Aki no Kanade</h3></a>
+                    <p>Other Genre</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Aki no Kanade follows high school student Aki Miyagawa, who joins her school's traditional Japanese music club despite having no musical experience. With the help of her classmates, Aki starts to learn the art of playing the koto, a traditional string instrument. As she struggles to master the instrument and understand the deeper meaning of music, Aki's passion for the koto grows, leading to personal growth and newfound friendships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 78%;"></span>
+                        </div>
+                        <p>78% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/82343l.jpg" alt="Poco's Udon World">
+                <div class="details">
+                    <a href="poco%27s-udon-world.html"><h3>Poco's Udon World</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the death of his father, Souta returns to his hometown to close the family udon shop. When he discovers a mysterious boy named Poco with supernatural abilities hiding in the shop, Souta decides to take care of him. As Souta juggles between managing the shop and unraveling Poco's secrets, he learns valuable life lessons and the true importance of family bonds.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

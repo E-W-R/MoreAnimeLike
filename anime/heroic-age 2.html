@@ -1,0 +1,682 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Heroic Age</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "2002";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <input type="text" id="searchBox" class="searchBox" value="Heroic Age">
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/12/50435l.jpg" alt="Heroic Age">
+                <div>
+                    <h2 id="title">Heroic Age</h2>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br><br>
+                    <p>In a universe where multiple alien species coexist, a young human named Age is discovered with unimaginable power. As the Nodos, powerful beings from ancient myth, awaken, Age becomes the key to unlocking humanity's destiny. With Earth's fate hanging in the balance, Age must navigate political intrigue and intergalactic warfare to bring about peace and unity among the stars. But as ancient prophecies unfold, Age's true purpose may alter the course of the universe forever.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/61781l.webp" alt="Chaika -The Coffin Princess-">
+                <div class="details">
+                    <a href="chaika--the-coffin-princess-.html"><h3>Chaika -The Coffin Princess-</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Chaika -The Coffin Princess- follows a young girl named Chaika who travels with two saboteurs, searching for the remains of her father in a post-war fantasy world. With a mysterious coffin in tow and unique magical abilities, Chaika encounters challenges and adversaries on her journey. As secrets unravel and loyalties are tested, Chaika must navigate political intrigue and confront the truth about her identity to fulfill her mission.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/50375l.jpg" alt="Linebarrels of Iron">
+                <div class="details">
+                    <a href="linebarrels-of-iron.html"><h3>Linebarrels of Iron</h3></a>
+                    <p>Action</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Kouichi Hayase's life changes when he encounters a mysterious mecha, Linebarrel, which grants him immense power. As he becomes a reluctant hero involved in a war between secret organizations and alien invaders, Kouichi must navigate his newfound abilities while uncovering the truth behind the Linebarrel and his own past. With the fate of the world at stake, Kouichi must decide how to wield his power responsibly.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/75535l.jpg" alt="Pandora Hearts">
+                <div class="details">
+                    <a href="pandora-hearts.html"><h3>Pandora Hearts</h3></a>
+                    <p>Mystery</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Oz Vessalius, a noble heir, is sent to a mysterious prison called the Abyss on his coming-of-age ceremony. In the Abyss, he makes a contract with a Chain named Alice, and together they seek to unravel the secrets of the Vessalius family while evading the sinister organization known as Pandora. Through their journey, they encounter other chains and delve into the dark past that connects them all.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1938/102796l.jpg" alt="Somali and the Forest Spirit">
+                <div class="details">
+                    <a href="somali-and-the-forest-spirit.html"><h3>Somali and the Forest Spirit</h3></a>
+                    <p>Drama</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where humans are long gone, a golem, tasked with maintaining the forest, encounters a young human girl named Somali. Realizing that she is alone and in danger, the golem agrees to accompany her on a journey to find her kind. As they travel through various landscapes and encounter different creatures, their bond grows stronger while they navigate the challenges of a world that may not accept Somali's existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/61891l.jpg" alt="One Week Friends">
+                <div class="details">
+                    <a href="one-week-friends.html"><h3>One Week Friends</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>One Week Friends follows the story of high school student Yuki Hase, who befriends his classmate Kaori Fujimiya. However, he soon discovers that Kaori's memory resets every Monday, causing her to forget all the friends she made the previous week. Determined to befriend her again and again, Yuki continues to reach out to Kaori in hopes of forming a lasting connection with her despite the challenges they face.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/80009l.jpg" alt="The Morose Mononokean">
+                <div class="details">
+                    <a href="the-morose-mononokean.html"><h3>The Morose Mononokean</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>The Morose Mononokean follows the story of high school student Hanae Ashiya, who accidentally summons a yokai and seeks help from the Mononokean, an exorcist who helps cleanse spirits and yokai. To repay his debt, Hanae becomes the Mononokean's assistant, embarking on various supernatural adventures and learning about the spirit world along the way. Together, they solve yokai-related issues and unravel mysteries surrounding the supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/12238l.jpg" alt="Chrome Shelled Regios">
+                <div class="details">
+                    <a href="chrome-shelled-regios.html"><h3>Chrome Shelled Regios</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In a post-apocalyptic world where humanity lives in mobile cities to escape pollution and contaminated air, a young fighter named Layfon struggles to keep his troubled past hidden. When his true abilities come to light, Layfon is forced to join the military arts academy to defend his city from dangerous creatures known as Contaminoids. As he trains to become stronger, Layfon uncovers dark conspiracies and must face his inner demons to protect his new home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1190/95421l.webp" alt="Samurai 7">
+                <div class="details">
+                    <a href="samurai-7.html"><h3>Samurai 7</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>In a world where samurais are replaced by giant robots, a small village oppressed by bandits seeks out seven skilled warriors to help protect them. As the samurais take on the powerful enemies, they uncover dark secrets and form bonds that will test their loyalty and values. Amidst intense battles and intricate political schemes, the samurais must come together to save the village and restore peace to the land.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1818/132330l.jpg" alt="Kubo Won't Let Me Be Invisible">
+                <div class="details">
+                    <a href="kubo-won%27t-let-me-be-invisible.html"><h3>Kubo Won't Let Me Be Invisible</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Kubo Won't Let Me Be Invisible is a heartwarming anime about Junta Shiraishi, a high school student who often goes unnoticed. His life changes when Nagisa Kubo, a lively classmate, starts giving him attention and refuses to let him stay invisible. Through Kubo's persistent and playful interactions, Junta begins to experience the joys of being noticed. The series blends comedy and romance, focusing on their growing relationship and the transformative impact of kindness and recognition.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/44594l.jpg" alt="Majestic Prince">
+                <div class="details">
+                    <a href="majestic-prince.html"><h3>Majestic Prince</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Majestic Prince, a group of genetically enhanced teenagers known as the AHSMB pilots must protect humanity from an alien species threatening Earth. Follow their struggles as they battle in space, forming strong bonds and uncovering their true potential along the way. The team faces challenging missions and enemies, testing their abilities and determination to defend their home planet.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/77386l.jpg" alt="Schwarzes Marken">
+                <div class="details">
+                    <a href="schwarzes-marken.html"><h3>Schwarzes Marken</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In an alternate history where humanity is fighting a deadly alien race, the East German military unit known as the 666th TSF Squadron, also called Schwarzes Marken, battles the aliens in intense mecha combat. As they struggle to protect East Germany from the alien threat, the squadron must also navigate political intrigue within their own ranks and face the harsh realities of war.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/75094l.jpg" alt="Tokyo Ravens">
+                <div class="details">
+                    <a href="tokyo-ravens.html"><h3>Tokyo Ravens</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In a world where magic and technology coexist, protagonist Harutora discovers his hidden powers as an onmyoji (spiritual medium). Teamed up with his childhood friend Natsume, who belongs to one of the most powerful onmyo families, they embark on a journey to protect Tokyo from malevolent spirits and prevent a catastrophic event. Together, they must navigate the challenges of the spirit world while uncovering dark secrets and forming alliances to save their city.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/79838l.jpg" alt="Kobato.">
+                <div class="details">
+                    <a href="kobato..html"><h3>Kobato.</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Kobato. follows the story of a kind-hearted and clumsy girl named Kobato who is on a mission to fill a mysterious bottle with wounded hearts in order to fulfill her wish. Despite her naivety, she is determined to help those in need while trying to understand the complexities of human emotions. With the help of a grumpy plush toy named Ioryogi, Kobato navigates through various challenges and learns valuable life lessons along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1814/99677l.jpg" alt="The Helpful Fox Senko-san">
+                <div class="details">
+                    <a href="the-helpful-fox-senko-san.html"><h3>The Helpful Fox Senko-san</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In The Helpful Fox Senko-san, an overworked salaryman is visited by Senko, a 800-year-old fox deity. Determined to help him relax and enjoy life again, Senko takes on the appearance of a young girl and becomes his housekeeper. As she showers him with care and affection, he begins to find happiness in the simple joys of everyday life. Through their heartwarming interactions, Senko helps him rediscover the beauty of living in the present moment.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/75789l.webp" alt="Canaan">
+                <div class="details">
+                    <a href="canaan.html"><h3>Canaan</h3></a>
+                    <p>Mystery</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Canaan, featuring an intricate storyline, an ex-soldier and current mercenary struggles with her traumatic past. She crosses paths with a journalist and a young girl, and together they face a terrorist organization plotting a deadly attack. As they uncover the dark secrets behind the group and their own connections to it, they find themselves entangled in a dangerous web of conspiracy and betrayal.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1380/139745l.jpg" alt="The Witch and the Beast">
+                <div class="details">
+                    <a href="the-witch-and-the-beast.html"><h3>The Witch and the Beast</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a world where witches and beasts coexist, a powerful witch seeks to eradicate all beasts to avenge her family. However, her plans take a turn when she encounters a mysterious, amnesiac beast who seems different from the others. As they embark on a journey together, they uncover dark secrets and face dangerous foes, forcing them to confront their own pasts and the true nature of their bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/82281l.jpg" alt="Kuromukuro">
+                <div class="details">
+                    <a href="kuromukuro.html"><h3>Kuromukuro</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>When ancient mechs known as Efy Dolgh are discovered in Japan, a high school student named Yukina joins forces with a mysterious samurai from the past to pilot one and defend Earth from alien invaders known as the Efy Tal. As they work together to uncover the truth behind the invaders' motives, they must navigate alliances and rivalries both on and off the battlefield. With the fate of the world at stake, they must learn to trust each other and harness the true power of the Kuromukuro.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/75631l.jpg" alt="Nura: Rise of the Yokai Clan">
+                <div class="details">
+                    <a href="nura%3A-rise-of-the-yokai-clan.html"><h3>Nura: Rise of the Yokai Clan</h3></a>
+                    <p>Action</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Rikuo Nura, a middle school student, is part human and part yokai (demon). As the heir to the Nura Clan, he must come to terms with his dual nature and lead the yokai community. With escalating conflicts between yokai and humans, Rikuo must navigate his duties while protecting his loved ones from danger. Balancing his human and yokai sides, Rikuo must decide what kind of leader he wants to become.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/21898l.webp" alt="Earl and Fairy">
+                <div class="details">
+                    <a href="earl-and-fairy.html"><h3>Earl and Fairy</h3></a>
+                    <p>Romance</p>
+                    <p>2008</p>
+                    <br>
+                    <p>In Earl and Fairy, Lydia Carlton, a young woman with the ability to communicate with fairies, embarks on a journey to Scotland. There, she meets Edgar Ashenbert, a charming and enigmatic earl who enlists her help in finding a legendary sword. As Lydia and Edgar traverse the Scottish countryside, they encounter both friends and foes in their quest, all while unraveling mysteries of the past and forging a deeper connection with each other.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/58635l.jpg" alt="Broken Blade">
+                <div class="details">
+                    <a href="broken-blade.html"><h3>Broken Blade</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a world where people can control quartz for powerful machines, Rygart is one of the rare individuals who cannot. When war breaks out between neighboring countries, he is forced to confront his past and use his unique abilities to help his friends. As he becomes embroiled in the conflict, Rygart must navigate complex political schemes and fierce battles to protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/75249l.jpg" alt="Engaged to the Unidentified">
+                <div class="details">
+                    <a href="engaged-to-the-unidentified.html"><h3>Engaged to the Unidentified</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Engaged to the Unidentified follows the story of Kobeni, who finds out on her 16th birthday that she is engaged to a boy named Hakuya. However, things take an unexpected turn when Hakuya and his little sister Mashiro move in with Kobeni and her family. As Kobeni navigates her new relationship and living arrangements, she uncovers surprising secrets about Hakuya and Mashiro's past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1739/124338l.jpg" alt="Tales of Zestiria the X">
+                <div class="details">
+                    <a href="tales-of-zestiria-the-x.html"><h3>Tales of Zestiria the X</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where humans and supernatural beings coexist, a young man named Sorey discovers his destiny as the Shepherd, a legendary figure said to bring peace to the land. With newfound companions, Sorey embarks on a journey to purify the malevolent beings known as Hellions and save the world from a looming darkness. As he uncovers the secrets of his past and the true nature of the world around him, Sorey must overcome numerous challenges to fulfill his role as the Shepherd.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1908/93416l.jpg" alt="Boarding School Juliet">
+                <div class="details">
+                    <a href="boarding-school-juliet.html"><h3>Boarding School Juliet</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a world where two rival factions of students, the Black Dogs and the White Cats, vie for power, two star-crossed lovers find themselves caught in the middle. Romio, the leader of the Black Dogs, and Juliet, the leader of the White Cats, must hide their forbidden relationship from their peers while navigating the dangerous waters of high school politics. Will their love overcome the divide between their warring factions?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/75201l.jpg" alt="Looking Up At The Half-Moon">
+                <div class="details">
+                    <a href="looking-up-at-the-half-moon.html"><h3>Looking Up At The Half-Moon</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>After a tragic accident, a high school student is hospitalized in critical condition. Determined to make the most of his remaining time, he befriends a quiet girl who also has a terminal illness. As they support each other through their struggles, they find solace in their shared experiences and learn to appreciate the beauty of life despite their circumstances. Will their bond help them find peace and happiness in the face of uncertainty?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/56247l.webp" alt="Gingitsune: Messenger Fox of the Gods">
+                <div class="details">
+                    <a href="gingitsune%3A-messenger-fox-of-the-gods.html"><h3>Gingitsune: Messenger Fox of the Gods</h3></a>
+                    <p>Other Genre</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Gingitsune: Messenger Fox of the Gods, Makoto is a high school girl who can communicate with Gintaro, a fox spirit serving as the herald for a local shrine. Together, they assist the people in their community by conveying messages from the spiritual world. As Makoto navigates her duties as the shrine maiden and her everyday life, she learns about the importance of tradition, friendship, and the spirits that watch over them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/30191l.jpg" alt="Giant Killing">
+                <div class="details">
+                    <a href="giant-killing.html"><h3>Giant Killing</h3></a>
+                    <p>Sports</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Giant Killing follows Tsujido East FC, a struggling soccer team aiming to make a comeback in the professional league. The story centers on Takeshi Tatsumi, a former star player turned unconventional coach who leads the team using his unique tactics and strategies. With determination and teamwork, Tsujido East FC sets out to challenge the top teams in the league and win the hearts of fans.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1456/94897l.jpg" alt="Sirius the Jaeger">
+                <div class="details">
+                    <a href="sirius-the-jaeger.html"><h3>Sirius the Jaeger</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Sirius the Jaeger, a group of vampire hunters called Jaegers is on a mission to hunt down vampires that have infiltrated Tokyo. Yuliy, a young werewolf and one of the last surviving members of the Sirius werewolf tribe, joins forces with the Jaegers to seek revenge against the vampires responsible for the destruction of his home. As the intense battle between the Jaegers and vampires escalates, dark secrets and ancient prophecies are revealed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1446/98891l.webp" alt="El Cazador de la Bruja">
+                <div class="details">
+                    <a href="el-cazador-de-la-bruja.html"><h3>El Cazador de la Bruja</h3></a>
+                    <p>Mystery</p>
+                    <p>2007</p>
+                    <br>
+                    <p>El Cazador de la Bruja follows the story of Ellis, a mysterious young girl with unique abilities, and Nadie, a skilled and resourceful bounty hunter. Together, they embark on a thrilling journey across a sun-scorched desert in search of clues about Ellis's past. As they evade dangerous pursuers and encounter other enigmatic individuals along the way, Ellis and Nadie form a powerful bond that will shape their destinies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 83%;"></span>
+                        </div>
+                        <p>83% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1035/95056l.webp" alt="Kakuriyo: Bed and Breakfast for Spirits">
+                <div class="details">
+                    <a href="kakuriyo%3A-bed-and-breakfast-for-spirits.html"><h3>Kakuriyo: Bed and Breakfast for Spirits</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After being whisked away to the spirit world, Aoi must repay her grandfather’s debt by working at a traditional inn for spirits. Determined to maintain her independence and return to the human realm, she navigates the challenges of her new environment while forging unexpected connections with the supernatural beings around her. As Aoi delves deeper into the inn's mysteries, she discovers her own hidden powers and must confront powerful adversaries to protect her loved ones.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 86%;"></span>
+                        </div>
+                        <p>86% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1238/94717l.jpg" alt="Scrapped Princess">
+                <div class="details">
+                    <a href="scrapped-princess.html"><h3>Scrapped Princess</h3></a>
+                    <p>Action</p>
+                    <p>2003</p>
+                    <br>
+                    <p>In a world where a prophecy foretells the destruction of humanity at the hands of a girl named Pacifica Casull, she is hunted by those who fear her power. Alongside her siblings, Raquel and Shannon, Pacifica sets out on a journey to uncover the truth behind the prophecy and her own existence. As they evade capture and face enemies at every turn, they learn the shocking secrets that may change the fate of the world.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

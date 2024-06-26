@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Radiant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "37202";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1318/95345l.jpg" alt="Radiant">
+                <div>
+                    <h2 id="title">Radiant</h2>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br><br>
+                    <p>In a world plagued by monstrous creatures called Nemeses, Seth dreams of becoming a Sorcerer to defeat them. Despite being marked as an outcast due to being immune to their curse, Seth remains determined to fulfill his goal. Alongside his friends, Seth embarks on a journey to find the mythical Radiant, a source of magic that could potentially eradicate the Nemeses once and for all. Will Seth's unwavering determination be enough to overcome the challenges that lie ahead?</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/86243l.jpg" alt="Convenience Store Boy Friends">
+                <div class="details">
+                    <a href="convenience-store-boy-friends.html"><h3>Convenience Store Boy Friends</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Convenience Store Boy Friends follows the lives of high school students who frequent the same convenience store. Each episode focuses on different pairs of friends as they navigate love, friendship, and the challenges of adolescence. Through their interactions at the store, they form close bonds and support each other through life's ups and downs. The series explores themes of youth, romance, and the importance of connections made in unexpected places.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1531/102113l.webp" alt="No Guns Life">
+                <div class="details">
+                    <a href="no-guns-life.html"><h3>No Guns Life</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a futuristic world where humans can replace body parts with cybernetic enhancements, Juzo Inui is a former soldier turned Resolver, taking on cases involving Extended - those with body modifications. With a giant gun for a head, Juzo finds himself entangled in a dark conspiracy that could change society. As he navigates through a web of mysteries and encounters new allies and enemies, he seeks the truth behind his own past and the secret of his unique head.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1180/93407l.jpg" alt="Muhyo & Roji's Bureau of Supernatural Investigation">
+                <div class="details">
+                    <a href="muhyo-%26-roji%27s-bureau-of-supernatural-investigation.html"><h3>Muhyo & Roji's Bureau of Supernatural Investigation</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a world where ghosts and spirits roam, skilled sorcerer Muhyo and his assistant Roji work as magical law enforcement, punishing malevolent spirits and performing exorcisms. With Muhyo's expertise in magic law and Roji's growing skills, they tackle dangerous supernatural cases to maintain order in their society. As they face formidable foes and unravel dark mysteries, their partnership is tested, and they must rely on each other to save the day.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1176/118382l.jpg" alt="The Faraway Paladin">
+                <div class="details">
+                    <a href="the-faraway-paladin.html"><h3>The Faraway Paladin</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>The Faraway Paladin follows the story of Will, a boy raised by three undead beings in an ancient, abandoned city. After being taught the ways of knighthood and magic, Will embarks on a journey to explore the world outside his home. As he faces challenges and discovers the truths of his past, Will must navigate the complexities of good and evil to fulfill his destiny as the Faraway Paladin.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1014/123301l.jpg" alt="My First Girlfriend is a Gal: My First Cultural Festival">
+                <div class="details">
+                    <a href="my-first-girlfriend-is-a-gal%3A-my-first-cultural-festival.html"><h3>My First Girlfriend is a Gal: My First Cultural Festival</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After starting to date his first girlfriend, Junichi and Yukana navigate the ups and downs of high school life together as they prepare for the cultural festival. Junichi finds himself facing new challenges and insecurities as he tries to preserve his relationship with Yukana amidst misunderstandings and unexpected obstacles. With the cultural festival approaching, the couple must learn to communicate and support each other to overcome their problems and strengthen their bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/26876l.jpg" alt="Fortune Arterial: Akai Yakusoku">
+                <div class="details">
+                    <a href="fortune-arterial%3A-akai-yakusoku.html"><h3>Fortune Arterial: Akai Yakusoku</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Fortune Arterial: Akai Yakusoku follows the story of Kohei Hasekura, a transfer student at Shuchikan Academy, who encounters a girl named Erika Sendo with a mysterious secret. As Kohei unravels the mysteries surrounding Erika and her friends, he finds himself getting involved in supernatural events and a web of past connections that may impact their futures. Amidst school life and friendships, Kohei must navigate the complexities of his new world and the ominous promise that binds them all together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1924/95212l.jpg" alt="Harukana Receive">
+                <div class="details">
+                    <a href="harukana-receive.html"><h3>Harukana Receive</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Haruka moves to Okinawa to live with her cousin Kanata. Despite their height difference and Kanata's reluctance to play beach volleyball again, the two cousins decide to team up and compete in a local tournament. As they face off against various rivals and strive to improve their skills, they forge new friendships and deepen their bond as they aim to become top beach volleyball players.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1203/101637l.jpg" alt="Ni no Kuni">
+                <div class="details">
+                    <a href="ni-no-kuni.html"><h3>Ni no Kuni</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>High school student Yuu and his best friend Haru discover a mysterious parallel world called Ni no Kuni where their actions are intertwined with the fate of this magical realm. When tragedy strikes, the two friends embark on a perilous journey to save both worlds. With the help of their newfound friends and powerful magical creatures known as imajinn, Yuu and Haru must face challenging trials and uncover the truth behind Ni no Kuni.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1936/114022l.jpg" alt="Burning Kabaddi">
+                <div class="details">
+                    <a href="burning-kabaddi.html"><h3>Burning Kabaddi</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After quitting the soccer team, high schooler Tatsuya Yoigoshi is roped into joining the Kabaddi club by his classmate. Despite initially disliking the sport, Tatsuya soon discovers a hidden talent for Kabaddi. As he navigates the challenges of mastering this unfamiliar sport, Tatsuya forms bonds with his teammates and learns valuable lessons about teamwork, determination, and friendship. Together, they aim to compete at the national level and prove their skills in intense Kabaddi matches.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1011/111811l.webp" alt="Edens Zero">
+                <div class="details">
+                    <a href="edens-zero.html"><h3>Edens Zero</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Edens Zero, Shiki Granbell, a human raised by robots on the deserted Granbell Kingdom, embarks on a journey through space with his friends, Rebecca and Happy, aboard the spaceship Edens Zero. Seeking new adventures and forming bonds with different creatures, they explore various planets while searching for the elusive goddess known as Mother. Along the way, they encounter different challenges and adversaries, uncovering the mysteries of the cosmos.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1838/114857l.jpg" alt="RE-MAIN">
+                <div class="details">
+                    <a href="re-main.html"><h3>RE-MAIN</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After a traumatic incident causes him to lose his memory, a talented water polo player must rediscover his passion for the sport. With the help of his new teammates on the school's water polo team, he sets out to make a comeback and confront his past. As he struggles to piece together his memories, he faces challenges both in and out of the pool, pushing himself to become the player he once was.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1626/108849l.jpg" alt="Iwa Kakeru! Sport Climbing Girls">
+                <div class="details">
+                    <a href="iwa-kakeru%21-sport-climbing-girls.html"><h3>Iwa Kakeru! Sport Climbing Girls</h3></a>
+                    <p>Sports</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Konomi Kasahara discovers her passion for sport climbing and joins Hanamiya Girls' High School's climbing team. Determined to reach new heights and face challenging routes, Konomi befriends her teammates and rivals, striving to compete in various tournaments. As she overcomes obstacles and pushes her limits, Konomi learns the importance of teamwork, dedication, and perseverance in the world of competitive sport climbing.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/81630l.jpg" alt="Granblue Fantasy: The Animation">
+                <div class="details">
+                    <a href="granblue-fantasy%3A-the-animation.html"><h3>Granblue Fantasy: The Animation</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a world filled with mysteries and powerful magical beings, a young boy named Gran encounters a mysterious girl named Lyria who is on the run from the Empire. Together with the skyfarer Katalina, they embark on a journey across the skies in search of Gran's father and to evade the Empire's clutches. Along the way, they make new friends, battle formidable foes, and uncover the truth behind Lyria's extraordinary powers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/77837l.jpg" alt="Girls Beyond the Wasteland">
+                <div class="details">
+                    <a href="girls-beyond-the-wasteland.html"><h3>Girls Beyond the Wasteland</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Buntarou is an ordinary high school student who is invited to join a group of friends in creating a visual novel. With no experience in game development, the group faces challenges and conflicts as they work towards completing their project. As they navigate through the ups and downs of game creation, they discover new talents, form strong friendships, and overcome obstacles together in their journey to bring their dreams to life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1494/109747l.jpg" alt="Hero Return">
+                <div class="details">
+                    <a href="hero-return.html"><h3>Hero Return</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In Hero Return, a young hero faces a world-threatening crisis and must come out of retirement to save the day once again. As the hero reunites with old allies and faces new enemies, they must confront their past and overcome new challenges to protect the world from impending doom. With high-stakes battles and emotional character development, Hero Return is a thrilling tale of redemption and courage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1134/109558l.webp" alt="The Case Files of Jeweler Richard">
+                <div class="details">
+                    <a href="the-case-files-of-jeweler-richard.html"><h3>The Case Files of Jeweler Richard</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In The Case Files of Jeweler Richard, a talented jewelry appraiser, Seigi, encounters a mysterious and sophisticated man named Richard. Together, they solve intricate cases involving valuable gemstones, uncovering the stories and emotions behind each piece. As they delve deeper into the world of jewelry, Seigi learns valuable life lessons and the true meaning of beauty.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/86644l.jpg" alt="Clean Freak! Aoyama-kun">
+                <div class="details">
+                    <a href="clean-freak%21-aoyama-kun.html"><h3>Clean Freak! Aoyama-kun</h3></a>
+                    <p>Sports</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Soccer prodigy Aoyama is not just talented on the field but also known for his extreme cleanliness habits. Follow his endeavors as he navigates through the world of soccer, dealing with his obsessive-compulsive disorder while striving for victory. Aoyama's unique approach to the game sets him apart from his teammates, leading to amusing and inspiring situations both on and off the pitch.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1365/103219l.webp" alt="Cop Craft">
+                <div class="details">
+                    <a href="cop-craft.html"><h3>Cop Craft</h3></a>
+                    <p>Mystery</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where humans and supernatural creatures coexist, detective Kei Matoba is paired with a feisty alien knight, Tilarna Exedilica, to solve crimes in the bustling city of San Teresa. As they navigate the dangerous underworld of illegal magic and technology, they must learn to trust each other's skills and beliefs to protect the city from looming threats. Together, they uncover dark secrets that could shake the fragile peace between the two worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/57303l.jpg" alt="Buddy Complex">
+                <div class="details">
+                    <a href="buddy-complex.html"><h3>Buddy Complex</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Buddy Complex, high school student Aoba Watase finds himself transported to a future battlefield where he becomes involved in a war between two factions. He pilots a powerful mecha called Luxon, forming a close bond with his co-pilot Dio. As Aoba navigates the complexities of time travel, alliances, and betrayals, he must fight to protect his friends and find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1859/100448l.jpg" alt="Midnight Occult Civil Servants">
+                <div class="details">
+                    <a href="midnight-occult-civil-servants.html"><h3>Midnight Occult Civil Servants</h3></a>
+                    <p>Mystery</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Arata Miyako starts his job at the Shinjuku Ward Office, only to discover that his role involves dealing with supernatural beings living among humans. Alongside his coworkers, Arata must navigate the delicate balance between the human and supernatural worlds, solving mysterious incidents while learning about his own hidden powers. Despite the challenges, Arata is determined to protect both realms and ensure harmony between them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/78649l.jpg" alt="All Out!!">
+                <div class="details">
+                    <a href="all-out%21%21.html"><h3>All Out!!</h3></a>
+                    <p>Sports</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In All Out!!, Kenji Gion, a short but passionate high school student, joins the rugby team and forms an unlikely friendship with the tall and reserved Sumiaki Iwashimizu. Together, they navigate the challenges of the sport, bond with their teammates, and strive to become stronger players. With a mix of determination, teamwork, and personal growth, the team faces off against formidable opponents in intense matches, pushing themselves to their limits both physically and mentally.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/84461l.webp" alt="Tsugumomo">
+                <div class="details">
+                    <a href="tsugumomo.html"><h3>Tsugumomo</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Tsugumomo follows Kazuya Kagami, who discovers that his late mother's obi (sash) possesses a spirit named Kiriha. With Kiriha's powerful abilities and tsukumogami form, Kazuya enters a world filled with dangerous supernatural beings. Together, they embark on a journey to defeat evil spirits and uncover the truth behind his family's past. Through battles and trials, Kazuya must learn to harness the obi's power and protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1456/94897l.jpg" alt="Sirius the Jaeger">
+                <div class="details">
+                    <a href="sirius-the-jaeger.html"><h3>Sirius the Jaeger</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Sirius the Jaeger, a group of vampire hunters called Jaegers is on a mission to hunt down vampires that have infiltrated Tokyo. Yuliy, a young werewolf and one of the last surviving members of the Sirius werewolf tribe, joins forces with the Jaegers to seek revenge against the vampires responsible for the destruction of his home. As the intense battle between the Jaegers and vampires escalates, dark secrets and ancient prophecies are revealed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/82119l.jpg" alt="Izetta: The Last Witch">
+                <div class="details">
+                    <a href="izetta%3A-the-last-witch.html"><h3>Izetta: The Last Witch</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Izetta: The Last Witch follows the story of Princess Fine, who discovers a powerful young witch named Izetta. In an alternate version of World War II, the two form a strong bond as they work together to protect their country from invaders. With Izetta's incredible magical abilities, they must navigate through the challenges of war and political intrigue to secure peace for their homeland.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1818/121071l.webp" alt="Fastest Finger First">
+                <div class="details">
+                    <a href="fastest-finger-first.html"><h3>Fastest Finger First</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Fastest Finger First follows the story of a high school student named Shiki Koshiyama, who is unexpectedly drawn into the world of quiz bowl competitions. With his vast knowledge and quick thinking, Shiki becomes a key member of his school's quiz bowl team. As they aim to compete at the national level, Shiki and his teammates navigate intense rivalries, friendships, and challenges in their quest for victory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1304/92930l.jpg" alt="Holmes of Kyoto">
+                <div class="details">
+                    <a href="holmes-of-kyoto.html"><h3>Holmes of Kyoto</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Holmes of Kyoto follows Aoi Mashiro, a high school girl who works part-time at an antiques shop in Kyoto owned by the enigmatic and brilliant antique appraiser, Kiyotaka Yagashira. Together, they solve mysteries surrounding various antiques while navigating the complexities of human emotions and relationships. As they unravel the secrets behind each valuable artifact, Aoi finds herself drawn to Kiyotaka's unique deductive skills and gradually discovers the hidden truths of both the antiques and the people connected to them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 75%;"></span>
+                        </div>
+                        <p>75% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1211/116017l.jpg" alt="Drifting Dragons">
+                <div class="details">
+                    <a href="drifting-dragons.html"><h3>Drifting Dragons</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where sky ships roam the skies hunting massive dragons for their valuable resources, the crew of the Quin Zaza sets out on dangerous hunts. Led by the determined captain Mika, the crew faces challenges, encounters unique dragons, and navigates the treacherous skies. As they struggle to make a living and survive in this harsh world, they also uncover mysteries and secrets surrounding the dragons they hunt. Will they be able to achieve their goals amidst the ever-present danger?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 80%;"></span>
+                        </div>
+                        <p>80% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/80810l.jpg" alt="Amanchu!">
+                <div class="details">
+                    <a href="amanchu%21.html"><h3>Amanchu!</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Following the story of Hikari Kohinata, a high school girl who moves to a coastal town, Amanchu! explores her journey of making new friends, particularly her relationship with the introverted Futaba Ooki. Through their shared love of scuba diving, the two girls learn to navigate the challenges of adolescence and discover the beauty of the underwater world. The series highlights themes of friendship, self-discovery, and the importance of pursuing one's passions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 86%;"></span>
+                        </div>
+                        <p>86% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1847/93081l.jpg" alt="Godzilla: Planet of the Monsters">
+                <div class="details">
+                    <a href="godzilla%3A-planet-of-the-monsters.html"><h3>Godzilla: Planet of the Monsters</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In the distant future, humanity fled Earth after being defeated by Godzilla. Years later, they return to reclaim their planet, only to find it ruled by Godzilla and other monstrous creatures. Determined to take back their home, a group of survivors lead a mission to defeat Godzilla and reclaim Earth for humanity. But as they face unimaginable challenges, they must confront the true power of the monsters that now inhabit their planet.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 99%;"></span>
+                        </div>
+                        <p>99% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/78669l.jpg" alt="Kurokami The Animation">
+                <div class="details">
+                    <a href="kurokami-the-animation.html"><h3>Kurokami The Animation</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Kurokami The Animation follows the story of Kuro, a powerful being known as a Mototsumitama, who seeks to avenge her family's death. She forms a pact with a young man named Keita to help in her quest for revenge. Together, they battle against other Mototsumitamas who exploit humans for their life force. As secrets about Kuro's past are revealed, Keita becomes entangled in a dangerous world of power struggles and betrayal.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

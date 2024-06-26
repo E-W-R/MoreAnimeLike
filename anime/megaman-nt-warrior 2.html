@@ -1,0 +1,682 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like MegaMan NT Warrior</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "1710";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <input type="text" id="searchBox" class="searchBox" value="MegaMan NT Warrior">
+            <div id="autocomplete-list" class="autocomplete-items"></div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/2/26575l.jpg" alt="MegaMan NT Warrior">
+                <div>
+                    <h2 id="title">MegaMan NT Warrior</h2>
+                    <p>Action</p>
+                    <p>2002</p>
+                    <br><br>
+                    <p>In a world where technology controls everything, Lan Hikari and his NetNavi MegaMan battle against cyber criminals threatening the digital world. With the ability to jack into the internet and merge their powers, they protect society from viruses and hackers using their incredible skills. As they uncover mysterious plots and dangerous enemies, they must work together to save both the real and virtual realms from destruction.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 8%;"></span>
+                        </div>
+                        <p>8% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/75509l.jpg" alt="Another">
+                <div class="details">
+                    <a href="another.html"><h3>Another</h3></a>
+                    <p>Mystery</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In the futuristic city of Neo-Tokyo, a young biker gang member named Kaneda gets involved in a government project and gains telekinetic powers. As his friend Tetsuo begins to exhibit dangerous psychic abilities, Kaneda must navigate the consequences of their newfound powers and confront the corrupt government forces behind the experiments. Racing against time, Kaneda must bring his friend back from the brink of destruction before it's too late.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 10%;"></span>
+                        </div>
+                        <p>10% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/76222l.jpg" alt="GATE">
+                <div class="details">
+                    <a href="gate.html"><h3>GATE</h3></a>
+                    <p>Isekai</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When a mysterious portal opens in the middle of modern-day Tokyo, the Self-Defense Force is sent on a mission to explore the unknown fantasy world beyond. As they enter the Gate, they encounter magic, dragons, and other mythical creatures, leading to a clash of civilizations. Caught between loyalty to their country and their morals, the soldiers must navigate political intrigue and warfare while forming new alliances in this thrilling adventure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 10%;"></span>
+                        </div>
+                        <p>10% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/18179l.jpg" alt="Fairy Tail">
+                <div class="details">
+                    <a href="fairy-tail.html"><h3>Fairy Tail</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Fairy Tail follows a group of powerful wizards in the magical guild Fairy Tail as they take on various missions to earn a living. The story focuses on the adventures of Lucy, Natsu, and their friends as they battle dark guilds, uncover ancient mysteries, and protect their beloved guild from powerful adversaries. With bonds of friendship and magic, they face challenges together and grow stronger in their quest for fame, fortune, and camaraderie.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 11%;"></span>
+                        </div>
+                        <p>11% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1141/142503l.webp" alt="Naruto">
+                <div class="details">
+                    <a href="naruto.html"><h3>Naruto</h3></a>
+                    <p>Action</p>
+                    <p>2002</p>
+                    <br>
+                    <p>Naruto follows the journey of Naruto Uzumaki, a young ninja with dreams of becoming the strongest ninja in his village and earning the respect of his peers. With a powerful fox spirit sealed inside him, Naruto faces various challenges as he trains and goes on missions with his friends Sasuke and Sakura. Along the way, he discovers secrets about his past and strives to protect his village from powerful enemies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 13%;"></span>
+                        </div>
+                        <p>13% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/75587l.jpg" alt="Nisekoi: False Love">
+                <div class="details">
+                    <a href="nisekoi%3A-false-love.html"><h3>Nisekoi: False Love</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Raku Ichijou, the heir to a yakuza family, is forced into a fake relationship with Chitoge Kirisaki, a rival gang leader's daughter, to maintain peace between their families. Despite their initial animosity, they must pretend to be in love while navigating high school life. Complicating matters, Raku carries a locket that can only be opened by the key Chitoge wears as a keepsake. As they navigate fake relationships and hidden feelings, secrets from the past threaten to unravel their delicate facade.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 13%;"></span>
+                        </div>
+                        <p>13% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/75299l.webp" alt="Deadman Wonderland">
+                <div class="details">
+                    <a href="deadman-wonderland.html"><h3>Deadman Wonderland</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After a mysterious red man massacres his classmates, Ganta Igarashi is wrongfully convicted and sent to Deadman Wonderland, a twisted prison where inmates entertain visitors with death-defying performances. Ganta must navigate deadly challenges, uncover conspiracies, and harness his own newfound abilities to survive in this brutal world. With the help of fellow inmates, he seeks to unravel the secrets of Deadman Wonderland and clear his name.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 15%;"></span>
+                        </div>
+                        <p>15% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1471/99249l.jpg" alt="Digimon: Digital Monsters">
+                <div class="details">
+                    <a href="digimon%3A-digital-monsters.html"><h3>Digimon: Digital Monsters</h3></a>
+                    <p>Isekai</p>
+                    <p>1999</p>
+                    <br>
+                    <p>A group of children is transported to the Digital World where they befriend creatures known as Digimon. Together, they must work to save both worlds from evil forces threatening their existence. With the power to digivolve, the Digimon and children form unbreakable bonds as they navigate challenges, battles, and mysteries to protect their homes.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 15%;"></span>
+                        </div>
+                        <p>15% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/79409l.jpg" alt="Bungo Stray Dogs">
+                <div class="details">
+                    <a href="bungo-stray-dogs.html"><h3>Bungo Stray Dogs</h3></a>
+                    <p>Mystery</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Bungo Stray Dogs follows Atsushi Nakajima, a young man with a mysterious ability to transform into a white tiger. After getting kicked out of his orphanage, he joins the Armed Detective Agency, a group of gifted individuals with unique powers who solve supernatural cases. As Atsushi navigates this new world, he uncovers dark secrets from his past while facing powerful enemies and forming strong bonds with his colleagues. The series is filled with thrilling action scenes and captivating mysteries.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 18%;"></span>
+                        </div>
+                        <p>18% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/79164l.jpg" alt="Kabaneri of the Iron Fortress">
+                <div class="details">
+                    <a href="kabaneri-of-the-iron-fortress.html"><h3>Kabaneri of the Iron Fortress</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world overrun by monstrous creatures known as Kabane, humans seek refuge in heavily fortified stations. A young engineer, Ikoma, creates a powerful weapon to fight back against the Kabane, becoming a Kabaneri - a hybrid between human and Kabane. Together with a group of survivors, including the enigmatic Mumei, they embark on a dangerous journey to reach safety and uncover the truth behind the Kabane outbreak. Betrayal, action, and survival define their path in this thrilling post-apocalyptic anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 20%;"></span>
+                        </div>
+                        <p>20% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1292/94693l.jpg" alt="Black Bullet">
+                <div class="details">
+                    <a href="black-bullet.html"><h3>Black Bullet</h3></a>
+                    <p>Mystery</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In the aftermath of a deadly virus that mutates humans into monstrous creatures, Cursed Children possessing supernatural abilities are humanity's only hope. Paired with partners from a security agency, young girls with these powers, including Enju, fight to protect what remains of society. Tasked with defending their city from impending threats, they must navigate political intrigue, dark conspiracies, and moral dilemmas while battling the deadly monsters known as Gastrea.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 21%;"></span>
+                        </div>
+                        <p>21% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/44844l.jpg" alt="Date A Live">
+                <div class="details">
+                    <a href="date-a-live.html"><h3>Date A Live</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In a world where dangerous beings called Spirits threaten humanity, average high school student Shido Itsuka is recruited by a secret organization to stop them. Shido's mission is unique – he must make the Spirits fall in love with him and seal their powers. Through various dates and challenges, Shido navigates the complexities of multiple Spirits while uncovering the truth behind their existence. As he forms deep connections with these otherworldly beings, Shido's journey becomes a delicate balance between love and duty.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 21%;"></span>
+                        </div>
+                        <p>21% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1664/103275l.jpg" alt="Fire Force">
+                <div class="details">
+                    <a href="fire-force.html"><h3>Fire Force</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where spontaneous human combustion turns people into infernals, Shinra Kusakabe joins the Special Fire Force Company 8, a group dedicated to stopping infernals and investigating the cause of the phenomenon. As a third-generation pyrokinetic, Shinra battles infernals while uncovering dark secrets about the world's history and the true nature of the infernals. With his determination to become a hero and protect others, Shinra faces powerful foes and challenges that put his beliefs to the test.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/50177l.jpg" alt="The Devil is a Part-Timer!">
+                <div class="details">
+                    <a href="the-devil-is-a-part-timer%21.html"><h3>The Devil is a Part-Timer!</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>After being defeated by the hero Emilia, the Demon Lord Satan finds himself stranded in modern-day Tokyo without his powers. Forced to take on a part-time job at a fast-food restaurant to survive, Satan, now known as Sadao Maou, navigates the human world alongside his loyal general Ashiya. As Sadao rises through the ranks at MgRonald's, he must also contend with threats from his past and new enemies who seek to disrupt his peaceful life on Earth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 28%;"></span>
+                        </div>
+                        <p>28% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/73474l.webp" alt="Seraph of the End: Vampire Reign">
+                <div class="details">
+                    <a href="seraph-of-the-end%3A-vampire-reign.html"><h3>Seraph of the End: Vampire Reign</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>After a deadly virus decimates humanity, vampires emerge to enslave the remaining population. Yuichiro Hyakuya seeks revenge against the vampires who killed his family and enlists in the Japanese Imperial Demon Army. Alongside his friends, they train to become strong fighters to take down vampires. As secrets unravel and betrayals surface, Yuichiro discovers a power within himself that could change the course of the war between humans and vampires.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 28%;"></span>
+                        </div>
+                        <p>28% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1722/99235l.webp" alt="Shaman King">
+                <div class="details">
+                    <a href="shaman-king.html"><h3>Shaman King</h3></a>
+                    <p>Action</p>
+                    <p>2001</p>
+                    <br>
+                    <p>Shaman King follows Yoh Asakura, a laid-back and powerful shaman who strives to become the Shaman King, a title only given to the strongest of shamans who can communicate with spirits. Alongside his spirit partner Amidamaru, Yoh participates in the Shaman Fight, a tournament where shamans from around the world battle to become the Shaman King. Through fierce competitions and friendships forged, Yoh must face powerful adversaries and uncover the true meaning of being the Shaman King.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 28%;"></span>
+                        </div>
+                        <p>28% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/70187l.jpg" alt="Is It Wrong to Try to Pick Up Girls in a Dungeon?">
+                <div class="details">
+                    <a href="is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon%3F.html"><h3>Is It Wrong to Try to Pick Up Girls in a Dungeon?</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In the city of Orario, adventurers join groups and explore an intricate labyrinth known as the Dungeon to defeat monsters. Bell Cranel, a young adventurer, dreams of becoming the greatest hero. Everything changes when he meets the powerful deity Hestia, who offers him support. As Bell navigates the perils of the Dungeon, he forms alliances, faces formidable foes, and discovers the true meaning of strength and bravery. But his journey takes an unexpected turn when he develops feelings for a mysterious, silver-haired girl.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <p>30% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/51463l.webp" alt="Danganronpa: The Animation">
+                <div class="details">
+                    <a href="danganronpa%3A-the-animation.html"><h3>Danganronpa: The Animation</h3></a>
+                    <p>Mystery</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Danganronpa: The Animation, a group of high school students finds themselves trapped inside their prestigious academy by a sadistic robotic bear named Monokuma. To escape, they must murder a fellow classmate without getting caught during the subsequent trial. With tensions running high and trust at an all-time low, the students must uncover the truth behind their captivity and the identity of the mastermind controlling Monokuma.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <p>30% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1715/103419l.jpg" alt="Cautious Hero: The Hero Is Overpowered but Overly Cautious">
+                <div class="details">
+                    <a href="cautious-hero%3A-the-hero-is-overpowered-but-overly-cautious.html"><h3>Cautious Hero: The Hero Is Overpowered but Overly Cautious</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>The goddess Ristarte summons Seiya Ryuuguuin to save a world threatened by the Demon Lord. Seiya proves to be incredibly powerful, but his cautious nature leads him to overprepare for every situation. Frustrated by his excessive caution, Ristarte must balance Seiya's meticulousness with the urgency of their quest to defeat the Demon Lord.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/40977l.jpg" alt="BTOOOM!">
+                <div class="details">
+                    <a href="btooom%21.html"><h3>BTOOOM!</h3></a>
+                    <p>Psychological</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After waking up on a mysterious island, a young man named Ryouta discovers he is part of a deadly real-life survival game. Armed with only bombs, he must outwit and defeat other players to make it off the island alive. As the game progresses, alliances are formed and betrayals unfold, forcing Ryouta to confront the dark side of human nature in order to survive.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1218/135107l.webp" alt="Mashle: Magic and Muscles">
+                <div class="details">
+                    <a href="mashle%3A-magic-and-muscles.html"><h3>Mashle: Magic and Muscles</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where magic is everything, Mash Vandead is born without the ability to use it. Despite this, he trains his body to the peak of human ability. When he enrolls in the prestigious Easton Magic Academy, Mash must rely on his incredible strength to survive the challenges and dangers that come his way. Through his unmatched physical prowess and unwavering determination, Mash begins to unravel the mysteries of this magical world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/77055l.jpg" alt="Yu-Gi-Oh!">
+                <div class="details">
+                    <a href="yu-gi-oh%21.html"><h3>Yu-Gi-Oh!</h3></a>
+                    <p>Action</p>
+                    <p>2000</p>
+                    <br>
+                    <p>Yu-Gi-Oh! follows Yugi Mutou, a shy high school student with a passion for games. When he solves an ancient Egyptian puzzle, he becomes host to a mysterious spirit who helps him master the game of Duel Monsters. Yugi and his friends face off against rivals in intense battles, using strategy, skill, and a touch of magic to prevail. As the stakes grow higher, Yugi must unlock the secrets of his other self to save the ones he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/75195l.webp" alt="Blue Exorcist">
+                <div class="details">
+                    <a href="blue-exorcist.html"><h3>Blue Exorcist</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Blue Exorcist follows Rin Okumura, a teenager who discovers he is the son of Satan. Determined to become an exorcist and defeat his demonic heritage, Rin enrolls in True Cross Academy to learn the ways of exorcism. Alongside his classmates, Rin faces various challenges and battles against demons to protect the human world. As he hones his powers and struggles with his identity, Rin must navigate the complex world of exorcism and uncover the truth about his origins.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/86578l.webp" alt="Kakegurui">
+                <div class="details">
+                    <a href="kakegurui.html"><h3>Kakegurui</h3></a>
+                    <p>Mystery</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a prestigious academy where gambling determines social status, a transfer student named Yumeko Jabami joins the school. But she quickly reveals her obsession with the thrill of high-stakes gambling and her exceptional ability to outwit her opponents. As Yumeko navigates the ruthless world of gambling against wealthy and powerful students, her true motives and strategy remain a mystery to those around her.Will she conquer the school with her unparalleled gambling skills?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/83709l.jpg" alt="Masamune-kun's Revenge">
+                <div class="details">
+                    <a href="masamune-kun%27s-revenge.html"><h3>Masamune-kun's Revenge</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After being rejected by a girl named Aki Adagaki in the past, Masamune Makabe undergoes a major transformation and transfers to her school with the goal of making her fall for him. Masamune plans to break her heart as payback for her rejection. However, as he gets to know Aki better, he begins to question his motives and develops conflicting feelings towards her. The series follows their complicated relationship and the challenges they face.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1722/107269l.jpg" alt="The God of High School">
+                <div class="details">
+                    <a href="the-god-of-high-school.html"><h3>The God of High School</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>The God of High School follows high schooler Jin Mori as he enters a martial arts tournament seeking to prove himself as the strongest fighter. Along the way, he befriends fellow competitors Han Daewi and Yoo Mira as they face off against formidable opponents with unique fighting styles. As the tournament escalates, the trio uncovers a deeper conspiracy and must band together to protect their friends and the world from powerful forces at play.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/47677l.webp" alt="Blood Lad">
+                <div class="details">
+                    <a href="blood-lad.html"><h3>Blood Lad</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Blood Lad follows Staz, a powerful vampire and leader of the Eastern District of Demon World. His world turns upside down when a human girl named Fuyumi accidentally wanders into Demon World and dies. Determined to bring her back to life, Staz embarks on a comedic and action-packed adventure, with help from his friends, to find a way to resurrect Fuyumi. Along the way, they face various challenges and encounter other supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/75104l.webp" alt="Monster Musume: Everyday Life with Monster Girls">
+                <div class="details">
+                    <a href="monster-musume%3A-everyday-life-with-monster-girls.html"><h3>Monster Musume: Everyday Life with Monster Girls</h3></a>
+                    <p>Comedy</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where mythical creatures and humans coexist, a student named Kimihito finds himself hosting various monster girls as part of an interspecies cultural exchange program. From a snek girl to a centaur, he navigates the challenges of living with these unique and eccentric housemates while trying to maintain peace and harmony in their daily lives. As he builds relationships with each girl, Kimihito learns valuable lessons about understanding, acceptance, and friendship in this comedic harem anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1787/140239l.webp" alt="Pokémon">
+                <div class="details">
+                    <a href="pok%C3%A9mon.html"><h3>Pokémon</h3></a>
+                    <p>Action</p>
+                    <p>1997</p>
+                    <br>
+                    <p>In the world of Pokémon, young trainers embark on a journey to catch and train mysterious creatures known as Pokémon. The main character, Ash Ketchum, dreams of becoming a Pokémon Master and travels with his friends Pikachu, Misty, and Brock to compete in Pokémon battles and tournaments. Along the way, they face challenges from rival trainers and the nefarious Team Rocket, all while forging bonds with their Pokémon partners.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 86%;"></span>
+                        </div>
+                        <p>86% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1801/121070l.jpg" alt="Sonic X">
+                <div class="details">
+                    <a href="sonic-x.html"><h3>Sonic X</h3></a>
+                    <p>Action</p>
+                    <p>2003</p>
+                    <br>
+                    <p>When Sonic and his friends are transported from their world to Earth, they must adapt to their new surroundings and evade the clutches of the evil Dr. Eggman. With the help of their human friend Chris, Sonic and his crew embark on various adventures to collect the Chaos Emeralds and return home while fighting off foes and making new allies along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 90%;"></span>
+                        </div>
+                        <p>90% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1429/127983l.webp" alt="Beyblade">
+                <div class="details">
+                    <a href="beyblade.html"><h3>Beyblade</h3></a>
+                    <p>Sports</p>
+                    <p>2001</p>
+                    <br>
+                    <p>In Beyblade, young bladers compete in intense battles using customizable spinning tops called Beyblades. The main character, Tyson, dreams of becoming the world's greatest Beyblade champion. Along with his friends Kai, Max, and Ray, they form the Bladebreakers and travel the world to hone their skills and compete in tournaments. As they face various opponents and challenges, they strive to perfect their techniques and teamwork to achieve victory.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

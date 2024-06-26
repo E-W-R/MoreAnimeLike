@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Null & Peta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "40178";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1586/103381l.jpg" alt="Null & Peta">
+                <div>
+                    <h2 id="title">Null & Peta</h2>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br><br>
+                    <p>Null & Peta follows the daily lives of Null, a cheerful and intelligent young girl, and Peta, her mischievous and sentient talking coat. Together, they embark on various adventures and experiments, often leading to comical situations. As they navigate through the ups and downs of life, the unlikely duo forms a strong bond and learns valuable lessons along the way.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1568/101203l.webp" alt="If It's for My Daughter, I'd Even Defeat a Demon Lord">
+                <div class="details">
+                    <a href="if-it%27s-for-my-daughter%2C-i%27d-even-defeat-a-demon-lord.html"><h3>If It's for My Daughter, I'd Even Defeat a Demon Lord</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After saving a young demon girl, Dale decides to become her guardian, naming her Latina. He raises her in the quiet village of Kreuz, unaware of her mysterious past. As Latina grows, their bond deepens, but dark forces lurk in the shadows. Dale will do anything to protect his daughter, even if it means facing a powerful demon lord.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1904/120095l.jpg" alt="The Greatest Demon Lord Is Reborn as a Typical Nobody">
+                <div class="details">
+                    <a href="the-greatest-demon-lord-is-reborn-as-a-typical-nobody.html"><h3>The Greatest Demon Lord Is Reborn as a Typical Nobody</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After being defeated by a powerful hero, the greatest demon lord finds himself reincarnated in a human body with no magical abilities. Determined to regain his former power, he sets out on a comedic journey to become stronger while hiding his true identity. As he navigates high school life and forms unlikely friendships, he must also confront threats from his past life that have followed him into his new world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1008/140287l.jpg" alt="The Unwanted Undead Adventurer">
+                <div class="details">
+                    <a href="the-unwanted-undead-adventurer.html"><h3>The Unwanted Undead Adventurer</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After mysteriously dying, warrior Fukamori regains consciousness in a dark cave. Realizing he's become an undead, he struggles to cope with his new existence. Determined to uncover the truth behind his resurrection, Fukamori sets off on a journey filled with danger and surprises. With his new companion, a healer named Alice, by his side, Fukamori faces otherworldly creatures and challenges, all while trying to make sense of his undead status.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1540/108292l.jpg" alt="Uzaki-chan Wants to Hang Out!">
+                <div class="details">
+                    <a href="uzaki-chan-wants-to-hang-out%21.html"><h3>Uzaki-chan Wants to Hang Out!</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Sakurai's peaceful college life gets disrupted by the arrival of his energetic and boisterous underclassman, Uzaki-chan. Despite his desire for solitude, Uzaki-chan is determined to spend time with him, leading to comedic and heartwarming everyday adventures as their friendship grows. With Uzaki-chan's relentless teasing and Sakurai's exasperated reactions, the two navigate the ups and downs of their quirky relationship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1142/111693l.webp" alt="Asteroid in Love">
+                <div class="details">
+                    <a href="asteroid-in-love.html"><h3>Asteroid in Love</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Mira Konohata dreams of finding a shooting star when she was young. Years later, she joins the Earth Sciences Club in high school where she meets a fellow student, Ao Manaka, who has a passion for astronomy. With a shared goal of watching a rare asteroid pass by Earth, the girls work together to overcome challenges and deepen their friendship through their love for space and the wonders of the universe.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1024/108413l.jpg" alt="Assault Lily: Bouquet">
+                <div class="details">
+                    <a href="assault-lily%3A-bouquet.html"><h3>Assault Lily: Bouquet</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world threatened by mysterious creatures known as the Huge, young girls equipped with special weapons called CHARMs attend the prestigious Garden Academy to train as Lily recruits. Riri Hitotsuyanagi, a new student with a tragic past, forms close bonds with her classmates as they navigate friendships, rivalries, and battles against the Huge. Together, they uncover the secrets behind these monsters and the true purpose of their existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1535/115023l.webp" alt="Peach Boy Riverside">
+                <div class="details">
+                    <a href="peach-boy-riverside.html"><h3>Peach Boy Riverside</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Set in a world where humans coexist with monsters, Peach Boy Riverside follows Princess Sally, who sets out on a journey to seek out the mysterious and powerful beings known as peach boys. Along the way, she encounters danger, uncovers secrets about her past, and comes face-to-face with the dark side of the world she thought she knew. With her loyal bodyguard, Mikoto, by her side, Sally must navigate the complexities of this fantastical world to fulfill her destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1285/120529l.jpg" alt="A Couple of Cuckoos">
+                <div class="details">
+                    <a href="a-couple-of-cuckoos.html"><h3>A Couple of Cuckoos</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When high school student Nagi meets Erika, they quickly become friends, but things take a turn when Nagi discovers Erika's secret. The two make a pact to help each other pursue their respective crushes, sparking a series of comical and heartwarming misadventures. As they navigate the ups and downs of teenage romance, their feelings towards each other begin to change. 'A Couple of Cuckoos' is a story of friendship, love, and the complexities of young relationships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1684/108627l.jpg" alt="Love is Like a Cocktail">
+                <div class="details">
+                    <a href="love-is-like-a-cocktail.html"><h3>Love is Like a Cocktail</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Love is Like a Cocktail follows the daily life of Chisato, a career woman who enjoys coming home to her caring husband, Sora. With each episode, Sora surprises Chisato with a new cocktail perfectly tailored to her feelings or the events of the day. The show tastefully showcases their sweet and heartwarming relationship as they navigate the ups and downs of life together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/82291l.jpg" alt="Girlish Number">
+                <div class="details">
+                    <a href="girlish-number.html"><h3>Girlish Number</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Girlish Number follows Chitose Karasuma, a young voice actress who dreams of becoming a popular idol in the voice acting world. However, she quickly discovers the harsh realities of the industry as she navigates through auditions, rivalries, and the challenges of her job. With the support of her friends and colleagues, Chitose learns what it truly means to succeed in the competitive world of voice acting.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1549/125495l.jpg" alt="Engage Kiss">
+                <div class="details">
+                    <a href="engage-kiss.html"><h3>Engage Kiss</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Engage Kiss follows the story of high school student Aika, who unexpectedly finds herself entangled in a forbidden romance with her popular classmate, Sora. Despite their differing backgrounds, the two must navigate the challenges of their developing relationship while keeping it a secret from their peers. As they struggle to maintain their connection amidst societal expectations and personal insecurities, Aika and Sora must confront their own feelings and the obstacles that threaten to tear them apart.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1413/110712l.jpg" alt="Kuma Kuma Kuma Bear">
+                <div class="details">
+                    <a href="kuma-kuma-kuma-bear.html"><h3>Kuma Kuma Kuma Bear</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>After receiving a mysterious package, 15-year-old Yuna is transported into her favorite VRMMO game world wearing a bear suit with high-level abilities. Using her newfound powers, Yuna embarks on adventures, meeting new friends and exploring the fantastical world. While she tries to blend in with other players, Yuna's overpowered bear suit often leads to hilarious situations and unexpected outcomes. Join Yuna as she navigates this charming and lighthearted isekai adventure in Kuma Kuma Kuma Bear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1404/90601l.jpg" alt="My Sweet Tyrant">
+                <div class="details">
+                    <a href="my-sweet-tyrant.html"><h3>My Sweet Tyrant</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>When the stoic Nao confesses her feelings to her outgoing childhood friend, the mischievous Taiga, their relationship takes an unexpected turn. Despite Taiga's teasing and playful demeanor, Nao learns there may be more to his actions than meets the eye. As the couple navigates the ups and downs of young love, they discover new sides to each other and the strength of their bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1278/112932l.webp" alt="Magical Girl Spec-Ops Asuka">
+                <div class="details">
+                    <a href="magical-girl-spec-ops-asuka.html"><h3>Magical Girl Spec-Ops Asuka</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After defeating a powerful alien force, Asuka Otori thought her days as a magical girl were over. But when a new threat arises on Earth, she is called back into action. Asuka must balance her duties as a high school student with her role as a government agent, fighting to protect humanity from the deadly magical creatures that threaten their world. Tasked with leading a team of fellow magical girls, Asuka must confront her traumatic past and find the strength to keep fighting.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1088/109145l.jpg" alt="Dropout Idol Fruit Tart">
+                <div class="details">
+                    <a href="dropout-idol-fruit-tart.html"><h3>Dropout Idol Fruit Tart</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In Dropout Idol Fruit Tart, Ino Sakura dreams of becoming an idol but ends up in a struggling dormitory with other eccentric girls. To save the dorm from being shut down, they form the idol group Fruit Tart. Along their journey, they face various challenges in trying to make their dreams of stardom a reality. Will their unique talents and teamwork be enough to achieve success in the competitive idol industry?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1716/104880l.jpg" alt="Nekopara">
+                <div class="details">
+                    <a href="nekopara.html"><h3>Nekopara</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Welcome to a world where adorable catgirls live alongside humans as loving companions. Follow the story of Kashou Minaduki, a young man who opens his own patisserie only to find himself surrounded by a troupe of charming catgirls. As Kashou navigates the ups and downs of running a bakery, he forms deep bonds with his feline friends and learns valuable lessons about friendship, family, and following your dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 48%;"></span>
+                        </div>
+                        <p>48% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1723/117854l.jpg" alt="Banished From The Hero's Party, I Decided To Live A Quiet Life In The Countryside">
+                <div class="details">
+                    <a href="banished-from-the-hero%27s-party%2C-i-decided-to-live-a-quiet-life-in-the-countryside.html"><h3>Banished From The Hero's Party, I Decided To Live A Quiet Life In The Countryside</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After being kicked out of the hero's party, Red tries to live a peaceful life in a secluded village. However, his past catches up to him when a beautiful knight and a magical girl appear on his doorstep, seeking his help in fighting the demon king threatening the world. Reluctantly, Red must decide whether to stay out of the conflict or embrace his destiny once again.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 48%;"></span>
+                        </div>
+                        <p>48% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1623/95617l.jpg" alt="Release the Spyce">
+                <div class="details">
+                    <a href="release-the-spyce.html"><h3>Release the Spyce</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a world threatened by crime syndicates, high school girl Momo dreams of becoming a spy. When she discovers her schoolmate Yuki is a member of the Tsukikage organization, she joins her in the fight against evil. Together, they undergo intense training to hone their spy skills and protect their city from dangerous threats. With the power of Spyce, a special substance that enhances their abilities, the girls embark on thrilling missions filled with action and suspense.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 48%;"></span>
+                        </div>
+                        <p>48% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1300/111361l.webp" alt="ENDRO!">
+                <div class="details">
+                    <a href="endro%21.html"><h3>ENDRO!</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>ENDRO! follows a group of young girls training to become heroes at a school for adventurers. The girls face various challenges in their quest to defeat the Demon Lord and bring peace to their land. With a mix of magic and friendship, they embark on whimsical and comedic adventures while learning important lessons along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1741/102237l.jpg" alt="Are You Lost?">
+                <div class="details">
+                    <a href="are-you-lost%3F.html"><h3>Are You Lost?</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After a plane crash leaves them stranded on a deserted island, four high school students must work together to survive. With varying levels of survival skills, the girls must learn to forage for food, build shelter, and find a way to signal for help. As they navigate the challenges of their new environment, they will discover the true extent of their own strength and resilience.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1035/111624l.webp" alt="After School Dice Club">
+                <div class="details">
+                    <a href="after-school-dice-club.html"><h3>After School Dice Club</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After School Dice Club follows a high school girl named Miki who discovers the joys of board games when she joins the school's gaming club. Alongside her friends, they explore various board games, from strategy-heavy ones to lighter, luck-based ones. As they play together, Miki not only learns about different games but also forms new friendships and grows as a person through the power of gaming.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1880/107611l.jpg" alt="Lapis Re:LiGHTs">
+                <div class="details">
+                    <a href="lapis-re%3Alights.html"><h3>Lapis Re:LiGHTs</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where magical powers are harnessed through music and performance, a group of girls at the prestigious Flora Girls Academy form a music and idol unit called Lapis. With dreams of becoming top idols, they must navigate friendships, rivalries, and the challenges of the entertainment industry. Together, they strive to shine on stage and uncover the secrets of their magical abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1874/111374l.jpg" alt="How clumsy you are, Miss Ueno.">
+                <div class="details">
+                    <a href="how-clumsy-you-are%2C-miss-ueno..html"><h3>How clumsy you are, Miss Ueno.</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Ueno is a brilliant inventor who is head over heels in love with Tanaka, her classmate. However, her attempts to confess her feelings through outlandish inventions often end in hilarious and embarrassing mishaps. Despite her clumsiness, Ueno never gives up on her quest for love, leading to a series of comedic and heartwarming events between the two classmates.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1918/138185l.jpg" alt="The Family Circumstances of the Irregular Witch">
+                <div class="details">
+                    <a href="the-family-circumstances-of-the-irregular-witch.html"><h3>The Family Circumstances of the Irregular Witch</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>The Family Circumstances of the Irregular Witch follows the story of a young witch named Luna, who struggles to balance her magical duties with her chaotic family life. With her eccentric parents, mischievous siblings, and a grumpy familiar, Luna must navigate through various humorous and heartwarming situations. As Luna learns more about her heritage and powers, she finds herself caught in a web of secrets that could change everything she knows.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1598/91857l.jpg" alt="Crossing Time">
+                <div class="details">
+                    <a href="crossing-time.html"><h3>Crossing Time</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Crossing Time follows the daily lives of passengers waiting for a train at a small station. From high school students to working adults, each person has a story to tell while sharing small, meaningful interactions with one another. As they wait for the train to arrive, friendships form, secrets are revealed, and bonds are strengthened, making their time at the station a memorable part of their lives.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1205/111403l.jpg" alt="Didn't I Say to Make My Abilities Average in the Next Life?!">
+                <div class="details">
+                    <a href="didn%27t-i-say-to-make-my-abilities-average-in-the-next-life%3F%21.html"><h3>Didn't I Say to Make My Abilities Average in the Next Life?!</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After dying, a girl is reincarnated into a fantasy world and asks the gods for average abilities. However, she is blessed with incredible powers. Hiding her strength, she joins a guild and befriends other adventurers while trying to live a normal life. But her past catches up with her as she is forced to use her powers to protect her new friends and the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1890/131473l.jpg" alt="Saving 80,000 Gold in Another World for My Retirement">
+                <div class="details">
+                    <a href="saving-80%2C000-gold-in-another-world-for-my-retirement.html"><h3>Saving 80,000 Gold in Another World for My Retirement</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After a salaryman dies and is reincarnated in a fantasy world, he decides to live a relaxed life by saving up 80,000 gold coins for his retirement. Using his knowledge of economics and business strategies from his past life, he navigates the new world's markets and forms unexpected alliances. Along the way, he faces challenges, makes new friends, and learns valuable lessons about life and the importance of planning for the future in this heartwarming and humorous isekai anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1963/138464l.webp" alt="Am I Actually the Strongest?">
+                <div class="details">
+                    <a href="am-i-actually-the-strongest%3F.html"><h3>Am I Actually the Strongest?</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where strength is everything, Yuuki, a seemingly ordinary high school student, wakes up one day with incredible powers. As he navigates this newfound strength, he encounters various challenges and adversaries who put his abilities to the test. Determined to uncover the truth behind his sudden abilities, Yuuki sets out on a journey to prove to himself and others whether he is truly the strongest.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1720/139131l.webp" alt="I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness">
+                <div class="details">
+                    <a href="i%27m-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness.html"><h3>I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After rescuing a noble lady from a precarious situation, a kind-hearted individual decides to teach her the ways of the world. Through a series of misadventures and amusing encounters, the once sheltered lady learns about the ways of society and discovers her own desires. As the two grow closer, they navigate the complexities of relationships and self-discovery, all while facing the challenges of their conflicting backgrounds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 76%;"></span>
+                        </div>
+                        <p>76% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1250/135256l.jpg" alt="My One-Hit Kill Sister">
+                <div class="details">
+                    <a href="my-one-hit-kill-sister.html"><h3>My One-Hit Kill Sister</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After discovering her sister possesses a powerful ability to defeat any enemy with a single strike, high school student Yuki must navigate a world filled with supernatural beings. As she grapples with her own feelings of insecurity and inadequacy, Yuki joins forces with her sister to uncover the truth behind their unique powers and face the challenges that come their way, all while forging a stronger bond as siblings.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

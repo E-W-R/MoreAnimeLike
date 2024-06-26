@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Dragonaut - The Resonance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "2795";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1523/134026l.jpg" alt="Dragonaut - The Resonance">
+                <div>
+                    <h2 id="title">Dragonaut - The Resonance</h2>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br><br>
+                    <p>In a world threatened by an alien species, humans form a special agency to combat the invaders using genetically engineered dragons. To pilot these beasts, they must establish a deep emotional bond. Jin, a young man with a tragic past, is chosen to be a dragon pilot, setting off a chain of events that will challenge his beliefs and reveal hidden truths about the dragons and their connection to humanity.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1653/136097l.webp" alt="Reborn as a Vending Machine, I Now Wander the Dungeon">
+                <div class="details">
+                    <a href="reborn-as-a-vending-machine%2C-i-now-wander-the-dungeon.html"><h3>Reborn as a Vending Machine, I Now Wander the Dungeon</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After dying, a man finds himself reincarnated as a vending machine in a fantasy world full of dungeons and monsters. Determined to survive and find a way to become human again, he embarks on a journey through the dangerous dungeons, forming unexpected alliances with adventurers along the way. With his unique abilities and a quirky sense of humor, he navigates this new world, learning more about himself and the true meaning of friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1519/110527l.jpg" alt="Koikimo">
+                <div class="details">
+                    <a href="koikimo.html"><h3>Koikimo</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Koikimo, high school girl Ryo meets handsome businessman, Rio, after he helps her in a moment of need. Despite their age difference, Rio becomes infatuated with Ryo and starts pursuing her romantically. Ryo is initially repelled by Rio's advances but eventually finds herself drawn to his kind gestures and sincerity. As their unconventional relationship blossoms, they navigate societal judgments and personal doubts to explore their deepening connection.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1975/108030l.webp" alt="Ahiru no Sora">
+                <div class="details">
+                    <a href="ahiru-no-sora.html"><h3>Ahiru no Sora</h3></a>
+                    <p>Sports</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Ahiru no Sora follows the story of Sora Kurumatani, a passionate and determined high school student who aspires to lead his school's basketball team to victory. Despite his short stature, Sora's love for the game and unwavering positivity inspire his teammates as they face various challenges and opponents on their journey towards the national championship. With grit and perseverance, Sora strives to prove that hard work and dedication can overcome any obstacle in the world of competitive basketball.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/76542l.jpg" alt="Shomin Sample">
+                <div class="details">
+                    <a href="shomin-sample.html"><h3>Shomin Sample</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Kimito Kagurazaka is an ordinary high school student until he is kidnapped and transferred to an elite all-girls school where the students have no knowledge of the outside world. To prevent panic, Kimito must pretend to be a commoner and teach the girls about life beyond their sheltered environment. With challenges and misunderstandings aplenty, Kimito navigates his unusual situation while trying to uphold his secret and keep the girls from finding out the truth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/86525l.webp" alt="The Silver Guardian">
+                <div class="details">
+                    <a href="the-silver-guardian.html"><h3>The Silver Guardian</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>The Silver Guardian follows Suigin, a passionate gamer who finds himself drawn into the virtual world of a mysterious MMORPG after meeting the beautiful Riku Rei. Together, they navigate the dangers of this game that is more than it seems, hoping to uncover its secrets while facing challenges and adversaries along the way. As their journey progresses, Suigin and Riku Rei's bond grows stronger, propelling them towards an ultimate showdown that will determine the fate of both worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/76111l.webp" alt="Comet Lucifer">
+                <div class="details">
+                    <a href="comet-lucifer.html"><h3>Comet Lucifer</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In Comet Lucifer, a young boy named Sogo discovers a mysterious crystal in a mine, which leads him to meet the enigmatic girl Felia. Together, they embark on an adventure to unravel the secrets behind Felia's origin and the power of the crystal. As they encounter new friends and foes, Sogo must protect Felia from those who seek to exploit her powers for their own gain. The journey tests their friendship and resolves around the destiny connected to the comet Lucifer.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/74541l.webp" alt="Sky Wizards Academy">
+                <div class="details">
+                    <a href="sky-wizards-academy.html"><h3>Sky Wizards Academy</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where demons threaten humanity, young mage Kanata is tasked with training a group of misfit students at the Sky Wizards Academy. As they struggle to work together and overcome their personal issues, they must learn to harness their magical abilities to protect their world. With the fate of humanity hanging in the balance, Kanata and his students must rise to the challenge and become the heroes they were destined to be.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/45248l.jpg" alt="Samurai Bride">
+                <div class="details">
+                    <a href="samurai-bride.html"><h3>Samurai Bride</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Samurai Bride, Muneakira Yagyu and his female warrior companions must confront a new threat to the peace they fought so hard to achieve. With the arrival of mysterious samurai brides who possess incredible powers, the team must navigate treacherous waters to protect their loved ones and keep the world safe from chaos. As old enemies resurface and new alliances are forged, the warriors will face their greatest challenge yet in a battle that will determine the fate of their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/71769l.webp" alt="World Break: Aria of Curse for a Holy Swordsman">
+                <div class="details">
+                    <a href="world-break%3A-aria-of-curse-for-a-holy-swordsman.html"><h3>World Break: Aria of Curse for a Holy Swordsman</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where memories of past lives hold the key to incredible powers, Moroha Haimura discovers he is a Savior capable of wielding multiple Holy Swords. Enrolling in a special academy to hone his abilities, Moroha and his classmates must fend off dark forces seeking to exploit their unique gifts. As they uncover the secrets of their previous incarnations, they must join forces to protect the world from the looming threat of destruction.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1109/101230l.jpg" alt="To the Abandoned Sacred Beasts">
+                <div class="details">
+                    <a href="to-the-abandoned-sacred-beasts.html"><h3>To the Abandoned Sacred Beasts</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a war-torn world, soldiers transformed into powerful and monstrous beings known as Incarnates seek a way to return to their human forms. Hank, a former soldier, enlists in a mission to track down and eliminate rogue Incarnates. However, as he confronts his comrades turned beasts, he must navigate the moral complexities of their existence. With intense battles and deep emotional struggles, To the Abandoned Sacred Beasts explores the consequences of war and the search for redemption.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/78669l.jpg" alt="Kurokami The Animation">
+                <div class="details">
+                    <a href="kurokami-the-animation.html"><h3>Kurokami The Animation</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Kurokami The Animation follows the story of Kuro, a powerful being known as a Mototsumitama, who seeks to avenge her family's death. She forms a pact with a young man named Keita to help in her quest for revenge. Together, they battle against other Mototsumitamas who exploit humans for their life force. As secrets about Kuro's past are revealed, Keita becomes entangled in a dangerous world of power struggles and betrayal.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/65671l.jpg" alt="Rail Wars!">
+                <div class="details">
+                    <a href="rail-wars%21.html"><h3>Rail Wars!</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In an alternate version of Japan, high school student Naoto dreams of becoming a train driver, but ends up working for the National Railway Security Force. Alongside his colleagues Aoi, Haruka, and Shou, they navigate through various railway incidents and challenges. From thwarting hijackings to dealing with unruly passengers, the team must rely on their skills and teamwork to ensure the safety of the passengers and the trains they cherish.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/34043l.jpg" alt="Brave 10">
+                <div class="details">
+                    <a href="brave-10.html"><h3>Brave 10</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Brave 10, a skilled ninja, Saizo Kirigakure, is recruited by the warlord Sanada Yukimura to assemble a team of ten warriors with unique abilities. Together, they embark on a dangerous mission to protect Yukimura and his land from rival warlords and supernatural threats. As the team faces powerful enemies and personal challenges, they must learn to trust each other and harness their strengths to achieve victory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/69085l.jpg" alt="Unlimited Fafnir">
+                <div class="details">
+                    <a href="unlimited-fafnir.html"><h3>Unlimited Fafnir</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In Unlimited Fafnir, dragons known as Dragons suddenly appear, causing chaos and destruction. To combat these creatures, special girls with the power to wield dragon-like abilities are trained at a special academy. Yuu Mononobe, the only male D, joins this academy and is tasked with stopping the Dragons. As he navigates through dangerous battles and interacts with his female classmates, hidden secrets and personal connections gradually come to light.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/51565l.jpg" alt="So, I Can't Play H! Episode 13">
+                <div class="details">
+                    <a href="so%2C-i-can%27t-play-h%21-episode-13.html"><h3>So, I Can't Play H! Episode 13</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Ryosuke Kaga's life takes an unexpected turn when he meets a beautiful girl who reveals herself to be a Grim Reaper. In exchange for his energy, she grants his deepest desire - power. However, their deal is complicated by other supernatural beings and a secret that may threaten everything. As the mysteries unravel, Ryosuke must navigate a dangerous world of lust and power.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/44594l.jpg" alt="Majestic Prince">
+                <div class="details">
+                    <a href="majestic-prince.html"><h3>Majestic Prince</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Majestic Prince, a group of genetically enhanced teenagers known as the AHSMB pilots must protect humanity from an alien species threatening Earth. Follow their struggles as they battle in space, forming strong bonds and uncovering their true potential along the way. The team faces challenging missions and enemies, testing their abilities and determination to defend their home planet.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 48%;"></span>
+                        </div>
+                        <p>48% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/77134l.webp" alt="Luck & Logic">
+                <div class="details">
+                    <a href="luck-%26-logic.html"><h3>Luck & Logic</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where humans coexist with otherworldly beings called Logicalists, a special group of individuals known as ALCA works to protect the world from foreign invaders. Yoshichika Tsurugi, a former Logicalist, joins forces with the cute yet powerful goddess Athena to battle these threats. Together, they fight to maintain the delicate balance between humans and the mystical creatures living among them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 48%;"></span>
+                        </div>
+                        <p>48% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/76211l.webp" alt="Anti-Magic Academy: The 35th Test Platoon">
+                <div class="details">
+                    <a href="anti-magic-academy%3A-the-35th-test-platoon.html"><h3>Anti-Magic Academy: The 35th Test Platoon</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where magic is feared, Takeru Kusanagi leads the Anti-Magic Academy's weakest platoon. As they work to improve their skills and reputation, a powerful witch threatens their school. Takeru and his teammates must band together to overcome their differences and harness their unique strengths to protect the academy from the looming threat.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/79758l.webp" alt="BBK/BRNK">
+                <div class="details">
+                    <a href="bbkbrnk.html"><h3>BBK/BRNK</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>When Azuma discovers he has the power to control a giant robot, he sets out on a journey to uncover the truth behind his mysterious abilities and the connections to his past. Alongside a group of friends, Azuma must confront powerful organizations and unravel secrets as they engage in intense battles using their own mecha suits. As the conflict escalates, Azuma's resolve is put to the test as he fights to protect those he cares about and prevent a devastating catastrophe.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/79163l.jpg" alt="Elemental Gelade">
+                <div class="details">
+                    <a href="elemental-gelade.html"><h3>Elemental Gelade</h3></a>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>In a world where humans and shapeshifting creatures called Edel Raids coexist, a young sky pirate named Coud discovers a mysterious girl named Ren who possesses the rare and powerful Edel Raid known as the Elemental Gelade. As they embark on a journey to protect Ren from those who seek to exploit her powers, they encounter friends and foes while unraveling the secrets of Ren's past and the true nature of the Elemental Gelade.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/17071l.jpg" alt="Asura Cryin'">
+                <div class="details">
+                    <a href="asura-cryin%27.html"><h3>Asura Cryin'</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After losing his friend in a mysterious accident, Tomoharu is left with a strange trunk containing a girl named Misao who claims to be a ghost. Together, they uncover a world of supernatural beings and powerful mechs known as Asura Machina. As various factions seek to control the powerful beings, Tomoharu must navigate a complex web of alliances and betrayals to protect his friends and solve the mystery of his friend's death.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/20946l.jpg" alt="Princess Resurrection">
+                <div class="details">
+                    <a href="princess-resurrection.html"><h3>Princess Resurrection</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Hiro is a high school student who unexpectedly becomes the servant of the immortal Princess Hime. Together with her siblings—each a supernatural being—they battle other creatures to claim the throne of the monster kingdom. As Hiro gets entangled in the siblings' dangerous struggles, he discovers the true power and secrets of their world. Can he help Princess Hime ascend to the throne and protect her from those who seek to destroy her?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/76664l.webp" alt="Undefeated Bahamut Chronicle">
+                <div class="details">
+                    <a href="undefeated-bahamut-chronicle.html"><h3>Undefeated Bahamut Chronicle</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After an empire falls, former prince Lux Arcadia stumbles upon a girl named Lisha. Discovering he is the only male Drag-Knight, Lux joins the girls at the royal academy to train them in battle. As he navigates training, Lux becomes entangled in political intrigue and ancient secrets. Together with Lisha and the other girls, Lux fights to protect the kingdom from looming threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/13680l.jpg" alt="Basquash!">
+                <div class="details">
+                    <a href="basquash%21.html"><h3>Basquash!</h3></a>
+                    <p>Sports</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In the futuristic city of Rolling Town, basketball is played in giant mechas known as Bigfoots. Dan, a skilled player with a troubled past, dreams of taking part in the renowned Hyper Dunk basketball tournament. Alongside his friends and teammates, Dan faces challenges on and off the court as they strive to achieve their dreams and uncover the secrets of the game. With excitement, rivalry, and friendship, Basquash! combines sports, mecha battles, and a vibrant world for an action-packed adventure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/26876l.jpg" alt="Fortune Arterial: Akai Yakusoku">
+                <div class="details">
+                    <a href="fortune-arterial%3A-akai-yakusoku.html"><h3>Fortune Arterial: Akai Yakusoku</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Fortune Arterial: Akai Yakusoku follows the story of Kohei Hasekura, a transfer student at Shuchikan Academy, who encounters a girl named Erika Sendo with a mysterious secret. As Kohei unravels the mysteries surrounding Erika and her friends, he finds himself getting involved in supernatural events and a web of past connections that may impact their futures. Amidst school life and friendships, Kohei must navigate the complexities of his new world and the ominous promise that binds them all together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1398/133870l.webp" alt="Stray Cats Overrun!">
+                <div class="details">
+                    <a href="stray-cats-overrun%21.html"><h3>Stray Cats Overrun!</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Stray Cats Overrun! follows the daily lives of a group of high school students who come together to take care of a stray cat they find in their school. As they work together to care for the cat and navigate the challenges of high school life, they form strong bonds and learn important lessons about friendship, responsibility, and teamwork. With heartwarming moments and lighthearted humor, this anime celebrates the power of coming together to make a difference.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/61051l.webp" alt="Captain Earth">
+                <div class="details">
+                    <a href="captain-earth.html"><h3>Captain Earth</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Captain Earth, high school student Daichi Manatsu is recruited to pilot a giant robot to defend Earth from an alien race known as the Kill-T-Gang. As Daichi joins the organization Globe, he uncovers his own connection to the aliens and learns of a mysterious plan to protect the planet. With the help of his friends and fellow pilots, Daichi must confront his past and face the impending alien threat to save humanity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/15940l.jpg" alt="The Sacred Blacksmith">
+                <div class="details">
+                    <a href="the-sacred-blacksmith.html"><h3>The Sacred Blacksmith</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After losing her father, Cecily joins the Knight Guards to protect her city. During a battle, she encounters a mysterious swordsman named Luke, who also happens to be a talented blacksmith. As they team up to fight against demonic foes with powerful swords forged by Luke, Cecily learns more about his past and the truth behind the Sacred Blacksmith. Together, they face challenges and uncover dark secrets in a world threatened by chaos.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/15153l.jpg" alt="Ah My Buddha Katsu">
+                <div class="details">
+                    <a href="ah-my-buddha-katsu.html"><h3>Ah My Buddha Katsu</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>In Ah My Buddha Katsu, a high school student named Ikkou Satonaka living in a temple discovers his ability to manifest powerful Buddhist powers whenever he gets aroused. He must use these powers to help the temple's residents and control his newfound abilities while also dealing with the various challenges and adventures that come his way. The series explores themes of friendship, spirituality, and growing up in a unique and comedic way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/50311l.webp" alt="Dragon Crisis!">
+                <div class="details">
+                    <a href="dragon-crisis%21.html"><h3>Dragon Crisis!</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>When a boy named Ryuuji encounters a mysterious girl named Rose, his life takes a sudden turn. Rose is a treasure hunter seeking powerful objects called Lost Precious, and Ryuuji gets caught up in her quest. As they delve into the world of dragons and magic, they must navigate dangerous adversaries and uncover the truth behind Rose's past. Together, they face thrilling adventures and formidable foes in their search for the ultimate treasure.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

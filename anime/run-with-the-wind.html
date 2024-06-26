@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Run with the Wind</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "37965";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1936/129119l.jpg" alt="Run with the Wind">
+                <div>
+                    <h2 id="title">Run with the Wind</h2>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br><br>
+                    <p>Ten former college track stars come together to form a long-distance running team. Initially hesitant, they commit to training for the famed Hakone Ekiden marathon race. As they face personal struggles and lack of experience, their dedication grows. Through teamwork and perseverance, they learn the true meaning of running and friendship. With each step they take, they get closer to achieving their dream of crossing the finish line together.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/73540l.jpg" alt="The Boy and the Beast">
+                <div class="details">
+                    <a href="the-boy-and-the-beast.html"><h3>The Boy and the Beast</h3></a>
+                    <p>Isekai</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When a lonely young boy stumbles into the beastly realm of beasts, he becomes the apprentice to a bear-like creature. As they train together in the ways of the beastly warriors, they form an unlikely bond that will be tested as they face dangerous enemies lurking in the shadows. Will the boy be able to prove himself as a true warrior and find his place in the beastly world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1171/109222l.jpg" alt="Jujutsu Kaisen">
+                <div class="details">
+                    <a href="jujutsu-kaisen.html"><h3>Jujutsu Kaisen</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Yuji Itadori, a high school student with incredible physical abilities, becomes involved in the world of sorcery after consuming a cursed object to save his friends from evil spirits. He joins forces with a group of Jujutsu sorcerers to hunt down dangerous curses and prevent them from harming the innocent. As Yuji trains to control his newfound powers and navigate the dangerous world of curses, he faces both powerful enemies and the moral dilemmas of using cursed energy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/89879l.jpg" alt="A Place Further Than The Universe">
+                <div class="details">
+                    <a href="a-place-further-than-the-universe.html"><h3>A Place Further Than The Universe</h3></a>
+                    <p>Drama</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Four high school girls embark on an exhilarating journey to Antarctica in search of adventure and self-discovery. Despite facing many challenges, the girls form strong bonds and learn the true meaning of friendship and perseverance along the way. With dreams as vast as the universe itself, they push past their limits to reach a place they never thought possible.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/54235l.jpg" alt="Ace of Diamond">
+                <div class="details">
+                    <a href="ace-of-diamond.html"><h3>Ace of Diamond</h3></a>
+                    <p>Sports</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Ace of Diamond follows Eijun Sawamura, a young and passionate baseball pitcher who joins the prestigious Seidou High School to fulfill his dream of reaching the national tournament. Alongside his teammates, Eijun navigates intense rivalries, tough practices, and personal growth as they strive to become the best high school baseball team in Japan. With fierce competition and unwavering determination, they work together to overcome challenges and achieve success on the diamond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1460/141897l.jpg" alt="Shirobako">
+                <div class="details">
+                    <a href="shirobako.html"><h3>Shirobako</h3></a>
+                    <p>Drama</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Shirobako follows five friends who reunite after high school to pursue their dream careers in the anime industry. Aoi Miyamori works as a production assistant at an animation studio, facing various challenges and deadlines in bringing a project to life. The series explores the behind-the-scenes world of anime production, shedding light on the passion and hard work required to create an animated show.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1981/113348l.jpg" alt="Odd Taxi">
+                <div class="details">
+                    <a href="odd-taxi.html"><h3>Odd Taxi</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Odd Taxi follows the life of a mysterious taxi driver named Odokawa, who gets unintentionally entangled in a series of interconnected events involving his diverse range of eccentric passengers. As he navigates through the bustling city, Odokawa finds himself drawn into a web of crime, secrets, and conspiracies. With his sharp wit and unexpected connections, he must unravel the truth behind the enigmatic characters he encounters while trying to protect his own hidden past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1973/142750l.jpg" alt="The Disastrous Life of Saiki K.">
+                <div class="details">
+                    <a href="the-disastrous-life-of-saiki-k..html"><h3>The Disastrous Life of Saiki K.</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Follow the extraordinary life of Saiki Kusuo, a high school student with a wide range of psychic abilities. Despite his desire for a normal, quiet life, Saiki finds himself entangled in hilarious situations due to his powers, all while trying to keep his abilities a secret from those around him. From reading minds to teleportation, Saiki navigates through daily life with a blend of humor and sarcasm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/82899l.webp" alt="March Comes In Like a Lion">
+                <div class="details">
+                    <a href="march-comes-in-like-a-lion.html"><h3>March Comes In Like a Lion</h3></a>
+                    <p>Drama</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Rei Kiriyama is a professional shogi player struggling with loneliness and personal demons. Despite his success, he feels empty until he meets the three Kawamoto sisters. Through their warmth and kindness, Rei starts to find healing and purpose in his life. As he navigates the complexities of his career and relationships, Rei learns valuable lessons about friendship, love, and self-acceptance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1354/124768l.jpg" alt="Showa Genroku Rakugo Shinju">
+                <div class="details">
+                    <a href="showa-genroku-rakugo-shinju.html"><h3>Showa Genroku Rakugo Shinju</h3></a>
+                    <p>Drama</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Showa Genroku Rakugo Shinju follows the story of a former yakuza member, Yotarou, who becomes a disciple of a famous rakugo master after his release from prison. The series delves into the art of rakugo storytelling, as well as the complexities of the relationships between the characters. As Yotarou navigates the world of traditional Japanese performance art, he must confront his past and strive for success in the rakugo world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/11986l.jpg" alt="Nodame Cantabile">
+                <div class="details">
+                    <a href="nodame-cantabile.html"><h3>Nodame Cantabile</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Nodame Cantabile follows the story of Shinichi Chiaki, a talented musician with dreams of becoming a conductor. His path crosses with Noda Megumi, a quirky and free-spirited pianist known as Nodame. The two navigate their musical ambitions together while also exploring their feelings for each other. As they face various challenges in their personal and professional lives, they discover the true power of music in bringing people together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/35749l.webp" alt="Chihayafuru">
+                <div class="details">
+                    <a href="chihayafuru.html"><h3>Chihayafuru</h3></a>
+                    <p>Sports</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Chihayafuru follows Chihaya Ayase, a high school girl with a passion for competitive karuta, a traditional Japanese card game. Alongside her childhood friends Taichi and Arata, Chihaya navigates the world of competitive karuta tournaments, determined to become the queen of karuta. As they face various challenges and opponents, the trio learns valuable lessons about friendship, determination, and the true meaning of victory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1580/93526l.webp" alt="Hinamatsuri">
+                <div class="details">
+                    <a href="hinamatsuri.html"><h3>Hinamatsuri</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>A psychic girl from another dimension suddenly appears in the living room of a stoic yakuza member, demanding his help. As the unlikely duo navigates their new living arrangement, they find themselves surrounded by a quirky cast of characters - including more psychic children and eccentric individuals with their own supernatural abilities. Together, they embark on hilarious and heartwarming adventures, learning valuable lessons about friendship and family along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1934/111002l.jpg" alt="Aria the Crepuscolo">
+                <div class="details">
+                    <a href="aria-the-crepuscolo.html"><h3>Aria the Crepuscolo</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Aria the Crepuscolo follows the story of a group of young water fairies as they navigate their duties in maintaining balance and harmony in their magical world. When an unexpected threat emerges, the fairies must work together and harness their unique abilities to protect their home. As they face challenges and forge strong bonds, the fairies learn the true power of friendship and courage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1290/135694l.webp" alt="Space Brothers">
+                <div class="details">
+                    <a href="space-brothers.html"><h3>Space Brothers</h3></a>
+                    <p>Comedy</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After witnessing a UFO as children, two brothers promise to become astronauts. Years later, Hibito fulfills his dream, but Mutta loses his job. Determined to catch up, Mutta renews his passion for space exploration and works hard to join the Japanese astronaut program. Through intense training and challenges, Mutta navigates his way toward the stars, proving that the bond between brothers and the power of determination can overcome any obstacle.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1084/119096l.jpg" alt="Nodame Cantabile Finale">
+                <div class="details">
+                    <a href="nodame-cantabile-finale.html"><h3>Nodame Cantabile Finale</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Nodame Cantabile Finale continues the story of piano prodigy Shinichi Chiaki and eccentric pianist Megumi Noda as they navigate the challenges of pursuing their musical dreams while facing personal and professional hurdles. As they strive for greatness in the competitive world of classical music, their relationship deepens, leading to moments of joy, heartache, and growth. Through dedication, passion, and perseverance, Chiaki and Nodame inspire each other to reach new heights in their musical careers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/89877l.jpg" alt="Laid-Back Camp">
+                <div class="details">
+                    <a href="laid-back-camp.html"><h3>Laid-Back Camp</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>High school student Rin Shima loves camping by herself to enjoy nature in solitude. When she meets the cheerful and outgoing Nadeshiko Kagamihara, her quiet camping trips take an unexpected turn. Together, they form new friendships, learn outdoor skills, and embark on adventures in the great outdoors, leading to heartwarming moments and unforgettable memories. Experience the joys of friendship and the beauty of nature in this relaxing and heartwarming slice-of-life anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1135/114867l.jpg" alt="Link Click">
+                <div class="details">
+                    <a href="link-click.html"><h3>Link Click</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where virtual reality games are a daily escape, one high school student, Xiao Feng, discovers a new game called Link Click. Enticed by its mysterious gameplay and advanced technology, he dives in. However, he soon realizes that this game is more than just entertainment as he gets tangled in a series of dangerous challenges that blur the lines between reality and the virtual world. With the help of his friends, Xiao Feng must navigate through this thrilling adventure to uncover the hidden secrets of Link Click.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1958/132159l.jpg" alt="Blue Giant">
+                <div class="details">
+                    <a href="blue-giant.html"><h3>Blue Giant</h3></a>
+                    <p>Other Genre</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Blue Giant follows Dai Miyamoto, a high school delinquent who discovers a passion for playing the tenor saxophone. Determined to become a jazz musician, Dai navigates through challenges such as mastering his instrument, facing fierce competition, and balancing his personal life. As he strives towards his dream of performing on the global stage, Dai learns about the power of music in connecting people and shaping his own identity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1731/120871l.jpg" alt="Aoashi">
+                <div class="details">
+                    <a href="aoashi.html"><h3>Aoashi</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Aoashi follows the story of Masaki Hinaoka, a high school student with a passion for soccer. After a chance encounter with his childhood friend, Mio Kozue, who is now a professional soccer player, Masaki is inspired to join the school's soccer team. As he navigates the challenges of high school soccer and strives to reach his full potential, Masaki forms new friendships, faces tough opponents, and learns important lessons about teamwork and determination.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1441/122795l.jpg" alt="Spy x Family">
+                <div class="details">
+                    <a href="spy-x-family.html"><h3>Spy x Family</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Spy x Family, a skilled spy named Twilight is tasked with a mission that requires him to pose as a married man with a family. In order to maintain his cover, he adopts a young girl named Anya and seeks out a wife, unknowingly choosing a highly skilled assassin named Yor Forger. As they navigate their double lives, the unlikely family forms a bond while trying to keep their secrets hidden from each other.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1418/107954l.jpg" alt="Great Pretender">
+                <div class="details">
+                    <a href="great-pretender.html"><h3>Great Pretender</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Great Pretender follows a group of con artists who specialize in scamming the wealthy and powerful. The charismatic leader, Makoto Edamura, and his team find themselves embroiled in high-stakes heists across the globe as they navigate between their cons and personal motivations. As they pull off elaborate schemes with style and wit, they must also confront the consequences of their deceptive actions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1500/103005l.jpg" alt="Vinland Saga">
+                <div class="details">
+                    <a href="vinland-saga.html"><h3>Vinland Saga</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Vinland Saga follows the young Thorfinn, who seeks revenge against the man who killed his father. Set in the brutal world of Vikings, Thorfinn finds himself caught in the midst of a complex web of political intrigue, power struggles, and battles for survival. As he matures and hones his skills as a warrior, Thorfinn's quest for vengeance becomes intertwined with his search for a greater purpose in a world rife with violence and ambition.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 68%;"></span>
+                        </div>
+                        <p>68% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1518/138730l.jpg" alt="Skip and Loafer">
+                <div class="details">
+                    <a href="skip-and-loafer.html"><h3>Skip and Loafer</h3></a>
+                    <p>Drama</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Skip and Loafer follows the story of Mitsumi Iwakura, a small-town girl with big dreams of attending a prestigious high school in Tokyo. As she navigates the challenges of city life and high school, she meets Sousuke Shima, a laid-back and popular classmate. Despite their contrasting personalities, the two form an unlikely friendship, supporting each other through the ups and downs of teenage life. The series explores themes of ambition, friendship, and self-discovery, blending humor and heartfelt moments.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/80356l.webp" alt="Mob Psycho 100">
+                <div class="details">
+                    <a href="mob-psycho-100.html"><h3>Mob Psycho 100</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Shigeo Kageyama, known as Mob, possesses immense psychic powers. Despite his abilities, he tries to live a normal life and suppress his emotions to prevent his powers from going out of control. Working as an assistant for a self-proclaimed psychic, Mob encounters various supernatural beings and learns valuable lessons about life, friendship, and power. As he navigates through challenges and battles other psychic users, Mob's journey of self-discovery and personal growth unfolds in a captivating and comedic way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/86739l.jpg" alt="Welcome to the Ballroom">
+                <div class="details">
+                    <a href="welcome-to-the-ballroom.html"><h3>Welcome to the Ballroom</h3></a>
+                    <p>Sports</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Fujita finds himself drawn into the world of competitive ballroom dancing after a chance encounter with professional dancer Sengoku. As he struggles to learn the intricate steps and techniques of dance, Fujita discovers a new passion and drive within himself. Along the way, he meets new friends and rivals, pushing himself to new heights in the exhilarating and demanding world of competitive dance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 71%;"></span>
+                        </div>
+                        <p>71% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1830/118780l.webp" alt="The Promised Neverland">
+                <div class="details">
+                    <a href="the-promised-neverland.html"><h3>The Promised Neverland</h3></a>
+                    <p>Mystery</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In The Promised Neverland, orphaned children Emma, Norman, and Ray discover a dark secret about their seemingly idyllic orphanage. They plot to escape and uncover the truth behind their existence, facing dangerous obstacles and enemies along the way. With their intelligence and cunning, they must outwit their caretaker and find a way to freedom while unraveling the mysteries of their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 73%;"></span>
+                        </div>
+                        <p>73% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1460/98853l.webp" alt="Bunny Drop">
+                <div class="details">
+                    <a href="bunny-drop.html"><h3>Bunny Drop</h3></a>
+                    <p>Other Genre</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After attending his grandfather's funeral, thirty-year-old Daikichi is shocked to discover that the old man had an illegitimate six-year-old daughter named Rin. With no one else willing to take her in, Daikichi decides to become her guardian. The series follows their heartwarming journey as they navigate the challenges of parenthood and form a special bond. </p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 75%;"></span>
+                        </div>
+                        <p>75% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/49237l.webp" alt="Silver Spoon">
+                <div class="details">
+                    <a href="silver-spoon.html"><h3>Silver Spoon</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Silver Spoon follows Yuugo Hachiken, a high school student from the city who enrolls in an agricultural school in rural Hokkaido to escape the high expectations of his family. As he navigates the challenges of farm life and befriends his classmates, he experiences personal growth and discovers a new perspective on hard work, friendship, and the true meaning of success.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 76%;"></span>
+                        </div>
+                        <p>76% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/76014l.webp" alt="Haikyu!!">
+                <div class="details">
+                    <a href="haikyu%21%21.html"><h3>Haikyu!!</h3></a>
+                    <p>Sports</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Haikyu!! follows the journey of high school student Shoyo Hinata as he pursues his passion for volleyball. Despite his short stature, Hinata is determined to make a name for himself on the court. Teaming up with his new teammates, including the talented but brooding Tobio Kageyama, Hinata aims to lead his school team to victory against fierce competitors. Through hard work, dedication, and teamwork, the players strive to reach new heights in the exhilarating world of high school volleyball.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 78%;"></span>
+                        </div>
+                        <p>78% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1426/111248l.jpg" alt="Barakamon">
+                <div class="details">
+                    <a href="barakamon.html"><h3>Barakamon</h3></a>
+                    <p>Other Genre</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After a calligraphy mishap, talented but uptight calligrapher Handa Seishu is exiled to a rural island. As he navigates the laid-back island life and befriends the quirky locals, Handa begins to discover his true self and find inspiration in the simplicity of his surroundings. Through heartwarming interactions and comedic mishaps, Barakamon follows Handa's journey of self-discovery and personal growth as he learns valuable life lessons from the people of the island.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

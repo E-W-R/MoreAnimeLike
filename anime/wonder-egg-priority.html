@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Wonder Egg Priority</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "43299";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1079/110751l.jpg" alt="Wonder Egg Priority">
+                <div>
+                    <h2 id="title">Wonder Egg Priority</h2>
+                    <p>Psychological</p>
+                    <p>2021</p>
+                    <br><br>
+                    <p>After acquiring a mysterious egg, protagonist Ai enters a dream world where she must save girls from their darkest fears. Alongside other chosen girls, they face traumatic pasts and navigate complex emotions. As they uncover the truth behind their missions, they realize the weight of their choices and the impact on their reality. With each egg cracked, a new layer of the girls' intertwined destinies is revealed.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1491/117229l.jpg" alt="Hanasaku Iroha: Blossoms for Tomorrow">
+                <div class="details">
+                    <a href="hanasaku-iroha%3A-blossoms-for-tomorrow.html"><h3>Hanasaku Iroha: Blossoms for Tomorrow</h3></a>
+                    <p>Drama</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After her irresponsible mother suddenly elopes, Ohana Matsumae is sent to live with her strict grandmother at her hot springs inn. Determined to make the best of her new life, Ohana must navigate the challenges of working at the inn while also dealing with the complex relationships of the staff and guests. As she matures and learns the value of hard work and perseverance, Ohana strives to find her place in the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1820/120520l.jpg" alt="Akebi's Sailor Uniform">
+                <div class="details">
+                    <a href="akebi%27s-sailor-uniform.html"><h3>Akebi's Sailor Uniform</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Akebi Amano, a high school girl with a humble background, transfers to an elite all-girls school known for its strict rules and rich students. Determined to succeed despite her circumstances, Akebi navigates the challenges of rigorous academics and social hierarchies while staying true to herself. With her optimistic attitude and resilience, she forms genuine connections with her classmates and teachers, inspiring those around her to chase their dreams and embrace their true selves.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1578/94205l.jpg" alt="Kase-san and Morning Glories">
+                <div class="details">
+                    <a href="kase-san-and-morning-glories.html"><h3>Kase-san and Morning Glories</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Kase-san and Morning Glories follows the blossoming relationship between high school girls, Yui Yamada and Tomoka Kase. Yui, a shy and reserved member of the gardening club, is intrigued by the outgoing and athletic Tomoka. As they navigate the ups and downs of young love, the pair learn more about themselves and each other. With a focus on their personal growth and the challenges of young romance, this heartwarming anime explores themes of self-acceptance and love.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1009/103187l.jpg" alt="Welcome to Demon School! Iruma-kun">
+                <div class="details">
+                    <a href="welcome-to-demon-school%21-iruma-kun.html"><h3>Welcome to Demon School! Iruma-kun</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Iruma Suzuki, a kind-hearted and overworked teenage boy, finds himself sold to a demon by his irresponsible parents. To his surprise, the demon he is sent to live with, Sullivan, is caring and enrolls him in the demon school. Trying to keep his human identity a secret, Iruma navigates the challenges of demon school life while making friends and unintentionally becoming popular. Follow his hilarious and heartwarming adventures as he discovers his place in the demon world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/75262l.webp" alt="Wagnaria!!">
+                <div class="details">
+                    <a href="wagnaria%21%21.html"><h3>Wagnaria!!</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Wagnaria!! follows the comedic daily lives of the quirky staff members working at the Wagnaria family restaurant. The story primarily focuses on the new hire, Sota, who finds himself surrounded by eccentric coworkers, leading to hilarious and chaotic situations in the workplace. As they navigate through their unique personalities and relationships, they learn about teamwork, friendship, and personal growth in this heartwarming comedy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1468/109172l.jpg" alt="Akudama Drive">
+                <div class="details">
+                    <a href="akudama-drive.html"><h3>Akudama Drive</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a dystopian future, criminals known as Akudama are recruited for a dangerous mission by a mysterious person known as Black Cat. The Akudama, each with their own unique abilities, must work together to complete their mission while navigating the treacherous streets of Kansai City. However, as the stakes get higher, they find themselves caught up in a conflict that could change the fate of the city forever.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1130/99458l.webp" alt="Hitoribocchi no Marumaru Seikatsu">
+                <div class="details">
+                    <a href="hitoribocchi-no-marumaru-seikatsu.html"><h3>Hitoribocchi no Marumaru Seikatsu</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Hitori Bocchi suffers from extreme social anxiety and struggles to make friends. Her one and only friend from elementary school has transferred to a different school, giving Bocchi a mission to befriend her entire class before they reunite in high school. With her shy and awkward nature, Bocchi navigates various obstacles and humorous situations in her quest to overcome her social fears.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/50177l.jpg" alt="The Devil is a Part-Timer!">
+                <div class="details">
+                    <a href="the-devil-is-a-part-timer%21.html"><h3>The Devil is a Part-Timer!</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>After being defeated by the hero Emilia, the Demon Lord Satan finds himself stranded in modern-day Tokyo without his powers. Forced to take on a part-time job at a fast-food restaurant to survive, Satan, now known as Sadao Maou, navigates the human world alongside his loyal general Ashiya. As Sadao rises through the ranks at MgRonald's, he must also contend with threats from his past and new enemies who seek to disrupt his peaceful life on Earth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1048/128385l.webp" alt="Kakushigoto">
+                <div class="details">
+                    <a href="kakushigoto.html"><h3>Kakushigoto</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Kakushi Goto is a heartwarming slice-of-life anime following the secret life of a famous manga artist and his young daughter, Hime. Despite his success, Kakushi works hard to keep his job hidden from Hime to protect her innocence. As he navigates the challenges of fatherhood and the pressures of his profession, Kakushi must juggle his double life while cherishing the precious moments he shares with his beloved daughter.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/10/75249l.jpg" alt="Engaged to the Unidentified">
+                <div class="details">
+                    <a href="engaged-to-the-unidentified.html"><h3>Engaged to the Unidentified</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Engaged to the Unidentified follows the story of Kobeni, who finds out on her 16th birthday that she is engaged to a boy named Hakuya. However, things take an unexpected turn when Hakuya and his little sister Mashiro move in with Kobeni and her family. As Kobeni navigates her new relationship and living arrangements, she uncovers surprising secrets about Hakuya and Mashiro's past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1733/140802l.jpg" alt="The Wrong Way to Use Healing Magic">
+                <div class="details">
+                    <a href="the-wrong-way-to-use-healing-magic.html"><h3>The Wrong Way to Use Healing Magic</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After accidentally killing a demon lord, novice healer Mitoshi is banished to a remote village. With no combat skills, he relies on his healing magic to survive, but there's a catch: he can only use it for destructive purposes. As he navigates his new life, Mitoshi must find a way to control his powers and protect those around him from the dangers that threaten the village.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/83417l.jpg" alt="Interviews With Monster Girls">
+                <div class="details">
+                    <a href="interviews-with-monster-girls.html"><h3>Interviews With Monster Girls</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Interviews With Monster Girls follows high school teacher Tetsuo Takahashi as he researches demi-humans - individuals with supernatural traits like vampires and succubi. Through interviews with his students who are demi-humans, Tetsuo aims to understand their daily struggles and experiences. As he digs deeper into their lives, he forges meaningful connections with these special girls and learns valuable lessons about acceptance and empathy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1136/138410l.jpg" alt="Undead Unluck">
+                <div class="details">
+                    <a href="undead-unluck.html"><h3>Undead Unluck</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Fuko is cursed with a power that causes anyone she touches to die. When she meets Andy, a boy with the ability to come back to life after dying, they form an unlikely duo. They navigate a world of deadly battles, trying to keep each other safe while uncovering the truth behind their powers. As they team up with other supernatural beings, a thrilling adventure unfolds, full of twists, betrayals, and unexpected alliances.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1444/131828l.webp" alt="Tomo-chan Is a Girl!">
+                <div class="details">
+                    <a href="tomo-chan-is-a-girl%21.html"><h3>Tomo-chan Is a Girl!</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Tomo Aizawa is a girl with a tomboyish personality and has been friends with her neighbor, Junichirou Kubota, since they were kids. Unbeknownst to Tomo, Jun has developed romantic feelings for her over the years. The series follows their everyday high school life filled with comedic misunderstandings, awkward situations, and Jun's attempts to confess his love to Tomo. Will Jun finally be able to express his feelings to Tomo, or will their friendship remain the same?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1277/117155l.jpg" alt="Mieruko-chan">
+                <div class="details">
+                    <a href="mieruko-chan.html"><h3>Mieruko-chan</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After gaining the ability to see horrifying supernatural creatures, high school girl Miko is determined to ignore them to live a normal life. However, she soon realizes that pretending they aren't there may not be as easy as she thought. With the help of her friend Hana, Miko navigates the terrifying world around her while trying to keep her unique gift a secret from everyone else.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1054/121949l.jpg" alt="Deaimon: Recipe for Happiness">
+                <div class="details">
+                    <a href="deaimon%3A-recipe-for-happiness.html"><h3>Deaimon: Recipe for Happiness</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Deaimon: Recipe for Happiness, Sachi, a talented chef, rediscovers her passion for cooking after facing setbacks in her career. Through her determination and the support of her friends and family, she embarks on a journey to fulfill her dream of opening her own restaurant. Along the way, Sachi learns valuable lessons about perseverance, friendship, and the true meaning of happiness. Join her as she navigates the challenges of the culinary world and strives to create dishes that bring joy to others.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1662/118849l.webp" alt="Taisho Otome Fairy Tale">
+                <div class="details">
+                    <a href="taisho-otome-fairy-tale.html"><h3>Taisho Otome Fairy Tale</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Taisho Otome Fairy Tale, a story set in the Taisho era of Japan, a young man named Tamahiko is forced to marry a seemingly unrefined and uneducated girl named Yuzuki. Though initially resistant to the arrangement, Tamahiko soon learns of Yuzuki's hidden intelligence and kind heart. As they navigate their new life together, the couple begins to understand and appreciate each other's strengths, ultimately forming a deep and heartfelt connection.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1802/108501l.jpg" alt="Wandering Witch: The Journey of Elaina">
+                <div class="details">
+                    <a href="wandering-witch%3A-the-journey-of-elaina.html"><h3>Wandering Witch: The Journey of Elaina</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Elaina, a talented and ambitious witch, sets out on an adventurous journey to explore the world and learn from all the different people and cultures she encounters along the way. As she travels from one place to another, Elaina faces various challenges, makes new friends, and uncovers the beauty and darkness of the world. Will she achieve her dream of becoming a great witch, or will the harsh realities of her journey change her perspective?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1360/93571l.jpg" alt="Tsurune: Kazemai High School Kyudo Club">
+                <div class="details">
+                    <a href="tsurune%3A-kazemai-high-school-kyudo-club.html"><h3>Tsurune: Kazemai High School Kyudo Club</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Kazemai High School's Kyudo Club, once a powerhouse, is struggling to regain its former glory. Minato Narumiya, a former archery prodigy who lost his passion for the sport, joins the club alongside his childhood friends. Together, they work to overcome their individual struggles and aim for success in the upcoming tournament. Through dedication, friendship, and self-discovery, the members of the Kyudo Club learn valuable lessons both on and off the archery range.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/85468l.jpg" alt="Beyond the Boundary">
+                <div class="details">
+                    <a href="beyond-the-boundary.html"><h3>Beyond the Boundary</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>High school student Akihito Kanbara discovers the mysterious and immortal half-human, half-youmu girl Mirai Kuriyama. Together, they form an unlikely friendship as they battle dangerous youmu creatures to protect the world. Unraveling dark secrets from their pasts, they must confront their inner demons while facing a powerful enemy threatening the balance between the human and supernatural realms. Will they be able to overcome their own fears and save the world from impending doom?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/85435l.webp" alt="Amagi Brilliant Park">
+                <div class="details">
+                    <a href="amagi-brilliant-park.html"><h3>Amagi Brilliant Park</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>When the amusement park, Amagi Brilliant Park, is on the verge of being shut down due to poor performance, Seiya Kanie, a high school student, is tasked with reviving it. Despite his initial reluctance, Seiya soon discovers that the park's staff are actually magical creatures from a different realm who need the park's success to survive. With his business acumen and the help of the quirky staff, Seiya works towards attracting more visitors to the park while unraveling its magical secrets.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 40%;"></span>
+                        </div>
+                        <p>40% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1864/93518l.jpg" alt="Wotakoi: Love is Hard for Otaku">
+                <div class="details">
+                    <a href="wotakoi%3A-love-is-hard-for-otaku.html"><h3>Wotakoi: Love is Hard for Otaku</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After discovering they are both otaku, childhood friends Narumi and Hirotaka navigate the ups and downs of dating while working at the same company. Their unique bond grows as they explore their shared interests in video games, manga, and cosplay. Alongside their quirky friends, they learn that love can be challenging even for two people who seem to understand each other so well.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1446/91841l.jpg" alt="Tada Never Falls in Love">
+                <div class="details">
+                    <a href="tada-never-falls-in-love.html"><h3>Tada Never Falls in Love</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Tada Never Falls in Love follows Mitsuyoshi Tada, a high school student with a passion for photography. His life takes an unexpected turn when he meets Teresa Wagner, a foreign exchange student from Luxembourg. The two develop a close friendship as they navigate the complexities of their personal lives and relationships. As their bond strengthens, they discover the true meaning of love and friendship amidst various challenges and emotions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1950/116474l.jpg" alt="Tsukimichi: Moonlit Fantasy">
+                <div class="details">
+                    <a href="tsukimichi%3A-moonlit-fantasy.html"><h3>Tsukimichi: Moonlit Fantasy</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After being transported to a fantasy world, Makoto is abandoned by the goddess and left with monstrous appearance and incredible powers. As he navigates this new world, he forms uneasy alliances with various creatures while seeking his own path. With his unique abilities and a growing group of companions, Makoto faces dangerous challenges and discovers the truth about the gods and the mysteries of this magical realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1544/104540l.webp" alt="Smile Down the Runway">
+                <div class="details">
+                    <a href="smile-down-the-runway.html"><h3>Smile Down the Runway</h3></a>
+                    <p>Drama</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Chiyuki dreams of becoming a top model despite her short stature. On the other hand, Ikuto aspires to design haute couture and join his family's business, but lacks confidence. The two form an unlikely partnership to pursue their fashion dreams, supporting and inspiring each other along the way in this competitive industry. They face challenges and rivals as they strive to make a name for themselves in the world of fashion.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1401/118483l.jpg" alt="The Case Study of Vanitas">
+                <div class="details">
+                    <a href="the-case-study-of-vanitas.html"><h3>The Case Study of Vanitas</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where vampires and humans coexist, a young vampire named Noé is searching for a mysterious grimoire known as The Book of Vanitas that is said to bring chaos to the vampire society. With the help of a human doctor named Vanitas, who claims to be a vampire expert, they embark on a journey filled with dark secrets, supernatural creatures, and unexpected alliances. As they delve deeper into the truth behind the book, they unravel a conspiracy that threatens the balance between humans and vampires.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1424/113342l.jpg" alt="Shadows House">
+                <div class="details">
+                    <a href="shadows-house.html"><h3>Shadows House</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Shadows House, living dolls serve as the faces for the shadow aristocrats, who are beings made of soot and ash. A young living doll named Emilico begins serving Kate, a shadow aristocrat who seems to hide many secrets within the mysterious mansion they both reside in. As Emilico navigates her duties and uncovers the truth behind the shadows, she learns more about her own identity and the dark history of the Shadows Household.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 48%;"></span>
+                        </div>
+                        <p>48% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/51579l.jpg" alt="Servant x Service">
+                <div class="details">
+                    <a href="servant-x-service.html"><h3>Servant x Service</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Servant x Service follows the daily lives of a group of quirky civil servants working in a government office. Led by the diligent Lucy Yamagami, the team navigates through various challenges, bureaucracy, and eccentric coworkers while striving to make a difference in their community. As they bond over their shared experiences and personal lives, hilarious antics ensue in this heartwarming workplace comedy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1055/118890l.webp" alt="My Senpai is Annoying">
+                <div class="details">
+                    <a href="my-senpai-is-annoying.html"><h3>My Senpai is Annoying</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Futaba Igarashi is a hard-working office employee who is constantly annoyed by her loud and childish senpai, Harumi Takeda. Despite her frustrations, Futaba finds herself developing a close friendship with Harumi as they navigate the ups and downs of office life together. Will Futaba learn to tolerate her annoying senpai, or will their contrasting personalities lead to even more chaos in the workplace?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1056/109721l.jpg" alt="Getbackers">
+                <div class="details">
+                    <a href="getbackers.html"><h3>Getbackers</h3></a>
+                    <p>Mystery</p>
+                    <p>2002</p>
+                    <br>
+                    <p>Ban Mido and Ginji Amano run a unique retrieval service called the Getbackers. With Ban's ability to create illusions and Ginji's control over electricity, they take on various jobs to recover lost or stolen items for their clients. Their reputation for always completing a job no matter how dangerous, leads them on thrilling adventures filled with action and mystery. Along the way, they uncover dark secrets and face formidable foes as they strive to complete each mission successfully.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

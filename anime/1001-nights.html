@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like 1001 Nights</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "3914";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/11/7032l.jpg" alt="1001 Nights">
+                <div>
+                    <h2 id="title">1001 Nights</h2>
+                    <p>Romance</p>
+                    <p>1999</p>
+                    <br><br>
+                    <p>In 1001 Nights, the beautiful and brave storyteller Scheherazade weaves enchanting tales to captivate the Sultan Shahryar each night, saving herself from execution. As she spins captivating stories filled with adventure, romance, and fantasy, she not only keeps herself alive but also touches the Sultan's heart, slowly changing his cruel ways. Through her storytelling, Scheherazade navigates through a world of magic, danger, and mystery, keeping both the Sultan and the audience spellbound.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 10%;"></span>
+                        </div>
+                        <p>10% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1/2291l.jpg" alt="A Traveller's Diary">
+                <div class="details">
+                    <a href="a-traveller%27s-diary.html"><h3>A Traveller's Diary</h3></a>
+                    <p>Other Genre</p>
+                    <p>2003</p>
+                    <br>
+                    <p>A Traveller's Diary follows the journey of a young wanderer exploring different regions and encountering various cultures, all while chronicling their adventures in a diary. Along the way, they befriend an eclectic group of fellow travelers and together they navigate the highs and lows of their shared experiences. As they continue their quest for new discoveries, bonds are forged and lessons are learned, shaping their individual growth amidst the backdrop of a vast and ever-changing world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 20%;"></span>
+                        </div>
+                        <p>20% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/89563l.jpg" alt="Blade Runner: Black Out 2022">
+                <div class="details">
+                    <a href="blade-runner%3A-black-out-2022.html"><h3>Blade Runner: Black Out 2022</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In Blade Runner: Black Out 2022, set three years after the events of the original Blade Runner movie, a group of Replicant freedom fighters orchestrates a massive blackout in Los Angeles to erase the Replicant registry. As chaos ensues, the Replicants fight for their right to exist and challenge the oppressive system that seeks to control them. With stunning animation and intense action sequences, this short film explores themes of identity, rebellion, and the struggle for freedom in a dystopian future.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

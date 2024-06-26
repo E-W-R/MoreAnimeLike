@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like The Garden of Words</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "16782";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1597/112995l.jpg" alt="The Garden of Words">
+                <div>
+                    <h2 id="title">The Garden of Words</h2>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br><br>
+                    <p>On rainy mornings, a high school student named Takao skips class to sketch shoe designs in a peaceful garden. There, he meets a mysterious older woman named Yukino who enjoys drinking beer and eating chocolate. As they continue to meet in the garden, their bond deepens as they confide in each other about their struggles and dreams. Through their meetings, both Takao and Yukino find solace and understanding in each other's company.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1015/90727l.jpg" alt="Yotsuiro Biyori">
+                <div class="details">
+                    <a href="yotsuiro-biyori.html"><h3>Yotsuiro Biyori</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Yotsuiro Biyori follows the story of four men who run a traditional Japanese tea house in Kyoto. Each episode focuses on different customers who visit the tea house seeking comfort and solace from their everyday lives. The tea house becomes a serene escape where customers can reflect on their past, present, and future. As the four men provide warm hospitality and delicious tea, they also offer a listening ear and heartfelt advice to help those who seek their guidance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1604/98654l.webp" alt="Kids on the Slope">
+                <div class="details">
+                    <a href="kids-on-the-slope.html"><h3>Kids on the Slope</h3></a>
+                    <p>Drama</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Kids on the Slope, high school student Kaoru Nishimi finds solace in music when he moves to a new town. He befriends the free-spirited Sentaro Kawabuchi, a talented drummer, and together they bond over their love for jazz. As they navigate friendship, love, and personal struggles, their passion for music brings both joy and conflict into their lives.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1974/116417l.webp" alt="The Secret World of Arrietty">
+                <div class="details">
+                    <a href="the-secret-world-of-arrietty.html"><h3>The Secret World of Arrietty</h3></a>
+                    <p>Other Genre</p>
+                    <p>2010</p>
+                    <br>
+                    <p>The Secret World of Arrietty follows the adventures of a tiny Borrower named Arrietty who lives beneath the floorboards of a house. When she is discovered by a human boy named Shawn, their unlikely friendship blossoms despite the dangers posed by their difference in size. As they navigate the challenges of their respective worlds, they must find a way to protect Arrietty's family secret while forging a bond that transcends their physical disparities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/63361l.jpg" alt="Baby Steps">
+                <div class="details">
+                    <a href="baby-steps.html"><h3>Baby Steps</h3></a>
+                    <p>Sports</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Eiichirou Maruo, a studious and introverted high school student, decides to pick up tennis to get some exercise. With dedication and hard work, he trains rigorously to improve his skills and compete in tournaments. Along the way, he encounters talented rivals, forms new friendships, and navigates the challenges of balancing sports with academics. Eiichirou's journey in the world of tennis pushes him out of his comfort zone and helps him discover his passion for the sport.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1958/93533l.jpg" alt="Megalobox">
+                <div class="details">
+                    <a href="megalobox.html"><h3>Megalobox</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a gritty future where society is divided by class, underground fighters participate in high-stakes boxing matches using metal gear to enhance their abilities. Junk Dog, a talented but unknown fighter, aims to break free from his lower-class background and make a name for himself in the prestigious Megalonia tournament. With the help of his trainer Gansaku Nanbu and ambitious manager Sachio, Junk Dog confronts powerful opponents and personal demons on his journey to the top.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1048/128385l.webp" alt="Kakushigoto">
+                <div class="details">
+                    <a href="kakushigoto.html"><h3>Kakushigoto</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Kakushi Goto is a heartwarming slice-of-life anime following the secret life of a famous manga artist and his young daughter, Hime. Despite his success, Kakushi works hard to keep his job hidden from Hime to protect her innocence. As he navigates the challenges of fatherhood and the pressures of his profession, Kakushi must juggle his double life while cherishing the precious moments he shares with his beloved daughter.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/19480l.jpg" alt="Time of Eve">
+                <div class="details">
+                    <a href="time-of-eve.html"><h3>Time of Eve</h3></a>
+                    <p>Other Genre</p>
+                    <p>2008</p>
+                    <br>
+                    <p>In a future where androids are commonplace, a group of high school friends discover a hidden café where humans and robots interact as equals. As they frequent the café, they unravel the mysteries of android consciousness and confront societal prejudices. The friends must navigate the complexities of their relationships with both humans and robots while questioning what it means to truly be alive.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1084/119096l.jpg" alt="Nodame Cantabile Finale">
+                <div class="details">
+                    <a href="nodame-cantabile-finale.html"><h3>Nodame Cantabile Finale</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Nodame Cantabile Finale continues the story of piano prodigy Shinichi Chiaki and eccentric pianist Megumi Noda as they navigate the challenges of pursuing their musical dreams while facing personal and professional hurdles. As they strive for greatness in the competitive world of classical music, their relationship deepens, leading to moments of joy, heartache, and growth. Through dedication, passion, and perseverance, Chiaki and Nodame inspire each other to reach new heights in their musical careers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1045/123711l.jpg" alt="Call of the Night">
+                <div class="details">
+                    <a href="call-of-the-night.html"><h3>Call of the Night</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When high schooler Ko meets a beautiful vampire named Nazuna, his life takes a thrilling turn as he is pulled into the supernatural world of vampires. With newfound abilities and a growing attraction to Nazuna, Ko navigates the dangers and mysteries that come with his new life. As their relationship deepens, Ko must decide where his loyalties lie and face the consequences of being entangled with the night.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1/2432l.jpg" alt="The Girl Who Leapt Through Time">
+                <div class="details">
+                    <a href="the-girl-who-leapt-through-time.html"><h3>The Girl Who Leapt Through Time</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>After discovering she has the ability to leap backwards in time, high schooler Makoto Konno uses her newfound power for everyday tasks and personal gain. However, as she continues to manipulate time, Makoto soon realizes that her actions have unforeseen consequences on the world around her. With the help of her friends, she must learn to make the right choices and confront the responsibility that comes with her extraordinary gift.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/80117l.jpg" alt="Emma: A Victorian Romance">
+                <div class="details">
+                    <a href="emma%3A-a-victorian-romance.html"><h3>Emma: A Victorian Romance</h3></a>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>In the 19th century England, Emma, a young maid, falls in love with William, a wealthy gentleman. Hindered by their difference in social status, the two navigate societal expectations and strive to be together despite the challenges they face. Witness their tale of forbidden love, personal growth, and the complexities of class distinctions in a rigid society.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1245/112628l.jpg" alt="The Anthem of the Heart">
+                <div class="details">
+                    <a href="the-anthem-of-the-heart.html"><h3>The Anthem of the Heart</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>The Anthem of the Heart follows Jun, a high school girl who is unable to speak her mind after a childhood incident. She joins a community service project with three other students and together they decide to put on a musical. As they work on the project, they learn about each other's struggles and start to confront their own emotional barriers. Through friendship and self-expression, they find healing and hope.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/49237l.webp" alt="Silver Spoon">
+                <div class="details">
+                    <a href="silver-spoon.html"><h3>Silver Spoon</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Silver Spoon follows Yuugo Hachiken, a high school student from the city who enrolls in an agricultural school in rural Hokkaido to escape the high expectations of his family. As he navigates the challenges of farm life and befriends his classmates, he experiences personal growth and discovers a new perspective on hard work, friendship, and the true meaning of success.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1055/118890l.webp" alt="My Senpai is Annoying">
+                <div class="details">
+                    <a href="my-senpai-is-annoying.html"><h3>My Senpai is Annoying</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Futaba Igarashi is a hard-working office employee who is constantly annoyed by her loud and childish senpai, Harumi Takeda. Despite her frustrations, Futaba finds herself developing a close friendship with Harumi as they navigate the ups and downs of office life together. Will Futaba learn to tolerate her annoying senpai, or will their contrasting personalities lead to even more chaos in the workplace?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1970/122297l.webp" alt="Ya Boy Kongming!">
+                <div class="details">
+                    <a href="ya-boy-kongming%21.html"><h3>Ya Boy Kongming!</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Ya Boy Kongming! is an entertaining anime about the legendary Chinese strategist Zhuge Liang Kongming, who is reincarnated in modern-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and uses his tactical genius to help her achieve her dreams of becoming a music star. The series blends historical elements with contemporary music and comedy, creating a delightful story about ambition, friendship, and pursuing one's dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/53211l.jpg" alt="Yowamushi Pedal">
+                <div class="details">
+                    <a href="yowamushi-pedal.html"><h3>Yowamushi Pedal</h3></a>
+                    <p>Sports</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Sakamichi Onoda is a shy and anime-loving high school student who discovers a hidden talent for competitive cycling. After joining the school's cycling club, Onoda must navigate the world of intense races and fierce rivals as he strives to become a top cyclist. With his unwavering determination and sheer willpower, Onoda faces countless challenges on and off the road, pushing himself to the limit to achieve his dreams of success in the sport.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/86739l.jpg" alt="Welcome to the Ballroom">
+                <div class="details">
+                    <a href="welcome-to-the-ballroom.html"><h3>Welcome to the Ballroom</h3></a>
+                    <p>Sports</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Fujita finds himself drawn into the world of competitive ballroom dancing after a chance encounter with professional dancer Sengoku. As he struggles to learn the intricate steps and techniques of dance, Fujita discovers a new passion and drive within himself. Along the way, he meets new friends and rivals, pushing himself to new heights in the exhilarating and demanding world of competitive dance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 53%;"></span>
+                        </div>
+                        <p>53% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1402/134007l.jpg" alt="Insomniacs After School">
+                <div class="details">
+                    <a href="insomniacs-after-school.html"><h3>Insomniacs After School</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Insomniacs After School is a poignant anime about Ganta Nakami and Isaki Magari, two high school students who struggle with insomnia. They find solace in each other's company after discovering an abandoned observatory at school, where they spend sleepless nights together. As they bond over their shared struggles, their friendship deepens, helping them cope with their condition. The series beautifully explores themes of friendship, understanding, and the quiet moments that connect us.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1462/125397l.jpg" alt="The Tunnel to Summer, the Exit of Goodbyes">
+                <div class="details">
+                    <a href="the-tunnel-to-summer%2C-the-exit-of-goodbyes.html"><h3>The Tunnel to Summer, the Exit of Goodbyes</h3></a>
+                    <p>Mystery</p>
+                    <p>2022</p>
+                    <br>
+                    <p>As a group of friends embarks on a nostalgic trip, they discover a mysterious tunnel that leads them to a different time period in their town's history. Struggling to find a way back home, they uncover hidden secrets and face challenges that test their friendship. With each journey through the tunnel, they learn valuable lessons about love, loss, and the importance of cherishing the present moment.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1145/90880l.jpg" alt="Golden Kamuy">
+                <div class="details">
+                    <a href="golden-kamuy.html"><h3>Golden Kamuy</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Golden Kamuy, a tale set in early 20th-century Japan, Sugimoto, a veteran from the Russo-Japanese war, teams up with an Ainu girl named Asirpa to search for hidden Ainu gold. The treasure's location is split into pieces, each marked on a convict's body as tattoos. Together, they navigate dangers, including rival treasure hunters and harsh terrain. Through their journey, they uncover secrets of the past and form unlikely alliances to survive in the unforgiving wilderness.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1500/139931l.jpg" alt="Shangri-La Frontier">
+                <div class="details">
+                    <a href="shangri-la-frontier.html"><h3>Shangri-La Frontier</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a virtual reality MMORPG world known as Shangri-La Frontier, players embark on an adventurous journey to explore a vast and mysterious land filled with dungeons, creatures, and hidden treasures. Follow the story of a young player who, alongside their friends, strives to become the strongest in the game by facing challenges, forming alliances, and uncovering the secrets of this fantastical realm. Discover the bonds forged and the excitement of epic battles in Shangri-La Frontier.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1491/117229l.jpg" alt="Hanasaku Iroha: Blossoms for Tomorrow">
+                <div class="details">
+                    <a href="hanasaku-iroha%3A-blossoms-for-tomorrow.html"><h3>Hanasaku Iroha: Blossoms for Tomorrow</h3></a>
+                    <p>Drama</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After her irresponsible mother suddenly elopes, Ohana Matsumae is sent to live with her strict grandmother at her hot springs inn. Determined to make the best of her new life, Ohana must navigate the challenges of working at the inn while also dealing with the complex relationships of the staff and guests. As she matures and learns the value of hard work and perseverance, Ohana strives to find her place in the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1968/110585l.jpg" alt="Blades of the Guardians">
+                <div class="details">
+                    <a href="blades-of-the-guardians.html"><h3>Blades of the Guardians</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where humans coexist with sentient swords imbued with unique powers, a group of skilled swordsmen and women known as the Blades of the Guardians step up to protect their realm from dark forces aiming to wreak havoc. As they navigate political intrigue, personal struggles, and formidable adversaries, they must harness the true potential of their swords to maintain peace and balance in their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1674/114425l.jpg" alt="Yoru no Kuni">
+                <div class="details">
+                    <a href="yoru-no-kuni.html"><h3>Yoru no Kuni</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Yoru no Kuni follows a group of high school students who mysteriously find themselves transported to a parallel world during a field trip. As they navigate this unfamiliar and dangerous land, they must work together to survive and find a way back home. With creatures lurking in the shadows and unexpected challenges testing their bonds, the group must confront their fears and rely on each other to unravel the secrets of this enigmatic world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/73540l.jpg" alt="The Boy and the Beast">
+                <div class="details">
+                    <a href="the-boy-and-the-beast.html"><h3>The Boy and the Beast</h3></a>
+                    <p>Isekai</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When a lonely young boy stumbles into the beastly realm of beasts, he becomes the apprentice to a bear-like creature. As they train together in the ways of the beastly warriors, they form an unlikely bond that will be tested as they face dangerous enemies lurking in the shadows. Will the boy be able to prove himself as a true warrior and find his place in the beastly world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/82149l.jpg" alt="ReLIFE">
+                <div class="details">
+                    <a href="relife.html"><h3>ReLIFE</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Arata Kaizaki, a 27-year-old unemployed man, gets a second chance at a high school life through a mysterious experiment. Given a pill that makes him look 17 again, he enrolls in high school for one year. As he navigates friendships, romance, and the challenges of youth, he begins to learn valuable lessons about life and himself. Can Arata find his way back into society with this temporary opportunity to relive his past?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/87066l.jpg" alt="Sword of the Stranger">
+                <div class="details">
+                    <a href="sword-of-the-stranger.html"><h3>Sword of the Stranger</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In Sword of the Stranger, a mysterious swordsman named Nanashi reluctantly agrees to protect a young boy named Kotaro who is being pursued by imperial forces. As they seek refuge, they encounter various adversaries, leading to intense sword fights and a gripping tale of loyalty and sacrifice. The pair's bond deepens as they navigate the dangers together, with Nanashi confronting his troubled past along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/32547l.jpg" alt="From Up on Poppy Hill">
+                <div class="details">
+                    <a href="from-up-on-poppy-hill.html"><h3>From Up on Poppy Hill</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In From Up on Poppy Hill, set in 1963 Yokohama, Japan, high school students Umi and Shun work together to save their school's clubhouse from demolition. As they form a strong bond, they discover a shared connection from their pasts. Amidst personal struggles and social change, the two must navigate their emotions and uncover the truth behind their intertwined destinies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 61%;"></span>
+                        </div>
+                        <p>61% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1599/112267l.webp" alt="Into the Forest of Fireflies' Light">
+                <div class="details">
+                    <a href="into-the-forest-of-fireflies%27-light.html"><h3>Into the Forest of Fireflies' Light</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Into the Forest of Fireflies' Light follows the story of Hotaru, a young girl who befriends a mysterious masked man named Gin she meets in the forest. Despite the difference in their worlds, they form a unique bond that transcends boundaries. As they continue to meet each summer, their friendship deepens, but with it comes the realization that their time together is limited. The anime beautifully portrays the bittersweet moments of love and loss in a captivating and enchanting way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1141/112764l.jpg" alt="Fog Hill of Five Elements">
+                <div class="details">
+                    <a href="fog-hill-of-five-elements.html"><h3>Fog Hill of Five Elements</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where elemental warriors protect their land, a powerful demon threatens to bring chaos and destruction. To stop him, a young warrior must journey to the Fog Hill and awaken the remaining elemental warriors. With each warrior possessing unique abilities, they must work together to harness their powers and save their world from impending doom. But as secrets unravel and alliances are tested, the true extent of their enemies' strength becomes clear.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

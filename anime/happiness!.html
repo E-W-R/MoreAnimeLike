@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Happiness!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "1570";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/9/75250l.jpg" alt="Happiness!">
+                <div>
+                    <h2 id="title">Happiness!</h2>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br><br>
+                    <p>Happiness! follows the life of a high school student named Jun Watarase who moves to a new town to live with his grandmother. He discovers that the town is full of magical beings, including a girl named Haruhi Kamisaka who can grant wishes. Jun becomes involved in their supernatural world, making new friends and encountering various challenges along the way. As he navigates this unfamiliar environment, Jun must learn to harness his own inner strength and uncover the truth about himself.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 31%;"></span>
+                        </div>
+                        <p>31% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1333/110595l.jpg" alt="A-Channel">
+                <div class="details">
+                    <a href="a-channel.html"><h3>A-Channel</h3></a>
+                    <p>Comedy</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Follow the high school lives of four girls - the energetic Tooru, the responsible Run, the shy Yuuko, and the caring Nagi - as they navigate friendship, school, and daily life together. From everyday activities to unexpected adventures, watch as their strong bond and individual personalities lead to heartwarming and hilarious moments.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 33%;"></span>
+                        </div>
+                        <p>33% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/85989l.jpg" alt="Clockwork Planet">
+                <div class="details">
+                    <a href="clockwork-planet.html"><h3>Clockwork Planet</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Clockwork Planet follows the story of a world entirely composed of intricate clock mechanisms. Naoto, a talented clocksmith, finds himself tangled in a dangerous conspiracy when RyuZU, an automaton girl, crashes into his life. Together, they must navigate the political unrest and technology-driven crises that threaten to collapse their mechanical world. With time ticking away, Naoto and RyuZU set out on a thrilling adventure to save their world from imminent destruction.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/75251l.webp" alt="Green Green">
+                <div class="details">
+                    <a href="green-green.html"><h3>Green Green</h3></a>
+                    <p>Romance</p>
+                    <p>2003</p>
+                    <br>
+                    <p>In Green Green, students from an all-boys school visit an all-girls school in the countryside for a cultural exchange program. Yuusuke, one of the boys, is excited about the prospect of meeting girls, but things take an unexpected turn when he discovers that the girls have a deep connection with nature. As the boys navigate this unfamiliar environment, hilarious mishaps and romantic encounters ensue, testing their friendships and challenging their perceptions of love.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/68839l.jpg" alt="Absolute Duo">
+                <div class="details">
+                    <a href="absolute-duo.html"><h3>Absolute Duo</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where students train to become skilled fighters using weapons generated from their souls, Tor Kokonoe enters Koryo Academy. He forms a Duo with the mysterious and powerful Julie Sigtuna. Together, they navigate friendships, rivalries, and intense battles as they uncover dark secrets surrounding their pasts. Tor and Julie must work together to overcome challenges and become the strongest Duo at the academy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 36%;"></span>
+                        </div>
+                        <p>36% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/75230l.jpg" alt="A Good Librarian Like a Good Shepherd">
+                <div class="details">
+                    <a href="a-good-librarian-like-a-good-shepherd.html"><h3>A Good Librarian Like a Good Shepherd</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Kyoutarou Kakei is a high school guy who works as a librarian. One day, he meets a mysterious girl named Tsugumi Shirasaki, who has lost all her memories. Kyoutarou decides to help her uncover her past and they both get involved in a series of adventures filled with books, secrets, and supernatural occurrences. As they navigate through challenges and mysteries, they form a deep bond that transcends their initial meeting.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/20621l.jpg" alt="Samurai Harem">
+                <div class="details">
+                    <a href="samurai-harem.html"><h3>Samurai Harem</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After losing his mother, a high school student is sent to live at a martial arts dojo run by his grandfather. Surrounded by a group of skilled and beautiful female fighters, he must navigate the challenges of mastering the way of the sword while dealing with the affections of his new classmates. As he hones his skills and forms unexpected bonds, he discovers a deeper connection to his family's samurai legacy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/73520l.jpg" alt="11eyes">
+                <div class="details">
+                    <a href="11eyes.html"><h3>11eyes</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After witnessing a tragic event, Satsuki Kakeru and his friends find themselves transported to an alternate world called Red Night, where dangerous creatures lurk. They must fight to survive and unravel the mysteries surrounding their newfound abilities and the enigmatic Black Knights. As they search for a way back home, they realize that their destinies are intertwined with the fate of Red Night.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/73936l.webp" alt="D.C.~Da Capo~">
+                <div class="details">
+                    <a href="d.c.~da-capo~.html"><h3>D.C.~Da Capo~</h3></a>
+                    <p>Romance</p>
+                    <p>2003</p>
+                    <br>
+                    <p>In D.C.~Da Capo~, Junichi Asakura comes across a magical sakura tree that can grant wishes. When he makes a wish to meet a girl he once knew, she mysteriously appears before him. As Junichi navigates life in Hatsune Island with his friends, they discover that the town holds many secrets tied to the magical tree's powers. Together, they unravel the mysteries surrounding the tree and uncover the truth behind their intertwined destinies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 41%;"></span>
+                        </div>
+                        <p>41% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1132/111619l.jpg" alt="CHOYOYU!: High School Prodigies Have It Easy Even in Another World!">
+                <div class="details">
+                    <a href="choyoyu%21%3A-high-school-prodigies-have-it-easy-even-in-another-world%21.html"><h3>CHOYOYU!: High School Prodigies Have It Easy Even in Another World!</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Seven high school prodigies are transported to a fantasy world after a plane crash. Each possessing exceptional skills, they quickly adapt to their new environment and use their talents to improve the lives of its inhabitants. As they navigate political intrigue and magical threats, they work together to revolutionize the world and bring about positive change while searching for a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 43%;"></span>
+                        </div>
+                        <p>43% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/79204l.jpg" alt="Maburaho">
+                <div class="details">
+                    <a href="maburaho.html"><h3>Maburaho</h3></a>
+                    <p>Romance</p>
+                    <p>2003</p>
+                    <br>
+                    <p>In a world where magic is a precious and limited resource, a high school student named Kazuki Shikimori is revealed to be from a prestigious magical bloodline. With the potential to father powerful children, he becomes the target of three beautiful and talented female classmates who seek to win his affections. As they compete for his love, Kazuki must navigate his newfound magical abilities and the dangers that come with them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 46%;"></span>
+                        </div>
+                        <p>46% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1834/110718l.jpg" alt="The 8th Son? Are You Kidding Me?">
+                <div class="details">
+                    <a href="the-8th-son%3F-are-you-kidding-me%3F.html"><h3>The 8th Son? Are You Kidding Me?</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>After a regular salaryman falls asleep while reading a book on ancient magic, he wakes up in a fantasy world as the youngest son of a noble family. With no magical abilities or combat skills, he must navigate political intrigue and power struggles to survive. Using his knowledge of economics and modern tactics, he sets out to make a name for himself in this new world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/63363l.jpg" alt="If Her Flag Breaks">
+                <div class="details">
+                    <a href="if-her-flag-breaks.html"><h3>If Her Flag Breaks</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Souta Hatate has an unusual ability to see flags above people's heads, indicating their future actions. Enrolling in a new school, he encounters several girls each with their own tragic pasts. Determined to change their fates, Souta uses his powers to navigate relationships and unravel mysteries surrounding the girls. As he delves deeper into their lives, Souta soon realizes the consequences of altering destiny and must make difficult choices to protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/47093l.jpg" alt="Akikan!">
+                <div class="details">
+                    <a href="akikan%21.html"><h3>Akikan!</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Akikan!, ordinary high school student Kakeru Daichi's life takes an unexpected turn when he unknowingly drinks a can of melon soda that transforms into a girl. With various can girls appearing, Kakeru becomes embroiled in a competition between steel and aluminum cans to determine which is superior. As the rivalry escalates, Kakeru finds himself at the center of the conflict, navigating the challenges and adventures that come with his newfound companions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/73521l.webp" alt="A Bridge to the Starry Skies">
+                <div class="details">
+                    <a href="a-bridge-to-the-starry-skies.html"><h3>A Bridge to the Starry Skies</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Kazuma moves to a rural town to live with his brother. He meets Ui, a girl who believes in a local legend about a celestial bridge. Along with other classmates, they form the Astronomy Club to search for the mystical bridge. As they spend time together stargazing and bonding, Kazuma finds himself drawn to Ui and the charming town. Through their adventures, they learn valuable lessons about friendship, love, and reaching for the stars.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/75562l.jpg" alt="Astarotte's Toy">
+                <div class="details">
+                    <a href="astarotte%27s-toy.html"><h3>Astarotte's Toy</h3></a>
+                    <p>Isekai</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In Astarotte's Toy, a young succubus princess named Astarotte embarks on a quest to create a harem of human males to replenish her magical powers. In order to do so, she must forge contracts with human boys called “toy-boys” and spend time with them. However, Astarotte's plans are challenged when a young boy named Naoya enters her world, leading to unexpected developments and heartwarming moments.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 51%;"></span>
+                        </div>
+                        <p>51% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/9/21525l.webp" alt="Akane Iro ni Somaru Saka">
+                <div class="details">
+                    <a href="akane-iro-ni-somaru-saka.html"><h3>Akane Iro ni Somaru Saka</h3></a>
+                    <p>Romance</p>
+                    <p>2008</p>
+                    <br>
+                    <p>High school student Yuuhi Katagiri finds herself engaged to the popular but arrogant Aoi Nagase after he saves her from a groper. Forced to live together, Yuuhi uncovers the true Aoi behind his public persona. As their relationship develops amidst misunderstandings and the watchful eyes of their classmates, secrets from the past threaten to unravel their newfound bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 55%;"></span>
+                        </div>
+                        <p>55% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/69085l.jpg" alt="Unlimited Fafnir">
+                <div class="details">
+                    <a href="unlimited-fafnir.html"><h3>Unlimited Fafnir</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In Unlimited Fafnir, dragons known as Dragons suddenly appear, causing chaos and destruction. To combat these creatures, special girls with the power to wield dragon-like abilities are trained at a special academy. Yuu Mononobe, the only male D, joins this academy and is tasked with stopping the Dragons. As he navigates through dangerous battles and interacts with his female classmates, hidden secrets and personal connections gradually come to light.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 56%;"></span>
+                        </div>
+                        <p>56% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/75583l.jpg" alt="Cat Planet Cuties">
+                <div class="details">
+                    <a href="cat-planet-cuties.html"><h3>Cat Planet Cuties</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Kio, a high school student, encounters Eris, a cat-like alien with the ability to transform into a human. With the arrival of more extraterrestrial beings, Kio finds himself caught in the middle of an intergalactic conflict. As Kio navigates his newfound relationships with alien visitors, including the affections of Eris and other alien girls, he must also balance his ordinary life on Earth with the secrets and dangers that come with being involved with beings from other planets.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1398/133870l.webp" alt="Stray Cats Overrun!">
+                <div class="details">
+                    <a href="stray-cats-overrun%21.html"><h3>Stray Cats Overrun!</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Stray Cats Overrun! follows the daily lives of a group of high school students who come together to take care of a stray cat they find in their school. As they work together to care for the cat and navigate the challenges of high school life, they form strong bonds and learn important lessons about friendship, responsibility, and teamwork. With heartwarming moments and lighthearted humor, this anime celebrates the power of coming together to make a difference.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 58%;"></span>
+                        </div>
+                        <p>58% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/13/57251l.webp" alt="Code:Breaker">
+                <div class="details">
+                    <a href="code%3Abreaker.html"><h3>Code:Breaker</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Code:Breaker follows Sakura, a high school student who witnesses a mysterious group of vigilantes with supernatural abilities, led by Rei, known as the Code:Breakers. As Sakura delves deeper into Rei's world, she discovers the dark secrets behind his mission to eliminate evildoers. Caught between justice and morality, Sakura finds herself entangled in a dangerous game of power and morality that challenges her beliefs and the true nature of justice.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/17071l.jpg" alt="Asura Cryin'">
+                <div class="details">
+                    <a href="asura-cryin%27.html"><h3>Asura Cryin'</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After losing his friend in a mysterious accident, Tomoharu is left with a strange trunk containing a girl named Misao who claims to be a ghost. Together, they uncover a world of supernatural beings and powerful mechs known as Asura Machina. As various factions seek to control the powerful beings, Tomoharu must navigate a complex web of alliances and betrayals to protect his friends and solve the mystery of his friend's death.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/8/50311l.webp" alt="Dragon Crisis!">
+                <div class="details">
+                    <a href="dragon-crisis%21.html"><h3>Dragon Crisis!</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>When a boy named Ryuuji encounters a mysterious girl named Rose, his life takes a sudden turn. Rose is a treasure hunter seeking powerful objects called Lost Precious, and Ryuuji gets caught up in her quest. As they delve into the world of dragons and magic, they must navigate dangerous adversaries and uncover the truth behind Rose's past. Together, they face thrilling adventures and formidable foes in their search for the ultimate treasure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/68195l.jpg" alt="Freezing Vibration">
+                <div class="details">
+                    <a href="freezing-vibration.html"><h3>Freezing Vibration</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Freezing Vibration, a group of genetically modified female warriors known as Pandoras must fight against mysterious beings called Nova to protect humanity. The series follows the adventures of Kazuya Aoi, who partners with a powerful Pandora named Satellizer el Bridget. As they face increasingly dangerous foes and internal conflicts within their organization, they must overcome their differences and work together to ensure the survival of mankind.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 63%;"></span>
+                        </div>
+                        <p>63% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1963/138464l.webp" alt="Am I Actually the Strongest?">
+                <div class="details">
+                    <a href="am-i-actually-the-strongest%3F.html"><h3>Am I Actually the Strongest?</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where strength is everything, Yuuki, a seemingly ordinary high school student, wakes up one day with incredible powers. As he navigates this newfound strength, he encounters various challenges and adversaries who put his abilities to the test. Determined to uncover the truth behind his sudden abilities, Yuuki sets out on a journey to prove to himself and others whether he is truly the strongest.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 65%;"></span>
+                        </div>
+                        <p>65% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/26876l.jpg" alt="Fortune Arterial: Akai Yakusoku">
+                <div class="details">
+                    <a href="fortune-arterial%3A-akai-yakusoku.html"><h3>Fortune Arterial: Akai Yakusoku</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Fortune Arterial: Akai Yakusoku follows the story of Kohei Hasekura, a transfer student at Shuchikan Academy, who encounters a girl named Erika Sendo with a mysterious secret. As Kohei unravels the mysteries surrounding Erika and her friends, he finds himself getting involved in supernatural events and a web of past connections that may impact their futures. Amidst school life and friendships, Kohei must navigate the complexities of his new world and the ominous promise that binds them all together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 66%;"></span>
+                        </div>
+                        <p>66% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1787/115817l.webp" alt="Drug Store in Another World: The Slow Life of a Cheat Pharmacist">
+                <div class="details">
+                    <a href="drug-store-in-another-world%3A-the-slow-life-of-a-cheat-pharmacist.html"><h3>Drug Store in Another World: The Slow Life of a Cheat Pharmacist</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Reiji Kirio is transported to another world where he opens a drugstore. With his knowledge of pharmaceuticals from his previous life, Reiji uses his skills to create potions that can heal various ailments. Settling into a slow-paced life, he meets unique characters who come to rely on his remedies. As he navigates this new world, Reiji finds fulfillment in helping others and discovers the true value of his abilities as a cheat pharmacist.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/14607l.jpg" alt="Final Approach">
+                <div class="details">
+                    <a href="final-approach.html"><h3>Final Approach</h3></a>
+                    <p>Romance</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Teenager Ryo is shocked to learn he's betrothed to childhood friend Yukari in an arranged marriage. Despite initial resistance from both sides, Ryo and Yukari navigate the ups and downs of their relationship as they strive to understand each other's feelings. As the two get to know each other better, they are faced with various challenges that test the strength of their bond. Will their arranged marriage turn into a love match?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 70%;"></span>
+                        </div>
+                        <p>70% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/74541l.webp" alt="Sky Wizards Academy">
+                <div class="details">
+                    <a href="sky-wizards-academy.html"><h3>Sky Wizards Academy</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where demons threaten humanity, young mage Kanata is tasked with training a group of misfit students at the Sky Wizards Academy. As they struggle to work together and overcome their personal issues, they must learn to harness their magical abilities to protect their world. With the fate of humanity hanging in the balance, Kanata and his students must rise to the challenge and become the heroes they were destined to be.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 76%;"></span>
+                        </div>
+                        <p>76% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/2/75540l.jpg" alt="Gift: Eternal Rainbow">
+                <div class="details">
+                    <a href="gift%3A-eternal-rainbow.html"><h3>Gift: Eternal Rainbow</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>In a town where a mystical phenomenon grants the residents' heartfelt wishes, high school student Haruhiko and his friends uncover the secrets behind the Gift. As they navigate romantic feelings and friendships, they learn that using this power comes with consequences and must decide how far they're willing to go to make their dreams a reality.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 86%;"></span>
+                        </div>
+                        <p>86% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/7/74879l.webp" alt="Danchigai">
+                <div class="details">
+                    <a href="danchigai.html"><h3>Danchigai</h3></a>
+                    <p>Comedy</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Danchigai follows the daily lives of the Sakuraseji family, consisting of four sisters and their older brother. Each episode explores the humorous and heartwarming interactions between the siblings as they navigate through the challenges and joys of everyday life. From sibling rivalries to family outings, the Sakuraseji siblings find themselves in various amusing situations that strengthen their bond and create memorable moments together.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Rent-a-Girlfriend</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "40839";</script>
+        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1902/128382l.jpg" alt="Rent-a-Girlfriend">
+                <div>
+                    <h2 id="title">Rent-a-Girlfriend</h2>
+                    <p>Romance</p>
+                    <p>2020</p>
+                    <br><br>
+                    <p>After a particularly tough breakup, Kazuya Kinoshita decides to rent a girlfriend through a mobile app to make his ex-girlfriend jealous. Chizuru Mizuhara, the girl he rents, appears beautiful, caring, and perfect in every way - until Kazuya discovers she's just acting. Despite their fake relationship, unexpected feelings begin to develop, leading to a series of comedic and sometimes awkward situations as Kazuya navigates his emotions and relationships with the various girls in his life.</p>
+                </div>
+            </div>
+            <div id="d3-container"></div>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">30</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1900/110097l.jpg" alt="Don't Toy with Me, Miss Nagatoro">
+                <div class="details">
+                    <a href="don%27t-toy-with-me%2C-miss-nagatoro.html"><h3>Don't Toy with Me, Miss Nagatoro</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Nagatoro, a mischievous high school girl, constantly teases her upperclassman, an introverted and timid boy. Despite her relentless teasing, Nagatoro's interactions with him slowly evolve into something more meaningful as they navigate the ups and downs of high school life together. While Nagatoro enjoys provoking reactions from her classmate, her intentions might not be as malicious as they initially seem.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">29</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/11/86704l.webp" alt="Your Voice -KIMIKOE-">
+                <div class="details">
+                    <a href="your-voice--kimikoe-.html"><h3>Your Voice -KIMIKOE-</h3></a>
+                    <p>Drama</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After losing her ability to speak due to a traumatic event, high school student Nagisa discovers a hidden talent for singing. With the help of her classmates, she joins the school's music club and embarks on a journey of self-discovery and healing through music. As she navigates the challenges of competitions and forming new friendships, Nagisa learns to find her voice and confidence once again.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">28</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1713/126442l.webp" alt="More than a Married Couple, but Not Lovers.">
+                <div class="details">
+                    <a href="more-than-a-married-couple%2C-but-not-lovers..html"><h3>More than a Married Couple, but Not Lovers.</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Two childhood friends, Mako and Haru, decide to enter into a marriage contract in order to support each other and achieve their individual goals. Despite not being romantically involved, they navigate the challenges of living together and dealing with societal expectations. As they grow closer, they must confront their own feelings and decide what their relationship truly means to them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">27</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1348/102797l.jpg" alt="ORESUKI Are you the only one who loves me?">
+                <div class="details">
+                    <a href="oresuki-are-you-the-only-one-who-loves-me%3F.html"><h3>ORESUKI Are you the only one who loves me?</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>High school student Amatsuyu Joro Kisaragi finds himself caught in a web of romantic entanglements when the girls he likes ask for his help in pursuing his best friend, Sun-chan. Joro navigates his complicated relationships while trying to unravel the truth behind the girls' intentions. As he delves deeper, he uncovers surprising secrets that challenge his understanding of love and friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">26</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1871/118309l.webp" alt="Remake Our Life!">
+                <div class="details">
+                    <a href="remake-our-life%21.html"><h3>Remake Our Life!</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After facing a series of career setbacks, Kyouya Hashiba is mysteriously transported ten years back in time to his college days. Given a second chance to pursue his dream of becoming a successful game developer, Kyouya must navigate the challenges of the industry and build relationships with his classmates to create a promising future. As he strives to recreate his life, Kyouya discovers the true value of friendship, hard work, and never giving up on one's aspirations.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">25</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1459/120217l.jpg" alt="Blue Thermal">
+                <div class="details">
+                    <a href="blue-thermal.html"><h3>Blue Thermal</h3></a>
+                    <p>Drama</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Blue Thermal follows a group of high school students who are passionate about paragliding. Together, they form a competitive team to participate in various paragliding events and championships. As they face challenges and rival teams, the group must work together to improve their skills, overcome their fears, and strive for victory in the exhilarating world of airborne sports.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">24</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1120/109232l.jpg" alt="Bottom-Tier Character Tomozaki">
+                <div class="details">
+                    <a href="bottom-tier-character-tomozaki.html"><h3>Bottom-Tier Character Tomozaki</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Bottom-Tier Character Tomozaki, we follow the life of Fumiya Tomozaki, a high school student known for being an expert player in a popular video game. Despite his gaming skills, Tomozaki struggles with socializing and views himself as a bottom-tier character in the game of life. When he meets popular and sociable classmate Aoi Hinami, she offers to help him level up in the real world by teaching him the secrets of social success.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">23</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1649/93412l.jpg" alt="How Not to Summon a Demon Lord">
+                <div class="details">
+                    <a href="how-not-to-summon-a-demon-lord.html"><h3>How Not to Summon a Demon Lord</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In How Not to Summon a Demon Lord, a socially awkward gamer is transported into a virtual game world as his character, a powerful Demon Lord. With his vast knowledge of the game and newfound abilities, he must navigate this new world filled with magic and danger. Along the way, he forms unexpected friendships with two girls who also summoned him, as they embark on a quest to uncover the mysteries surrounding their summoning.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">22</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 25%;"></span>
+                        </div>
+                        <p>25% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1008/140287l.jpg" alt="The Unwanted Undead Adventurer">
+                <div class="details">
+                    <a href="the-unwanted-undead-adventurer.html"><h3>The Unwanted Undead Adventurer</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After mysteriously dying, warrior Fukamori regains consciousness in a dark cave. Realizing he's become an undead, he struggles to cope with his new existence. Determined to uncover the truth behind his resurrection, Fukamori sets off on a journey filled with danger and surprises. With his new companion, a healer named Alice, by his side, Fukamori faces otherworldly creatures and challenges, all while trying to make sense of his undead status.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">21</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1146/113477l.webp" alt="Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway">
+                <div class="details">
+                    <a href="higehiro%3A-after-being-rejected%2C-i-shaved-and-took-in-a-high-school-runaway.html"><h3>Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Salaryman Yoshida finds a high school runaway, Sayu, sitting alone on the streets. After offering her a place to stay, Yoshida discovers Sayu's troubled past and chooses to provide her with a safe refuge. As they start living together, their relationship deepens, and both begin to confront their own emotional struggles and find solace in each other's company.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">20</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/5/85224l.webp" alt="Grimoire of Zero">
+                <div class="details">
+                    <a href="grimoire-of-zero.html"><h3>Grimoire of Zero</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a world where witches are feared and hunted, a young mercenary encounters a witch named Zero who is searching for a powerful grimoire. Despite his initial reservations, he agrees to help her in exchange for a cure for his curse. As they journey together, they face prejudice and persecution, gradually forming a deep bond as they navigate political intrigue and magical battles while trying to uncover the secrets of the grimoire.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">19</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1517/125496l.webp" alt="Black Summoner">
+                <div class="details">
+                    <a href="black-summoner.html"><h3>Black Summoner</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Black Summoner, a talented but introverted gamer awakens in a mysterious fantasy world as a powerful summoner. With the ability to conjure and control mythical creatures, he sets out on an epic journey to discover the secrets of his new reality. Along the way, he forms alliances, battles formidable foes, and unravels the truth behind his summoning powers. With each challenge he faces, he grows stronger and closer to unlocking the full extent of his abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">18</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1016/107222l.webp" alt="Darwin's Game">
+                <div class="details">
+                    <a href="darwin%27s-game.html"><h3>Darwin's Game</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Sudou Kaname is an ordinary high school student who receives an invitation to download a mysterious mobile app called Darwin's Game. Little does he know that this app plunges him into a deadly game where players must fight each other using unique powers. As Kaname navigates the treacherous world of Darwin's Game, he must uncover the secrets behind the game and fight for survival against ruthless opponents.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">17</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1808/111697l.jpg" alt="Gleipnir">
+                <div class="details">
+                    <a href="gleipnir.html"><h3>Gleipnir</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>High school student Shuichi Kagaya can transform into a powerful monster with a mysterious suit he wears. When he saves a classmate, Claire Aoki, from a fire, she discovers his secret and blackmails him into helping her search for her sister. Together, they enter a dangerous game where others with similar abilities will stop at nothing to achieve their goals. As they unravel the truth behind their powers, Shuichi and Claire must navigate dark secrets and intense battles.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">16</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1708/123281l.jpg" alt="My Stepmom's Daughter Is My Ex">
+                <div class="details">
+                    <a href="my-stepmom%27s-daughter-is-my-ex.html"><h3>My Stepmom's Daughter Is My Ex</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When Shun's father remarries, he finds himself living under the same roof as his ex-girlfriend's mother and stepsister. As old feelings resurface and new dynamics form within the family, Shun navigates the complex emotions of his past relationship and current family situation. With misunderstandings and unexpected connections, they all must come to terms with their intertwined pasts and newfound bonds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">15</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 26%;"></span>
+                        </div>
+                        <p>26% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1120/124644l.jpg" alt="Parallel World Pharmacy">
+                <div class="details">
+                    <a href="parallel-world-pharmacy.html"><h3>Parallel World Pharmacy</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Reiji Kirio is a young pharmacist who mysteriously gets summoned to a fantasy world where magic and alchemy exist. Using his knowledge of modern pharmacology, Reiji decides to open up his own pharmacy in this new world. As he crafts unique potions and remedies, Reiji finds himself caught up in various adventures and encounters with mystical creatures. Will his pharmaceutical expertise be enough to navigate this unfamiliar and dangerous realm?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">14</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 28%;"></span>
+                        </div>
+                        <p>28% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/4/78649l.jpg" alt="All Out!!">
+                <div class="details">
+                    <a href="all-out%21%21.html"><h3>All Out!!</h3></a>
+                    <p>Sports</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In All Out!!, Kenji Gion, a short but passionate high school student, joins the rugby team and forms an unlikely friendship with the tall and reserved Sumiaki Iwashimizu. Together, they navigate the challenges of the sport, bond with their teammates, and strive to become stronger players. With a mix of determination, teamwork, and personal growth, the team faces off against formidable opponents in intense matches, pushing themselves to their limits both physically and mentally.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">13</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 28%;"></span>
+                        </div>
+                        <p>28% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1879/106531l.jpg" alt="Altered Carbon: Resleeved">
+                <div class="details">
+                    <a href="altered-carbon%3A-resleeved.html"><h3>Altered Carbon: Resleeved</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a cyberpunk world where human consciousness can be transferred between bodies, a mercenary is hired to protect a young tattoo artist. As they flee from ruthless assassins, they uncover a dangerous conspiracy that threatens to disrupt the delicate balance of power in their society. In a high-stakes game of deception and betrayal, they must navigate through a web of secrets to survive and protect what they hold dear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">12</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <p>30% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1429/115664l.jpg" alt="Corpse Princess: Aka">
+                <div class="details">
+                    <a href="corpse-princess%3A-aka.html"><h3>Corpse Princess: Aka</h3></a>
+                    <p>Action</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Makina Hoshimura is a Corpse Princess, a dead girl resurrected to hunt down evil undead creatures known as Shikabane. Driven by vengeance for her own murder, she teams up with a monk named Keisei in their quest for redemption and to eliminate the Shikabane threatening the living. As they face powerful enemies and uncover dark secrets, Makina's resolve is tested in a battle between her undead nature and her humanity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">11</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <p>30% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1904/119291l.jpg" alt="Blackfox">
+                <div class="details">
+                    <a href="blackfox.html"><h3>Blackfox</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Rikka Isurugi comes from a prestigious ninja family. However, after a tragic event leads to her home's destruction and her father's disappearance, Rikka seeks revenge against the evil organization responsible. With her trusty ninja skills and the aid of her friends, Rikka becomes the mysterious vigilante known as Blackfox. As she delves deeper into the criminal underworld, Rikka uncovers dark secrets and must confront her past to bring justice to those she loves.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">10</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 31%;"></span>
+                        </div>
+                        <p>31% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1928/106202l.jpg" alt="Ceres, Celestial Legend">
+                <div class="details">
+                    <a href="ceres%2C-celestial-legend.html"><h3>Ceres, Celestial Legend</h3></a>
+                    <p>Psychological</p>
+                    <p>2000</p>
+                    <br>
+                    <p>In Ceres, Celestial Legend, high school student Aya Mikage discovers she is the reincarnation of a celestial maiden named Ceres. As she uncovers the dark secrets of her family's past, Aya must navigate a dangerous world of supernatural powers and betrayal to protect herself and her loved ones from those who seek to exploit Ceres's powers for their own gain. With the help of her friends, Aya must uncover the truth behind her identity and the mysteries surrounding the celestial beings within her.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">9</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 31%;"></span>
+                        </div>
+                        <p>31% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/12/83709l.jpg" alt="Masamune-kun's Revenge">
+                <div class="details">
+                    <a href="masamune-kun%27s-revenge.html"><h3>Masamune-kun's Revenge</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After being rejected by a girl named Aki Adagaki in the past, Masamune Makabe undergoes a major transformation and transfers to her school with the goal of making her fall for him. Masamune plans to break her heart as payback for her rejection. However, as he gets to know Aki better, he begins to question his motives and develops conflicting feelings towards her. The series follows their complicated relationship and the challenges they face.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">8</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 31%;"></span>
+                        </div>
+                        <p>31% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1361/120706l.jpg" alt="Skeleton Knight in Another World">
+                <div class="details">
+                    <a href="skeleton-knight-in-another-world.html"><h3>Skeleton Knight in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After mysteriously being transported to a medieval fantasy world, a young man named Arc decides to use his gaming skills to become the feared Skeleton Knight. With his powerful skeleton armor and newfound abilities, Arc embarks on a journey to uncover the truth behind his arrival in this world. Along the way, he forms alliances, battles formidable foes, and seeks to protect those in need, all while trying to find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">7</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 33%;"></span>
+                        </div>
+                        <p>33% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1547/125900l.jpg" alt="The Reincarnation of the Strongest Exorcist in Another World">
+                <div class="details">
+                    <a href="the-reincarnation-of-the-strongest-exorcist-in-another-world.html"><h3>The Reincarnation of the Strongest Exorcist in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After dying in his world, Kaito is reincarnated in a fantasy realm as the strongest exorcist. With his new powers, he sets out to vanquish demons plaguing the land. As he uncovers the truth about his past and the reason for his reincarnation, Kaito discovers that his role in this new world is more significant than he could have ever imagined. Follow his journey as he battles dark forces and comes to terms with his newfound destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">6</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 33%;"></span>
+                        </div>
+                        <p>33% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1602/100510l.jpg" alt="We Never Learn: BOKUBEN">
+                <div class="details">
+                    <a href="we-never-learn%3A-bokuben.html"><h3>We Never Learn: BOKUBEN</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>We Never Learn: BOKUBEN follows Nariyuki Yuiga, a hardworking high school student tasked with tutoring three genius girls in different subjects to secure a scholarship. However, each girl excels in areas outside their specialty, leading to comedic and heartwarming mishaps as Nariyuki helps them navigate their academic and personal struggles. As he forms close bonds with the girls, Nariyuki realizes there might be more to teaching and learning than just books and exams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">5</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 35%;"></span>
+                        </div>
+                        <p>35% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/6/18547l.jpg" alt="Tears to Tiara">
+                <div class="details">
+                    <a href="tears-to-tiara.html"><h3>Tears to Tiara</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Tears to Tiara, a young man named Arawn wakes from a long slumber to lead a group against the Empire that seeks to conquer their land. With the help of powerful beings and allies, they embark on a journey full of battles, magic, and ancient prophecies. As they strive to protect their freedom and homeland, Arawn and his companions must confront their own pasts and face the challenges that lie ahead.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">4</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 38%;"></span>
+                        </div>
+                        <p>38% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1544/124684l.jpg" alt="War God System! I'm Counting On You!">
+                <div class="details">
+                    <a href="war-god-system%21-i%27m-counting-on-you%21.html"><h3>War God System! I'm Counting On You!</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where humans and demons are at war, a young warrior named Akira gains access to the legendary War God System, a powerful tool that enhances his abilities and enables him to turn the tide of battle. With this newfound strength, Akira embarks on a journey to protect his loved ones and bring peace to the war-torn lands. As he faces formidable foes and uncovers dark secrets, Akira must harness the full potential of the War God System to fulfill his destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">3</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 45%;"></span>
+                        </div>
+                        <p>45% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1285/120529l.jpg" alt="A Couple of Cuckoos">
+                <div class="details">
+                    <a href="a-couple-of-cuckoos.html"><h3>A Couple of Cuckoos</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When high school student Nagi meets Erika, they quickly become friends, but things take a turn when Nagi discovers Erika's secret. The two make a pact to help each other pursue their respective crushes, sparking a series of comical and heartwarming misadventures. As they navigate the ups and downs of teenage romance, their feelings towards each other begin to change. 'A Couple of Cuckoos' is a story of friendship, love, and the complexities of young relationships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">2</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 50%;"></span>
+                        </div>
+                        <p>50% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/3/89534l.jpg" alt="Over Drive">
+                <div class="details">
+                    <a href="over-drive.html"><h3>Over Drive</h3></a>
+                    <p>Sports</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Shinozaki Mikoto dreams of becoming a professional cyclist but lacks experience. When he joins the cycling club at his new high school, he discovers his talent for downhill racing. With the help of his teammates, Mikoto sets his sights on competing in the national championship to prove his skills and determination. As he faces fierce competition and personal challenges, Mikoto must push himself to the limit to achieve his cycling dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="rank-container">
+                    <div class="rank">1</div>
+                    <div class="similarity-meter">
+                        <div class="meter">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <p>60% Similarity</p>
+                    </div>
+                </div>
+                <div class="rec-details"></div>
+                <img src="https://cdn.myanimelist.net/images/anime/1192/113699l.webp" alt="Battle Doll Angelic Layer">
+                <div class="details">
+                    <a href="battle-doll-angelic-layer.html"><h3>Battle Doll Angelic Layer</h3></a>
+                    <p>Drama</p>
+                    <p>2001</p>
+                    <br>
+                    <p>In Battle Doll Angelic Layer, young Misaki discovers the world of Angelic Layer, a popular game where players control dolls in intense battles. With her own doll, Hikaru, Misaki trains hard to compete in the Angelic Layer tournaments. Along the way, she makes friends, faces tough opponents, and learns valuable lessons about friendship, determination, and the true meaning of being a champion.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
