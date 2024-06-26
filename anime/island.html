@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Island</h2>
                     <p>Romance</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>On the mysterious Urashima Island, a young man named Setsuna washes ashore with no memories. As he tries to piece together his past, he meets three girls with uncanny similarities to people he once knew. Together, they navigate the island’s secrets and its ties to Setsuna’s forgotten history. Through unexpected twists and turns, the group unravels the mysteries that shroud the island and their intertwined fates.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

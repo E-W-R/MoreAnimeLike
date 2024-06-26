@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hyakko</h2>
                     <p>Comedy</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>Haykko follows the everyday high school lives of four quirky girls - Torako, Suzume, Tatsuki, and Ayumi. Together, they navigate through various comedic situations, including misadventures, friendships, and school events. With their unique personalities and strong bond, the girls experience the ups and downs of adolescence while discovering more about themselves and each other along the way.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

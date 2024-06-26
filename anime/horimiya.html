@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Horimiya</h2>
                     <p>Romance</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Kyoko Hori and Izumi Miyamura are two high school students with hidden sides to themselves. Hori is popular and sociable, while Miyamura is a quiet and unassuming student. When a surprising encounter reveals their true selves to each other, they begin to form an unexpected connection. As they navigate their double lives, their bond deepens and they discover the importance of acceptance and understanding in forming genuine relationships.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

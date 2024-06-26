@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Shenmue the Animation</h2>
                     <p>Action</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In Shenmue the Animation, the story follows a young martial artist named Ryo Hazuki on his quest for vengeance after witnessing his father's murder. He embarks on a journey to unravel the mystery behind the elusive Chinese cartel responsible for the tragedy. Along the way, Ryo discovers powerful allies and formidable foes as he delves deeper into a dangerous criminal underworld. Will he achieve his goal or be consumed by the darkness?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

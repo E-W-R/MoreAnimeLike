@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Gosick</h2>
                     <p>Mystery</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>In a small European country, a reclusive girl named Victorique uses her brilliant mind to solve mysteries that have left even the police stumped. When a curious exchange student named Kazuya befriends her, the two form an unlikely detective duo. Together, they unravel intricate cases and uncover dark secrets hidden within the walls of their prestigious boarding school. As their friendship deepens, they find themselves drawn into a web of conspiracies that will test their intellect and courage.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

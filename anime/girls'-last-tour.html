@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Girls' Last Tour</h2>
                     <p>Mystery</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>In a post-apocalyptic world, two young girls, Chito and Yuuri, travel through the desolate ruins in their makeshift vehicle, venturing into unknown territories in search of food and supplies. Despite the grim reality surrounding them, they maintain their positivity and curiosity as they encounter remnants of the past and contemplate the meaning of existence. As they navigate through the remnants of a civilization long gone, they form a deep bond and rely on each other for companionship and survival.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

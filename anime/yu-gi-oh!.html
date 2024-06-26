@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Yu-Gi-Oh!</h2>
                     <p>Action</p>
                     <p>2000</p>
-                    <br><br>
+                    <br>
                     <p>Yu-Gi-Oh! follows Yugi Mutou, a shy high school student with a passion for games. When he solves an ancient Egyptian puzzle, he becomes host to a mysterious spirit who helps him master the game of Duel Monsters. Yugi and his friends face off against rivals in intense battles, using strategy, skill, and a touch of magic to prevail. As the stakes grow higher, Yugi must unlock the secrets of his other self to save the ones he cares about.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

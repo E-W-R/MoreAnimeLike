@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Gatchaman Crowds</h2>
                     <p>Action</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>Gatchaman Crowds follows high school student Hajime as she joins a group of superheroes known as Gatchaman. Together, they must protect Earth from alien entities known as MESS. With the power of the NOTE, a mysterious device that grants them superhuman abilities, the team battles against the MESS while also navigating the complexities of the digital world. As Hajime brings her unique perspective to the team, they must confront the true nature of their enemies and the consequences of their actions.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

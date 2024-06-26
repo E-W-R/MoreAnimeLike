@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Chobits</h2>
                     <p>Romance</p>
                     <p>2002</p>
-                    <br><br>
+                    <br>
                     <p>In Chobits, a young man discovers an abandoned persocom (humanoid computer) in the shape of a girl. As he activates her, he realizes she is different from other persocoms. Together, they embark on a journey to uncover the mystery behind her origins and what sets her apart from the rest. Along the way, they develop a unique and heartwarming relationship, navigating through the complexities of love, technology, and the boundaries between humans and machines.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

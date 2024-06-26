@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Crossing Time</h2>
                     <p>Comedy</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Crossing Time follows the daily lives of passengers waiting for a train at a small station. From high school students to working adults, each person has a story to tell while sharing small, meaningful interactions with one another. As they wait for the train to arrive, friendships form, secrets are revealed, and bonds are strengthened, making their time at the station a memorable part of their lives.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kemono Michi: Rise Up</h2>
                     <p>Isekai</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>Genzo Shibata, a pro wrestler, is mysteriously transported to a fantasy world where he's tasked with subduing dangerous animals. However, instead of battling them, Genzo decides to befriend and protect them, earning the nickname Animal Mask. With his wrestling skills and love for animals, he sets out on a comedic adventure to open a pet shop and live peacefully in this new world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

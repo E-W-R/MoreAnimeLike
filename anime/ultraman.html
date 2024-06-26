@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ultraman</h2>
                     <p>Action</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>In Ultraman, a human joins a special defense team that battles monstrous creatures threatening Earth. When facing overwhelming odds, he discovers the power to transform into a giant alien superhero known as Ultraman. Together with his teammates, they fight to protect the planet from giant monsters and alien invaders. Balancing his double life as a normal human and a powerful defender, he must navigate personal relationships while fulfilling his duty as Earth's ultimate protector.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

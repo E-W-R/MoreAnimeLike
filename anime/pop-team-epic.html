@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Pop Team Epic</h2>
                     <p>Comedy</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Pop Team Epic follows the surreal and comedic adventures of two high school girls, Popuko and Pipimi, as they navigate through absurd and nonsensical situations. With each episode divided into short skits filled with pop culture references, parodies, and meta-humor, the series constantly breaks the fourth wall and challenges traditional anime conventions. From bizarre pop quizzes to outrageous music videos, Popuko and Pipimi's unpredictable antics keep viewers entertained with their unique brand of humor.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

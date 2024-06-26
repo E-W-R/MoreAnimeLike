@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Golden Boy</h2>
                     <p>Comedy</p>
                     <p>1995</p>
-                    <br><br>
+                    <br>
                     <p>Kintaro Oe, a brilliant and handsome college dropout, embarks on a journey of self-discovery by taking on odd jobs across Japan. Despite his perverted antics and unorthodox methods, Kintaro's insatiable thirst for knowledge and passion for life endear him to those he encounters. With each new job, he learns valuable life lessons and leaves a lasting impact on everyone around him.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

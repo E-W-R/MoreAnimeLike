@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Blame!: The Movie</h2>
                     <p>Psychological</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>In a vast, ever-expanding city with technology beyond human control, a mysterious virus turns everything against the inhabitants. Killy, a traveler with a powerful weapon, embarks on a quest to find the Net Terminal Gene, the key to restoring order. As he navigates through the endless labyrinth of corridors and deadly cyborgs, Killy encounters factions vying for control and must outwit relentless enemies to fulfill his mission and bring hope to the desolate world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

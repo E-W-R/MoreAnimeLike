@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">5 Centimeters per Second</h2>
                     <p>Romance</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>5 Centimeters per Second follows the story of two childhood friends, Takaki and Akari, who are separated as they grow older and drift apart. Despite their distance, they continue to hold onto their feelings for each other. The anime explores themes of love, timing, and the bittersweet nature of relationships as the characters navigate the challenges of life and the uncertainties of the future.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

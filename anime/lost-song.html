@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Lost Song</h2>
                     <p>Drama</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>In a fantastical world where music holds immense power, two young women with contrasting lives – one a carefree songstress and the other a stoic soldier – find their destinies intertwined as they uncover a hidden past that may change the fate of their land. With the ability to perform the lost song that can either bring salvation or destruction, they must navigate through treacherous challenges to protect those they love and the world they hold dear.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

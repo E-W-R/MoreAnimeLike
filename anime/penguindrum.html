@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Penguindrum</h2>
                     <p>Mystery</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>Penguindrum follows the story of three siblings who come across a mysterious penguin-shaped hat that grants them a mission to find the Penguindrum to save their terminally ill sister. As they delve into a surreal world filled with fate, sacrifice, and dark secrets, they must navigate their complicated family dynamics while uncovering the truth behind their sister's illness. As they race against time, they discover the true meaning of love and destiny.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

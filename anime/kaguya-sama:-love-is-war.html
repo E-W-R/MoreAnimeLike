@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kaguya-sama: Love is War</h2>
                     <p>Psychological</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>At the prestigious Shuchiin Academy, student council president Miyuki Shirogane and vice president Kaguya Shinomiya are both too proud to confess their feelings for each other. They engage in elaborate schemes and mind games to try to make the other person confess first, leading to hilarious and chaotic situations. As their battle of wits continues, their relationship deepens and they navigate the complexities of love together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

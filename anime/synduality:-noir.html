@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Synduality: Noir</h2>
                     <p>Action</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In a futuristic city where humans and androids coexist, a former detective and his AI partner run a private investigation agency. Tasked with solving high-profile cases, they delve into the dark underbelly of the city, uncovering conspiracies and facing dangerous enemies. As they navigate the treacherous world of crime and corruption, they must confront their own pasts and the moral dilemmas of their work. Trust is a luxury they can't afford in this high-stakes cyber-noir thriller.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

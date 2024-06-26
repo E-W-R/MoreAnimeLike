@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Arte</h2>
                     <p>Drama</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>In a time where women are expected to conform to societal norms, Arte, a young noblewoman in 16th century Florence, Italy, dreams of becoming an artist. Despite her family's disapproval, she apprentices under a skilled master to pursue her passion for art. Through dedication and perseverance, Arte navigates the challenges of a male-dominated field, forging her path as a professional artist. Will she prove that talent knows no gender boundaries in the Renaissance art world?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Urusei Yatsura</h2>
                     <p>Romance</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>Urusei Yatsura follows the misadventures of Ataru Moroboshi, a hapless high school student who somehow becomes engaged to the beautiful and spunky alien princess Lum after a game of tag decides the fate of Earth. With Lum's arrival, Ataru's ordinary life is turned upside down as he navigates the chaos of living with an alien princess while dealing with various other extraterrestrial beings and bizarre situations. The series is a mix of comedy, romance, and sci-fi shenanigans.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

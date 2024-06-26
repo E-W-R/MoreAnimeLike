@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Last Period: The Journey to the End of the Despair</h2>
                     <p>Action</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Last Period follows a group of adventurers known as the Fractale Company who are on a quest to stop the world from falling into eternal despair caused by the powerful Time Witch. In a world where heroes are hired and fierce monsters roam, the group must navigate through dangerous dungeons and face challenging foes to collect valuable items known as Last Periods. With the fate of the world hanging in the balance, they must strive to uncover the truth behind the Time Witch and save their world from certain doom.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

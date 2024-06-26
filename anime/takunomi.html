@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Takunomi</h2>
                     <p>Comedy</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Takunomi follows the story of Michiru Amatsuki, a young woman who moves to Tokyo for work and ends up living in a share house with three other women. As they bond over their love for alcoholic beverages, the girls enjoy drinking together and sharing their experiences. Each episode explores different types of beverages and the shared moments that bring the housemates closer together. The series showcases their growing friendships and the everyday joys of living and drinking together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

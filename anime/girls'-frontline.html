@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Girls' Frontline</h2>
                     <p>Action</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In a chaotic future where military androids have become the primary weapons, a mysterious organization known as Griffin & Kryuger controls a group of elite Tactical Dolls. Among them is a newly activated Tactical Doll named M4A1 who must uncover the truth behind her past and the secrets of the world she lives in. As she battles against various factions, M4A1 and her fellow dolls must navigate through political intrigue and complex betrayals to secure their future.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

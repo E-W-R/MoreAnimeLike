@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Showa Genroku Rakugo Shinju</h2>
                     <p>Drama</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Showa Genroku Rakugo Shinju follows the story of a former yakuza member, Yotarou, who becomes a disciple of a famous rakugo master after his release from prison. The series delves into the art of rakugo storytelling, as well as the complexities of the relationships between the characters. As Yotarou navigates the world of traditional Japanese performance art, he must confront his past and strive for success in the rakugo world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

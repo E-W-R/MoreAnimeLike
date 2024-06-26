@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Zakuro</h2>
                     <p>Romance</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>In an alternate version of Japan's Meiji era, half-spirit beings known as zakuro work alongside humans to maintain harmony. The story follows a young lieutenant from the Ministry of Spirit Affairs and his team of zakuro as they investigate mysterious incidents and confront the challenges of bridging the gap between the two worlds. As they uncover hidden truths and face danger, they must learn to trust each other and work together to protect the fragile peace between humans and spirits.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Garden of Words</h2>
                     <p>Romance</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>On rainy mornings, a high school student named Takao skips class to sketch shoe designs in a peaceful garden. There, he meets a mysterious older woman named Yukino who enjoys drinking beer and eating chocolate. As they continue to meet in the garden, their bond deepens as they confide in each other about their struggles and dreams. Through their meetings, both Takao and Yukino find solace and understanding in each other's company.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

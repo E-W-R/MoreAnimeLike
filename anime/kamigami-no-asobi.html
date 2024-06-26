@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kamigami no Asobi</h2>
                     <p>Isekai</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Yui Kusanagi is suddenly transported to a mysterious school where she must teach the gods of different mythologies about love and human emotions. With gods such as Zeus, Thor, and Anubis as her students, Yui must navigate through challenges and bond with each god to help them understand the complexities of the human heart. As the gods learn about love, Yui also discovers more about herself and the world around her.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

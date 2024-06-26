@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Rumbling Hearts</h2>
                     <p>Romance</p>
                     <p>2003</p>
-                    <br><br>
+                    <br>
                     <p>After a tragic accident leaves a young couple torn apart, they must navigate through heartbreak and emotional turmoil. As time passes, they find themselves surrounded by new relationships and unexpected challenges that test their feelings for each other. Amidst the confusion of love and loyalty, they must decide whether to follow their hearts or let go of the past.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

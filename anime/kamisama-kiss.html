@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kamisama Kiss</h2>
                     <p>Romance</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Kamisama Kiss follows a high school girl who becomes a local deity after she unexpectedly inherits a shrine. With the help of a fox familiar, she navigates the challenges of her new divine status, dealing with mischievous spirits and forming alliances with other supernatural beings. Along the way, she encounters romance and must learn to balance her human and divine responsibilities.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

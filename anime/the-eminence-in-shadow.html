@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Eminence in Shadow</h2>
                     <p>Isekai</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>The Eminence in Shadow follows Cid, an ordinary boy who becomes obsessed with a secret society of heroes. He decides to create his own imaginary organization to rival them, leading a double life as an unassuming student and the enigmatic shadow ruler. As his fictitious exploits gain infamy, Cid finds himself drawn into a world of real danger and adventure, blurring the lines between his fantasy and reality.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

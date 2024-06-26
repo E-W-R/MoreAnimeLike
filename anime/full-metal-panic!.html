@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Full Metal Panic!</h2>
                     <p>Action</p>
                     <p>2002</p>
-                    <br><br>
+                    <br>
                     <p>In Full Metal Panic!, Sousuke Sagara, a stoic military operative, is assigned to protect high school student Kaname Chidori, who possesses a mysterious power sought after by various organizations. Balancing his duties as a protector with the challenges of high school life, Sousuke must navigate secrecy and danger while forming relationships with his classmates. As the threats against Kaname escalate, he must use his combat skills to keep her safe at all costs.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

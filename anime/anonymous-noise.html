@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Anonymous Noise</h2>
                     <p>Romance</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Nino, a girl with a unique voice, reunites with her childhood friends Momo and Yuzu. United by their love for music, they form a band together. Despite the challenges they face, they strive to make their voices heard and pursue their dreams of becoming successful musicians. As they navigate the complexities of friendship, love, and rivalry, Nino's powerful voice continues to resonate, leaving a lasting impact on those around her.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

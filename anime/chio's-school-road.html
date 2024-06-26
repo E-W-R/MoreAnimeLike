@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Chio's School Road</h2>
                     <p>Comedy</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Follow the hilarious adventures of high school student Chio, who often finds herself running late for school and taking unconventional shortcuts to get there on time. From dodging gangs to facing off against her childhood friend in a game of tag, Chio's daily commute is anything but ordinary. Join her as she navigates the chaos of the school road with her wild imagination and unyielding determination.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Wonderland</h2>
                     <p>Isekai</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>The Wonderland follows the journey of a group of friends who stumble upon a hidden portal to a magical world. In this fantastical realm, they encounter mythical creatures, brave treacherous challenges, and uncover the truth behind the mysterious disappearance of a legendary hero. As they navigate this wondrous land, they must work together to find a way back home while discovering the secrets that connect them to The Wonderland.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

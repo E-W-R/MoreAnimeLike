@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Nodame Cantabile</h2>
                     <p>Romance</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>Nodame Cantabile follows the story of Shinichi Chiaki, a talented musician with dreams of becoming a conductor. His path crosses with Noda Megumi, a quirky and free-spirited pianist known as Nodame. The two navigate their musical ambitions together while also exploring their feelings for each other. As they face various challenges in their personal and professional lives, they discover the true power of music in bringing people together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

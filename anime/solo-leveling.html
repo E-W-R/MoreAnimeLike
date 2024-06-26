@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Solo Leveling</h2>
                     <p>Action</p>
                     <p>2024</p>
-                    <br><br>
+                    <br>
                     <p>Solo Leveling follows Sung Jin-Woo, the weakest hunter in a world where gates to dungeons filled with monsters have appeared. After a near-death experience, Jin-Woo gains a unique ability that allows him to level up by completing quests. Determined to become stronger, he embarks on a journey to improve his skills and protect humanity from the dangers lurking inside the dungeons. As Jin-Woo uncovers the secrets of his power, he must navigate through treacherous challenges and formidable foes.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

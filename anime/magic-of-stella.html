@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Magic of Stella</h2>
                     <p>Comedy</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Magic of Stella follows a high school girl named Tamaki Honda who joins her school's game development club. Alongside her fellow club members, they work together to create their own video game. Together, they navigate the challenges of game design, deadlines, creativity, and teamwork. As they pour their hearts into their project, they form strong bonds and strive to showcase their passion for games.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

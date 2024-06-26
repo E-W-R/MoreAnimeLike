@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kiki's Delivery Service</h2>
                     <p>Drama</p>
                     <p>1989</p>
-                    <br><br>
+                    <br>
                     <p>Kiki's Delivery Service follows the story of a young witch named Kiki who sets out on a journey to a new town as part of her traditional training. She starts a delivery service using her flying broomstick and befriends a kind baker and an artist along the way. As Kiki faces challenges and self-doubt, she learns valuable lessons about independence, friendship, and finding her own unique talents.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

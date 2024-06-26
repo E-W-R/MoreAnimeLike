@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Akame ga Kill!</h2>
                     <p>Action</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>An elite group of assassins known as Night Raid fight against the corrupt Empire in a battle for justice. Tatsumi, a young fighter, joins their ranks and discovers the harsh reality of their mission. As the line between right and wrong blurs, Tatsumi must navigate the dangerous world of politics and violence. With intense battles and unexpected betrayals, Akame ga Kill! explores the complexities of morality and the power of determination.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

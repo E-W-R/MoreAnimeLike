@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Sound! Euphonium</h2>
                     <p>Drama</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>Sound! Euphonium follows the story of high school student Kumiko as she joins the school's concert band. Striving for greatness, Kumiko and her friends navigate the challenges of musical competition, friendships, and personal growth. With a focus on teamwork and dedication, the series explores the journey of these talented students as they work together to achieve their dreams of winning the national music competition.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

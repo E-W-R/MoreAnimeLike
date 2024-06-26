@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ranking of Kings</h2>
                     <p>Other Genre</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Ranking of Kings follows the story of Bojji, a young deaf prince who dreams of becoming a great king like his father. Despite his physical limitations and being underestimated by others, Bojji sets out on a journey to prove his worth with the help of his loyal friend Kage. Together, they face challenges, make allies, and uncover dark secrets hidden within the kingdom. Bojji's courage and determination are put to the test as he navigates the complex world of royalty and strives to fulfill his destiny.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

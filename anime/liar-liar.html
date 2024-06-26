@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Liar Liar</h2>
                     <p>Psychological</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In Liar Liar, a high school student named Shinichi discovers a mysterious app that allows him to listen to the thoughts of those around him. As he delves deeper into the secrets of his classmates, Shinichi learns that the truth can be both powerful and dangerous. With the help of his friends, he must navigate a web of lies and deception to uncover the real story behind the people he thought he knew.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

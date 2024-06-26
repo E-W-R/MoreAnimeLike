@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">My Home Hero</h2>
                     <p>Drama</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>When a timid salesman finds a kidnapped teenage girl in his kitchen, he decides to save her. As he quickly becomes aware of her difficult situation, he takes it upon himself to protect her from her dangerous captors. In order to do so, he must embrace his hidden past as a skilled ex-yakuza member, using his expertise to outsmart his enemies and ensure the girl's safety. The story unfolds as he navigates through this dangerous world, risking everything to keep her safe.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Your Lie in April</h2>
                     <p>Romance</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Your Lie in April follows piano prodigy Kousei Arima, who loses his ability to hear the music after the death of his mother. Years later, he meets a free-spirited violinist named Kaori Miyazono, who helps him rediscover his love for music and life. Together, they navigate the world of competitive music performances, pushing Kousei to confront his past and find his own voice on the piano.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

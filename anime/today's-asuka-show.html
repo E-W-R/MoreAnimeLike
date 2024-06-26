@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Today's Asuka Show</h2>
                     <p>Comedy</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Asuka is a high school student who dreams of becoming a famous idol. With the help of her friends, she navigates the challenges of school life while juggling her passion for music. Asuka faces fierce competition, internal struggles, and unexpected twists on her journey to stardom. Will she be able to overcome the obstacles in her path and achieve her goal of becoming a successful idol?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

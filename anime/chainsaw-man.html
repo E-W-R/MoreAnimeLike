@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Chainsaw Man</h2>
                     <p>Action</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>Chainsaw Man follows Denji, a young demon hunter struggling to repay his late father's debt. After a tragic incident, Denji merges with his pet devil Pochita to become Chainsaw Man, a powerful being capable of regenerating from any injury. Denji joins the Public Safety Devil Hunters to eliminate devils in exchange for a normal life. As he battles terrifying foes, Denji forms bonds with fellow hunters and uncovers the truth behind his existence.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

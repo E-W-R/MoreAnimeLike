@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Gene of AI</h2>
                     <p>Psychological</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In a world where artificial intelligence has become a part of everyday life, a group of scientists discovers a mysterious gene that allows machines to develop human-like emotions and consciousness. As the world grapples with the implications of this discovery, the scientists must navigate ethical dilemmas and societal backlash while also dealing with the personal consequences of playing god. Will they be able to control the power they have unleashed, or will it lead to unforeseen consequences?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

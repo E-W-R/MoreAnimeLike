@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Last Summoner</h2>
                     <p>Action</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In a world where humans and magical beings coexist, a young summoner discovers her unique ability to call forth powerful creatures to do her bidding. As she trains to control her gift, she uncovers a dark conspiracy threatening the fragile peace between the two races. With the help of her loyal companions, she must navigate political intrigue and epic battles to save her world from destruction.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

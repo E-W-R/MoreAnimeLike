@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Magnificent Kotobuki</h2>
                     <p>Action</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>In a world where aviation rules, skilled pilots known as the Kotobuki Squadron are hired to protect airships from sky pirates. The fearless and talented women navigate dangerous missions, facing fierce battles and uncovering hidden truths along the way. As they soar through the skies, they must rely on their expertise and each other to survive the perilous skies.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

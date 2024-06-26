@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Giant Killing</h2>
                     <p>Sports</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>Giant Killing follows Tsujido East FC, a struggling soccer team aiming to make a comeback in the professional league. The story centers on Takeshi Tatsumi, a former star player turned unconventional coach who leads the team using his unique tactics and strategies. With determination and teamwork, Tsujido East FC sets out to challenge the top teams in the league and win the hearts of fans.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

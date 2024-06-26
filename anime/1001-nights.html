@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">1001 Nights</h2>
                     <p>Romance</p>
                     <p>1999</p>
-                    <br><br>
+                    <br>
                     <p>In 1001 Nights, the beautiful and brave storyteller Scheherazade weaves enchanting tales to captivate the Sultan Shahryar each night, saving herself from execution. As she spins captivating stories filled with adventure, romance, and fantasy, she not only keeps herself alive but also touches the Sultan's heart, slowly changing his cruel ways. Through her storytelling, Scheherazade navigates through a world of magic, danger, and mystery, keeping both the Sultan and the audience spellbound.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

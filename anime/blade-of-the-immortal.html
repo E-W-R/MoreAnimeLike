@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Blade of the Immortal</h2>
                     <p>Action</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>Blade of the Immortal follows the story of Manji, a skilled samurai cursed with immortality after killing a corrupt lord. To rid himself of the curse, he must kill a thousand evil men. Manji crosses paths with Rin, a young girl seeking revenge for her family's murder. Together, they embark on a journey of vengeance and redemption, battling ruthless enemies along the way. As the two warriors face countless challenges, they must decide what truly defines justice and honor.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

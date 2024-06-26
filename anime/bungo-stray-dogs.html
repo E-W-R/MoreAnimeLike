@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Bungo Stray Dogs</h2>
                     <p>Mystery</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Bungo Stray Dogs follows Atsushi Nakajima, a young man with a mysterious ability to transform into a white tiger. After getting kicked out of his orphanage, he joins the Armed Detective Agency, a group of gifted individuals with unique powers who solve supernatural cases. As Atsushi navigates this new world, he uncovers dark secrets from his past while facing powerful enemies and forming strong bonds with his colleagues. The series is filled with thrilling action scenes and captivating mysteries.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

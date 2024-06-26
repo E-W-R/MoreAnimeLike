@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Bartender</h2>
                     <p>Drama</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Bartender follows Ryu Sasakura, a talented bartender known as the Glass of the Gods for his exceptional cocktail-making skills. Working at the bar Eden Hall, Ryu not only serves drinks but also listens to the stories and struggles of his customers, using his cocktails to help them overcome their problems and find solace. With his compassionate and insightful nature, Ryu learns the stories of various patrons and offers them unique concoctions tailored to their needs.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

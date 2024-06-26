@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Pompo: The Cinéphile</h2>
                     <p>Drama</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Faced with financial troubles, Gene, a young producer, teams up with the legendary filmmaker Pompo to create a blockbuster movie that will save his studio. With Pompo's expertise and Gene's determination, they navigate the unpredictable world of filmmaking, from scriptwriting to production, to make their dream a reality. As they work against the clock to finish the movie, they encounter various challenges and setbacks that test their creativity and passion for the art of cinema.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

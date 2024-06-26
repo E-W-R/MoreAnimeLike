@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Black Blood Brothers</h2>
                     <p>Action</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Black Blood Brothers follows Jiro, a legendary vampire known as the Silver Blade, as he travels to the Special Zone, a city where humans and vampires coexist. Together with his human brother, Kotaro, Jiro seeks to protect his kind from various threats, including rogue vampires and a sinister organization. As they navigate political intrigue and confront their past, the brothers must face formidable enemies while uncovering dark secrets about the origins of vampires.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

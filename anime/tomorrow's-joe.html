@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tomorrow's Joe</h2>
                     <p>Sports</p>
                     <p>1970</p>
-                    <br><br>
+                    <br>
                     <p>Tomorrow's Joe follows Joe Yabuki, a rebellious delinquent who finds purpose in life through boxing. His talent and determination lead him to a journey of self-discovery and redemption as he navigates the brutal world of professional boxing. With fierce rivals and personal demons to overcome, Joe must confront his past to secure a promising future in the ring.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

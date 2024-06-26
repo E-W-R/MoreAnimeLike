@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Alice & Zoroku</h2>
                     <p>Mystery</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Alice & Zoroku follows a mysterious young girl named Alice with powerful psychic abilities who escapes from a research facility. She crosses paths with an elderly man named Zoroku, who takes her in despite his skepticism of her powers. As they bond, Alice discovers the true meaning of family and friendship while navigating the dangers posed by those who seek to exploit her abilities. Together, they embark on a heartwarming journey of self-discovery and mutual understanding.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

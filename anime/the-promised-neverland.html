@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Promised Neverland</h2>
                     <p>Mystery</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>In The Promised Neverland, orphaned children Emma, Norman, and Ray discover a dark secret about their seemingly idyllic orphanage. They plot to escape and uncover the truth behind their existence, facing dangerous obstacles and enemies along the way. With their intelligence and cunning, they must outwit their caretaker and find a way to freedom while unraveling the mysteries of their world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

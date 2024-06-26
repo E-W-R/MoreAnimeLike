@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Night on the Galactic Railroad</h2>
                     <p>Drama</p>
                     <p>1985</p>
-                    <br><br>
+                    <br>
                     <p>Night on the Galactic Railroad follows a young boy named Giovanni who embarks on a mysterious journey aboard a magical train traveling through the universe. Along the way, Giovanni encounters various passengers and learns powerful lessons about life, death, and the importance of empathy. As the train ventures through fantastical realms and surreal landscapes, Giovanni's perception of the world is challenged, leading him to confront his own fears and desires.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

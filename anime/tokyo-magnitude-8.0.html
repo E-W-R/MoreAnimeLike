@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tokyo Magnitude 8.0</h2>
                     <p>Drama</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>After a powerful earthquake hits Tokyo, siblings Mirai and Yuuki must navigate the devastated city to reach their family. They meet a woman named Mari who helps them on their journey, facing challenges and dangers along the way. As they encounter the true extent of the disaster and the kindness of strangers in the aftermath, Mirai and Yuuki's bond is tested in this emotional tale of survival and resilience.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

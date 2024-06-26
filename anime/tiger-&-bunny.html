@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tiger & Bunny</h2>
                     <p>Mystery</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>In the futuristic city of Sternbild, superheroes known as NEXT protect the citizens and compete in a popular reality TV show for points and fame. Aging hero Kotetsu T. Kaburagi, AKA Wild Tiger, is forced to team up with the young and flashy Barnaby Brooks Jr., AKA Bunny, in a reluctant partnership. Together, they must navigate the world of corporate sponsorship, personal differences, and dangerous villains to uphold justice and uncover the truth behind their shared past.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

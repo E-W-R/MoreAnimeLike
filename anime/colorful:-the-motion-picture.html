@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Colorful: The Motion Picture</h2>
                     <p>Drama</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>After a teenager dies by suicide, he is given a chance at redemption in the afterlife. He must live in the body of a boy who has just committed suicide and uncover the dark secrets behind his new family. As he learns about the pain and struggles of those around him, he must come to terms with his own past and find a way to bring peace to his new life.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Zombie Land Saga</h2>
                     <p>Comedy</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>After a young girl named Sakura is killed in a tragic accident, she is resurrected by a man named Kotaro Tatsumi who asks her to become an idol to save the Saga Prefecture. Along with six other girls who are also zombies, they form the idol group Franchouchou. Despite their physical limitations as zombies, the girls strive to become popular idols by overcoming various challenges and putting on unforgettable performances.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

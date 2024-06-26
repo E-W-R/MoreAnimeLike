@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">My-Hime</h2>
                     <p>Action</p>
                     <p>2004</p>
-                    <br><br>
+                    <br>
                     <p>My-Hime follows high school students who discover they possess special powers and must use them to protect their school from mysterious creatures. As the students harness their abilities, they uncover hidden secrets about the origins of their powers and the true purpose behind the battles they are forced to participate in. With friendships tested and alliances formed, the students must navigate a dangerous world where trust is scarce and betrayal could mean the end of everything they hold dear.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

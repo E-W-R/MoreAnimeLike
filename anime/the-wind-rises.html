@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Wind Rises</h2>
                     <p>Romance</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>The Wind Rises follows the story of Jiro Horikoshi, a young aspiring aircraft designer with a passion for aviation. Set in Japan during the World War II era, Jiro navigates personal and professional challenges as he strives to create beautiful and innovative aircraft. Along the way, he encounters love, friendship, and the harsh realities of war. Balancing his dreams with the responsibilities of his creations, Jiro must confront the moral implications of his work as the world around him changes.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

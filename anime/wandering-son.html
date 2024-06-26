@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Wandering Son</h2>
                     <p>Romance</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>Wandering Son follows the story of two friends, Shuichi Nitori and Yoshino Takatsuki, who are both struggling with their gender identities. They navigate the challenges of adolescence, friendships, and societal expectations as they come to terms with their true selves. With the support of each other and a few close friends, they embark on a journey of self-discovery and acceptance.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

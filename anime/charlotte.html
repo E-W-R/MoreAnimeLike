@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Charlotte</h2>
                     <p>Drama</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>Charlotte follows the story of Yuu Otosaka, a high school student with the ability to possess others for five seconds. After being discovered by Nao Tomori, a girl from a secret organization that monitors individuals with supernatural powers, Yuu is forced to transfer to Hoshinoumi Academy. As he becomes involved in various missions to protect others with abilities, Yuu uncovers the dark secrets behind their powers and the consequences of misusing them.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

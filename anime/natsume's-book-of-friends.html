@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Natsume's Book of Friends</h2>
                     <p>Other Genre</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>Takashi Natsume has inherited the ability to see spirits from his grandmother Reiko. He discovers that she had bound a number of spirits to her in a book of contracts. As Natsume releases the spirits one by one, he learns more about their pasts and finds himself forming deep connections with them. Joined by a powerful spirit bodyguard named Madara, Natsume navigates the world of spirits while uncovering the mysteries of his grandmother's past.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

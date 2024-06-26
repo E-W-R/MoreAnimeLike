@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Grave of the Fireflies</h2>
                     <p>Drama</p>
                     <p>1988</p>
-                    <br><br>
+                    <br>
                     <p>Grave of the Fireflies follows two siblings, Seita and Setsuko, trying to survive the horrors of World War II in Japan. After losing their mother during a bombing raid and their father serving in the navy, they are left to fend for themselves. The siblings navigate through the harsh realities of war, struggling with hunger and loss. As they cling to each other for support, their unbreakable bond is tested in the face of despair.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

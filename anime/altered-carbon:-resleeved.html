@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Altered Carbon: Resleeved</h2>
                     <p>Action</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>In a cyberpunk world where human consciousness can be transferred between bodies, a mercenary is hired to protect a young tattoo artist. As they flee from ruthless assassins, they uncover a dangerous conspiracy that threatens to disrupt the delicate balance of power in their society. In a high-stakes game of deception and betrayal, they must navigate through a web of secrets to survive and protect what they hold dear.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

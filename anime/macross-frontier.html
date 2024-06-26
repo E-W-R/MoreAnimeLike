@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Macross Frontier</h2>
                     <p>Action</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>Macross Frontier follows the crew of the Macross Frontier fleet as they navigate through space, facing conflicts with mysterious alien species known as the Vajra. As budding singer Ranka Lee and skilled pilot Alto Saotome get entangled in the midst of the battle, their lives become intertwined with the fate of humanity. With music playing a crucial role in the storyline, the series delves into themes of love, friendship, and the resilience of the human spirit against overwhelming odds.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

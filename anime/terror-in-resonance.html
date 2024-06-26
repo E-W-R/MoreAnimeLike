@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Terror in Resonance</h2>
                     <p>Mystery</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Terror in Resonance follows two enigmatic teenagers known as Nine and Twelve who orchestrate a series of devastating terrorist attacks in Tokyo. They leave riddles behind, drawing the attention of the police and a talented detective named Shibazaki. As their intricate plan unravels, a deeper conspiracy is revealed, forcing everyone involved to question their beliefs and motivations. The series delves into the complexities of morality, identity, and the consequences of one's actions.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

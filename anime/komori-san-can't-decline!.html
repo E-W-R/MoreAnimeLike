@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Komori-san Can't Decline!</h2>
                     <p>Comedy</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>Komori-san is always eager to help others and can never say no, no matter how strange or ridiculous the request. From babysitting to shopping trips, her kindness often leads to hilarious situations with her classmates. Despite her reluctance to decline anyone, Komori-san's compassionate nature endears her to those around her. As she navigates through various daily challenges, she learns more about herself and the importance of setting boundaries.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

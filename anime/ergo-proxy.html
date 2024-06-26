@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ergo Proxy</h2>
                     <p>Mystery</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>In a futuristic world where humans and robots coexist, a series of mysterious murders occur, causing a young investigator and an enigmatic female android to uncover a dark conspiracy that challenges their understanding of reality and identity. As they delve deeper into the truth behind these incidents, they are drawn into a dangerous journey that will test their beliefs and convictions. </p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

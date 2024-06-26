@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tomodachi Game</h2>
                     <p>Psychological</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>Tomodachi Game follows a group of high school friends who are forced to participate in a twisted game where they must complete increasingly cruel and dangerous tasks to win a large sum of money. As the game progresses, trust and loyalty are tested, and the true nature of each character is revealed. Betrayal and suspense take center stage as the friends struggle to survive the ruthless challenges and uncover the mastermind behind the sadistic game.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

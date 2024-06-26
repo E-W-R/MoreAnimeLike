@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">High School Fleet</h2>
                     <p>Action</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>In a world where the sea covers the Earth, young girls enroll in high schools to train as Blue Mermaids, a naval organization tasked with protecting the seas. A group of students at Yokosuka Girls' Marine High School must come together to navigate intense naval battles and face unknown threats. As they strive to become full-fledged Blue Mermaids, friendships are tested, and the true strength of their bonds is revealed.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Akudama Drive</h2>
                     <p>Action</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>In a dystopian future, criminals known as Akudama are recruited for a dangerous mission by a mysterious person known as Black Cat. The Akudama, each with their own unique abilities, must work together to complete their mission while navigating the treacherous streets of Kansai City. However, as the stakes get higher, they find themselves caught up in a conflict that could change the fate of the city forever.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Bem</h2>
                     <p>Action</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>Bem follows the story of three yokai—Bem, Bela, and Belo—as they work together to protect humans from other malevolent yokai. Despite their appearances, they strive to live in harmony with humans while battling evil forces that threaten peace in the city. As they navigate the complexities of their existence, they encounter various challenges that test their resolve to protect those in need. Can they overcome their differences and protect the city from dark forces?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

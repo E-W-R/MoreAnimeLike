@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Utawarerumono</h2>
                     <p>Action</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>A man wakes up in a strange world with no memories and a mask fused to his face. He is taken in by a kind-hearted village girl and soon becomes entangled in a war between different nations. As he navigates this new world and uncovers secrets about his past, he must choose whether to fight for his new friends or seek his own truth. The man's mysterious origins and unique abilities make him a key player in the conflicts escalating around him.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

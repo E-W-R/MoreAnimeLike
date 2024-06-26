@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Blue Lock</h2>
                     <p>Sports</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>After the Japanese national team's humiliating defeat, Blue Lock institute is established to train elite strikers to win the World Cup. Talented high school striker Yoichi Isagi is scouted to join the intense and competitive program, where he must compete against other top players to earn a spot on the national team. With fierce competition and intense rivalries, Isagi must navigate the challenges of Blue Lock to achieve his dream of becoming the world's best striker.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

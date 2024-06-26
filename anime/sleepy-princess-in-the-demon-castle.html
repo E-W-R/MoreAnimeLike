@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Sleepy Princess in the Demon Castle</h2>
                     <p>Comedy</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>When the princess is kidnapped by demons, her main concern is getting a good night's sleep. Eager to create better conditions for herself, she goes on comedic escapades, causing chaos in the demon castle and engaging with its inhabitants. Each episode explores her bizarre methods to secure the perfect sleep environment, much to the dismay of the demons trying to keep her captive.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

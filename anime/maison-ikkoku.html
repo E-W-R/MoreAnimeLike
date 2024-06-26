@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Maison Ikkoku</h2>
                     <p>Romance</p>
                     <p>1986</p>
-                    <br><br>
+                    <br>
                     <p>Maison Ikkoku follows the story of Yusaku Godai, a hapless student, who falls in love with his beautiful and widowed apartment manager, Kyoko Otonashi. As Godai navigates his feelings for Kyoko, he must also contend with eccentric neighbors and his own insecurities. The series beautifully explores the ups and downs of love and the challenges of growing up, all set against the backdrop of the quirky residents of Maison Ikkoku.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

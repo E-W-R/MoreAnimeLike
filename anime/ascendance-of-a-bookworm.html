@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ascendance of a Bookworm</h2>
                     <p>Isekai</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>After an aspiring librarian dies and is reborn into a medieval world with a scarcity of books, she sets out to continue her love for reading and writing. Facing challenges and using her knowledge from her past life, she strives to create her own books in a world where the ability to read is a luxury. With her determination and intelligence, she navigates the obstacles in her path to achieve her dream of becoming a librarian once again.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ghost in the Shell</h2>
                     <p>Action</p>
                     <p>1995</p>
-                    <br><br>
+                    <br>
                     <p>In a future where humans can enhance themselves with cybernetic technology, Major Motoko Kusanagi leads an elite task force investigating cybercrime. When they encounter the mysterious hacker known as the Puppet Master, Major Kusanagi dives deep into a world of intrigue and conspiracy that challenges her understanding of identity and consciousness. As she unravels the truth behind the Puppet Master, she must confront her own existence and the blurred lines between man and machine.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

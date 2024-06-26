@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Nobunaga Concerto</h2>
                     <p>Romance</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Nobunaga Concerto follows Saburo, a high school student who is suddenly transported back in time to the Warring States period of Japan and finds himself mistaken for the legendary Oda Nobunaga. Despite his modern-day knowledge and strategies, Saburo must navigate the complex political landscape of feudal Japan and ensure Nobunaga's legacy. Through wit and cunning, he must lead his forces to victory and carve out a name for himself in history.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

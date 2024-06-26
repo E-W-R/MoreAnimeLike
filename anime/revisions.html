@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Revisions</h2>
                     <p>Action</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>In the anime Revisions, high school student Daisuke Dojima and his friends find themselves thrust into a post-apocalyptic Shibuya where mysterious beings known as Revisions threaten humanity. Gifted with special powers, they must battle these entities in order to protect their city and its inhabitants. As they navigate through this dangerous new world, they uncover the truth behind the Revisions and the secrets of their own pasts, all while striving to find a way back to their original timeline.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

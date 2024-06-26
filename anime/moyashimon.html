@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Moyashimon</h2>
                     <p>Comedy</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>Moyashimon follows Tadayasu Sawaki, a college student who has the unique ability to see and communicate with microorganisms. Enrolling in an agricultural university, he befriends a group of eccentric individuals and uses his special talent to help solve various agricultural mysteries. As Tadayasu navigates the challenges of university life and builds lasting friendships, he continues to explore the fascinating world of microbes and their impact on the environment.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Cue!</h2>
                     <p>Other Genre</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In a world where music holds immense power, a group of talented individuals known as Cue! compete in the ultimate music competition. Led by a determined young musician, they must face off against rival bands and overcome personal challenges to achieve their dreams of stardom. With friendship, rivalry, and the magic of music at its core, Cue! follows the group's journey as they strive to make their mark in the competitive music industry.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Katsugeki Touken Ranbu</h2>
                     <p>Action</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>In an alternate version of history, warriors called Touken Danshi are brought to life in the form of legendary swords to protect history from being altered by malevolent forces. These warriors are tasked with traveling through time to prevent historical anomalies and preserve the timeline. The focus is on two members of the Touken Danshi, as they navigate through different eras and face formidable enemies in their quest to safeguard the past.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

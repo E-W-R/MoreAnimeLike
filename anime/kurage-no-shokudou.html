@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kurage no Shokudou</h2>
                     <p>Drama</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Kurage no Shokudou follows the story of a mysterious restaurant that appears only at midnight. Run by a peculiar jellyfish, the restaurant serves as a meeting place for lost souls seeking comfort in the form of delicious dishes. With each customer's unique story and struggles, the jellyfish chef provides not only food but also warmth and understanding. As relationships develop and secrets unravel, patrons find solace and a sense of belonging in this extraordinary eatery.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

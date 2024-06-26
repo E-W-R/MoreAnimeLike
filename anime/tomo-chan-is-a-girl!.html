@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tomo-chan Is a Girl!</h2>
                     <p>Romance</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>Tomo Aizawa is a girl with a tomboyish personality and has been friends with her neighbor, Junichirou Kubota, since they were kids. Unbeknownst to Tomo, Jun has developed romantic feelings for her over the years. The series follows their everyday high school life filled with comedic misunderstandings, awkward situations, and Jun's attempts to confess his love to Tomo. Will Jun finally be able to express his feelings to Tomo, or will their friendship remain the same?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

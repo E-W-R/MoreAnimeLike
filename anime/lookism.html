@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Lookism</h2>
                     <p>Action</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>Lookism follows the story of Park Hyung Seok, a high school student who is bullied for his looks. After a series of events, he mysteriously gains the ability to switch between his handsome daytime self and his unattractive nighttime self. As he navigates school life and relationships with his dual appearance, he learns more about the importance of inner beauty and self-acceptance.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

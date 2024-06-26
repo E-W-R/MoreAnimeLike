@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">City Hunter</h2>
                     <p>Mystery</p>
                     <p>1987</p>
-                    <br><br>
+                    <br>
                     <p>City Hunter follows Ryo Saeba, a skilled sweeper and private detective who takes on various cases in Tokyo. Alongside his partner Kaori Makimura, Ryo navigates the city's criminal underworld, taking on assignments ranging from bodyguarding to investigating kidnappings. Despite his reputation as a notorious ladies' man, Ryo is a principled individual who fights for justice and protects those in need. The series weaves together action, comedy, and suspense as Ryo tackles each new challenge with his sharp wit and expert marksmanship.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

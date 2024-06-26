@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kaiba</h2>
                     <p>Mystery</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>In a futuristic world where memories can be digitized and transferred between bodies, a man wakes up in a new body with no recollection of his past. As he embarks on a journey to recover his memories, he uncovers a dark conspiracy involving the rich and powerful who control the memory technology. Along the way, he meets various individuals who have their own reasons for seeking out their lost memories in a world where identity is fluid and constantly manipulated.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

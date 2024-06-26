@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ace Attorney</h2>
                     <p>Mystery</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Ace Attorney follows rookie defense attorney Phoenix Wright as he takes on challenging court cases to prove his clients' innocence. With the help of his mentor, Mia Fey, and his friends, Wright investigates crime scenes, cross-examines witnesses, and uncovers contradictions to uncover the truth. As he goes head-to-head against rival prosecutors, including the formidable Miles Edgeworth, Wright must use his sharp intellect and quick thinking to secure a not guilty verdict for his clients.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

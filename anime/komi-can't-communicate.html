@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Komi Can't Communicate</h2>
                     <p>Comedy</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Komi Can't Communicate centers on Shoko Komi, a high school girl admired for her beauty and elegance but who struggles with severe social anxiety, making it hard for her to communicate with others. Her classmate, Hitohito Tadano, discovers her secret and resolves to help her achieve her goal of making 100 friends. The series follows their efforts to navigate high school life, overcome social challenges, and build meaningful friendships, blending humor and heartwarming moments.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

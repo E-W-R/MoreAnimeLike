@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tokyo Ravens</h2>
                     <p>Romance</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>In a world where magic and technology coexist, protagonist Harutora discovers his hidden powers as an onmyoji (spiritual medium). Teamed up with his childhood friend Natsume, who belongs to one of the most powerful onmyo families, they embark on a journey to protect Tokyo from malevolent spirits and prevent a catastrophic event. Together, they must navigate the challenges of the spirit world while uncovering dark secrets and forming alliances to save their city.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

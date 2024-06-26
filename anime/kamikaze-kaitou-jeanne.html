@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kamikaze Kaitou Jeanne</h2>
                     <p>Mystery</p>
                     <p>1999</p>
-                    <br><br>
+                    <br>
                     <p>Kamikaze Kaitou Jeanne follows the story of high school girl Maron Kusakabe, who is actually a reincarnation of Joan of Arc. By night, she transforms into a magical girl thief, Jeanne, and must steal artworks possessed by demons to seal them away. With the help of her angel companion, Finn Fish, Maron navigates her double life while also dealing with her complicated feelings for a classmate. As the stakes increase, she discovers the true purpose behind her missions.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

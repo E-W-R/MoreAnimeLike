@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Super Lovers</h2>
                     <p>Drama</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>After the death of his parents, high school student Haru Kaido is sent to live with his estranged mother's family in Canada. There, he forms an unlikely bond with his adopted brother, Ren, who is initially distant and untrusting. As Haru tries to bridge the gap between them, the two brothers navigate their complicated relationship, overcome personal obstacles, and gradually learn to understand and care for each other.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Bakumatsu</h2>
                     <p>Action</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>In Bakumatsu, the main character is transported back in time to the Bakumatsu period in Japan. He gets caught up in the turmoil and political unrest of the era, where he must navigate between different factions and historical figures. As he tries to find his way back to the present, he becomes embroiled in secret plots and battles, all while forming unlikely alliances and facing powerful adversaries. With his knowledge of future events, he holds the key to changing the course of history.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

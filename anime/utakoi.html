@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Utakoi</h2>
                     <p>Romance</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Utakoi follows the tale of legendary poets Ono no Komachi and Fujiwara no Teika's love stories through the lens of 100 poems included in the ancient Uta Monogatari. Each episode delves into the romantic entanglements and obstacles faced by historical figures as they navigate their feelings amidst societal expectations. As the poets strive to express their deepest emotions through their verses, their relationships illuminate the complexities of love in a bygone era.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

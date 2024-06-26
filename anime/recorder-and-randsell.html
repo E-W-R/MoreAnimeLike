@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Recorder and Randsell</h2>
                     <p>Comedy</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Recorder and Randsell follows the comedic daily lives of Atsushi Miyagawa, a fifth-grader who looks like a full-grown adult, and his older sister Atsumi, a high school girl who looks like a small child. The anime humorously explores the challenges and misunderstandings the siblings face due to their unusual appearances in various everyday situations, such as school, shopping, and interacting with friends.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

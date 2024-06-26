@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Play It Cool, Guys</h2>
                     <p>Other Genre</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In Play It Cool, Guys, a group of high school friends navigates the ups and downs of teenage life while juggling their various personalities and interests. From school projects and crushes to friendships and rivalries, the group must find a way to balance it all and stay true to themselves as they grow and learn more about each other. Bonding over their shared experiences, they bring out the best in each other and form unbreakable connections that shape their futures.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

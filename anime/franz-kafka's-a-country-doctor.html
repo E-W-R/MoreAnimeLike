@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Franz Kafka's A Country Doctor</h2>
                     <p>Psychological</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>A Country Doctor follows a rural doctor who faces surreal challenges while trying to reach a patient in need. As he navigates a series of bizarre and unsettling obstacles, including encounters with strange creatures and inexplicable events, he must confront the limits of his abilities and the complexity of the world around him. This adaptation of Franz Kafka's work delves into themes of isolation, duty, and the struggle to make sense of an incomprehensible universe.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

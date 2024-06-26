@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Grimgar: Ashes and Illusions</h2>
                     <p>Isekai</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>After waking up in a mysterious world with no memories, a group of strangers must band together to survive. Tasked with hunting monsters for a living, they face the harsh reality of their new surroundings and the fragile nature of life. As they struggle to adapt and find their place in this unfamiliar land, they must also deal with their own fears, insecurities, and the weight of their pasts.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

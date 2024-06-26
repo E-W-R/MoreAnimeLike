@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Porco Rosso</h2>
                     <p>Action</p>
                     <p>1992</p>
-                    <br><br>
+                    <br>
                     <p>Set in the Adriatic Sea during the 1920s, Porco Rosso follows the story of a former World War I fighter pilot who has been cursed with the appearance of a pig. Now working as a freelance bounty hunter, Porco Rosso must navigate the dangers of aerial dogfights and the challenges of his own personal demons. When he crosses paths with an ambitious American pilot, tensions rise and the true test of his skills and courage begins.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

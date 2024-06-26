@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Princess Tutu</h2>
                     <p>Drama</p>
                     <p>2002</p>
-                    <br><br>
+                    <br>
                     <p>In Princess Tutu, a young duck transforms into a graceful girl with magical powers. She must gather scattered pieces of a prince's heart to restore balance in a fairy-tale world. As she navigates the challenges ahead, she discovers the complexities of love, destiny, and the true nature of happiness. This enchanting anime blends elements of ballet, fantasy, and mystery to deliver a captivating and heartfelt story of self-discovery and courage.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

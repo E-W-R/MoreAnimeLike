@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Nyaruko: Crawling With Love!</h2>
                     <p>Comedy</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Mahiro Yasaka's ordinary life is turned upside down when he encounters Nyaruko, a shape-shifting alien from the Lovecraftian universe. Nyaruko's mission is to protect Mahiro from other alien threats, but her over-the-top personality and affectionate advances make his life even more chaotic. As they face off against various bizarre creatures, Mahiro must navigate his feelings for Nyaruko while trying to keep his sanity intact.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

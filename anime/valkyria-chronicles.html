@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Valkyria Chronicles</h2>
                     <p>Romance</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>In an alternate world rife with war, a young militia member, through a twist of fate, discovers she has the power to change the course of the conflict. With the help of her comrades, she must navigate the battlefield, uncovering secrets and facing tough decisions along the way. As they fight for their homeland, they'll learn the true meaning of courage and sacrifice.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

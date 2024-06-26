@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Inugami-san to Nekoyama-san</h2>
                     <p>Comedy</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Inugami-san to Nekoyama-san follows the comedic slice-of-life adventures of the unlikely pair, Inugami and Nekoyama. Despite being polar opposites in personality, Inugami, resembling a dog, and Nekoyama, resembling a cat, find themselves drawn to each other. As they navigate their daily lives at school with their friends, their bond deepens, leading to light-hearted and charming interactions filled with humor and friendship.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

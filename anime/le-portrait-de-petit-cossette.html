@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Le Portrait de Petit Cossette</h2>
                     <p>Psychological</p>
                     <p>2004</p>
-                    <br><br>
+                    <br>
                     <p>In Le Portrait de Petit Cossette, a college student named Eiri is drawn to a beautiful antique glassware. He feels an intense connection to the image of a young girl named Cossette imprisoned within. As he delves deeper into the glassware's dark history, Eiri becomes entangled in a haunting tale of love, betrayal, and obsession that blurs the lines between reality and nightmares.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

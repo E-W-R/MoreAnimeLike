@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Royal Tutor</h2>
                     <p>Comedy</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>The Royal Tutor follows Heine Wittgenstein, a highly intelligent and strict tutor hired to educate four handsome but troublesome princes. Despite their initial reluctance, Heine's unorthodox teaching methods and unwavering dedication slowly earn the princes' respect and help them grow both academically and personally. As the brothers navigate palace intrigue and personal challenges, Heine's past and true motives come into question, deepening the bonds between tutor and students.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

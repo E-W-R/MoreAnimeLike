@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Outbreak Company</h2>
                     <p>Isekai</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>Shinichi Kanou, a hardcore otaku, is recruited by the Japanese government to promote otaku culture in a fantasy world. He must navigate political intrigue, cultural differences, and a language barrier to spread his love for anime, manga, and video games. As he immerses himself in this new world, Shinichi learns valuable lessons about acceptance, diversity, and the power of pop culture.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

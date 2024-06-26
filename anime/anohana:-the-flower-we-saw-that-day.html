@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Anohana: The Flower We Saw That Day</h2>
                     <p>Drama</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>Anohana: The Flower We Saw That Day follows a group of childhood friends who have grown apart after the tragic death of one of their own. The ghost of their deceased friend appears to one of them, urging them to fulfill her final wish. As they come together to grant her wish, unresolved feelings and conflicts from their past resurface, leading to emotional revelations and healing as they navigate grief and friendship.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Angel Beats!</h2>
                     <p>Drama</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>Angel Beats! is a captivating anime set in the afterlife, where a group of deceased high school students rebel against a mysterious girl named Angel. The protagonist, Otonashi, wakes up with no memory of his past and joins the SSS (Afterlife Battlefront), a group fighting to defy their fates and seek answers about their existence. Through intense battles, comedic moments, and touching backstories, the series explores themes of life, loss, and the desire to find peace and closure.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

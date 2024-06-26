@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Romeo x Juliet</h2>
                     <p>Romance</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>In this retelling of the classic Shakespearean tale, Romeo and Juliet live in the floating city of Neo Verona, which is under the tyrannical rule of the Montague family. Juliet, who is the last surviving member of the Capulet family, disguises herself as a vigilante known as the Red Whirlwind to fight for justice. When she meets Romeo, the two fall in love, setting off a chain of events that will determine the fate of their world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

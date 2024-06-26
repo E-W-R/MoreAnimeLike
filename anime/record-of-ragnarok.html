@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Record of Ragnarok</h2>
                     <p>Action</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>In Record of Ragnarok, gods and humans meet in a fierce tournament where they must battle to decide the fate of humanity. With the survival of the human race at stake, legendary figures from history and mythology are summoned to fight in epic duels. As the intense battles unfold, alliances are formed, secrets are revealed, and the ultimate showdown between gods and mortals approaches. Who will emerge victorious in this ultimate battle for the future of humanity?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

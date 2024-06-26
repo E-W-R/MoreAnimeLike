@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">King of Thorn</h2>
                     <p>Mystery</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>In King of Thorn, a deadly pandemic called the Medusa Virus spreads across the world, forcing a group of infected individuals into a cryogenic sleep as part of an experiment to find a cure. When they wake up, they find themselves in a mysterious, overgrown facility filled with terrifying creatures. With danger lurking at every corner, they must fight for survival and uncover the secrets of their eerie surroundings to escape the nightmare they're trapped in.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tanaka-kun is Always Listless</h2>
                     <p>Other Genre</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>The series follows Tanaka, a high school student who is perpetually tired and unenthusiastic about everything. His goal is to live life as effortlessly as possible and avoid any form of exertion. Despite his apathetic demeanor, Tanaka's friends continue to involve him in various activities, leading to comedic situations and heartwarming moments as they navigate the ups and downs of high school life together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

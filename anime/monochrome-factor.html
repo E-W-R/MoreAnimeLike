@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Monochrome Factor</h2>
                     <p>Action</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>Akira Nikaido is a high school student who is dragged into a parallel world by a mysterious man named Shirogane. There, he discovers he is the chosen Factor to prevent the world from being consumed by darkness. With the help of Shirogane and other warriors, Akira must battle creatures known as Kokuchi while struggling to balance his normal life with his newfound responsibilities.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

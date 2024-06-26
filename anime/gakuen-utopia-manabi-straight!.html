@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Gakuen Utopia Manabi Straight!</h2>
                     <p>Comedy</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>In a futuristic world where the birthrate has plummeted, a group of high school girls work to revitalize their school and promote a positive atmosphere through exciting events and new clubs. Manami Amamiya, a new student, joins in their efforts to bring a sense of joy and hope to their school. As they face challenges and setbacks, the girls learn the importance of friendship, perseverance, and working together towards a common goal.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

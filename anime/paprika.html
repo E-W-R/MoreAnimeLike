@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Paprika</h2>
                     <p>Mystery</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>In the movie Paprika, a revolutionary device called the DC Mini allows therapists to enter patients' dreams, confronting their deepest fears and desires. When the DC Mini is stolen, dreams begin to merge with reality, causing chaos. Psychologist Dr. Atsuko Chiba, who uses the alter ego Paprika in the dream world, must track down the thief before the boundaries between dreams and reality blur beyond repair.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

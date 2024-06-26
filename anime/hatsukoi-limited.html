@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hatsukoi Limited</h2>
                     <p>Romance</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>Hatsukoi Limited follows multiple high school girls as they navigate the complexities of first loves and relationships. As each girl grapples with her own romantic feelings and experiences, their stories intertwine and unfold, showcasing the various trials and joys of young love. From unrequited crushes to budding romances, the series explores the different forms that first loves can take, highlighting the innocence and intensity of youth.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

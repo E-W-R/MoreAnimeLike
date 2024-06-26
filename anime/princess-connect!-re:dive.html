@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Princess Connect! Re:Dive</h2>
                     <p>Comedy</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>In Princess Connect! Re:Dive, a young man wakes up in a fantasy world with no memories. He befriends a group of quirky girls, including a princess, and together they embark on adventures to recover his lost memories. As they journey through the land, they encounter powerful enemies, uncover mysteries, and strengthen their bonds. With a mix of comedy, action, and heartwarming moments, the group faces challenges and grows closer on their quest for the truth.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

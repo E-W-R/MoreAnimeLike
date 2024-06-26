@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">X</h2>
                     <p>Mystery</p>
                     <p>2001</p>
-                    <br><br>
+                    <br>
                     <p>X follows the story of a group of individuals with unique abilities who are tasked with protecting the world from impending doom. As they uncover ancient prophecies and face off against powerful adversaries, they must make difficult decisions that could alter the course of destiny. With their bonds tested and sacrifices made, will they be able to save the world from destruction?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

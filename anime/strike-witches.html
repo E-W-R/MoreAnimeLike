@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Strike Witches</h2>
                     <p>Action</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>In an alternate Earth during World War II, the Neuroi alien race threatens humanity. The world's only hope lies with the Strike Witches, young girls gifted with magical abilities who can use advanced technology to fight the Neuroi. These brave witches join forces to protect their homeland and push back the alien invasion, forming powerful bonds of friendship and facing great challenges together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

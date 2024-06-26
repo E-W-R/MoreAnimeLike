@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Baccano!</h2>
                     <p>Mystery</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>In the 1930s, a group of immortal alchemists stumbles upon an elixir granting them eternal life. Their paths intertwine with a train heist, mafia conflicts, and a mysterious group searching for the same elixir. The story unfolds with non-linear storytelling, showcasing various characters and their connections through different timelines. As the pieces come together, a thrilling tale of chaos and immortality emerges in Baccano!</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

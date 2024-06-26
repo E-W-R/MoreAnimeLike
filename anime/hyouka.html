@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hyouka</h2>
                     <p>Mystery</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Hyouka follows high school student Hotaro Oreki who joins the Classic Literature Club at the request of his older sister. Along with his curious and energetic classmate Eru Chitanda, the seemingly apathetic Hotaro is drawn into solving various small mysteries around the school. As they unravel these puzzles, they uncover hidden truths about their school and themselves. With Chitanda's endless curiosity and Oreki's exceptional deductive abilities, the duo forms an unlikely but effective investigative team.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

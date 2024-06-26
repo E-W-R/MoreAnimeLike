@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">If My Favorite Pop Idol Made It to the Budokan, I Would Die</h2>
                     <p>Comedy</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>Eripiyo, an enthusiastic fan, is in love with the idol Momose. Determined to support her favorite idol, Eripiyo joins her small and unknown fan club. Through her devotion, Eripiyo hopes to bring Momose the fame she deserves. As the fan club grows, Eripiyo navigates the ups and downs of being an idol supporter while learning important life lessons along the way.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

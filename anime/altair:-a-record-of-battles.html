@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Altair: A Record of Battles</h2>
                     <p>Drama</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>In a world where warring nations are on the brink of chaos, a young prodigy named Mahmut takes on the responsibility of becoming his country's youngest pasha. As he navigates political intrigue, betrayal, and warfare, Mahmut must find a way to bring peace to the land of Turkiye. With his strategic brilliance and unwavering determination, he sets out to protect his homeland from the threat of war.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Saint Seiya: Knights of the Zodiac</h2>
                     <p>Action</p>
                     <p>1986</p>
-                    <br><br>
+                    <br>
                     <p>Saint Seiya: Knights of the Zodiac follows a group of young warriors known as the Saints who are sworn to protect the reincarnation of the Greek goddess Athena in her fight against evil forces. Each Saint wears a sacred armor based on a constellation and possesses unique abilities granted by the cosmos. Together, they embark on dangerous missions and epic battles to defend Athena and uphold justice in the name of peace.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

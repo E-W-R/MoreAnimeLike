@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Carole & Tuesday</h2>
                     <p>Drama</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>In a future where music is produced by AI, Carole, a girl living in Alba City, meets Tuesday, a rich girl who dreams of becoming a musician. Together, they team up to create music and chase their passion for singing in a society controlled by technology. Through their music, they aim to make a difference and find their place in the world. Their journey is filled with challenges, but their friendship and shared love for music keep them going.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

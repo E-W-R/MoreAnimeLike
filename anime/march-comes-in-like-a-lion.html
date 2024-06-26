@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">March Comes In Like a Lion</h2>
                     <p>Drama</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Rei Kiriyama is a professional shogi player struggling with loneliness and personal demons. Despite his success, he feels empty until he meets the three Kawamoto sisters. Through their warmth and kindness, Rei starts to find healing and purpose in his life. As he navigates the complexities of his career and relationships, Rei learns valuable lessons about friendship, love, and self-acceptance.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

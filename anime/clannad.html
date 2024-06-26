@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Clannad</h2>
                     <p>Romance</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>Tomoya Okazaki is a delinquent high school student who meets Nagisa Furukawa, a shy girl repeating her final year. As they spend time together, they form a deep bond and help each other overcome personal struggles. Along the way, they befriend other classmates, each with their own emotional baggage. Through ups and downs, they navigate the complexities of life, love, and family, learning important lessons about friendship and forgiveness.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

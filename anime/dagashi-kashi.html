@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Dagashi Kashi</h2>
                     <p>Comedy</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>In Dagashi Kashi, Kokonotsu Shikada is trying to decide whether to take over his family's dagashi (Japanese snack) store. His peaceful life is disrupted when a quirky girl named Hotaru Shidare appears, determined to recruit his father to work at her family's big candy company. To convince Kokonotsu's father, she challenges Kokonotsu to learn more about the world of dagashi. As Kokonotsu learns about different snacks, he also grows closer to Hotaru.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

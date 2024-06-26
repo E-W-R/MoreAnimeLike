@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hell Girl</h2>
                     <p>Mystery</p>
                     <p>2005</p>
-                    <br><br>
+                    <br>
                     <p>Hell Girl follows Ai Enma, a mysterious girl who offers a service: to send someone to Hell in exchange for the client's soul being damned to Hell after they die. People seek her out for vengeance, but using her service comes with a price. As the series unfolds, viewers are introduced to the stories behind each client's desire for revenge, the consequences of their actions, and the supernatural forces at play.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

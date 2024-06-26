@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kekkaishi</h2>
                     <p>Action</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Yoshimori Sumimura and Tokine Yukimura are young kekkaishi, warriors with the ability to create barriers to eliminate evil creatures. Tasked with protecting Karasumori, a powerful and mysterious land, they must battle Ayakashi, supernatural beings drawn to its energy. As they face increasing threats and uncover the secrets of Karasumori, the two cousins must navigate their responsibilities as kekkaishi and the challenges of their own complicated relationship.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

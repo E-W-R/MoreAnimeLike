@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Shonen Maid</h2>
                     <p>Other Genre</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Shonen Maid follows Chihiro Komiya, a young boy who is taken in by his wealthy uncle following his mother's tragic death. His uncle offers Chihiro a home under the condition that he becomes the family's personal maid. Despite the unusual circumstances, Chihiro takes on the role with determination and a positive attitude, all while learning valuable life lessons and forming new bonds with his family members.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

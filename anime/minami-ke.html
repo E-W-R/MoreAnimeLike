@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Minami-ke</h2>
                     <p>Comedy</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>Minami-ke follows the daily lives of the three Minami sisters, Haruka, Kana, and Chiaki. The series depicts their comedic interactions and misadventures as they navigate school, friendships, and family life. Each sister has a unique personality that often leads to humorous situations, creating a heartwarming and entertaining slice-of-life anime filled with laughter and warmth.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

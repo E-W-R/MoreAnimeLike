@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">I've Always Liked You</h2>
                     <p>Romance</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>I've Always Liked You follows the story of a group of high school friends who navigate the complexities of young love and friendships. As secrets are revealed and emotions come to the surface, the characters must confront their feelings for each other and decide whether to take a chance on romance. Will these childhood friends find the courage to express their true feelings and potentially change the dynamics of their relationships forever?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

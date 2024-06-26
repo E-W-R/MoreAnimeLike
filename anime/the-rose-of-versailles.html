@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Rose of Versailles</h2>
                     <p>Romance</p>
                     <p>1979</p>
-                    <br><br>
+                    <br>
                     <p>The Rose of Versailles follows Oscar Francois de Jarjayes, a young noblewoman raised as a man to serve in the palace guard of Versailles. Amidst the lavish backdrop of pre-revolutionary France, Oscar navigates the complexities of court life while grappling with her sense of duty and identity. As tensions rise between the nobility and the common people, Oscar finds herself torn between loyalty to the crown and the desire for justice and equality.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

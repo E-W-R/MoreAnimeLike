@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Parasyte: The Maxim</h2>
                     <p>Psychological</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Parasyte: The Maxim follows high school student Shinichi Izumi, whose right hand gets taken over by an alien parasite. Dubbed Migi, the parasite failed to take over Shinichi's brain and must coexist with him. As they encounter more of Migi's kind - dangerous creatures feeding on humans - they form an unlikely alliance to protect themselves and humanity from the growing threat. Shinichi must navigate a world filled with paranoia, danger, and ethical dilemmas as he faces the reality of his new existence.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

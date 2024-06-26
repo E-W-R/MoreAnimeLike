@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Searching for the Full Moon</h2>
                     <p>Romance</p>
                     <p>2002</p>
-                    <br><br>
+                    <br>
                     <p>Twelve-year-old Mitsuki dreams of becoming a singer, but a throat tumor threatens to silence her. Encouraged by two shinigami, she makes a deal to fulfill her dream in exchange for her life. Mitsuki transforms into the 16-year-old Fullmoon and embarks on a journey to find her big break and her childhood love. Balancing her rising fame with her secret illness, she navigates the bittersweet path of stardom.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

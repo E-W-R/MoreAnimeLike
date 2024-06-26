@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Welcome to the N.H.K.</h2>
                     <p>Psychological</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Welcome to the N.H.K. follows the reclusive hikikomori, Tatsuhiro Sato, who believes in a conspiracy theory claiming the N.H.K. organization is behind all of society's problems. His life takes a turn when a mysterious girl named Misaki offers to help him overcome his social withdrawal. As they navigate through their personal struggles, they form a unique bond that challenges their perceptions of life and relationships.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

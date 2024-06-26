@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">AKB0048</h2>
                     <p>Other Genre</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>In a dystopian future where entertainment is banned, a group of girls inspired by the legendary idol group AKB48 forms AKB0048 to bring hope and joy to the universe through music. Facing oppression from the government and mysterious entities, they train hard to become the next generation of idols while unraveling the secrets behind the group's legacy. With music as their weapon, the girls fight for their right to shine on stage and spread happiness across the galaxy.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kill la Kill</h2>
                     <p>Action</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>Kill la Kill follows Ryuko Matoi, a fierce and determined high school student on a quest to unravel the mystery of her father's murder. Armed with a sentient sailor uniform that enhances her combat abilities, she challenges the oppressive student council led by Satsuki Kiryuin. As Ryuko discovers the true power of the uniforms and uncovers secrets surrounding her own past, a thrilling battle for justice and liberation unfolds in a world where fashion and combat collide.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Stars Align</h2>
                     <p>Sports</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>Stars Align follows a middle school boys' soft tennis team as they face personal struggles both on and off the court. The team is determined to compete in the national championship, but each member harbors their own secrets and past traumas that threaten to tear them apart. As they navigate friendship, family, and identity, the boys must learn to work together and support each other if they want to achieve success in the tournament.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

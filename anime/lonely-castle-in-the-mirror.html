@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Lonely Castle in the Mirror</h2>
                     <p>Mystery</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In Lonely Castle in the Mirror, a group of lonely high school students discover a mysterious mirror that leads them to a magical world where wishes can come true. As they navigate this enchanting realm, each character confronts their deepest desires and insecurities, forming bonds with one another along the way. Together, they must confront the challenges of the magical world and face their inner demons to find a way back home.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

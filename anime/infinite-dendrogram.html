@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Infinite Dendrogram</h2>
                     <p>Action</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>Infinite Dendrogram follows college student Reiji Mukudori as he immerses himself in the highly advanced virtual reality game, Infinite Dendrogram. In this game, players can explore a vast and intricate world filled with endless possibilities. As Reiji dives deeper into this virtual realm, he forms new friendships, encounters dangerous enemies, and unravels the mysteries of the game. With the line between reality and the game world blurring, Reiji must navigate through challenges to uncover the truth behind Infinite Dendrogram.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

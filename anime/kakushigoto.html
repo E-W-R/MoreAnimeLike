@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kakushigoto</h2>
                     <p>Comedy</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>Kakushi Goto is a heartwarming slice-of-life anime following the secret life of a famous manga artist and his young daughter, Hime. Despite his success, Kakushi works hard to keep his job hidden from Hime to protect her innocence. As he navigates the challenges of fatherhood and the pressures of his profession, Kakushi must juggle his double life while cherishing the precious moments he shares with his beloved daughter.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

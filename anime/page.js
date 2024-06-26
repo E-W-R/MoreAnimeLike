@@ -14,18 +14,6 @@ function adjustFontSize() {
 window.onload = adjustFontSize;
 window.onresize = adjustFontSize;
 
-function updateNodeTextColor(color) {
-    d3.selectAll(".nodes text").attr("fill", color);
-}
-
-async function fetchData(number) {
-    const response = await fetch('page.json');
-    const data = await response.json();
-    return data[number];
-}
-
-const color = d3.scaleOrdinal(d3.schemeCategory10).domain(d3.range(1, 10));
-
 const applyD3Theme = (isDark) => {
     d3.selectAll("text").attr("fill", isDark ? "white" : "black");
 };
@@ -88,111 +76,127 @@ document.addEventListener('DOMContentLoaded', function() {
         adjustSearchBoxWidth(searchBox);
     });
 
-    // D3.js node/edge graph
-    const container = d3.select('#d3-container');
-    const width = container.node().getBoundingClientRect().width;
-    const height = width;
+    // Fetch the JSON data
+    fetch('better_page.json')
+        .then(response => response.json())
+        .then(data => {
+            const labels = ["Adventure", "Romance", "Sports", "Drama", "Comedy", "Fantasy", "Psychological", "Supernatural", "Action", "Isekai", "Mystery", "Slice of Life"];
+            const dataset1 = {
+                label: 'Genre Similarity',
+                data: data[number],
+                backgroundColor: [
+                    'rgba(200, 0, 0, 0.3)',
+                    'rgba(200, 100, 0, 0.3)',
+                    'rgba(200, 200, 0, 0.3)',
+                    'rgba(100, 200, 0, 0.3)',
+                    'rgba(0, 200, 0, 0.3)',
+                    'rgba(0, 200, 100, 0.3)',
+                    'rgba(0, 200, 200, 0.3)',
+                    'rgba(0, 100, 200, 0.3)',
+                    'rgba(0, 0, 200, 0.3)',
+                    'rgba(100, 0, 200, 0.3)',
+                    'rgba(200, 0, 200, 0.3)',
+                    'rgba(200, 0, 100, 0.3)'
+                ],
+                borderColor: [
+                    'rgba(200, 0, 0, 1)',
+                    'rgba(200, 100, 0, 1)',
+                    'rgba(200, 200, 0, 1)',
+                    'rgba(100, 200, 0, 1)',
+                    'rgba(0, 200, 0, 1)',
+                    'rgba(0, 200, 100, 1)',
+                    'rgba(0, 200, 200, 1)',
+                    'rgba(0, 100, 200, 1)',
+                    'rgba(0, 0, 200, 1)',
+                    'rgba(100, 0, 200, 1)',
+                    'rgba(200, 0, 200, 1)',
+                    'rgba(200, 0, 100, 1)'
+                ],
+                borderWidth: 1
+            };
 
-    const svg = d3.select('#d3-container')
-        .append('svg')
-        .attr('width', width)
-        .attr('height', height);
-
-    fetchData(number).then(data => {
-        const nodes = data.nodes;
-        const links = data.links;
-    
-        console.log(nodes);
-        console.log(links);
-
-        const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links)
-                .id(d => d.id)
-                .distance(d => 125)
-            )
-            .force('charge', d3.forceManyBody().strength(-400))
-            .force('center', d3.forceCenter(width / 2 - 30, height / 2));
-
-        const link = svg.append("g")
-            .attr("class", "links")
-            .selectAll("line")
-            .data(links)
-            .enter().append("line")
-            .attr("stroke-width", d => 3)
-            .attr("stroke", "#999")
-            .attr("stroke-opacity", 0.5);
-
-        const node = svg.append('g')
-            .attr('class', 'nodes')
-            .selectAll('a')
-            .data(nodes)
-            .enter().append('a')
-            .attr('xlink:href', d => d.url)
-            .append('circle')
-            .attr("fill", d => color(d.genre))
-            .attr("r", d => d.size * 0.6)
-            .call(d3.drag()
-                .on('start', dragstarted)
-                .on('drag', dragged)
-                .on('end', dragended));
-
-        const text = svg.append('g')
-            .attr('class', 'texts')
-            .selectAll('a')
-            .data(nodes)
-            .enter().append('a')
-            .attr('xlink:href', d => d.url)
-            .append('text')
-            .attr("dx", d => d.size * 0.5 + 6)
-            .attr("y", 0)
-            .attr("dy", ".35em")
-            .attr("text-anchor", "start")
-            .attr("font-size", "16px")
-            .text(d => d.id);
-        
-        const isDarkTheme = localStorage.getItem('themeToggle') === 'true';
-        applyD3Theme(isDarkTheme)
-
-        simulation
-            .nodes(nodes)
-            .on('tick', ticked);
-
-        simulation.force('link')
-            .links(links);
-
-        function ticked() {
-            link
-                .attr('x1', d => d.source.x)
-                .attr('y1', d => d.source.y)
-                .attr('x2', d => d.target.x)
-                .attr('y2', d => d.target.y);
-
-            node
-                .attr('cx', d => d.x)
-                .attr('cy', d => d.y);
-
-            text
-                .attr('x', d => d.x)
-                .attr('y', d => d.y);
-        }
-
-        function dragstarted(event, d) {
-            if (!event.active) simulation.alphaTarget(0.3).restart();
-            d.fx = d.x;
-            d.fy = d.y;
-        }
-
-        function dragged(event, d) {
-            d.fx = event.x;
-            d.fy = event.y;
-        }
-
-        function dragended(event, d) {
-            if (!event.active) simulation.alphaTarget(0);
-            d.fx = null;
-            d.fy = null;
-        }
-    });
+            // Create Polar Area Chart
+            const ctx = document.getElementById('myPolarAreaChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'polarArea',
+                data: {
+                    labels: labels,
+                    datasets: [dataset1]
+                },
+                options: {
+                    hover: {
+                        mode: null
+                    },
+                    animation: {
+                        duration: 0 // Disable label animation
+                    },
+                    layout: {
+                        padding: {
+                            top: 0,
+                            bottom: 0,
+                            left: 50,
+                            right: 50
+                        }
+                    },
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            pointLabels: {
+                                display: false // Disable point labels to avoid overlap
+                            },
+                            ticks: {
+                                display: false // Disable the ticks on the rings
+                            },
+                            angleLines: {
+                                display: true,
+                                color: 'rgba(189, 189, 189, 0.5)', // Set the color of the angle lines
+                                lineWidth: 1 // Set the width of the angle lines
+                            },
+                            grid: {
+                                color: 'rgba(189, 189, 189, 0.5)', // Ensure this matches the angle line color
+                            },
+                        }
+                    },
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false // Hide the legend
+                        },
+                        tooltip: {
+                            enabled: false
+                        },
+                        datalabels: {
+                            font: {
+                                family: 'Nunito',
+                                size: 12,
+                                weight: 'bold',
+                            },
+                            align: function(context) {
+                                const angle = context.startAngle + (context.endAngle - context.startAngle) / 2;
+                                // Correcting the logic for align
+                                const align = angle < Math.PI ? 'start' : 'end';
+                                return align;
+                            },
+                            anchor: function(context) {
+                                const angle = context.startAngle + (context.endAngle - context.startAngle) / 2;
+                                // Correcting the logic for anchor
+                                const anchor = angle < Math.PI ? 'end' : 'start';
+                                return anchor;
+                            },
+                            color: '#eb345e',
+                            formatter: function(value, context) {
+                                return context.chart.data.labels[context.dataIndex];
+                            },
+                            offset: 155, // Adjust the offset to move the labels outside the chart
+                            textAlign: 'center',
+                            clip: false,
+                        }                        
+                    }
+                },
+                plugins: [ChartDataLabels]
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
 });
 
 document.getElementById('searchBox').addEventListener('input', adjustSearchBoxWidth);

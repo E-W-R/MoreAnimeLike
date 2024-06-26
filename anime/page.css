@@ -56,10 +56,12 @@ h1 {
     font-family: 'Nunito';
 }
 
-svg {
+#myPolarAreaChart {
     flex-grow: 1;
-    width: 100%;
-    height: calc(100% - 2px);
+    max-width: 390px;
+    max-height: 390px;
+    margin-left: 40px;
+    margin-right: 5px;
 }
 
 a {

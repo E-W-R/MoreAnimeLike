@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Eden of Grisaia</h2>
                     <p>Psychological</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>The Eden of Grisaia follows Yuji Kazami, a former assassin, as he enters Mihama Academy, a school for students with troubled pasts. Surrounded by five female classmates, each with their own secrets and traumas, Yuji becomes their protector and confidant. As he unravels the mysteries surrounding the girls, he must confront his own dark past and find a way to bring them all to safety.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

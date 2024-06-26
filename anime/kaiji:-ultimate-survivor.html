@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kaiji: Ultimate Survivor</h2>
                     <p>Psychological</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>Kaiji Itou is a down-on-his-luck gambler drowning in debt. Offered a chance to erase his financial woes by participating in a high-stakes gambling cruise, Kaiji jumps at the opportunity. However, he soon discovers that the games are rigged, and the stakes are higher than he could have ever imagined. Will Kaiji be able to outsmart his opponents and claw his way out of this dangerous situation?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

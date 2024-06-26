@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Animatrix</h2>
                     <p>Action</p>
                     <p>2003</p>
-                    <br><br>
+                    <br>
                     <p>The Animatrix is a series of animated short films set in the universe of The Matrix movies. It explores various aspects of the dystopian world created by advanced artificial intelligence and the war against the human race. Viewers are taken on a journey through different stories, shedding light on the history of the Matrix, the rise of machines, and the struggles faced by both humans and machines in a reality dominated by technology.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

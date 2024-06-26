@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">16bit Sensation: Another Layer</h2>
                     <p>Comedy</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In a world where video games are the ultimate form of entertainment, follow the story of a group of gamers who discover a hidden level in their favorite retro game. As they delve deeper into this mysterious new world, they must navigate through challenges and foes they never expected. With the fate of both the game world and reality at stake, they must band together to uncover the secrets of this Another Layer.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

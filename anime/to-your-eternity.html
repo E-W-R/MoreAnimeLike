@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">To Your Eternity</h2>
                     <p>Drama</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>To Your Eternity follows an immortal being who can take on the form of things it encounters. It begins as a sphere and eventually learns more about the world through various experiences. The being embarks on an emotional journey that explores the essence of life, death, and human connections. Through encounters with different individuals, it learns the complexity of emotions and the impact of its existence on those it encounters.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

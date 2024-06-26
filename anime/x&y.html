@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">X&Y</h2>
                     <p>Mystery</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In a world where humans coexist with supernatural beings known as Yōkai, a young guardian-in-training named Aiko unexpectedly forms a pact with a powerful Yōkai named Kaito. As they navigate the dangerous streets of their city, they uncover a conspiracy that threatens the balance between humans and Yōkai. With their bond growing stronger, Aiko and Kaito must confront their own pasts and face the challenges ahead to protect both worlds.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

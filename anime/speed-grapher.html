@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Speed Grapher</h2>
                     <p>Mystery</p>
                     <p>2005</p>
-                    <br><br>
+                    <br>
                     <p>In Speed Grapher, photojournalist Tatsumi Saiga discovers a secret underground club where he is granted the ability to destroy anything he photographs. Being pulled into a dangerous world of wealth, power, and corruption, Tatsumi must navigate treacherous waters as he fights against those who seek to exploit their newfound abilities for their own gain. He forms an unlikely alliance with a mysterious young girl named Kagura to bring down the sinister organization controlling society from the shadows.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

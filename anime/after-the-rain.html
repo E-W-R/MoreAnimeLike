@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">After the Rain</h2>
                     <p>Romance</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>After the Rain follows the story of a high school girl named Akira, who develops feelings for her middle-aged manager, Kondo, after her dreams of being a track star are shattered due to an injury. Despite the significant age gap, Akira finds solace in their shared experiences and a deep emotional connection develops between them. As they navigate their feelings, they both must confront societal expectations and personal desires.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

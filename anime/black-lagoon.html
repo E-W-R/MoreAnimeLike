@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Black Lagoon</h2>
                     <p>Action</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Black Lagoon follows the adventures of Rokuro Okajima, an average businessman turned pirate in the crime-ridden city of Roanapur. After a chance encounter with the Lagoon Company, a group of mercenaries, Rokuro joins them on various missions involving shipping, smuggling, and dealing with dangerous criminals. As he navigates the murky waters of the criminal underworld, Rokuro is forced to confront his own morals and values in order to survive.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

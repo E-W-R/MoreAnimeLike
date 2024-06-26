@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Barefoot Gen</h2>
                     <p>Drama</p>
                     <p>1983</p>
-                    <br><br>
+                    <br>
                     <p>Barefoot Gen follows the story of Gen, a young boy living in Hiroshima during World War II. After the atomic bomb is dropped on the city, Gen must navigate the harsh reality of the aftermath and try to survive amidst the destruction and chaos. As he copes with loss, trauma, and suffering, Gen finds strength in the bonds he forms with those around him and strives to rebuild his life in the face of overwhelming devastation.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

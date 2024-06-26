@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Girl in Twilight</h2>
                     <p>Action</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>The Girl in Twilight follows a group of high school girls who discover a mysterious app that allows them to explore parallel worlds. As they venture into different dimensions, they must confront various challenges and uncover the truth behind the app's origins. The girls soon find themselves entangled in a complex web of secrets and must work together to navigate the perilous alternate realities they encounter.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

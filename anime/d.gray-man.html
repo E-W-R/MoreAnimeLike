@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">D.Gray-man</h2>
                     <p>Action</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>In D.Gray-man, Allen Walker joins the Black Order, a group of exorcists fighting against the Millennium Earl and his army of demons called Akuma. Allen possesses a special eye that can see the souls trapped within the Akuma, allowing him to destroy them. As Allen and his comrades embark on dangerous missions to protect humanity, they uncover dark secrets about the Earl's plans and the true nature of the Akuma.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">KanColle: Kantai Collection</h2>
                     <p>Action</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>In a world where historical naval ships are reincarnated as young girls with unique powers, they must band together to fight against an alien threat known as the Abyssal Fleet. Focusing on the newly formed Fleet Girls as they train and battle alongside their human counterparts, they strive to protect the seas and ensure humanity's survival. With a mix of action, strategy, and friendship, they face formidable challenges in their quest for victory.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

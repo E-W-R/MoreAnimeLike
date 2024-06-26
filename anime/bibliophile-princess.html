@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Bibliophile Princess</h2>
                     <p>Romance</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In a world where books are rare and knowledge is power, Princess Elara defies her royal duties to pursue her love for literature. When a mysterious figure threatens the kingdom's library, Elara must use her intelligence and cunning to protect the stories she holds dear. With the help of her loyal companions, she embarks on a quest to unravel the secrets hidden within the ancient texts, facing danger and intrigue at every turn.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kokkoku</h2>
                     <p>Mystery</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>When a family member is kidnapped by a dangerous cult, Juri and her grandfather unlock a mysterious ability called Stasis, which allows them to stop time. As they navigate a strange frozen world filled with otherworldly beings known as Handlers, they must unravel the mysteries behind the cult and save their loved one. Time manipulation, family bonds, and survival instincts collide in this supernatural thriller.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

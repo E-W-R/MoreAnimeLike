@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Revolutionary Girl Utena</h2>
                     <p>Mystery</p>
                     <p>1997</p>
-                    <br><br>
+                    <br>
                     <p>Revolutionary Girl Utena follows Utena Tenjou, a tomboyish teenage girl who is drawn into a mysterious dueling tournament at Ohtori Academy. In her quest to protect her friend's honor, Utena finds herself challenging the student council members, who wield power and secrets beyond her imagination. As she navigates through the duels and uncovers the true purpose of the tournament, Utena begins to question her own identity and beliefs, ultimately leading to a revolutionary transformation.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

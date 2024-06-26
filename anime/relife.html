@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">ReLIFE</h2>
                     <p>Romance</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Arata Kaizaki, a 27-year-old unemployed man, gets a second chance at a high school life through a mysterious experiment. Given a pill that makes him look 17 again, he enrolls in high school for one year. As he navigates friendships, romance, and the challenges of youth, he begins to learn valuable lessons about life and himself. Can Arata find his way back into society with this temporary opportunity to relive his past?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

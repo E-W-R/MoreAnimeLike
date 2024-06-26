@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kiba</h2>
                     <p>Isekai</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Kiba follows the story of Zed, a young boy who is mysteriously transported to a world where humans and spirits coexist. Determined to find his way back home, Zed discovers he possesses a powerful ability that could change the fate of the world. Alongside his new spirit companions, he embarks on a thrilling adventure full of danger and discoveries, all while uncovering the secrets of his own past and the true nature of this enchanting realm.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

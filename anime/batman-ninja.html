@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Batman Ninja</h2>
                     <p>Action</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>In Batman Ninja, Bruce Wayne is transported back in time to feudal Japan where he must rely on his intellect and combat skills to defeat the Joker, who has taken over as a powerful warlord. With the help of familiar allies, Batman must navigate the new environment while planning a way to return to his own time and restore order to the land. The Dark Knight faces off against his rogues' gallery in this epic clash of historical proportions.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

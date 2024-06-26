@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Wave, Listen to Me!</h2>
                     <p>Drama</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>After a drunken rant at a bar, Minare Koda's passionate and blunt monologue gets recorded and broadcasted on the radio. Impressed by her raw talent, radio station manager Kanetsugu Matou offers her a job as a radio talk show host. With no prior experience, Minare navigates the world of radio broadcasting while dealing with personal issues from her past. As she pours her heart out on the airwaves, Minare's honest and relatable stories captivate listeners across Japan.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

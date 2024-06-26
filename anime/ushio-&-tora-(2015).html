@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ushio & Tora (2015)</h2>
                     <p>Action</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>When a young boy named Ushio stumbles upon a basement filled with ancient weapons, he unknowingly frees a powerful demon named Tora. Forced to team up to battle malevolent spirits known as Youkai, they form an unlikely bond. As they navigate a dangerous world filled with supernatural threats, they must learn to trust each other and work together to protect humanity from impending doom.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

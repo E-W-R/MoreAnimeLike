@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Junji Ito Collection</h2>
                     <p>Mystery</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Junji Ito Collection is a horror anthology series that follows different characters as they encounter chilling and bizarre events, often related to the supernatural or the macabre. Each episode presents a standalone story adapted from the works of renowned horror manga artist Junji Ito, known for his unique and unsettling storytelling. Viewers are taken on a journey through various tales of terror and suspense, exploring the dark and mysterious corners of the human psyche.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

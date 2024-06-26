@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Giovanni's Island</h2>
                     <p>Drama</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>In the aftermath of World War II, two young brothers living on the island of Shikotan are faced with the arrival of Soviet soldiers. Forced to share their home with the new occupants, the brothers must navigate the realities of occupation while holding onto their dreams of reuniting with their father. As they befriend a young Russian girl, the boys experience the harsh consequences of war and the power of friendship in overcoming cultural barriers.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

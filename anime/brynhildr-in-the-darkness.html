@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Brynhildr in the Darkness</h2>
                     <p>Mystery</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>After escaping from a research facility, Ryouta befriends a girl who has escaped alongside him. She possesses mysterious powers and a tragic past she cannot remember. As he learns more about her abilities and the organization hunting her, Ryouta is drawn into a dangerous world where the line between friend and foe is blurred. Together, they must navigate the dangers that surround them while uncovering the truth behind her existence.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

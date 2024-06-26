@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Sword Art Online II</h2>
                     <p>Romance</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>In Sword Art Online II, players of a virtual reality game realize they are unable to log out unless they reach the game's end. The protagonist, Kirito, is called upon to investigate a new game that is rumored to be fatal to players in the real world. As the game leads Kirito into dangerous territory, he must uncover the mysteries behind it to save both himself and others trapped within.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

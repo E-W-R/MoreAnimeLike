@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Area 88</h2>
                     <p>Romance</p>
                     <p>1985</p>
-                    <br><br>
+                    <br>
                     <p>Area 88 follows the story of a talented pilot named Shin Kazama, who is tricked into signing a contract with a mercenary air force and forced to become a fighter pilot in a war against his will. Struggling to survive and longing to return to his former life, Shin must navigate the dangers of aerial combat while grappling with the moral complexities of his situation.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

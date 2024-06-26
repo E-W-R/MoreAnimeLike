@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Terra Formars</h2>
                     <p>Action</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>In the distant future, Earth is on the brink of becoming uninhabitable. The Annex Project is launched to terraform Mars, using a special serum created from cockroaches to modify human subjects. These subjects are sent to Mars to eradicate the humanoid cockroaches that now inhabit the planet. As the battle unfolds, the crew must face not only the powerful terraformars but also the dark secrets surrounding the mission.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

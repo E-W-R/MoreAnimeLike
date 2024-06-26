@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Library Wars</h2>
                     <p>Romance</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>In a society where the government restricts freedom of expression by censoring books, the Library Defense Force is formed to protect intellectual freedom and preserve knowledge. Young recruit Iku Kasahara joins the force, determined to uphold the principle that books should never be destroyed. As she undergoes rigorous training and missions to defend libraries, Iku must navigate the challenges of standing up for what she believes in while facing dangerous foes who seek to suppress information.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

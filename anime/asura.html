@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Asura</h2>
                     <p>Drama</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Asura follows the journey of a young boy born into a world filled with suffering and corruption. Despite facing relentless adversity, he seeks to rise above his circumstances and find his own path. Fueled by a deep desire for justice, he navigates through a harsh reality, confronting powerful enemies and uncovering dark secrets along the way. With sheer determination and unwavering resolve, he embarks on a quest for redemption and self-discovery.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

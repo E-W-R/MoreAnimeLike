@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tokyo Ghoul</h2>
                     <p>Psychological</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>In Tokyo Ghoul, Kaneki finds himself transformed into a half-ghoul after a chance encounter with one of these flesh-eating creatures. Struggling to adapt to his new ghoul instincts while craving human flesh, Kaneki must navigate a world where ghouls are hunted by humans and vice versa. As he delves deeper into the ghoul society, Kaneki discovers dark secrets and must make difficult choices to protect his loved ones and himself.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

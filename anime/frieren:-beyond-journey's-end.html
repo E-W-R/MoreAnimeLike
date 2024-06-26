@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Frieren: Beyond Journey's End</h2>
                     <p>Drama</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>Frieren: Beyond Journey's End follows a powerful sorceress as she embarks on a quest to defeat an ancient evil threatening the land. Along the way, she befriends a group of diverse adventurers, each with their own tragic pasts and hidden abilities. As they journey together, facing formidable foes and forging deep bonds, they uncover the true meaning of courage, friendship, and sacrifice.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

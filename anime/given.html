@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Given</h2>
                     <p>Drama</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>In a post-apocalyptic world where humanity lives in fear of mysterious creatures known as Ophanims, a group of skilled individuals known as Givers risk their lives to deliver supplies between the few remaining human settlements. Among them, a young and determined Giver named Sora discovers a dark secret that could change everything. As Sora and his companions embark on dangerous missions and uncover the truth behind the Ophanims, they must confront their pasts and face the harsh reality of their world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

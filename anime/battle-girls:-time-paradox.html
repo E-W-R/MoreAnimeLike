@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Battle Girls: Time Paradox</h2>
                     <p>Isekai</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>When high school girl Yoshino is transported back in time to the Sengoku period, she finds herself in the middle of a battlefield. Mistaken for a legendary warrior, Yoshino must navigate the turbulent times and form alliances with famous historical figures in order to survive. As she tries to find a way back home, Yoshino discovers her own inner strength and courage in the face of fierce battles and political intrigue.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

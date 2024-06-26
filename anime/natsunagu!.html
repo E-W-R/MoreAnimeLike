@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Natsunagu!</h2>
                     <p>Drama</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>After a devastating earthquake strikes Japan, a young woman named Natsuna ventures to her hometown to check on her grandmother. Along the way, she crosses paths with various locals who have been affected by the disaster. Through these encounters, Natsuna learns about the resilience of the human spirit and the importance of community in overcoming adversity. Together, they navigate the challenges brought on by the earthquake and find hope in the bonds they form with one another.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">7 Seeds</h2>
                     <p>Mystery</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>7 Seeds follows a group of young individuals who awaken from cryogenic sleep to find themselves in a post-apocalyptic world. Tasked with rebuilding civilization, they must navigate the harsh environment, overcome personal struggles, and learn to work together to survive. As they uncover the mysteries of their new world and confront dangerous challenges, bonds are forged and secrets are revealed, shaping their journey towards hope and a new beginning.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

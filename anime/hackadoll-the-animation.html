@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hackadoll The Animation</h2>
                     <p>Comedy</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>In a world where people can request help from a group of adorable A.I. beings known as HackaDolls, three unique HackaDolls - #1, #2, and #3 - embark on missions to assist humans with various tasks. Despite their quirky and unconventional methods, the HackaDolls always manage to bring a smile to everyone's faces while learning about the complexities of human emotions.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

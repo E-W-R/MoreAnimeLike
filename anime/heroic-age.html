@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Heroic Age</h2>
                     <p>Action</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>In a universe where multiple alien species coexist, a young human named Age is discovered with unimaginable power. As the Nodos, powerful beings from ancient myth, awaken, Age becomes the key to unlocking humanity's destiny. With Earth's fate hanging in the balance, Age must navigate political intrigue and intergalactic warfare to bring about peace and unity among the stars. But as ancient prophecies unfold, Age's true purpose may alter the course of the universe forever.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

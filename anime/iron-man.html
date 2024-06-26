@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Iron Man</h2>
                     <p>Action</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>After wealthy inventor Tony Stark is captured by terrorists, he creates a high-tech suit of armor to escape. Realizing the potential to protect the world, he refines the suit and becomes the armored superhero Iron Man. Fighting against threats to humanity and his own weapons falling into the wrong hands, Tony navigates the complexities of being a hero and a man haunted by his past.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Jujutsu Kaisen</h2>
                     <p>Action</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>Yuji Itadori, a high school student with incredible physical abilities, becomes involved in the world of sorcery after consuming a cursed object to save his friends from evil spirits. He joins forces with a group of Jujutsu sorcerers to hunt down dangerous curses and prevent them from harming the innocent. As Yuji trains to control his newfound powers and navigate the dangerous world of curses, he faces both powerful enemies and the moral dilemmas of using cursed energy.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

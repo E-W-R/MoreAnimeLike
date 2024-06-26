@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Onipan!</h2>
                     <p>Comedy</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In Onipan!, high school student Akira discovers a portal to the demon world in the basement of his apartment building. He befriends a young demon girl named Ruru, who has accidentally crossed over to the human world. Together, they must navigate the challenges of maintaining the balance between the two worlds while hiding Ruru's true identity from those around them. As they encounter various creatures and adversaries, Akira and Ruru's bond grows stronger as they work together to protect both realms.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

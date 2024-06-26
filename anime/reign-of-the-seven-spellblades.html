@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Reign of the Seven Spellblades</h2>
                     <p>Action</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In a world where magic is everything, a talented swordsman must learn to wield not just one, but seven powerful spellblades to protect his kingdom from dark forces. As he trains under a mysterious sorceress, he uncovers secrets about his own past and the true nature of the magic that runs through his veins. With friends and foes alike vying for control of the spellblades, he must master their unique powers to prevent catastrophe.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

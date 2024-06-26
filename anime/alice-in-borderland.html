@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Alice in Borderland</h2>
                     <p>Psychological</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Alice in Borderland follows a group of friends who find themselves trapped in a mysterious parallel world where they must compete in deadly games to survive. As they navigate through various challenges and face off against other players, they must unravel the secrets of the strange world they are trapped in and find a way back home. Time is running out, and the stakes are high as they fight to stay alive and discover the truth behind their bizarre circumstances.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

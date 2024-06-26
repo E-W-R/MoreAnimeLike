@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Dogs: Bullets & Carnage</h2>
                     <p>Action</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>In a post-apocalyptic city, two young mercenaries, a former assassin, and a mysterious swordsman cross paths. Fueled by personal vendettas and hidden pasts, they form an unlikely alliance to navigate the dangerous underworld filled with violence and betrayal. Together, they uncover the dark secrets of their city while confronting formidable enemies and facing the ghosts of their own traumas. Their journey tests their limits as they seek redemption and revenge in a world ruled by chaos and bloodshed.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kuroko's Basketball</h2>
                     <p>Sports</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>In Kuroko's Basketball, the Seirin High basketball team, led by skilled player Taiga Kagami and the seemingly invisible transfer student, Tetsuya Kuroko, competes to become the best in Japan. Despite Kuroko's lack of presence on the court, his exceptional passing skills and teamwork prove invaluable in taking down other powerful teams. The series follows their journey as they face fierce opponents and strive to win the Interhigh and Winter Cup championships.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

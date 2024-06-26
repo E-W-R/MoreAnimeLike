@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ouran High School Host Club</h2>
                     <p>Romance</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>When scholarship student Haruhi Fujioka accidentally breaks an expensive vase belonging to the prestigious Ouran Academy's Host Club, she is forced to join the all-male club to pay off her debt. Despite her initial reluctance, she quickly becomes a popular host due to her natural charm. As she navigates the antics of her handsome and eccentric club members, Haruhi forms unexpected bonds and discovers more about herself along the way.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

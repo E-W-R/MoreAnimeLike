@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Senran Kagura: Shinovi Master</h2>
                     <p>Action</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Senran Kagura: Shinovi Master follows the story of five female ninjas who attend a secret academy and are divided into rival factions. As they train in the arts of stealth and combat, they soon find themselves entangled in a web of deceit, betrayal, and deep-rooted mysteries from their past. With high-stakes battles and personal struggles, the girls must navigate the complexities of their ninja way while facing powerful adversaries.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

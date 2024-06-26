@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Bakuman.</h2>
                     <p>Romance</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>Bakuman. follows two high school students, Moritaka Mashiro and Akito Takagi, who team up to achieve their dream of becoming successful manga artists. As they navigate the competitive world of the manga industry, facing challenges and rivals along the way, they strive to create a manga series that will become a hit and get adapted into an anime. With passion and determination, the duo works tirelessly to overcome obstacles and fulfill their aspirations.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Citrus</h2>
                     <p>Drama</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Yuzu Aihara is an outgoing high school girl who moves to a new city and starts attending an all-girls school. She quickly clashes with the student council president, Mei Aihara, who turns out to be her new step-sister. Despite their rocky start, Yuzu finds herself drawn to Mei in unexpected ways, leading to a complex and dramatic relationship between the two girls as they navigate love, jealousy, and their own personal struggles.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

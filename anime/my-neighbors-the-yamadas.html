@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">My Neighbors the Yamadas</h2>
                     <p>Comedy</p>
                     <p>1999</p>
-                    <br><br>
+                    <br>
                     <p>My Neighbors the Yamadas follows the everyday lives of the quirky Yamada family, consisting of laid-back parents, a wise grandmother, and their two children as they navigate the ups and downs of family life. Through a series of comedic vignettes, the viewers get a glimpse into the various challenges and heartwarming moments that the family experiences together. The anime offers a lighthearted and humorous take on the dynamics of a typical Japanese family.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

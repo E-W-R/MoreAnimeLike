@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">When Marnie Was There</h2>
                     <p>Mystery</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>When Marnie Was There follows the story of Anna, a young girl struggling with feelings of loneliness and isolation. Sent to live in the countryside for the summer, Anna discovers an abandoned mansion where she meets a mysterious and enigmatic girl named Marnie. As the two form a deep bond, Anna begins to unravel the secrets surrounding Marnie's past and her own family history, leading to a journey of self-discovery and healing.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

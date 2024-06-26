@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kono Oto Tomare!: Sounds of Life</h2>
                     <p>Drama</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>After the koto club's reputation is tarnished, a new member joins to change their fortunes. Hozuki, a stoic and talented player, helps the club heal and grow as they aim to compete in national competitions. Together, they confront their pasts, navigate friendships, and strive to create beautiful music with the koto, a traditional Japanese string instrument. Through harmony and dedication, the club members find solace, purpose, and connection in the sounds of their music.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

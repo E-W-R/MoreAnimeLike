@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kyousougiga</h2>
                     <p>Action</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>In Kyousougiga, a chaotic fantasy world called The Looking Glass City is ruled by a dysfunctional family of gods and goddesses. When a young priestess accidentally stumbles into this realm, she becomes entangled in their family drama. The story delves into themes of family, acceptance, and the power of love as the characters navigate the intricate relationships within this mystical city.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

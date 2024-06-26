@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Future Diary</h2>
                     <p>Psychological</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>The Future Diary follows a high school student who gains a diary that can predict the future. He becomes embroiled in a deadly game with other diary holders, each possessing their own unique future-seeing diary. As the competition escalates, alliances are formed, trust is tested, and the boundary between friend and foe blurs. With the fate of the world at stake, the protagonist must navigate the dangerous game of survival and outwit his opponents to emerge victorious.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

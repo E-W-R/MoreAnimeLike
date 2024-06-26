@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Uncharted Walker</h2>
                     <p>Mystery</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>In a world where fantastical creatures roam the land, a young adventurer sets out on a daring journey to explore ancient ruins and uncover hidden treasures. Guided by a mysterious compass that leads him to uncharted territories, he must navigate through perilous terrain, battle formidable foes, and ultimately discover the truth behind his own enigmatic past. Joined by a diverse group of allies, each with their own unique abilities, they face thrilling challenges and forge unbreakable bonds on their quest for discovery.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

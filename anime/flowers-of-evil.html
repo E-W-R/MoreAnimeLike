@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Flowers of Evil</h2>
                     <p>Psychological</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>Flowers of Evil follows the life of Takao Kasuga, a bookish and introverted high school student who finds himself entangled in a dark and complex relationship with his classmate, the enigmatic and rebellious Sawa Nakamura. As their unconventional bond deepens, Takao is forced to confront his own desires and fears, leading to a series of events that blur the line between obsession and reality.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

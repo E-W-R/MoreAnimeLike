@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Sing "Yesterday" for Me</h2>
                     <p>Romance</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>Rikuo is stuck in a rut working part-time at a convenience store after college, until he reunites with his crush from years ago. Haru, a free-spirited girl, enters his life, along with Shinako, a woman struggling to move on from a past relationship. As these three navigate their complicated emotions and relationships, they discover the importance of living in the present moment and finding the courage to pursue their true desires.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

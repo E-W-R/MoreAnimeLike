@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Perfect Blue</h2>
                     <p>Psychological</p>
                     <p>1998</p>
-                    <br><br>
+                    <br>
                     <p>Perfect Blue follows Mima Kirigoe, a former pop idol who decides to pursue an acting career. As she transitions into her new role, she finds herself entangled in a web of obsession, blurred lines between reality and fantasy, and increasingly disturbing events. Mima begins to experience a series of terrifying incidents that lead her to question her own sanity and the reality around her. The mystery deepens as she struggles to uncover the truth behind these sinister occurrences.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

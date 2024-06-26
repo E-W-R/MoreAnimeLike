@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Magical Girl Raising Project</h2>
                     <p>Action</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>In a world where magical girls exist, a popular mobile game allows players to become real magical girls. However, things take a dark turn when the game's mascot announces a twisted competition to reduce the number of magical girls. With friendships tested and betrayals lurking at every corner, the girls must fight for survival in a deadly game of magic and deception.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

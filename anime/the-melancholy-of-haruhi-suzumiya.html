@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Melancholy of Haruhi Suzumiya</h2>
                     <p>Mystery</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>The Melancholy of Haruhi Suzumiya follows high school student Kyon as he meets eccentric and unpredictable Haruhi Suzumiya. Haruhi possesses unknowing reality-altering abilities, which Kyon discovers as they form a club dedicated to investigating supernatural mysteries. Along with other club members possessing their own unique traits, they find themselves entangled in various otherworldly encounters while trying to keep Haruhi from unknowingly reshaping the world as they know it.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

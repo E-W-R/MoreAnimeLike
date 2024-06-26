@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tales from Earthsea</h2>
                     <p>Other Genre</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Tales from Earthsea follows the journey of a young wizard named Arren who sets out to discover the source of the imbalance in the world of Earthsea. Along the way, he meets a wise mentor named Sparrowhawk and encounters various challenges and dangers. As Arren delves deeper into the mysteries of magic and the darkness that threatens to consume the land, he must confront his own inner demons to restore peace and harmony to Earthsea.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

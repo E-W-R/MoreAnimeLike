@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Scumbag System</h2>
                     <p>Isekai</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>In Scumbag System, after dying, Shen Yuan is reborn into a novel he used to read as a scheming, despicable character. He must navigate the plot while avoiding his fate as the villain. Using his knowledge of the story, Shen Yuan tries to survive and change his reputation in a world filled with intrigue and danger. As he strives to alter the course of events, he discovers the true complexities of the characters and the world around him.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

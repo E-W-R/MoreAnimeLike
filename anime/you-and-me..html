@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">You and Me.</h2>
                     <p>Other Genre</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>You and Me follows the daily lives of a group of high school students who are part of the culture club. The story focuses on their friendships, humorous interactions, and the various activities they pursue together. Each episode explores the unique personalities of the characters as they navigate the challenges and joys of adolescence. Through their everyday experiences, the bonds between the club members grow stronger, leading to heartwarming moments and lasting memories.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

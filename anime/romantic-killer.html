@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Romantic Killer</h2>
                     <p>Romance</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>In Romantic Killer, detective Kaito must track down a mysterious assassin known as The Rose who leaves behind a single red rose at every crime scene. Things take a surprising turn when Kaito discovers that The Rose has a romantic connection to each of their targets. As the body count rises, Kaito must confront his own feelings for a woman who may be more than she seems. Can love bloom even in the midst of danger and death?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

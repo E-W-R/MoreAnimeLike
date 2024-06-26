@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Yuki Yuna is a Hero</h2>
                     <p>Drama</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>In Yuki Yuna is a Hero, Yuna, along with her friends, is chosen to protect the world from mysterious creatures. However, being a hero comes with a price, and they soon realize the sacrifices that must be made to save the world. As they face increasing challenges, their bond and determination are put to the test as they fight to protect what they hold dear.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Squid Girl</h2>
                     <p>Comedy</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>The Squid Girl follows the misadventures of a young humanoid squid girl who emerges from the ocean with plans to conquer humanity as punishment for polluting the seas. However, she ends up working at a beachside restaurant run by the Aizawa siblings after accidentally damaging their property. As Squid Girl interacts with humans and navigates the challenges of daily life, she slowly begins to question her initial mission.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Saiyuki</h2>
                     <p>Action</p>
                     <p>2000</p>
-                    <br><br>
+                    <br>
                     <p>In Saiyuki, a group of unlikely companions— a priest, a demon, a half-demon, and a monkey— embark on a perilous journey to the west to stop the resurrection of an ancient demon lord. As they face numerous challenges and enemies along the way, their loyalty and strength are put to the test. With their individual pasts clouded in mystery, the group must learn to trust each other and work together to overcome the darkness threatening their world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

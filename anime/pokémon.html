@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Pokémon</h2>
                     <p>Action</p>
                     <p>1997</p>
-                    <br><br>
+                    <br>
                     <p>In the world of Pokémon, young trainers embark on a journey to catch and train mysterious creatures known as Pokémon. The main character, Ash Ketchum, dreams of becoming a Pokémon Master and travels with his friends Pikachu, Misty, and Brock to compete in Pokémon battles and tournaments. Along the way, they face challenges from rival trainers and the nefarious Team Rocket, all while forging bonds with their Pokémon partners.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

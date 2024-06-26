@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">A Farewell to Arms</h2>
                     <p>Action</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>Set during World War I, A Farewell to Arms follows the story of an American ambulance driver serving in the Italian army, who falls in love with a British nurse. As they navigate the complexities of war and the uncertainties of their relationship, they strive to find solace and happiness amidst the chaos and destruction surrounding them. Their love is put to the test as they struggle to hold on to hope in a time of despair and loss.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

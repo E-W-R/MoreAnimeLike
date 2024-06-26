@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Haven't You Heard? I'm Sakamoto</h2>
                     <p>Comedy</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Sakamoto is the epitome of perfection in his high school - he's cool, stylish, and can handle any situation with finesse. His talents make him the target of envy and admiration from his classmates. As they try to trip him up, Sakamoto responds in unexpected and entertaining ways, leaving everyone in awe of his remarkable abilities. Follow Sakamoto as he navigates the challenges of high school life with unmatched grace and flair.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

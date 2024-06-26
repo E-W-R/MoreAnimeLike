@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Arashi no Yoru ni</h2>
                     <p>Drama</p>
                     <p>2005</p>
-                    <br><br>
+                    <br>
                     <p>When a wolf and a goat unexpectedly become friends, they must keep their bond hidden from their respective animal communities. As they meet in secret, they find similarities in their struggles and realize that friendship can transcend even the deepest differences. However, their unlikely alliance is put to the test when their true identities are revealed. Will their friendship withstand the challenges that come with it?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">RPG Real Estate</h2>
                     <p>Comedy</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>RPG Real Estate follows a group of skilled real estate agents who specialize in selling properties in fantasy worlds. From cozy cottages in magical kingdoms to luxurious castles in dragon-infested lands, they navigate through various challenges such as dealing with eccentric sellers, unruly creatures, and rival agencies. With each new listing comes the opportunity for adventure and profit, as they strive to become the top real estate agency in the realm.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

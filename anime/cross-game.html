@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Cross Game</h2>
                     <p>Sports</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>Cross Game follows the story of Kou Kitamura, a talented baseball player who forms a close bond with his neighbor, Wakaba Tsukishima. After Wakaba's sudden passing, Kou is determined to fulfill her dream of seeing him play at the nationals. The series explores Kou's journey in overcoming challenges, both on and off the field, as he strives to honor Wakaba's memory and become the baseball player she believed he could be.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

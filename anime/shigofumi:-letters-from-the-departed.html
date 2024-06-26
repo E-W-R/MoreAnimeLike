@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Shigofumi: Letters from the Departed</h2>
                     <p>Psychological</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>Shigofumi: Letters from the Departed follows the story of Fumika, a mail carrier delivering letters from the deceased to the living. These letters often contain important messages or unresolved emotions, impacting the lives of the recipients in profound ways. As Fumika carries out her task, she uncovers dark secrets and deep-seated emotions, delving into the complex relationships between the living and the dead.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

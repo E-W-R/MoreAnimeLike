@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Onimusha</h2>
                     <p>Action</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In feudal Japan, a skilled samurai named Samanosuke Akechi embarks on a quest to rescue Princess Yuki from the clutches of demons led by the evil warlord Nobunaga Oda. Armed with a legendary weapon, Samanosuke must battle through hordes of supernatural enemies and navigate treacherous landscapes to save the princess and thwart Nobunaga's dark ambitions. As the samurai faces increasingly powerful foes, he must also confront his own inner demons to emerge victorious in this epic battle of good versus evil.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

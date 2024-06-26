@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Spy Classroom</h2>
                     <p>Mystery</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In a prestigious academy, students are not just studying math and science - they're learning the art of espionage. When a new student joins the class with exceptional skills, they uncover a plot that threatens the safety of the nation. As they navigate friendships, rivalries, and intense training, the students must work together to uncover the true enemy hidden within the walls of their own school.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

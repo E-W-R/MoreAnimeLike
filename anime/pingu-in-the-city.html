@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Pingu in the City</h2>
                     <p>Comedy</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Pingu in the City follows the adventures of the lovable penguin, Pingu, as he navigates life in the bustling metropolis. From making new friends to encountering various challenges, Pingu learns valuable lessons along the way while spreading joy and laughter wherever he goes. With his endearing personality and indomitable spirit, Pingu brightens the lives of those around him and shows that with determination and a positive attitude, anything is possible.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

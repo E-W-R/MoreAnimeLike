@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Day Break Illusion</h2>
                     <p>Psychological</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>Day Break Illusion follows a group of magical girls who possess the power to combat dark creatures known as Daemonia. As they battle these malevolent beings, the girls must also grapple with their own inner demons and the price they pay for wielding such immense power. Secrets, betrayals, and the girls' intertwined destinies drive the narrative as they navigate the dangerous world of magic and darkness.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

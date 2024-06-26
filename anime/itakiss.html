@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">ItaKiss</h2>
                     <p>Romance</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>ItaKiss follows the story of Kotoko Aihara, a high school student who confesses her love to her aloof and intelligent classmate, Naoki Irie. Despite Naoki's rejection, circumstances lead to them living under the same roof. As they navigate their new living situation, Kotoko's feelings for Naoki continue to grow, and their relationship begins to change. Will Kotoko be able to win Naoki's heart?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Anthem of the Heart</h2>
                     <p>Romance</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>The Anthem of the Heart follows Jun, a high school girl who is unable to speak her mind after a childhood incident. She joins a community service project with three other students and together they decide to put on a musical. As they work on the project, they learn about each other's struggles and start to confront their own emotional barriers. Through friendship and self-expression, they find healing and hope.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Are You Lost?</h2>
                     <p>Comedy</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>After a plane crash leaves them stranded on a deserted island, four high school students must work together to survive. With varying levels of survival skills, the girls must learn to forage for food, build shelter, and find a way to signal for help. As they navigate the challenges of their new environment, they will discover the true extent of their own strength and resilience.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Golden Kamuy</h2>
                     <p>Action</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>In Golden Kamuy, a tale set in early 20th-century Japan, Sugimoto, a veteran from the Russo-Japanese war, teams up with an Ainu girl named Asirpa to search for hidden Ainu gold. The treasure's location is split into pieces, each marked on a convict's body as tattoos. Together, they navigate dangers, including rival treasure hunters and harsh terrain. Through their journey, they uncover secrets of the past and form unlikely alliances to survive in the unforgiving wilderness.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

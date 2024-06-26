@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Muromi-san</h2>
                     <p>Comedy</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>Muromi-san follows the comedic adventures of Takurou Mukoujima, a high school boy who encounters Muromi, a mermaid with a mischievous personality. Despite their differing attitudes towards humans and the ocean, the two develop an unlikely friendship as they navigate various absurd and surreal situations together. With a mix of humor and fantasy, Muromi-san explores the quirky interactions between land and sea creatures in a lighthearted manner.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hitoribocchi no Marumaru Seikatsu</h2>
                     <p>Comedy</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>Hitori Bocchi suffers from extreme social anxiety and struggles to make friends. Her one and only friend from elementary school has transferred to a different school, giving Bocchi a mission to befriend her entire class before they reunite in high school. With her shy and awkward nature, Bocchi navigates various obstacles and humorous situations in her quest to overcome her social fears.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

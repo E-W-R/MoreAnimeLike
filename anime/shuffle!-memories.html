@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Shuffle! Memories</h2>
                     <p>Drama</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>In Shuffle! Memories, Rin Tsuchimi finds himself torn between five girls, each from a different race, as he grapples with his feelings and explores different timelines. Memories resurface, complicating the relationships. As Rin struggles to navigate his emotions and the girls around him, secrets are revealed that may change everything.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

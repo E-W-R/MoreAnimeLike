@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Trigun</h2>
                     <p>Action</p>
                     <p>1998</p>
-                    <br><br>
+                    <br>
                     <p>In a desolate future where a notorious outlaw with a huge bounty on his head roams the wastelands, rumors swirl about his destructive abilities. Known only as Vash the Stampede, he's a goofy and enigmatic character, spreading chaos wherever he goes. But as his true nature and past begin to surface, it becomes evident that there's more to him than meets the eye. Bounty hunters and admirers alike are left to decipher his secrets while facing the consequences of his actions.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Cardcaptor Sakura</h2>
                     <p>Drama</p>
                     <p>1998</p>
-                    <br><br>
+                    <br>
                     <p>Cardcaptor Sakura follows Sakura Kinomoto, a young girl who accidentally releases a set of magical cards. Tasked with recapturing the cards, Sakura enlists the help of her best friend, Tomoyo, and a magical guardian named Kero. As Sakura captures each card, she must face various challenges and enemies while uncovering the mysteries behind the cards and her own powers. Together, they embark on a whimsical and enchanting adventure to protect the world from the chaos caused by the cards.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

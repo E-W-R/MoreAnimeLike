@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Vampire Dies in No Time</h2>
                     <p>Comedy</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Vlad, a vampire who is notorious for being invincible, encounters Ronaldo, a vampire hunter eager to defeat him. However, to everyone's surprise, Vlad is allergic to human blood and weak against sunlight, leading to comical situations as Ronaldo tries to defeat him with unexpected methods. As they face various supernatural beings, a peculiar friendship forms between the two, making their encounters more unpredictable and entertaining.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

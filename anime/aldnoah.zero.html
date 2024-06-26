@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Aldnoah.Zero</h2>
                     <p>Action</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>In Aldnoah.Zero, two factions, Earth and Mars, find themselves on the brink of interplanetary war due to the discovery of an ancient technology called Aldnoah. As tensions escalate and battles rage between the two sides, a young Earthling soldier named Inaho Kaizuka becomes a key player in the conflict. With the fate of both worlds hanging in the balance, Inaho must use his tactical genius to outsmart the powerful Martian forces and secure a future of peace.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

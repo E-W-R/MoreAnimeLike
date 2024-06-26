@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Forest of Piano</h2>
                     <p>Drama</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Forest of Piano follows the captivating story of two young piano prodigies from different backgrounds who form an unlikely friendship through their shared love of music. As they navigate the world of competitive music and face personal challenges, they find inspiration and growth in each other's talents. With the grand piano as their common ground, the two protagonists strive to reach new heights in their musical journey amidst fierce rivalry and unforeseen obstacles.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

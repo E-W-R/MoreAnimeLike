@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Girls Beyond the Wasteland</h2>
                     <p>Other Genre</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Buntarou is an ordinary high school student who is invited to join a group of friends in creating a visual novel. With no experience in game development, the group faces challenges and conflicts as they work towards completing their project. As they navigate through the ups and downs of game creation, they discover new talents, form strong friendships, and overcome obstacles together in their journey to bring their dreams to life.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

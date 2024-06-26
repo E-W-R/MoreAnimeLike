@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kabukibu!</h2>
                     <p>Other Genre</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Kabukibu! follows Kurogo Kurusu, a high school student passionate about Kabuki theater. Determined to revive the school's defunct Kabuki club, Kurogo takes on the challenge of recruiting new members and putting on a successful performance. Along the way, he faces various obstacles as he works towards his goal of introducing and preserving the traditional art of Kabuki to a new generation.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

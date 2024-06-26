@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Log Horizon</h2>
                     <p>Action</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>After an update traps thousands of players in the virtual game Elder Tale, strategist Shiroe bands together with other players to navigate their new reality. As they strive to adapt and understand the game world's mechanics, they form alliances, tackle in-game quests, and come to terms with the consequences of being stuck in this virtual world. The group must learn to work together and explore the mysteries of their new environment to find a way back home.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

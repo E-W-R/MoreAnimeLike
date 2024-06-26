@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hakata Tonkotsu Ramens</h2>
                     <p>Mystery</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>In the city of Hakata, a peaceful town on the surface hides a darker side filled with underground syndicates and hired killers. A private detective and a professional hitman form an unlikely duo as they navigate through the city's criminal underworld, taking on various jobs to uncover hidden truths and seek revenge. As they delve deeper into the intrigues of the city, more players emerge, each with their own agendas and secrets to protect.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

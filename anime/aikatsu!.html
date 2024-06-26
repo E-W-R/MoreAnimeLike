@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Aikatsu!</h2>
                     <p>Other Genre</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Aikatsu! follows the journey of aspiring idols as they attend Starlight Academy to pursue their dreams of becoming top idols. With intense training, fierce competitions, and the power of their special Aikatsu cards, the girls strive to shine on stage and win the coveted Diamond Friends. Join Ichigo and her friends as they overcome challenges, make new friends, and discover the true meaning of idolhood in this exciting and heartwarming series.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Nanbaka</h2>
                     <p>Action</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Four eccentric inmates with superhuman abilities are held in the world's most formidable prison, Nanba. Constantly attempting to escape, they face off against the skilled guards and intricate security systems, making every day an unpredictable challenge. As they navigate friendships, rivalries, and past traumas within the prison walls, they uncover dark secrets that threaten their newfound bond and test their extraordinary abilities. Will they ever break free or find solace in their confined lives?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

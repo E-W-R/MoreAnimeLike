@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Pandora Hearts</h2>
                     <p>Mystery</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>Oz Vessalius, a noble heir, is sent to a mysterious prison called the Abyss on his coming-of-age ceremony. In the Abyss, he makes a contract with a Chain named Alice, and together they seek to unravel the secrets of the Vessalius family while evading the sinister organization known as Pandora. Through their journey, they encounter other chains and delve into the dark past that connects them all.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

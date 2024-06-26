@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hello World</h2>
                     <p>Romance</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>In a futuristic city, a high school student wakes up to find himself in someone else's body. He discovers that he is living in a virtual world and falls in love with a girl there. As he delves deeper into the virtual world, he unravels dark secrets and must race against time to save the girl he loves and uncover the truth about his own existence. The boundaries between reality and the virtual world blur as he fights to protect those he cares about.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

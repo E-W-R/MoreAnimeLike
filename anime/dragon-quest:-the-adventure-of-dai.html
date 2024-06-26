@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Dragon Quest: The Adventure of Dai</h2>
                     <p>Action</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>After the defeat of the Demon King Hadlar, peace is shattered when his followers seek revenge. Young adventurer Dai, who dreams of becoming a hero, sets out on a journey to avenge his mentor. With his friends Popp and Maam by his side, Dai hones his skills to defeat evil and protect the world. Yet, a greater threat looms as the true Demon King resurrects. Dai must unlock his full potential to save the kingdom.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

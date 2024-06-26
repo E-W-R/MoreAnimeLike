@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Love Me, Love Me Not</h2>
                     <p>Romance</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>Love Me, Love Me Not follows the intertwined stories of four high school students as they navigate the complexities of love and friendship. Yuna and Akari have opposite views on romance, while Rio is dealing with a one-sided crush and Kazuomi tries to decipher his feelings for a friend. As they support and confide in each other, their relationships and emotions become intertwined in unexpected ways.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

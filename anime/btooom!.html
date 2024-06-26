@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">BTOOOM!</h2>
                     <p>Psychological</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>After waking up on a mysterious island, a young man named Ryouta discovers he is part of a deadly real-life survival game. Armed with only bombs, he must outwit and defeat other players to make it off the island alive. As the game progresses, alliances are formed and betrayals unfold, forcing Ryouta to confront the dark side of human nature in order to survive.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

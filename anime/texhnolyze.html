@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Texhnolyze</h2>
                     <p>Psychological</p>
                     <p>2003</p>
-                    <br><br>
+                    <br>
                     <p>In the dark and barren underground city of Lux, the criminal organization, the Organo, rules with an iron fist. When a prize fighter named Ichise loses an arm and a leg in a punishment, he is given the chance for revenge through experimental cybernetic enhancements. As Ichise navigates the complex power struggles and mysterious forces at play in Lux, he seeks to find his own path in this gritty and brutal world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

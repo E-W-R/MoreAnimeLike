@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Blue Giant</h2>
                     <p>Other Genre</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>Blue Giant follows Dai Miyamoto, a high school delinquent who discovers a passion for playing the tenor saxophone. Determined to become a jazz musician, Dai navigates through challenges such as mastering his instrument, facing fierce competition, and balancing his personal life. As he strives towards his dream of performing on the global stage, Dai learns about the power of music in connecting people and shaping his own identity.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Aquatope on White Sand</h2>
                     <p>Drama</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>The Aquatope on White Sand follows the story of a disillusioned young woman who stumbles upon an aquarium in a small seaside town. She befriends a former idol who is now working at the struggling aquarium, and together they work towards revitalizing the business. As they face challenges and forge new connections with the marine life, both women find inspiration and healing in the depths of the ocean.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

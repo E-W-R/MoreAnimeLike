@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Senryu Girl</h2>
                     <p>Comedy</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>Nanako Yukishiro, a shy high school girl who communicates through Senryu (a form of haiku poetry), befriends the ex-delinquent Eiji Busujima. As the two navigate school life together, they find comfort and friendship in each other's company. Through their interactions and written poetry, they learn more about each other and themselves. Senryu Girl explores the bond formed through shared experiences and the power of words to connect individuals.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Voices of a Distant Star</h2>
                     <p>Romance</p>
                     <p>2002</p>
-                    <br><br>
+                    <br>
                     <p>In Voices of a Distant Star, two close friends are torn apart when one of them is selected to travel to space to fight in a war. As they communicate via text messages despite being light years apart, they struggle with the growing distance between them and the harsh realities of their situations. The story follows their emotional journey as they try to hold onto their connection despite the vastness of space separating them.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">With a Dog AND a Cat, Every Day is Fun</h2>
                     <p>Comedy</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>This anime follows the adorable and humorous daily lives of a high-energy dog and a laid-back cat as they navigate their domestic adventures with their owner. From playful antics to heartwarming moments, each episode showcases the unique bond between the contrasting yet lovable duo. Get ready for a mix of comedy, companionship, and heartwarming moments in this delightful slice-of-life series.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

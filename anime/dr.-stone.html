@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Dr. Stone</h2>
                     <p>Comedy</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>One day, a mysterious light turns all of humanity into stone statues. Thousands of years later, high school student Senku Ishigami manages to break free from his petrified state and vows to bring back civilization using his scientific knowledge. Alongside his friends, Senku sets out to rebuild the world and unlock the secrets of the petrification phenomenon, facing challenges from both nature and others who seek to control this new world order.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

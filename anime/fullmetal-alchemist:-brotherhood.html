@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Fullmetal Alchemist: Brotherhood</h2>
                     <p>Action</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>Fullmetal Alchemist: Brotherhood follows the Elric brothers, Edward and Alphonse, as they search for the Philosopher's Stone to restore their bodies after a forbidden alchemical ritual goes wrong. Along the way, they uncover a sinister plot that threatens the entire nation of Amestris. As they encounter allies and enemies, the brothers are confronted with moral dilemmas and the true cost of wielding alchemical power.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

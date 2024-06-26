@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">DARLING in the FRANXX</h2>
                     <p>Romance</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>In a post-apocalyptic world, children are raised to pilot Franxx, giant robots used to fight mysterious creatures known as klaxosaurs. The story follows Hiro, a former prodigy now struggling to find his place, and Zero Two, a mysterious girl with klaxosaur blood. Together, they pilot a unique Franxx and uncover dark secrets about their society. As they fight to protect humanity, they also navigate complex feelings and relationships within their group of pilots.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Rolling Girls</h2>
                     <p>Action</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>In a colorful post-apocalyptic world where cities are ruled by clans, four girls become the vigilante group known as the Rolling Girls. Tasked with resolving conflicts between clans, they embark on a journey across the land, facing challenges, making new friends, and uncovering the secrets of their world. As they navigate through battles and rivalries, the girls discover the true meaning of strength and friendship.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

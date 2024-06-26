@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Nyan Koi!</h2>
                     <p>Romance</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>After breaking a cat statue, Junpei gains the ability to understand cats. In order to lift the curse, he must help 100 cats. Despite being allergic, he embarks on this quest while trying to keep his newfound talent a secret. With the assistance of his crush and fellow cat lover, Kaede, Junpei navigates between his affection for her and the chaos caused by the feline friends he finds himself surrounded by.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

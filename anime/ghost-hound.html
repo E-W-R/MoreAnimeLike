@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ghost Hound</h2>
                     <p>Mystery</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>Ghost Hound follows three boys who have experienced traumatic events in their pasts. Together, they discover the ability to travel to a different plane of existence known as the Unseen World. As they dive deeper into this mysterious realm, they uncover dark secrets about their town and its dark history. The boys must confront their fears and unravel the truth behind their shared supernatural abilities to find inner peace and closure.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

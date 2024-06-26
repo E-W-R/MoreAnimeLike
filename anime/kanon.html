@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kanon</h2>
                     <p>Romance</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Kanon follows a young man named Yuichi as he returns to a town he used to visit as a child. As he reconnects with old friends and encounters mysterious new acquaintances, memories of his past start to resurface. Strange occurrences and supernatural elements begin to intertwine with his life, leading Yuichi on a journey to uncover long-forgotten secrets and discover the truth behind the seemingly impossible events happening around him.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

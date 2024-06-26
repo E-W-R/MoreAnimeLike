@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Meiji Gekken: 1874</h2>
                     <p>Action</p>
                     <p>2024</p>
-                    <br><br>
+                    <br>
                     <p>In Meiji Gekken: 1874, a young swordsman seeks revenge for his master's death during the tumultuous Meiji Restoration period in Japan. Fueled by a desire for justice, he hones his skills and navigates the dangerous political landscape to uncover the truth behind the betrayal. As tensions rise and loyalties are tested, the swordsman must decide between seeking vengeance or forging a new path towards peace and redemption.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

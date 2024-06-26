@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Place Promised in Our Early Days</h2>
                     <p>Romance</p>
                     <p>2004</p>
-                    <br><br>
+                    <br>
                     <p>In an alternate Japan divided by the Soviet Union and the United States after World War II, two friends build a plane to reach the mysterious tower that connects their separated hometowns. Years later, one of the friends disappears, and the remaining boy is determined to fulfil the promise they made to visit the tower together. As they navigate a world filled with secrets and political tensions, they uncover the truth behind the tower and their intertwined destinies.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

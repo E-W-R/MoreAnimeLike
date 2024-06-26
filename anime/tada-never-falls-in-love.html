@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Tada Never Falls in Love</h2>
                     <p>Romance</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Tada Never Falls in Love follows Mitsuyoshi Tada, a high school student with a passion for photography. His life takes an unexpected turn when he meets Teresa Wagner, a foreign exchange student from Luxembourg. The two develop a close friendship as they navigate the complexities of their personal lives and relationships. As their bond strengthens, they discover the true meaning of love and friendship amidst various challenges and emotions.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

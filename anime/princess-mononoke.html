@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Princess Mononoke</h2>
                     <p>Action</p>
                     <p>1997</p>
-                    <br><br>
+                    <br>
                     <p>Princess Mononoke follows the journey of a young warrior named Ashitaka, cursed by a demon, as he seeks a cure in a war-torn land caught between industrialization and nature. He becomes entangled in a conflict between the inhabitants of the forest, led by the fierce Princess Mononoke, and the humans who are destroying the environment. As Ashitaka delves deeper into the complex relationships between man and nature, he must navigate his own beliefs and loyalties to find a way to bring peace to the land.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

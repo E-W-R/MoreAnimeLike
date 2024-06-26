@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Canaan</h2>
                     <p>Mystery</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>In Canaan, featuring an intricate storyline, an ex-soldier and current mercenary struggles with her traumatic past. She crosses paths with a journalist and a young girl, and together they face a terrorist organization plotting a deadly attack. As they uncover the dark secrets behind the group and their own connections to it, they find themselves entangled in a dangerous web of conspiracy and betrayal.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

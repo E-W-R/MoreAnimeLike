@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Miss Hokusai</h2>
                     <p>Drama</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>Miss Hokusai follows the life of O-Ei, the talented daughter of the renowned Japanese artist Hokusai. Set in the vibrant city of Edo (now Tokyo) in the 19th century, the film explores O-Ei's struggles and triumphs as an artist in her own right, navigating her complicated relationship with her father and the dynamic world of art around her. Through her unique perspective, O-Ei uncovers the beauty and complexities of the world through her stunning artwork.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

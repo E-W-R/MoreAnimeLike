@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Attack on Titan</h2>
                     <p>Action</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>In a world where humanity is on the brink of extinction due to giant humanoid creatures known as Titans, a young boy named Eren Yeager joins the battle against them after witnessing the destruction of his home. Alongside his friends Mikasa and Armin, Eren enlists in the military to seek vengeance and uncover the truth behind the Titans. As they face overwhelming odds and deep-rooted conspiracies, they discover the horrifying secrets that lie beyond the walls protecting humanity.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

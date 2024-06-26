@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Claymore</h2>
                     <p>Action</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>Claymore follows Clare, a half-human, half-demon warrior known as a Claymore, as she battles Yoma - shape-shifting demons that terrorize villages. As Clare seeks revenge against the Yoma who destroyed her hometown, she teams up with other Claymores to fight the threat. However, as she delves deeper into the world of Claymores, she uncovers dark secrets that could change everything she knows about her existence.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

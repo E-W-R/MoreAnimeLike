@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Disastrous Life of Saiki K.</h2>
                     <p>Comedy</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Follow the extraordinary life of Saiki Kusuo, a high school student with a wide range of psychic abilities. Despite his desire for a normal, quiet life, Saiki finds himself entangled in hilarious situations due to his powers, all while trying to keep his abilities a secret from those around him. From reading minds to teleportation, Saiki navigates through daily life with a blend of humor and sarcasm.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

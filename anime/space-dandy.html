@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Space Dandy</h2>
                     <p>Comedy</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Space Dandy follows the misadventures of Dandy, a dandy, suave, and rather clueless alien hunter. Together with his robotic partner QT and cat-like alien friend Meow, they travel through space in search of new alien species to register for reward money. However, their escapades often land them in bizarre situations and trouble, all while being pursued by the Gogol Empire. Each episode brings new encounters and humorous twists in their intergalactic journey.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

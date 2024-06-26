@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Mononoke</h2>
                     <p>Mystery</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>In Mononoke, a mysterious and enigmatic medicine seller travels through feudal Japan. Armed with his intellect and his keen ability to recognize malevolent spirits called Mononoke, he sets out to exorcise them by uncovering their forms, truth, and reasoning. With each encounter, he delves into the dark and twisted pasts of these vengeful spirits to reveal the truth behind their existence and bring peace to the afflicted individuals and locations where they reside.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

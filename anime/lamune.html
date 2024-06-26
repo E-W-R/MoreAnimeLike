@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Lamune</h2>
                     <p>Romance</p>
                     <p>2005</p>
-                    <br><br>
+                    <br>
                     <p>In Lamune, a nostalgic tale unfolds as two childhood friends, Kenji and Nanami, reconnect after years apart. The series follows their heartwarming journey as they navigate the challenges of growing up, facing their past, and discovering new feelings for each other. Filled with bittersweet moments and emotional revelations, Lamune explores the power of friendship and love in shaping their lives.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

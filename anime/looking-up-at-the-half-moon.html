@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Looking Up At The Half-Moon</h2>
                     <p>Romance</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>After a tragic accident, a high school student is hospitalized in critical condition. Determined to make the most of his remaining time, he befriends a quiet girl who also has a terminal illness. As they support each other through their struggles, they find solace in their shared experiences and learn to appreciate the beauty of life despite their circumstances. Will their bond help them find peace and happiness in the face of uncertainty?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

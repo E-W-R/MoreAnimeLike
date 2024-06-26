@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Saga of Tanya the Evil</h2>
                     <p>Isekai</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>After a salaryman is reincarnated into a young girl in a war-torn world, she uses her ruthless tactics and cunning intelligence to climb the ranks of the military. Facing off against enemies both on the battlefield and within her own ranks, Tanya must navigate the horrors of war while also facing the mysterious Being X who seems to be orchestrating her fate.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

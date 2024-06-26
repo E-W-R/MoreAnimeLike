@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kurozuka</h2>
                     <p>Action</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>Kurozuka follows the story of a samurai named Kurou and a mysterious woman named Kuromitsu, who grant him immortality. The anime spans several centuries as Kurou navigates a post-apocalyptic world ravaged by vampires, all while searching for his lost love. As he uncovers the truth behind Kuromitsu's secrets and the origin of the vampire clans, Kurou must confront his own inner darkness and make a choice that will determine the fate of humanity.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

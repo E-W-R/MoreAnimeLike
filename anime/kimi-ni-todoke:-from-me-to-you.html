@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kimi ni Todoke: From Me to You</h2>
                     <p>Romance</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>Kimi ni Todoke: From Me to You follows Sawako, a shy high school girl often misunderstood due to her resemblance to the horror movie character Sadako. When popular boy Kazehaya starts talking to her, Sawako's life begins to change as she navigates friendships, love, and self-discovery. As she opens up to those around her, Sawako realizes the importance of communication and understanding in forming genuine connections with others.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

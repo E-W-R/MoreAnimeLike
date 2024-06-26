@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Place to Place</h2>
                     <p>Romance</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Nagasarete Airantou is a romantic comedy anime that tells the story of Ikuto Tōhōin, a teenage boy who gets stranded on a mysterious island inhabited only by women. As Ikuto tries to find a way off the island and back home, he faces various challenges and adventures. Along the way, he forms relationships with the island's residents, including the spirited Suzu and the kind-hearted Machi. Will Ikuto ever find a way off the island, or will he come to embrace his new life there?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Didn't I Say to Make My Abilities Average in the Next Life?!</h2>
                     <p>Isekai</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>After dying, a girl is reincarnated into a fantasy world and asks the gods for average abilities. However, she is blessed with incredible powers. Hiding her strength, she joins a guild and befriends other adventurers while trying to live a normal life. But her past catches up with her as she is forced to use her powers to protect her new friends and the world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

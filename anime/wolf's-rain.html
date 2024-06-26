@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Wolf's Rain</h2>
                     <p>Mystery</p>
                     <p>2003</p>
-                    <br><br>
+                    <br>
                     <p>In a post-apocalyptic world where wolves are believed to be extinct, a small pack of wolves disguise themselves as humans to find the mythical paradise called Paradise. Along their journey, they encounter allies and enemies, facing numerous obstacles and challenges that test their resolve and bonds. As they get closer to their destination, the truth about the world and their own existence is slowly revealed, leading to a dramatic climax that will change everything.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

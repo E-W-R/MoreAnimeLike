@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Bokurano</h2>
                     <p>Psychological</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>In Bokurano, a group of fifteen children discover a mysterious underground facility and are tricked into piloting a giant robot to save Earth from destruction. As they face off against other robots in battles that become increasingly intense, the children must grapple with the moral dilemmas and personal sacrifices that come with their newfound responsibility. Each fight exposes more about the darkness lurking beneath the surface, leading to a gripping and emotional journey for the pilots.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Professor Layton and the Eternal Diva</h2>
                     <p>Mystery</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>Professor Layton and his assistant Luke receive an invitation to the mysterious Crown Petone to witness a performance by the opera singer Janice Quatlane. However, the event takes a sinister turn when Janice is seemingly resurrected after her death, setting off a series of puzzles and challenges for the professor to solve. As Layton unravels the secrets behind the Eternal Diva, the true motives behind the enigmatic organization behind the event are revealed.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

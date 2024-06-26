@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Belle</h2>
                     <p>Drama</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>In a virtual world called U where users can transform into avatars, a shy high school girl named Suzu logs in as the confident and talented singer Belle. As Belle gains popularity, she discovers a mysterious beast lurking in the virtual landscape. Determined to uncover the truth behind the beast and her own identity, Belle embarks on a captivating journey of self-discovery, friendship, and love that blurs the lines between the virtual and real worlds.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

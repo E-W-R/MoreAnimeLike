@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Scum's Wish</h2>
                     <p>Romance</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Scum's Wish follows the complicated love lives of high school students Hanabi and Mugi, who are both infatuated with people they cannot be with. They form a fake relationship to fill the void left by their unrequited loves but soon find themselves entangled in a web of emotions and desires. As they navigate the complexities of relationships and heartbreak, they must confront their true feelings and learn to move forward.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

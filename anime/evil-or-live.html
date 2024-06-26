@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Evil or Live</h2>
                     <p>Psychological</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>In Evil or Live, teenage delinquents are forced to enroll in a rehabilitation program at a harsh academy. With strict rules and punishments, the students must navigate their way through the brutal environment while facing their troubled pasts. As they strive to survive the oppressive regime and uncover the academy's secrets, they are forced to confront their own darkest demons to find a way out.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

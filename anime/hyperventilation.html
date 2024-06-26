@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Hyperventilation</h2>
                     <p>Drama</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Hyperventilation follows the story of Myeong, a struggling art student, who crosses paths with a successful author named Shin. As they grow closer, Myeong finds himself drawn to Shin, but their blossoming relationship is fraught with challenges and misunderstandings. As they navigate their feelings for each other, both men must confront their pasts and insecurities to find a way to be together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

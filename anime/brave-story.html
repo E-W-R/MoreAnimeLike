@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Brave Story</h2>
                     <p>Isekai</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Wataru embarks on a magical adventure to the land of Vision, where he must find the Goddess of Destiny to fulfill his dearest wish. Along the way, he meets new friends who join him in facing various challenges and battling powerful foes. As Wataru delves deeper into this mysterious world, he discovers the true meaning of bravery and the importance of never giving up on his dreams.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Uncle from Another World</h2>
                     <p>Isekai</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>When a young man named Hiro loses his job and feels directionless in life, he receives an unexpected inheritance from his late uncle: a mysterious amulet. To his surprise, the amulet transports him to a parallel fantasy world where his uncle is a legendary hero. As Hiro navigates this new world and learns about his uncle's past, he must decide whether to embrace his newfound destiny or find a way back home.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

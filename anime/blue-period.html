@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Blue Period</h2>
                     <p>Drama</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Blue Period follows Yatora Yaguchi, a high school student who feels lost and unsure about his future. After discovering a hidden talent for art, Yatora becomes obsessed with painting and decides to pursue a future in the competitive world of art. As he navigates the challenges of pursuing his passion, Yatora faces self-doubt, criticism, and competition from his peers. Will he find success and fulfillment in his artistic journey?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

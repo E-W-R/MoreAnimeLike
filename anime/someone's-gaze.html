@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Someone's Gaze</h2>
                     <p>Other Genre</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>In Someone's Gaze, high school student Aoi finds herself entangled in a web of secrets when she discovers a mysterious ability to see glimpses of others' pasts simply by looking into their eyes. As she navigates this newfound power, Aoi must grapple with the consequences of revealing long-buried truths and the impact it has on her relationships with those around her. With each gaze, Aoi delves deeper into the interconnected lives of her peers, uncovering hidden emotions and untold stories.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

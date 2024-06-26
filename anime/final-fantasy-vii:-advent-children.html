@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Final Fantasy VII: Advent Children</h2>
                     <p>Action</p>
                     <p>2005</p>
-                    <br><br>
+                    <br>
                     <p>In a world plagued by a new threat, Cloud Strife and his friends must once again band together to save the planet from destruction. Caught in a battle against a mysterious enemy seeking to revive an ancient evil, Cloud must confront his past and face his inner demons to protect his loved ones. As the fate of the world hangs in the balance, they must harness their strength and courage to overcome this ultimate challenge.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

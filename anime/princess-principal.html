@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Princess Principal</h2>
                     <p>Mystery</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Princess Principal follows a group of five young girls working as spies in an alternate-history steampunk version of London. Led by the noble-born Princess, the team goes on covert missions to protect the country from internal and external threats. As they navigate through political intrigue and dangerous situations, the girls must strike a balance between their missions and their personal loyalties. The series delves into their individual backstories and the complexities of their undercover lives.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

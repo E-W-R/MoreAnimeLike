@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Amanchu!</h2>
                     <p>Other Genre</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Following the story of Hikari Kohinata, a high school girl who moves to a coastal town, Amanchu! explores her journey of making new friends, particularly her relationship with the introverted Futaba Ooki. Through their shared love of scuba diving, the two girls learn to navigate the challenges of adolescence and discover the beauty of the underwater world. The series highlights themes of friendship, self-discovery, and the importance of pursuing one's passions.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

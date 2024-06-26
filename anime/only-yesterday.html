@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Only Yesterday</h2>
                     <p>Romance</p>
                     <p>1991</p>
-                    <br><br>
+                    <br>
                     <p>Only Yesterday follows Taeko, a 27-year-old office worker who goes on a trip to the countryside. As she reconnects with nature and meets new people, memories of her fifth-grade self surface. Through a series of flashbacks, Taeko reflects on her past, including her first crush and the challenges she faced growing up. The film beautifully weaves together Taeko's present and past, exploring themes of nostalgia, self-discovery, and the passage of time.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Heaven Official's Blessing</h2>
                     <p>Action</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>Heaven Official's Blessing follows Xie Lian, a once-revered prince who has been banished to the mortal realm. Despite his fall from grace, Xie Lian remains dedicated to helping others and fighting evil spirits. When he meets mysterious demon king Hua Cheng, they embark on a journey filled with supernatural challenges, dangerous enemies, and deepening emotions. Together, they must navigate a treacherous world to uncover dark secrets and protect the innocent.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

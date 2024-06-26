@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Alice or Alice</h2>
                     <p>Other Genre</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Alice or Alice follows the daily lives of twin sisters Alice and Rise as they navigate their close bond and sisterly antics. Despite being identical in appearance, their personalities are polar opposites, leading to a series of comedic situations and heartwarming moments. From sibling rivalry to sisterly support, the series explores the unique dynamics of their relationship as they experience the ups and downs of teenage life together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

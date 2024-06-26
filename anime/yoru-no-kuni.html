@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Yoru no Kuni</h2>
                     <p>Other Genre</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Yoru no Kuni follows a group of high school students who mysteriously find themselves transported to a parallel world during a field trip. As they navigate this unfamiliar and dangerous land, they must work together to survive and find a way back home. With creatures lurking in the shadows and unexpected challenges testing their bonds, the group must confront their fears and rely on each other to unravel the secrets of this enigmatic world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

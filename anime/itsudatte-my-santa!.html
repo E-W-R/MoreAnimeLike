@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Itsudatte My Santa!</h2>
                     <p>Romance</p>
                     <p>2005</p>
-                    <br><br>
+                    <br>
                     <p>High school student Santa meets Mai, a clumsy Santa in training. Despite being polar opposites, they form a unique bond. As they spend time together, Santa learns the truth about Mai's mission and realizes the importance of bringing happiness to others. Will their friendship endure, or will Mai's true identity create a rift between them? Find out in this heartwarming holiday tale.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Eden (ONA)</h2>
                     <p>Other Genre</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>In a post-apocalyptic world inhabited only by robots, two farming robots stumble upon a human baby and decide to raise her in secret. As the girl, Sara, grows up believing she is the last human on Earth, she starts questioning the truth of her existence. When their peaceful existence is disrupted, Sara embarks on a journey to uncover the mysteries of humanity's fall and her own origins.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Legend of the Legendary Heroes</h2>
                     <p>Action</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>Ryner Lute, a talented magic user labeled as the Alpha Stigma, embarks on a journey with Ferris Eris, a skilled swordswoman, to search for relics left behind by legendary heroes. As they uncover dark secrets about their kingdom, Ryner must come to terms with his powers and the consequences of using them. Fueled by revenge and a desire for peace, they navigate political intrigue and powerful foes while confronting their own inner demons.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

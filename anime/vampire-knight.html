@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Vampire Knight</h2>
                     <p>Mystery</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>Vampire Knight follows Yuki Cross, a student at Cross Academy, where vampires and humans coexist. Yuki, alongside her childhood friend Zero Kiryu, works to maintain peace between the two groups while unraveling the secrets of her own past. As she navigates her feelings for the mysterious vampire brothers, Kaname and Zero, Yuki is drawn into a complex web of love, betrayal, and dark supernatural forces. Will Yuki uncover the truth about her origins before it's too late?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

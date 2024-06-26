@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">One Punch Man</h2>
                     <p>Action</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>One Punch Man follows the story of Saitama, a hero who can defeat any enemy with a single punch, making his battles boring and unfulfilling. Seeking a worthy opponent, Saitama joins the Hero Association to find stronger foes. Along the way, he befriends other heroes and faces various villains and monsters, all while struggling with his mundane everyday life.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Sakura Trick</h2>
                     <p>Comedy</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Sakura Trick follows the story of best friends Haruka and Yuu, who decide to attend the same high school and create unforgettable memories together. To solidify their bond, they share a secret kiss, igniting a deeper romantic relationship between them. As their feelings evolve, they navigate the challenges of hiding their newfound love while cherishing each precious moment spent together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

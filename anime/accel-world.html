@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Accel World</h2>
                     <p>Romance</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Haruyuki Arita is a socially awkward high school student who escapes reality by indulging in virtual games. When the popular and beautiful Kuroyukihime introduces him to a mysterious program called Brain Burst, Haruyuki discovers a virtual world where time freezes and players engage in fast-paced duels. With the promise of fulfilling his desires and uncovering the program's secrets, Haruyuki plunges into the thrilling and competitive virtual realm of Accel World.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

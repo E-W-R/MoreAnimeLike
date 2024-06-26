@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">A Sister's All You Need</h2>
                     <p>Romance</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Itsuki Hashima is a popular light novel author with a unique quirk - he's obsessed with little sisters. Alongside his group of friends in the publishing industry, Itsuki navigates the ups and downs of the creative process, relationships, and personal growth. As they support each other in their careers and personal lives, they discover the true meaning of friendship and family.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

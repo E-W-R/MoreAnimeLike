@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Onihei</h2>
                     <p>Action</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>Onihei follows the story of Heizou Hasegawa, the head of a police force in Edo during the late 18th century. Known for his ruthless methods in dealing with criminals, Heizou navigates the complex world of law enforcement while balancing his duty to uphold justice and his own morals. As he tackles various cases and confronts the darker side of society, Heizou's unwavering determination and sharp intellect are put to the test in this historical drama.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

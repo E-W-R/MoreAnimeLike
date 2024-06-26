@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Bloodivores</h2>
                     <p>Mystery</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>In Bloodivores, a group of humans known as Bloodivores who have special abilities find themselves falsely accused of a violent crime. In a world where they are hunted and feared, they must uncover the truth behind their mysterious pasts while navigating dangerous alliances and battling powerful enemies. As they struggle to survive and clear their names, they uncover dark secrets that will change everything they thought they knew about themselves and the world around them.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

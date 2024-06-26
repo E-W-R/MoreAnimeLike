@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Sanrio Boys</h2>
                     <p>Drama</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Follow the story of Kouta Hasegawa, a high school boy who is embarrassed by his love for Sanrio's characters. Alongside his friends, Yuu Mizuno, Shunsuke Yoshino, Ryou Nishimiya, and Seiichiro Minamoto, they all share a secret passion for Sanrio and form a bond through their hidden interest. As they navigate the challenges of high school life, they learn the importance of staying true to themselves and embracing their unique interests.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

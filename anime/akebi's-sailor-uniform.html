@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Akebi's Sailor Uniform</h2>
                     <p>Other Genre</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>Akebi Amano, a high school girl with a humble background, transfers to an elite all-girls school known for its strict rules and rich students. Determined to succeed despite her circumstances, Akebi navigates the challenges of rigorous academics and social hierarchies while staying true to herself. With her optimistic attitude and resilience, she forms genuine connections with her classmates and teachers, inspiring those around her to chase their dreams and embrace their true selves.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

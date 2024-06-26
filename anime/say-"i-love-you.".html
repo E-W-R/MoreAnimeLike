@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Say "I Love You."</h2>
                     <p>Romance</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Say 'I Love You.' follows the story of Mei Tachibana, a reserved high school student who distances herself from forming friendships due to a past trauma. However, her outlook on relationships begins to change when she accidentally befriends the popular and outgoing Yamato Kurosawa. As Mei navigates the complexities of friendship, love, and self-discovery, she learns to open up to others and trust in her own feelings.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

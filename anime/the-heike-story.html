@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Heike Story</h2>
                     <p>Drama</p>
                     <p>2022</p>
-                    <br><br>
+                    <br>
                     <p>The Heike Story follows the rivalry between the Taira and Minamoto clans during the late Heian period in Japan. The series delves into the power struggles, betrayals, and battles for dominance between the two powerful families. As the conflict escalates, viewers witness the rise and fall of key figures on both sides as they vie for control over the imperial court and ultimately, the fate of the nation.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

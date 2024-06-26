@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Getbackers</h2>
                     <p>Mystery</p>
                     <p>2002</p>
-                    <br><br>
+                    <br>
                     <p>Ban Mido and Ginji Amano run a unique retrieval service called the Getbackers. With Ban's ability to create illusions and Ginji's control over electricity, they take on various jobs to recover lost or stolen items for their clients. Their reputation for always completing a job no matter how dangerous, leads them on thrilling adventures filled with action and mystery. Along the way, they uncover dark secrets and face formidable foes as they strive to complete each mission successfully.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

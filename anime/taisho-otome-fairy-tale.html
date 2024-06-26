@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Taisho Otome Fairy Tale</h2>
                     <p>Romance</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>In Taisho Otome Fairy Tale, a story set in the Taisho era of Japan, a young man named Tamahiko is forced to marry a seemingly unrefined and uneducated girl named Yuzuki. Though initially resistant to the arrangement, Tamahiko soon learns of Yuzuki's hidden intelligence and kind heart. As they navigate their new life together, the couple begins to understand and appreciate each other's strengths, ultimately forming a deep and heartfelt connection.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

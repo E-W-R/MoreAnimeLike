@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Otaku no Video</h2>
                     <p>Drama</p>
                     <p>1991</p>
-                    <br><br>
+                    <br>
                     <p>Otaku no Video follows the life of Ken Kubo, a college student who starts embracing his otaku lifestyle after being dumped by his girlfriend. Together with his friend, they dive into the world of anime, manga, and video games, eventually forming their own successful company. The series explores the struggles and triumphs of being an otaku in a society that often looks down on their hobbies.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

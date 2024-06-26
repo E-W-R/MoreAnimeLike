@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Monster Rancher</h2>
                     <p>Isekai</p>
                     <p>1999</p>
-                    <br><br>
+                    <br>
                     <p>In the world of Monster Rancher, humans coexist with mysterious creatures called Monsters. A young boy named Genki discovers a magical stone that allows him to bring a powerful monster to life. With his new friend, Genki embarks on a journey to compete in tournaments and defeat evil forces that threaten the harmony of the Monster Rancher world. Along the way, they meet new friends and face challenging adversaries in their quest for victory.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

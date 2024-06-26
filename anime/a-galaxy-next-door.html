@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">A Galaxy Next Door</h2>
                     <p>Romance</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>In a futuristic world, humanity has colonized other planets. A young woman living on a distant planet dreams of exploring the galaxy. When a mysterious spaceship crash-lands near her home, she discovers a wounded alien pilot who needs her help to repair the ship and return home. Together, they embark on an adventure across the galaxy, encountering new civilizations and facing dangerous challenges along the way. Will they be able to navigate through the vast unknown of space and find their way back home?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">In This Corner of the World</h2>
                     <p>Drama</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Set in Hiroshima during World War II, In This Corner of the World follows the life of Suzu, a young woman who navigates the challenges and tragedies of war. Through her daily experiences, struggles, and relationships with her family and friends, she must find strength and resilience to survive and protect her loved ones amidst the devastation of the conflict.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

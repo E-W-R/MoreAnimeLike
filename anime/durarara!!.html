@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Durarara!!</h2>
                     <p>Mystery</p>
                     <p>2010</p>
-                    <br><br>
+                    <br>
                     <p>In the bustling district of Ikebukuro, various individuals with their own agendas and secrets become entwined in a web of mysterious happenings. When a young man is brought to Ikebukuro by unforeseen circumstances, he finds himself drawn into the chaos and intrigue of the city, encountering eccentric characters, dangerous factions, and urban legends that blur the lines between reality and myth. As events unfold, alliances are tested and the true nature of Ikebukuro's underbelly is slowly revealed.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

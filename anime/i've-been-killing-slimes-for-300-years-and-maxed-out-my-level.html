@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">I've Been Killing Slimes for 300 Years and Maxed Out My Level</h2>
                     <p>Isekai</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>After dying from overwork, a woman reincarnates as an immortal witch in a fantasy world. She decides to live a peaceful life and spends 300 years killing slimes to maintain her immortality. However, her simple life changes as word spreads of the powerful witch living in the mountains. Unexpectedly gaining a huge amount of wealth and fame, she attracts various magical beings to her doorstep, leading to new adventures and challenges in her laid-back existence.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

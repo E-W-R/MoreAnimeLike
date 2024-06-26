@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Pet Shop of Horrors</h2>
                     <p>Mystery</p>
                     <p>1999</p>
-                    <br><br>
+                    <br>
                     <p>In the Pet Shop of Horrors, Count D owns a mysterious pet shop in Chinatown that sells fantastical and exotic creatures to customers. Each pet comes with strict rules, and any deviation leads to terrifying consequences. As customers navigate through their relationships with these pets, they uncover dark secrets and face moral dilemmas. The series delves into the eerie and chilling encounters between the shop's peculiar animals and their owners.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

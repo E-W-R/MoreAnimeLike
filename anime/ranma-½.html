@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ranma ½</h2>
                     <p>Action</p>
                     <p>1989</p>
-                    <br><br>
+                    <br>
                     <p>Ranma ½ follows the humorous adventures of Ranma Saotome, a skilled martial artist who has a peculiar curse. When splashed with cold water, he transforms into a girl and back into a boy when doused with hot water. With this secret, Ranma navigates various challenges, including rival martial artists, love interests, and his own chaotic family dynamics. As he faces these obstacles, Ranma must find a way to break the curse while honing his martial arts skills.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

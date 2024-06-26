@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Animal Crossing: The Movie</h2>
                     <p>Other Genre</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>Animal Crossing: The Movie follows a young protagonist who moves to a peaceful village filled with anthropomorphic animals. As they settle in, they befriend the quirky villagers and immerse themselves in various activities such as fishing, bug catching, and fossil hunting. Together with their new friends, they experience the joys of small-town life, decorate their homes, and participate in seasonal events. The movie captures the charm and heartwarming adventures of the popular video game series.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

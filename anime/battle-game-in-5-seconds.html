@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Battle Game in 5 Seconds</h2>
                     <p>Other Genre</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Akira is suddenly thrown into a deadly game where he must use his unique ability to analyze and predict any potential outcome within five seconds to survive. With the help of other participants, each possessing their own extraordinary powers, Akira navigates the intense battles against mysterious foes. As he fights to unravel the truth behind the game and its creators, Akira's choices become a matter of life and death.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

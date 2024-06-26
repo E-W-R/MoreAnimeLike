@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ristorante Paradiso</h2>
                     <p>Romance</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>In Ristorante Paradiso, a young woman named Nicoletta travels to Rome to confront her estranged mother, who secretly runs a restaurant staffed by older gentlemen with one unique quirk each. As Nicoletta becomes entwined in the lives of the staff and regular customers, she navigates complex relationships and discovers the true meaning of family and love in this heartwarming tale set against the backdrop of an enchanting Italian restaurant.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

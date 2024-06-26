@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">ef - a tale of memories.</h2>
                     <p>Mystery</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>ef - a tale of memories. follows the interconnected lives of six individuals as they navigate the complexities of love, heartbreak, and the pursuit of their dreams. Through emotional highs and lows, the characters strive to understand their own feelings and the impact they have on those around them. As they grapple with their pasts and strive for a brighter future, their paths become intertwined in unexpected ways, leading to profound moments of growth and self-discovery.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

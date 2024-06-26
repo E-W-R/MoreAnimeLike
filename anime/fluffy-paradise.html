@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Fluffy Paradise</h2>
                     <p>Isekai</p>
                     <p>2024</p>
-                    <br><br>
+                    <br>
                     <p>Fluffy Paradise follows the adventures of a group of high school students who stumble upon a hidden portal to a magical world filled with adorable creatures. As they navigate this enchanting paradise, they must work together to solve puzzles, overcome challenges, and uncover the secrets of the realm. With each new discovery, they forge deep bonds and learn valuable lessons about friendship, courage, and the importance of protecting the ones they love.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

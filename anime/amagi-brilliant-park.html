@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Amagi Brilliant Park</h2>
                     <p>Comedy</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>When the amusement park, Amagi Brilliant Park, is on the verge of being shut down due to poor performance, Seiya Kanie, a high school student, is tasked with reviving it. Despite his initial reluctance, Seiya soon discovers that the park's staff are actually magical creatures from a different realm who need the park's success to survive. With his business acumen and the help of the quirky staff, Seiya works towards attracting more visitors to the park while unraveling its magical secrets.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

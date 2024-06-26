@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ixion Saga DT</h2>
                     <p>Isekai</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Ixion Saga DT follows the adventures of Kon Hokaze, a young man who finds himself trapped in the virtual world of Mira due to a prank gone wrong. In order to return home, he must navigate the dangerous realm and form alliances with various characters. Through battles and comedic encounters, Kon learns more about himself and the true nature of Mira.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

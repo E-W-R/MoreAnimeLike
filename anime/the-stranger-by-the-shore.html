@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Stranger by the Shore</h2>
                     <p>Other Genre</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>The Stranger by the Shore follows the story of a young man who finds solace in a quiet seaside town after a difficult past. As he navigates his emotions and relationships, he meets a mysterious stranger who begins to challenge his beliefs and open his heart to new possibilities. Together, they embark on a journey of self-discovery and healing, leading to unexpected revelations and a deeper connection that transcends time and space.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

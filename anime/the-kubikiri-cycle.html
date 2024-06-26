@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Kubikiri Cycle</h2>
                     <p>Mystery</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>The Kubikiri Cycle follows a bizarre series of murders taking place on a secluded island. When a mysterious genius and a group of eccentric individuals are invited to solve the case, they soon find themselves trapped in a deadly game of wits. As the body count rises, they must unravel the tangled web of secrets and lies surrounding the enigmatic murders before they become the next victims.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

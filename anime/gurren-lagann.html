@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Gurren Lagann</h2>
                     <p>Action</p>
                     <p>2007</p>
-                    <br><br>
+                    <br>
                     <p>In a future world where humanity is forced to live underground, Simon and Kamina discover a mysterious object known as Lagann. With the help of the attractive sniper Yoko, they use Lagann to pilot the powerful mecha, Gurren Lagann, and fight against the tyrannical Spiral King to reach the surface and discover the truth behind their existence. The series is an epic journey of self-discovery, friendship, and battling against seemingly insurmountable odds.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

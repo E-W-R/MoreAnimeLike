@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Origin: Spirits of the Past</h2>
                     <p>Romance</p>
                     <p>2006</p>
-                    <br><br>
+                    <br>
                     <p>In a post-apocalyptic world where humans live in harmony with nature, a young man stumbles upon a girl from a bygone era kept in suspended animation. As they unravel the girl's mysterious past and discover the secret behind her awakening, they must navigate opposing forces that threaten the delicate balance between humanity and the natural world. With the fate of the earth hanging in the balance, they must come together to find a way to save their world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

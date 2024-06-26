@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Spice and Wolf</h2>
                     <p>Romance</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>In Spice and Wolf, crafty merchant Kraft Lawrence meets Holo, a wolf deity who takes human form. Together, they embark on a journey across medieval Europe in search of Holo's northern homeland. Along the way, they navigate economic gains, political schemes, and their blossoming relationship. Through their adventures, they learn about each other's worlds and form a deep bond.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

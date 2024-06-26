@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Redo of Healer</h2>
                     <p>Action</p>
                     <p>2021</p>
-                    <br><br>
+                    <br>
                     <p>Redo of Healer follows the story of Keyaru, a healing hero who is betrayed by his companions and seeks revenge by using his ability to rewind time. With his newfound power, he sets out on a dark and twisted journey to get back at those who wronged him. As he manipulates events and people around him, Keyaru must confront the moral consequences of his actions and the true extent of his powers.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

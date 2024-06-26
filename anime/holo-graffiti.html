@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Holo Graffiti</h2>
                     <p>Comedy</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>Holo Graffiti follows a group of high school students who discover a mysterious app that allows them to bring their graffiti art to life using augmented reality. As they delve deeper into the app's capabilities, they uncover hidden powers and dark secrets that come with their newfound abilities. With their friendships and the city's safety at stake, the group must navigate the dangers of this virtual world while harnessing their creativity to save the day.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

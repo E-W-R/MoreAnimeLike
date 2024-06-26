@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">La Maison en Petits Cubes</h2>
                     <p>Drama</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>A touching tale about an elderly man who lives in a house surrounded by water. As the water level rises, he is forced to constantly build new levels onto his home. During this process, he uncovers memories of his past as each floor holds different stories and emotions. We follow him on a journey through his life, reflecting on love, loss, and the passage of time.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

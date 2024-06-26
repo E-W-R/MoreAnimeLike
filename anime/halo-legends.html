@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Halo Legends</h2>
                     <p>Action</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>Halo Legends is a collection of seven short anime films set in the universe of the popular video game series, Halo. Each episode explores different aspects of the vast and immersive world, following a variety of characters as they battle against the alien Covenant, uncover ancient secrets, and face powerful foes. The stories offer unique perspectives on the epic struggles and rich mythology of the Halo universe, making it a must-watch for fans of the games.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

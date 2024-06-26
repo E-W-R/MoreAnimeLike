@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Legend of the Galactic Heroes</h2>
                     <p>Drama</p>
                     <p>1988</p>
-                    <br><br>
+                    <br>
                     <p>In the distant future, two brilliant military strategists, Reinhard von Lohengramm and Yang Wen-li, find themselves on opposing sides of a massive galactic war. As they navigate through political intrigue, betrayal, and epic space battles, they strive to create a better future for the galaxy. With contrasting ideologies and moral dilemmas, they become legendary figures whose actions shape the course of history.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

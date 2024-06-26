@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">H2O: Footprints in the Sand</h2>
                     <p>Romance</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>After losing his vision, high school student Takuma moves to a rural village to get a fresh start. There, he meets three girls: the shy, kind-hearted Hayami, the energetic but mysterious Hinata, and the cold and distant Otoha. As Takuma navigates his new life and relationships, he must confront the painful past he left behind and unravel the secrets of the village.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

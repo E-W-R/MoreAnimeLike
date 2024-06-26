@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Black Butler</h2>
                     <p>Mystery</p>
                     <p>2008</p>
-                    <br><br>
+                    <br>
                     <p>Black Butler follows the tale of Ciel Phantomhive, a young nobleman seeking revenge for his parents' murder with the help of his loyal demon butler, Sebastian Michaelis. Together, they navigate through the corrupt underworld of Victorian England, solving mysteries and facing supernatural challenges. As Ciel's pact with Sebastian deepens, secrets unravel, and the true nature of their relationship is put to the test.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

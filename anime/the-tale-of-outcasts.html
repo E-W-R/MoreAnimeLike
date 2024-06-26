@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Tale of Outcasts</h2>
                     <p>Action</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>The Tale of Outcasts follows a group of individuals who have been ostracized by society for their unique abilities. As they navigate a world that fears and rejects them, they come together to form a tight-knit group, finding solace and acceptance in each other's company. Together, they must confront their own inner demons and face external threats, all while trying to carve out a place where they can truly belong.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

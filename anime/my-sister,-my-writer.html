@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">My Sister, My Writer</h2>
                     <p>Romance</p>
                     <p>2018</p>
-                    <br><br>
+                    <br>
                     <p>Aspiring light novel author Yu Nagami finds out that his reclusive little sister Suzuka is the famous writer of a popular light novel series. In exchange for keeping her identity a secret, Yu must assist Suzuka with her writing, leading to comical and heartwarming moments as the siblings navigate the challenges of the writing world together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

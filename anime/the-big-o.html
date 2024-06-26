@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Big O</h2>
                     <p>Mystery</p>
                     <p>1999</p>
-                    <br><br>
+                    <br>
                     <p>In the futuristic city of Paradigm, negotiator Roger Smith pilots his giant robot known as the Big O to protect the city from various threats. As he uncovers the mysteries behind Paradigm and its lost memories, Roger must navigate complex political machinations and face adversaries who wield strange and powerful technologies. With the help of his android companion, Dorothy, and faithful butler, Norman, Roger delves deeper into the truth that lies buried beneath the city's surface.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

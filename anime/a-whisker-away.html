@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">A Whisker Away</h2>
                     <p>Romance</p>
                     <p>2020</p>
-                    <br><br>
+                    <br>
                     <p>In A Whisker Away, a girl named Miyo discovers a mysterious mask that allows her to transform into a cat. She uses this ability to get closer to her crush, but the line between her human and cat selves begins to blur. As she navigates the challenges of her double identity, she must ultimately learn to accept herself for who she truly is.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

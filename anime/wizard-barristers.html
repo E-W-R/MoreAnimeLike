@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Wizard Barristers</h2>
                     <p>Action</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>In a world where magic exists, Wizard Barristers are lawyers who defend clients accused of misusing their powers. Cecil Sudo, a talented young wizard, becomes the youngest Wizard Barrister at the Butterfly Law Firm. As she takes on various cases involving magical crimes, Cecil must navigate through a justice system full of discrimination and dark secrets. With her teammates by her side, she strives to uphold justice and protect the rights of her fellow wizards.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

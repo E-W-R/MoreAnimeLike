@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Amnesia</h2>
                     <p>Mystery</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>After waking up with no memory, a young girl must navigate a mysterious world filled with supernatural beings. As she tries to piece together her past, she uncovers dark secrets about those around her and the truth about her own identity. With the help of newfound friends, she must unravel the mysteries of her forgotten past before it's too late. Will she be able to uncover the truth and regain her memories, or will the darkness consume her?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

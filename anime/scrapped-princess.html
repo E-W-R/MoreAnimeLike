@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Scrapped Princess</h2>
                     <p>Action</p>
                     <p>2003</p>
-                    <br><br>
+                    <br>
                     <p>In a world where a prophecy foretells the destruction of humanity at the hands of a girl named Pacifica Casull, she is hunted by those who fear her power. Alongside her siblings, Raquel and Shannon, Pacifica sets out on a journey to uncover the truth behind the prophecy and her own existence. As they evade capture and face enemies at every turn, they learn the shocking secrets that may change the fate of the world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

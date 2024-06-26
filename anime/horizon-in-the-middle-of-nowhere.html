@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Horizon in the Middle of Nowhere</h2>
                     <p>Action</p>
                     <p>2011</p>
-                    <br><br>
+                    <br>
                     <p>In a distant future where Earth has been devastated, nations coexist on giant floating cities. To prevent another catastrophe, students from different countries attend a school aboard a massive ship. Among them is a young man seeking to fulfill a promise to his childhood friend. As political tensions rise and mysterious forces threaten peace, he must navigate a complex web of alliances and conflicts to protect his loved ones and discover the truth about the past.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

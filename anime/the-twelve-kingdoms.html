@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">The Twelve Kingdoms</h2>
                     <p>Isekai</p>
                     <p>2002</p>
-                    <br><br>
+                    <br>
                     <p>The Twelve Kingdoms follows high school student Yoko Nakajima, who is transported to a fantasy world plagued by political turmoil and supernatural creatures. As she navigates the complexities of this new realm, Yoko discovers her own strength and leadership abilities. Alongside her companions, she embarks on a journey of self-discovery and strives to bring balance to the Twelve Kingdoms.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

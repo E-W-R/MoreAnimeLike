@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kakegurui</h2>
                     <p>Mystery</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>In a prestigious academy where gambling determines social status, a transfer student named Yumeko Jabami joins the school. But she quickly reveals her obsession with the thrill of high-stakes gambling and her exceptional ability to outwit her opponents. As Yumeko navigates the ruthless world of gambling against wealthy and powerful students, her true motives and strategy remain a mystery to those around her.Will she conquer the school with her unparalleled gambling skills?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

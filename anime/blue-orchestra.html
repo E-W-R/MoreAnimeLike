@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Blue Orchestra</h2>
                     <p>Drama</p>
                     <p>2023</p>
-                    <br><br>
+                    <br>
                     <p>Blue Orchestra follows a group of talented high school students who come together to form a unique music ensemble. With each member bringing their own musical expertise and personal struggles, they must learn to work as a team to compete in prestigious music competitions while also facing challenges both on and off the stage. As they strive for perfection and harmony in their performances, friendships are formed, rivalries emerge, and bonds are tested in this heartwarming tale of passion and dedication to music.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

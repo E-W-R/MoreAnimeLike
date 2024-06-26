@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">K-ON!</h2>
                     <p>Comedy</p>
                     <p>2009</p>
-                    <br><br>
+                    <br>
                     <p>K-ON! follows the daily high school life of five girls who form a band called Hokago Tea Time (After School Tea Time). As they navigate through school activities, friendships, and their passion for music, the band grows closer and faces various challenges together. From practicing for concerts to bonding over tea and snacks, the series highlights the girls' journey in finding their own voices and creating unforgettable memories with each other.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

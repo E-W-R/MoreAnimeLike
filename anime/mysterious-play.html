@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Mysterious Play</h2>
                     <p>Isekai</p>
                     <p>1995</p>
-                    <br><br>
+                    <br>
                     <p>Mysterious Play follows the story of two high school girls who discover a magical book that transports them into a world filled with danger and adventure. To return home, they must navigate the challenges set in the book while unlocking its secrets. As they encounter new friends and foes along the way, the girls must rely on each other to unravel the mysteries of the book and find a way back to reality.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

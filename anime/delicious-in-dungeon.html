@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Delicious in Dungeon</h2>
                     <p>Comedy</p>
                     <p>2024</p>
-                    <br><br>
+                    <br>
                     <p>Delicious in Dungeon follows a group of adventurers who are on a quest to explore a dangerous dungeon after one of their party members is eaten by a dragon. To survive the treacherous labyrinth, they must learn to cook and eat the monsters they encounter along the way. With unique recipes and culinary skills, the group navigates the dungeon's challenges while also uncovering the secrets hidden within its depths.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

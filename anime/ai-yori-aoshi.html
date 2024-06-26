@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Ai Yori Aoshi</h2>
                     <p>Romance</p>
                     <p>2002</p>
-                    <br><br>
+                    <br>
                     <p>Ai Yori Aoshi follows the story of Kaoru Hanabishi, a university student who unexpectedly reunites with Aoi Sakuraba, a childhood friend with whom he was once betrothed. Despite their complicated past, Aoi decides to live with Kaoru in secret, hoping to reignite their once-strong bond. As their relationship deepens, both Kaoru and Aoi must navigate family expectations and societal pressures to find happiness together.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

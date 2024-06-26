@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">A Traveller's Diary</h2>
                     <p>Other Genre</p>
                     <p>2003</p>
-                    <br><br>
+                    <br>
                     <p>A Traveller's Diary follows the journey of a young wanderer exploring different regions and encountering various cultures, all while chronicling their adventures in a diary. Along the way, they befriend an eclectic group of fellow travelers and together they navigate the highs and lows of their shared experiences. As they continue their quest for new discoveries, bonds are forged and lessons are learned, shaping their individual growth amidst the backdrop of a vast and ever-changing world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

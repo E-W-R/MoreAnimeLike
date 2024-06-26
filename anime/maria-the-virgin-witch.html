@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Maria the Virgin Witch</h2>
                     <p>Romance</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>Maria the Virgin Witch follows the story of Maria, a powerful witch living during the Hundred Years' War in France. Disapproving of the senseless violence, she uses her magic to prevent bloodshed. However, her interference draws the attention of both the heavens and demons, leading to various conflicts. As Maria navigates her way through moral dilemmas and battles, she must also confront the consequences of her actions on both the human and supernatural realms.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Magi: The Labyrinth of Magic</h2>
                     <p>Action</p>
                     <p>2012</p>
-                    <br><br>
+                    <br>
                     <p>Magi: The Labyrinth of Magic follows the adventures of Aladdin, a young magician with a mysterious past, as he explores a world full of magic and myths. Alongside his friends, Alibaba and Morgiana, they uncover the secrets of the Dungeons, powerful ruins that hold untold treasures. As they journey together, they become embroiled in political intrigue and conflicts that will test their bonds and shape the fate of the world.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

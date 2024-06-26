@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Yurikuma Arashi</h2>
                     <p>Drama</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>In a world where bears have inexplicably started attacking humans, a strict exclusion zone is created to protect the population. Two bear-like girls disguised as humans enroll in a high school in the hopes of fostering peace between the two species. As friendships develop and secrets are revealed, the girls find themselves entangled in a complex web of love, prejudice, and betrayal. Will they be able to bridge the gap between bears and humans, or will their efforts end in tragedy?</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

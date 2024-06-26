@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Kemono Friends</h2>
                     <p>Comedy</p>
                     <p>2017</p>
-                    <br><br>
+                    <br>
                     <p>In a vast savanna, a girl wakes up with no memories and finds she has transformed into a serval, a creature known as a Friend. She encounters many other Friends and together they embark on an adventure to find the mysterious Japari Park. Through their journey, they uncover the secrets of their world and the dangers that threaten their home. Bonding through friendship and courage, they strive to protect their land and discover the truth behind their existence.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

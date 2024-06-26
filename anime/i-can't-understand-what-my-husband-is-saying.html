@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">I Can't Understand What My Husband Is Saying</h2>
                     <p>Romance</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>Kaoru is a typical office worker married to Hajime, a hardcore otaku. Despite their differences, they navigate their contrasting lifestyles with love and humor, trying to understand each other's quirks and find common ground. From attending anime conventions to dealing with family gatherings, their daily lives are filled with laughter, challenges, and the realization that love can transcend even the most unexpected differences.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

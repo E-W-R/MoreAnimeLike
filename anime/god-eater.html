@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">God Eater</h2>
                     <p>Action</p>
                     <p>2015</p>
-                    <br><br>
+                    <br>
                     <p>In a post-apocalyptic world overrun by monstrous creatures known as Aragami, humanity's only hope lies in the hands of the God Eaters - powerful warriors who can wield specialized weapons called God Arcs. The story follows a young recruit named Lenka Utsugi as he joins the fight against the Aragami and uncovers dark secrets about the origins of these creatures and the nature of the world they now inhabit.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

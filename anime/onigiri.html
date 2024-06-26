@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Onigiri</h2>
                     <p>Comedy</p>
                     <p>2016</p>
-                    <br><br>
+                    <br>
                     <p>Onigiri follows a group of young women with unique abilities who are known as the Oni clan. Together, they must protect their world from demonic creatures and supernatural threats. As they battle evil forces and uncover dark secrets, they forge strong bonds of friendship and face challenges that will test their powers and resilience. Join them on their action-packed journey as they fight to maintain peace and harmony in their land.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

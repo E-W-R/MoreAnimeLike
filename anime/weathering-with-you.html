@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Weathering with You</h2>
                     <p>Romance</p>
                     <p>2019</p>
-                    <br><br>
+                    <br>
                     <p>In Weathering with You, a high school boy runs away to Tokyo and befriends a mysterious girl with the ability to control the weather. Together, they start a business offering sunshine on rainy days. As their bond deepens, they face the consequences of altering the natural order, leading to a decision that could change the course of their lives. Amidst romance and supernatural elements, they navigate the challenges of fate and sacrifice.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

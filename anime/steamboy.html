@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Steamboy</h2>
                     <p>Action</p>
                     <p>2004</p>
-                    <br><br>
+                    <br>
                     <p>Steamboy follows the story of a young inventor in Victorian England who receives a mysterious metal ball from his scientist grandfather. Unbeknownst to him, the ball holds the key to a powerful source of energy that could change the course of history. As various factions seek to possess the ball for their own gain, the young inventor must navigate a dangerous world of steam-powered technology and political intrigue to protect it.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">DRAMAtical Murder</h2>
                     <p>Mystery</p>
                     <p>2014</p>
-                    <br><br>
+                    <br>
                     <p>In a futuristic city, a popular virtual reality game called Rhyme has taken over daily life, turning into a dangerous competition. Aoba Seragaki prefers to stay out of the game's chaos until a fateful encounter pulls him into the ruthless world of Rhyme. As Aoba delves deeper, he uncovers dark secrets about the game and his own mysterious past, forcing him to confront dangerous adversaries and challenging his perception of reality.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">

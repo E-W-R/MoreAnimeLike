@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
@@ -39,11 +41,11 @@
                     <h2 id="title">Karneval</h2>
                     <p>Mystery</p>
                     <p>2013</p>
-                    <br><br>
+                    <br>
                     <p>Karneval follows Nai, a naive boy searching for a friend named Karoku. His quest leads him to Gareki, a skilled thief, and the mysterious organization Circus. As they uncover dark secrets, they must navigate a dangerous world filled with powerful enemies and deadly creatures. Together, they unravel the truth behind Nai's past and the enigmatic Karoku, all while facing the looming threat of Varuga – monstrous beings that threaten their very existence.</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">
