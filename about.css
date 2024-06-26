@@ -30,19 +30,21 @@ main p {
 
 main img {
     margin-top: 20px;
-    border: 1px solid black;
+    border: 1px solid #eb345e;
 }
 
 .header-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 0px;
+    padding-right: 40px;
     flex-grow: 1; /* Allow the content to grow and center */
 }
 
 .home-icon {
     padding-left: 20px;
+    padding-right: 20px;
     font-size: 2.5em; /* Adjust size as needed */
     color: white; /* Set color for the icon */
 }
@@ -52,13 +54,18 @@ h1 {
     margin-right: 20px;
 }
 
+.search-container {
+    position: relative;
+    display: inline-block; /* Ensure it fits the content */
+}
+
 #searchBox {
     padding: 5px;
     padding-left: 10px;
     font-size: 30px;
     font-weight: bold;
     min-width: 150px;
-    max-width: 60vw;
+    max-width: 25vw;
     border-radius: 10px;
     border: 2px solid #d4d4d4;
     font-family: 'Nunito';
@@ -86,9 +93,12 @@ a {
     border: 2px solid #d4d4d4;
     border-bottom: none;
     border-top: none;
-    z-index: 99;
     background-color: white;
     border-radius: 10px;
+    z-index: 1000; /* Ensure it appears above other elements */
+    top: 100%; /* Position it right below the search box */
+    left: 0;
+    width: 100%; /* Make it match the width of the search box */
 }
 
 .autocomplete-items div {

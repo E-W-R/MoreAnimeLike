@@ -1,9 +1,18 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('list_data.csv')
-ids = list(df.columns)
-score_matrix = df.values
+animes = pd.read_csv('short_anime_data.csv')
+ids = [str(ID) for ID in list(set(animes["main_anime"]))]
+
+df = pd.DataFrame().astype(pd.SparseDtype("float", 0))
+for i in range(1, 10):
+    print(i)
+    ndf = pd.read_csv("/Users/evanrossiter/Documents/Code/Anime-Eye/users/%s.csv" % i, index_col = 0)
+    ndf = ndf.astype(pd.SparseDtype("float", 0))
+    df = pd.concat([df, ndf], ignore_index=True)
+
+ids = list(set(ids) & set(df.columns))
+df = df[ids]
 
 n_cols = len(ids)
 def cosine(v1, v2):
@@ -34,12 +43,12 @@ def mad(v1, v2):
 distance_matrix = np.zeros((n_cols, n_cols))
 for i in range(n_cols):
     print(i)
-    vec = score_matrix[:, i]
-    distances = np.apply_along_axis(lambda col: mad(vec, col),
-        axis = 0, arr = score_matrix)
+    ID = ids[i]
+    vec = df[ID]
+    distances = df.apply(lambda col: common(vec, col), axis = 0)
     distance_matrix[i, :] = distances
 
 out = pd.DataFrame(distance_matrix)
 out.index = ids
 out.columns = ids
-out.to_csv("item_similarities3.csv", index = True)
+out.to_csv("similarities2.csv", index = True)

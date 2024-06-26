@@ -1,3 +1,14 @@
+async function getRandomPage() {
+    const response = await fetch('pages.json');
+    const data = await response.json();
+    const pages = data.pages;
+
+    const randomPage = pages[Math.floor(Math.random() * pages.length)];
+    window.location.href = randomPage;
+}
+
+document.getElementById('randomPageLink').onclick = getRandomPage;
+
 function updateNodeTextColor(color) {
     d3.selectAll(".nodes text").attr("fill", color);
 }
@@ -62,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const svg = d3.select("svg");
         const width = window.innerWidth;
         const height = window.innerHeight - document.querySelector('h1').offsetHeight;
-        const color = d3.scaleOrdinal(d3.schemeCategory10).domain(d3.range(1, 57));
+        const color = d3.scaleOrdinal(d3.schemeCategory10).domain(d3.range(1, 9));
 
         svg.attr("width", width)
         .attr("height", height);
@@ -86,9 +97,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const simulation = d3.forceSimulation(nodes)
             .force("link", d3.forceLink(edges)
                 .id(d => d.id)
-                .distance(d => d.weight * 1000)
+                .distance(d => 1)
             )
-            .force("charge", d3.forceManyBody().strength(-10000))
+            .force("charge", d3.forceManyBody().strength(-20000))
             .force("center", d3.forceCenter(width / 2, height / 2));
 
         const link = container.append("g")
@@ -174,15 +185,12 @@ function autocomplete(inp, searchOptions) {
         closeAllLists();
         if (!val) { return false; }
         currentFocus = -1;
+        const parent = inp.parentNode;
         a = document.createElement("DIV");
         a.setAttribute("id", this.id + "autocomplete-list");
         a.setAttribute("class", "autocomplete-items");
 
-        a.style.left = this.getBoundingClientRect().left + "px";
-        a.style.top = this.getBoundingClientRect().bottom + "px";
-        a.style.width = this.offsetWidth + "px";
-
-        document.body.appendChild(a);
+        parent.appendChild(a); // Append to the parent container
 
         const filteredOptions = searchOptions.filter(option => 
             option.name.toUpperCase().startsWith(val.toUpperCase())
