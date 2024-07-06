@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /blocked-page/
+Disallow:
+
+Sitemap: https://www.moreanimelike.com/sitemap.xml
