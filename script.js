@@ -85,7 +85,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const svg = d3.select("svg");
         const width = window.innerWidth;
         const height = window.innerHeight - document.querySelector('h1').offsetHeight;
-        const color = d3.scaleOrdinal(d3.schemeCategory10).domain(d3.range(1, 9));
+        const color = d3.scaleOrdinal()
+            .domain(d3.range(1, 10))
+            .range(['green', '#7d45a3', 'black', '#6265f0', '#f081b9', '#e35252', '#90c6f0', 'yellow', 'grey']);
+
 
         svg.attr("width", width)
         .attr("height", height);
