@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like selector infected WIXOSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "22273";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/13/70147l.jpg" alt="selector infected WIXOSS">
+                <div>
+                    <h2 id="title">selector infected WIXOSS</h2>
+                    <p>Psychological</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In selector infected WIXOSS, high school student Ruko unwillingly becomes involved in the popular trading card game WIXOSS, where players battle each other to have their wishes granted. Discovering the dark and dangerous consequences of the game, Ruko must navigate complex relationships with other players and powerful entities known as Selectors. As the battles escalate, Ruko must decide what she is willing to risk in order to achieve her own desires.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1945/126130l.jpg" alt="When Will Ayumu Make His Move?">
+                </div>
+                <div class="details">
+                    <a href="when-will-ayumu-make-his-move%3F"><h3>When Will Ayumu Make His Move?</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Ayumu is a shy high school student who has feelings for his outgoing and popular classmate, Maki. With the help of his friends, he embarks on a journey to find the courage to confess his feelings to her. As Ayumu navigates through the challenges of school life and relationships, he must confront his own insecurities and fears in order to take a leap of faith and express his love for Maki.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/76691l.jpg" alt="Rainbow Days">
+                </div>
+                <div class="details">
+                    <a href="rainbow-days"><h3>Rainbow Days</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Rainbow Days follows the lives of four high school boys as they navigate the ups and downs of adolescence, friendship, and first loves. Natsuki, Tomoya, Keiichi, and Tsuyoshi each have their own unique personalities and love interests, leading to comedic and heartwarming situations. Through their experiences, the boys learn valuable lessons about relationships and the importance of friendship. Join them on their journey of self-discovery and youthful adventures in this light-hearted slice-of-life anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/46549l.jpg" alt="Hal">
+                </div>
+                <div class="details">
+                    <a href="hal"><h3>Hal</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>After an accident claims the life of his girlfriend, a grief-stricken young man hires a high-tech robotic company to create an android clone of her. As the android's memories and emotions begin to blend with the original girlfriend's, the young man is faced with the ultimate decision of letting go or holding on to the past. Will he find closure or spiral deeper into his despair?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1932/127228l.jpg" alt="Raven of the Inner Palace">
+                </div>
+                <div class="details">
+                    <a href="raven-of-the-inner-palace"><h3>Raven of the Inner Palace</h3></a>
+                    <p>Mystery</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a mystical realm where ancient traditions clash with modern ideals, a young woman rises through the ranks of the palace hierarchy to become the mysterious and powerful Raven. As she navigates courtly politics and uncovers dark secrets within the inner sanctum, she must wield her unique abilities to protect those she holds dear. But with treachery and betrayal lurking behind every ornate tapestry, can she safeguard the kingdom from imminent danger?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1897/131300l.jpg" alt="Sugar Apple Fairy Tale">
+                </div>
+                <div class="details">
+                    <a href="sugar-apple-fairy-tale"><h3>Sugar Apple Fairy Tale</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where magical creatures and humans coexist, a young and ambitious fairy named Lily dreams of becoming the most skilled confectioner in the land. When she discovers a mysterious sugar apple that grants extraordinary powers to whoever consumes it, Lily embarks on a journey to perfect her craft. Along the way, she faces challenges, makes new friends, and learns valuable lessons about the true meaning of magic and friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1925/105508l.webp" alt="The Daily Life of the Immortal King">
+                </div>
+                <div class="details">
+                    <a href="the-daily-life-of-the-immortal-king"><h3>The Daily Life of the Immortal King</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Wang Ling, a high school student, possesses incredible powers making him practically invincible. Despite his extraordinary abilities, he chooses to live a normal life, much to the surprise of those around him. As he navigates the challenges of high school and being an immortal, he forms friendships and faces various situations that test his powers. With enemies lurking in the shadows, Wang Ling must balance his daily life with his true identity as the Immortal King.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1739/124338l.jpg" alt="Tales of Zestiria the X">
+                </div>
+                <div class="details">
+                    <a href="tales-of-zestiria-the-x"><h3>Tales of Zestiria the X</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where humans and supernatural beings coexist, a young man named Sorey discovers his destiny as the Shepherd, a legendary figure said to bring peace to the land. With newfound companions, Sorey embarks on a journey to purify the malevolent beings known as Hellions and save the world from a looming darkness. As he uncovers the secrets of his past and the true nature of the world around him, Sorey must overcome numerous challenges to fulfill his role as the Shepherd.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1900/142496l.jpg" alt="Aura: Koga Maryuin's Last War">
+                </div>
+                <div class="details">
+                    <a href="aura%3A-koga-maryuin%27s-last-war"><h3>Aura: Koga Maryuin's Last War</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Ichiro is a high school student who becomes interested in a girl named Ryouko, who claims to be a magician from another world. Ryouko's eccentric behavior leads to rumors and bullying. As Ichiro tries to understand Ryouko, he uncovers the connection between her past trauma and her fantastical beliefs. The story follows their journey of self-discovery and acceptance in the face of societal pressure and personal struggles.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/80746l.jpg" alt="Scorching Ping Pong Girls">
+                </div>
+                <div class="details">
+                    <a href="scorching-ping-pong-girls"><h3>Scorching Ping Pong Girls</h3></a>
+                    <p>Sports</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Scorching Ping Pong Girls, high school student Agari is challenged by transfer student Koyori, a talented table tennis player. As Agari joins the school's table tennis club to compete with Koyori, she realizes her passion for the sport and forms new friendships with her teammates. Together, they train hard to compete in the Nationals tournament, facing tough opponents and overcoming various challenges along the way. A story of friendship, rivalry, and the competitive world of table tennis unfolds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1733/140802l.jpg" alt="The Wrong Way to Use Healing Magic">
+                </div>
+                <div class="details">
+                    <a href="the-wrong-way-to-use-healing-magic"><h3>The Wrong Way to Use Healing Magic</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After accidentally killing a demon lord, novice healer Mitoshi is banished to a remote village. With no combat skills, he relies on his healing magic to survive, but there's a catch: he can only use it for destructive purposes. As he navigates his new life, Mitoshi must find a way to control his powers and protect those around him from the dangers that threaten the village.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1280/138474l.jpg" alt="The Weakest Tamer Began a Journey to Pick Up Trash">
+                </div>
+                <div class="details">
+                    <a href="the-weakest-tamer-began-a-journey-to-pick-up-trash"><h3>The Weakest Tamer Began a Journey to Pick Up Trash</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a world where magical creatures roam freely, a young tamer with no combat skills sets out on an unconventional journey. Determined to prove his worth despite being labeled the weakest tamer, he embarks on a quest to pick up trash scattered by unruly creatures. Along the way, he forms unexpected friendships and learns valuable lessons about perseverance and the true meaning of strength. His seemingly mundane mission soon becomes a transformative adventure that impacts the entire realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1284/106945l.jpg" alt="Arte">
+                </div>
+                <div class="details">
+                    <a href="arte"><h3>Arte</h3></a>
+                    <p>Drama</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a time where women are expected to conform to societal norms, Arte, a young noblewoman in 16th century Florence, Italy, dreams of becoming an artist. Despite her family's disapproval, she apprentices under a skilled master to pursue her passion for art. Through dedication and perseverance, Arte navigates the challenges of a male-dominated field, forging her path as a professional artist. Will she prove that talent knows no gender boundaries in the Renaissance art world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/64897l.jpg" alt="Inari Kon Kon">
+                </div>
+                <div class="details">
+                    <a href="inari-kon-kon"><h3>Inari Kon Kon</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Inari Kon Kon, a young girl named Inari saves a fox spirit from danger and is granted the ability to transform into anyone she wants. With her newfound power, Inari navigates her daily life, learning valuable lessons about friendship and self-acceptance along the way. As she tries to balance her ordinary life with extraordinary abilities, Inari must also come to terms with her own desires and insecurities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/52125l.jpg" alt="Stella Women's Academy, High School Division Class C³">
+                </div>
+                <div class="details">
+                    <a href="stella-women%27s-academy%2C-high-school-division-class-c%C2%B3"><h3>Stella Women's Academy, High School Division Class C³</h3></a>
+                    <p>Sports</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Yura Yamato enrolls at Stella Women's Academy with dreams of a perfect school life, but she quickly finds herself dragged into the intense world of airsoft by a group of eccentric upperclassmen. As Yura learns the art of airsoft battles and forms deep bonds with her new teammates in Class C³, she discovers a newfound passion and confidence within herself. Together, they navigate the challenges of friendship, teamwork, and facing formidable opponents in thrilling airsoft matches.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1940/124243l.jpg" alt="Rec">
+                </div>
+                <div class="details">
+                    <a href="rec"><h3>Rec</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>In the anime Re:Creators, characters from various manga, anime, and video games are brought to life and enter the real world. As they struggle to understand their new reality, they are faced with the responsibility of protecting the world from a mysterious force that threatens to destroy everything they know. The creators of these characters are also pulled into the chaos, blurring the lines between fiction and reality as they work together to unravel the truth behind this phenomenon.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/61781l.webp" alt="Chaika -The Coffin Princess-">
+                </div>
+                <div class="details">
+                    <a href="chaika--the-coffin-princess-"><h3>Chaika -The Coffin Princess-</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Chaika -The Coffin Princess- follows a young girl named Chaika who travels with two saboteurs, searching for the remains of her father in a post-war fantasy world. With a mysterious coffin in tow and unique magical abilities, Chaika encounters challenges and adversaries on her journey. As secrets unravel and loyalties are tested, Chaika must navigate political intrigue and confront the truth about her identity to fulfill her mission.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/79670l.jpg" alt="High School Fleet">
+                </div>
+                <div class="details">
+                    <a href="high-school-fleet"><h3>High School Fleet</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where the sea covers the Earth, young girls enroll in high schools to train as Blue Mermaids, a naval organization tasked with protecting the seas. A group of students at Yokosuka Girls' Marine High School must come together to navigate intense naval battles and face unknown threats. As they strive to become full-fledged Blue Mermaids, friendships are tested, and the true strength of their bonds is revealed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1216/111637l.webp" alt="Diary of Our Days at the Breakwater">
+                </div>
+                <div class="details">
+                    <a href="diary-of-our-days-at-the-breakwater"><h3>Diary of Our Days at the Breakwater</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Hina Tsurugi moves to a coastal town and joins the Breakwater Club to make new friends and combat her fear of the ocean. With the help of her clubmates, she learns the art of saltwater fishing and immerses herself in the beauty of the ocean. Bonding over their shared love for fishing, the girls navigate the challenges of the sea and form strong friendships along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1444/140760l.jpg" alt="Comic Girls">
+                </div>
+                <div class="details">
+                    <a href="comic-girls"><h3>Comic Girls</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Four aspiring female manga artists live together in a dormitory to improve their skills and chase their dreams of becoming successful mangaka. Despite their different personalities and drawing styles, they navigate the challenges of the competitive industry, offering each other support and inspiration along the way. As they work hard to achieve their goals, they also bond over their shared passion for creating manga and form lasting friendships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/75202l.jpg" alt="Heaven's Memo Pad">
+                </div>
+                <div class="details">
+                    <a href="heaven%27s-memo-pad"><h3>Heaven's Memo Pad</h3></a>
+                    <p>Mystery</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Heaven's Memo Pad follows Narumi Fujishima, a high school student who gets entangled with the enigmatic NEET detective Alice and her team who solve cases using their exceptional hacking skills and intellect. As Narumi becomes Alice's assistant, he delves into the world of mysteries and crime lurking in the shadows of society. Together, they unravel complex cases and confront dangerous adversaries, all while exploring the intricate workings of human nature and emotions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1120/124644l.jpg" alt="Parallel World Pharmacy">
+                </div>
+                <div class="details">
+                    <a href="parallel-world-pharmacy"><h3>Parallel World Pharmacy</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Reiji Kirio is a young pharmacist who mysteriously gets summoned to a fantasy world where magic and alchemy exist. Using his knowledge of modern pharmacology, Reiji decides to open up his own pharmacy in this new world. As he crafts unique potions and remedies, Reiji finds himself caught up in various adventures and encounters with mystical creatures. Will his pharmaceutical expertise be enough to navigate this unfamiliar and dangerous realm?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1430/120065l.jpg" alt="Life with an Ordinary Guy who Reincarnated into a Total Fantasy Knockout">
+                </div>
+                <div class="details">
+                    <a href="life-with-an-ordinary-guy-who-reincarnated-into-a-total-fantasy-knockout"><h3>Life with an Ordinary Guy who Reincarnated into a Total Fantasy Knockout</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After dying in a random accident, an ordinary salaryman is reincarnated in a fantasy world as a beautiful girl with incredible magical abilities. Adjusting to his new life, he navigates the challenges of school and relationships, all while keeping his true identity hidden. As he learns more about his powers and the world around him, he must also confront the mystery of his reincarnation and the potential dangers that come with it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/73932l.webp" alt="Hayate the Combat Butler">
+                </div>
+                <div class="details">
+                    <a href="hayate-the-combat-butler"><h3>Hayate the Combat Butler</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>After being abandoned by his parents, Hayate Ayasaki becomes a butler to a wealthy girl, Nagi Sanzenin, to repay his family's debt. Despite his difficult past, Hayate navigates the challenges of serving Nagi alongside her other eccentric employees. As a series of comical and heartwarming events unfold, Hayate gradually forms special bonds with Nagi and discovers the true meaning of family and friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1908/93416l.jpg" alt="Boarding School Juliet">
+                </div>
+                <div class="details">
+                    <a href="boarding-school-juliet"><h3>Boarding School Juliet</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a world where two rival factions of students, the Black Dogs and the White Cats, vie for power, two star-crossed lovers find themselves caught in the middle. Romio, the leader of the Black Dogs, and Juliet, the leader of the White Cats, must hide their forbidden relationship from their peers while navigating the dangerous waters of high school politics. Will their love overcome the divide between their warring factions?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1901/139910l.jpg" alt="Tearmoon Empire">
+                </div>
+                <div class="details">
+                    <a href="tearmoon-empire"><h3>Tearmoon Empire</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In the Tearmoon Empire, a spoiled noblewoman is suddenly reincarnated as the villainess in her favorite otome game. Determined to avoid her character's tragic fate, she must navigate political intrigue, mend relationships with the game's characters, and secure her happy ending. With her sharp wit and charm, she sets out to rewrite her destiny and become the beloved queen of the empire.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1602/100510l.jpg" alt="We Never Learn: BOKUBEN">
+                </div>
+                <div class="details">
+                    <a href="we-never-learn%3A-bokuben"><h3>We Never Learn: BOKUBEN</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>We Never Learn: BOKUBEN follows Nariyuki Yuiga, a hardworking high school student tasked with tutoring three genius girls in different subjects to secure a scholarship. However, each girl excels in areas outside their specialty, leading to comedic and heartwarming mishaps as Nariyuki helps them navigate their academic and personal struggles. As he forms close bonds with the girls, Nariyuki realizes there might be more to teaching and learning than just books and exams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1823/136763l.jpg" alt="Un-Go">
+                </div>
+                <div class="details">
+                    <a href="un-go"><h3>Un-Go</h3></a>
+                    <p>Mystery</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Un-Go follows Shinjuurou Yuuki, a detective in post-war Japan, and his quirky partner, Inga, who has the ability to transform and extract the truth from suspects. Together, they solve mysterious and often supernatural cases that challenge the realm of human understanding. Despite facing cover-ups and political intrigue, Shinjuurou unravels each mystery with his sharp wit and determination. With Inga's unique abilities and Shinjuurou's keen intellect, they navigate through a world filled with deception and uncover the truth hidden within each case.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1751/98216l.jpg" alt="Senryu Girl">
+                </div>
+                <div class="details">
+                    <a href="senryu-girl"><h3>Senryu Girl</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Nanako Yukishiro, a shy high school girl who communicates through Senryu (a form of haiku poetry), befriends the ex-delinquent Eiji Busujima. As the two navigate school life together, they find comfort and friendship in each other's company. Through their interactions and written poetry, they learn more about each other and themselves. Senryu Girl explores the bond formed through shared experiences and the power of words to connect individuals.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/76071l.jpg" alt="The Perfect Insider">
+                </div>
+                <div class="details">
+                    <a href="the-perfect-insider"><h3>The Perfect Insider</h3></a>
+                    <p>Mystery</p>
+                    <p>2015</p>
+                    <br>
+                    <p>A university professor and his student find themselves tangled in a murder mystery when a brilliant but reclusive research student is found dead in a locked room on a remote island. As they investigate the case, they uncover dark secrets and complex relationships that blur the lines between genius and madness. The professor and his student must use their intellect to unravel the truth behind the mysterious murder.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/83575l.jpg" alt="Tari Tari">
+                </div>
+                <div class="details">
+                    <a href="tari-tari"><h3>Tari Tari</h3></a>
+                    <p>Other Genre</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Tari Tari, a group of high school students with a shared passion for music come together to form a choir club. They face various challenges and obstacles as they strive to reach their goal of performing in a music competition. Each member of the group has their own personal struggles and reasons for joining the club, leading to growth and bonding as they work towards a common dream.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

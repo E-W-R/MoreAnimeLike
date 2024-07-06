@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Murder Princess</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "1696";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/5/19558l.webp" alt="Murder Princess">
+                <div>
+                    <h2 id="title">Murder Princess</h2>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In Murder Princess, Princess Alita finds herself switching bodies with a notorious bounty hunter named Falis after their kingdom is attacked. With their identities reversed, they must work together to protect the kingdom from various threats. As they navigate their new lives, they uncover dark secrets and face powerful enemies, testing their skills and trust in each other. Will they be able to reclaim their original bodies and save the kingdom?</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 99%;"></span>
+                            </div>
+                            <p>99% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/15940l.jpg" alt="The Sacred Blacksmith">
+                </div>
+                <div class="details">
+                    <a href="the-sacred-blacksmith"><h3>The Sacred Blacksmith</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After losing her father, Cecily joins the Knight Guards to protect her city. During a battle, she encounters a mysterious swordsman named Luke, who also happens to be a talented blacksmith. As they team up to fight against demonic foes with powerful swords forged by Luke, Cecily learns more about his past and the truth behind the Sacred Blacksmith. Together, they face challenges and uncover dark secrets in a world threatened by chaos.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 83%;"></span>
+                            </div>
+                            <p>83% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/64813l.jpg" alt="Blue Spring Ride">
+                </div>
+                <div class="details">
+                    <a href="blue-spring-ride"><h3>Blue Spring Ride</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Futaba Yoshioka, a high school girl who has lost touch with her first love, Kou Mabuchi, due to a misunderstanding, meets him again. Kou, now a changed person, goes by the name Kou Mabuchi. As Futaba and Kou rekindle their friendship, they navigate the complexities of love and high school life together. The series follows their emotional journey as they confront their past and strive to understand their feelings for each other.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1424/108431l.jpg" alt="Rozen Maiden">
+                </div>
+                <div class="details">
+                    <a href="rozen-maiden"><h3>Rozen Maiden</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Sakurada Jun, a reclusive boy, receives a mysterious package containing a doll. To his surprise, the doll comes to life and reveals herself as Shinku, a Rozen Maiden. Jun is reluctantly pulled into a deadly battle royale between Shinku and other dolls, known as the Alice Game. As Jun helps Shinku in her quest to become the ultimate Rozen Maiden, he faces challenges that push him out of his comfort zone and reveal hidden truths about the dolls and himself.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/75585l.jpg" alt="The Troubled Life of Miss Kotoura">
+                </div>
+                <div class="details">
+                    <a href="the-troubled-life-of-miss-kotoura"><h3>The Troubled Life of Miss Kotoura</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>After inadvertently exposing her telepathic abilities as a child, Haruka Kotoura becomes an outcast due to the turmoil she causes in people's lives. When she transfers to a new high school, she meets Manabe, a boy who accepts her for who she is. Together with new friends, they navigate challenges while unraveling the mysteries of Haruka's past and the connection to her powers. The series explores friendship, trust, and the power of empathy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1183/133280l.webp" alt="Black Cat">
+                </div>
+                <div class="details">
+                    <a href="black-cat"><h3>Black Cat</h3></a>
+                    <p>Action</p>
+                    <p>2005</p>
+                    <br>
+                    <p>Black Cat follows the story of Train Heartnet, an assassin working for a secret organization. After an encounter with a mysterious woman named Saya, Train starts to question his motives and eventually leaves his life as a killer behind. However, his past catches up with him when a new threat emerges, forcing Train to confront his old allies and face the consequences of his actions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1564/90469l.webp" alt="B: The Beginning">
+                </div>
+                <div class="details">
+                    <a href="b%3A-the-beginning"><h3>B: The Beginning</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a futuristic world, a mysterious criminal mastermind known as Killer B terrorizes the city, leaving cryptic messages in his wake. At the same time, a brilliant detective with a dark past, teams up with a group of special agents to track down this elusive killer. As the investigation unfolds, secrets and conspiracies are revealed, leading to a thrilling cat-and-mouse game between the detective and the criminal.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/64897l.jpg" alt="Inari Kon Kon">
+                </div>
+                <div class="details">
+                    <a href="inari-kon-kon"><h3>Inari Kon Kon</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Inari Kon Kon, a young girl named Inari saves a fox spirit from danger and is granted the ability to transform into anyone she wants. With her newfound power, Inari navigates her daily life, learning valuable lessons about friendship and self-acceptance along the way. As she tries to balance her ordinary life with extraordinary abilities, Inari must also come to terms with her own desires and insecurities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/60479l.jpg" alt="Riddle Story of Devil">
+                </div>
+                <div class="details">
+                    <a href="riddle-story-of-devil"><h3>Riddle Story of Devil</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a prestigious all-girls school, Class Black is composed of twelve assassins tasked with targeting a single target: their innocent classmate, Haru Ichinose. Tokaku Azuma, one of the assassins, finds herself drawn to Haru and vows to protect her from the deadly game they are all a part of. As Tokaku navigates the dangerous waters of betrayal and intrigue within the class, she uncovers dark secrets that will challenge everything she knows.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1928/117620l.webp" alt="The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat">
+                </div>
+                <div class="details">
+                    <a href="the-world%27s-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat"><h3>The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>When a legendary assassin is offered the chance to start a new life in a fantasy world, he's reborn as an aristocrat with a mission: to eliminate the hero chosen by the gods. As he navigates the intrigues of the noble court, he must conceal his deadly skills and forge unexpected alliances to carry out his lethal task. Will he succeed in his mission, or will the bonds he forms in this new world change his deadly fate forever?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/89987l.jpg" alt="Kokkoku">
+                </div>
+                <div class="details">
+                    <a href="kokkoku"><h3>Kokkoku</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>When a family member is kidnapped by a dangerous cult, Juri and her grandfather unlock a mysterious ability called Stasis, which allows them to stop time. As they navigate a strange frozen world filled with otherworldly beings known as Handlers, they must unravel the mysteries behind the cult and save their loved one. Time manipulation, family bonds, and survival instincts collide in this supernatural thriller.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/26417l.jpg" alt="Devil May Cry">
+                </div>
+                <div class="details">
+                    <a href="devil-may-cry"><h3>Devil May Cry</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In Devil May Cry, the story follows Dante, a demon hunter with supernatural abilities who operates a paranormal investigation and security service. Alongside his partners, including the demon hunter Trish and the young demon-hunter-in-training Patty, Dante takes on jobs involving the supernatural while uncovering secrets from his own past. Facing various demons and sinister forces, Dante must use his combat skills and wit to protect the human world from evil threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/48817l.jpg" alt="Gargantia on the Verdurous Planet">
+                </div>
+                <div class="details">
+                    <a href="gargantia-on-the-verdurous-planet"><h3>Gargantia on the Verdurous Planet</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Gargantia on the Verdurous Planet, a young pilot, Ledo, finds himself stranded on a water-covered Earth after a battle with alien creatures. He is taken in by the fleet Gargantia, a community of people living on large ships. As Ledo learns to adapt to this new way of life and forms bonds with the residents, he begins to question his mission and the true nature of the war he has been fighting.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/21197l.jpg" alt="Shakugan no Shana: Season I">
+                </div>
+                <div class="details">
+                    <a href="shakugan-no-shana%3A-season-i"><h3>Shakugan no Shana: Season I</h3></a>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>In Shakugan no Shana: Season I, high school student Yuji Sakai discovers he's a Mystes and becomes entangled in a world of Crimson Denizens, vicious beings that consume human lives. He joins forces with the Flame Haze warrior Shana, who wields a powerful katana and fights to maintain balance in the world. Together, they battle the relentless Denizens while unraveling the mysteries of their existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1753/116290l.webp" alt="The Dungeon of Black Company">
+                </div>
+                <div class="details">
+                    <a href="the-dungeon-of-black-company"><h3>The Dungeon of Black Company</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Kanji, a corporate slave, gets transported to a fantasy world where he must work in a harsh mining company to survive. Using his wits, Kanji navigates through dangerous dungeons filled with monsters and traps to fulfill his dream of becoming rich and living a luxurious life. As he forms unlikely alliances and encounters formidable foes, Kanji must outsmart his way to the top of the company and find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/75240l.webp" alt="Okami-San and Her Seven Companions">
+                </div>
+                <div class="details">
+                    <a href="okami-san-and-her-seven-companions"><h3>Okami-San and Her Seven Companions</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In a world where favors can be traded like commodities, the strong-willed and brave Ami works as a go-to girl for solving problems at her high school. Alongside her loyal friend Ryoko, they form a group dedicated to helping others. When a mysterious boy named Ryoshi enters their lives, secrets start to unravel, and unexpected adventures await the group as they navigate through friendships, rivalries, and the complexities of teenage life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/64911l.jpg" alt="Lord Marksman and Vanadis">
+                </div>
+                <div class="details">
+                    <a href="lord-marksman-and-vanadis"><h3>Lord Marksman and Vanadis</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a war-torn land, a skilled archer named Tigrevurmud Vorn is captured by a beautiful and powerful war maiden known as Elen. Instead of killing him, Elen spares Tigre's life and takes him as her prisoner. As the two navigate the complexities of a violent kingdom, they must join forces to overcome political intrigue, rival factions, and magical threats. Together, they strive to bring peace to the war-ravaged land.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/85593l.jpg" alt="Akashic Records of Bastard Magic Instructor">
+                </div>
+                <div class="details">
+                    <a href="akashic-records-of-bastard-magic-instructor"><h3>Akashic Records of Bastard Magic Instructor</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a world where magic is taught in prestigious academies, a lazy, apathetic former student is hired as a substitute teacher at the Alzano Imperial Magic Academy. Glenn Radars lacks enthusiasm but possesses formidable magical abilities. He is assigned to teach a class of talented students, including the hardworking and ambitious Sistine Fibel. As Glenn's unconventional teaching methods clash with Sistine's dedication to mastering magic, mysterious forces threaten the academy, forcing them to confront their differences and work together to protect their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/75789l.webp" alt="Canaan">
+                </div>
+                <div class="details">
+                    <a href="canaan"><h3>Canaan</h3></a>
+                    <p>Mystery</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Canaan, featuring an intricate storyline, an ex-soldier and current mercenary struggles with her traumatic past. She crosses paths with a journalist and a young girl, and together they face a terrorist organization plotting a deadly attack. As they uncover the dark secrets behind the group and their own connections to it, they find themselves entangled in a dangerous web of conspiracy and betrayal.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/67047l.jpg" alt="When Supernatural Battles Became Commonplace">
+                </div>
+                <div class="details">
+                    <a href="when-supernatural-battles-became-commonplace"><h3>When Supernatural Battles Became Commonplace</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Five high school students gain supernatural abilities, but soon realize they're not as exciting as they had hoped. As they try to navigate their new powers in their everyday lives, they uncover more about each other and themselves. With the sudden emergence of these abilities, the students must come to terms with the responsibilities that come with them and figure out how to use their powers for good.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/75550l.webp" alt="Student Council Staff Members">
+                </div>
+                <div class="details">
+                    <a href="student-council-staff-members"><h3>Student Council Staff Members</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In a prestigious high school, a group of dedicated students come together to form the Student Council. As they navigate the challenges of school life, from organizing events and addressing student concerns to balancing their personal lives, the council members develop deep friendships and discover the importance of working together to make a positive impact on their school community. Through dedication and teamwork, they strive to create a better environment for everyone.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/12238l.jpg" alt="Chrome Shelled Regios">
+                </div>
+                <div class="details">
+                    <a href="chrome-shelled-regios"><h3>Chrome Shelled Regios</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In a post-apocalyptic world where humanity lives in mobile cities to escape pollution and contaminated air, a young fighter named Layfon struggles to keep his troubled past hidden. When his true abilities come to light, Layfon is forced to join the military arts academy to defend his city from dangerous creatures known as Contaminoids. As he trains to become stronger, Layfon uncovers dark conspiracies and must face his inner demons to protect his new home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1297/118764l.webp" alt="How a Realist Hero Rebuilt the Kingdom">
+                </div>
+                <div class="details">
+                    <a href="how-a-realist-hero-rebuilt-the-kingdom"><h3>How a Realist Hero Rebuilt the Kingdom</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>When the protagonist is summoned to another world to be the hero, he decides to use his knowledge of modern economics and politics to rebuild the kingdom instead. With his strategic thinking and innovative ideas, he sets out to improve the country's economy, infrastructure, and overall well-being. However, he faces challenges and opposition from different factions within the kingdom as he navigates the complex world of politics and governance. Will his efforts to reform the kingdom be successful?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1120/124644l.jpg" alt="Parallel World Pharmacy">
+                </div>
+                <div class="details">
+                    <a href="parallel-world-pharmacy"><h3>Parallel World Pharmacy</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Reiji Kirio is a young pharmacist who mysteriously gets summoned to a fantasy world where magic and alchemy exist. Using his knowledge of modern pharmacology, Reiji decides to open up his own pharmacy in this new world. As he crafts unique potions and remedies, Reiji finds himself caught up in various adventures and encounters with mystical creatures. Will his pharmaceutical expertise be enough to navigate this unfamiliar and dangerous realm?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/79205l.webp" alt="Karin">
+                </div>
+                <div class="details">
+                    <a href="karin"><h3>Karin</h3></a>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>Karin follows the life of Karin Maaka, a vampire born into a family of vampires who is different from the rest—she produces blood instead of drinking it. She struggles to fit in and keep her secret hidden while navigating high school life. Things take a turn when she meets Kenta Usui, a human boy who discovers her unique condition. As their friendship develops, Karin's world becomes more complicated as she tries to balance her feelings for Kenta and the challenges of being a vampire in a human world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1558/100478l.jpg" alt="Kaze no Stigma">
+                </div>
+                <div class="details">
+                    <a href="kaze-no-stigma"><h3>Kaze no Stigma</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>After being banished from his family for his lack of talent in fire magic, Kazuma returns years later as a skilled wind magic user. He teams up with Ayano, a powerful fire magic user from the prestigious Kannagi family, to solve supernatural mysteries and battle evil spirits. As they navigate their turbulent partnership, they uncover dark secrets and must work together to protect their loved ones and the world from dangerous threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/75662l.webp" alt="Campione!">
+                </div>
+                <div class="details">
+                    <a href="campione%21"><h3>Campione!</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After defeating the god of war in battle, high school student Godou Kusanagi gains the title of Campione, a godslayer. He is soon thrust into a world of deities and mythical creatures, tasked with protecting both the mortal and divine realms from chaos. Alongside the help of his newfound powers and a group of loyal companions, Godou navigates through dangerous encounters and battles against powerful gods to maintain balance in the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/73984l.jpg" alt="Ben-To">
+                </div>
+                <div class="details">
+                    <a href="ben-to"><h3>Ben-To</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In a world where discounted bento boxes are fiercely fought over before the supermarket closes, a half-asleep high school student named Sato finds himself caught in the middle of these intense brawls. With the help of mysterious beauty Sen Yarizui and their eccentric allies, Sato must navigate the chaotic world of half-price bentos and claim his own meals through fierce battles against other bento hunters. But as he delves deeper into this war zone, Sato discovers there's more to these battles than just food.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1940/98844l.jpg" alt="Maria the Virgin Witch">
+                </div>
+                <div class="details">
+                    <a href="maria-the-virgin-witch"><h3>Maria the Virgin Witch</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Maria the Virgin Witch follows the story of Maria, a powerful witch living during the Hundred Years' War in France. Disapproving of the senseless violence, she uses her magic to prevent bloodshed. However, her interference draws the attention of both the heavens and demons, leading to various conflicts. As Maria navigates her way through moral dilemmas and battles, she must also confront the consequences of her actions on both the human and supernatural realms.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/54343l.jpg" alt="Outbreak Company">
+                </div>
+                <div class="details">
+                    <a href="outbreak-company"><h3>Outbreak Company</h3></a>
+                    <p>Isekai</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Shinichi Kanou, a hardcore otaku, is recruited by the Japanese government to promote otaku culture in a fantasy world. He must navigate political intrigue, cultural differences, and a language barrier to spread his love for anime, manga, and video games. As he immerses himself in this new world, Shinichi learns valuable lessons about acceptance, diversity, and the power of pop culture.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/37947l.jpg" alt="Medaka Box">
+                </div>
+                <div class="details">
+                    <a href="medaka-box"><h3>Medaka Box</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Medaka Kurokami, the perfect student, is elected as the student council president due to her overwhelming popularity. She implements a suggestion box where students can submit any request for assistance. Along with her childhood friend Zenkichi, they tackle various challenges and help their fellow students. As the requests become more difficult, Medaka's boundless optimism and strong sense of justice will be tested as she delves into the mysteries surrounding the academy.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Eromanga Sensei</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "32901";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/2/86468l.jpg" alt="Eromanga Sensei">
+                <div>
+                    <h2 id="title">Eromanga Sensei</h2>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Eromanga Sensei follows high school student Masamune Izumi, a light novel author who collaborates with a mysterious illustrator known as Eromanga Sensei. Masamune soon discovers that Eromanga Sensei is his reclusive younger step-sister Sagiri. Together, they navigate the challenges of the publishing industry and form a heartwarming bond as they work together to create popular light novels. However, their journey is filled with comedic mishaps and unexpected developments that test their relationship.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/89979l.jpg" alt="The Ryuo's Work is Never Done!">
+                </div>
+                <div class="details">
+                    <a href="the-ryuo%27s-work-is-never-done%21"><h3>The Ryuo's Work is Never Done!</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Sixteen-year-old Yaichi Kuzuryu is a professional shogi player who holds the title of Ryuo. When a nine-year-old girl named Ai Hinatsuru declares she wants to become his disciple, Yaichi reluctantly agrees. As they form an unlikely mentorship, Yaichi navigates the complexities of the shogi world while helping Ai grow as a player. Together, they face challenges, forge friendships, and strive to become stronger in the world of competitive shogi.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/51459l.webp" alt="Kono Naka ni Hitori, Imouto ga Iru!: Ani, Imouto, Koibito">
+                </div>
+                <div class="details">
+                    <a href="kono-naka-ni-hitori%2C-imouto-ga-iru%21%3A-ani%2C-imouto%2C-koibito"><h3>Kono Naka ni Hitori, Imouto ga Iru!: Ani, Imouto, Koibito</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Shougo Mikadono's late father's will states that he must attend Miryuuin Academy for high school and find a wife there. However, he learns that he has a younger sister he has never met who also attends the academy. Determined to find out who she is, Shougo navigates through a series of romantic mishaps and misunderstandings while trying to uncover the identity of his elusive sister.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/83995l.jpg" alt="Armed Girl's Machiavellism">
+                </div>
+                <div class="details">
+                    <a href="armed-girl%27s-machiavellism"><h3>Armed Girl's Machiavellism</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Fudo Nomura enrolls in Aichi Coexist Academy, where girls carry weapons to control the male students. Refusing to conform, Nomura challenges the Supreme Five Swords in duels to maintain his independence and protect his friends. As he faces powerful opponents with unique combat styles, he uncovers the truth behind the academy's strict rules and seeks to bring about change while navigating complex relationships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/76542l.jpg" alt="Shomin Sample">
+                </div>
+                <div class="details">
+                    <a href="shomin-sample"><h3>Shomin Sample</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Kimito Kagurazaka is an ordinary high school student until he is kidnapped and transferred to an elite all-girls school where the students have no knowledge of the outside world. To prevent panic, Kimito must pretend to be a commoner and teach the girls about life beyond their sheltered environment. With challenges and misunderstandings aplenty, Kimito navigates his unusual situation while trying to uphold his secret and keep the girls from finding out the truth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1539/124746l.jpg" alt="Miss Caretaker of Sunohara-sou">
+                </div>
+                <div class="details">
+                    <a href="miss-caretaker-of-sunohara-sou"><h3>Miss Caretaker of Sunohara-sou</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Yuzu Aizawa moves into the eccentric Sunohara-sou boarding house to attend high school. She soon discovers her caretaker, Ayaka Sunohara, is not only beautiful but also a playful sadist. Yuzu navigates her new life filled with over-the-top antics and eccentric residents, all while developing close bonds with her new friends and trying to adjust to the unique environment of Sunohara-sou.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1538/140687l.jpg" alt="Meiji Gekken: 1874">
+                </div>
+                <div class="details">
+                    <a href="meiji-gekken%3A-1874"><h3>Meiji Gekken: 1874</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In Meiji Gekken: 1874, a young swordsman seeks revenge for his master's death during the tumultuous Meiji Restoration period in Japan. Fueled by a desire for justice, he hones his skills and navigates the dangerous political landscape to uncover the truth behind the betrayal. As tensions rise and loyalties are tested, the swordsman must decide between seeking vengeance or forging a new path towards peace and redemption.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/79414l.webp" alt="And you thought there is never a girl online?">
+                </div>
+                <div class="details">
+                    <a href="and-you-thought-there-is-never-a-girl-online%3F"><h3>And you thought there is never a girl online?</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In the anime And you thought there is never a girl online?, a high school student named Hideki Nishimura, who is obsessed with online RPGs, falls in love with a female character in the game. Upon discovering that his in-game wife is actually a man in real life, he vows to never trust a girl online again. However, he later meets three girls in his school's gaming club who challenge his beliefs about online relationships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/64443l.jpg" alt="Magimoji Rurumo">
+                </div>
+                <div class="details">
+                    <a href="magimoji-rurumo"><h3>Magimoji Rurumo</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Kota receives a mysterious book that grants him wishes with a price, assigned by a witch named Rurumo. Kota uses his wishes to help others while growing closer to Rurumo, discovering her tragic past. Together, they navigate magical mishaps and develop a heartwarming bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/76034l.webp" alt="The Asterisk War">
+                </div>
+                <div class="details">
+                    <a href="the-asterisk-war"><h3>The Asterisk War</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In the city of Asterisk, Julis-Alexia von Riessfeld competes in the Festa fighting tournament to secure her rank and funding for her orphanage. She teams up with Ayato Amagiri, a new transfer student with his own reasons for joining the battles. As they navigate the dangerous world of the Festa, they uncover dark secrets and confront powerful foes. Julis and Ayato must rely on each other's strength and determination to survive and achieve their goals.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/11972l.jpg" alt="Tayutama: Kiss on My Deity">
+                </div>
+                <div class="details">
+                    <a href="tayutama%3A-kiss-on-my-deity"><h3>Tayutama: Kiss on My Deity</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>High school student Yuuri Mito accidentally awakens a spirit named Mashiro who has been sealed in a shrine for years. As they navigate the challenges of coexisting in the human world, they uncover a connection between the spirits, known as Tayutai, and the town's past. With the help of friends and family, they strive to prevent a looming disaster and bridge the gap between humans and spirits.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/76211l.webp" alt="Anti-Magic Academy: The 35th Test Platoon">
+                </div>
+                <div class="details">
+                    <a href="anti-magic-academy%3A-the-35th-test-platoon"><h3>Anti-Magic Academy: The 35th Test Platoon</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where magic is feared, Takeru Kusanagi leads the Anti-Magic Academy's weakest platoon. As they work to improve their skills and reputation, a powerful witch threatens their school. Takeru and his teammates must band together to overcome their differences and harness their unique strengths to protect the academy from the looming threat.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1084/126652l.jpg" alt="Beast Tamer">
+                </div>
+                <div class="details">
+                    <a href="beast-tamer"><h3>Beast Tamer</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where humans and mythical creatures coexist, a young beast tamer named Yuuki embarks on a journey to become the greatest tamer of them all. With his loyal companions, including a fearsome dragon and a mischievous phoenix, Yuuki faces challenges, battles rival tamers, and uncovers the truth behind a mysterious prophecy that could change the fate of both humans and beasts. Join Yuuki as he pushes his limits and forges deep bonds with his fantastical friends in this thrilling adventure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/73995l.jpg" alt="Kiddy Grade">
+                </div>
+                <div class="details">
+                    <a href="kiddy-grade"><h3>Kiddy Grade</h3></a>
+                    <p>Action</p>
+                    <p>2002</p>
+                    <br>
+                    <p>Kiddy Grade follows the story of Éclair and Lumière, agents of the Galactic Organization of Trade and Tariffs with unique abilities. As they complete missions across the galaxy, they uncover secrets that challenge their loyalty to the organization. With action-packed missions and mysterious adversaries, the duo must navigate a world of political intrigue and personal revelations.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1555/100447l.webp" alt="RobiHachi">
+                </div>
+                <div class="details">
+                    <a href="robihachi"><h3>RobiHachi</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In RobiHachi, an unemployed man named Robby crosses paths with a young man named Hatchi who dreams of traveling to a legendary planet. Together, they embark on a comedic and adventurous journey through space, facing various challenges and meeting quirky characters along the way. With space pirates, galactic police, and unexpected twists, their daring escapades become a wild ride full of laughter and excitement. &#8203</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/86831l.webp" alt="Angel's 3Piece!">
+                </div>
+                <div class="details">
+                    <a href="angel%27s-3piece%21"><h3>Angel's 3Piece!</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Kyo Nukui, a withdrawn and music-loving middle school student, forms a band with two energetic elementary school girls, Jun Gotou and Sora Kaneshiro, who share his passion for music. Together, they face the challenges of forming a band, making friends, and dealing with their own personal struggles. Through their shared love of music, the trio learns valuable lessons about friendship, perseverance, and the power of following their dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/45248l.jpg" alt="Samurai Bride">
+                </div>
+                <div class="details">
+                    <a href="samurai-bride"><h3>Samurai Bride</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Samurai Bride, Muneakira Yagyu and his female warrior companions must confront a new threat to the peace they fought so hard to achieve. With the arrival of mysterious samurai brides who possess incredible powers, the team must navigate treacherous waters to protect their loved ones and keep the world safe from chaos. As old enemies resurface and new alliances are forged, the warriors will face their greatest challenge yet in a battle that will determine the fate of their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1462/98802l.jpg" alt="Yuuna and the Haunted Hot Springs">
+                </div>
+                <div class="details">
+                    <a href="yuuna-and-the-haunted-hot-springs"><h3>Yuuna and the Haunted Hot Springs</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Fuyuzora Kogarashi is a high school student haunted by spirits. In search of affordable housing, he moves into Yuragi-sou, a hot springs inn rumored to be haunted. There, he meets Yuuna, a sweet ghost unable to move on. Determined to help her pass on peacefully, Kogarashi decides to stay and protect the inn's residents from supernatural dangers. Along the way, he forms bonds with fellow tenants and discovers the secrets of Yuragi-sou.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/80828l.jpg" alt="Magic-Kyun! Renaissance">
+                </div>
+                <div class="details">
+                    <a href="magic-kyun%21-renaissance"><h3>Magic-Kyun! Renaissance</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where art is power, Aoi and his classmates at the prestigious Hoshinomori Magic Academy must harness their artistic talents to create magical spells known as magic-kyun. As Aoi struggles to unlock his full potential and find his artistic voice, he forms bonds with his classmates through friendship, rivalry, and romance. With the annual Hoshinomori Summer Festa approaching, Aoi and his friends must work together to perfect their magic-kyun performances and showcase their talents to the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/87158l.jpg" alt="To LOVE-Ru: Multiplication - Mae kara Ushiro kara">
+                </div>
+                <div class="details">
+                    <a href="to-love-ru%3A-multiplication---mae-kara-ushiro-kara"><h3>To LOVE-Ru: Multiplication - Mae kara Ushiro kara</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In this anime, Rito Yuuki struggles to express his feelings for Haruna Sairenji due to the constant interruptions from extraterrestrial princess Lala Satalin Deviluke. Things take a turn when an incident causes multiple versions of Rito to appear, each with a different approach to winning Haruna's heart. With chaos ensuing, Rito must navigate through these alternate realities to reconcile his feelings and figure out a way to set things right.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/62655l.jpg" alt="Invaders of the Rokujyoma!?">
+                </div>
+                <div class="details">
+                    <a href="invaders-of-the-rokujyoma%21%3F"><h3>Invaders of the Rokujyoma!?</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After finding a perfect and affordable apartment, high schooler Kotaro moves in, only to realize his new home is already crowded – with a ghost, a magical girl, an alien princess, a girl with superhuman strength, and a underground dweller. As they all claim the apartment as their own, Kotaro finds himself in the middle of a cosmic conflict over the living space. Despite the chaos, they must learn to coexist and navigate their differences to live peacefully.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/75230l.jpg" alt="A Good Librarian Like a Good Shepherd">
+                </div>
+                <div class="details">
+                    <a href="a-good-librarian-like-a-good-shepherd"><h3>A Good Librarian Like a Good Shepherd</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Kyoutarou Kakei is a high school guy who works as a librarian. One day, he meets a mysterious girl named Tsugumi Shirasaki, who has lost all her memories. Kyoutarou decides to help her uncover her past and they both get involved in a series of adventures filled with books, secrets, and supernatural occurrences. As they navigate through challenges and mysteries, they form a deep bond that transcends their initial meeting.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/63031l.jpg" alt="Blade Dance of the Elementalers">
+                </div>
+                <div class="details">
+                    <a href="blade-dance-of-the-elementalers"><h3>Blade Dance of the Elementalers</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a world where only females possess spirit contracting abilities, a young man named Kamito boldly enters a prestigious all-girls academy to participate in the Blade Dance. Despite being the only male elementaler, Kamito forms powerful bonds with his female teammates as they compete in the elemental tournament. With a mysterious past and a unique ability to contract with multiple spirits, Kamito navigates dangerous challenges and uncovers dark secrets surrounding the Blade Dance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1517/125496l.webp" alt="Black Summoner">
+                </div>
+                <div class="details">
+                    <a href="black-summoner"><h3>Black Summoner</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Black Summoner, a talented but introverted gamer awakens in a mysterious fantasy world as a powerful summoner. With the ability to conjure and control mythical creatures, he sets out on an epic journey to discover the secrets of his new reality. Along the way, he forms alliances, battles formidable foes, and unravels the truth behind his summoning powers. With each challenge he faces, he grows stronger and closer to unlocking the full extent of his abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1192/113699l.webp" alt="Battle Doll Angelic Layer">
+                </div>
+                <div class="details">
+                    <a href="battle-doll-angelic-layer"><h3>Battle Doll Angelic Layer</h3></a>
+                    <p>Drama</p>
+                    <p>2001</p>
+                    <br>
+                    <p>In Battle Doll Angelic Layer, young Misaki discovers the world of Angelic Layer, a popular game where players control dolls in intense battles. With her own doll, Hikaru, Misaki trains hard to compete in the Angelic Layer tournaments. Along the way, she makes friends, faces tough opponents, and learns valuable lessons about friendship, determination, and the true meaning of being a champion.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1649/93412l.jpg" alt="How Not to Summon a Demon Lord">
+                </div>
+                <div class="details">
+                    <a href="how-not-to-summon-a-demon-lord"><h3>How Not to Summon a Demon Lord</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In How Not to Summon a Demon Lord, a socially awkward gamer is transported into a virtual game world as his character, a powerful Demon Lord. With his vast knowledge of the game and newfound abilities, he must navigate this new world filled with magic and danger. Along the way, he forms unexpected friendships with two girls who also summoned him, as they embark on a quest to uncover the mysteries surrounding their summoning.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/81651l.jpg" alt="Luger Code 1951">
+                </div>
+                <div class="details">
+                    <a href="luger-code-1951"><h3>Luger Code 1951</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where magic exists, the story follows Toichiro Kizaki, a genius cryptanalyst, as he delves into the mysteries of an ancient language known as Luger Code. As Toichiro deciphers the code, he uncovers a dangerous secret that could shake the foundations of the world. Teaming up with a group of allies, Toichiro must navigate through conspiracies and danger to protect the truth hidden within the code.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/78265l.jpg" alt="My Wife is the Student Council President OVA">
+                </div>
+                <div class="details">
+                    <a href="my-wife-is-the-student-council-president-ova"><h3>My Wife is the Student Council President OVA</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In My Wife is the Student Council President OVA, follow the comedic and slightly spicy adventures of Hayato Izumi and Ui Wakana as they navigate their roles as student council president and vice president, and deal with the challenges and misunderstandings that come with their positions. With the school's strict rules and the unexpected situations they find themselves in, Hayato and Ui must work together to keep the student council running smoothly while trying to keep their relationship a secret.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/50311l.webp" alt="Dragon Crisis!">
+                </div>
+                <div class="details">
+                    <a href="dragon-crisis%21"><h3>Dragon Crisis!</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>When a boy named Ryuuji encounters a mysterious girl named Rose, his life takes a sudden turn. Rose is a treasure hunter seeking powerful objects called Lost Precious, and Ryuuji gets caught up in her quest. As they delve into the world of dragons and magic, they must navigate dangerous adversaries and uncover the truth behind Rose's past. Together, they face thrilling adventures and formidable foes in their search for the ultimate treasure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/75788l.jpg" alt="The "Hentai" Prince and the Stony Cat.">
+                </div>
+                <div class="details">
+                    <a href="the-%22hentai%22-prince-and-the-stony-cat."><h3>The "Hentai" Prince and the Stony Cat.</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Youto Yokodera desires to be more honest with his feelings. After encountering a strange statue that promises to grant his wish, he finds himself in a series of comedic and unpredictable situations involving a mysterious girl with a similar request. As their wishes intertwine, Youto navigates the unexpected consequences of having his inner thoughts and desires exposed to others, all while trying to uncover the truth behind the statue's powers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/56141l.jpg" alt="Unbreakable Machine-Doll">
+                </div>
+                <div class="details">
+                    <a href="unbreakable-machine-doll"><h3>Unbreakable Machine-Doll</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In an alternate Steampunk world, puppeteer students at Walpurgis Royal Academy control humanoid automatons to battle each other. Raishin Akabane, a skilled puppeteer with a mysterious past, seeks revenge against those responsible for his family's downfall. With his doll Yaya by his side, Raishin enters the Mage's Society's prestigious Night Party tournament to confront his enemies and uncover dark secrets. The competition is fierce as Raishin faces formidable opponents, testing his skills and determination to emerge victorious.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

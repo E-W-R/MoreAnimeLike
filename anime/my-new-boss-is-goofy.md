@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like My New Boss Is Goofy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "55310";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1630/138388l.jpg" alt="My New Boss Is Goofy">
+                <div>
+                    <h2 id="title">My New Boss Is Goofy</h2>
+                    <p>Other Genre</p>
+                    <p>2023</p>
+                    <br>
+                    <p>When Kira Maruyama starts her dream job at a prestigious company, she is shocked to discover that her new boss is none other than Takumi Kato, a playful and carefree man known for his goofy antics. Despite their contrasting personalities, Kira is determined to prove herself as a capable employee. As they navigate the challenges of the workplace together, they form an unexpected bond that transcends their initial impressions.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 99%;"></span>
+                            </div>
+                            <p>99% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1123/134677l.jpg" alt="Play It Cool, Guys">
+                </div>
+                <div class="details">
+                    <a href="play-it-cool%2C-guys"><h3>Play It Cool, Guys</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Play It Cool, Guys, a group of high school friends navigates the ups and downs of teenage life while juggling their various personalities and interests. From school projects and crushes to friendships and rivalries, the group must find a way to balance it all and stay true to themselves as they grow and learn more about each other. Bonding over their shared experiences, they bring out the best in each other and form unbreakable connections that shape their futures.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 88%;"></span>
+                            </div>
+                            <p>88% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1140/120215l.jpg" alt="Salaryman's Club">
+                </div>
+                <div class="details">
+                    <a href="salaryman%27s-club"><h3>Salaryman's Club</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Salaryman's Club follows a group of office workers who form an after-hours club to destress and bond over their hectic work lives. As they navigate the challenges of the corporate world, they find solace in the support and camaraderie of their fellow club members. Together, they learn valuable lessons about friendship, teamwork, and the importance of work-life balance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 85%;"></span>
+                            </div>
+                            <p>85% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/82343l.jpg" alt="Poco's Udon World">
+                </div>
+                <div class="details">
+                    <a href="poco%27s-udon-world"><h3>Poco's Udon World</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the death of his father, Souta returns to his hometown to close the family udon shop. When he discovers a mysterious boy named Poco with supernatural abilities hiding in the shop, Souta decides to take care of him. As Souta juggles between managing the shop and unraveling Poco's secrets, he learns valuable life lessons and the true importance of family bonds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/89978l.jpg" alt="School Babysitters">
+                </div>
+                <div class="details">
+                    <a href="school-babysitters"><h3>School Babysitters</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After losing their parents in a tragic accident, two brothers are taken in by the chairman of a prestigious academy under the condition that the older brother join the school's daycare program. With an eccentric group of toddlers under their care, the brothers navigate the challenges of balancing school life, babysitting duties, and their own personal struggles. Through heartwarming moments and unexpected friendships, they learn valuable lessons about love, family, and responsibility.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 78%;"></span>
+                            </div>
+                            <p>78% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1454/122063l.jpg" alt="The Yakuza's Guide to Babysitting">
+                </div>
+                <div class="details">
+                    <a href="the-yakuza%27s-guide-to-babysitting"><h3>The Yakuza's Guide to Babysitting</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When a tough yakuza member suddenly becomes the guardian of a young child, he is completely out of his element. Forced to navigate the world of diapers and nap times, he must protect the adorable child from the dangers of his criminal world. As he struggles to balance his tough-as-nails reputation with the responsibilities of childcare, he begins to discover a softer side of himself he never knew existed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 78%;"></span>
+                            </div>
+                            <p>78% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1360/93571l.jpg" alt="Tsurune: Kazemai High School Kyudo Club">
+                </div>
+                <div class="details">
+                    <a href="tsurune%3A-kazemai-high-school-kyudo-club"><h3>Tsurune: Kazemai High School Kyudo Club</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Kazemai High School's Kyudo Club, once a powerhouse, is struggling to regain its former glory. Minato Narumiya, a former archery prodigy who lost his passion for the sport, joins the club alongside his childhood friends. Together, they work to overcome their individual struggles and aim for success in the upcoming tournament. Through dedication, friendship, and self-discovery, the members of the Kyudo Club learn valuable lessons both on and off the archery range.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 76%;"></span>
+                            </div>
+                            <p>76% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1827/113510l.jpg" alt="Backflip!!">
+                </div>
+                <div class="details">
+                    <a href="backflip%21%21"><h3>Backflip!!</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Backflip!! follows a group of high school boys who join their school's struggling gymnastics team in hopes of reviving it to its former glory. Each of the boys brings their unique skills and personalities to the team, working together to overcome challenges, form strong bonds, and improve both individually and as a team. As they strive to compete on a national level, they also navigate personal growth, friendship dynamics, and the competitive world of gymnastics.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 75%;"></span>
+                            </div>
+                            <p>75% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1976/99376l.jpg" alt="Ah! My Goddess">
+                </div>
+                <div class="details">
+                    <a href="ah%21-my-goddess"><h3>Ah! My Goddess</h3></a>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>Keiichi Morisato, a college student, accidentally dials the Goddess Assistance Hotline and summons the beautiful goddess Belldandy. She offers him one wish, and he jokingly wishes for her to stay by his side forever. To his surprise, his wish is granted, and Belldandy becomes his live-in girlfriend. Together, they navigate the challenges of their intertwined destinies and the interference of other supernatural beings in their love story.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/80009l.jpg" alt="The Morose Mononokean">
+                </div>
+                <div class="details">
+                    <a href="the-morose-mononokean"><h3>The Morose Mononokean</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>The Morose Mononokean follows the story of high school student Hanae Ashiya, who accidentally summons a yokai and seeks help from the Mononokean, an exorcist who helps cleanse spirits and yokai. To repay his debt, Hanae becomes the Mononokean's assistant, embarking on various supernatural adventures and learning about the spirit world along the way. Together, they solve yokai-related issues and unravel mysteries surrounding the supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1350/133642l.jpg" alt="My Clueless First Friend">
+                </div>
+                <div class="details">
+                    <a href="my-clueless-first-friend"><h3>My Clueless First Friend</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>When shy and introverted high school student Hana befriends the outgoing and popular Ayumi, their unlikely friendship blossoms as they navigate the ups and downs of adolescence together. With Ayumi's infectious energy and Hana's level-headed nature, the two girls learn valuable lessons about friendship, love, and acceptance as they support each other through various challenges. My Clueless First Friend is a heartwarming tale of the transformative power of friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1549/119195l.webp" alt="SK8 the Infinity">
+                </div>
+                <div class="details">
+                    <a href="sk8-the-infinity"><h3>SK8 the Infinity</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Reki, a high school student who loves skateboarding, meets a transfer student named Langa, who is a snowboarder. The two form an unlikely bond and get drawn into the underground skateboard racing scene known as S. With intense races, unique skateboard designs, and rivalries aplenty, Reki and Langa set out to conquer the dangerous downhill courses and become the best skateboarders in the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1055/118890l.webp" alt="My Senpai is Annoying">
+                </div>
+                <div class="details">
+                    <a href="my-senpai-is-annoying"><h3>My Senpai is Annoying</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Futaba Igarashi is a hard-working office employee who is constantly annoyed by her loud and childish senpai, Harumi Takeda. Despite her frustrations, Futaba finds herself developing a close friendship with Harumi as they navigate the ups and downs of office life together. Will Futaba learn to tolerate her annoying senpai, or will their contrasting personalities lead to even more chaos in the workplace?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1126/115635l.jpg" alt="Life Lessons with Uramichi-Oniisan">
+                </div>
+                <div class="details">
+                    <a href="life-lessons-with-uramichi-oniisan"><h3>Life Lessons with Uramichi-Oniisan</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Uramichi is a gym instructor for children's TV show. While he appears cheerful on screen, behind the scenes, he is a disillusioned man in his 30s who struggles with the reality of adulthood. Alongside fellow mascots who share his struggles, Uramichi navigates the challenges of balancing his public persona with his personal life. Viewers witness the comedy and poignant moments as he imparts life lessons to the children on the show while grappling with his own cynicism.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/79411l.jpg" alt="Shonen Maid">
+                </div>
+                <div class="details">
+                    <a href="shonen-maid"><h3>Shonen Maid</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Shonen Maid follows Chihiro Komiya, a young boy who is taken in by his wealthy uncle following his mother's tragic death. His uncle offers Chihiro a home under the condition that he becomes the family's personal maid. Despite the unusual circumstances, Chihiro takes on the role with determination and a positive attitude, all while learning valuable life lessons and forming new bonds with his family members.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1662/118849l.webp" alt="Taisho Otome Fairy Tale">
+                </div>
+                <div class="details">
+                    <a href="taisho-otome-fairy-tale"><h3>Taisho Otome Fairy Tale</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Taisho Otome Fairy Tale, a story set in the Taisho era of Japan, a young man named Tamahiko is forced to marry a seemingly unrefined and uneducated girl named Yuzuki. Though initially resistant to the arrangement, Tamahiko soon learns of Yuzuki's hidden intelligence and kind heart. As they navigate their new life together, the couple begins to understand and appreciate each other's strengths, ultimately forming a deep and heartfelt connection.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1486/93811l.webp" alt="How to Keep a Mummy">
+                </div>
+                <div class="details">
+                    <a href="how-to-keep-a-mummy"><h3>How to Keep a Mummy</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>When high school student Sora receives a mysterious package from his adventurer father, he is surprised to find a tiny mummy inside! As Sora and his friends navigate the challenges of taking care of the cute but mischievous creature, they discover the importance of friendship, responsibility, and the joy of having a unique pet. Together, they embark on heartwarming adventures and uncover the secrets behind the supernatural creatures that have come into their lives.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1339/113938l.jpg" alt="Heaven's Design Team">
+                </div>
+                <div class="details">
+                    <a href="heaven%27s-design-team"><h3>Heaven's Design Team</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Heaven's Design Team follows a group of quirky angels who work in the Heaven office responsible for creating new animal species. The team collaborates to design animals based on sometimes bizarre or hilarious requests from God. Through trial and error, they come up with unique and often humorous creatures, showcasing their creativity and problem-solving skills in the process. Each episode provides insight into the design process and the fantastical world of animal creation.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/34949l.jpg" alt="You and Me.">
+                </div>
+                <div class="details">
+                    <a href="you-and-me."><h3>You and Me.</h3></a>
+                    <p>Other Genre</p>
+                    <p>2011</p>
+                    <br>
+                    <p>You and Me follows the daily lives of a group of high school students who are part of the culture club. The story focuses on their friendships, humorous interactions, and the various activities they pursue together. Each episode explores the unique personalities of the characters as they navigate the challenges and joys of adolescence. Through their everyday experiences, the bonds between the club members grow stronger, leading to heartwarming moments and lasting memories.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1189/111994l.webp" alt="Tanaka-kun is Always Listless">
+                </div>
+                <div class="details">
+                    <a href="tanaka-kun-is-always-listless"><h3>Tanaka-kun is Always Listless</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>The series follows Tanaka, a high school student who is perpetually tired and unenthusiastic about everything. His goal is to live life as effortlessly as possible and avoid any form of exertion. Despite his apathetic demeanor, Tanaka's friends continue to involve him in various activities, leading to comedic situations and heartwarming moments as they navigate the ups and downs of high school life together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1280/138474l.jpg" alt="The Weakest Tamer Began a Journey to Pick Up Trash">
+                </div>
+                <div class="details">
+                    <a href="the-weakest-tamer-began-a-journey-to-pick-up-trash"><h3>The Weakest Tamer Began a Journey to Pick Up Trash</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a world where magical creatures roam freely, a young tamer with no combat skills sets out on an unconventional journey. Determined to prove his worth despite being labeled the weakest tamer, he embarks on a quest to pick up trash scattered by unruly creatures. Along the way, he forms unexpected friendships and learns valuable lessons about perseverance and the true meaning of strength. His seemingly mundane mission soon becomes a transformative adventure that impacts the entire realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1251/99191l.jpg" alt="My Roommate is a Cat">
+                </div>
+                <div class="details">
+                    <a href="my-roommate-is-a-cat"><h3>My Roommate is a Cat</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>My Roommate is a Cat follows the story of a socially awkward mystery novelist who unexpectedly adopts a stray cat. Through this unlikely companionship, both the writer and the feline learn to navigate the ups and downs of life, finding solace and understanding in each other's company. As they gradually open up to one another, they discover the healing power of friendship and companionship in overcoming their respective past traumas.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/51579l.jpg" alt="Servant x Service">
+                </div>
+                <div class="details">
+                    <a href="servant-x-service"><h3>Servant x Service</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Servant x Service follows the daily lives of a group of quirky civil servants working in a government office. Led by the diligent Lucy Yamagami, the team navigates through various challenges, bureaucracy, and eccentric coworkers while striving to make a difference in their community. As they bond over their shared experiences and personal lives, hilarious antics ensue in this heartwarming workplace comedy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1444/131828l.webp" alt="Tomo-chan Is a Girl!">
+                </div>
+                <div class="details">
+                    <a href="tomo-chan-is-a-girl%21"><h3>Tomo-chan Is a Girl!</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Tomo Aizawa is a girl with a tomboyish personality and has been friends with her neighbor, Junichirou Kubota, since they were kids. Unbeknownst to Tomo, Jun has developed romantic feelings for her over the years. The series follows their everyday high school life filled with comedic misunderstandings, awkward situations, and Jun's attempts to confess his love to Tomo. Will Jun finally be able to express his feelings to Tomo, or will their friendship remain the same?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1015/90727l.jpg" alt="Yotsuiro Biyori">
+                </div>
+                <div class="details">
+                    <a href="yotsuiro-biyori"><h3>Yotsuiro Biyori</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Yotsuiro Biyori follows the story of four men who run a traditional Japanese tea house in Kyoto. Each episode focuses on different customers who visit the tea house seeking comfort and solace from their everyday lives. The tea house becomes a serene escape where customers can reflect on their past, present, and future. As the four men provide warm hospitality and delicious tea, they also offer a listening ear and heartfelt advice to help those who seek their guidance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1074/136720l.jpg" alt="The Masterful Cat Is Depressed Again Today">
+                </div>
+                <div class="details">
+                    <a href="the-masterful-cat-is-depressed-again-today"><h3>The Masterful Cat Is Depressed Again Today</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where cats can transform into humans, Tama is a skilled and popular cat who struggles with depressive feelings. Despite his success, Tama's inner turmoil leads him to question the meaning of life. With the help of his friends and a newfound perspective, Tama embarks on a journey of self-discovery and learns to find happiness within himself.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/85517l.webp" alt="The Royal Tutor">
+                </div>
+                <div class="details">
+                    <a href="the-royal-tutor"><h3>The Royal Tutor</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>The Royal Tutor follows Heine Wittgenstein, a highly intelligent and strict tutor hired to educate four handsome but troublesome princes. Despite their initial reluctance, Heine's unorthodox teaching methods and unwavering dedication slowly earn the princes' respect and help them grow both academically and personally. As the brothers navigate palace intrigue and personal challenges, Heine's past and true motives come into question, deepening the bonds between tutor and students.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1669/122434l.jpg" alt="Tamako Market">
+                </div>
+                <div class="details">
+                    <a href="tamako-market"><h3>Tamako Market</h3></a>
+                    <p>Other Genre</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Tamako, a cheerful high school girl, helps run her family's mochi shop in the Usagiyama Shopping District. One day, she encounters a talking bird named Dera, who is searching for a bride for his prince. As Tamako navigates daily life with her friends, she becomes entangled in Dera's mission, leading to heartwarming and humorous adventures.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1147/122444l.jpg" alt="My Happy Marriage">
+                </div>
+                <div class="details">
+                    <a href="my-happy-marriage"><h3>My Happy Marriage</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>My Happy Marriage is a heartwarming anime set in a historical era, following Miyo Saimori, who is mistreated by her family and forced into an arranged marriage with Kiyoka Kudou, a cold military officer. As they get to know each other, they discover mutual respect and affection, transforming their relationship into a genuine and loving partnership. The series blends romance and drama, highlighting themes of resilience, personal growth, and the healing power of love.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 65%;"></span>
+                            </div>
+                            <p>65% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/87463l.webp" alt="Recovery of an MMO Junkie">
+                </div>
+                <div class="details">
+                    <a href="recovery-of-an-mmo-junkie"><h3>Recovery of an MMO Junkie</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>30-year-old Moriko Morioka has quit her job to become a NEET and immerse herself in the world of online gaming. As the male character Hayashi, she meets a female character named Lily, forming a close friendship in the virtual world. Things get complicated when Moriko encounters a handsome and friendly man in real life who may have a connection to Lily. Balancing her virtual and real identities becomes a challenge as Moriko navigates the complexities of relationships both on and offline.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 65%;"></span>
+                            </div>
+                            <p>65% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1346/141203l.jpg" alt="An Archdemon's Dilemma: How to Love Your Elf Bride">
+                </div>
+                <div class="details">
+                    <a href="an-archdemon%27s-dilemma%3A-how-to-love-your-elf-bride"><h3>An Archdemon's Dilemma: How to Love Your Elf Bride</h3></a>
+                    <p>Romance</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a world where humans and demons coexist, the powerful archdemon named Zagan finds himself betrothed to an elf named Nephy. Despite their differences in race and nature, Zagan is determined to make their arranged marriage work. As they navigate through challenges and cultural clashes, Zagan must also protect Nephy from those who seek to harm her. Through their journey, they both discover the true meaning of love and companionship.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

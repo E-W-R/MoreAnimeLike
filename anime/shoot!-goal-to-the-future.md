@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Shoot! Goal to the Future</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "50379";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1587/124120l.jpg" alt="Shoot! Goal to the Future">
+                <div>
+                    <h2 id="title">Shoot! Goal to the Future</h2>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Shoot! Goal to the Future, a talented but inexperienced high school soccer player named Takeshi strives to join his school's renowned soccer team. With the help of his friends and teammates, Takeshi overcomes challenges on and off the field as he pursues his dream of becoming a top soccer player. As he navigates intense training sessions and fierce competitions, Takeshi learns the true value of teamwork, dedication, and passion for the sport.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1475/120394l.jpg" alt="Futsal Boys!!!!!">
+                </div>
+                <div class="details">
+                    <a href="futsal-boys%21%21%21%21%21"><h3>Futsal Boys!!!!!</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Futsal Boys!!!!! follows a group of high school boys who form a futsal (indoor soccer) team to compete in tournaments and improve their skills. With each member bringing their own unique playing style and personality to the team, they must work together to overcome challenges both on and off the court. As they train, bond, and face off against formidable opponents, the boys strive to reach their ultimate goal of becoming futsal champions.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

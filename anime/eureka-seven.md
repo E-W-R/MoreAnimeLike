@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Eureka Seven</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "237";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/12/34443l.jpg" alt="Eureka Seven">
+                <div>
+                    <h2 id="title">Eureka Seven</h2>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>In Eureka Seven, Renton Thurston's life takes an unexpected turn when he meets a mysterious girl named Eureka, a member of a rebel group called Gekkostate. As Renton becomes involved in their fight against the government, he embarks on a journey of self-discovery, love, and adventure aboard the ship known as the Gekko. Together, they face various challenges as they uncover the mysteries surrounding Eureka's past and the world they live in.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/56297l.jpg" alt="Giovanni's Island">
+                </div>
+                <div class="details">
+                    <a href="giovanni%27s-island"><h3>Giovanni's Island</h3></a>
+                    <p>Drama</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In the aftermath of World War II, two young brothers living on the island of Shikotan are faced with the arrival of Soviet soldiers. Forced to share their home with the new occupants, the brothers must navigate the realities of occupation while holding onto their dreams of reuniting with their father. As they befriend a young Russian girl, the boys experience the harsh consequences of war and the power of friendship in overcoming cultural barriers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/15648l.webp" alt="Macross Frontier">
+                </div>
+                <div class="details">
+                    <a href="macross-frontier"><h3>Macross Frontier</h3></a>
+                    <p>Action</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Macross Frontier follows the crew of the Macross Frontier fleet as they navigate through space, facing conflicts with mysterious alien species known as the Vajra. As budding singer Ranka Lee and skilled pilot Alto Saotome get entangled in the midst of the battle, their lives become intertwined with the fate of humanity. With music playing a crucial role in the storyline, the series delves into themes of love, friendship, and the resilience of the human spirit against overwhelming odds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1084/119096l.jpg" alt="Nodame Cantabile Finale">
+                </div>
+                <div class="details">
+                    <a href="nodame-cantabile-finale"><h3>Nodame Cantabile Finale</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Nodame Cantabile Finale continues the story of piano prodigy Shinichi Chiaki and eccentric pianist Megumi Noda as they navigate the challenges of pursuing their musical dreams while facing personal and professional hurdles. As they strive for greatness in the competitive world of classical music, their relationship deepens, leading to moments of joy, heartache, and growth. Through dedication, passion, and perseverance, Chiaki and Nodame inspire each other to reach new heights in their musical careers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1491/117229l.jpg" alt="Hanasaku Iroha: Blossoms for Tomorrow">
+                </div>
+                <div class="details">
+                    <a href="hanasaku-iroha%3A-blossoms-for-tomorrow"><h3>Hanasaku Iroha: Blossoms for Tomorrow</h3></a>
+                    <p>Drama</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After her irresponsible mother suddenly elopes, Ohana Matsumae is sent to live with her strict grandmother at her hot springs inn. Determined to make the best of her new life, Ohana must navigate the challenges of working at the inn while also dealing with the complex relationships of the staff and guests. As she matures and learns the value of hard work and perseverance, Ohana strives to find her place in the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/75191l.jpg" alt="Kekkaishi">
+                </div>
+                <div class="details">
+                    <a href="kekkaishi"><h3>Kekkaishi</h3></a>
+                    <p>Action</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Yoshimori Sumimura and Tokine Yukimura are young kekkaishi, warriors with the ability to create barriers to eliminate evil creatures. Tasked with protecting Karasumori, a powerful and mysterious land, they must battle Ayakashi, supernatural beings drawn to its energy. As they face increasing threats and uncover the secrets of Karasumori, the two cousins must navigate their responsibilities as kekkaishi and the challenges of their own complicated relationship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1402/134007l.jpg" alt="Insomniacs After School">
+                </div>
+                <div class="details">
+                    <a href="insomniacs-after-school"><h3>Insomniacs After School</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Insomniacs After School is a poignant anime about Ganta Nakami and Isaki Magari, two high school students who struggle with insomnia. They find solace in each other's company after discovering an abandoned observatory at school, where they spend sleepless nights together. As they bond over their shared struggles, their friendship deepens, helping them cope with their condition. The series beautifully explores themes of friendship, understanding, and the quiet moments that connect us.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/58763l.jpg" alt="Cyber City">
+                </div>
+                <div class="details">
+                    <a href="cyber-city"><h3>Cyber City</h3></a>
+                    <p>Action</p>
+                    <p>1990</p>
+                    <br>
+                    <p>In a futuristic world where cybernetic enhancements are common, a team of skilled individuals is recruited to undertake dangerous missions to defend the city against high-tech criminals. Each member of the team brings their unique abilities and backgrounds to the table, forming an unstoppable force against the growing threat in the cyber city. As they navigate through intricate cyber networks and face powerful foes, they must also confront their own inner demons and past traumas.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/73973l.jpg" alt="Major S1">
+                </div>
+                <div class="details">
+                    <a href="major-s1"><h3>Major S1</h3></a>
+                    <p>Sports</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Major S1 follows the journey of Goro Honda, a young and talented baseball player with dreams of becoming a professional player like his father. The series chronicles Goro's growth both as a player and as an individual as he faces challenges and rivals on his path to success. Fueled by determination and a strong passion for the sport, Goro navigates the competitive world of baseball with the support of his friends and family.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/75563l.jpg" alt="Lovely Complex">
+                </div>
+                <div class="details">
+                    <a href="lovely-complex"><h3>Lovely Complex</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Lovely Complex follows the comedic and heartwarming story of Risa Koizumi and Atsushi Ootani, two high school students who struggle with their height difference. Despite their constant bickering, they decide to help each other pursue their romantic interests, but soon find themselves developing unexpected feelings for each other. As their friendship deepens, they navigate the challenges of love and self-acceptance, ultimately discovering the true meaning of a perfect relationship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/27906l.jpg" alt="Gosick">
+                </div>
+                <div class="details">
+                    <a href="gosick"><h3>Gosick</h3></a>
+                    <p>Mystery</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In a small European country, a reclusive girl named Victorique uses her brilliant mind to solve mysteries that have left even the police stumped. When a curious exchange student named Kazuya befriends her, the two form an unlikely detective duo. Together, they unravel intricate cases and uncover dark secrets hidden within the walls of their prestigious boarding school. As their friendship deepens, they find themselves drawn into a web of conspiracies that will test their intellect and courage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/49237l.webp" alt="Silver Spoon">
+                </div>
+                <div class="details">
+                    <a href="silver-spoon"><h3>Silver Spoon</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Silver Spoon follows Yuugo Hachiken, a high school student from the city who enrolls in an agricultural school in rural Hokkaido to escape the high expectations of his family. As he navigates the challenges of farm life and befriends his classmates, he experiences personal growth and discovers a new perspective on hard work, friendship, and the true meaning of success.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1464/108330l.jpg" alt="Moriarty the Patriot">
+                </div>
+                <div class="details">
+                    <a href="moriarty-the-patriot"><h3>Moriarty the Patriot</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In Moriarty the Patriot, a young William James Moriarty roams the streets of London, using his brilliant mind to orchestrate elaborate schemes to bring justice to those failed by the corrupt British government. With his loyal companions, he navigates through the aristocratic society, challenging the oppressive class system in place. As his reputation grows, Moriarty's schemes become increasingly intricate, leading him on a path towards uncovering dark truths and secrets hidden within society.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1048/128385l.webp" alt="Kakushigoto">
+                </div>
+                <div class="details">
+                    <a href="kakushigoto"><h3>Kakushigoto</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Kakushi Goto is a heartwarming slice-of-life anime following the secret life of a famous manga artist and his young daughter, Hime. Despite his success, Kakushi works hard to keep his job hidden from Hime to protect her innocence. As he navigates the challenges of fatherhood and the pressures of his profession, Kakushi must juggle his double life while cherishing the precious moments he shares with his beloved daughter.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1145/90880l.jpg" alt="Golden Kamuy">
+                </div>
+                <div class="details">
+                    <a href="golden-kamuy"><h3>Golden Kamuy</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Golden Kamuy, a tale set in early 20th-century Japan, Sugimoto, a veteran from the Russo-Japanese war, teams up with an Ainu girl named Asirpa to search for hidden Ainu gold. The treasure's location is split into pieces, each marked on a convict's body as tattoos. Together, they navigate dangers, including rival treasure hunters and harsh terrain. Through their journey, they uncover secrets of the past and form unlikely alliances to survive in the unforgiving wilderness.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/19570l.webp" alt="Darker than Black">
+                </div>
+                <div class="details">
+                    <a href="darker-than-black"><h3>Darker than Black</h3></a>
+                    <p>Mystery</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In Darker than Black, mysterious gates appear in Tokyo, giving certain individuals superhuman abilities in exchange for their humanity. These individuals, known as Contractors, work as assassins or spies for various organizations. The story follows Hei, a powerful Contractor working for a secretive syndicate as he navigates complex missions and uncovers dark conspiracies surrounding the origin of the gates and the true intentions of those in power.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1401/118483l.jpg" alt="The Case Study of Vanitas">
+                </div>
+                <div class="details">
+                    <a href="the-case-study-of-vanitas"><h3>The Case Study of Vanitas</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where vampires and humans coexist, a young vampire named Noé is searching for a mysterious grimoire known as The Book of Vanitas that is said to bring chaos to the vampire society. With the help of a human doctor named Vanitas, who claims to be a vampire expert, they embark on a journey filled with dark secrets, supernatural creatures, and unexpected alliances. As they delve deeper into the truth behind the book, they unravel a conspiracy that threatens the balance between humans and vampires.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1230/98847l.jpg" alt="Kaleido Star">
+                </div>
+                <div class="details">
+                    <a href="kaleido-star"><h3>Kaleido Star</h3></a>
+                    <p>Drama</p>
+                    <p>2003</p>
+                    <br>
+                    <p>Kaleido Star follows Sora Naegino, a young girl with dreams of becoming a circus performer at the prestigious Kaleido Stage. Through hard work, determination, and with the help of new friends and mentors, Sora faces various challenges in her pursuit of becoming the star performer. As she navigates the competitive world of circus arts, Sora learns valuable lessons about friendship, dedication, and believing in oneself. Will she be able to overcome obstacles and fulfill her dream of shining on the Kaleido Stage?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1571/121381l.jpg" alt="Dance Dance Danseur">
+                </div>
+                <div class="details">
+                    <a href="dance-dance-danseur"><h3>Dance Dance Danseur</h3></a>
+                    <p>Drama</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Suzuko is a talented ballet dancer facing challenges in pursuit of her dreams. As she navigates intense competitions and struggles with self-doubt, Suzuko must find the strength to overcome obstacles and prove her worth on the stage. With the support of her friends and mentors, she strives to push her limits and reach new heights in the world of dance. Will Suzuko's passion and dedication be enough to achieve her goals?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/79838l.jpg" alt="Kobato.">
+                </div>
+                <div class="details">
+                    <a href="kobato."><h3>Kobato.</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Kobato. follows the story of a kind-hearted and clumsy girl named Kobato who is on a mission to fill a mysterious bottle with wounded hearts in order to fulfill her wish. Despite her naivety, she is determined to help those in need while trying to understand the complexities of human emotions. With the help of a grumpy plush toy named Ioryogi, Kobato navigates through various challenges and learns valuable life lessons along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/50787l.jpg" alt="Shigofumi: Letters from the Departed">
+                </div>
+                <div class="details">
+                    <a href="shigofumi%3A-letters-from-the-departed"><h3>Shigofumi: Letters from the Departed</h3></a>
+                    <p>Psychological</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Shigofumi: Letters from the Departed follows the story of Fumika, a mail carrier delivering letters from the deceased to the living. These letters often contain important messages or unresolved emotions, impacting the lives of the recipients in profound ways. As Fumika carries out her task, she uncovers dark secrets and deep-seated emotions, delving into the complex relationships between the living and the dead.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/63361l.jpg" alt="Baby Steps">
+                </div>
+                <div class="details">
+                    <a href="baby-steps"><h3>Baby Steps</h3></a>
+                    <p>Sports</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Eiichirou Maruo, a studious and introverted high school student, decides to pick up tennis to get some exercise. With dedication and hard work, he trains rigorously to improve his skills and compete in tournaments. Along the way, he encounters talented rivals, forms new friendships, and navigates the challenges of balancing sports with academics. Eiichirou's journey in the world of tennis pushes him out of his comfort zone and helps him discover his passion for the sport.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/26138l.jpg" alt="Bakuman.">
+                </div>
+                <div class="details">
+                    <a href="bakuman."><h3>Bakuman.</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Bakuman. follows two high school students, Moritaka Mashiro and Akito Takagi, who team up to achieve their dream of becoming successful manga artists. As they navigate the competitive world of the manga industry, facing challenges and rivals along the way, they strive to create a manga series that will become a hit and get adapted into an anime. With passion and determination, the duo works tirelessly to overcome obstacles and fulfill their aspirations.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/15033l.jpg" alt="Eden of The East">
+                </div>
+                <div class="details">
+                    <a href="eden-of-the-east"><h3>Eden of The East</h3></a>
+                    <p>Mystery</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Eden of The East, a young woman named Saki encounters a mysterious man with no memories and only a gun and a cell phone. Together, they unravel a conspiracy involving a deadly game that could change the future of Japan. As they work to uncover the truth, they become entangled in a complex web of politics and high stakes, where the lines between right and wrong blur.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/42773l.jpg" alt="Magi: The Labyrinth of Magic">
+                </div>
+                <div class="details">
+                    <a href="magi%3A-the-labyrinth-of-magic"><h3>Magi: The Labyrinth of Magic</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Magi: The Labyrinth of Magic follows the adventures of Aladdin, a young magician with a mysterious past, as he explores a world full of magic and myths. Alongside his friends, Alibaba and Morgiana, they uncover the secrets of the Dungeons, powerful ruins that hold untold treasures. As they journey together, they become embroiled in political intrigue and conflicts that will test their bonds and shape the fate of the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/80117l.jpg" alt="Emma: A Victorian Romance">
+                </div>
+                <div class="details">
+                    <a href="emma%3A-a-victorian-romance"><h3>Emma: A Victorian Romance</h3></a>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>In the 19th century England, Emma, a young maid, falls in love with William, a wealthy gentleman. Hindered by their difference in social status, the two navigate societal expectations and strive to be together despite the challenges they face. Witness their tale of forbidden love, personal growth, and the complexities of class distinctions in a rigid society.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1502/124384l.jpg" alt="Kimi ni Todoke: From Me to You">
+                </div>
+                <div class="details">
+                    <a href="kimi-ni-todoke%3A-from-me-to-you"><h3>Kimi ni Todoke: From Me to You</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Kimi ni Todoke: From Me to You follows Sawako, a shy high school girl often misunderstood due to her resemblance to the horror movie character Sadako. When popular boy Kazehaya starts talking to her, Sawako's life begins to change as she navigates friendships, love, and self-discovery. As she opens up to those around her, Sawako realizes the importance of communication and understanding in forming genuine connections with others.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1970/122297l.webp" alt="Ya Boy Kongming!">
+                </div>
+                <div class="details">
+                    <a href="ya-boy-kongming%21"><h3>Ya Boy Kongming!</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Ya Boy Kongming! is an entertaining anime about the legendary Chinese strategist Zhuge Liang Kongming, who is reincarnated in modern-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and uses his tactical genius to help her achieve her dreams of becoming a music star. The series blends historical elements with contemporary music and comedy, creating a delightful story about ambition, friendship, and pursuing one's dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/52415l.jpg" alt="Patema Inverted">
+                </div>
+                <div class="details">
+                    <a href="patema-inverted"><h3>Patema Inverted</h3></a>
+                    <p>Other Genre</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In a world where society lives underground due to a gravitational anomaly, Patema, a curious young girl, stumbles upon Age, a boy living in the surface society. Together, they uncover the secrets of their respective worlds and embark on a journey to unravel the truth behind their inverted lives. As they navigate the challenges and dangers of their conflicting gravitational orientations, they must rely on each other to overcome obstacles and seek a way to bridge their two worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1147/122444l.jpg" alt="My Happy Marriage">
+                </div>
+                <div class="details">
+                    <a href="my-happy-marriage"><h3>My Happy Marriage</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>My Happy Marriage is a heartwarming anime set in a historical era, following Miyo Saimori, who is mistreated by her family and forced into an arranged marriage with Kiyoka Kudou, a cold military officer. As they get to know each other, they discover mutual respect and affection, transforming their relationship into a genuine and loving partnership. The series blends romance and drama, highlighting themes of resilience, personal growth, and the healing power of love.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/75631l.jpg" alt="Nura: Rise of the Yokai Clan">
+                </div>
+                <div class="details">
+                    <a href="nura%3A-rise-of-the-yokai-clan"><h3>Nura: Rise of the Yokai Clan</h3></a>
+                    <p>Action</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Rikuo Nura, a middle school student, is part human and part yokai (demon). As the heir to the Nura Clan, he must come to terms with his dual nature and lead the yokai community. With escalating conflicts between yokai and humans, Rikuo must navigate his duties while protecting his loved ones from danger. Balancing his human and yokai sides, Rikuo must decide what kind of leader he wants to become.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

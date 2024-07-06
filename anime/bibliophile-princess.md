@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Bibliophile Princess</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "50923";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1256/128714l.webp" alt="Bibliophile Princess">
+                <div>
+                    <h2 id="title">Bibliophile Princess</h2>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where books are rare and knowledge is power, Princess Elara defies her royal duties to pursue her love for literature. When a mysterious figure threatens the kingdom's library, Elara must use her intelligence and cunning to protect the stories she holds dear. With the help of her loyal companions, she embarks on a quest to unravel the secrets hidden within the ancient texts, facing danger and intrigue at every turn.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 90%;"></span>
+                            </div>
+                            <p>90% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/78863l.jpg" alt="Kumamiko: Girl Meets Bear">
+                </div>
+                <div class="details">
+                    <a href="kumamiko%3A-girl-meets-bear"><h3>Kumamiko: Girl Meets Bear</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a remote village, a shy girl named Machi dreams of going to the city. She lives with a talking bear named Natsu who helps take care of her. Together, they navigate the challenges of rural life as Machi learns about the outside world and navigates the complexities of growing up. With Natsu's guidance, Machi discovers new things about herself and the world around her.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 83%;"></span>
+                            </div>
+                            <p>83% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1091/135041l.jpg" alt="A Galaxy Next Door">
+                </div>
+                <div class="details">
+                    <a href="a-galaxy-next-door"><h3>A Galaxy Next Door</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a futuristic world, humanity has colonized other planets. A young woman living on a distant planet dreams of exploring the galaxy. When a mysterious spaceship crash-lands near her home, she discovers a wounded alien pilot who needs her help to repair the ship and return home. Together, they embark on an adventure across the galaxy, encountering new civilizations and facing dangerous challenges along the way. Will they be able to navigate through the vast unknown of space and find their way back home?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 81%;"></span>
+                            </div>
+                            <p>81% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1174/113554l.webp" alt="Selection Project">
+                </div>
+                <div class="details">
+                    <a href="selection-project"><h3>Selection Project</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Selection Project follows a group of aspiring idols who compete in a prestigious singing competition to achieve their dreams of stardom. As they navigate through various challenges and training sessions, the contestants form friendships and rivalries while showcasing their talents on stage. With each episode bringing new performances and emotional moments, the series captures the passion and dedication of these young performers as they strive to stand out and make their mark in the competitive world of idol entertainment.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1963/128728l.jpg" alt="Management of a Novice Alchemist">
+                </div>
+                <div class="details">
+                    <a href="management-of-a-novice-alchemist"><h3>Management of a Novice Alchemist</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where alchemy is a highly respected profession, a novice alchemist embarks on a journey to master the ancient art. With the help of skilled mentors and a dedicated team, they face challenges, uncover long-lost secrets, and strive to create the most powerful potions known to mankind. Along the way, they will encounter formidable adversaries and form unbreakable bonds, all while uncovering the true potential of their alchemical abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1720/139131l.webp" alt="I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness">
+                </div>
+                <div class="details">
+                    <a href="i%27m-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness"><h3>I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After rescuing a noble lady from a precarious situation, a kind-hearted individual decides to teach her the ways of the world. Through a series of misadventures and amusing encounters, the once sheltered lady learns about the ways of society and discovers her own desires. As the two grow closer, they navigate the complexities of relationships and self-discovery, all while facing the challenges of their conflicting backgrounds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 78%;"></span>
+                            </div>
+                            <p>78% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1251/136232l.webp" alt="Sweet Reincarnation">
+                </div>
+                <div class="details">
+                    <a href="sweet-reincarnation"><h3>Sweet Reincarnation</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After dying in a tragic accident, high school student Sakura finds herself reincarnated in a fantasy world as the daughter of a noble family. Determined to live a fulfilling life this time, she uses her knowledge from her previous life to navigate the challenges of this new world. As she grows and learns more about her new surroundings, Sakura discovers hidden powers within herself that could change the fate of the kingdom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 78%;"></span>
+                            </div>
+                            <p>78% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1303/90909l.jpg" alt="Isekai Izakaya: Japanese Food From Another World">
+                </div>
+                <div class="details">
+                    <a href="isekai-izakaya%3A-japanese-food-from-another-world"><h3>Isekai Izakaya: Japanese Food From Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Isekai Izakaya: Japanese Food From Another World, a traditional Japanese izakaya mysteriously appears in a medieval European town through a magical door. The eatery's chef and waitress begin to serve the townspeople delicious Japanese dishes, captivating them with the unique flavors. As they share food and stories, the customers and staff forge new connections and friendships that transcend cultural boundaries in this heartwarming culinary tale.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 76%;"></span>
+                            </div>
+                            <p>76% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1671/120628l.webp" alt="In the Land of Leadale">
+                </div>
+                <div class="details">
+                    <a href="in-the-land-of-leadale"><h3>In the Land of Leadale</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After a tragic accident, Keina Kagami finds herself trapped in the virtual reality game she used to play, now known as the Land of Leadale. Determined to uncover the secrets of this new world, Keina embarks on a journey filled with magic, adventure, and unexpected friendships. As she explores the vast landscapes and encounters various challenges, Keina begins to question the true nature of her reality and searches for a way to return home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 76%;"></span>
+                            </div>
+                            <p>76% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/26876l.jpg" alt="Fortune Arterial: Akai Yakusoku">
+                </div>
+                <div class="details">
+                    <a href="fortune-arterial%3A-akai-yakusoku"><h3>Fortune Arterial: Akai Yakusoku</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Fortune Arterial: Akai Yakusoku follows the story of Kohei Hasekura, a transfer student at Shuchikan Academy, who encounters a girl named Erika Sendo with a mysterious secret. As Kohei unravels the mysteries surrounding Erika and her friends, he finds himself getting involved in supernatural events and a web of past connections that may impact their futures. Amidst school life and friendships, Kohei must navigate the complexities of his new world and the ominous promise that binds them all together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 76%;"></span>
+                            </div>
+                            <p>76% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/76700l.webp" alt="Aria the Scarlet Ammo AA">
+                </div>
+                <div class="details">
+                    <a href="aria-the-scarlet-ammo-aa"><h3>Aria the Scarlet Ammo AA</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Aria the Scarlet Ammo AA follows Akari Mamiya, a bubbly and determined student at Tokyo Butei High School, where students are trained in combat skills. Akari idolizes Aria, a skilled Butei known as Quadra for her abilities in marksmanship. The series showcases Akari's adventures as she trains to become a great Butei like Aria, all while forming friendships and facing various challenges along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 76%;"></span>
+                            </div>
+                            <p>76% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/84858l.jpg" alt="Hinako Note">
+                </div>
+                <div class="details">
+                    <a href="hinako-note"><h3>Hinako Note</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Hinako Note follows Hinako Sakuragi, a shy girl with a fear of talking to strangers. She moves to the countryside to attend high school and decides to join a theater company to overcome her shyness. With the help of her eccentric new friends, Hinako navigates her fear of people while discovering the joy of performing on stage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 76%;"></span>
+                            </div>
+                            <p>76% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/73475l.webp" alt="Ultimate Otaku Teacher">
+                </div>
+                <div class="details">
+                    <a href="ultimate-otaku-teacher"><h3>Ultimate Otaku Teacher</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>After being labeled a shut-in and otaku, Junichiro Kagami is forced to become a high school teacher. Unconventional and quirky, he uses his knowledge of anime, manga, and video games to connect with his students in unexpected ways. Through his unique teaching methods, Junichiro helps his students discover their passions and overcome their challenges while navigating the ups and downs of high school life. Can his unorthodox approach make a difference in the lives of his students?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 75%;"></span>
+                            </div>
+                            <p>75% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/86644l.jpg" alt="Clean Freak! Aoyama-kun">
+                </div>
+                <div class="details">
+                    <a href="clean-freak%21-aoyama-kun"><h3>Clean Freak! Aoyama-kun</h3></a>
+                    <p>Sports</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Soccer prodigy Aoyama is not just talented on the field but also known for his extreme cleanliness habits. Follow his endeavors as he navigates through the world of soccer, dealing with his obsessive-compulsive disorder while striving for victory. Aoyama's unique approach to the game sets him apart from his teammates, leading to amusing and inspiring situations both on and off the pitch.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 75%;"></span>
+                            </div>
+                            <p>75% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1044/129594l.jpg" alt="Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀">
+                </div>
+                <div class="details">
+                    <a href="reborn-to-master-the-blade%3A-from-hero-king-to-extraordinary-squire-%E2%99%80"><h3>Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After an accidental death, a hero-king is reborn as a young girl named Lin. Determined to regain her former strength, Lin strives to become a skilled squire and master the blade once again. Along the way, she faces challenges, makes new friends, and discovers the meaning of true courage and honor. Will Lin be able to reclaim her title as the Hero-King in this new life?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 75%;"></span>
+                            </div>
+                            <p>75% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1851/96154l.jpg" alt="Ms. Vampire who lives in my neighborhood.">
+                </div>
+                <div class="details">
+                    <a href="ms.-vampire-who-lives-in-my-neighborhood."><h3>Ms. Vampire who lives in my neighborhood.</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>When high schooler Akari moves to a new town, she discovers her next-door neighbor Sophie is a vampire. Despite their differences, they form a close friendship along with other supernatural beings. Together, they navigate school life, friendship, and the challenges that arise from living in a world of both humans and monsters.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1648/126110l.jpg" alt="I'm the Villainess, So I'm Taming the Final Boss">
+                </div>
+                <div class="details">
+                    <a href="i%27m-the-villainess%2C-so-i%27m-taming-the-final-boss"><h3>I'm the Villainess, So I'm Taming the Final Boss</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After reincarnating as the villainess in her favorite otome game, Aria is determined to avoid her doom by taming the final boss, Lancelot. As Aria tries to manipulate the game's events, she finds herself falling for Lancelot. With the fate of the world at stake, Aria must navigate her feelings while altering the game's course. Will she succeed in changing her destiny and finding love in this romantic comedy?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1289/127754l.webp" alt="My Master Has No Tail">
+                </div>
+                <div class="details">
+                    <a href="my-master-has-no-tail"><h3>My Master Has No Tail</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where humans coexist with animal spirits, a young girl named Aika dreams of becoming a great spirit-tamer. However, she is surprised to find that her assigned spirit, Kuro, doesn't have a tail like the others. Determined to prove Kuro's worth and mystery, Aika sets out on a journey full of adventures, challenges, and the discovery of the true meaning of friendship and acceptance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/50395l.webp" alt="Hanamaru Kindergarten">
+                </div>
+                <div class="details">
+                    <a href="hanamaru-kindergarten"><h3>Hanamaru Kindergarten</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Hanamaru Kindergarten follows Anzu, a playful and imaginative young girl who starts attending a kindergarten where her crush, the teacher Tsuchida, works. Alongside her friends, the mischievous Hiiragi and the level-headed Koume, Anzu embarks on various adventures and schemes to capture Tsuchida's attention. The series explores the daily lives and whimsical antics of the children at Hanamaru Kindergarten, filled with laughter, friendship, and innocent romance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/75230l.jpg" alt="A Good Librarian Like a Good Shepherd">
+                </div>
+                <div class="details">
+                    <a href="a-good-librarian-like-a-good-shepherd"><h3>A Good Librarian Like a Good Shepherd</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Kyoutarou Kakei is a high school guy who works as a librarian. One day, he meets a mysterious girl named Tsugumi Shirasaki, who has lost all her memories. Kyoutarou decides to help her uncover her past and they both get involved in a series of adventures filled with books, secrets, and supernatural occurrences. As they navigate through challenges and mysteries, they form a deep bond that transcends their initial meeting.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1624/139672l.jpg" alt="Sasaki and Peeps">
+                </div>
+                <div class="details">
+                    <a href="sasaki-and-peeps"><h3>Sasaki and Peeps</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In Sasaki and Peeps, high school student Sasaki discovers an abandoned, injured baby crow and decides to nurse it back to health. With the help of his classmates, they form a bond with the crow they name Peeps. As they care for Peeps and learn about the challenges of raising a wild animal, they also navigate their own personal struggles and form lasting friendships. The heartwarming story explores the themes of compassion, friendship, and the beauty of connecting with nature.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1084/126652l.jpg" alt="Beast Tamer">
+                </div>
+                <div class="details">
+                    <a href="beast-tamer"><h3>Beast Tamer</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where humans and mythical creatures coexist, a young beast tamer named Yuuki embarks on a journey to become the greatest tamer of them all. With his loyal companions, including a fearsome dragon and a mischievous phoenix, Yuuki faces challenges, battles rival tamers, and uncovers the truth behind a mysterious prophecy that could change the fate of both humans and beasts. Join Yuuki as he pushes his limits and forges deep bonds with his fantastical friends in this thrilling adventure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1329/135096l.jpg" alt="Saint Cecilia and Pastor Lawrence">
+                </div>
+                <div class="details">
+                    <a href="saint-cecilia-and-pastor-lawrence"><h3>Saint Cecilia and Pastor Lawrence</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a small town, a renowned musician named Cecilia seeks solace from her fame by taking refuge in a local church. There, she meets Lawrence, a kind pastor who helps her rediscover her passion for music and faith. As they bond over their shared love for music and desire to make a positive impact on the community, Cecilia and Lawrence navigate challenges together, inspiring those around them with their genuine connection and uplifting performances.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1925/139564l.jpg" alt="Fluffy Paradise">
+                </div>
+                <div class="details">
+                    <a href="fluffy-paradise"><h3>Fluffy Paradise</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>Fluffy Paradise follows the adventures of a group of high school students who stumble upon a hidden portal to a magical world filled with adorable creatures. As they navigate this enchanting paradise, they must work together to solve puzzles, overcome challenges, and uncover the secrets of the realm. With each new discovery, they forge deep bonds and learn valuable lessons about friendship, courage, and the importance of protecting the ones they love.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1517/125496l.webp" alt="Black Summoner">
+                </div>
+                <div class="details">
+                    <a href="black-summoner"><h3>Black Summoner</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Black Summoner, a talented but introverted gamer awakens in a mysterious fantasy world as a powerful summoner. With the ability to conjure and control mythical creatures, he sets out on an epic journey to discover the secrets of his new reality. Along the way, he forms alliances, battles formidable foes, and unravels the truth behind his summoning powers. With each challenge he faces, he grows stronger and closer to unlocking the full extent of his abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1547/125900l.jpg" alt="The Reincarnation of the Strongest Exorcist in Another World">
+                </div>
+                <div class="details">
+                    <a href="the-reincarnation-of-the-strongest-exorcist-in-another-world"><h3>The Reincarnation of the Strongest Exorcist in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After dying in his world, Kaito is reincarnated in a fantasy realm as the strongest exorcist. With his new powers, he sets out to vanquish demons plaguing the land. As he uncovers the truth about his past and the reason for his reincarnation, Kaito discovers that his role in this new world is more significant than he could have ever imagined. Follow his journey as he battles dark forces and comes to terms with his newfound destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1142/111693l.webp" alt="Asteroid in Love">
+                </div>
+                <div class="details">
+                    <a href="asteroid-in-love"><h3>Asteroid in Love</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Mira Konohata dreams of finding a shooting star when she was young. Years later, she joins the Earth Sciences Club in high school where she meets a fellow student, Ao Manaka, who has a passion for astronomy. With a shared goal of watching a rare asteroid pass by Earth, the girls work together to overcome challenges and deepen their friendship through their love for space and the wonders of the universe.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1304/92930l.jpg" alt="Holmes of Kyoto">
+                </div>
+                <div class="details">
+                    <a href="holmes-of-kyoto"><h3>Holmes of Kyoto</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Holmes of Kyoto follows Aoi Mashiro, a high school girl who works part-time at an antiques shop in Kyoto owned by the enigmatic and brilliant antique appraiser, Kiyotaka Yagashira. Together, they solve mysteries surrounding various antiques while navigating the complexities of human emotions and relationships. As they unravel the secrets behind each valuable artifact, Aoi finds herself drawn to Kiyotaka's unique deductive skills and gradually discovers the hidden truths of both the antiques and the people connected to them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1927/132758l.jpg" alt="The Ice Guy and His Cool Female Colleague">
+                </div>
+                <div class="details">
+                    <a href="the-ice-guy-and-his-cool-female-colleague"><h3>The Ice Guy and His Cool Female Colleague</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where superpowers are common, a reserved man with the ability to manipulate ice joins forces with a carefree woman who can control water. As they work together as colleagues at a top secret agency, they find themselves facing dangerous missions and powerful enemies. Despite their contrasting personalities, they must learn to trust each other's abilities and form a strong partnership to protect their city from impending threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1361/120706l.jpg" alt="Skeleton Knight in Another World">
+                </div>
+                <div class="details">
+                    <a href="skeleton-knight-in-another-world"><h3>Skeleton Knight in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After mysteriously being transported to a medieval fantasy world, a young man named Arc decides to use his gaming skills to become the feared Skeleton Knight. With his powerful skeleton armor and newfound abilities, Arc embarks on a journey to uncover the truth behind his arrival in this world. Along the way, he forms alliances, battles formidable foes, and seeks to protect those in need, all while trying to find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1654/108801l.webp" alt="By the Grace of the Gods">
+                </div>
+                <div class="details">
+                    <a href="by-the-grace-of-the-gods"><h3>By the Grace of the Gods</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Ryouma Takahashi, a salaryman, mysteriously passes away, only to be reincarnated in a fantasy world. Blessed with the ability to tame and communicate with slimes, Ryouma decides to live a peaceful life in the forest. However, his kind demeanor and unique skills attract the attention of various beings, leading to new adventures and friendships. As Ryouma helps others with his abilities, he discovers the true meaning of family and belonging.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

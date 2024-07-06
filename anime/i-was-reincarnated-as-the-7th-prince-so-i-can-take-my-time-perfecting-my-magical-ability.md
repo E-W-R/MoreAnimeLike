@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "53516";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1580/141243l.jpg" alt="I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability">
+                <div>
+                    <h2 id="title">I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability</h2>
+                    <p>Other Genre</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After dying in a traffic accident, Akira finds himself reincarnated as the 7th prince in a magical kingdom. Determined to perfect his magical abilities at his own pace, he navigates the royal court intrigues and challenges. With his unique past life knowledge and a laid-back approach, Akira sets out on a journey of self-discovery and growth, all while unraveling the mysteries surrounding his new identity.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1763/139538l.jpg" alt="As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World">
+                </div>
+                <div class="details">
+                    <a href="as-a-reincarnated-aristocrat%2C-i%27ll-use-my-appraisal-skill-to-rise-in-the-world"><h3>As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After dying in a freak accident, a young man finds himself reincarnated in a fantasy world as an aristocrat. Blessed with the ability to appraise any object, he sets out on a journey to climb up the ranks of society and make a name for himself. Using his appraisal skill to his advantage, he navigates through political intrigue, battles magical creatures, and forges new alliances. Will his newfound power be enough to secure his place in this new world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/60475l.jpg" alt="Nanana's Buried Treasure">
+                </div>
+                <div class="details">
+                    <a href="nanana%27s-buried-treasure"><h3>Nanana's Buried Treasure</h3></a>
+                    <p>Mystery</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Nanana's Buried Treasure, Juugo Yama moves to an artificial island in search of a new life, only to discover it's filled with mysteries. Juugo encounters the ghost of Nanana, a former resident, who leads him on a quest to find her hidden treasures. Alongside other eccentric treasure hunters, Juugo delves into ancient ruins and faces formidable challenges in the race to uncover Nanana's valuable possessions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/59405l.webp" alt="Waiting in the Summer">
+                </div>
+                <div class="details">
+                    <a href="waiting-in-the-summer"><h3>Waiting in the Summer</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>While making a film for their school project, a group of friends witnesses a mysterious crash landing. They find and befriend an alien who has lost her memories. As they help her uncover her past, they also navigate their own budding relationships and deal with the secrets and emotions that come with young love. Together, they learn the importance of cherishing each moment they have together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1346/141203l.jpg" alt="An Archdemon's Dilemma: How to Love Your Elf Bride">
+                </div>
+                <div class="details">
+                    <a href="an-archdemon%27s-dilemma%3A-how-to-love-your-elf-bride"><h3>An Archdemon's Dilemma: How to Love Your Elf Bride</h3></a>
+                    <p>Romance</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a world where humans and demons coexist, the powerful archdemon named Zagan finds himself betrothed to an elf named Nephy. Despite their differences in race and nature, Zagan is determined to make their arranged marriage work. As they navigate through challenges and cultural clashes, Zagan must also protect Nephy from those who seek to harm her. Through their journey, they both discover the true meaning of love and companionship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1670/141688l.jpg" alt="Mysterious Disappearances">
+                </div>
+                <div class="details">
+                    <a href="mysterious-disappearances"><h3>Mysterious Disappearances</h3></a>
+                    <p>Mystery</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a small town, a series of inexplicable disappearances occur, leaving the community in a state of fear and suspicion. As the town's residents grapple with the eerie events, a group of determined high school students band together to uncover the truth behind the vanishings. With each clue they unearth, they find themselves drawn deeper into a complex web of secrets and deception, leading them to a shocking revelation that will forever change their lives.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1008/140287l.jpg" alt="The Unwanted Undead Adventurer">
+                </div>
+                <div class="details">
+                    <a href="the-unwanted-undead-adventurer"><h3>The Unwanted Undead Adventurer</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After mysteriously dying, warrior Fukamori regains consciousness in a dark cave. Realizing he's become an undead, he struggles to cope with his new existence. Determined to uncover the truth behind his resurrection, Fukamori sets off on a journey filled with danger and surprises. With his new companion, a healer named Alice, by his side, Fukamori faces otherworldly creatures and challenges, all while trying to make sense of his undead status.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1547/125900l.jpg" alt="The Reincarnation of the Strongest Exorcist in Another World">
+                </div>
+                <div class="details">
+                    <a href="the-reincarnation-of-the-strongest-exorcist-in-another-world"><h3>The Reincarnation of the Strongest Exorcist in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After dying in his world, Kaito is reincarnated in a fantasy realm as the strongest exorcist. With his new powers, he sets out to vanquish demons plaguing the land. As he uncovers the truth about his past and the reason for his reincarnation, Kaito discovers that his role in this new world is more significant than he could have ever imagined. Follow his journey as he battles dark forces and comes to terms with his newfound destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/86644l.jpg" alt="Clean Freak! Aoyama-kun">
+                </div>
+                <div class="details">
+                    <a href="clean-freak%21-aoyama-kun"><h3>Clean Freak! Aoyama-kun</h3></a>
+                    <p>Sports</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Soccer prodigy Aoyama is not just talented on the field but also known for his extreme cleanliness habits. Follow his endeavors as he navigates through the world of soccer, dealing with his obsessive-compulsive disorder while striving for victory. Aoyama's unique approach to the game sets him apart from his teammates, leading to amusing and inspiring situations both on and off the pitch.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1733/140802l.jpg" alt="The Wrong Way to Use Healing Magic">
+                </div>
+                <div class="details">
+                    <a href="the-wrong-way-to-use-healing-magic"><h3>The Wrong Way to Use Healing Magic</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After accidentally killing a demon lord, novice healer Mitoshi is banished to a remote village. With no combat skills, he relies on his healing magic to survive, but there's a catch: he can only use it for destructive purposes. As he navigates his new life, Mitoshi must find a way to control his powers and protect those around him from the dangers that threaten the village.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1183/141489l.jpg" alt="Go! Go! Loser Ranger!">
+                </div>
+                <div class="details">
+                    <a href="go%21-go%21-loser-ranger%21"><h3>Go! Go! Loser Ranger!</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In Go! Go! Loser Ranger!, a group of high school outcasts unexpectedly gain superpowers that they must use to protect their city from villains. Despite their initial misfit status, they must band together as a team to save the day and prove that even losers can be heroes. As they navigate the challenges of their newfound abilities and responsibilities, they discover the true meaning of friendship and courage. Can they overcome their own insecurities to become the heroes their city needs?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1901/139910l.jpg" alt="Tearmoon Empire">
+                </div>
+                <div class="details">
+                    <a href="tearmoon-empire"><h3>Tearmoon Empire</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In the Tearmoon Empire, a spoiled noblewoman is suddenly reincarnated as the villainess in her favorite otome game. Determined to avoid her character's tragic fate, she must navigate political intrigue, mend relationships with the game's characters, and secure her happy ending. With her sharp wit and charm, she sets out to rewrite her destiny and become the beloved queen of the empire.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1329/135096l.jpg" alt="Saint Cecilia and Pastor Lawrence">
+                </div>
+                <div class="details">
+                    <a href="saint-cecilia-and-pastor-lawrence"><h3>Saint Cecilia and Pastor Lawrence</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a small town, a renowned musician named Cecilia seeks solace from her fame by taking refuge in a local church. There, she meets Lawrence, a kind pastor who helps her rediscover her passion for music and faith. As they bond over their shared love for music and desire to make a positive impact on the community, Cecilia and Lawrence navigate challenges together, inspiring those around them with their genuine connection and uplifting performances.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/46489l.jpg" alt="Place to Place">
+                </div>
+                <div class="details">
+                    <a href="place-to-place"><h3>Place to Place</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Nagasarete Airantou is a romantic comedy anime that tells the story of Ikuto Tōhōin, a teenage boy who gets stranded on a mysterious island inhabited only by women. As Ikuto tries to find a way off the island and back home, he faces various challenges and adventures. Along the way, he forms relationships with the island's residents, including the spirited Suzu and the kind-hearted Machi. Will Ikuto ever find a way off the island, or will he come to embrace his new life there?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/80688l.jpg" alt="This Art Club Has a Problem!">
+                </div>
+                <div class="details">
+                    <a href="this-art-club-has-a-problem%21"><h3>This Art Club Has a Problem!</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Mizuki Usami is a talented artist who just wants to enjoy her peaceful art club, but things take a chaotic turn when the club gains an eccentric new member, Subaru Uchimaki. Subaru's only interest is drawing the perfect 2D waifu, much to Mizuki's dismay. As the two navigate their unique artistic visions and quirky club members, hilarious and heartwarming moments ensue in This Art Club Has a Problem!</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/79600l.jpg" alt="Is the Order a Rabbit?">
+                </div>
+                <div class="details">
+                    <a href="is-the-order-a-rabbit%3F"><h3>Is the Order a Rabbit?</h3></a>
+                    <p>Other Genre</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Is the Order a Rabbit? follows Cocoa Hoto, a cheerful and energetic girl who moves to a new town for high school. She begins working at the Rabbit House café, where she meets the quiet and mysterious Chino Kafuu. Alongside their eccentric coworkers, including Rize Tedeza and Chiya Ujimatsu, Cocoa navigates her new job and forms special bonds with her friends. The series explores the everyday adventures and heartwarming moments that occur in their quaint little town.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1799/137123l.webp" alt="Ron Kamonohashi's Forbidden Deductions">
+                </div>
+                <div class="details">
+                    <a href="ron-kamonohashi%27s-forbidden-deductions"><h3>Ron Kamonohashi's Forbidden Deductions</h3></a>
+                    <p>Mystery</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In this mystery anime, Ron Kamonohashi, a brilliant detective with a hidden past, is tasked with solving various enigmatic cases that are shrouded in secrecy. Using his exceptional deductive skills, Ron delves deep into the mysteries surrounding each case, unraveling the truth behind them one deduction at a time. As he uncovers the hidden motives and dark secrets of those involved, Ron must navigate through intricate webs of deceit and betrayal to bring justice to the truth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/84461l.webp" alt="Tsugumomo">
+                </div>
+                <div class="details">
+                    <a href="tsugumomo"><h3>Tsugumomo</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Tsugumomo follows Kazuya Kagami, who discovers that his late mother's obi (sash) possesses a spirit named Kiriha. With Kiriha's powerful abilities and tsukumogami form, Kazuya enters a world filled with dangerous supernatural beings. Together, they embark on a journey to defeat evil spirits and uncover the truth behind his family's past. Through battles and trials, Kazuya must learn to harness the obi's power and protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/15940l.jpg" alt="The Sacred Blacksmith">
+                </div>
+                <div class="details">
+                    <a href="the-sacred-blacksmith"><h3>The Sacred Blacksmith</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After losing her father, Cecily joins the Knight Guards to protect her city. During a battle, she encounters a mysterious swordsman named Luke, who also happens to be a talented blacksmith. As they team up to fight against demonic foes with powerful swords forged by Luke, Cecily learns more about his past and the truth behind the Sacred Blacksmith. Together, they face challenges and uncover dark secrets in a world threatened by chaos.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1350/133642l.jpg" alt="My Clueless First Friend">
+                </div>
+                <div class="details">
+                    <a href="my-clueless-first-friend"><h3>My Clueless First Friend</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>When shy and introverted high school student Hana befriends the outgoing and popular Ayumi, their unlikely friendship blossoms as they navigate the ups and downs of adolescence together. With Ayumi's infectious energy and Hana's level-headed nature, the two girls learn valuable lessons about friendship, love, and acceptance as they support each other through various challenges. My Clueless First Friend is a heartwarming tale of the transformative power of friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1284/106945l.jpg" alt="Arte">
+                </div>
+                <div class="details">
+                    <a href="arte"><h3>Arte</h3></a>
+                    <p>Drama</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a time where women are expected to conform to societal norms, Arte, a young noblewoman in 16th century Florence, Italy, dreams of becoming an artist. Despite her family's disapproval, she apprentices under a skilled master to pursue her passion for art. Through dedication and perseverance, Arte navigates the challenges of a male-dominated field, forging her path as a professional artist. Will she prove that talent knows no gender boundaries in the Renaissance art world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/22525l.webp" alt="Omamori Himari">
+                </div>
+                <div class="details">
+                    <a href="omamori-himari"><h3>Omamori Himari</h3></a>
+                    <p>Action</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Yuto Amakawa's life takes an unexpected turn when a beautiful sword-wielding girl named Himari appears to protect him from evil spirits. As Yuto discovers his heritage as a demon slayer, he navigates the dangerous world of supernatural beings alongside Himari and other powerful allies. Together, they battle malevolent spirits and unravel the mysteries surrounding Yuto's lineage. Will Yuto embrace his newfound destiny or be consumed by the darkness that threatens his existence?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1472/93813l.jpg" alt="Knight's & Magic">
+                </div>
+                <div class="details">
+                    <a href="knight%27s-%26-magic"><h3>Knight's & Magic</h3></a>
+                    <p>Isekai</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Ernesti Echevarria is a young genius programmer and mecha otaku who dies in a car accident. He is reincarnated in a fantasy world where giant robots called Silhouette Knights exist. With his knowledge and passion for mechs, Ernesti aims to become a Knight Runner and pilot his own Silhouette Knight. Along with his friends, Ernesti embarks on exciting adventures, pushing the boundaries of magic and engineering to become the greatest Knight Runner in the land.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1720/139131l.webp" alt="I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness">
+                </div>
+                <div class="details">
+                    <a href="i%27m-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness"><h3>I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After rescuing a noble lady from a precarious situation, a kind-hearted individual decides to teach her the ways of the world. Through a series of misadventures and amusing encounters, the once sheltered lady learns about the ways of society and discovers her own desires. As the two grow closer, they navigate the complexities of relationships and self-discovery, all while facing the challenges of their conflicting backgrounds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1191/127909l.jpg" alt="Reincarnated as a Sword">
+                </div>
+                <div class="details">
+                    <a href="reincarnated-as-a-sword"><h3>Reincarnated as a Sword</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After a powerful sword is seized and imprisoned by a skilled blacksmith in a fantasy world, the sword transforms into a sentient being. Now able to communicate with the blacksmith, the sword proposes they work together to explore the world and find out the sword's origins. Through various battles and encounters with magical beings, the unlikely pair forms a unique and formidable partnership bound by destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1280/138474l.jpg" alt="The Weakest Tamer Began a Journey to Pick Up Trash">
+                </div>
+                <div class="details">
+                    <a href="the-weakest-tamer-began-a-journey-to-pick-up-trash"><h3>The Weakest Tamer Began a Journey to Pick Up Trash</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a world where magical creatures roam freely, a young tamer with no combat skills sets out on an unconventional journey. Determined to prove his worth despite being labeled the weakest tamer, he embarks on a quest to pick up trash scattered by unruly creatures. Along the way, he forms unexpected friendships and learns valuable lessons about perseverance and the true meaning of strength. His seemingly mundane mission soon becomes a transformative adventure that impacts the entire realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1739/124338l.jpg" alt="Tales of Zestiria the X">
+                </div>
+                <div class="details">
+                    <a href="tales-of-zestiria-the-x"><h3>Tales of Zestiria the X</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where humans and supernatural beings coexist, a young man named Sorey discovers his destiny as the Shepherd, a legendary figure said to bring peace to the land. With newfound companions, Sorey embarks on a journey to purify the malevolent beings known as Hellions and save the world from a looming darkness. As he uncovers the secrets of his past and the true nature of the world around him, Sorey must overcome numerous challenges to fulfill his role as the Shepherd.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/85224l.webp" alt="Grimoire of Zero">
+                </div>
+                <div class="details">
+                    <a href="grimoire-of-zero"><h3>Grimoire of Zero</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a world where witches are feared and hunted, a young mercenary encounters a witch named Zero who is searching for a powerful grimoire. Despite his initial reservations, he agrees to help her in exchange for a cure for his curse. As they journey together, they face prejudice and persecution, gradually forming a deep bond as they navigate political intrigue and magical battles while trying to uncover the secrets of the grimoire.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1934/122301l.jpg" alt="I'm Quitting Heroing">
+                </div>
+                <div class="details">
+                    <a href="i%27m-quitting-heroing"><h3>I'm Quitting Heroing</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where heroes protect the people from evil, a talented young hero decides to retire due to a traumatic incident. As they struggle to adjust to a normal life away from the constant battles and fame, they discover new friendships and challenges. Will they be able to leave their heroic past behind, or will the call to action prove too strong to resist? I'm Quitting Heroing is a heartfelt journey of self-discovery and personal growth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/75788l.jpg" alt="The "Hentai" Prince and the Stony Cat.">
+                </div>
+                <div class="details">
+                    <a href="the-%22hentai%22-prince-and-the-stony-cat."><h3>The "Hentai" Prince and the Stony Cat.</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Youto Yokodera desires to be more honest with his feelings. After encountering a strange statue that promises to grant his wish, he finds himself in a series of comedic and unpredictable situations involving a mysterious girl with a similar request. As their wishes intertwine, Youto navigates the unexpected consequences of having his inner thoughts and desires exposed to others, all while trying to uncover the truth behind the statue's powers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1624/139672l.jpg" alt="Sasaki and Peeps">
+                </div>
+                <div class="details">
+                    <a href="sasaki-and-peeps"><h3>Sasaki and Peeps</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In Sasaki and Peeps, high school student Sasaki discovers an abandoned, injured baby crow and decides to nurse it back to health. With the help of his classmates, they form a bond with the crow they name Peeps. As they care for Peeps and learn about the challenges of raising a wild animal, they also navigate their own personal struggles and form lasting friendships. The heartwarming story explores the themes of compassion, friendship, and the beauty of connecting with nature.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

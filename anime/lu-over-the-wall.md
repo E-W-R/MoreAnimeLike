@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Lu Over the Wall</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "34792";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/5/84260l.jpg" alt="Lu Over the Wall">
+                <div>
+                    <h2 id="title">Lu Over the Wall</h2>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Lu Over the Wall follows the story of a young boy named Kai who befriends a mermaid named Lu. As Lu explores the human world through her love for music and dance, their friendship faces challenges from those who fear her magical abilities. Together, Kai and Lu embark on a whimsical and heartwarming adventure filled with friendship, music, and a little bit of magic.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 85%;"></span>
+                            </div>
+                            <p>85% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1149/107242l.jpg" alt="A Letter to Momo">
+                </div>
+                <div class="details">
+                    <a href="a-letter-to-momo"><h3>A Letter to Momo</h3></a>
+                    <p>Drama</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After the loss of her father, young Momo moves to a small island with her mother. Soon, she discovers a mysterious letter from her father, urging her to be strong. As she grapples with her grief, supernatural occurrences begin happening around her, making her question if her father's spirit is trying to reach out to her. With the help of two yokai, Momo embarks on a journey of self-discovery and healing.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 83%;"></span>
+                            </div>
+                            <p>83% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1320/93443l.jpg" alt="Penguin Highway">
+                </div>
+                <div class="details">
+                    <a href="penguin-highway"><h3>Penguin Highway</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Penguin Highway, a curious fourth-grade boy embarks on a mysterious adventure when a surge of penguins inexplicably invades his suburban town. Fueled by his inquisitive nature, he sets out to uncover the truth behind this fantastical occurrence, leading him to unravel secrets beyond his imagination. As he delves deeper into the peculiar phenomenon, the boy discovers that the penguins' presence may be connected to a strange woman who works at his dentist's office.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1893/99701l.jpg" alt="Ride Your Wave">
+                </div>
+                <div class="details">
+                    <a href="ride-your-wave"><h3>Ride Your Wave</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Hinako, a devoted surfer, moves to a seaside town for college. She befriends firefighter Minato, and they quickly fall in love. However, tragedy strikes, and Hinako must learn to cope with her loss. Surprisingly, she discovers a mystical connection to Minato whenever she sings a certain song. Now, Hinako must navigate this newfound ability while coming to terms with her grief and finding a way to move forward in life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1787/132772l.webp" alt="Deca-Dence">
+                </div>
+                <div class="details">
+                    <a href="deca-dence"><h3>Deca-Dence</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Deca-Dence is set in a post-apocalyptic world where humanity is on the brink of extinction due to the appearance of giant creatures called Gadoll. The survivors reside in the fortress city of Deca-dence, where they work as warriors to fight against the Gadoll. The story follows Natsume, a young girl with dreams of becoming a fighter, and Kaburagi, a disillusioned veteran warrior. As they uncover the dark secrets behind Deca-dence, they join forces to bring about change and fight for a better future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 61%;"></span>
+                            </div>
+                            <p>61% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1828/90335l.jpg" alt="Mary and the Witch's Flower">
+                </div>
+                <div class="details">
+                    <a href="mary-and-the-witch%27s-flower"><h3>Mary and the Witch's Flower</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Mary and the Witch's Flower follows a young girl named Mary who discovers a mysterious flower that grants her magical powers for one night. Transported to a school for witches and wizards, Mary finds herself caught up in a thrilling adventure. As she explores this new world, she uncovers dark secrets and must use her newfound powers to save herself and her friends.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1952/116031l.webp" alt="Words Bubble Up Like Soda Pop">
+                </div>
+                <div class="details">
+                    <a href="words-bubble-up-like-soda-pop"><h3>Words Bubble Up Like Soda Pop</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Words Bubble Up Like Soda Pop, a shy boy who expresses himself through haiku poetry forms an unexpected connection with a popular and cheerful girl who loves all things fashion. The two meet at a shopping mall and develop a unique friendship as they navigate their personal struggles and insecurities. Through their shared love of music and words, they learn valuable lessons about communication, understanding, and the beauty of human connections.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1970/122297l.webp" alt="Ya Boy Kongming!">
+                </div>
+                <div class="details">
+                    <a href="ya-boy-kongming%21"><h3>Ya Boy Kongming!</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Ya Boy Kongming! is an entertaining anime about the legendary Chinese strategist Zhuge Liang Kongming, who is reincarnated in modern-day Tokyo. He meets Eiko Tsukimi, an aspiring singer, and uses his tactical genius to help her achieve her dreams of becoming a music star. The series blends historical elements with contemporary music and comedy, creating a delightful story about ambition, friendship, and pursuing one's dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1743/125204l.jpg" alt="Uncle from Another World">
+                </div>
+                <div class="details">
+                    <a href="uncle-from-another-world"><h3>Uncle from Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When a young man named Hiro loses his job and feels directionless in life, he receives an unexpected inheritance from his late uncle: a mysterious amulet. To his surprise, the amulet transports him to a parallel fantasy world where his uncle is a legendary hero. As Hiro navigates this new world and learns about his uncle's past, he must decide whether to embrace his newfound destiny or find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1566/129181l.webp" alt="Aggretsuko (ONA)">
+                </div>
+                <div class="details">
+                    <a href="aggretsuko-%28ona%29"><h3>Aggretsuko (ONA)</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Meet Retsuko, a mild-mannered red panda who navigates the struggles of office life. To cope with her demanding boss and gossipy coworkers, she unleashes her frustrations through death metal karaoke. Follow Retsuko as she balances work, friendship, and romance while discovering her own strength and independence in this charming comedy series.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1245/112628l.jpg" alt="The Anthem of the Heart">
+                </div>
+                <div class="details">
+                    <a href="the-anthem-of-the-heart"><h3>The Anthem of the Heart</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>The Anthem of the Heart follows Jun, a high school girl who is unable to speak her mind after a childhood incident. She joins a community service project with three other students and together they decide to put on a musical. As they work on the project, they learn about each other's struggles and start to confront their own emotional barriers. Through friendship and self-expression, they find healing and hope.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/21741l.webp" alt="The Garden of Sinners Chapter 1: Overlooking View">
+                </div>
+                <div class="details">
+                    <a href="the-garden-of-sinners-chapter-1%3A-overlooking-view"><h3>The Garden of Sinners Chapter 1: Overlooking View</h3></a>
+                    <p>Mystery</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In The Garden of Sinners Chapter 1: Overlooking View, Mikiya investigates a series of mysterious suicides happening in the city. He meets Shiki, a girl with a unique ability to see the death of things as lines. Together, they uncover a dark connection between the victims and a paranormal presence. As they delve deeper into the investigation, they become entangled in a web of secrets and supernatural forces that threaten their lives.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1864/93518l.jpg" alt="Wotakoi: Love is Hard for Otaku">
+                </div>
+                <div class="details">
+                    <a href="wotakoi%3A-love-is-hard-for-otaku"><h3>Wotakoi: Love is Hard for Otaku</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After discovering they are both otaku, childhood friends Narumi and Hirotaka navigate the ups and downs of dating while working at the same company. Their unique bond grows as they explore their shared interests in video games, manga, and cosplay. Alongside their quirky friends, they learn that love can be challenging even for two people who seem to understand each other so well.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/82890l.webp" alt="Saga of Tanya the Evil">
+                </div>
+                <div class="details">
+                    <a href="saga-of-tanya-the-evil"><h3>Saga of Tanya the Evil</h3></a>
+                    <p>Isekai</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After a salaryman is reincarnated into a young girl in a war-torn world, she uses her ruthless tactics and cunning intelligence to climb the ranks of the military. Facing off against enemies both on the battlefield and within her own ranks, Tanya must navigate the horrors of war while also facing the mysterious Being X who seems to be orchestrating her fate.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1042/95674l.jpg" alt="Mirai">
+                </div>
+                <div class="details">
+                    <a href="mirai"><h3>Mirai</h3></a>
+                    <p>Drama</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Mirai, a young boy named Kun struggles to adjust to the arrival of his baby sister, Mirai. Feeling jealous and neglected, Kun embarks on a magical journey through time where he encounters various family members from the past and future. Through these encounters, Kun learns valuable life lessons and the importance of family bonds. As the story unfolds, Kun begins to come to terms with his new role as a big brother and the challenges that come with it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1141/117446l.webp" alt="Cells at Work!">
+                </div>
+                <div class="details">
+                    <a href="cells-at-work%21"><h3>Cells at Work!</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In this anime, human cells are personified as characters working together in a bustling city-like body to protect and maintain the health of their host. The story follows a red blood cell and a white blood cell as they navigate daily tasks and battle against various pathogens and threats to the body. The anime showcases the inner workings of the human body through an entertaining and educational lens, highlighting the importance of each cell's role in maintaining overall health.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/32547l.jpg" alt="From Up on Poppy Hill">
+                </div>
+                <div class="details">
+                    <a href="from-up-on-poppy-hill"><h3>From Up on Poppy Hill</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In From Up on Poppy Hill, set in 1963 Yokohama, Japan, high school students Umi and Shun work together to save their school's clubhouse from demolition. As they form a strong bond, they discover a shared connection from their pasts. Amidst personal struggles and social change, the two must navigate their emotions and uncover the truth behind their intertwined destinies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1757/116931l.webp" alt="Blue Period">
+                </div>
+                <div class="details">
+                    <a href="blue-period"><h3>Blue Period</h3></a>
+                    <p>Drama</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Blue Period follows Yatora Yaguchi, a high school student who feels lost and unsure about his future. After discovering a hidden talent for art, Yatora becomes obsessed with painting and decides to pursue a future in the competitive world of art. As he navigates the challenges of pursuing his passion, Yatora faces self-doubt, criticism, and competition from his peers. Will he find success and fulfillment in his artistic journey?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/50453l.webp" alt="Kuroko's Basketball">
+                </div>
+                <div class="details">
+                    <a href="kuroko%27s-basketball"><h3>Kuroko's Basketball</h3></a>
+                    <p>Sports</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Kuroko's Basketball, the Seirin High basketball team, led by skilled player Taiga Kagami and the seemingly invisible transfer student, Tetsuya Kuroko, competes to become the best in Japan. Despite Kuroko's lack of presence on the court, his exceptional passing skills and teamwork prove invaluable in taking down other powerful teams. The series follows their journey as they face fierce opponents and strive to win the Interhigh and Winter Cup championships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1974/116417l.webp" alt="The Secret World of Arrietty">
+                </div>
+                <div class="details">
+                    <a href="the-secret-world-of-arrietty"><h3>The Secret World of Arrietty</h3></a>
+                    <p>Other Genre</p>
+                    <p>2010</p>
+                    <br>
+                    <p>The Secret World of Arrietty follows the adventures of a tiny Borrower named Arrietty who lives beneath the floorboards of a house. When she is discovered by a human boy named Shawn, their unlikely friendship blossoms despite the dangers posed by their difference in size. As they navigate the challenges of their respective worlds, they must find a way to protect Arrietty's family secret while forging a bond that transcends their physical disparities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1444/131828l.webp" alt="Tomo-chan Is a Girl!">
+                </div>
+                <div class="details">
+                    <a href="tomo-chan-is-a-girl%21"><h3>Tomo-chan Is a Girl!</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Tomo Aizawa is a girl with a tomboyish personality and has been friends with her neighbor, Junichirou Kubota, since they were kids. Unbeknownst to Tomo, Jun has developed romantic feelings for her over the years. The series follows their everyday high school life filled with comedic misunderstandings, awkward situations, and Jun's attempts to confess his love to Tomo. Will Jun finally be able to express his feelings to Tomo, or will their friendship remain the same?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1958/93533l.jpg" alt="Megalobox">
+                </div>
+                <div class="details">
+                    <a href="megalobox"><h3>Megalobox</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a gritty future where society is divided by class, underground fighters participate in high-stakes boxing matches using metal gear to enhance their abilities. Junk Dog, a talented but unknown fighter, aims to break free from his lower-class background and make a name for himself in the prestigious Megalonia tournament. With the help of his trainer Gansaku Nanbu and ambitious manager Sachio, Junk Dog confronts powerful opponents and personal demons on his journey to the top.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/78606l.webp" alt="Doukyusei -Classmates-">
+                </div>
+                <div class="details">
+                    <a href="doukyusei--classmates-"><h3>Doukyusei -Classmates-</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Sajou, a top student, and Kusakabe, a carefree musician, find themselves paired together for a music project. Despite their contrasting personalities, the two boys develop a close bond and navigate the complexities of high school life, friendship, and first love. Through their shared experiences, they learn about themselves and each other in this heartwarming story of blossoming emotions and self-discovery.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/73540l.jpg" alt="The Boy and the Beast">
+                </div>
+                <div class="details">
+                    <a href="the-boy-and-the-beast"><h3>The Boy and the Beast</h3></a>
+                    <p>Isekai</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When a lonely young boy stumbles into the beastly realm of beasts, he becomes the apprentice to a bear-like creature. As they train together in the ways of the beastly warriors, they form an unlikely bond that will be tested as they face dangerous enemies lurking in the shadows. Will the boy be able to prove himself as a true warrior and find his place in the beastly world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1529/93093l.jpg" alt="Flavors of Youth">
+                </div>
+                <div class="details">
+                    <a href="flavors-of-youth"><h3>Flavors of Youth</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Flavors of Youth follows three different protagonists in China and explores their personal stories of love, loss, and self-discovery. Through the lens of nostalgic memories associated with local cuisine, the characters navigate the complexities of life and relationships. As they reminisce about the past and strive to move forward, they learn valuable lessons about acceptance, growth, and the interconnectedness of their experiences.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1045/106389l.webp" alt="A Whisker Away">
+                </div>
+                <div class="details">
+                    <a href="a-whisker-away"><h3>A Whisker Away</h3></a>
+                    <p>Romance</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In A Whisker Away, a girl named Miyo discovers a mysterious mask that allows her to transform into a cat. She uses this ability to get closer to her crush, but the line between her human and cat selves begins to blur. As she navigates the challenges of her double identity, she must ultimately learn to accept herself for who she truly is.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1591/95091l.webp" alt="Teasing Master Takagi-san">
+                </div>
+                <div class="details">
+                    <a href="teasing-master-takagi-san"><h3>Teasing Master Takagi-san</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Middle schooler Nishikata is constantly teased by his classmate Takagi. Determined to get his revenge, he comes up with various schemes to outsmart her, but Takagi always seems to be one step ahead. As their playful rivalry continues, Nishikata starts to develop feelings for Takagi. Will he ever be able to outwit her and confess his true feelings?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/85435l.webp" alt="Amagi Brilliant Park">
+                </div>
+                <div class="details">
+                    <a href="amagi-brilliant-park"><h3>Amagi Brilliant Park</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>When the amusement park, Amagi Brilliant Park, is on the verge of being shut down due to poor performance, Seiya Kanie, a high school student, is tasked with reviving it. Despite his initial reluctance, Seiya soon discovers that the park's staff are actually magical creatures from a different realm who need the park's success to survive. With his business acumen and the help of the quirky staff, Seiya works towards attracting more visitors to the park while unraveling its magical secrets.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/50177l.jpg" alt="The Devil is a Part-Timer!">
+                </div>
+                <div class="details">
+                    <a href="the-devil-is-a-part-timer%21"><h3>The Devil is a Part-Timer!</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>After being defeated by the hero Emilia, the Demon Lord Satan finds himself stranded in modern-day Tokyo without his powers. Forced to take on a part-time job at a fast-food restaurant to survive, Satan, now known as Sadao Maou, navigates the human world alongside his loyal general Ashiya. As Sadao rises through the ranks at MgRonald's, he must also contend with threats from his past and new enemies who seek to disrupt his peaceful life on Earth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/79468l.webp" alt="Haven't You Heard? I'm Sakamoto">
+                </div>
+                <div class="details">
+                    <a href="haven%27t-you-heard%3F-i%27m-sakamoto"><h3>Haven't You Heard? I'm Sakamoto</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Sakamoto is the epitome of perfection in his high school - he's cool, stylish, and can handle any situation with finesse. His talents make him the target of envy and admiration from his classmates. As they try to trip him up, Sakamoto responds in unexpected and entertaining ways, leaving everyone in awe of his remarkable abilities. Follow Sakamoto as he navigates the challenges of high school life with unmatched grace and flair.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1424/113342l.jpg" alt="Shadows House">
+                </div>
+                <div class="details">
+                    <a href="shadows-house"><h3>Shadows House</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Shadows House, living dolls serve as the faces for the shadow aristocrats, who are beings made of soot and ash. A young living doll named Emilico begins serving Kate, a shadow aristocrat who seems to hide many secrets within the mysterious mansion they both reside in. As Emilico navigates her duties and uncovers the truth behind the shadows, she learns more about her own identity and the dark history of the Shadows Household.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "50421";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1181/127617l.jpg" alt="A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized">
+                <div>
+                    <h2 id="title">A Herbivorous Dragon of 5,000 Years Gets Unfairly Villainized</h2>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After a long slumber, a peaceful herbivorous dragon awakens to a world that now fears and misunderstands him. Despite his gentle nature, he is unjustly accused of being a villain due to his fearsome appearance. Determined to prove his innocence and show his true kind-hearted self, the dragon sets out on a journey filled with challenges and encounters with both friends and foes. Will he be able to clear his name and earn the trust of those who once saw him as a threat?</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 86%;"></span>
+                            </div>
+                            <p>86% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1975/121513l.jpg" alt="Miss Kuroitsu from the Monster Development Department">
+                </div>
+                <div class="details">
+                    <a href="miss-kuroitsu-from-the-monster-development-department"><h3>Miss Kuroitsu from the Monster Development Department</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Miss Kuroitsu from the Monster Development Department, Kuroitsu, a diligent worker in the Monster Development Department, creates various monsters for clients. Despite her kind nature, she often faces challenges due to her colleague's incompetence. With her determination and creativity, Kuroitsu strives to meet her clients' expectations and navigate the chaos in the department. Alongside her quirky coworkers, she embarks on wacky adventures in the world of monster development.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 85%;"></span>
+                            </div>
+                            <p>85% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1945/126130l.jpg" alt="When Will Ayumu Make His Move?">
+                </div>
+                <div class="details">
+                    <a href="when-will-ayumu-make-his-move%3F"><h3>When Will Ayumu Make His Move?</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Ayumu is a shy high school student who has feelings for his outgoing and popular classmate, Maki. With the help of his friends, he embarks on a journey to find the courage to confess his feelings to her. As Ayumu navigates through the challenges of school life and relationships, he must confront his own insecurities and fears in order to take a leap of faith and express his love for Maki.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1680/122002l.webp" alt="RPG Real Estate">
+                </div>
+                <div class="details">
+                    <a href="rpg-real-estate"><h3>RPG Real Estate</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>RPG Real Estate follows a group of skilled real estate agents who specialize in selling properties in fantasy worlds. From cozy cottages in magical kingdoms to luxurious castles in dragon-infested lands, they navigate through various challenges such as dealing with eccentric sellers, unruly creatures, and rival agencies. With each new listing comes the opportunity for adventure and profit, as they strive to become the top real estate agency in the realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/74042l.jpg" alt="Actually, I am...">
+                </div>
+                <div class="details">
+                    <a href="actually%2C-i-am..."><h3>Actually, I am...</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Actually, I Am is a charming anime about Asahi Kuromine, a high school student who is terrible at keeping secrets. One day, he discovers that his crush, Youko Shiragami, is actually a vampire. Determined to protect her secret, Asahi finds himself entangled with other classmates who also have supernatural identities. The series follows Asahi's efforts to keep these secrets while navigating the complexities of high school life, offering a mix of comedy, romance, and supernatural elements.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1171/133777l.jpg" alt="Otaku Elf">
+                </div>
+                <div class="details">
+                    <a href="otaku-elf"><h3>Otaku Elf</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where elves and humans coexist, a young elf girl named Aria discovers her passion for all things otaku. Struggling to fit in with her traditional elf community, Aria immerses herself in anime, manga, and video games. Follow Aria's journey as she navigates the challenges of balancing her love for otaku culture with her responsibilities as an elf, all while forming new friendships and finding her place in both worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/75299l.webp" alt="Deadman Wonderland">
+                </div>
+                <div class="details">
+                    <a href="deadman-wonderland"><h3>Deadman Wonderland</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After a mysterious red man massacres his classmates, Ganta Igarashi is wrongfully convicted and sent to Deadman Wonderland, a twisted prison where inmates entertain visitors with death-defying performances. Ganta must navigate deadly challenges, uncover conspiracies, and harness his own newfound abilities to survive in this brutal world. With the help of fellow inmates, he seeks to unravel the secrets of Deadman Wonderland and clear his name.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1934/128719l.webp" alt="The Little Lies We All Tell">
+                </div>
+                <div class="details">
+                    <a href="the-little-lies-we-all-tell"><h3>The Little Lies We All Tell</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a small town where everyone knows each other, a group of high school students finds themselves entangled in a web of lies and secrets. As their deceitful actions spiral out of control, they must navigate the consequences of their choices while trying to maintain their image. Friendships are tested, relationships are strained, and trust is shattered as the truth threatens to unravel their carefully constructed façade. Can they keep their lies hidden, or will the truth ultimately come to light?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1879/136721l.webp" alt="Level 1 Demon Lord and One Room Hero">
+                </div>
+                <div class="details">
+                    <a href="level-1-demon-lord-and-one-room-hero"><h3>Level 1 Demon Lord and One Room Hero</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In Level 1 Demon Lord and One Room Hero, a powerful demon lord is transported to modern-day Tokyo. Despite his intimidating abilities, he is reduced to level 1 upon arrival. Now living in a small apartment, he forms an unlikely alliance with a young hero who aspires to become stronger. Together, they navigate the challenges of everyday life while encountering various foes from the demon lord's past. Will their partnership lead to victory or chaos?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 61%;"></span>
+                            </div>
+                            <p>61% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1963/128728l.jpg" alt="Management of a Novice Alchemist">
+                </div>
+                <div class="details">
+                    <a href="management-of-a-novice-alchemist"><h3>Management of a Novice Alchemist</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where alchemy is a highly respected profession, a novice alchemist embarks on a journey to master the ancient art. With the help of skilled mentors and a dedicated team, they face challenges, uncover long-lost secrets, and strive to create the most powerful potions known to mankind. Along the way, they will encounter formidable adversaries and form unbreakable bonds, all while uncovering the true potential of their alchemical abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1720/139131l.webp" alt="I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness">
+                </div>
+                <div class="details">
+                    <a href="i%27m-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness"><h3>I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After rescuing a noble lady from a precarious situation, a kind-hearted individual decides to teach her the ways of the world. Through a series of misadventures and amusing encounters, the once sheltered lady learns about the ways of society and discovers her own desires. As the two grow closer, they navigate the complexities of relationships and self-discovery, all while facing the challenges of their conflicting backgrounds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1022/123845l.webp" alt="The Maid I Hired Recently Is Mysterious">
+                </div>
+                <div class="details">
+                    <a href="the-maid-i-hired-recently-is-mysterious"><h3>The Maid I Hired Recently Is Mysterious</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When a young man hires a new maid to help out at his apartment, he quickly realizes that there's more to her than meets the eye. Despite her impeccable cleaning skills and polite demeanor, she seems to be hiding a mysterious past. As he delves deeper into her background, he discovers secrets that could change his life forever. With each passing day, their bond grows stronger, but so does the looming mystery surrounding her true identity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1332/134658l.webp" alt="Too Cute Crisis">
+                </div>
+                <div class="details">
+                    <a href="too-cute-crisis"><h3>Too Cute Crisis</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where all the animals have suddenly turned into adorable creatures, chaos ensues as humans find themselves overwhelmed by the cuteness overload. Follow the hilarious antics of a group of friends as they navigate their way through this 'too cute crisis', trying to resist the overwhelming urge to cuddle every little creature they come across. Will they be able to find a way to reverse the curse and restore the balance before it's too late?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1549/125495l.jpg" alt="Engage Kiss">
+                </div>
+                <div class="details">
+                    <a href="engage-kiss"><h3>Engage Kiss</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Engage Kiss follows the story of high school student Aika, who unexpectedly finds herself entangled in a forbidden romance with her popular classmate, Sora. Despite their differing backgrounds, the two must navigate the challenges of their developing relationship while keeping it a secret from their peers. As they struggle to maintain their connection amidst societal expectations and personal insecurities, Aika and Sora must confront their own feelings and the obstacles that threaten to tear them apart.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1535/115023l.webp" alt="Peach Boy Riverside">
+                </div>
+                <div class="details">
+                    <a href="peach-boy-riverside"><h3>Peach Boy Riverside</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Set in a world where humans coexist with monsters, Peach Boy Riverside follows Princess Sally, who sets out on a journey to seek out the mysterious and powerful beings known as peach boys. Along the way, she encounters danger, uncovers secrets about her past, and comes face-to-face with the dark side of the world she thought she knew. With her loyal bodyguard, Mikoto, by her side, Sally must navigate the complexities of this fantastical world to fulfill her destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/79414l.webp" alt="And you thought there is never a girl online?">
+                </div>
+                <div class="details">
+                    <a href="and-you-thought-there-is-never-a-girl-online%3F"><h3>And you thought there is never a girl online?</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In the anime And you thought there is never a girl online?, a high school student named Hideki Nishimura, who is obsessed with online RPGs, falls in love with a female character in the game. Upon discovering that his in-game wife is actually a man in real life, he vows to never trust a girl online again. However, he later meets three girls in his school's gaming club who challenge his beliefs about online relationships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1901/139910l.jpg" alt="Tearmoon Empire">
+                </div>
+                <div class="details">
+                    <a href="tearmoon-empire"><h3>Tearmoon Empire</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In the Tearmoon Empire, a spoiled noblewoman is suddenly reincarnated as the villainess in her favorite otome game. Determined to avoid her character's tragic fate, she must navigate political intrigue, mend relationships with the game's characters, and secure her happy ending. With her sharp wit and charm, she sets out to rewrite her destiny and become the beloved queen of the empire.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1918/138185l.jpg" alt="The Family Circumstances of the Irregular Witch">
+                </div>
+                <div class="details">
+                    <a href="the-family-circumstances-of-the-irregular-witch"><h3>The Family Circumstances of the Irregular Witch</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>The Family Circumstances of the Irregular Witch follows the story of a young witch named Luna, who struggles to balance her magical duties with her chaotic family life. With her eccentric parents, mischievous siblings, and a grumpy familiar, Luna must navigate through various humorous and heartwarming situations. As Luna learns more about her heritage and powers, she finds herself caught in a web of secrets that could change everything she knows.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1724/121343l.jpg" alt="In the Heart of Kunoichi Tsubaki">
+                </div>
+                <div class="details">
+                    <a href="in-the-heart-of-kunoichi-tsubaki"><h3>In the Heart of Kunoichi Tsubaki</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In the heart of Kunoichi Tsubaki, follow the journey of Tsubaki, a young ninja-in-training who dreams of becoming a legendary kunoichi. As she navigates the challenges of mastering various ninja techniques and facing formidable foes, Tsubaki also discovers the importance of loyalty, friendship, and self-discovery. Alongside her comrades, she must confront her fears and insecurities to unlock her full potential and protect her village from imminent danger. Witness Tsubaki's growth and determination in this action-packed adventure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1799/137123l.webp" alt="Ron Kamonohashi's Forbidden Deductions">
+                </div>
+                <div class="details">
+                    <a href="ron-kamonohashi%27s-forbidden-deductions"><h3>Ron Kamonohashi's Forbidden Deductions</h3></a>
+                    <p>Mystery</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In this mystery anime, Ron Kamonohashi, a brilliant detective with a hidden past, is tasked with solving various enigmatic cases that are shrouded in secrecy. Using his exceptional deductive skills, Ron delves deep into the mysteries surrounding each case, unraveling the truth behind them one deduction at a time. As he uncovers the hidden motives and dark secrets of those involved, Ron must navigate through intricate webs of deceit and betrayal to bring justice to the truth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/74045l.jpg" alt="Infinite Stratos">
+                </div>
+                <div class="details">
+                    <a href="infinite-stratos"><h3>Infinite Stratos</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Infinite Stratos follows a world where powerful exoskeleton suits named Infinite Stratos are created, but only women can pilot them. Ichika Orimura is the first male capable of controlling an IS unit and is enrolled in an academy exclusively for IS pilots. Surrounded by female classmates, Ichika faces various challenges as he trains to become an IS pilot while also unraveling the mysteries of his unique abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1708/123281l.jpg" alt="My Stepmom's Daughter Is My Ex">
+                </div>
+                <div class="details">
+                    <a href="my-stepmom%27s-daughter-is-my-ex"><h3>My Stepmom's Daughter Is My Ex</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>When Shun's father remarries, he finds himself living under the same roof as his ex-girlfriend's mother and stepsister. As old feelings resurface and new dynamics form within the family, Shun navigates the complex emotions of his past relationship and current family situation. With misunderstandings and unexpected connections, they all must come to terms with their intertwined pasts and newfound bonds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1087/129002l.jpg" alt="The Tale of Outcasts">
+                </div>
+                <div class="details">
+                    <a href="the-tale-of-outcasts"><h3>The Tale of Outcasts</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>The Tale of Outcasts follows a group of individuals who have been ostracized by society for their unique abilities. As they navigate a world that fears and rejects them, they come together to form a tight-knit group, finding solace and acceptance in each other's company. Together, they must confront their own inner demons and face external threats, all while trying to carve out a place where they can truly belong.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1154/115599l.jpg" alt="The Great Jahy Will Not Be Defeated!">
+                </div>
+                <div class="details">
+                    <a href="the-great-jahy-will-not-be-defeated%21"><h3>The Great Jahy Will Not Be Defeated!</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Once a powerful demon official, Jahy finds herself stranded in the human world after her magical crystal is shattered. Determined to restore her former glory, Jahy navigates the challenges of living in poverty and working part-time to survive. With her loyal sidekick, Jahy sets out to collect the magical gems needed to reclaim her original form and regain her status as the Great Jahy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1925/139564l.jpg" alt="Fluffy Paradise">
+                </div>
+                <div class="details">
+                    <a href="fluffy-paradise"><h3>Fluffy Paradise</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>Fluffy Paradise follows the adventures of a group of high school students who stumble upon a hidden portal to a magical world filled with adorable creatures. As they navigate this enchanting paradise, they must work together to solve puzzles, overcome challenges, and uncover the secrets of the realm. With each new discovery, they forge deep bonds and learn valuable lessons about friendship, courage, and the importance of protecting the ones they love.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1251/136232l.webp" alt="Sweet Reincarnation">
+                </div>
+                <div class="details">
+                    <a href="sweet-reincarnation"><h3>Sweet Reincarnation</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After dying in a tragic accident, high school student Sakura finds herself reincarnated in a fantasy world as the daughter of a noble family. Determined to live a fulfilling life this time, she uses her knowledge from her previous life to navigate the challenges of this new world. As she grows and learns more about her new surroundings, Sakura discovers hidden powers within herself that could change the fate of the kingdom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1963/138464l.webp" alt="Am I Actually the Strongest?">
+                </div>
+                <div class="details">
+                    <a href="am-i-actually-the-strongest%3F"><h3>Am I Actually the Strongest?</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where strength is everything, Yuuki, a seemingly ordinary high school student, wakes up one day with incredible powers. As he navigates this newfound strength, he encounters various challenges and adversaries who put his abilities to the test. Determined to uncover the truth behind his sudden abilities, Yuuki sets out on a journey to prove to himself and others whether he is truly the strongest.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1624/139672l.jpg" alt="Sasaki and Peeps">
+                </div>
+                <div class="details">
+                    <a href="sasaki-and-peeps"><h3>Sasaki and Peeps</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In Sasaki and Peeps, high school student Sasaki discovers an abandoned, injured baby crow and decides to nurse it back to health. With the help of his classmates, they form a bond with the crow they name Peeps. As they care for Peeps and learn about the challenges of raising a wild animal, they also navigate their own personal struggles and form lasting friendships. The heartwarming story explores the themes of compassion, friendship, and the beauty of connecting with nature.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1684/108627l.jpg" alt="Love is Like a Cocktail">
+                </div>
+                <div class="details">
+                    <a href="love-is-like-a-cocktail"><h3>Love is Like a Cocktail</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Love is Like a Cocktail follows the daily life of Chisato, a career woman who enjoys coming home to her caring husband, Sora. With each episode, Sora surprises Chisato with a new cocktail perfectly tailored to her feelings or the events of the day. The show tastefully showcases their sweet and heartwarming relationship as they navigate the ups and downs of life together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1561/125302l.jpg" alt="Vermeil in Gold">
+                </div>
+                <div class="details">
+                    <a href="vermeil-in-gold"><h3>Vermeil in Gold</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Vermeil in Gold, a young alchemist named Ren discovers a mysterious artifact that can transmute ordinary materials into gold. As Ren navigates the dangerous world of alchemy and encounters rival alchemists seeking the power of the artifact, a thrilling adventure unfolds. With the fate of the kingdom at stake, Ren must make crucial decisions that will not only determine their own future but also the balance of power in the realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1644/128406l.jpg" alt="Arknights Animation: Prelude to Dawn">
+                </div>
+                <div class="details">
+                    <a href="arknights-animation%3A-prelude-to-dawn"><h3>Arknights Animation: Prelude to Dawn</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where a mysterious infection has turned people into savage creatures known as Infected, a group of elite operators known as Rhodes Island must confront the chaos. Doctor Amiya, the young leader of Rhodes Island, must navigate political intrigue and battles against the Infected while uncovering the truth behind the epidemic. As tensions rise, Amiya and her team face difficult decisions that will determine the fate of humanity in this thrilling prelude to the dawn of a new era.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

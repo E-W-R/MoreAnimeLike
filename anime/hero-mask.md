@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Hero Mask</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "38628";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1934/96007l.jpg" alt="Hero Mask">
+                <div>
+                    <h2 id="title">Hero Mask</h2>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Hero Mask follows the story of a young detective who stumbles upon a mysterious and technologically advanced mask. As he delves deeper into the secrets behind the mask, he uncovers a web of corruption, conspiracy, and supernatural powers. With the help of his colleagues, he must navigate through a dangerous world of deceit and betrayal to uncover the truth behind the mask and those who seek to possess its power.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1310/117188l.jpg" alt="In/Spectre">
+                </div>
+                <div class="details">
+                    <a href="inspectre"><h3>In/Spectre</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In/Spectre follows the story of Kotoko Iwanaga, a young girl who becomes a mediator between the human and supernatural worlds. After sacrificing an eye and a leg to various entities, Kotoko gains the ability to see and communicate with spirits. With her unique powers, she works alongside the mysterious Kuro Sakuragawa to solve supernatural incidents and unravel the truth behind mysterious occurrences. The duo must navigate through complex cases involving ghosts, monsters, and otherworldly beings to maintain the balance between both realms.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1562/100460l.webp" alt="Fairy Gone">
+                </div>
+                <div class="details">
+                    <a href="fairy-gone"><h3>Fairy Gone</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After Fairies possess animals during a mysterious incident, they become weapons used in warfare. The story follows Marlya, a survivor of the incident, as she joins an organization that investigates and deals with crimes involving Fairies. Alongside her newfound comrades, Marlya seeks the truth behind the incident that changed her life. As political tensions rise and dark secrets are revealed, they unravel a conspiracy that may shake the very foundations of their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/81630l.jpg" alt="Granblue Fantasy: The Animation">
+                </div>
+                <div class="details">
+                    <a href="granblue-fantasy%3A-the-animation"><h3>Granblue Fantasy: The Animation</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a world filled with mysteries and powerful magical beings, a young boy named Gran encounters a mysterious girl named Lyria who is on the run from the Empire. Together with the skyfarer Katalina, they embark on a journey across the skies in search of Gran's father and to evade the Empire's clutches. Along the way, they make new friends, battle formidable foes, and uncover the truth behind Lyria's extraordinary powers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1365/103219l.webp" alt="Cop Craft">
+                </div>
+                <div class="details">
+                    <a href="cop-craft"><h3>Cop Craft</h3></a>
+                    <p>Mystery</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where humans and supernatural creatures coexist, detective Kei Matoba is paired with a feisty alien knight, Tilarna Exedilica, to solve crimes in the bustling city of San Teresa. As they navigate the dangerous underworld of illegal magic and technology, they must learn to trust each other's skills and beliefs to protect the city from looming threats. Together, they uncover dark secrets that could shake the fragile peace between the two worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1921/91085l.jpg" alt="A.I.C.O. Incarnation">
+                </div>
+                <div class="details">
+                    <a href="a.i.c.o.-incarnation"><h3>A.I.C.O. Incarnation</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a world where a mysterious accident created the Matter, a dangerous substance threatening all life on Earth, Aiko must uncover the truth about her own past to save the future. Teaming up with a group of specialists, she embarks on a dangerous mission into the heart of the Matter Zone, where she will face unimaginable challenges and uncover shocking revelations about the world she thought she knew.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1053/98838l.jpg" alt="Devils' Line">
+                </div>
+                <div class="details">
+                    <a href="devils%27-line"><h3>Devils' Line</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a world where devils live among humans, a college student, Tsukasa, finds herself drawn to a mysterious man named Anzai, who turns out to be a half-devil working for the police force. As their relationship deepens, they must navigate the complexities of their intertwined worlds while facing threats from both devils and humans. With secrets and betrayals at every turn, they must fight to protect their love and the delicate balance between their two species.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1531/102113l.webp" alt="No Guns Life">
+                </div>
+                <div class="details">
+                    <a href="no-guns-life"><h3>No Guns Life</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a futuristic world where humans can replace body parts with cybernetic enhancements, Juzo Inui is a former soldier turned Resolver, taking on cases involving Extended - those with body modifications. With a giant gun for a head, Juzo finds himself entangled in a dark conspiracy that could change society. As he navigates through a web of mysteries and encounters new allies and enemies, he seeks the truth behind his own past and the secret of his unique head.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/87684l.jpg" alt="Juni Taisen: Zodiac War">
+                </div>
+                <div class="details">
+                    <a href="juni-taisen%3A-zodiac-war"><h3>Juni Taisen: Zodiac War</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In Juni Taisen: Zodiac War, twelve warriors representing the Chinese zodiac signs are chosen to battle in a deadly tournament to have their greatest wish granted. Each warrior possesses unique abilities and a tragic backstory that drives their motivation in the brutal competition. As the battles unfold, alliances are formed and broken, revealing the true nature of the warriors and the high stakes of the tournament.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1506/117717l.jpg" alt="I'm Standing on a Million Lives">
+                </div>
+                <div class="details">
+                    <a href="i%27m-standing-on-a-million-lives"><h3>I'm Standing on a Million Lives</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In I'm Standing on a Million Lives, Yotsuya Yusuke finds himself transported to a fantasy world along with his classmates Iu Shindo and Hakozaki Kusue. Tasked with completing various quests to level up and save the world, they must rely on each other's strengths to survive. With Yotsuya's cold demeanor and strategic thinking, Shindo's optimism, and Kusue's knowledge, they navigate the dangerous world full of monsters and challenges. Will they be able to fulfill their missions and find a way back home?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/77523l.jpg" alt="Joker Game">
+                </div>
+                <div class="details">
+                    <a href="joker-game"><h3>Joker Game</h3></a>
+                    <p>Mystery</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In the shadow of World War II, Japan creates an espionage agency known as D Agency to gather intelligence from foreign powers. The agency recruits elite spies who undergo rigorous training in psychological manipulation, disguise, and combat. Each episode follows a different member of D Agency as they navigate the dangerous world of espionage and face moral dilemmas in their mission to protect Japan's interests. With twists and betrayals at every turn, Joker Game is a thrilling spy anime that keeps viewers on the edge of their seats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1277/108376l.webp" alt="Ikebukuro West Gate Park">
+                </div>
+                <div class="details">
+                    <a href="ikebukuro-west-gate-park"><h3>Ikebukuro West Gate Park</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Makoto tries to uncover the truth behind a series of mysterious incidents in his town while balancing his loyalty to his friends and dealing with the complexities of growing up. As he delves deeper into the dark underbelly of Ikebukuro, Makoto must navigate the dangerous world of gangs and personal relationships to protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1132/111619l.jpg" alt="CHOYOYU!: High School Prodigies Have It Easy Even in Another World!">
+                </div>
+                <div class="details">
+                    <a href="choyoyu%21%3A-high-school-prodigies-have-it-easy-even-in-another-world%21"><h3>CHOYOYU!: High School Prodigies Have It Easy Even in Another World!</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Seven high school prodigies are transported to a fantasy world after a plane crash. Each possessing exceptional skills, they quickly adapt to their new environment and use their talents to improve the lives of its inhabitants. As they navigate political intrigue and magical threats, they work together to revolutionize the world and bring about positive change while searching for a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1834/110718l.jpg" alt="The 8th Son? Are You Kidding Me?">
+                </div>
+                <div class="details">
+                    <a href="the-8th-son%3F-are-you-kidding-me%3F"><h3>The 8th Son? Are You Kidding Me?</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>After a regular salaryman falls asleep while reading a book on ancient magic, he wakes up in a fantasy world as the youngest son of a noble family. With no magical abilities or combat skills, he must navigate political intrigue and power struggles to survive. Using his knowledge of economics and modern tactics, he sets out to make a name for himself in this new world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1063/98597l.jpg" alt="Ultramarine Magmell">
+                </div>
+                <div class="details">
+                    <a href="ultramarine-magmell"><h3>Ultramarine Magmell</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In Ultramarine Magmell, the sudden appearance of a new continent called Magmell leads to a surge in exploration for its unique resources. Follow the adventures of a young rescue specialist named Inyo as he navigates the dangers of this uncharted land, uncovering mysteries and helping those in need. With his special abilities and determination, Inyo faces various challenges and encounters both friends and foes in this thrilling expedition into the unknown territory of Magmell.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1456/94897l.jpg" alt="Sirius the Jaeger">
+                </div>
+                <div class="details">
+                    <a href="sirius-the-jaeger"><h3>Sirius the Jaeger</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Sirius the Jaeger, a group of vampire hunters called Jaegers is on a mission to hunt down vampires that have infiltrated Tokyo. Yuliy, a young werewolf and one of the last surviving members of the Sirius werewolf tribe, joins forces with the Jaegers to seek revenge against the vampires responsible for the destruction of his home. As the intense battle between the Jaegers and vampires escalates, dark secrets and ancient prophecies are revealed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/75653l.webp" alt="Hamatora The Animation">
+                </div>
+                <div class="details">
+                    <a href="hamatora-the-animation"><h3>Hamatora The Animation</h3></a>
+                    <p>Mystery</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Hamatora The Animation follows a group of individuals with superhuman abilities known as Minimum Holders. These individuals run a detective agency and take on various cases using their unique powers. As they delve deeper into their investigations, they uncover a dark conspiracy that threatens the balance of their world. With action-packed sequences and unexpected twists, the members of Hamatora must use their abilities to unravel the mysteries surrounding them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1267/103421l.jpg" alt="Assassins Pride">
+                </div>
+                <div class="details">
+                    <a href="assassins-pride"><h3>Assassins Pride</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where noble families wield magical powers, aspiring assassin, Melida, lacks the ability to manipulate mana. Teaming up with Kufa, a talented assassin, she seeks to prove her worth by mastering her skills and attending the prestigious academy. As secrets unravel and dark forces threaten the kingdom, Melida must navigate through political schemes and deadly challenges to unveil her true potential.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1452/102628l.jpg" alt="Cannon Busters">
+                </div>
+                <div class="details">
+                    <a href="cannon-busters"><h3>Cannon Busters</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In Cannon Busters, the story follows a high-end friendship droid named S.A.M. as she searches for her missing best friend in a mysterious land full of robots and strange creatures. Along the way, she teams up with a maintenance robot and a wanted criminal on a quest that will test their skills, friendships, and loyalty. Together, they embark on an epic journey filled with danger, adventure, and self-discovery.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1176/118382l.jpg" alt="The Faraway Paladin">
+                </div>
+                <div class="details">
+                    <a href="the-faraway-paladin"><h3>The Faraway Paladin</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>The Faraway Paladin follows the story of Will, a boy raised by three undead beings in an ancient, abandoned city. After being taught the ways of knighthood and magic, Will embarks on a journey to explore the world outside his home. As he faces challenges and discovers the truths of his past, Will must navigate the complexities of good and evil to fulfill his destiny as the Faraway Paladin.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1456/115123l.jpg" alt="Record of Ragnarok">
+                </div>
+                <div class="details">
+                    <a href="record-of-ragnarok"><h3>Record of Ragnarok</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Record of Ragnarok, gods and humans meet in a fierce tournament where they must battle to decide the fate of humanity. With the survival of the human race at stake, legendary figures from history and mythology are summoned to fight in epic duels. As the intense battles unfold, alliances are formed, secrets are revealed, and the ultimate showdown between gods and mortals approaches. Who will emerge victorious in this ultimate battle for the future of humanity?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/88911l.jpg" alt="Death March to the Parallel World Rhapsody">
+                </div>
+                <div class="details">
+                    <a href="death-march-to-the-parallel-world-rhapsody"><h3>Death March to the Parallel World Rhapsody</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Suzuki Ichirou is testing a new game when he suddenly finds himself transported into a fantasy world. As his character, Satou, he must navigate this new world filled with magic, monsters, and adventure. Using his powerful abilities and knowledge from his previous life, Satou embarks on a journey to uncover the secrets of this parallel world and find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/76034l.webp" alt="The Asterisk War">
+                </div>
+                <div class="details">
+                    <a href="the-asterisk-war"><h3>The Asterisk War</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In the city of Asterisk, Julis-Alexia von Riessfeld competes in the Festa fighting tournament to secure her rank and funding for her orphanage. She teams up with Ayato Amagiri, a new transfer student with his own reasons for joining the battles. As they navigate the dangerous world of the Festa, they uncover dark secrets and confront powerful foes. Julis and Ayato must rely on each other's strength and determination to survive and achieve their goals.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1219/116954l.jpg" alt="7 Seeds">
+                </div>
+                <div class="details">
+                    <a href="7-seeds"><h3>7 Seeds</h3></a>
+                    <p>Mystery</p>
+                    <p>2019</p>
+                    <br>
+                    <p>7 Seeds follows a group of young individuals who awaken from cryogenic sleep to find themselves in a post-apocalyptic world. Tasked with rebuilding civilization, they must navigate the harsh environment, overcome personal struggles, and learn to work together to survive. As they uncover the mysteries of their new world and confront dangerous challenges, bonds are forged and secrets are revealed, shaping their journey towards hope and a new beginning.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/61781l.webp" alt="Chaika -The Coffin Princess-">
+                </div>
+                <div class="details">
+                    <a href="chaika--the-coffin-princess-"><h3>Chaika -The Coffin Princess-</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Chaika -The Coffin Princess- follows a young girl named Chaika who travels with two saboteurs, searching for the remains of her father in a post-war fantasy world. With a mysterious coffin in tow and unique magical abilities, Chaika encounters challenges and adversaries on her journey. As secrets unravel and loyalties are tested, Chaika must navigate political intrigue and confront the truth about her identity to fulfill her mission.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1361/120706l.jpg" alt="Skeleton Knight in Another World">
+                </div>
+                <div class="details">
+                    <a href="skeleton-knight-in-another-world"><h3>Skeleton Knight in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After mysteriously being transported to a medieval fantasy world, a young man named Arc decides to use his gaming skills to become the feared Skeleton Knight. With his powerful skeleton armor and newfound abilities, Arc embarks on a journey to uncover the truth behind his arrival in this world. Along the way, he forms alliances, battles formidable foes, and seeks to protect those in need, all while trying to find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/74047l.webp" alt="Aesthetica of a Rogue Hero">
+                </div>
+                <div class="details">
+                    <a href="aesthetica-of-a-rogue-hero"><h3>Aesthetica of a Rogue Hero</h3></a>
+                    <p>Isekai</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After defeating the demon king, hero Akatsuki Ousawa is sent to a parallel world to attend a school for those who have returned from fighting in other realms. Faced with suspicion and hostility from both students and teachers, Akatsuki must navigate this new environment while keeping his true powers a secret. As he gets caught up in various adventures and battles, he forms unlikely alliances and uncovers dark secrets about the world he now inhabits.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/86304l.webp" alt="Dimension W">
+                </div>
+                <div class="details">
+                    <a href="dimension-w"><h3>Dimension W</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a future where limitless energy comes from Dimension W, illegal coils threaten the balance of power. Mira, a humanoid robot, teams up with a stoic collector, Kyouma, to hunt down these dangerous coils. As they delve deeper into the mysteries of Dimension W, they uncover dark secrets and face powerful adversaries. Together, they must navigate a treacherous world of technology, corruption, and intrigue to protect the fragile peace.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/61433l.jpg" alt="Brynhildr in the Darkness">
+                </div>
+                <div class="details">
+                    <a href="brynhildr-in-the-darkness"><h3>Brynhildr in the Darkness</h3></a>
+                    <p>Mystery</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After escaping from a research facility, Ryouta befriends a girl who has escaped alongside him. She possesses mysterious powers and a tragic past she cannot remember. As he learns more about her abilities and the organization hunting her, Ryouta is drawn into a dangerous world where the line between friend and foe is blurred. Together, they must navigate the dangers that surround them while uncovering the truth behind her existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1854/114772l.jpg" alt="Infinite Dendrogram">
+                </div>
+                <div class="details">
+                    <a href="infinite-dendrogram"><h3>Infinite Dendrogram</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Infinite Dendrogram follows college student Reiji Mukudori as he immerses himself in the highly advanced virtual reality game, Infinite Dendrogram. In this game, players can explore a vast and intricate world filled with endless possibilities. As Reiji dives deeper into this virtual realm, he forms new friendships, encounters dangerous enemies, and unravels the mysteries of the game. With the line between reality and the game world blurring, Reiji must navigate through challenges to uncover the truth behind Infinite Dendrogram.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/83709l.jpg" alt="Masamune-kun's Revenge">
+                </div>
+                <div class="details">
+                    <a href="masamune-kun%27s-revenge"><h3>Masamune-kun's Revenge</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After being rejected by a girl named Aki Adagaki in the past, Masamune Makabe undergoes a major transformation and transfers to her school with the goal of making her fall for him. Masamune plans to break her heart as payback for her rejection. However, as he gets to know Aki better, he begins to question his motives and develops conflicting feelings towards her. The series follows their complicated relationship and the challenges they face.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Gankutsuou: The Count of Monte Cristo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "239";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1910/138560l.jpg" alt="Gankutsuou: The Count of Monte Cristo">
+                <div>
+                    <h2 id="title">Gankutsuou: The Count of Monte Cristo</h2>
+                    <p>Mystery</p>
+                    <p>2004</p>
+                    <br>
+                    <p>In a futuristic society, a young nobleman becomes entangled with the enigmatic Count of Monte Cristo, who harbors a deep vendetta against the elites who wronged him years ago. As the Count's intricate revenge scheme unfolds, the nobleman is drawn into a web of deception, betrayal, and dark secrets that threatens to consume them both. With stunning visuals and a gripping storyline, Gankutsuou presents a mesmerizing tale of redemption and vengeance.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 75%;"></span>
+                            </div>
+                            <p>75% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/17529l.jpg" alt="Future Boy Conan">
+                </div>
+                <div class="details">
+                    <a href="future-boy-conan"><h3>Future Boy Conan</h3></a>
+                    <p>Drama</p>
+                    <p>1978</p>
+                    <br>
+                    <p>In a post-apocalyptic world, a young boy named Conan discovers a girl named Lana who has been saved in a secret underground city. Together, they set out on a journey to find other survivors and uncover the truth behind their world's destruction. As they face various challenges and make new friends along the way, Conan and Lana must confront powerful enemies who will stop at nothing to maintain control over the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1084/119096l.jpg" alt="Nodame Cantabile Finale">
+                </div>
+                <div class="details">
+                    <a href="nodame-cantabile-finale"><h3>Nodame Cantabile Finale</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Nodame Cantabile Finale continues the story of piano prodigy Shinichi Chiaki and eccentric pianist Megumi Noda as they navigate the challenges of pursuing their musical dreams while facing personal and professional hurdles. As they strive for greatness in the competitive world of classical music, their relationship deepens, leading to moments of joy, heartache, and growth. Through dedication, passion, and perseverance, Chiaki and Nodame inspire each other to reach new heights in their musical careers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1480/132791l.webp" alt="Tokyo Godfathers">
+                </div>
+                <div class="details">
+                    <a href="tokyo-godfathers"><h3>Tokyo Godfathers</h3></a>
+                    <p>Drama</p>
+                    <p>2003</p>
+                    <br>
+                    <p>Tokyo Godfathers follows a trio of homeless individuals - a former drag queen, a runaway teenager, and a middle-aged alcoholic - who discover an abandoned baby on Christmas Eve. Determined to reunite the child with its family, the unlikely group embarks on a heartwarming and sometimes humorous journey through the streets of Tokyo. Along the way, they confront their own pasts and form a unique bond as they navigate through various challenges and obstacles.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1209/142900l.webp" alt="Planetes">
+                </div>
+                <div class="details">
+                    <a href="planetes"><h3>Planetes</h3></a>
+                    <p>Romance</p>
+                    <p>2003</p>
+                    <br>
+                    <p>In the vast reaches of space, a team of debris collectors known as the Half Section work tirelessly to clean Earth's orbit. Hachirota Hoshino dreams of owning his own spaceship, while his teammate Ai Tanabe believes in the importance of their mission. Together, they navigate the challenges of space exploration, personal relationships, and the harsh realities of their dangerous job. As they encounter space pirates and political intrigue, they must confront their inner demons and strive to make a difference in the universe.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/56297l.jpg" alt="Giovanni's Island">
+                </div>
+                <div class="details">
+                    <a href="giovanni%27s-island"><h3>Giovanni's Island</h3></a>
+                    <p>Drama</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In the aftermath of World War II, two young brothers living on the island of Shikotan are faced with the arrival of Soviet soldiers. Forced to share their home with the new occupants, the brothers must navigate the realities of occupation while holding onto their dreams of reuniting with their father. As they befriend a young Russian girl, the boys experience the harsh consequences of war and the power of friendship in overcoming cultural barriers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1354/124768l.jpg" alt="Showa Genroku Rakugo Shinju">
+                </div>
+                <div class="details">
+                    <a href="showa-genroku-rakugo-shinju"><h3>Showa Genroku Rakugo Shinju</h3></a>
+                    <p>Drama</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Showa Genroku Rakugo Shinju follows the story of a former yakuza member, Yotarou, who becomes a disciple of a famous rakugo master after his release from prison. The series delves into the art of rakugo storytelling, as well as the complexities of the relationships between the characters. As Yotarou navigates the world of traditional Japanese performance art, he must confront his past and strive for success in the rakugo world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1145/93646l.webp" alt="Princess Tutu">
+                </div>
+                <div class="details">
+                    <a href="princess-tutu"><h3>Princess Tutu</h3></a>
+                    <p>Drama</p>
+                    <p>2002</p>
+                    <br>
+                    <p>In Princess Tutu, a young duck transforms into a graceful girl with magical powers. She must gather scattered pieces of a prince's heart to restore balance in a fairy-tale world. As she navigates the challenges ahead, she discovers the complexities of love, destiny, and the true nature of happiness. This enchanting anime blends elements of ballet, fantasy, and mystery to deliver a captivating and heartfelt story of self-discovery and courage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1384/127972l.webp" alt="Initial D First Stage">
+                </div>
+                <div class="details">
+                    <a href="initial-d-first-stage"><h3>Initial D First Stage</h3></a>
+                    <p>Action</p>
+                    <p>1998</p>
+                    <br>
+                    <p>Takumi Fujiwara, a young tofu delivery driver, inadvertently becomes a skilled street racer due to his exceptional driving skills on Mount Akina. Unaware of his hidden talent, Takumi is pulled into the world of illegal street racing as he navigates the dangerous twists and turns of the mountain pass. With each race, Takumi develops his racing abilities and gains recognition among fellow drivers, including the legendary Ryosuke Takahashi and his team, the Akina Speed Stars.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1112/119225l.jpg" alt="Katanagatari">
+                </div>
+                <div class="details">
+                    <a href="katanagatari"><h3>Katanagatari</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Katanagatari follows the journey of swordsman Yasuri Shichika and strategist Togame as they embark on a quest to retrieve twelve legendary swords. With each sword possessing unique abilities, they must navigate through various challenges and adversaries to fulfill their mission. As they encounter formidable swordsmen and unexpected allies, the duo's bond strengthens, leading to unpredictable alliances and betrayals. Can they overcome the obstacles and claim all twelve swords before it's too late?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/14898l.jpg" alt="The Irresponsible Captain Tylor">
+                </div>
+                <div class="details">
+                    <a href="the-irresponsible-captain-tylor"><h3>The Irresponsible Captain Tylor</h3></a>
+                    <p>Comedy</p>
+                    <p>1993</p>
+                    <br>
+                    <p>Justy Ueki Tylor joins the United Planets Space Force seeking an easy life, but he's assigned to the rundown spaceship Soyokaze instead. Despite his laziness and incompetence, Tylor inadvertently becomes captain, leading his eccentric crew on strange adventures through space. Amidst their bumbling antics, they find themselves embroiled in intergalactic conflicts and struggle to navigate the dangers they encounter. Will Tylor's luck hold out, or will his carefree attitude lead them to disaster?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/64671l.jpg" alt="Tomorrow's Joe">
+                </div>
+                <div class="details">
+                    <a href="tomorrow%27s-joe"><h3>Tomorrow's Joe</h3></a>
+                    <p>Sports</p>
+                    <p>1970</p>
+                    <br>
+                    <p>Tomorrow's Joe follows Joe Yabuki, a rebellious delinquent who finds purpose in life through boxing. His talent and determination lead him to a journey of self-discovery and redemption as he navigates the brutal world of professional boxing. With fierce rivals and personal demons to overcome, Joe must confront his past to secure a promising future in the ring.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/87066l.jpg" alt="Sword of the Stranger">
+                </div>
+                <div class="details">
+                    <a href="sword-of-the-stranger"><h3>Sword of the Stranger</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In Sword of the Stranger, a mysterious swordsman named Nanashi reluctantly agrees to protect a young boy named Kotaro who is being pursued by imperial forces. As they seek refuge, they encounter various adversaries, leading to intense sword fights and a gripping tale of loyalty and sacrifice. The pair's bond deepens as they navigate the dangers together, with Nanashi confronting his troubled past along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/50337l.webp" alt="Moribito - Guardian of the Spirit">
+                </div>
+                <div class="details">
+                    <a href="moribito---guardian-of-the-spirit"><h3>Moribito - Guardian of the Spirit</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In a medieval-inspired world, skilled warrior Balsa is tasked with protecting Prince Chagum, who is believed to be possessed by a water demon. As they embark on a journey to unravel the mystery behind the prince's condition, they encounter danger and political intrigue. Balsa must use her fighting prowess and wits to ensure the prince's safety while delving into the secrets of the spirit world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1426/111248l.jpg" alt="Barakamon">
+                </div>
+                <div class="details">
+                    <a href="barakamon"><h3>Barakamon</h3></a>
+                    <p>Other Genre</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After a calligraphy mishap, talented but uptight calligrapher Handa Seishu is exiled to a rural island. As he navigates the laid-back island life and befriends the quirky locals, Handa begins to discover his true self and find inspiration in the simplicity of his surroundings. Through heartwarming interactions and comedic mishaps, Barakamon follows Handa's journey of self-discovery and personal growth as he learns valuable life lessons from the people of the island.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1944/114427l.jpg" alt="Kageki Shojo!!">
+                </div>
+                <div class="details">
+                    <a href="kageki-shojo%21%21"><h3>Kageki Shojo!!</h3></a>
+                    <p>Drama</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Kageki Shojo!! follows the story of Sarasa Watanabe, a former idol trainee, who joins the Kouka School of Musical and Theatrical Arts to pursue her dream of becoming a top star. She befriends the mysterious and talented girl named Ai Narada, and together, they navigate the challenges of the competitive entertainment industry. As they face intense training, rivalries, and personal struggles, the girls strive to shine on stage and make their mark in the world of musical theater.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/18386l.webp" alt="Welcome to Irabu's Office">
+                </div>
+                <div class="details">
+                    <a href="welcome-to-irabu%27s-office"><h3>Welcome to Irabu's Office</h3></a>
+                    <p>Psychological</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Welcome to Irabu's Office follows the eccentric Dr. Irabu, a colorful psychiatrist who uses equally unconventional methods to help his patients confront and overcome their various psychological struggles. Each episode features a new patient seeking Dr. Irabu's unique brand of therapy, leading to a series of bizarre and humorous adventures that ultimately result in personal growth and self-discovery for those under his care.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/35749l.webp" alt="Chihayafuru">
+                </div>
+                <div class="details">
+                    <a href="chihayafuru"><h3>Chihayafuru</h3></a>
+                    <p>Sports</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Chihayafuru follows Chihaya Ayase, a high school girl with a passion for competitive karuta, a traditional Japanese card game. Alongside her childhood friends Taichi and Arata, Chihaya navigates the world of competitive karuta tournaments, determined to become the queen of karuta. As they face various challenges and opponents, the trio learns valuable lessons about friendship, determination, and the true meaning of victory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1290/135694l.webp" alt="Space Brothers">
+                </div>
+                <div class="details">
+                    <a href="space-brothers"><h3>Space Brothers</h3></a>
+                    <p>Comedy</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After witnessing a UFO as children, two brothers promise to become astronauts. Years later, Hibito fulfills his dream, but Mutta loses his job. Determined to catch up, Mutta renews his passion for space exploration and works hard to join the Japanese astronaut program. Through intense training and challenges, Mutta navigates his way toward the stars, proving that the bond between brothers and the power of determination can overcome any obstacle.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/83826l.webp" alt="Big Fish & Begonia">
+                </div>
+                <div class="details">
+                    <a href="big-fish-%26-begonia"><h3>Big Fish & Begonia</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a mystical world beneath the ocean's surface, a young girl from a magical realm transforms into a red dolphin to explore the human world. When she encounters a human boy, their fateful connection leads to unforeseen consequences, challenging the balance between the two worlds. As the girl navigates the complexities of her newfound friendship and the laws of nature, she must overcome ancient legends and powerful forces to protect both realms from impending danger.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/59401l.jpg" alt="Spice and Wolf">
+                </div>
+                <div class="details">
+                    <a href="spice-and-wolf"><h3>Spice and Wolf</h3></a>
+                    <p>Romance</p>
+                    <p>2008</p>
+                    <br>
+                    <p>In Spice and Wolf, crafty merchant Kraft Lawrence meets Holo, a wolf deity who takes human form. Together, they embark on a journey across medieval Europe in search of Holo's northern homeland. Along the way, they navigate economic gains, political schemes, and their blossoming relationship. Through their adventures, they learn about each other's worlds and form a deep bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1906/121592l.jpg" alt="Black Lagoon">
+                </div>
+                <div class="details">
+                    <a href="black-lagoon"><h3>Black Lagoon</h3></a>
+                    <p>Action</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Black Lagoon follows the adventures of Rokuro Okajima, an average businessman turned pirate in the crime-ridden city of Roanapur. After a chance encounter with the Lagoon Company, a group of mercenaries, Rokuro joins them on various missions involving shipping, smuggling, and dealing with dangerous criminals. As he navigates the murky waters of the criminal underworld, Rokuro is forced to confront his own morals and values in order to survive.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1460/141897l.jpg" alt="Shirobako">
+                </div>
+                <div class="details">
+                    <a href="shirobako"><h3>Shirobako</h3></a>
+                    <p>Drama</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Shirobako follows five friends who reunite after high school to pursue their dream careers in the anime industry. Aoi Miyamori works as a production assistant at an animation studio, facing various challenges and deadlines in bringing a project to life. The series explores the behind-the-scenes world of anime production, shedding light on the passion and hard work required to create an animated show.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/74781l.webp" alt="Memories">
+                </div>
+                <div class="details">
+                    <a href="memories"><h3>Memories</h3></a>
+                    <p>Psychological</p>
+                    <p>1995</p>
+                    <br>
+                    <p>Memories is a collection of three standalone short films that each explore different aspects of humanity. The first film follows a man as he reminisces about his childhood. The second film takes place in a dystopian world where a deadly virus spreads. The final film follows a group of space travelers who encounter a mysterious phenomenon. Each story delves into themes of nostalgia, survival, and the unknown future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1370/135212l.webp" alt="Samurai Champloo">
+                </div>
+                <div class="details">
+                    <a href="samurai-champloo"><h3>Samurai Champloo</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Samurai Champloo follows the journey of three unlikely companions - Mugen, Jin, and Fuu - as they travel through Edo-era Japan in search of the samurai who smells of sunflowers. Despite their conflicting personalities and fighting styles, they band together to overcome various challenges and foes they encounter along the way. Filled with action-packed sword fights, humor, and a killer soundtrack blending hip-hop and traditional Japanese music, the trio's adventures are anything but ordinary.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1346/119505l.jpg" alt="Rurouni Kenshin">
+                </div>
+                <div class="details">
+                    <a href="rurouni-kenshin"><h3>Rurouni Kenshin</h3></a>
+                    <p>Romance</p>
+                    <p>1996</p>
+                    <br>
+                    <p>In Rurouni Kenshin, a skilled former assassin named Kenshin Himura seeks redemption for his past crimes by vowing not to kill again and protecting the innocent in Meiji era Japan. Despite his peaceful intentions, Kenshin's troubled past catches up with him, leading to intense battles and moral dilemmas. Alongside his friends and allies, Kenshin faces dangerous enemies and confronts the consequences of his violent history, all while striving to uphold his ideals of justice and honor.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1681/108439l.jpg" alt="Natsume's Book of Friends">
+                </div>
+                <div class="details">
+                    <a href="natsume%27s-book-of-friends"><h3>Natsume's Book of Friends</h3></a>
+                    <p>Other Genre</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Takashi Natsume has inherited the ability to see spirits from his grandmother Reiko. He discovers that she had bound a number of spirits to her in a book of contracts. As Natsume releases the spirits one by one, he learns more about their pasts and finds himself forming deep connections with them. Joined by a powerful spirit bodyguard named Madara, Natsume navigates the world of spirits while uncovering the mysteries of his grandmother's past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1384/119988l.jpg" alt="Berserk">
+                </div>
+                <div class="details">
+                    <a href="berserk"><h3>Berserk</h3></a>
+                    <p>Action</p>
+                    <p>1997</p>
+                    <br>
+                    <p>Berserk follows the story of Guts, a lone mercenary seeking revenge against his former friend turned enemy, Griffith. Set in a dark medieval world, Guts is caught in a struggle between humanity and demonic forces. As he battles his way through adversity, he forms unlikely friendships and confronts his traumatic past. With intense action sequences and themes of betrayal, revenge, and sacrifice, Berserk explores the darkness of the human soul.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/75724l.jpg" alt="Gungrave">
+                </div>
+                <div class="details">
+                    <a href="gungrave"><h3>Gungrave</h3></a>
+                    <p>Action</p>
+                    <p>2003</p>
+                    <br>
+                    <p>Gungrave follows two orphan friends, Brandon Heat and Harry MacDowell, as they rise through the ranks of the criminal underworld. However, a betrayal leads to Brandon's death and Harry's descent into darkness. Years later, Brandon is resurrected as the unstoppable gunman Beyond the Grave, seeking vengeance against those who wronged him. A tale of loyalty, betrayal, and the consequences of seeking power, Gungrave is a gripping story of revenge and redemption.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/11986l.jpg" alt="Nodame Cantabile">
+                </div>
+                <div class="details">
+                    <a href="nodame-cantabile"><h3>Nodame Cantabile</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Nodame Cantabile follows the story of Shinichi Chiaki, a talented musician with dreams of becoming a conductor. His path crosses with Noda Megumi, a quirky and free-spirited pianist known as Nodame. The two navigate their musical ambitions together while also exploring their feelings for each other. As they face various challenges in their personal and professional lives, they discover the true power of music in bringing people together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1460/98853l.webp" alt="Bunny Drop">
+                </div>
+                <div class="details">
+                    <a href="bunny-drop"><h3>Bunny Drop</h3></a>
+                    <p>Other Genre</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After attending his grandfather's funeral, thirty-year-old Daikichi is shocked to discover that the old man had an illegitimate six-year-old daughter named Rin. With no one else willing to take her in, Daikichi decides to become her guardian. The series follows their heartwarming journey as they navigate the challenges of parenthood and form a special bond. </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like His and Her Circumstances</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "145";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1222/108880l.jpg" alt="His and Her Circumstances">
+                <div>
+                    <h2 id="title">His and Her Circumstances</h2>
+                    <p>Romance</p>
+                    <p>1998</p>
+                    <br>
+                    <p>Yukino Miyazawa is a model student admired by all, but her perfect facade hides her true nature - a manipulative and vain young girl who craves attention. When Soichiro Arima, the top student in her class, discovers her secret, their lives take an unexpected turn. As they navigate the ups and downs of high school life, they form a complex and competitive relationship that challenges them to confront their true selves.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 78%;"></span>
+                            </div>
+                            <p>78% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1393/118374l.jpg" alt="Irina: The Vampire Cosmonaut">
+                </div>
+                <div class="details">
+                    <a href="irina%3A-the-vampire-cosmonaut"><h3>Irina: The Vampire Cosmonaut</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where vampires secretly coexist with humans, Irina, a skilled vampire cosmonaut, embarks on a mission to explore a distant planet. As she navigates the challenges of space travel and encounters new life forms, Irina must also confront her own inner struggles and past traumas. With the fate of both worlds hanging in the balance, Irina's journey leads her to uncover secrets that could change everything she knows about herself and her kind.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/23054l.jpg" alt="Yokohama Kaidashi Kikou">
+                </div>
+                <div class="details">
+                    <a href="yokohama-kaidashi-kikou"><h3>Yokohama Kaidashi Kikou</h3></a>
+                    <p>Other Genre</p>
+                    <p>1998</p>
+                    <br>
+                    <p>In a quiet town where nature has begun to reclaim the land, Alpha runs a small café left to her by her former owner. With the impending closure of the café and the changing world around her, she navigates through love, loss, and the beauty of everyday life alongside her friends and neighbors. As she embraces the passage of time and cherishes the moments that come and go, Alpha discovers the importance of treasuring each precious day in this serene slice-of-life anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/17529l.jpg" alt="Future Boy Conan">
+                </div>
+                <div class="details">
+                    <a href="future-boy-conan"><h3>Future Boy Conan</h3></a>
+                    <p>Drama</p>
+                    <p>1978</p>
+                    <br>
+                    <p>In a post-apocalyptic world, a young boy named Conan discovers a girl named Lana who has been saved in a secret underground city. Together, they set out on a journey to find other survivors and uncover the truth behind their world's destruction. As they face various challenges and make new friends along the way, Conan and Lana must confront powerful enemies who will stop at nothing to maintain control over the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/74945l.jpg" alt="Ushio & Tora (2015)">
+                </div>
+                <div class="details">
+                    <a href="ushio-%26-tora-%282015%29"><h3>Ushio & Tora (2015)</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When a young boy named Ushio stumbles upon a basement filled with ancient weapons, he unknowingly frees a powerful demon named Tora. Forced to team up to battle malevolent spirits known as Youkai, they form an unlikely bond. As they navigate a dangerous world filled with supernatural threats, they must learn to trust each other and work together to protect humanity from impending doom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/75191l.jpg" alt="Kekkaishi">
+                </div>
+                <div class="details">
+                    <a href="kekkaishi"><h3>Kekkaishi</h3></a>
+                    <p>Action</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Yoshimori Sumimura and Tokine Yukimura are young kekkaishi, warriors with the ability to create barriers to eliminate evil creatures. Tasked with protecting Karasumori, a powerful and mysterious land, they must battle Ayakashi, supernatural beings drawn to its energy. As they face increasing threats and uncover the secrets of Karasumori, the two cousins must navigate their responsibilities as kekkaishi and the challenges of their own complicated relationship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1055/118890l.webp" alt="My Senpai is Annoying">
+                </div>
+                <div class="details">
+                    <a href="my-senpai-is-annoying"><h3>My Senpai is Annoying</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Futaba Igarashi is a hard-working office employee who is constantly annoyed by her loud and childish senpai, Harumi Takeda. Despite her frustrations, Futaba finds herself developing a close friendship with Harumi as they navigate the ups and downs of office life together. Will Futaba learn to tolerate her annoying senpai, or will their contrasting personalities lead to even more chaos in the workplace?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1958/117686l.jpg" alt="Star Wars: Visions">
+                </div>
+                <div class="details">
+                    <a href="star-wars%3A-visions"><h3>Star Wars: Visions</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Star Wars: Visions is a unique anthology anime series that explores various stories set in the beloved Star Wars universe. Each episode presents a new and original tale, offering a fresh perspective on the iconic franchise through the lens of Japanese animation. From Jedi warriors to Sith lords, viewers are taken on a thrilling journey filled with action, adventure, and the eternal battle between light and dark.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/19926l.jpg" alt="Skating Rink Kaleidoscope">
+                </div>
+                <div class="details">
+                    <a href="skating-rink-kaleidoscope"><h3>Skating Rink Kaleidoscope</h3></a>
+                    <p>Sports</p>
+                    <p>2005</p>
+                    <br>
+                    <p>Skating Rink Kaleidoscope follows a group of young figure skaters as they navigate the competitive world of ice skating. With each skater bringing their own unique style and passion to the rink, they must overcome personal struggles and rivalries to chase their dreams of becoming top athletes. As they train hard and push their limits, friendships are formed, and bonds are tested, all against the backdrop of dazzling performances on the ice.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1094/116584l.jpg" alt="Hanasakeru Seishonen">
+                </div>
+                <div class="details">
+                    <a href="hanasakeru-seishonen"><h3>Hanasakeru Seishonen</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Hanasakeru Seishonen follows the story of a young princess named Kajika who is tasked with choosing her future husband from a group of eligible suitors. As she navigates through political intrigue and personal relationships, Kajika's unique ability to see a person's true self becomes a central theme in her quest for love and self-discovery. Through love, friendship, and loyalty, Kajika finds herself caught in a web of complex emotions and decisions that will ultimately shape her destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/74781l.webp" alt="Memories">
+                </div>
+                <div class="details">
+                    <a href="memories"><h3>Memories</h3></a>
+                    <p>Psychological</p>
+                    <p>1995</p>
+                    <br>
+                    <p>Memories is a collection of three standalone short films that each explore different aspects of humanity. The first film follows a man as he reminisces about his childhood. The second film takes place in a dystopian world where a deadly virus spreads. The final film follows a group of space travelers who encounter a mysterious phenomenon. Each story delves into themes of nostalgia, survival, and the unknown future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/7228l.jpg" alt="La corda d'oro: primo passo">
+                </div>
+                <div class="details">
+                    <a href="la-corda-d%27oro%3A-primo-passo"><h3>La corda d'oro: primo passo</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>In 'La Corda d'Oro: Primo Passo,' a high school student named Kahoko is unexpectedly chosen to participate in a prestigious music competition. Despite having no formal musical training, Kahoko is given a magical violin that helps her play beautiful music. As she navigates the challenges of the competition and grows closer to her talented peers, Kahoko's passion for music is ignited like never before.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1571/134092l.jpg" alt="Hidamari Sketch x 365">
+                </div>
+                <div class="details">
+                    <a href="hidamari-sketch-x-365"><h3>Hidamari Sketch x 365</h3></a>
+                    <p>Other Genre</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Follow the daily lives of four high school girls living in the Hidamari Apartments. The girls navigate through the challenges of school, friendships, and pursuing their dreams of becoming successful artists. With the support of their friends and sensei, they explore their creativity and grow both personally and artistically. The series captures the heartwarming and humorous moments that arise as they work towards their goals.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/14898l.jpg" alt="The Irresponsible Captain Tylor">
+                </div>
+                <div class="details">
+                    <a href="the-irresponsible-captain-tylor"><h3>The Irresponsible Captain Tylor</h3></a>
+                    <p>Comedy</p>
+                    <p>1993</p>
+                    <br>
+                    <p>Justy Ueki Tylor joins the United Planets Space Force seeking an easy life, but he's assigned to the rundown spaceship Soyokaze instead. Despite his laziness and incompetence, Tylor inadvertently becomes captain, leading his eccentric crew on strange adventures through space. Amidst their bumbling antics, they find themselves embroiled in intergalactic conflicts and struggle to navigate the dangers they encounter. Will Tylor's luck hold out, or will his carefree attitude lead them to disaster?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/15520l.jpg" alt="Hatsukoi Limited">
+                </div>
+                <div class="details">
+                    <a href="hatsukoi-limited"><h3>Hatsukoi Limited</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Hatsukoi Limited follows multiple high school girls as they navigate the complexities of first loves and relationships. As each girl grapples with her own romantic feelings and experiences, their stories intertwine and unfold, showcasing the various trials and joys of young love. From unrequited crushes to budding romances, the series explores the different forms that first loves can take, highlighting the innocence and intensity of youth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/7016l.jpg" alt="Kodocha">
+                </div>
+                <div class="details">
+                    <a href="kodocha"><h3>Kodocha</h3></a>
+                    <p>Romance</p>
+                    <p>1996</p>
+                    <br>
+                    <p>Kodocha follows the energetic and eccentric 11-year-old Sana Kurata, a child actress balancing fame, school, and family life. Alongside her loyal friends and loving manager, Sana navigates the challenges of show business, school bullies, and complex family dynamics. As she brings laughter and joy to those around her, Sana learns valuable lessons about friendship, perseverance, and the importance of staying true to oneself in the face of adversity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1976/139963l.webp" alt="The Story of Saiunkoku">
+                </div>
+                <div class="details">
+                    <a href="the-story-of-saiunkoku"><h3>The Story of Saiunkoku</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>In the land of Saiunkoku, a young woman named Shurei dreams of becoming a government official despite the male-dominated society. When she is offered a position to become the emperor's concubine, she instead proposes to become his consort. With intelligence and determination, she navigates the political intrigues of the imperial court, facing challenges and making allies along the way. As she strives to bring positive change to the kingdom, Shurei's journey is filled with adventure, friendship, and romance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1733/140802l.jpg" alt="The Wrong Way to Use Healing Magic">
+                </div>
+                <div class="details">
+                    <a href="the-wrong-way-to-use-healing-magic"><h3>The Wrong Way to Use Healing Magic</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After accidentally killing a demon lord, novice healer Mitoshi is banished to a remote village. With no combat skills, he relies on his healing magic to survive, but there's a catch: he can only use it for destructive purposes. As he navigates his new life, Mitoshi must find a way to control his powers and protect those around him from the dangers that threaten the village.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/83575l.jpg" alt="Tari Tari">
+                </div>
+                <div class="details">
+                    <a href="tari-tari"><h3>Tari Tari</h3></a>
+                    <p>Other Genre</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Tari Tari, a group of high school students with a shared passion for music come together to form a choir club. They face various challenges and obstacles as they strive to reach their goal of performing in a music competition. Each member of the group has their own personal struggles and reasons for joining the club, leading to growth and bonding as they work towards a common dream.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1271/90136l.webp" alt="After the Rain">
+                </div>
+                <div class="details">
+                    <a href="after-the-rain"><h3>After the Rain</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After the Rain follows the story of a high school girl named Akira, who develops feelings for her middle-aged manager, Kondo, after her dreams of being a track star are shattered due to an injury. Despite the significant age gap, Akira finds solace in their shared experiences and a deep emotional connection develops between them. As they navigate their feelings, they both must confront societal expectations and personal desires.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/25273l.jpg" alt="The Gokusen">
+                </div>
+                <div class="details">
+                    <a href="the-gokusen"><h3>The Gokusen</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>The Gokusen follows the story of Kumiko Yamaguchi, the new teacher at an all-boys high school notorious for its delinquent students. Despite being the heir to a powerful yakuza clan, Kumiko aspires to be a dedicated and caring teacher. As she navigates the challenges of gaining the respect of her unruly class, Kumiko uses her unique background to connect with her students on a deeper level and help them navigate the difficulties of adolescence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/22349l.jpg" alt="Hidamari Sketch x ☆☆☆">
+                </div>
+                <div class="details">
+                    <a href="hidamari-sketch-x-%E2%98%86%E2%98%86%E2%98%86"><h3>Hidamari Sketch x ☆☆☆</h3></a>
+                    <p>Other Genre</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Hidamari Sketch x ☆☆☆ follows the daily lives of four high school girls living in the Hidamari Apartments as they navigate through school, friendships, and artistic endeavors. The series explores their experiences in an art-focused high school and the relationships they build with both fellow students and their eccentric neighbors. As they face challenges and celebrate successes, the girls bond over their shared passion for creativity and support each other in pursuing their dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/11042l.jpg" alt="Strawberry Marshmallow">
+                </div>
+                <div class="details">
+                    <a href="strawberry-marshmallow"><h3>Strawberry Marshmallow</h3></a>
+                    <p>Other Genre</p>
+                    <p>2005</p>
+                    <br>
+                    <p>Strawberry Marshmallow follows the everyday lives of four girls: the mature and responsible Miu, her younger sister Matsuri, their kind-hearted friend Chika, and the shy and gentle Nobue. The series explores simple yet endearing moments in their friendship, filled with laughter, mishaps, and heartwarming interactions. As they navigate school, sibling dynamics, and growing up, the girls bond over shared experiences and create cherished memories together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1682/121461l.jpg" alt="Inu-Oh">
+                </div>
+                <div class="details">
+                    <a href="inu-oh"><h3>Inu-Oh</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Inu-Oh follows the story of a cursed Noh performer who is shunned by society due to his unusual appearance. As he navigates through life, he meets a blind biwa player who becomes his companion. Together, they embark on a journey filled with music, dance, and self-discovery, ultimately challenging the rigid social norms of their time. Through their bond, they explore love, friendship, and the power of acceptance in a world plagued by prejudice and fear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1518/138730l.jpg" alt="Skip and Loafer">
+                </div>
+                <div class="details">
+                    <a href="skip-and-loafer"><h3>Skip and Loafer</h3></a>
+                    <p>Drama</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Skip and Loafer follows the story of Mitsumi Iwakura, a small-town girl with big dreams of attending a prestigious high school in Tokyo. As she navigates the challenges of city life and high school, she meets Sousuke Shima, a laid-back and popular classmate. Despite their contrasting personalities, the two form an unlikely friendship, supporting each other through the ups and downs of teenage life. The series explores themes of ambition, friendship, and self-discovery, blending humor and heartfelt moments.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1790/114537l.jpg" alt="Bamboo Blade">
+                </div>
+                <div class="details">
+                    <a href="bamboo-blade"><h3>Bamboo Blade</h3></a>
+                    <p>Sports</p>
+                    <p>2007</p>
+                    <br>
+                    <p>High school kendo instructor Toraji is in a rut until a promising female student joins his team. In hopes of winning a bet with a longtime rival, he must train his ragtag group to compete in a major tournament. As the team struggles to improve their skills and work together, they discover the true meaning of friendship and dedication. Can they rise to the challenge and become champions?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/71197l.webp" alt="The Case of Hana & Alice">
+                </div>
+                <div class="details">
+                    <a href="the-case-of-hana-%26-alice"><h3>The Case of Hana & Alice</h3></a>
+                    <p>Mystery</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When a shy girl moves to a new town, she becomes intrigued by a girl named Alice who claims to have witnessed a crime. As the two girls embark on a mission to solve the mystery together, they form an unlikely friendship and uncover surprising truths about their own pasts. With humor, wit, and lots of adventures, The Case of Hana & Alice is a heartwarming tale of friendship and self-discovery.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/75159l.jpg" alt="Romeo x Juliet">
+                </div>
+                <div class="details">
+                    <a href="romeo-x-juliet"><h3>Romeo x Juliet</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In this retelling of the classic Shakespearean tale, Romeo and Juliet live in the floating city of Neo Verona, which is under the tyrannical rule of the Montague family. Juliet, who is the last surviving member of the Capulet family, disguises herself as a vigilante known as the Red Whirlwind to fight for justice. When she meets Romeo, the two fall in love, setting off a chain of events that will determine the fate of their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1084/119096l.jpg" alt="Nodame Cantabile Finale">
+                </div>
+                <div class="details">
+                    <a href="nodame-cantabile-finale"><h3>Nodame Cantabile Finale</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Nodame Cantabile Finale continues the story of piano prodigy Shinichi Chiaki and eccentric pianist Megumi Noda as they navigate the challenges of pursuing their musical dreams while facing personal and professional hurdles. As they strive for greatness in the competitive world of classical music, their relationship deepens, leading to moments of joy, heartache, and growth. Through dedication, passion, and perseverance, Chiaki and Nodame inspire each other to reach new heights in their musical careers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/21858l.jpg" alt="xxxHOLiC">
+                </div>
+                <div class="details">
+                    <a href="xxxholic"><h3>xxxHOLiC</h3></a>
+                    <p>Mystery</p>
+                    <p>2006</p>
+                    <br>
+                    <p>When high school student Kimihiro Watanuki stumbles upon a mysterious shop, he meets the enigmatic witch Yuko Ichihara. In exchange for his help with supernatural tasks, Yuko promises to grant Watanuki's wish to be free from the ability to see spirits. However, as he becomes embroiled in increasingly eerie and dangerous situations, Watanuki begins to realize the true price of his deal with Yuko.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1333/97262l.jpg" alt="Brave Story">
+                </div>
+                <div class="details">
+                    <a href="brave-story"><h3>Brave Story</h3></a>
+                    <p>Isekai</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Wataru embarks on a magical adventure to the land of Vision, where he must find the Goddess of Destiny to fulfill his dearest wish. Along the way, he meets new friends who join him in facing various challenges and battling powerful foes. As Wataru delves deeper into this mysterious world, he discovers the true meaning of bravery and the importance of never giving up on his dreams.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

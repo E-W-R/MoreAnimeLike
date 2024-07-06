@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Burning Kabaddi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "42395";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1936/114022l.jpg" alt="Burning Kabaddi">
+                <div>
+                    <h2 id="title">Burning Kabaddi</h2>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After quitting the soccer team, high schooler Tatsuya Yoigoshi is roped into joining the Kabaddi club by his classmate. Despite initially disliking the sport, Tatsuya soon discovers a hidden talent for Kabaddi. As he navigates the challenges of mastering this unfamiliar sport, Tatsuya forms bonds with his teammates and learns valuable lessons about teamwork, determination, and friendship. Together, they aim to compete at the national level and prove their skills in intense Kabaddi matches.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 93%;"></span>
+                            </div>
+                            <p>93% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/84461l.webp" alt="Tsugumomo">
+                </div>
+                <div class="details">
+                    <a href="tsugumomo"><h3>Tsugumomo</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Tsugumomo follows Kazuya Kagami, who discovers that his late mother's obi (sash) possesses a spirit named Kiriha. With Kiriha's powerful abilities and tsukumogami form, Kazuya enters a world filled with dangerous supernatural beings. Together, they embark on a journey to defeat evil spirits and uncover the truth behind his family's past. Through battles and trials, Kazuya must learn to harness the obi's power and protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 85%;"></span>
+                            </div>
+                            <p>85% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1859/100448l.jpg" alt="Midnight Occult Civil Servants">
+                </div>
+                <div class="details">
+                    <a href="midnight-occult-civil-servants"><h3>Midnight Occult Civil Servants</h3></a>
+                    <p>Mystery</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Arata Miyako starts his job at the Shinjuku Ward Office, only to discover that his role involves dealing with supernatural beings living among humans. Alongside his coworkers, Arata must navigate the delicate balance between the human and supernatural worlds, solving mysterious incidents while learning about his own hidden powers. Despite the challenges, Arata is determined to protect both realms and ensure harmony between them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 85%;"></span>
+                            </div>
+                            <p>85% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1304/92930l.jpg" alt="Holmes of Kyoto">
+                </div>
+                <div class="details">
+                    <a href="holmes-of-kyoto"><h3>Holmes of Kyoto</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Holmes of Kyoto follows Aoi Mashiro, a high school girl who works part-time at an antiques shop in Kyoto owned by the enigmatic and brilliant antique appraiser, Kiyotaka Yagashira. Together, they solve mysteries surrounding various antiques while navigating the complexities of human emotions and relationships. As they unravel the secrets behind each valuable artifact, Aoi finds herself drawn to Kiyotaka's unique deductive skills and gradually discovers the hidden truths of both the antiques and the people connected to them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 83%;"></span>
+                            </div>
+                            <p>83% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1140/120215l.jpg" alt="Salaryman's Club">
+                </div>
+                <div class="details">
+                    <a href="salaryman%27s-club"><h3>Salaryman's Club</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Salaryman's Club follows a group of office workers who form an after-hours club to destress and bond over their hectic work lives. As they navigate the challenges of the corporate world, they find solace in the support and camaraderie of their fellow club members. Together, they learn valuable lessons about friendship, teamwork, and the importance of work-life balance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 83%;"></span>
+                            </div>
+                            <p>83% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1715/111407l.jpg" alt="Outburst Dreamer Boys">
+                </div>
+                <div class="details">
+                    <a href="outburst-dreamer-boys"><h3>Outburst Dreamer Boys</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Outburst Dreamer Boys follows high school student Mizuki as she gets involved with the oddball members of the Outburst Dreamer Boys club. Each member has a unique quirk that makes them stand out, and Mizuki finds herself getting caught up in their bizarre antics and hilarious escapades. As she spends more time with the group, Mizuki learns the importance of friendship, acceptance, and being true to oneself.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1443/110157l.jpg" alt="Dr. Ramune -Mysterious Disease Specialist-">
+                </div>
+                <div class="details">
+                    <a href="dr.-ramune--mysterious-disease-specialist-"><h3>Dr. Ramune -Mysterious Disease Specialist-</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Dr. Ramune is a brilliant and eccentric doctor who specializes in treating patients with mysterious and supernatural illnesses. Alongside his reluctant assistant, Kero, he encounters a variety of unusual cases that cannot be explained by modern medicine. With his unorthodox methods and compassionate approach, Dr. Ramune delves into the heart of each patient's affliction to uncover the underlying cause and provide healing in ways that go beyond the physical realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1803/131345l.jpg" alt="High Card">
+                </div>
+                <div class="details">
+                    <a href="high-card"><h3>High Card</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where dueling with enchanted playing cards determines your fate, a young prodigy rises in the ranks to challenge the reigning champion. With a mysterious past and unparalleled skills, he navigates through political schemes and fierce battles to uncover the truth behind his abilities. As tensions escalate and loyalties are tested, the power dynamics of the card dueling society are thrown into chaos, leading to an ultimate showdown that will determine the future of the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1838/114857l.jpg" alt="RE-MAIN">
+                </div>
+                <div class="details">
+                    <a href="re-main"><h3>RE-MAIN</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After a traumatic incident causes him to lose his memory, a talented water polo player must rediscover his passion for the sport. With the help of his new teammates on the school's water polo team, he sets out to make a comeback and confront his past. As he struggles to piece together his memories, he faces challenges both in and out of the pool, pushing himself to become the player he once was.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/65665l.jpg" alt="Gugure! Kokkuri-san">
+                </div>
+                <div class="details">
+                    <a href="gugure%21-kokkuri-san"><h3>Gugure! Kokkuri-san</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After summoning a fox spirit named Kokkuri-san, a young girl named Kohina finds herself surrounded by other eccentric supernatural beings like a dog spirit and a tanuki. As they all try to coexist in the human world, Kokkuri-san takes on the role of protector and guardian, particularly for Kohina. Together, they navigate the challenges of their unique relationships and help each other grow in unexpected ways.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 76%;"></span>
+                            </div>
+                            <p>76% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1517/125496l.webp" alt="Black Summoner">
+                </div>
+                <div class="details">
+                    <a href="black-summoner"><h3>Black Summoner</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Black Summoner, a talented but introverted gamer awakens in a mysterious fantasy world as a powerful summoner. With the ability to conjure and control mythical creatures, he sets out on an epic journey to discover the secrets of his new reality. Along the way, he forms alliances, battles formidable foes, and unravels the truth behind his summoning powers. With each challenge he faces, he grows stronger and closer to unlocking the full extent of his abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 75%;"></span>
+                            </div>
+                            <p>75% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1380/139745l.jpg" alt="The Witch and the Beast">
+                </div>
+                <div class="details">
+                    <a href="the-witch-and-the-beast"><h3>The Witch and the Beast</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a world where witches and beasts coexist, a powerful witch seeks to eradicate all beasts to avenge her family. However, her plans take a turn when she encounters a mysterious, amnesiac beast who seems different from the others. As they embark on a journey together, they uncover dark secrets and face dangerous foes, forcing them to confront their own pasts and the true nature of their bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 75%;"></span>
+                            </div>
+                            <p>75% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1648/126110l.jpg" alt="I'm the Villainess, So I'm Taming the Final Boss">
+                </div>
+                <div class="details">
+                    <a href="i%27m-the-villainess%2C-so-i%27m-taming-the-final-boss"><h3>I'm the Villainess, So I'm Taming the Final Boss</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After reincarnating as the villainess in her favorite otome game, Aria is determined to avoid her doom by taming the final boss, Lancelot. As Aria tries to manipulate the game's events, she finds herself falling for Lancelot. With the fate of the world at stake, Aria must navigate her feelings while altering the game's course. Will she succeed in changing her destiny and finding love in this romantic comedy?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/54343l.jpg" alt="Outbreak Company">
+                </div>
+                <div class="details">
+                    <a href="outbreak-company"><h3>Outbreak Company</h3></a>
+                    <p>Isekai</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Shinichi Kanou, a hardcore otaku, is recruited by the Japanese government to promote otaku culture in a fantasy world. He must navigate political intrigue, cultural differences, and a language barrier to spread his love for anime, manga, and video games. As he immerses himself in this new world, Shinichi learns valuable lessons about acceptance, diversity, and the power of pop culture.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1827/113510l.jpg" alt="Backflip!!">
+                </div>
+                <div class="details">
+                    <a href="backflip%21%21"><h3>Backflip!!</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Backflip!! follows a group of high school boys who join their school's struggling gymnastics team in hopes of reviving it to its former glory. Each of the boys brings their unique skills and personalities to the team, working together to overcome challenges, form strong bonds, and improve both individually and as a team. As they strive to compete on a national level, they also navigate personal growth, friendship dynamics, and the competitive world of gymnastics.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1547/125900l.jpg" alt="The Reincarnation of the Strongest Exorcist in Another World">
+                </div>
+                <div class="details">
+                    <a href="the-reincarnation-of-the-strongest-exorcist-in-another-world"><h3>The Reincarnation of the Strongest Exorcist in Another World</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After dying in his world, Kaito is reincarnated in a fantasy realm as the strongest exorcist. With his new powers, he sets out to vanquish demons plaguing the land. As he uncovers the truth about his past and the reason for his reincarnation, Kaito discovers that his role in this new world is more significant than he could have ever imagined. Follow his journey as he battles dark forces and comes to terms with his newfound destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1720/139131l.webp" alt="I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness">
+                </div>
+                <div class="details">
+                    <a href="i%27m-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness"><h3>I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After rescuing a noble lady from a precarious situation, a kind-hearted individual decides to teach her the ways of the world. Through a series of misadventures and amusing encounters, the once sheltered lady learns about the ways of society and discovers her own desires. As the two grow closer, they navigate the complexities of relationships and self-discovery, all while facing the challenges of their conflicting backgrounds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/78649l.jpg" alt="All Out!!">
+                </div>
+                <div class="details">
+                    <a href="all-out%21%21"><h3>All Out!!</h3></a>
+                    <p>Sports</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In All Out!!, Kenji Gion, a short but passionate high school student, joins the rugby team and forms an unlikely friendship with the tall and reserved Sumiaki Iwashimizu. Together, they navigate the challenges of the sport, bond with their teammates, and strive to become stronger players. With a mix of determination, teamwork, and personal growth, the team faces off against formidable opponents in intense matches, pushing themselves to their limits both physically and mentally.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1263/119511l.jpg" alt="The Genius Prince's Guide to Raising a Nation Out of Debt">
+                </div>
+                <div class="details">
+                    <a href="the-genius-prince%27s-guide-to-raising-a-nation-out-of-debt"><h3>The Genius Prince's Guide to Raising a Nation Out of Debt</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a fantasy world where princes are expected to slay monsters, Prince Wein is different - he's a strategic genius. When the kingdom faces crippling debt, Wein proposes an unconventional solution: using his intelligence to navigate political intrigue and economic challenges in order to steer the nation towards prosperity. Will his brains be enough to save the kingdom, or will traditionalists stand in his way?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1258/108331l.jpg" alt="Kemono Jihen">
+                </div>
+                <div class="details">
+                    <a href="kemono-jihen"><h3>Kemono Jihen</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Kemono Jihen, a young boy with mysterious origins, Kabane, is discovered by a sharp-witted detective named Inugami. As they investigate strange occurrences involving supernatural creatures known as kemono, they uncover dark secrets hidden in a remote village. Together with a team of misfits, they delve into the world of kemono to protect humanity from the dangerous forces at play. The series explores their adventures in dealing with the complex relationships between humans and these otherworldly beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1176/118382l.jpg" alt="The Faraway Paladin">
+                </div>
+                <div class="details">
+                    <a href="the-faraway-paladin"><h3>The Faraway Paladin</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>The Faraway Paladin follows the story of Will, a boy raised by three undead beings in an ancient, abandoned city. After being taught the ways of knighthood and magic, Will embarks on a journey to explore the world outside his home. As he faces challenges and discovers the truths of his past, Will must navigate the complexities of good and evil to fulfill his destiny as the Faraway Paladin.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1818/121071l.webp" alt="Fastest Finger First">
+                </div>
+                <div class="details">
+                    <a href="fastest-finger-first"><h3>Fastest Finger First</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Fastest Finger First follows the story of a high school student named Shiki Koshiyama, who is unexpectedly drawn into the world of quiz bowl competitions. With his vast knowledge and quick thinking, Shiki becomes a key member of his school's quiz bowl team. As they aim to compete at the national level, Shiki and his teammates navigate intense rivalries, friendships, and challenges in their quest for victory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/60475l.jpg" alt="Nanana's Buried Treasure">
+                </div>
+                <div class="details">
+                    <a href="nanana%27s-buried-treasure"><h3>Nanana's Buried Treasure</h3></a>
+                    <p>Mystery</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Nanana's Buried Treasure, Juugo Yama moves to an artificial island in search of a new life, only to discover it's filled with mysteries. Juugo encounters the ghost of Nanana, a former resident, who leads him on a quest to find her hidden treasures. Alongside other eccentric treasure hunters, Juugo delves into ancient ruins and faces formidable challenges in the race to uncover Nanana's valuable possessions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1190/121945l.webp" alt="Miss Shachiku and the Little Baby Ghost">
+                </div>
+                <div class="details">
+                    <a href="miss-shachiku-and-the-little-baby-ghost"><h3>Miss Shachiku and the Little Baby Ghost</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After unexpectedly becoming the guardian of a mischievous baby ghost, Miss Shachiku must navigate her hectic work life while keeping the supernatural secret hidden. As they form an unlikely bond, they encounter various challenges and adventures, all while learning valuable lessons about friendship and responsibility. Will Miss Shachiku be able to balance her ghostly companion while keeping her professional life intact?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1927/132758l.jpg" alt="The Ice Guy and His Cool Female Colleague">
+                </div>
+                <div class="details">
+                    <a href="the-ice-guy-and-his-cool-female-colleague"><h3>The Ice Guy and His Cool Female Colleague</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where superpowers are common, a reserved man with the ability to manipulate ice joins forces with a carefree woman who can control water. As they work together as colleagues at a top secret agency, they find themselves facing dangerous missions and powerful enemies. Despite their contrasting personalities, they must learn to trust each other's abilities and form a strong partnership to protect their city from impending threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1173/131830l.jpg" alt="Malevolent Spirits: Mononogatari">
+                </div>
+                <div class="details">
+                    <a href="malevolent-spirits%3A-mononogatari"><h3>Malevolent Spirits: Mononogatari</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a small village plagued by malevolent spirits, a young priestess with the ability to communicate with the supernatural becomes the last hope for its inhabitants. Together with a group of outcast warriors, she embarks on a dangerous journey to uncover the source of the spirits' anger and put an end to the curse that has haunted the village for generations. Amidst betrayal and dark secrets, they must face their own inner demons to save the village from doom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1827/92122l.webp" alt="Rewrite">
+                </div>
+                <div class="details">
+                    <a href="rewrite"><h3>Rewrite</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Rewrite is an intriguing anime that follows Kotarou Tennouji, a high school student with the ability to rewrite any part of his body to gain superhuman abilities. Living in the city of Kazamatsuri, he becomes involved with the Occult Research Club, whose members each have unique powers and hidden secrets. As they delve into mysterious phenomena and supernatural events, Kotarou uncovers truths about his own abilities and the fate of the world. The series explores themes of destiny, power, and the impact of one's choices.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1531/102113l.webp" alt="No Guns Life">
+                </div>
+                <div class="details">
+                    <a href="no-guns-life"><h3>No Guns Life</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a futuristic world where humans can replace body parts with cybernetic enhancements, Juzo Inui is a former soldier turned Resolver, taking on cases involving Extended - those with body modifications. With a giant gun for a head, Juzo finds himself entangled in a dark conspiracy that could change society. As he navigates through a web of mysteries and encounters new allies and enemies, he seeks the truth behind his own past and the secret of his unique head.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1456/94897l.jpg" alt="Sirius the Jaeger">
+                </div>
+                <div class="details">
+                    <a href="sirius-the-jaeger"><h3>Sirius the Jaeger</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Sirius the Jaeger, a group of vampire hunters called Jaegers is on a mission to hunt down vampires that have infiltrated Tokyo. Yuliy, a young werewolf and one of the last surviving members of the Sirius werewolf tribe, joins forces with the Jaegers to seek revenge against the vampires responsible for the destruction of his home. As the intense battle between the Jaegers and vampires escalates, dark secrets and ancient prophecies are revealed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/61781l.webp" alt="Chaika -The Coffin Princess-">
+                </div>
+                <div class="details">
+                    <a href="chaika--the-coffin-princess-"><h3>Chaika -The Coffin Princess-</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Chaika -The Coffin Princess- follows a young girl named Chaika who travels with two saboteurs, searching for the remains of her father in a post-war fantasy world. With a mysterious coffin in tow and unique magical abilities, Chaika encounters challenges and adversaries on her journey. As secrets unravel and loyalties are tested, Chaika must navigate political intrigue and confront the truth about her identity to fulfill her mission.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1256/128714l.webp" alt="Bibliophile Princess">
+                </div>
+                <div class="details">
+                    <a href="bibliophile-princess"><h3>Bibliophile Princess</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where books are rare and knowledge is power, Princess Elara defies her royal duties to pursue her love for literature. When a mysterious figure threatens the kingdom's library, Elara must use her intelligence and cunning to protect the stories she holds dear. With the help of her loyal companions, she embarks on a quest to unravel the secrets hidden within the ancient texts, facing danger and intrigue at every turn.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

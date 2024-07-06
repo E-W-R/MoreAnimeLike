@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Visual Prison</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "48567";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1143/117924l.webp" alt="Visual Prison">
+                <div>
+                    <h2 id="title">Visual Prison</h2>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where music can create magic, a young man named Ange is on a quest to uncover the truth behind his forgotten past. As he navigates the cutthroat music industry and battles rival bands, Ange's own musical talent attracts attention from powerful forces. With the help of his friends and his mysterious connection to a legendary band, Ange must now harness his abilities to save those he cares about and unlock the secrets of his own identity.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1869/118766l.jpg" alt="The Night Beyond the Tricornered Window">
+                </div>
+                <div class="details">
+                    <a href="the-night-beyond-the-tricornered-window"><h3>The Night Beyond the Tricornered Window</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>The Night Beyond the Tricornered Window follows the story of a bookstore employee who can see and communicate with spirits. He forms an unlikely partnership with a handsome exorcist, and the two team up to solve mysterious and chilling supernatural cases. As they delve deeper into the world of spirits and the occult, they uncover dark secrets and confront their own inner demons. Together, they must navigate a dangerous and eerie world where nothing is as it seems.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

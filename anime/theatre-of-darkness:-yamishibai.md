@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Theatre of Darkness: Yamishibai</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "19383";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/11/51995l.webp" alt="Theatre of Darkness: Yamishibai">
+                <div>
+                    <h2 id="title">Theatre of Darkness: Yamishibai</h2>
+                    <p>Other Genre</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Theatre of Darkness: Yamishibai, a mysterious storyteller known as the Master of Shadows appears in a park to share chilling urban legends with unsuspecting children. As each eerie tale unfolds through traditional paper-cut animation, the characters find themselves confronting supernatural entities and facing terrifying consequences. The stories delve into the darkest corners of Japanese folklore, leaving viewers on the edge of their seats with each spine-tingling revelation.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1297/118764l.webp" alt="How a Realist Hero Rebuilt the Kingdom">
+                </div>
+                <div class="details">
+                    <a href="how-a-realist-hero-rebuilt-the-kingdom"><h3>How a Realist Hero Rebuilt the Kingdom</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>When the protagonist is summoned to another world to be the hero, he decides to use his knowledge of modern economics and politics to rebuild the kingdom instead. With his strategic thinking and innovative ideas, he sets out to improve the country's economy, infrastructure, and overall well-being. However, he faces challenges and opposition from different factions within the kingdom as he navigates the complex world of politics and governance. Will his efforts to reform the kingdom be successful?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1718/98214l.webp" alt="Ao-chan Can't Study!">
+                </div>
+                <div class="details">
+                    <a href="ao-chan-can%27t-study%21"><h3>Ao-chan Can't Study!</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Ao Horie is a diligent high school student focused on her grades to escape her father's provocative job as an erotic novelist. Her determination is put to the test when a popular and handsome classmate, Kijima, expresses romantic interest in her. Ao struggles to navigate her developing feelings while balancing her studies and embarrassing family situation. Will she be able to concentrate on her goals, or will love distract her from her academic aspirations?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/46489l.jpg" alt="Place to Place">
+                </div>
+                <div class="details">
+                    <a href="place-to-place"><h3>Place to Place</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Nagasarete Airantou is a romantic comedy anime that tells the story of Ikuto Tōhōin, a teenage boy who gets stranded on a mysterious island inhabited only by women. As Ikuto tries to find a way off the island and back home, he faces various challenges and adventures. Along the way, he forms relationships with the island's residents, including the spirited Suzu and the kind-hearted Machi. Will Ikuto ever find a way off the island, or will he come to embrace his new life there?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/80417l.jpg" alt="New Game!">
+                </div>
+                <div class="details">
+                    <a href="new-game%21"><h3>New Game!</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Aoba Suzukaze begins her career in the video game industry as a character designer at a renowned company. Follow her journey as she navigates the challenges of the workplace, learns from her talented colleagues, and strives to meet deadlines while balancing friendships and the demands of game development. A heartwarming story filled with humor, teamwork, and the passion for creating video games.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/75249l.jpg" alt="Engaged to the Unidentified">
+                </div>
+                <div class="details">
+                    <a href="engaged-to-the-unidentified"><h3>Engaged to the Unidentified</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Engaged to the Unidentified follows the story of Kobeni, who finds out on her 16th birthday that she is engaged to a boy named Hakuya. However, things take an unexpected turn when Hakuya and his little sister Mashiro move in with Kobeni and her family. As Kobeni navigates her new relationship and living arrangements, she uncovers surprising secrets about Hakuya and Mashiro's past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1896/129202l.jpg" alt="Ani ni Tsukeru Kusuri wa Nai!">
+                </div>
+                <div class="details">
+                    <a href="ani-ni-tsukeru-kusuri-wa-nai%21"><h3>Ani ni Tsukeru Kusuri wa Nai!</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Ani ni Tsukeru Kusuru wa Nai! follows the hilarious daily lives of a high school student, Shi Miao, and her troublesome older brother, Shi Fen. Despite their constant bickering and pranks, deep down, they share a strong sibling bond. Through various misadventures and misunderstandings, the siblings navigate school life and relationships, learning valuable lessons along the way. With plenty of comedy and heartwarming moments, this anime explores the ups and downs of family dynamics.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/75585l.jpg" alt="The Troubled Life of Miss Kotoura">
+                </div>
+                <div class="details">
+                    <a href="the-troubled-life-of-miss-kotoura"><h3>The Troubled Life of Miss Kotoura</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>After inadvertently exposing her telepathic abilities as a child, Haruka Kotoura becomes an outcast due to the turmoil she causes in people's lives. When she transfers to a new high school, she meets Manabe, a boy who accepts her for who she is. Together with new friends, they navigate challenges while unraveling the mysteries of Haruka's past and the connection to her powers. The series explores friendship, trust, and the power of empathy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1055/118890l.webp" alt="My Senpai is Annoying">
+                </div>
+                <div class="details">
+                    <a href="my-senpai-is-annoying"><h3>My Senpai is Annoying</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Futaba Igarashi is a hard-working office employee who is constantly annoyed by her loud and childish senpai, Harumi Takeda. Despite her frustrations, Futaba finds herself developing a close friendship with Harumi as they navigate the ups and downs of office life together. Will Futaba learn to tolerate her annoying senpai, or will their contrasting personalities lead to even more chaos in the workplace?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1555/93865l.jpg" alt="Skull-face Bookseller Honda-san">
+                </div>
+                <div class="details">
+                    <a href="skull-face-bookseller-honda-san"><h3>Skull-face Bookseller Honda-san</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Follow the daily life of Honda-san, a skeleton who works in a bookstore. Dealing with various customer requests and challenges of the retail world, Honda-san navigates through the struggles of the industry with a humorous and lighthearted approach. From handling unique book orders to interacting with eccentric colleagues, each day brings new surprises and experiences for Honda-san to tackle.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/56163l.jpg" alt="Strike the Blood">
+                </div>
+                <div class="details">
+                    <a href="strike-the-blood"><h3>Strike the Blood</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Strike the Blood follows the story of Kojou Akatsuki, a high school boy who has become a powerful vampire. As his true identity is revealed, Kojou must navigate the challenges of balancing his newfound powers and maintaining his humanity. With the help of Yukina Himeragi, a sword shaman who has been tasked to observe him, Kojou faces dangerous adversaries and unravels the mysteries surrounding his existence. Together, they embark on thrilling adventures to protect the city from supernatural threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1380/139745l.jpg" alt="The Witch and the Beast">
+                </div>
+                <div class="details">
+                    <a href="the-witch-and-the-beast"><h3>The Witch and the Beast</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>In a world where witches and beasts coexist, a powerful witch seeks to eradicate all beasts to avenge her family. However, her plans take a turn when she encounters a mysterious, amnesiac beast who seems different from the others. As they embark on a journey together, they uncover dark secrets and face dangerous foes, forcing them to confront their own pasts and the true nature of their bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1538/95686l.webp" alt="Dagashi Kashi">
+                </div>
+                <div class="details">
+                    <a href="dagashi-kashi"><h3>Dagashi Kashi</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Dagashi Kashi, Kokonotsu Shikada is trying to decide whether to take over his family's dagashi (Japanese snack) store. His peaceful life is disrupted when a quirky girl named Hotaru Shidare appears, determined to recruit his father to work at her family's big candy company. To convince Kokonotsu's father, she challenges Kokonotsu to learn more about the world of dagashi. As Kokonotsu learns about different snacks, he also grows closer to Hotaru.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/55489l.webp" alt="Tonari no Seki-kun: The Master of Killing Time">
+                </div>
+                <div class="details">
+                    <a href="tonari-no-seki-kun%3A-the-master-of-killing-time"><h3>Tonari no Seki-kun: The Master of Killing Time</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In this comedic anime series, follow the daily antics of Rumi Yokoi, a diligent student who sits next to Seki-kun, a master of creating elaborate distractions in class. As Seki-kun engages in various entertaining activities - from building card towers to playing with dominoes - Rumi finds herself unable to resist getting drawn into his imaginative world. Watch as Seki-kun's creative ways of killing time bring unexpected fun and excitement to the classroom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1042/95674l.jpg" alt="Mirai">
+                </div>
+                <div class="details">
+                    <a href="mirai"><h3>Mirai</h3></a>
+                    <p>Drama</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Mirai, a young boy named Kun struggles to adjust to the arrival of his baby sister, Mirai. Feeling jealous and neglected, Kun embarks on a magical journey through time where he encounters various family members from the past and future. Through these encounters, Kun learns valuable life lessons and the importance of family bonds. As the story unfolds, Kun begins to come to terms with his new role as a big brother and the challenges that come with it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1684/108627l.jpg" alt="Love is Like a Cocktail">
+                </div>
+                <div class="details">
+                    <a href="love-is-like-a-cocktail"><h3>Love is Like a Cocktail</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Love is Like a Cocktail follows the daily life of Chisato, a career woman who enjoys coming home to her caring husband, Sora. With each episode, Sora surprises Chisato with a new cocktail perfectly tailored to her feelings or the events of the day. The show tastefully showcases their sweet and heartwarming relationship as they navigate the ups and downs of life together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1602/100510l.jpg" alt="We Never Learn: BOKUBEN">
+                </div>
+                <div class="details">
+                    <a href="we-never-learn%3A-bokuben"><h3>We Never Learn: BOKUBEN</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>We Never Learn: BOKUBEN follows Nariyuki Yuiga, a hardworking high school student tasked with tutoring three genius girls in different subjects to secure a scholarship. However, each girl excels in areas outside their specialty, leading to comedic and heartwarming mishaps as Nariyuki helps them navigate their academic and personal struggles. As he forms close bonds with the girls, Nariyuki realizes there might be more to teaching and learning than just books and exams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/77055l.jpg" alt="Yu-Gi-Oh!">
+                </div>
+                <div class="details">
+                    <a href="yu-gi-oh%21"><h3>Yu-Gi-Oh!</h3></a>
+                    <p>Action</p>
+                    <p>2000</p>
+                    <br>
+                    <p>Yu-Gi-Oh! follows Yugi Mutou, a shy high school student with a passion for games. When he solves an ancient Egyptian puzzle, he becomes host to a mysterious spirit who helps him master the game of Duel Monsters. Yugi and his friends face off against rivals in intense battles, using strategy, skill, and a touch of magic to prevail. As the stakes grow higher, Yugi must unlock the secrets of his other self to save the ones he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/80546l.webp" alt="Sweetness & Lightning">
+                </div>
+                <div class="details">
+                    <a href="sweetness-%26-lightning"><h3>Sweetness & Lightning</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the death of his wife, a single father decides to improve his cooking skills in order to properly feed his daughter. With the help of one of his students, they begin to learn how to cook delicious meals together and form a heartwarming bond. Through their culinary adventures, they also become closer as a family. The anime follows their journey of healing, growth, and the joy of good food.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/82590l.webp" alt="Gabriel DropOut">
+                </div>
+                <div class="details">
+                    <a href="gabriel-dropout"><h3>Gabriel DropOut</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After graduating at the top of her angel class in heaven, Gabriel is sent down to Earth to make the world a better place. However, things don't go as planned when she becomes addicted to video games and loses her angelic ways. Along with her equally mischievous friends Vignette, Satanichia, and Raphiel, they navigate through hilarious and chaotic situations as they try to adapt to life on Earth. Gabriel DropOut is a delightful comedy filled with quirky characters and hilarious antics.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1814/99677l.jpg" alt="The Helpful Fox Senko-san">
+                </div>
+                <div class="details">
+                    <a href="the-helpful-fox-senko-san"><h3>The Helpful Fox Senko-san</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In The Helpful Fox Senko-san, an overworked salaryman is visited by Senko, a 800-year-old fox deity. Determined to help him relax and enjoy life again, Senko takes on the appearance of a young girl and becomes his housekeeper. As she showers him with care and affection, he begins to find happiness in the simple joys of everyday life. Through their heartwarming interactions, Senko helps him rediscover the beauty of living in the present moment.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1141/117446l.webp" alt="Cells at Work!">
+                </div>
+                <div class="details">
+                    <a href="cells-at-work%21"><h3>Cells at Work!</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In this anime, human cells are personified as characters working together in a bustling city-like body to protect and maintain the health of their host. The story follows a red blood cell and a white blood cell as they navigate daily tasks and battle against various pathogens and threats to the body. The anime showcases the inner workings of the human body through an entertaining and educational lens, highlighting the importance of each cell's role in maintaining overall health.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/88286l.webp" alt="BLEND-S">
+                </div>
+                <div class="details">
+                    <a href="blend-s"><h3>BLEND-S</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Maika Sakuranomiya is a high school student with a sadistic look in her eyes that often scares others away. Desperate to find a part-time job, she lands a position at Café Stile, a unique café where the waitresses play specific character roles. Despite her intimidating appearance, Maika is assigned the role of a sweet and submissive waitress, leading to amusing and chaotic interactions with her eccentric coworkers as they navigate the ups and downs of working in the service industry.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1471/115593l.jpg" alt="The Duke of Death and His Maid">
+                </div>
+                <div class="details">
+                    <a href="the-duke-of-death-and-his-maid"><h3>The Duke of Death and His Maid</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Cursed by a witch at a young age, a noble Duke is unable to touch anything living without causing its instant death. Despite this, he maintains a positive attitude with the help of his loyal and devoted maid. As they navigate the challenges of his curse, their bond strengthens, and they encounter various eccentric characters along the way. Together, they search for a way to break the curse and grant the Duke a chance at a normal life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/76034l.webp" alt="The Asterisk War">
+                </div>
+                <div class="details">
+                    <a href="the-asterisk-war"><h3>The Asterisk War</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In the city of Asterisk, Julis-Alexia von Riessfeld competes in the Festa fighting tournament to secure her rank and funding for her orphanage. She teams up with Ayato Amagiri, a new transfer student with his own reasons for joining the battles. As they navigate the dangerous world of the Festa, they uncover dark secrets and confront powerful foes. Julis and Ayato must rely on each other's strength and determination to survive and achieve their goals.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/75287l.jpg" alt="I Can't Understand What My Husband Is Saying">
+                </div>
+                <div class="details">
+                    <a href="i-can%27t-understand-what-my-husband-is-saying"><h3>I Can't Understand What My Husband Is Saying</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Kaoru is a typical office worker married to Hajime, a hardcore otaku. Despite their differences, they navigate their contrasting lifestyles with love and humor, trying to understand each other's quirks and find common ground. From attending anime conventions to dealing with family gatherings, their daily lives are filled with laughter, challenges, and the realization that love can transcend even the most unexpected differences.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/43369l.jpg" alt="Problem Children Are Coming from Another World, Aren't They?">
+                </div>
+                <div class="details">
+                    <a href="problem-children-are-coming-from-another-world%2C-aren%27t-they%3F"><h3>Problem Children Are Coming from Another World, Aren't They?</h3></a>
+                    <p>Isekai</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Izayoi Sakamaki, Asuka Kudou, and You Kasukabe each possess unique powers and are summoned to a mysterious world called Little Garden. Unimpressed by the various fantasy races and powerful residents, the trio decides to use their abilities to participate in Gift Games and disrupt the status quo. As they take on different challenges and adversaries, they uncover the secrets of Little Garden and strive to make their mark in this extraordinary realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1066/106556l.jpg" alt="The Millionaire Detective – Balance: UNLIMITED">
+                </div>
+                <div class="details">
+                    <a href="the-millionaire-detective-%E2%80%93-balance%3A-unlimited"><h3>The Millionaire Detective – Balance: UNLIMITED</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>When elite detective Daisuke Kambe joins the Modern Crime Prevention Task Force, his unorthodox methods clash with his partner Haru Kato's sense of justice. Together, they solve bizarre cases in the bustling city of Tokyo. But as they delve deeper into the mysteries surrounding Daisuke's fortune, they uncover a web of corruption and secrets that will test their partnership and values.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1483/107061l.webp" alt="My Next Life as a Villainess: All Routes Lead to Doom!">
+                </div>
+                <div class="details">
+                    <a href="my-next-life-as-a-villainess%3A-all-routes-lead-to-doom%21"><h3>My Next Life as a Villainess: All Routes Lead to Doom!</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>After hitting her head, high schooler Katarina Claes remembers her past life as a Japanese otaku. She realizes she's been reincarnated into an otome game she used to play as the villainess. Desperate to avoid her doom ending, she navigates the game's world and tries to change her fate, inadvertently winning the hearts of all the male leads. Will her efforts lead her to a happy ending, or is her destiny set in stone?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1126/115635l.jpg" alt="Life Lessons with Uramichi-Oniisan">
+                </div>
+                <div class="details">
+                    <a href="life-lessons-with-uramichi-oniisan"><h3>Life Lessons with Uramichi-Oniisan</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Uramichi is a gym instructor for children's TV show. While he appears cheerful on screen, behind the scenes, he is a disillusioned man in his 30s who struggles with the reality of adulthood. Alongside fellow mascots who share his struggles, Uramichi navigates the challenges of balancing his public persona with his personal life. Viewers witness the comedy and poignant moments as he imparts life lessons to the children on the show while grappling with his own cynicism.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/87684l.jpg" alt="Juni Taisen: Zodiac War">
+                </div>
+                <div class="details">
+                    <a href="juni-taisen%3A-zodiac-war"><h3>Juni Taisen: Zodiac War</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In Juni Taisen: Zodiac War, twelve warriors representing the Chinese zodiac signs are chosen to battle in a deadly tournament to have their greatest wish granted. Each warrior possesses unique abilities and a tragic backstory that drives their motivation in the brutal competition. As the battles unfold, alliances are formed and broken, revealing the true nature of the warriors and the high stakes of the tournament.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

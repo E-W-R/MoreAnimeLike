@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Battle Girls: Time Paradox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "10308";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1459/133815l.jpg" alt="Battle Girls: Time Paradox">
+                <div>
+                    <h2 id="title">Battle Girls: Time Paradox</h2>
+                    <p>Isekai</p>
+                    <p>2011</p>
+                    <br>
+                    <p>When high school girl Yoshino is transported back in time to the Sengoku period, she finds herself in the middle of a battlefield. Mistaken for a legendary warrior, Yoshino must navigate the turbulent times and form alliances with famous historical figures in order to survive. As she tries to find a way back home, Yoshino discovers her own inner strength and courage in the face of fierce battles and political intrigue.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/78858l.jpg" alt="Hundred">
+                </div>
+                <div class="details">
+                    <a href="hundred"><h3>Hundred</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world threatened by mysterious creatures called Savage, Earth's only defense lies in the Hundred, a weapon capable of transforming into various forms. Hayato Kisaragi, a new recruit at the prestigious Little Garden academy, must uncover the secrets behind the Savage while battling alongside his peers. As Hayato navigates intense training and complex relationships, he finds himself entangled in a web of political intrigue and power struggles that could determine the fate of humanity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/63031l.jpg" alt="Blade Dance of the Elementalers">
+                </div>
+                <div class="details">
+                    <a href="blade-dance-of-the-elementalers"><h3>Blade Dance of the Elementalers</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a world where only females possess spirit contracting abilities, a young man named Kamito boldly enters a prestigious all-girls academy to participate in the Blade Dance. Despite being the only male elementaler, Kamito forms powerful bonds with his female teammates as they compete in the elemental tournament. With a mysterious past and a unique ability to contract with multiple spirits, Kamito navigates dangerous challenges and uncovers dark secrets surrounding the Blade Dance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/49081l.webp" alt="Nyaruko: Crawling With Love!">
+                </div>
+                <div class="details">
+                    <a href="nyaruko%3A-crawling-with-love%21"><h3>Nyaruko: Crawling With Love!</h3></a>
+                    <p>Comedy</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Mahiro Yasaka's ordinary life is turned upside down when he encounters Nyaruko, a shape-shifting alien from the Lovecraftian universe. Nyaruko's mission is to protect Mahiro from other alien threats, but her over-the-top personality and affectionate advances make his life even more chaotic. As they face off against various bizarre creatures, Mahiro must navigate his feelings for Nyaruko while trying to keep his sanity intact.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/79414l.webp" alt="And you thought there is never a girl online?">
+                </div>
+                <div class="details">
+                    <a href="and-you-thought-there-is-never-a-girl-online%3F"><h3>And you thought there is never a girl online?</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In the anime And you thought there is never a girl online?, a high school student named Hideki Nishimura, who is obsessed with online RPGs, falls in love with a female character in the game. Upon discovering that his in-game wife is actually a man in real life, he vows to never trust a girl online again. However, he later meets three girls in his school's gaming club who challenge his beliefs about online relationships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/68839l.jpg" alt="Absolute Duo">
+                </div>
+                <div class="details">
+                    <a href="absolute-duo"><h3>Absolute Duo</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where students train to become skilled fighters using weapons generated from their souls, Tor Kokonoe enters Koryo Academy. He forms a Duo with the mysterious and powerful Julie Sigtuna. Together, they navigate friendships, rivalries, and intense battles as they uncover dark secrets surrounding their pasts. Tor and Julie must work together to overcome challenges and become the strongest Duo at the academy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/32541l.jpg" alt="Majikoi: Oh! Samurai Girls">
+                </div>
+                <div class="details">
+                    <a href="majikoi%3A-oh%21-samurai-girls"><h3>Majikoi: Oh! Samurai Girls</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In Majikoi: Oh! Samurai Girls, the story follows Yamato Naoe and his friends as they navigate their daily lives at Kawakami Academy, a school known for its unique samurai training program. As they tackle various challenges and adventures, they form strong bonds with one another while uncovering secrets and facing off against formidable foes. With comedy, action, and a touch of romance, the group must band together to protect what they hold dear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/71769l.webp" alt="World Break: Aria of Curse for a Holy Swordsman">
+                </div>
+                <div class="details">
+                    <a href="world-break%3A-aria-of-curse-for-a-holy-swordsman"><h3>World Break: Aria of Curse for a Holy Swordsman</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where memories of past lives hold the key to incredible powers, Moroha Haimura discovers he is a Savior capable of wielding multiple Holy Swords. Enrolling in a special academy to hone his abilities, Moroha and his classmates must fend off dark forces seeking to exploit their unique gifts. As they uncover the secrets of their previous incarnations, they must join forces to protect the world from the looming threat of destruction.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/75662l.webp" alt="Campione!">
+                </div>
+                <div class="details">
+                    <a href="campione%21"><h3>Campione!</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After defeating the god of war in battle, high school student Godou Kusanagi gains the title of Campione, a godslayer. He is soon thrust into a world of deities and mythical creatures, tasked with protecting both the mortal and divine realms from chaos. Alongside the help of his newfound powers and a group of loyal companions, Godou navigates through dangerous encounters and battles against powerful gods to maintain balance in the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/74047l.webp" alt="Aesthetica of a Rogue Hero">
+                </div>
+                <div class="details">
+                    <a href="aesthetica-of-a-rogue-hero"><h3>Aesthetica of a Rogue Hero</h3></a>
+                    <p>Isekai</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After defeating the demon king, hero Akatsuki Ousawa is sent to a parallel world to attend a school for those who have returned from fighting in other realms. Faced with suspicion and hostility from both students and teachers, Akatsuki must navigate this new environment while keeping his true powers a secret. As he gets caught up in various adventures and battles, he forms unlikely alliances and uncovers dark secrets about the world he now inhabits.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/56141l.jpg" alt="Unbreakable Machine-Doll">
+                </div>
+                <div class="details">
+                    <a href="unbreakable-machine-doll"><h3>Unbreakable Machine-Doll</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In an alternate Steampunk world, puppeteer students at Walpurgis Royal Academy control humanoid automatons to battle each other. Raishin Akabane, a skilled puppeteer with a mysterious past, seeks revenge against those responsible for his family's downfall. With his doll Yaya by his side, Raishin enters the Mage's Society's prestigious Night Party tournament to confront his enemies and uncover dark secrets. The competition is fierce as Raishin faces formidable opponents, testing his skills and determination to emerge victorious.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/37947l.jpg" alt="Medaka Box">
+                </div>
+                <div class="details">
+                    <a href="medaka-box"><h3>Medaka Box</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Medaka Kurokami, the perfect student, is elected as the student council president due to her overwhelming popularity. She implements a suggestion box where students can submit any request for assistance. Along with her childhood friend Zenkichi, they tackle various challenges and help their fellow students. As the requests become more difficult, Medaka's boundless optimism and strong sense of justice will be tested as she delves into the mysteries surrounding the academy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/74045l.jpg" alt="Infinite Stratos">
+                </div>
+                <div class="details">
+                    <a href="infinite-stratos"><h3>Infinite Stratos</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Infinite Stratos follows a world where powerful exoskeleton suits named Infinite Stratos are created, but only women can pilot them. Ichika Orimura is the first male capable of controlling an IS unit and is enrolled in an academy exclusively for IS pilots. Surrounded by female classmates, Ichika faces various challenges as he trains to become an IS pilot while also unraveling the mysteries of his unique abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1292/94693l.jpg" alt="Black Bullet">
+                </div>
+                <div class="details">
+                    <a href="black-bullet"><h3>Black Bullet</h3></a>
+                    <p>Mystery</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In the aftermath of a deadly virus that mutates humans into monstrous creatures, Cursed Children possessing supernatural abilities are humanity's only hope. Paired with partners from a security agency, young girls with these powers, including Enju, fight to protect what remains of society. Tasked with defending their city from impending threats, they must navigate political intrigue, dark conspiracies, and moral dilemmas while battling the deadly monsters known as Gastrea.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/53235l.jpg" alt="My Mental Choices Are Completely Interfering With My School Romantic Comedy">
+                </div>
+                <div class="details">
+                    <a href="my-mental-choices-are-completely-interfering-with-my-school-romantic-comedy"><h3>My Mental Choices Are Completely Interfering With My School Romantic Comedy</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Kanade Amakusa's life takes a crazy turn when a strange choice system forces him to select absurd options at any given moment. As he navigates school life, an unexpected turn of events leads him to choose between joining the school's game development club or finding a romantic partner. With his choices dictating his fate, Kanade must overcome his embarrassing predicament while forming new relationships along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/50311l.webp" alt="Dragon Crisis!">
+                </div>
+                <div class="details">
+                    <a href="dragon-crisis%21"><h3>Dragon Crisis!</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>When a boy named Ryuuji encounters a mysterious girl named Rose, his life takes a sudden turn. Rose is a treasure hunter seeking powerful objects called Lost Precious, and Ryuuji gets caught up in her quest. As they delve into the world of dragons and magic, they must navigate dangerous adversaries and uncover the truth behind Rose's past. Together, they face thrilling adventures and formidable foes in their search for the ultimate treasure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/75242l.webp" alt="Rosario + Vampire">
+                </div>
+                <div class="details">
+                    <a href="rosario-%2B-vampire"><h3>Rosario + Vampire</h3></a>
+                    <p>Romance</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Rosario + Vampire follows Tsukune, a teenage boy who unknowingly enrolls in a school for monsters. He befriends a vampire named Moka, who becomes smitten with him. As Tsukune navigates the challenges of attending a school filled with supernatural creatures, he uncovers hidden powers within himself. Together with Moka and other friends, Tsukune faces various dangers and adventures while trying to keep his human identity a secret.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1988/115708l.jpg" alt="The Hidden Dungeon Only I Can Enter">
+                </div>
+                <div class="details">
+                    <a href="the-hidden-dungeon-only-i-can-enter"><h3>The Hidden Dungeon Only I Can Enter</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Noir Stonewall has a unique ability to enter a hidden dungeon that holds untold treasures and powerful secrets. Determined to change his lowly status in life, Noir embarks on a journey to conquer the dungeon, accompanied by a beautiful but feisty childhood friend Emma Brightness. With his one-of-a-kind power, Noir faces numerous challenges and adversaries within the dungeon as he strives to unlock its mysteries and fulfill his dreams of a better life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/76034l.webp" alt="The Asterisk War">
+                </div>
+                <div class="details">
+                    <a href="the-asterisk-war"><h3>The Asterisk War</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In the city of Asterisk, Julis-Alexia von Riessfeld competes in the Festa fighting tournament to secure her rank and funding for her orphanage. She teams up with Ayato Amagiri, a new transfer student with his own reasons for joining the battles. As they navigate the dangerous world of the Festa, they uncover dark secrets and confront powerful foes. Julis and Ayato must rely on each other's strength and determination to survive and achieve their goals.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1444/115118l.jpg" alt="Combatants Will Be Dispatched!">
+                </div>
+                <div class="details">
+                    <a href="combatants-will-be-dispatched%21"><h3>Combatants Will Be Dispatched!</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world dominated by evil organizations, the Kisaragi Corporation sends Agent Six to a newly discovered planet to assess its potential for conquest. Along with the android Alice, Six finds himself in humorous and dangerous situations as they try to accomplish their mission. As they encounter bizarre creatures, rival agents, and unexpected challenges, Six must navigate the complexities of his mission while balancing his quirky team dynamics.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1282/102248l.webp" alt="Isekai Cheat Magician">
+                </div>
+                <div class="details">
+                    <a href="isekai-cheat-magician"><h3>Isekai Cheat Magician</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After being transported to a fantasy world, Taichi and Rin discover they possess incredible magical abilities. As they navigate this new world, they befriend allies and face dangerous foes, using their powers to protect those they care about. With their strong bond and growing skills, Taichi and Rin work together to uncover the secrets of their magical gifts and the truth behind their sudden arrival in this mysterious realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1538/95686l.webp" alt="Dagashi Kashi">
+                </div>
+                <div class="details">
+                    <a href="dagashi-kashi"><h3>Dagashi Kashi</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Dagashi Kashi, Kokonotsu Shikada is trying to decide whether to take over his family's dagashi (Japanese snack) store. His peaceful life is disrupted when a quirky girl named Hotaru Shidare appears, determined to recruit his father to work at her family's big candy company. To convince Kokonotsu's father, she challenges Kokonotsu to learn more about the world of dagashi. As Kokonotsu learns about different snacks, he also grows closer to Hotaru.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/42111l.jpg" alt="OniAi">
+                </div>
+                <div class="details">
+                    <a href="oniai"><h3>OniAi</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After the death of their parents, Akito Himenokoji is left to take care of his four younger sisters. Despite trying to maintain a normal sibling relationship, his sisters' romantic advances create comedic and awkward situations. Akito's responsibilities are put to the test as he navigates through the challenges of balancing familial love and boundaries in this lighthearted romantic comedy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/75240l.webp" alt="Okami-San and Her Seven Companions">
+                </div>
+                <div class="details">
+                    <a href="okami-san-and-her-seven-companions"><h3>Okami-San and Her Seven Companions</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In a world where favors can be traded like commodities, the strong-willed and brave Ami works as a go-to girl for solving problems at her high school. Alongside her loyal friend Ryoko, they form a group dedicated to helping others. When a mysterious boy named Ryoshi enters their lives, secrets start to unravel, and unexpected adventures await the group as they navigate through friendships, rivalries, and the complexities of teenage life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/39249l.jpg" alt="The Ambition of Oda Nobuna">
+                </div>
+                <div class="details">
+                    <a href="the-ambition-of-oda-nobuna"><h3>The Ambition of Oda Nobuna</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In The Ambition of Oda Nobuna, a high school student named Yoshiharu Sagara finds himself transported back in time to the Sengoku period. He encounters historical figures such as the famous warlord Oda Nobunaga, who in this alternate timeline is portrayed as a young girl named Nobuna. Yoshiharu decides to help Nobuna in her quest for power and unification of Japan, using his knowledge of history to change the course of events.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/83709l.jpg" alt="Masamune-kun's Revenge">
+                </div>
+                <div class="details">
+                    <a href="masamune-kun%27s-revenge"><h3>Masamune-kun's Revenge</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After being rejected by a girl named Aki Adagaki in the past, Masamune Makabe undergoes a major transformation and transfers to her school with the goal of making her fall for him. Masamune plans to break her heart as payback for her rejection. However, as he gets to know Aki better, he begins to question his motives and develops conflicting feelings towards her. The series follows their complicated relationship and the challenges they face.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/54343l.jpg" alt="Outbreak Company">
+                </div>
+                <div class="details">
+                    <a href="outbreak-company"><h3>Outbreak Company</h3></a>
+                    <p>Isekai</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Shinichi Kanou, a hardcore otaku, is recruited by the Japanese government to promote otaku culture in a fantasy world. He must navigate political intrigue, cultural differences, and a language barrier to spread his love for anime, manga, and video games. As he immerses himself in this new world, Shinichi learns valuable lessons about acceptance, diversity, and the power of pop culture.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 10%;"></span>
+                            </div>
+                            <p>10% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1316/134327l.jpg" alt="I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too">
+                </div>
+                <div class="details">
+                    <a href="i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world%2C-too"><h3>I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After obtaining a cheat skill in a fantasy world, a young man is unexpectedly transported back to his original world with his newfound powers still intact. Now, he must navigate his way through the challenges of both worlds, using his abilities to overcome any obstacles that come his way. As he rises to the top and becomes unbeatable, he must also uncover the truth behind his sudden return and the connection between the two worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 10%;"></span>
+                            </div>
+                            <p>10% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1760/98794l.jpg" alt="Inu X Boku Secret Service">
+                </div>
+                <div class="details">
+                    <a href="inu-x-boku-secret-service"><h3>Inu X Boku Secret Service</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Inu X Boku Secret Service, Ririchiyo Shirakiin moves into the high-class Ayakashi Kan mansion to live alone and be independent. She is assigned a Secret Service agent named Soshi Miketsukami, who has a mysterious past. As Ririchiyo learns more about Soshi and the other residents of the mansion, she discovers hidden secrets and uncovers the true nature of her own identity. Throughout the series, Ririchiyo and Soshi navigate a complex relationship filled with secrets and supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 10%;"></span>
+                            </div>
+                            <p>10% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/81906l.webp" alt="Keijo!!!!!!!!">
+                </div>
+                <div class="details">
+                    <a href="keijo%21%21%21%21%21%21%21%21"><h3>Keijo!!!!!!!!</h3></a>
+                    <p>Sports</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Keijo!!!!!!!! follows the story of Nozomi Kaminashi as she enters the competitive world of Keijo, a sport where women compete on platforms floating on water with the goal of knocking each other off using only their breasts and buttocks. Determined to become the best Keijo player, Nozomi trains hard to master different techniques and strategies while forming friendships and rivalries with fellow competitors. With intense battles and fierce competition, Nozomi fights to achieve her dream of becoming the Keijo champion.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 10%;"></span>
+                            </div>
+                            <p>10% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1888/133089l.jpg" alt="I've Been Killing Slimes for 300 Years and Maxed Out My Level">
+                </div>
+                <div class="details">
+                    <a href="i%27ve-been-killing-slimes-for-300-years-and-maxed-out-my-level"><h3>I've Been Killing Slimes for 300 Years and Maxed Out My Level</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After dying from overwork, a woman reincarnates as an immortal witch in a fantasy world. She decides to live a peaceful life and spends 300 years killing slimes to maintain her immortality. However, her simple life changes as word spreads of the powerful witch living in the mountains. Unexpectedly gaining a huge amount of wealth and fame, she attracts various magical beings to her doorstep, leading to new adventures and challenges in her laid-back existence.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

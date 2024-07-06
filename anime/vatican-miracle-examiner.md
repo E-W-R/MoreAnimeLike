@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Vatican Miracle Examiner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "34368";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/4/86746l.webp" alt="Vatican Miracle Examiner">
+                <div>
+                    <h2 id="title">Vatican Miracle Examiner</h2>
+                    <p>Mystery</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Two priests, Hiraga Josef Kou and Roberto Nicholas, investigate supposed miracles around the world on behalf of the Vatican. As they delve into these mysterious cases, they encounter various supernatural occurrences and dark secrets rooted in the church's history. With their faith and intellect, the duo unravels each enigma, drawing closer to the truth behind the miracles.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1862/95624l.jpg" alt="Angels of Death">
+                </div>
+                <div class="details">
+                    <a href="angels-of-death"><h3>Angels of Death</h3></a>
+                    <p>Psychological</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After waking up in a mysterious building, a young girl named Rachel finds herself being pursued by a serial killer. She encounters a man named Zack, a dangerous criminal who offers to help her escape on one condition - she must help him get out too. The two unlikely allies must navigate through the deadly floors of the building, each filled with traps and challenges, in order to find a way out of this nightmarish place.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/51107l.webp" alt="Free! - Iwatobi Swim Club">
+                </div>
+                <div class="details">
+                    <a href="free%21---iwatobi-swim-club"><h3>Free! - Iwatobi Swim Club</h3></a>
+                    <p>Sports</p>
+                    <p>2013</p>
+                    <br>
+                    <p>​Free! - Iwatobi Swim Club follows a group of former elementary school friends who reunite in high school to revive their childhood swim team. Haruka Nanase, a talented swimmer with a passion for water, is joined by his friends Makoto, Nagisa, and Rin in their journey to compete in the world of competitive swimming. Through determination and camaraderie, the boys navigate friendship, rivalry, and personal growth as they strive to reach their swimming goals.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1310/117188l.jpg" alt="In/Spectre">
+                </div>
+                <div class="details">
+                    <a href="inspectre"><h3>In/Spectre</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In/Spectre follows the story of Kotoko Iwanaga, a young girl who becomes a mediator between the human and supernatural worlds. After sacrificing an eye and a leg to various entities, Kotoko gains the ability to see and communicate with spirits. With her unique powers, she works alongside the mysterious Kuro Sakuragawa to solve supernatural incidents and unravel the truth behind mysterious occurrences. The duo must navigate through complex cases involving ghosts, monsters, and otherworldly beings to maintain the balance between both realms.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 10%;"></span>
+                            </div>
+                            <p>10% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1456/94897l.jpg" alt="Sirius the Jaeger">
+                </div>
+                <div class="details">
+                    <a href="sirius-the-jaeger"><h3>Sirius the Jaeger</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Sirius the Jaeger, a group of vampire hunters called Jaegers is on a mission to hunt down vampires that have infiltrated Tokyo. Yuliy, a young werewolf and one of the last surviving members of the Sirius werewolf tribe, joins forces with the Jaegers to seek revenge against the vampires responsible for the destruction of his home. As the intense battle between the Jaegers and vampires escalates, dark secrets and ancient prophecies are revealed.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1718/91097l.jpg" alt="Hakata Tonkotsu Ramens">
+                </div>
+                <div class="details">
+                    <a href="hakata-tonkotsu-ramens"><h3>Hakata Tonkotsu Ramens</h3></a>
+                    <p>Mystery</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In the city of Hakata, a peaceful town on the surface hides a darker side filled with underground syndicates and hired killers. A private detective and a professional hitman form an unlikely duo as they navigate through the city's criminal underworld, taking on various jobs to uncover hidden truths and seek revenge. As they delve deeper into the intrigues of the city, more players emerge, each with their own agendas and secrets to protect.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1566/133912l.jpg" alt="Guilty Crown">
+                </div>
+                <div class="details">
+                    <a href="guilty-crown"><h3>Guilty Crown</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In a dystopian future, a young man named Shu Ouma gains the power to extract voids - special abilities from individuals. He becomes involved with a resistance group fighting against a totalitarian government. As he navigates the complexities of power and morality, Shu must decide where his loyalties lie and face the consequences of his choices. As the stakes rise, Shu finds himself at the center of a conflict that will determine the future of society.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

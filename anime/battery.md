@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Battery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "32947";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/6/79158l.jpg" alt="Battery">
+                <div>
+                    <h2 id="title">Battery</h2>
+                    <p>Sports</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Battery follows the story of Harada Takumi, a skilled pitcher who doesn't play well with others, and Nagakura Gou, a talented catcher with a passion for the game. The two boy's lives intertwine when they are placed on the same baseball team. Together, they must navigate the challenges of high school baseball, team dynamics, and personal struggles as they strive for success on the field. Through their journey, they learn important lessons about friendship, trust, and the true meaning of teamwork.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 90%;"></span>
+                            </div>
+                            <p>90% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1769/122296l.jpg" alt="Fanfare of Adolescence">
+                </div>
+                <div class="details">
+                    <a href="fanfare-of-adolescence"><h3>Fanfare of Adolescence</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Fanfare of Adolescence follows a group of high school students who are brought together by their shared passion for music. As they navigate the challenges of adolescence, friendships and rivalries form within the group. With the looming school music festival approaching, the students must work together to overcome their differences and perfect their performance. Through music and friendship, they discover the true meaning of teamwork and personal growth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/86744l.jpg" alt="DIVE!!">
+                </div>
+                <div class="details">
+                    <a href="dive%21%21"><h3>DIVE!!</h3></a>
+                    <p>Sports</p>
+                    <p>2017</p>
+                    <br>
+                    <p>DIVE!! follows the story of Tomoki Sakai, a talented diver who dreams of competing in the Olympics. He joins the Mizuki Diving Club and trains alongside his teammates, each with their own goals and struggles. As they face stiff competition and personal challenges, Tomoki must find the determination to overcome his fears and reach for his dream of becoming a world-class diver. The series explores the bonds formed through sports and the pursuit of excellence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/85022l.jpg" alt="Kenka Bancho Otome -Girl Beats Boys-">
+                </div>
+                <div class="details">
+                    <a href="kenka-bancho-otome--girl-beats-boys-"><h3>Kenka Bancho Otome -Girl Beats Boys-</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After living her life as an ordinary high school girl, Hinako is approached by a group of boys who claim she is actually a wealthy daughter of a powerful conglomerate. She is then tasked with attending Shishiku Academy and infiltrating the all-boys school by pretending to be her twin brother. As Hinako navigates the challenges of being the only girl in a school full of delinquents, she must also uncover the secrets of her own past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1801/90264l.jpg" alt="Dorei-ku The Animation">
+                </div>
+                <div class="details">
+                    <a href="dorei-ku-the-animation"><h3>Dorei-ku The Animation</h3></a>
+                    <p>Psychological</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Dorei-ku The Animation, individuals participate in a dangerous game where they bet their personal freedoms and compete to take control of each other using a device that forces a person to become the victor's slave. As the game progresses, the participants must navigate complex relationships and betrayals as they fight for their own liberation or dominance over others. The series explores the darker sides of human nature and the consequences of power dynamics.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/21525l.webp" alt="Akane Iro ni Somaru Saka">
+                </div>
+                <div class="details">
+                    <a href="akane-iro-ni-somaru-saka"><h3>Akane Iro ni Somaru Saka</h3></a>
+                    <p>Romance</p>
+                    <p>2008</p>
+                    <br>
+                    <p>High school student Yuuhi Katagiri finds herself engaged to the popular but arrogant Aoi Nagase after he saves her from a groper. Forced to live together, Yuuhi uncovers the true Aoi behind his public persona. As their relationship develops amidst misunderstandings and the watchful eyes of their classmates, secrets from the past threaten to unravel their newfound bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1042/101333l.jpg" alt="12-sai.: Chicchana Mune no Tokimeki">
+                </div>
+                <div class="details">
+                    <a href="12-sai.%3A-chicchana-mune-no-tokimeki"><h3>12-sai.: Chicchana Mune no Tokimeki</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>12-year-old Hanabi Yasuraoka navigates the ups and downs of young love and friendship. As she experiences her first crush and the complexities of relationships, Hanabi learns valuable lessons about emotions, honesty, and growing up. Join her on this heartfelt journey through the challenges of adolescence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1910/93404l.webp" alt="Caligula">
+                </div>
+                <div class="details">
+                    <a href="caligula"><h3>Caligula</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Caligula follows Ritsu Shikishima, a high school student who uncovers a virtual world called Mobius where individuals can escape their real-life struggles. However, Ritsu soon realizes the dark truth behind Mobius and its creator, a virtual idol named μ. As Ritsu and a group of others fight to break free from this digital prison, they must confront their inner demons and uncover the mysteries surrounding Mobius.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/84858l.jpg" alt="Hinako Note">
+                </div>
+                <div class="details">
+                    <a href="hinako-note"><h3>Hinako Note</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Hinako Note follows Hinako Sakuragi, a shy girl with a fear of talking to strangers. She moves to the countryside to attend high school and decides to join a theater company to overcome her shyness. With the help of her eccentric new friends, Hinako navigates her fear of people while discovering the joy of performing on stage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1988/115708l.jpg" alt="The Hidden Dungeon Only I Can Enter">
+                </div>
+                <div class="details">
+                    <a href="the-hidden-dungeon-only-i-can-enter"><h3>The Hidden Dungeon Only I Can Enter</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Noir Stonewall has a unique ability to enter a hidden dungeon that holds untold treasures and powerful secrets. Determined to change his lowly status in life, Noir embarks on a journey to conquer the dungeon, accompanied by a beautiful but feisty childhood friend Emma Brightness. With his one-of-a-kind power, Noir faces numerous challenges and adversaries within the dungeon as he strives to unlock its mysteries and fulfill his dreams of a better life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/73120l.webp" alt="Gunslinger Stratos: The Animation">
+                </div>
+                <div class="details">
+                    <a href="gunslinger-stratos%3A-the-animation"><h3>Gunslinger Stratos: The Animation</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a parallel world where two versions of Earth are on the verge of colliding, a group of chosen individuals is tasked with saving both worlds from destruction. These gunslingers must navigate the complexities of their dual existence while facing off against enemies from both sides. As they uncover the truth behind the impending catastrophe, they must make difficult decisions that will determine the fate of their worlds. Gunfights, conflicts, and deep moral dilemmas await in this action-packed anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1925/139564l.jpg" alt="Fluffy Paradise">
+                </div>
+                <div class="details">
+                    <a href="fluffy-paradise"><h3>Fluffy Paradise</h3></a>
+                    <p>Isekai</p>
+                    <p>2024</p>
+                    <br>
+                    <p>Fluffy Paradise follows the adventures of a group of high school students who stumble upon a hidden portal to a magical world filled with adorable creatures. As they navigate this enchanting paradise, they must work together to solve puzzles, overcome challenges, and uncover the secrets of the realm. With each new discovery, they forge deep bonds and learn valuable lessons about friendship, courage, and the importance of protecting the ones they love.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1951/95080l.jpg" alt="Island">
+                </div>
+                <div class="details">
+                    <a href="island"><h3>Island</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>On the mysterious Urashima Island, a young man named Setsuna washes ashore with no memories. As he tries to piece together his past, he meets three girls with uncanny similarities to people he once knew. Together, they navigate the island’s secrets and its ties to Setsuna’s forgotten history. Through unexpected twists and turns, the group unravels the mysteries that shroud the island and their intertwined fates.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1907/110083l.jpg" alt="2.43: Seiin High School Boys Volleyball Team">
+                </div>
+                <div class="details">
+                    <a href="2.43%3A-seiin-high-school-boys-volleyball-team"><h3>2.43: Seiin High School Boys Volleyball Team</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>When transfer student Kimichika Haijima reluctantly joins the Seiin High School boys' volleyball team, he reunites with his childhood friend, Yuni Kuroba. Determined to make it to the nationals, the two lead the inexperienced team as they navigate personal struggles and intense competitions. Through hard work and teamwork, they aim to overcome their differences and rise to the top of the volleyball world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1387/134151l.jpg" alt="Summoned to Another World for a Second Time">
+                </div>
+                <div class="details">
+                    <a href="summoned-to-another-world-for-a-second-time"><h3>Summoned to Another World for a Second Time</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After being summoned to a fantasy world once, protagonist Yuji finds himself back in the same world, but with his memories intact. Determined to use his knowledge to change his fate this time, Yuji sets out on a new adventure filled with magic, battles, and unexpected twists. With a second chance at life in this mysterious realm, Yuji must navigate new challenges and make choices that will shape his destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1063/98597l.jpg" alt="Ultramarine Magmell">
+                </div>
+                <div class="details">
+                    <a href="ultramarine-magmell"><h3>Ultramarine Magmell</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In Ultramarine Magmell, the sudden appearance of a new continent called Magmell leads to a surge in exploration for its unique resources. Follow the adventures of a young rescue specialist named Inyo as he navigates the dangers of this uncharted land, uncovering mysteries and helping those in need. With his special abilities and determination, Inyo faces various challenges and encounters both friends and foes in this thrilling expedition into the unknown territory of Magmell.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/81891l.jpg" alt="Cheating Craft">
+                </div>
+                <div class="details">
+                    <a href="cheating-craft"><h3>Cheating Craft</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world where all aspects of life revolve around high-stakes exams, students enroll in the prestigious Windstorm School to master the art of Cheating Craft. The series follows the intense competition between students as they use every trick in the book, from advanced technology to good old-fashioned strategy, to outsmart their opponents and secure victory. Amidst the tension and thrill of the exams, friendships are tested and rivalries form, all in the pursuit of academic success.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/82320l.jpg" alt="ClassicaLoid">
+                </div>
+                <div class="details">
+                    <a href="classicaloid"><h3>ClassicaLoid</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In ClassicaLoid, a group of eccentric and talented musicians, who have the ability to bring classical music to life through their unique powers, take shelter in the home of a high school girl named Kana. As they struggle to keep their powers in check, they inadvertently cause chaos and hilarity in their attempts to create new music. Together, they must navigate the challenges of everyday life while also learning to harness their powers for good.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/81589l.jpg" alt="Miss Bernard said.">
+                </div>
+                <div class="details">
+                    <a href="miss-bernard-said."><h3>Miss Bernard said.</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Sakurako Kujō is a high school student who loves to boast about her extensive knowledge of literature, despite never actually finishing any books. Alongside her more serious friends, the studious Risa and the book-loving Kanoko, Sakurako finds herself in various humorous situations as she tries to maintain her literary facade. As the group navigates their daily lives and engages in passionate discussions about books, they form a unique bond centered around their shared love of literature.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/88465l.webp" alt="Code:Realize ~Guardian of Rebirth~">
+                </div>
+                <div class="details">
+                    <a href="code%3Arealize-~guardian-of-rebirth~"><h3>Code:Realize ~Guardian of Rebirth~</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a steampunk world, protagonist Cardia Beckford discovers she carries a deadly poison in her skin. An encounter with the charming thief, Arsène Lupin, leads her on a journey to uncover the secrets of her past. Together with famous literary characters such as Victor Frankenstein and Abraham Van Helsing, Cardia seeks the truth behind her condition and unravels a conspiracy that puts the world at risk.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/77977l.jpg" alt="Active Raid">
+                </div>
+                <div class="details">
+                    <a href="active-raid"><h3>Active Raid</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a futuristic Tokyo, a special police unit called the Mobile Assault Division uses advanced technology and armor suits to combat crime and protect the city. Two new recruits join the team: the rule-abiding Asami Kazari and the reckless Haruka Hoshimiya. Together, they face off against various threats while navigating personal and professional challenges within the unit.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1562/100460l.webp" alt="Fairy Gone">
+                </div>
+                <div class="details">
+                    <a href="fairy-gone"><h3>Fairy Gone</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After Fairies possess animals during a mysterious incident, they become weapons used in warfare. The story follows Marlya, a survivor of the incident, as she joins an organization that investigates and deals with crimes involving Fairies. Alongside her newfound comrades, Marlya seeks the truth behind the incident that changed her life. As political tensions rise and dark secrets are revealed, they unravel a conspiracy that may shake the very foundations of their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1706/136176l.jpg" alt="The Gene of AI">
+                </div>
+                <div class="details">
+                    <a href="the-gene-of-ai"><h3>The Gene of AI</h3></a>
+                    <p>Psychological</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where artificial intelligence has become a part of everyday life, a group of scientists discovers a mysterious gene that allows machines to develop human-like emotions and consciousness. As the world grapples with the implications of this discovery, the scientists must navigate ethical dilemmas and societal backlash while also dealing with the personal consequences of playing god. Will they be able to control the power they have unleashed, or will it lead to unforeseen consequences?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/86525l.webp" alt="The Silver Guardian">
+                </div>
+                <div class="details">
+                    <a href="the-silver-guardian"><h3>The Silver Guardian</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>The Silver Guardian follows Suigin, a passionate gamer who finds himself drawn into the virtual world of a mysterious MMORPG after meeting the beautiful Riku Rei. Together, they navigate the dangers of this game that is more than it seems, hoping to uncover its secrets while facing challenges and adversaries along the way. As their journey progresses, Suigin and Riku Rei's bond grows stronger, propelling them towards an ultimate showdown that will determine the fate of both worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/79984l.jpg" alt="B-Project: Kodou*Ambitious">
+                </div>
+                <div class="details">
+                    <a href="b-project%3A-kodou%2Aambitious"><h3>B-Project: Kodou*Ambitious</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Tsubasa Sumisora is assigned to manage the idol group B-Project consisting of three unique units. Despite their differences and occasional clashes, they must work together to achieve success in the competitive idol industry. As Tsubasa and the members navigate challenges and forge bonds, they aim to captivate fans with their music and performances.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1986/90184l.jpg" alt="Beatless">
+                </div>
+                <div class="details">
+                    <a href="beatless"><h3>Beatless</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a world where advanced AI robots called HIE exist, a college student encounters an unusual girl named Lacia, who possesses abilities beyond any known HIE. Together, they become entangled in a dangerous conspiracy involving the future of humanity and the coexistence of humans and artificial beings. As they navigate through intricate political schemes and moral dilemmas, they must uncover the truth behind Lacia's origins and her ultimate purpose in a society on the brink of technological revolution.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1660/98376l.jpg" alt="Joshi Kausei">
+                </div>
+                <div class="details">
+                    <a href="joshi-kausei"><h3>Joshi Kausei</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Joshi Kausei follows the daily lives of three high school girls, Momoko, Shibumi, and Mayumi, as they navigate various humorous and light-hearted situations without any dialogue. Through simple yet expressive gestures and actions, the girls bond over everyday experiences and form a strong friendship. The series focuses on the girls' interactions, showcasing their unique personalities and friendship dynamics in a charming and delightful manner.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1848/140019l.jpg" alt="Our Dating Story: The Experienced You and The Inexperienced Me">
+                </div>
+                <div class="details">
+                    <a href="our-dating-story%3A-the-experienced-you-and-the-inexperienced-me"><h3>Our Dating Story: The Experienced You and The Inexperienced Me</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In Our Dating Story: The Experienced You and The Inexperienced Me, two individuals from different dating backgrounds navigate the ups and downs of a new relationship. As they learn more about each other and themselves, they must confront their insecurities and differences to make their love work. With the help of friends, family, and their own experiences, they strive to build a strong and lasting bond together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/76111l.webp" alt="Comet Lucifer">
+                </div>
+                <div class="details">
+                    <a href="comet-lucifer"><h3>Comet Lucifer</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In Comet Lucifer, a young boy named Sogo discovers a mysterious crystal in a mine, which leads him to meet the enigmatic girl Felia. Together, they embark on an adventure to unravel the secrets behind Felia's origin and the power of the crystal. As they encounter new friends and foes, Sogo must protect Felia from those who seek to exploit her powers for their own gain. The journey tests their friendship and resolves around the destiny connected to the comet Lucifer.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1127/99941l.jpg" alt="Bem">
+                </div>
+                <div class="details">
+                    <a href="bem"><h3>Bem</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Bem follows the story of three yokai—Bem, Bela, and Belo—as they work together to protect humans from other malevolent yokai. Despite their appearances, they strive to live in harmony with humans while battling evil forces that threaten peace in the city. As they navigate the complexities of their existence, they encounter various challenges that test their resolve to protect those in need. Can they overcome their differences and protect the city from dark forces?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/80684l.jpg" alt="Ange Vierge">
+                </div>
+                <div class="details">
+                    <a href="ange-vierge"><h3>Ange Vierge</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world facing destruction by sinister forces known as the Ecliptic, girls from different dimensions are chosen to wield extraordinary powers. As they come together to form alliances and fight against the looming threat, these girls must overcome their differences and work together to protect their worlds from annihilation. With unique abilities and fierce determination, they must unlock the true potential of their powers to save everything they hold dear.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

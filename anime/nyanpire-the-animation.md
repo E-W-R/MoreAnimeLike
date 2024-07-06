@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Nyanpire The Animation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "10197";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/11/46147l.jpg" alt="Nyanpire The Animation">
+                <div>
+                    <h2 id="title">Nyanpire The Animation</h2>
+                    <p>Comedy</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In a world where cats can transform into vampires, a cute little vampire kitten named Nyanpire is rescued by a human girl named Misaki. Together, they navigate the ups and downs of everyday life, all while dealing with supernatural occurrences and meeting other quirky characters. Join Nyanpire and his friends on their adorable and funny adventures as they explore the meaning of friendship, loyalty, and what it truly means to be a vampire cat.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/85429l.webp" alt="Kamisama Kiss">
+                </div>
+                <div class="details">
+                    <a href="kamisama-kiss"><h3>Kamisama Kiss</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Kamisama Kiss follows a high school girl who becomes a local deity after she unexpectedly inherits a shrine. With the help of a fox familiar, she navigates the challenges of her new divine status, dealing with mischievous spirits and forming alliances with other supernatural beings. Along the way, she encounters romance and must learn to balance her human and divine responsibilities.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

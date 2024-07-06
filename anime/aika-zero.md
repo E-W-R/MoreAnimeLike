@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like AIKa Zero</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "6443";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/2/14628l.jpg" alt="AIKa Zero">
+                <div>
+                    <h2 id="title">AIKa Zero</h2>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In AIKa Zero, follow the adventures of Aika Sumeragi, a skilled salvager who embarks on dangerous missions to recover valuable treasures from the depths of the ocean. Alongside her friends and allies, Aika must navigate perilous waters, outsmart rival salvagers, and uncover ancient mysteries that could change the course of history. With action-packed battles and thrilling underwater escapades, Aika Zero promises non-stop excitement and adventure.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/32285l.jpg" alt="C³ - CubexCursedxCurious">
+                </div>
+                <div class="details">
+                    <a href="c%C2%B3---cubexcursedxcurious"><h3>C³ - CubexCursedxCurious</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Haruaki Yachi's ordinary life takes a peculiar turn when he receives a mysterious black cube. Inside resides a naked girl named Fear, cursed with the ability to transform into various weapons. As Haruaki helps lift her curse, they encounter others with their own cursed objects, leading to thrilling battles and unexpected alliances. </p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/47093l.jpg" alt="Akikan!">
+                </div>
+                <div class="details">
+                    <a href="akikan%21"><h3>Akikan!</h3></a>
+                    <p>Romance</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Akikan!, ordinary high school student Kakeru Daichi's life takes an unexpected turn when he unknowingly drinks a can of melon soda that transforms into a girl. With various can girls appearing, Kakeru becomes embroiled in a competition between steel and aluminum cans to determine which is superior. As the rivalry escalates, Kakeru finds himself at the center of the conflict, navigating the challenges and adventures that come with his newfound companions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/75378l.jpg" alt="Dog Days">
+                </div>
+                <div class="details">
+                    <a href="dog-days"><h3>Dog Days</h3></a>
+                    <p>Isekai</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In Dog Days, a young boy is transported to a magical world called Flonyard, where humans coexist with animal people known as Spirits. To save the kingdom of Biscotti from war, the boy is chosen as a hero and must compete in friendly athletic competitions against other nations. With the help of his Spirit companion, he embarks on exciting adventures and forms strong bonds with new friends as he fights to bring peace to Flonyard.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/73520l.jpg" alt="11eyes">
+                </div>
+                <div class="details">
+                    <a href="11eyes"><h3>11eyes</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After witnessing a tragic event, Satsuki Kakeru and his friends find themselves transported to an alternate world called Red Night, where dangerous creatures lurk. They must fight to survive and unravel the mysteries surrounding their newfound abilities and the enigmatic Black Knights. As they search for a way back home, they realize that their destinies are intertwined with the fate of Red Night.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1267/103421l.jpg" alt="Assassins Pride">
+                </div>
+                <div class="details">
+                    <a href="assassins-pride"><h3>Assassins Pride</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where noble families wield magical powers, aspiring assassin, Melida, lacks the ability to manipulate mana. Teaming up with Kufa, a talented assassin, she seeks to prove her worth by mastering her skills and attending the prestigious academy. As secrets unravel and dark forces threaten the kingdom, Melida must navigate through political schemes and deadly challenges to unveil her true potential.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1506/117717l.jpg" alt="I'm Standing on a Million Lives">
+                </div>
+                <div class="details">
+                    <a href="i%27m-standing-on-a-million-lives"><h3>I'm Standing on a Million Lives</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In I'm Standing on a Million Lives, Yotsuya Yusuke finds himself transported to a fantasy world along with his classmates Iu Shindo and Hakozaki Kusue. Tasked with completing various quests to level up and save the world, they must rely on each other's strengths to survive. With Yotsuya's cold demeanor and strategic thinking, Shindo's optimism, and Kusue's knowledge, they navigate the dangerous world full of monsters and challenges. Will they be able to fulfill their missions and find a way back home?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/75583l.jpg" alt="Cat Planet Cuties">
+                </div>
+                <div class="details">
+                    <a href="cat-planet-cuties"><h3>Cat Planet Cuties</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Kio, a high school student, encounters Eris, a cat-like alien with the ability to transform into a human. With the arrival of more extraterrestrial beings, Kio finds himself caught in the middle of an intergalactic conflict. As Kio navigates his newfound relationships with alien visitors, including the affections of Eris and other alien girls, he must also balance his ordinary life on Earth with the secrets and dangers that come with being involved with beings from other planets.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/21525l.webp" alt="Akane Iro ni Somaru Saka">
+                </div>
+                <div class="details">
+                    <a href="akane-iro-ni-somaru-saka"><h3>Akane Iro ni Somaru Saka</h3></a>
+                    <p>Romance</p>
+                    <p>2008</p>
+                    <br>
+                    <p>High school student Yuuhi Katagiri finds herself engaged to the popular but arrogant Aoi Nagase after he saves her from a groper. Forced to live together, Yuuhi uncovers the true Aoi behind his public persona. As their relationship develops amidst misunderstandings and the watchful eyes of their classmates, secrets from the past threaten to unravel their newfound bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/49081l.webp" alt="Nyaruko: Crawling With Love!">
+                </div>
+                <div class="details">
+                    <a href="nyaruko%3A-crawling-with-love%21"><h3>Nyaruko: Crawling With Love!</h3></a>
+                    <p>Comedy</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Mahiro Yasaka's ordinary life is turned upside down when he encounters Nyaruko, a shape-shifting alien from the Lovecraftian universe. Nyaruko's mission is to protect Mahiro from other alien threats, but her over-the-top personality and affectionate advances make his life even more chaotic. As they face off against various bizarre creatures, Mahiro must navigate his feelings for Nyaruko while trying to keep his sanity intact.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/68839l.jpg" alt="Absolute Duo">
+                </div>
+                <div class="details">
+                    <a href="absolute-duo"><h3>Absolute Duo</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where students train to become skilled fighters using weapons generated from their souls, Tor Kokonoe enters Koryo Academy. He forms a Duo with the mysterious and powerful Julie Sigtuna. Together, they navigate friendships, rivalries, and intense battles as they uncover dark secrets surrounding their pasts. Tor and Julie must work together to overcome challenges and become the strongest Duo at the academy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/75562l.jpg" alt="Astarotte's Toy">
+                </div>
+                <div class="details">
+                    <a href="astarotte%27s-toy"><h3>Astarotte's Toy</h3></a>
+                    <p>Isekai</p>
+                    <p>2011</p>
+                    <br>
+                    <p>In Astarotte's Toy, a young succubus princess named Astarotte embarks on a quest to create a harem of human males to replenish her magical powers. In order to do so, she must forge contracts with human boys called “toy-boys” and spend time with them. However, Astarotte's plans are challenged when a young boy named Naoya enters her world, leading to unexpected developments and heartwarming moments.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/20621l.jpg" alt="Samurai Harem">
+                </div>
+                <div class="details">
+                    <a href="samurai-harem"><h3>Samurai Harem</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>After losing his mother, a high school student is sent to live at a martial arts dojo run by his grandfather. Surrounded by a group of skilled and beautiful female fighters, he must navigate the challenges of mastering the way of the sword while dealing with the affections of his new classmates. As he hones his skills and forms unexpected bonds, he discovers a deeper connection to his family's samurai legacy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1106/111620l.jpg" alt="Azur Lane the Animation">
+                </div>
+                <div class="details">
+                    <a href="azur-lane-the-animation"><h3>Azur Lane the Animation</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where humans fight against mysterious creatures known as the Sirens, powerful warships infused with the spirits of historical naval vessels, called Ship Girls, arise to defend humanity. The story follows a young man named Ayanami who stumbles upon a secret alliance between the extraordinary ship girls from different nations, uniting to fight against the common enemy threatening their world. As they navigate treacherous waters and face formidable foes, the Ship Girls must learn to trust each other and uncover the truth behind the Siren's origins.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1902/128382l.jpg" alt="Rent-a-Girlfriend">
+                </div>
+                <div class="details">
+                    <a href="rent-a-girlfriend"><h3>Rent-a-Girlfriend</h3></a>
+                    <p>Romance</p>
+                    <p>2020</p>
+                    <br>
+                    <p>After a particularly tough breakup, Kazuya Kinoshita decides to rent a girlfriend through a mobile app to make his ex-girlfriend jealous. Chizuru Mizuhara, the girl he rents, appears beautiful, caring, and perfect in every way - until Kazuya discovers she's just acting. Despite their fake relationship, unexpected feelings begin to develop, leading to a series of comedic and sometimes awkward situations as Kazuya navigates his emotions and relationships with the various girls in his life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/68195l.jpg" alt="Freezing Vibration">
+                </div>
+                <div class="details">
+                    <a href="freezing-vibration"><h3>Freezing Vibration</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Freezing Vibration, a group of genetically modified female warriors known as Pandoras must fight against mysterious beings called Nova to protect humanity. The series follows the adventures of Kazuya Aoi, who partners with a powerful Pandora named Satellizer el Bridget. As they face increasingly dangerous foes and internal conflicts within their organization, they must overcome their differences and work together to ensure the survival of mankind.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/83185l.jpg" alt="Akiba's Trip The Animation">
+                </div>
+                <div class="details">
+                    <a href="akiba%27s-trip-the-animation"><h3>Akiba's Trip The Animation</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In Akiba's Trip The Animation, a teenager named Tamotsu Denkigai gets involved in a bizarre situation where he must fight vampire-like creatures by exposing them to sunlight. Together with his friends, they uncover the truth behind these creatures and protect Akihabara from the threat they pose. The series follows their adventures as they battle against these supernatural beings while exploring the popular district known for its anime, manga, and gaming culture.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

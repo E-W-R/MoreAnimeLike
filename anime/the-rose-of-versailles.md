@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like The Rose of Versailles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "338";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/9/57043l.webp" alt="The Rose of Versailles">
+                <div>
+                    <h2 id="title">The Rose of Versailles</h2>
+                    <p>Romance</p>
+                    <p>1979</p>
+                    <br>
+                    <p>The Rose of Versailles follows Oscar Francois de Jarjayes, a young noblewoman raised as a man to serve in the palace guard of Versailles. Amidst the lavish backdrop of pre-revolutionary France, Oscar navigates the complexities of court life while grappling with her sense of duty and identity. As tensions rise between the nobility and the common people, Oscar finds herself torn between loyalty to the crown and the desire for justice and equality.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 86%;"></span>
+                            </div>
+                            <p>86% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/64671l.jpg" alt="Tomorrow's Joe">
+                </div>
+                <div class="details">
+                    <a href="tomorrow%27s-joe"><h3>Tomorrow's Joe</h3></a>
+                    <p>Sports</p>
+                    <p>1970</p>
+                    <br>
+                    <p>Tomorrow's Joe follows Joe Yabuki, a rebellious delinquent who finds purpose in life through boxing. His talent and determination lead him to a journey of self-discovery and redemption as he navigates the brutal world of professional boxing. With fierce rivals and personal demons to overcome, Joe must confront his past to secure a promising future in the ring.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1354/124768l.jpg" alt="Showa Genroku Rakugo Shinju">
+                </div>
+                <div class="details">
+                    <a href="showa-genroku-rakugo-shinju"><h3>Showa Genroku Rakugo Shinju</h3></a>
+                    <p>Drama</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Showa Genroku Rakugo Shinju follows the story of a former yakuza member, Yotarou, who becomes a disciple of a famous rakugo master after his release from prison. The series delves into the art of rakugo storytelling, as well as the complexities of the relationships between the characters. As Yotarou navigates the world of traditional Japanese performance art, he must confront his past and strive for success in the rakugo world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/11232l.webp" alt="Nana">
+                </div>
+                <div class="details">
+                    <a href="nana"><h3>Nana</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Two young women, both named Nana, meet by chance on a train to Tokyo and quickly become friends despite their contrasting personalities. One dreams of becoming a successful rock singer, while the other hopes to reunite with her boyfriend. As they navigate the ups and downs of relationships, career aspirations, and heartbreak in the bustling city, the two Nanas form a deep bond that helps them support each other through life's challenges.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1254/134212l.webp" alt="Perfect Blue">
+                </div>
+                <div class="details">
+                    <a href="perfect-blue"><h3>Perfect Blue</h3></a>
+                    <p>Psychological</p>
+                    <p>1998</p>
+                    <br>
+                    <p>Perfect Blue follows Mima Kirigoe, a former pop idol who decides to pursue an acting career. As she transitions into her new role, she finds herself entangled in a web of obsession, blurred lines between reality and fantasy, and increasingly disturbing events. Mima begins to experience a series of terrifying incidents that lead her to question her own sanity and the reality around her. The mystery deepens as she struggles to uncover the truth behind these sinister occurrences.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1021/138568l.webp" alt="Pluto">
+                </div>
+                <div class="details">
+                    <a href="pluto"><h3>Pluto</h3></a>
+                    <p>Mystery</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where advanced robots coexist with humans, a series of mysterious murders of great robot leaders leaves both parties puzzled. Gesicht, a robot detective, investigates alongside his human partner to uncover the truth behind the killings and the potential danger to society. As they delve deeper, they discover dark secrets that may shake the very core of their existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1145/93646l.webp" alt="Princess Tutu">
+                </div>
+                <div class="details">
+                    <a href="princess-tutu"><h3>Princess Tutu</h3></a>
+                    <p>Drama</p>
+                    <p>2002</p>
+                    <br>
+                    <p>In Princess Tutu, a young duck transforms into a graceful girl with magical powers. She must gather scattered pieces of a prince's heart to restore balance in a fairy-tale world. As she navigates the challenges ahead, she discovers the complexities of love, destiny, and the true nature of happiness. This enchanting anime blends elements of ballet, fantasy, and mystery to deliver a captivating and heartfelt story of self-discovery and courage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1384/119988l.jpg" alt="Berserk">
+                </div>
+                <div class="details">
+                    <a href="berserk"><h3>Berserk</h3></a>
+                    <p>Action</p>
+                    <p>1997</p>
+                    <br>
+                    <p>Berserk follows the story of Guts, a lone mercenary seeking revenge against his former friend turned enemy, Griffith. Set in a dark medieval world, Guts is caught in a struggle between humanity and demonic forces. As he battles his way through adversity, he forms unlikely friendships and confronts his traumatic past. With intense action sequences and themes of betrayal, revenge, and sacrifice, Berserk explores the darkness of the human soul.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1935/93606l.jpg" alt="The Tale of the Princess Kaguya">
+                </div>
+                <div class="details">
+                    <a href="the-tale-of-the-princess-kaguya"><h3>The Tale of the Princess Kaguya</h3></a>
+                    <p>Other Genre</p>
+                    <p>2013</p>
+                    <br>
+                    <p>The Tale of the Princess Kaguya follows the life of a mysterious girl named Kaguya, who is discovered as a baby inside a bamboo shoot and raised by a bamboo cutter and his wife. As she grows up, Kaguya's extraordinary beauty captivates all who meet her, leading to various suitors trying to win her hand in marriage. However, Kaguya holds a secret that may change everything. The film explores themes of love, sacrifice, and the fleeting nature of life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1910/138560l.jpg" alt="Gankutsuou: The Count of Monte Cristo">
+                </div>
+                <div class="details">
+                    <a href="gankutsuou%3A-the-count-of-monte-cristo"><h3>Gankutsuou: The Count of Monte Cristo</h3></a>
+                    <p>Mystery</p>
+                    <p>2004</p>
+                    <br>
+                    <p>In a futuristic society, a young nobleman becomes entangled with the enigmatic Count of Monte Cristo, who harbors a deep vendetta against the elites who wronged him years ago. As the Count's intricate revenge scheme unfolds, the nobleman is drawn into a web of deception, betrayal, and dark secrets that threatens to consume them both. With stunning visuals and a gripping storyline, Gankutsuou presents a mesmerizing tale of redemption and vengeance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/88293l.jpg" alt="Land of the Lustrous">
+                </div>
+                <div class="details">
+                    <a href="land-of-the-lustrous"><h3>Land of the Lustrous</h3></a>
+                    <p>Mystery</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a world where gemstone creatures fight against mysterious beings called Lunarians, Phos, a fragile gem with no purpose, is tasked with creating a natural history encyclopedia. As Phos embarks on this journey, they discover hidden truths about their kind and the world they live in. With newfound abilities and knowledge, Phos sets out to protect their fellow gems and uncover the secrets of their existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1480/132791l.webp" alt="Tokyo Godfathers">
+                </div>
+                <div class="details">
+                    <a href="tokyo-godfathers"><h3>Tokyo Godfathers</h3></a>
+                    <p>Drama</p>
+                    <p>2003</p>
+                    <br>
+                    <p>Tokyo Godfathers follows a trio of homeless individuals - a former drag queen, a runaway teenager, and a middle-aged alcoholic - who discover an abandoned baby on Christmas Eve. Determined to reunite the child with its family, the unlikely group embarks on a heartwarming and sometimes humorous journey through the streets of Tokyo. Along the way, they confront their own pasts and form a unique bond as they navigate through various challenges and obstacles.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1500/103005l.jpg" alt="Vinland Saga">
+                </div>
+                <div class="details">
+                    <a href="vinland-saga"><h3>Vinland Saga</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Vinland Saga follows the young Thorfinn, who seeks revenge against the man who killed his father. Set in the brutal world of Vikings, Thorfinn finds himself caught in the midst of a complex web of political intrigue, power struggles, and battles for survival. As he matures and hones his skills as a warrior, Thorfinn's quest for vengeance becomes intertwined with his search for a greater purpose in a world rife with violence and ambition.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/18793l.webp" alt="Monster">
+                </div>
+                <div class="details">
+                    <a href="monster"><h3>Monster</h3></a>
+                    <p>Mystery</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Monster follows Dr. Kenzo Tenma, a renowned brain surgeon faced with a moral dilemma when he has to choose between saving the mayor or a young boy. When mysterious murders start happening, Tenma's decision comes back to haunt him as he uncovers a conspiracy. On a quest for redemption, Tenma sets out to stop the killer, a man he once saved. The series delves into the darkest corners of the human psyche and the consequences of one's choices.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/50337l.webp" alt="Moribito - Guardian of the Spirit">
+                </div>
+                <div class="details">
+                    <a href="moribito---guardian-of-the-spirit"><h3>Moribito - Guardian of the Spirit</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>In a medieval-inspired world, skilled warrior Balsa is tasked with protecting Prince Chagum, who is believed to be possessed by a water demon. As they embark on a journey to unravel the mystery behind the prince's condition, they encounter danger and political intrigue. Balsa must use her fighting prowess and wits to ensure the prince's safety while delving into the secrets of the spirit world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1648/93626l.webp" alt="Millennium Actress">
+                </div>
+                <div class="details">
+                    <a href="millennium-actress"><h3>Millennium Actress</h3></a>
+                    <p>Action</p>
+                    <p>2002</p>
+                    <br>
+                    <p>Millennium Actress follows the journey of Chiyoko Fujiwara, a once-famous actress who mysteriously vanished from the public eye. A documentary filmmaker seeks to unravel the secrets of her past, prompting Chiyoko to recount her life story. As she reflects on her past roles and the man she longed for, the boundaries between reality and illusion blur, leading to a captivating exploration of love, devotion, and the power of storytelling.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1981/113348l.jpg" alt="Odd Taxi">
+                </div>
+                <div class="details">
+                    <a href="odd-taxi"><h3>Odd Taxi</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Odd Taxi follows the life of a mysterious taxi driver named Odokawa, who gets unintentionally entangled in a series of interconnected events involving his diverse range of eccentric passengers. As he navigates through the bustling city, Odokawa finds himself drawn into a web of crime, secrets, and conspiracies. With his sharp wit and unexpected connections, he must unravel the truth behind the enigmatic characters he encounters while trying to protect his own hidden past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1271/90136l.webp" alt="After the Rain">
+                </div>
+                <div class="details">
+                    <a href="after-the-rain"><h3>After the Rain</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After the Rain follows the story of a high school girl named Akira, who develops feelings for her middle-aged manager, Kondo, after her dreams of being a track star are shattered due to an injury. Despite the significant age gap, Akira finds solace in their shared experiences and a deep emotional connection develops between them. As they navigate their feelings, they both must confront societal expectations and personal desires.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/52675l.jpg" alt="Welcome to the N.H.K.">
+                </div>
+                <div class="details">
+                    <a href="welcome-to-the-n.h.k."><h3>Welcome to the N.H.K.</h3></a>
+                    <p>Psychological</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Welcome to the N.H.K. follows the reclusive hikikomori, Tatsuhiro Sato, who believes in a conspiracy theory claiming the N.H.K. organization is behind all of society's problems. His life takes a turn when a mysterious girl named Misaki offers to help him overcome his social withdrawal. As they navigate through their personal struggles, they form a unique bond that challenges their perceptions of life and relationships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1078/95285l.jpg" alt="Revolutionary Girl Utena">
+                </div>
+                <div class="details">
+                    <a href="revolutionary-girl-utena"><h3>Revolutionary Girl Utena</h3></a>
+                    <p>Mystery</p>
+                    <p>1997</p>
+                    <br>
+                    <p>Revolutionary Girl Utena follows Utena Tenjou, a tomboyish teenage girl who is drawn into a mysterious dueling tournament at Ohtori Academy. In her quest to protect her friend's honor, Utena finds herself challenging the student council members, who wield power and secrets beyond her imagination. As she navigates through the duels and uncovers the true purpose of the tournament, Utena begins to question her own identity and beliefs, ultimately leading to a revolutionary transformation.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/86890l.webp" alt="Slam Dunk">
+                </div>
+                <div class="details">
+                    <a href="slam-dunk"><h3>Slam Dunk</h3></a>
+                    <p>Sports</p>
+                    <p>1993</p>
+                    <br>
+                    <p>Slam Dunk follows Hanamichi Sakuragi, a hot-headed high school delinquent who joins the basketball team to impress a girl. Despite having no experience in the sport, his natural athleticism and determination catch the attention of his teammates. As Sakuragi learns the ins and outs of basketball, he forms strong bonds with his fellow players and discovers a newfound passion for the game. The series chronicles his journey as he strives to become the best player and lead his team to victory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1112/119225l.jpg" alt="Katanagatari">
+                </div>
+                <div class="details">
+                    <a href="katanagatari"><h3>Katanagatari</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Katanagatari follows the journey of swordsman Yasuri Shichika and strategist Togame as they embark on a quest to retrieve twelve legendary swords. With each sword possessing unique abilities, they must navigate through various challenges and adversaries to fulfill their mission. As they encounter formidable swordsmen and unexpected allies, the duo's bond strengthens, leading to unpredictable alliances and betrayals. Can they overcome the obstacles and claim all twelve swords before it's too late?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1633/123689l.webp" alt="The Tatami Galaxy">
+                </div>
+                <div class="details">
+                    <a href="the-tatami-galaxy"><h3>The Tatami Galaxy</h3></a>
+                    <p>Mystery</p>
+                    <p>2010</p>
+                    <br>
+                    <p>The Tatami Galaxy follows a university student who joins a new club in search of a rose-colored campus life, but finds himself in a time loop, reliving his college years over and over. Each time, he tries to pursue a different path in hopes of finding true love and fulfillment. Through his various encounters and experiences, he learns valuable lessons about life, friendship, and the importance of living in the moment.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1209/142900l.webp" alt="Planetes">
+                </div>
+                <div class="details">
+                    <a href="planetes"><h3>Planetes</h3></a>
+                    <p>Romance</p>
+                    <p>2003</p>
+                    <br>
+                    <p>In the vast reaches of space, a team of debris collectors known as the Half Section work tirelessly to clean Earth's orbit. Hachirota Hoshino dreams of owning his own spaceship, while his teammate Ai Tanabe believes in the importance of their mission. Together, they navigate the challenges of space exploration, personal relationships, and the harsh realities of their dangerous job. As they encounter space pirates and political intrigue, they must confront their inner demons and strive to make a difference in the universe.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/35749l.webp" alt="Chihayafuru">
+                </div>
+                <div class="details">
+                    <a href="chihayafuru"><h3>Chihayafuru</h3></a>
+                    <p>Sports</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Chihayafuru follows Chihaya Ayase, a high school girl with a passion for competitive karuta, a traditional Japanese card game. Alongside her childhood friends Taichi and Arata, Chihaya navigates the world of competitive karuta tournaments, determined to become the queen of karuta. As they face various challenges and opponents, the trio learns valuable lessons about friendship, determination, and the true meaning of victory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1764/138714l.webp" alt="Whisper of the Heart">
+                </div>
+                <div class="details">
+                    <a href="whisper-of-the-heart"><h3>Whisper of the Heart</h3></a>
+                    <p>Romance</p>
+                    <p>1995</p>
+                    <br>
+                    <p>Whisper of the Heart follows the story of a young girl named Shizuku Tsukishima who discovers a mysterious antique cat statue in a shop. Inspired by the statue's backstory, she sets out on a journey of self-discovery and creativity. Through her passion for writing and determination to follow her dreams, Shizuku navigates the challenges of adolescence and learns valuable lessons about love, friendship, and the pursuit of one's aspirations.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1518/138730l.jpg" alt="Skip and Loafer">
+                </div>
+                <div class="details">
+                    <a href="skip-and-loafer"><h3>Skip and Loafer</h3></a>
+                    <p>Drama</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Skip and Loafer follows the story of Mitsumi Iwakura, a small-town girl with big dreams of attending a prestigious high school in Tokyo. As she navigates the challenges of city life and high school, she meets Sousuke Shima, a laid-back and popular classmate. Despite their contrasting personalities, the two form an unlikely friendship, supporting each other through the ups and downs of teenage life. The series explores themes of ambition, friendship, and self-discovery, blending humor and heartfelt moments.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1314/142015l.webp" alt="Psycho-Pass">
+                </div>
+                <div class="details">
+                    <a href="psycho-pass"><h3>Psycho-Pass</h3></a>
+                    <p>Mystery</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In a dystopian future, an advanced system measures people's mental states, predicting their likelihood of committing crimes. Akane Tsunemori, a young inspector, must navigate the dark truths of society while working alongside enforcers - latent criminals used to apprehend others. As she delves deeper into the mysteries of the system and faces dangerous adversaries, Akane must confront her own beliefs about justice and morality.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/80032l.jpg" alt="Kaiji: Ultimate Survivor">
+                </div>
+                <div class="details">
+                    <a href="kaiji%3A-ultimate-survivor"><h3>Kaiji: Ultimate Survivor</h3></a>
+                    <p>Psychological</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Kaiji Itou is a down-on-his-luck gambler drowning in debt. Offered a chance to erase his financial woes by participating in a high-stakes gambling cruise, Kaiji jumps at the opportunity. However, he soon discovers that the games are rigged, and the stakes are higher than he could have ever imagined. Will Kaiji be able to outsmart his opponents and claw his way out of this dangerous situation?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1764/133575l.jpg" alt="Princess Jellyfish">
+                </div>
+                <div class="details">
+                    <a href="princess-jellyfish"><h3>Princess Jellyfish</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Princess Jellyfish follows Tsukimi, an awkward and socially anxious young woman obsessed with jellyfish. Her life takes an unexpected turn when she befriends a fashionable and confident cross-dresser named Kuranosuke, who helps her confront her fears and embrace her true self. Together with a group of eccentric and lovable roommates, they navigate the worlds of fashion, friendship, and self-discovery in this heartwarming and comedic tale.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1976/142016l.jpg" alt="Legend of the Galactic Heroes">
+                </div>
+                <div class="details">
+                    <a href="legend-of-the-galactic-heroes"><h3>Legend of the Galactic Heroes</h3></a>
+                    <p>Drama</p>
+                    <p>1988</p>
+                    <br>
+                    <p>In the distant future, two brilliant military strategists, Reinhard von Lohengramm and Yang Wen-li, find themselves on opposing sides of a massive galactic war. As they navigate through political intrigue, betrayal, and epic space battles, they strive to create a better future for the galaxy. With contrasting ideologies and moral dilemmas, they become legendary figures whose actions shape the course of history.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

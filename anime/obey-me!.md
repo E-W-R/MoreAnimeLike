@@ -1,0 +1,540 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Obey Me!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "48641";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1416/113986l.jpg" alt="Obey Me!">
+                <div>
+                    <h2 id="title">Obey Me!</h2>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Obey Me! follows the story of a human exchange student who is thrust into the world of demons and angels at a prestigious academy. The student forms pacts with demon brothers to navigate the challenges of the academy and uncover dark secrets. As they unravel mysteries and navigate supernatural encounters, friendships and rivalries are tested in this spellbinding tale of loyalty and betrayal.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1753/116290l.webp" alt="The Dungeon of Black Company">
+                </div>
+                <div class="details">
+                    <a href="the-dungeon-of-black-company"><h3>The Dungeon of Black Company</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Kanji, a corporate slave, gets transported to a fantasy world where he must work in a harsh mining company to survive. Using his wits, Kanji navigates through dangerous dungeons filled with monsters and traps to fulfill his dream of becoming rich and living a luxurious life. As he forms unlikely alliances and encounters formidable foes, Kanji must outsmart his way to the top of the company and find a way back home.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1485/119329l.jpg" alt="Love of Kill">
+                </div>
+                <div class="details">
+                    <a href="love-of-kill"><h3>Love of Kill</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Two highly-skilled assassins with contrasting ideologies cross paths and form an uneasy alliance as they realize their targets have a puzzling connection. While one takes pleasure in the act of killing, the other seeks justice. As they navigate a web of complex relationships and dangerous missions, conflicts arise, challenging their beliefs and loyalty to each other. Will their partnership survive the chaos of their world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1256/128714l.webp" alt="Bibliophile Princess">
+                </div>
+                <div class="details">
+                    <a href="bibliophile-princess"><h3>Bibliophile Princess</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where books are rare and knowledge is power, Princess Elara defies her royal duties to pursue her love for literature. When a mysterious figure threatens the kingdom's library, Elara must use her intelligence and cunning to protect the stories she holds dear. With the help of her loyal companions, she embarks on a quest to unravel the secrets hidden within the ancient texts, facing danger and intrigue at every turn.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1310/117188l.jpg" alt="In/Spectre">
+                </div>
+                <div class="details">
+                    <a href="inspectre"><h3>In/Spectre</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In/Spectre follows the story of Kotoko Iwanaga, a young girl who becomes a mediator between the human and supernatural worlds. After sacrificing an eye and a leg to various entities, Kotoko gains the ability to see and communicate with spirits. With her unique powers, she works alongside the mysterious Kuro Sakuragawa to solve supernatural incidents and unravel the truth behind mysterious occurrences. The duo must navigate through complex cases involving ghosts, monsters, and otherworldly beings to maintain the balance between both realms.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1432/103533l.jpg" alt="Science Fell in Love, So I Tried to Prove It">
+                </div>
+                <div class="details">
+                    <a href="science-fell-in-love%2C-so-i-tried-to-prove-it"><h3>Science Fell in Love, So I Tried to Prove It</h3></a>
+                    <p>Romance</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Two eccentric scientists, Ayame and Yukimura, are convinced that love can be explained by science. Determined to prove their theory, they conduct various experiments to analyze the mechanics of romantic feelings. As they delve deeper into their research and spend more time together, the line between professional curiosity and personal affection begins to blur. Will they be able to unravel the mysteries of love using logic and reason, or will their own emotions disrupt their experiments?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1838/114857l.jpg" alt="RE-MAIN">
+                </div>
+                <div class="details">
+                    <a href="re-main"><h3>RE-MAIN</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After a traumatic incident causes him to lose his memory, a talented water polo player must rediscover his passion for the sport. With the help of his new teammates on the school's water polo team, he sets out to make a comeback and confront his past. As he struggles to piece together his memories, he faces challenges both in and out of the pool, pushing himself to become the player he once was.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/80953l.jpg" alt="SERVAMP">
+                </div>
+                <div class="details">
+                    <a href="servamp"><h3>SERVAMP</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>When high schooler Mahiru Shirota discovers a stray black cat, he unknowingly becomes a servant to Sleepy Ash, a vampire with a lazy attitude. As they navigate the dangerous world of vampires, they uncover a sinister plot that threatens all of humanity. With the help of other vampire servamps, they must fight to protect their loved ones and defeat the evil forces at play.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/7327l.jpg" alt="Vampire Knight">
+                </div>
+                <div class="details">
+                    <a href="vampire-knight"><h3>Vampire Knight</h3></a>
+                    <p>Mystery</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Vampire Knight follows Yuki Cross, a student at Cross Academy, where vampires and humans coexist. Yuki, alongside her childhood friend Zero Kiryu, works to maintain peace between the two groups while unraveling the secrets of her own past. As she navigates her feelings for the mysterious vampire brothers, Kaname and Zero, Yuki is drawn into a complex web of love, betrayal, and dark supernatural forces. Will Yuki uncover the truth about her origins before it's too late?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1693/115133l.jpg" alt="Pretty Boy Detective Club">
+                </div>
+                <div class="details">
+                    <a href="pretty-boy-detective-club"><h3>Pretty Boy Detective Club</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Pretty Boy Detective Club, a group of beautiful and talented young men come together to solve mysteries at their prestigious school. Led by the enigmatic and charismatic president, the club takes on various cases that range from the mundane to the supernatural. Along the way, they form strong bonds and uncover the truth behind each mystery, all while showcasing their unique skills and charm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/67085l.jpg" alt="Merman in my Tub">
+                </div>
+                <div class="details">
+                    <a href="merman-in-my-tub"><h3>Merman in my Tub</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>When Tatsumi stumbles upon a merman named Wakasa in his bathtub, his ordinary life takes a whimsical turn. Wakasa decides to make Tatsumi's bathtub his new home, much to Tatsumi's chagrin. As Wakasa and other eccentric supernatural beings start living with Tatsumi, hilarious antics and daily life adventures ensue. Will Tatsumi be able to handle his newfound bizarre roommates, or will chaos reign in his once peaceful home?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1803/131345l.jpg" alt="High Card">
+                </div>
+                <div class="details">
+                    <a href="high-card"><h3>High Card</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where dueling with enchanted playing cards determines your fate, a young prodigy rises in the ranks to challenge the reigning champion. With a mysterious past and unparalleled skills, he navigates through political schemes and fierce battles to uncover the truth behind his abilities. As tensions escalate and loyalties are tested, the power dynamics of the card dueling society are thrown into chaos, leading to an ultimate showdown that will determine the future of the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1648/126110l.jpg" alt="I'm the Villainess, So I'm Taming the Final Boss">
+                </div>
+                <div class="details">
+                    <a href="i%27m-the-villainess%2C-so-i%27m-taming-the-final-boss"><h3>I'm the Villainess, So I'm Taming the Final Boss</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After reincarnating as the villainess in her favorite otome game, Aria is determined to avoid her doom by taming the final boss, Lancelot. As Aria tries to manipulate the game's events, she finds herself falling for Lancelot. With the fate of the world at stake, Aria must navigate her feelings while altering the game's course. Will she succeed in changing her destiny and finding love in this romantic comedy?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1892/117151l.jpg" alt="The Vampire Dies in No Time">
+                </div>
+                <div class="details">
+                    <a href="the-vampire-dies-in-no-time"><h3>The Vampire Dies in No Time</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Vlad, a vampire who is notorious for being invincible, encounters Ronaldo, a vampire hunter eager to defeat him. However, to everyone's surprise, Vlad is allergic to human blood and weak against sunlight, leading to comical situations as Ronaldo tries to defeat him with unexpected methods. As they face various supernatural beings, a peculiar friendship forms between the two, making their encounters more unpredictable and entertaining.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1827/113510l.jpg" alt="Backflip!!">
+                </div>
+                <div class="details">
+                    <a href="backflip%21%21"><h3>Backflip!!</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Backflip!! follows a group of high school boys who join their school's struggling gymnastics team in hopes of reviving it to its former glory. Each of the boys brings their unique skills and personalities to the team, working together to overcome challenges, form strong bonds, and improve both individually and as a team. As they strive to compete on a national level, they also navigate personal growth, friendship dynamics, and the competitive world of gymnastics.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1995/121695l.jpg" alt="Shikimori's Not Just a Cutie">
+                </div>
+                <div class="details">
+                    <a href="shikimori%27s-not-just-a-cutie"><h3>Shikimori's Not Just a Cutie</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Shikimori seems like the perfect high school girl - beautiful, smart, and kind. However, what her classmates don't know is that she has a boyfriend, Izumi, who is completely different from her. While Izumi may not be as popular or academically inclined, he treasures Shikimori deeply and is always there to support her. Follow their heartwarming and comedic journey as they navigate the ups and downs of high school romance together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/81953l.webp" alt="Kiss Him, Not Me!">
+                </div>
+                <div class="details">
+                    <a href="kiss-him%2C-not-me%21"><h3>Kiss Him, Not Me!</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the sudden death of her beloved anime character, Kae Serinuma locks herself in her room for a week and emerges as a slim and attractive girl. Surrounded by a group of handsome boys who all fall for her, she finds herself in the middle of a romantic whirlwind. Despite the attention, Kae's heart still belongs to her fictional crush. As she navigates the affections of her suitors, hilarious and heartwarming antics ensue.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1140/120215l.jpg" alt="Salaryman's Club">
+                </div>
+                <div class="details">
+                    <a href="salaryman%27s-club"><h3>Salaryman's Club</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Salaryman's Club follows a group of office workers who form an after-hours club to destress and bond over their hectic work lives. As they navigate the challenges of the corporate world, they find solace in the support and camaraderie of their fellow club members. Together, they learn valuable lessons about friendship, teamwork, and the importance of work-life balance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1430/120065l.jpg" alt="Life with an Ordinary Guy who Reincarnated into a Total Fantasy Knockout">
+                </div>
+                <div class="details">
+                    <a href="life-with-an-ordinary-guy-who-reincarnated-into-a-total-fantasy-knockout"><h3>Life with an Ordinary Guy who Reincarnated into a Total Fantasy Knockout</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After dying in a random accident, an ordinary salaryman is reincarnated in a fantasy world as a beautiful girl with incredible magical abilities. Adjusting to his new life, he navigates the challenges of school and relationships, all while keeping his true identity hidden. As he learns more about his powers and the world around him, he must also confront the mystery of his reincarnation and the potential dangers that come with it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1535/117726l.jpg" alt="The Way of the Househusband">
+                </div>
+                <div class="details">
+                    <a href="the-way-of-the-househusband"><h3>The Way of the Househusband</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>The Way of the Househusband follows the daily life of Tatsu, a former feared yakuza boss who has now retired to become a househusband. Despite his intimidating appearance, Tatsu navigates domestic chores and grocery shopping with the same level of intensity and seriousness he had in his yakuza days. As he strives to be the perfect househusband for his career-driven wife, hilarious situations ensue as Tatsu's old yakuza habits often clash with his new lifestyle.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/83934l.webp" alt="Little Witch Academia">
+                </div>
+                <div class="details">
+                    <a href="little-witch-academia"><h3>Little Witch Academia</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>At Luna Nova Magical Academy, young witch-in-training Akko Kagari dreams of becoming a great witch like her idol, Shiny Chariot. Despite her lack of magical talent, Akko's determination leads her to discover the magic of hard work, friendship, and believing in oneself. Alongside her classmates Lotte and Sucy, Akko embarks on whimsical adventures and faces challenges that test her resolve and conviction. Through dedication and perseverance, Akko learns the true meaning of magic.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1927/132758l.jpg" alt="The Ice Guy and His Cool Female Colleague">
+                </div>
+                <div class="details">
+                    <a href="the-ice-guy-and-his-cool-female-colleague"><h3>The Ice Guy and His Cool Female Colleague</h3></a>
+                    <p>Romance</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where superpowers are common, a reserved man with the ability to manipulate ice joins forces with a carefree woman who can control water. As they work together as colleagues at a top secret agency, they find themselves facing dangerous missions and powerful enemies. Despite their contrasting personalities, they must learn to trust each other's abilities and form a strong partnership to protect their city from impending threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1123/134677l.jpg" alt="Play It Cool, Guys">
+                </div>
+                <div class="details">
+                    <a href="play-it-cool%2C-guys"><h3>Play It Cool, Guys</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Play It Cool, Guys, a group of high school friends navigates the ups and downs of teenage life while juggling their various personalities and interests. From school projects and crushes to friendships and rivalries, the group must find a way to balance it all and stay true to themselves as they grow and learn more about each other. Bonding over their shared experiences, they bring out the best in each other and form unbreakable connections that shape their futures.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

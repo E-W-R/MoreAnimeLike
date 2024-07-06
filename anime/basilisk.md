@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Basilisk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "67";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1103/133549l.jpg" alt="Basilisk">
+                <div>
+                    <h2 id="title">Basilisk</h2>
+                    <p>Action</p>
+                    <p>2005</p>
+                    <br>
+                    <p>In the midst of a deadly rivalry between two ninja clans, a young couple from each side finds themselves torn between love and duty. As they navigate treacherous battles and political intrigue, their loyalty is put to the ultimate test. With supernatural powers and ancient conflicts at play, they must decide if their bond is strong enough to survive the chaos surrounding them.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 99%;"></span>
+                            </div>
+                            <p>99% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1529/93093l.jpg" alt="Flavors of Youth">
+                </div>
+                <div class="details">
+                    <a href="flavors-of-youth"><h3>Flavors of Youth</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Flavors of Youth follows three different protagonists in China and explores their personal stories of love, loss, and self-discovery. Through the lens of nostalgic memories associated with local cuisine, the characters navigate the complexities of life and relationships. As they reminisce about the past and strive to move forward, they learn valuable lessons about acceptance, growth, and the interconnectedness of their experiences.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 76%;"></span>
+                            </div>
+                            <p>76% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1456/131788l.jpg" alt="Lookism">
+                </div>
+                <div class="details">
+                    <a href="lookism"><h3>Lookism</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Lookism follows the story of Park Hyung Seok, a high school student who is bullied for his looks. After a series of events, he mysteriously gains the ability to switch between his handsome daytime self and his unattractive nighttime self. As he navigates school life and relationships with his dual appearance, he learns more about the importance of inner beauty and self-acceptance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 71%;"></span>
+                            </div>
+                            <p>71% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/83157l.webp" alt="Garo Movie: Divine Flame">
+                </div>
+                <div class="details">
+                    <a href="garo-movie%3A-divine-flame"><h3>Garo Movie: Divine Flame</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Garo Movie: Divine Flame, León and Alfonso, Makai Knights tasked with protecting humanity from Horrors, face a new threat when a powerful Horror reemerges. As they work together to stop the creature's reign of terror, they are forced to confront their pasts and make difficult decisions to save the kingdom. With the fate of the world at stake, the two knights must muster all their strength and courage to emerge victorious.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1119/118609l.webp" alt="Utawarerumono">
+                </div>
+                <div class="details">
+                    <a href="utawarerumono"><h3>Utawarerumono</h3></a>
+                    <p>Action</p>
+                    <p>2006</p>
+                    <br>
+                    <p>A man wakes up in a strange world with no memories and a mask fused to his face. He is taken in by a kind-hearted village girl and soon becomes entangled in a war between different nations. As he navigates this new world and uncovers secrets about his past, he must choose whether to fight for his new friends or seek his own truth. The man's mysterious origins and unique abilities make him a key player in the conflicts escalating around him.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/76691l.jpg" alt="Rainbow Days">
+                </div>
+                <div class="details">
+                    <a href="rainbow-days"><h3>Rainbow Days</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Rainbow Days follows the lives of four high school boys as they navigate the ups and downs of adolescence, friendship, and first loves. Natsuki, Tomoya, Keiichi, and Tsuyoshi each have their own unique personalities and love interests, leading to comedic and heartwarming situations. Through their experiences, the boys learn valuable lessons about relationships and the importance of friendship. Join them on their journey of self-discovery and youthful adventures in this light-hearted slice-of-life anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1490/137816l.jpg" alt="The Great Cleric">
+                </div>
+                <div class="details">
+                    <a href="the-great-cleric"><h3>The Great Cleric</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In The Great Cleric, a young healer named Rina embarks on a journey to become the most skilled cleric in the realm. Along the way, she faces various challenges and monsters that test her abilities. With her determination and growing powers, Rina must navigate political intrigues and ancient prophecies to uncover the truth behind a looming dark force threatening the land. Will she be able to fulfill her destiny and save the world?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1081/115716l.webp" alt="Belle">
+                </div>
+                <div class="details">
+                    <a href="belle"><h3>Belle</h3></a>
+                    <p>Drama</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a virtual world called U where users can transform into avatars, a shy high school girl named Suzu logs in as the confident and talented singer Belle. As Belle gains popularity, she discovers a mysterious beast lurking in the virtual landscape. Determined to uncover the truth behind the beast and her own identity, Belle embarks on a captivating journey of self-discovery, friendship, and love that blurs the lines between the virtual and real worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1151/125951l.webp" alt="Zatch Bell!">
+                </div>
+                <div class="details">
+                    <a href="zatch-bell%21"><h3>Zatch Bell!</h3></a>
+                    <p>Action</p>
+                    <p>2003</p>
+                    <br>
+                    <p>Zatch Bell! follows the adventures of Kiyo Takamine, a middle school student who discovers a mysterious book containing spells. The book reveals itself to be a spellbook for a mamodo named Zatch Bell, who has lost his memory. Together, Kiyo and Zatch must compete in a battle to determine the king of the mamodo world, facing off against other mamodo teams in intense battles where only one pair can emerge victorious.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/7632l.jpg" alt="Chi's Sweet Home">
+                </div>
+                <div class="details">
+                    <a href="chi%27s-sweet-home"><h3>Chi's Sweet Home</h3></a>
+                    <p>Comedy</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Chi's Sweet Home follows the adventures of a curious and mischievous kitten named Chi as she navigates her way through daily life with her loving and patient family. From learning about the world around her to getting into playful antics, Chi brings laughter and joy to everyone around her. Join Chi on her delightful journey filled with adorable moments and heartwarming interactions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1974/95289l.webp" alt="Hinomaru Sumo">
+                </div>
+                <div class="details">
+                    <a href="hinomaru-sumo"><h3>Hinomaru Sumo</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Hinomaru Sumo follows Hinomaru Ushio, a small-statured high school student with a big dream of becoming a professional sumo wrestler. Despite his size, Hinomaru's determination, strength, and unwavering spirit inspire those around him as he faces off against rival wrestlers in fierce competitions. With the support of his teammates from Oodachi High School's sumo club, Hinomaru confronts various challenges in his quest to reach the pinnacle of the traditional Japanese sport.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1190/95421l.webp" alt="Samurai 7">
+                </div>
+                <div class="details">
+                    <a href="samurai-7"><h3>Samurai 7</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>In a world where samurais are replaced by giant robots, a small village oppressed by bandits seeks out seven skilled warriors to help protect them. As the samurais take on the powerful enemies, they uncover dark secrets and form bonds that will test their loyalty and values. Amidst intense battles and intricate political schemes, the samurais must come together to save the village and restore peace to the land.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1145/127594l.jpg" alt="To Every You I've Loved Before">
+                </div>
+                <div class="details">
+                    <a href="to-every-you-i%27ve-loved-before"><h3>To Every You I've Loved Before</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>High school student Mia finds herself in a love triangle with her childhood friend, Arata, and the popular boy, Kaito. As she navigates her feelings for both boys, Mia discovers secrets from their past that may change everything. With the school festival approaching, Mia must confront her emotions and make a decision that will impact their friendships forever. Will Mia choose nostalgia or take a chance on new love?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/50395l.webp" alt="Hanamaru Kindergarten">
+                </div>
+                <div class="details">
+                    <a href="hanamaru-kindergarten"><h3>Hanamaru Kindergarten</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Hanamaru Kindergarten follows Anzu, a playful and imaginative young girl who starts attending a kindergarten where her crush, the teacher Tsuchida, works. Alongside her friends, the mischievous Hiiragi and the level-headed Koume, Anzu embarks on various adventures and schemes to capture Tsuchida's attention. The series explores the daily lives and whimsical antics of the children at Hanamaru Kindergarten, filled with laughter, friendship, and innocent romance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1940/124243l.jpg" alt="Rec">
+                </div>
+                <div class="details">
+                    <a href="rec"><h3>Rec</h3></a>
+                    <p>Romance</p>
+                    <p>2006</p>
+                    <br>
+                    <p>In the anime Re:Creators, characters from various manga, anime, and video games are brought to life and enter the real world. As they struggle to understand their new reality, they are faced with the responsibility of protecting the world from a mysterious force that threatens to destroy everything they know. The creators of these characters are also pulled into the chaos, blurring the lines between fiction and reality as they work together to unravel the truth behind this phenomenon.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/23189l.webp" alt="Xam'd: Lost Memories">
+                </div>
+                <div class="details">
+                    <a href="xam%27d%3A-lost-memories"><h3>Xam'd: Lost Memories</h3></a>
+                    <p>Action</p>
+                    <p>2008</p>
+                    <br>
+                    <p>In a war-torn world, a young boy named Akiyuki is transformed into a powerful creature known as a Xam'd. Struggling with his new abilities, he embarks on a journey to discover the truth behind his transformation and the mysterious world he now finds himself in. Along the way, he meets allies and enemies, all while trying to hold on to his humanity amidst the chaos of war and destruction.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1834/116568l.jpg" alt="Ninja Scroll">
+                </div>
+                <div class="details">
+                    <a href="ninja-scroll"><h3>Ninja Scroll</h3></a>
+                    <p>Action</p>
+                    <p>1993</p>
+                    <br>
+                    <p>In Ninja Scroll, skilled swordsman Jubei finds himself embroiled in a deadly mission when he encounters a female ninja who enlists his help to defeat the Eight Devils of Kimon, a group of dangerous warriors with supernatural powers. As Jubei battles these formidable foes, he uncovers a sinister conspiracy that threatens the entire country. With intense combat scenes and betrayals at every turn, Jubei must use all his skills to survive and protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1471/115593l.jpg" alt="The Duke of Death and His Maid">
+                </div>
+                <div class="details">
+                    <a href="the-duke-of-death-and-his-maid"><h3>The Duke of Death and His Maid</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Cursed by a witch at a young age, a noble Duke is unable to touch anything living without causing its instant death. Despite this, he maintains a positive attitude with the help of his loyal and devoted maid. As they navigate the challenges of his curse, their bond strengthens, and they encounter various eccentric characters along the way. Together, they search for a way to break the curse and grant the Duke a chance at a normal life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/75262l.webp" alt="Wagnaria!!">
+                </div>
+                <div class="details">
+                    <a href="wagnaria%21%21"><h3>Wagnaria!!</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Wagnaria!! follows the comedic daily lives of the quirky staff members working at the Wagnaria family restaurant. The story primarily focuses on the new hire, Sota, who finds himself surrounded by eccentric coworkers, leading to hilarious and chaotic situations in the workplace. As they navigate through their unique personalities and relationships, they learn about teamwork, friendship, and personal growth in this heartwarming comedy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/61781l.webp" alt="Chaika -The Coffin Princess-">
+                </div>
+                <div class="details">
+                    <a href="chaika--the-coffin-princess-"><h3>Chaika -The Coffin Princess-</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Chaika -The Coffin Princess- follows a young girl named Chaika who travels with two saboteurs, searching for the remains of her father in a post-war fantasy world. With a mysterious coffin in tow and unique magical abilities, Chaika encounters challenges and adversaries on her journey. As secrets unravel and loyalties are tested, Chaika must navigate political intrigue and confront the truth about her identity to fulfill her mission.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/48817l.jpg" alt="Gargantia on the Verdurous Planet">
+                </div>
+                <div class="details">
+                    <a href="gargantia-on-the-verdurous-planet"><h3>Gargantia on the Verdurous Planet</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Gargantia on the Verdurous Planet, a young pilot, Ledo, finds himself stranded on a water-covered Earth after a battle with alien creatures. He is taken in by the fleet Gargantia, a community of people living on large ships. As Ledo learns to adapt to this new way of life and forms bonds with the residents, he begins to question his mission and the true nature of the war he has been fighting.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/67513l.webp" alt="Rage of Bahamut: Genesis">
+                </div>
+                <div class="details">
+                    <a href="rage-of-bahamut%3A-genesis"><h3>Rage of Bahamut: Genesis</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a world where humans, gods, and demons coexist, a bounty hunter named Favaro finds himself entangled in a quest to stop the revival of the powerful dragon Bahamut. Teaming up with a mysterious amnesiac girl named Amira, Favaro must navigate political intrigue and epic battles to prevent Bahamut from destroying the world. But as dark secrets are unveiled and loyalties are tested, the fate of the world hangs in the balance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/75203l.jpg" alt="House of Five Leaves">
+                </div>
+                <div class="details">
+                    <a href="house-of-five-leaves"><h3>House of Five Leaves</h3></a>
+                    <p>Drama</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Masanosuke is a timid and unemployed samurai who's desperate for work. He encounters a mysterious man known as Yaichi, who offers him a job as a bodyguard. Masanosuke soon discovers that Yaichi is the leader of a group of kidnappers called the Five Leaves. As he becomes more involved with the group, Masanosuke starts to question his own morals and values. Together, they navigate the criminal underworld, forming unexpected bonds and facing dangerous challenges.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/58763l.jpg" alt="Cyber City">
+                </div>
+                <div class="details">
+                    <a href="cyber-city"><h3>Cyber City</h3></a>
+                    <p>Action</p>
+                    <p>1990</p>
+                    <br>
+                    <p>In a futuristic world where cybernetic enhancements are common, a team of skilled individuals is recruited to undertake dangerous missions to defend the city against high-tech criminals. Each member of the team brings their unique abilities and backgrounds to the table, forming an unstoppable force against the growing threat in the cyber city. As they navigate through intricate cyber networks and face powerful foes, they must also confront their own inner demons and past traumas.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1216/111637l.webp" alt="Diary of Our Days at the Breakwater">
+                </div>
+                <div class="details">
+                    <a href="diary-of-our-days-at-the-breakwater"><h3>Diary of Our Days at the Breakwater</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Hina Tsurugi moves to a coastal town and joins the Breakwater Club to make new friends and combat her fear of the ocean. With the help of her clubmates, she learns the art of saltwater fishing and immerses herself in the beauty of the ocean. Bonding over their shared love for fishing, the girls navigate the challenges of the sea and form strong friendships along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1764/142001l.jpg" alt="Romantic Killer">
+                </div>
+                <div class="details">
+                    <a href="romantic-killer"><h3>Romantic Killer</h3></a>
+                    <p>Romance</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Romantic Killer, detective Kaito must track down a mysterious assassin known as The Rose who leaves behind a single red rose at every crime scene. Things take a surprising turn when Kaito discovers that The Rose has a romantic connection to each of their targets. As the body count rises, Kaito must confront his own feelings for a woman who may be more than she seems. Can love bloom even in the midst of danger and death?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/58635l.jpg" alt="Broken Blade">
+                </div>
+                <div class="details">
+                    <a href="broken-blade"><h3>Broken Blade</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a world where people can control quartz for powerful machines, Rygart is one of the rare individuals who cannot. When war breaks out between neighboring countries, he is forced to confront his past and use his unique abilities to help his friends. As he becomes embroiled in the conflict, Rygart must navigate complex political schemes and fierce battles to protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/50257l.jpg" alt="Love Lab">
+                </div>
+                <div class="details">
+                    <a href="love-lab"><h3>Love Lab</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In Love Lab, high school student Riko Kurahashi is known for her tough and mature demeanor. However, one day, her facade is shattered when she's caught giving romantic advice to student council president Natsuo Maki. Impressed by Riko's perceived expertise, Natsuo recruits her to join the school's Love Lab, where they conduct experiments on love and relationships. As Riko navigates her new role and the chaos that ensues, she finds herself learning more about love than she ever expected.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/27361l.jpg" alt="Bubblegum Crisis">
+                </div>
+                <div class="details">
+                    <a href="bubblegum-crisis"><h3>Bubblegum Crisis</h3></a>
+                    <p>Action</p>
+                    <p>1987</p>
+                    <br>
+                    <p>In the futuristic city of Mega-Tokyo, a group of vigilante mercenaries known as the Knight Sabers fights against rogue robots called Boomers, who threaten the safety of the city. Led by the skilled fighter Sylia Stingray, the team battles against powerful corporations and criminal syndicates to protect the citizens from the technology gone awry. With high-tech suits and advanced weaponry, the Knight Sabers face intense battles and dangerous enemies in their mission to maintain peace and order in the city.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/63667l.webp" alt="GARO: THE ANIMATION">
+                </div>
+                <div class="details">
+                    <a href="garo%3A-the-animation"><h3>GARO: THE ANIMATION</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In GARO: The Animation, a group of warriors known as Makai Knights protect humanity from demonic threats. Leon, a young Makai Knight seeking revenge for his mother's death, joins forces with his mentor German to battle Horrors that plague the kingdom. As they face formidable enemies and uncover dark secrets, they must navigate treacherous paths in their quest to eliminate the evil that threatens their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/75191l.jpg" alt="Kekkaishi">
+                </div>
+                <div class="details">
+                    <a href="kekkaishi"><h3>Kekkaishi</h3></a>
+                    <p>Action</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Yoshimori Sumimura and Tokine Yukimura are young kekkaishi, warriors with the ability to create barriers to eliminate evil creatures. Tasked with protecting Karasumori, a powerful and mysterious land, they must battle Ayakashi, supernatural beings drawn to its energy. As they face increasing threats and uncover the secrets of Karasumori, the two cousins must navigate their responsibilities as kekkaishi and the challenges of their own complicated relationship.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

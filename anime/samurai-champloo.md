@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Samurai Champloo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "205";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1370/135212l.webp" alt="Samurai Champloo">
+                <div>
+                    <h2 id="title">Samurai Champloo</h2>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Samurai Champloo follows the journey of three unlikely companions - Mugen, Jin, and Fuu - as they travel through Edo-era Japan in search of the samurai who smells of sunflowers. Despite their conflicting personalities and fighting styles, they band together to overcome various challenges and foes they encounter along the way. Filled with action-packed sword fights, humor, and a killer soundtrack blending hip-hop and traditional Japanese music, the trio's adventures are anything but ordinary.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 86%;"></span>
+                            </div>
+                            <p>86% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/19644l.webp" alt="Cowboy Bebop">
+                </div>
+                <div class="details">
+                    <a href="cowboy-bebop"><h3>Cowboy Bebop</h3></a>
+                    <p>Action</p>
+                    <p>1998</p>
+                    <br>
+                    <p>In Cowboy Bebop, follow the misadventures of the Bebop crew - Spike Spiegel, Jet Black, Faye Valentine, Ed, and Ein - as they travel through space in pursuit of bounties. Each member has a mysterious past and their own reasons for joining the crew, leading to both comedic and intense moments as they navigate through their dangerous and unpredictable missions. As they chase after their targets, they also have to confront their personal demons and face the consequences of their past actions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/80356l.webp" alt="Mob Psycho 100">
+                </div>
+                <div class="details">
+                    <a href="mob-psycho-100"><h3>Mob Psycho 100</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Shigeo Kageyama, known as Mob, possesses immense psychic powers. Despite his abilities, he tries to live a normal life and suppress his emotions to prevent his powers from going out of control. Working as an assistant for a self-proclaimed psychic, Mob encounters various supernatural beings and learns valuable lessons about life, friendship, and power. As he navigates through challenges and battles other psychic users, Mob's journey of self-discovery and personal growth unfolds in a captivating and comedic way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 65%;"></span>
+                            </div>
+                            <p>65% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1426/111248l.jpg" alt="Barakamon">
+                </div>
+                <div class="details">
+                    <a href="barakamon"><h3>Barakamon</h3></a>
+                    <p>Other Genre</p>
+                    <p>2014</p>
+                    <br>
+                    <p>After a calligraphy mishap, talented but uptight calligrapher Handa Seishu is exiled to a rural island. As he navigates the laid-back island life and befriends the quirky locals, Handa begins to discover his true self and find inspiration in the simplicity of his surroundings. Through heartwarming interactions and comedic mishaps, Barakamon follows Handa's journey of self-discovery and personal growth as he learns valuable life lessons from the people of the island.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1981/113348l.jpg" alt="Odd Taxi">
+                </div>
+                <div class="details">
+                    <a href="odd-taxi"><h3>Odd Taxi</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Odd Taxi follows the life of a mysterious taxi driver named Odokawa, who gets unintentionally entangled in a series of interconnected events involving his diverse range of eccentric passengers. As he navigates through the bustling city, Odokawa finds himself drawn into a web of crime, secrets, and conspiracies. With his sharp wit and unexpected connections, he must unravel the truth behind the enigmatic characters he encounters while trying to protect his own hidden past.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1460/98853l.webp" alt="Bunny Drop">
+                </div>
+                <div class="details">
+                    <a href="bunny-drop"><h3>Bunny Drop</h3></a>
+                    <p>Other Genre</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After attending his grandfather's funeral, thirty-year-old Daikichi is shocked to discover that the old man had an illegitimate six-year-old daughter named Rin. With no one else willing to take her in, Daikichi decides to become her guardian. The series follows their heartwarming journey as they navigate the challenges of parenthood and form a special bond. </p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 61%;"></span>
+                            </div>
+                            <p>61% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1354/124768l.jpg" alt="Showa Genroku Rakugo Shinju">
+                </div>
+                <div class="details">
+                    <a href="showa-genroku-rakugo-shinju"><h3>Showa Genroku Rakugo Shinju</h3></a>
+                    <p>Drama</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Showa Genroku Rakugo Shinju follows the story of a former yakuza member, Yotarou, who becomes a disciple of a famous rakugo master after his release from prison. The series delves into the art of rakugo storytelling, as well as the complexities of the relationships between the characters. As Yotarou navigates the world of traditional Japanese performance art, he must confront his past and strive for success in the rakugo world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 61%;"></span>
+                            </div>
+                            <p>61% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1480/132791l.webp" alt="Tokyo Godfathers">
+                </div>
+                <div class="details">
+                    <a href="tokyo-godfathers"><h3>Tokyo Godfathers</h3></a>
+                    <p>Drama</p>
+                    <p>2003</p>
+                    <br>
+                    <p>Tokyo Godfathers follows a trio of homeless individuals - a former drag queen, a runaway teenager, and a middle-aged alcoholic - who discover an abandoned baby on Christmas Eve. Determined to reunite the child with its family, the unlikely group embarks on a heartwarming and sometimes humorous journey through the streets of Tokyo. Along the way, they confront their own pasts and form a unique bond as they navigate through various challenges and obstacles.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 61%;"></span>
+                            </div>
+                            <p>61% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1021/138568l.webp" alt="Pluto">
+                </div>
+                <div class="details">
+                    <a href="pluto"><h3>Pluto</h3></a>
+                    <p>Mystery</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where advanced robots coexist with humans, a series of mysterious murders of great robot leaders leaves both parties puzzled. Gesicht, a robot detective, investigates alongside his human partner to uncover the truth behind the killings and the potential danger to society. As they delve deeper, they discover dark secrets that may shake the very core of their existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 61%;"></span>
+                            </div>
+                            <p>61% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1958/132159l.jpg" alt="Blue Giant">
+                </div>
+                <div class="details">
+                    <a href="blue-giant"><h3>Blue Giant</h3></a>
+                    <p>Other Genre</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Blue Giant follows Dai Miyamoto, a high school delinquent who discovers a passion for playing the tenor saxophone. Determined to become a jazz musician, Dai navigates through challenges such as mastering his instrument, facing fierce competition, and balancing his personal life. As he strives towards his dream of performing on the global stage, Dai learns about the power of music in connecting people and shaping his own identity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/21065l.jpg" alt="One Outs">
+                </div>
+                <div class="details">
+                    <a href="one-outs"><h3>One Outs</h3></a>
+                    <p>Psychological</p>
+                    <p>2008</p>
+                    <br>
+                    <p>One Outs follows professional baseball player Toua Tokuchi, a mastermind pitcher with incredible skills in strategy and mind games. He is approached by a struggling team's owner to join their team and help turn their losing streak around. Tokuchi accepts the offer but with a unique condition: a one-on-one game where he can outwit the batter and earn more money, but if he loses, he will owe the team a huge debt. The series follows Tokuchi as he outsmarts his opponents and navigates the cutthroat world of professional baseball.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/58041l.webp" alt="Ping Pong the Animation">
+                </div>
+                <div class="details">
+                    <a href="ping-pong-the-animation"><h3>Ping Pong the Animation</h3></a>
+                    <p>Sports</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Ping Pong the Animation follows the story of two high school students, Smile and Peco, as they navigate the world of competitive table tennis. While Peco is a natural talent with a love for the game, Smile plays with a calm and collected demeanor. As they face challenges and rivals in the sport, their friendship and dedication to ping pong are put to the test. The series explores the connections between passion, talent, hard work, and personal growth.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1384/127972l.webp" alt="Initial D First Stage">
+                </div>
+                <div class="details">
+                    <a href="initial-d-first-stage"><h3>Initial D First Stage</h3></a>
+                    <p>Action</p>
+                    <p>1998</p>
+                    <br>
+                    <p>Takumi Fujiwara, a young tofu delivery driver, inadvertently becomes a skilled street racer due to his exceptional driving skills on Mount Akina. Unaware of his hidden talent, Takumi is pulled into the world of illegal street racing as he navigates the dangerous twists and turns of the mountain pass. With each race, Takumi develops his racing abilities and gains recognition among fellow drivers, including the legendary Ryosuke Takahashi and his team, the Akina Speed Stars.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/49237l.webp" alt="Silver Spoon">
+                </div>
+                <div class="details">
+                    <a href="silver-spoon"><h3>Silver Spoon</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Silver Spoon follows Yuugo Hachiken, a high school student from the city who enrolls in an agricultural school in rural Hokkaido to escape the high expectations of his family. As he navigates the challenges of farm life and befriends his classmates, he experiences personal growth and discovers a new perspective on hard work, friendship, and the true meaning of success.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/75919l.webp" alt="Princess Mononoke">
+                </div>
+                <div class="details">
+                    <a href="princess-mononoke"><h3>Princess Mononoke</h3></a>
+                    <p>Action</p>
+                    <p>1997</p>
+                    <br>
+                    <p>Princess Mononoke follows the journey of a young warrior named Ashitaka, cursed by a demon, as he seeks a cure in a war-torn land caught between industrialization and nature. He becomes entangled in a conflict between the inhabitants of the forest, led by the fierce Princess Mononoke, and the humans who are destroying the environment. As Ashitaka delves deeper into the complex relationships between man and nature, he must navigate his own beliefs and loyalties to find a way to bring peace to the land.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1121/133132l.jpg" alt="Heavenly Delusion">
+                </div>
+                <div class="details">
+                    <a href="heavenly-delusion"><h3>Heavenly Delusion</h3></a>
+                    <p>Mystery</p>
+                    <p>2023</p>
+                    <br>
+                    <p>Heavenly Delusion follows Hikaru, a high school student who discovers a hidden ability to see supernatural creatures known as yokai. As Hikaru navigates his newfound powers, he becomes entangled in a world of mystery and danger. With the help of his friends, he must unravel the secrets surrounding the yokai and prevent a looming catastrophe that threatens both the human and supernatural realms.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/11460l.webp" alt="Great Teacher Onizuka">
+                </div>
+                <div class="details">
+                    <a href="great-teacher-onizuka"><h3>Great Teacher Onizuka</h3></a>
+                    <p>Comedy</p>
+                    <p>1999</p>
+                    <br>
+                    <p>Eikichi Onizuka, a former biker gang member, decides to become a high school teacher to be surrounded by cute high school girls. However, he soon learns about the challenges of teaching rebellious students and dealing with the school's bureaucratic system. Despite his unconventional methods, Onizuka's genuine care for his students helps him to connect with them and teach important life lessons along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/28553l.jpg" alt="Redline">
+                </div>
+                <div class="details">
+                    <a href="redline"><h3>Redline</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In the movie Redline, Le Film star sweet racer Sweet JP enters the most dangerous and thrilling race in the universe, the Redline, where anything goes and the stakes are high. With adrenaline-pumping action and fierce competition, JP must push his limits to claim victory and become the champion. But with rival racers, shady dealings, and unexpected challenges along the way, the Redline race proves to be an unforgettable test of skill and courage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1500/103005l.jpg" alt="Vinland Saga">
+                </div>
+                <div class="details">
+                    <a href="vinland-saga"><h3>Vinland Saga</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Vinland Saga follows the young Thorfinn, who seeks revenge against the man who killed his father. Set in the brutal world of Vikings, Thorfinn finds himself caught in the midst of a complex web of political intrigue, power struggles, and battles for survival. As he matures and hones his skills as a warrior, Thorfinn's quest for vengeance becomes intertwined with his search for a greater purpose in a world rife with violence and ambition.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/86334l.webp" alt="Fighting Spirit">
+                </div>
+                <div class="details">
+                    <a href="fighting-spirit"><h3>Fighting Spirit</h3></a>
+                    <p>Sports</p>
+                    <p>2000</p>
+                    <br>
+                    <p>Fighting Spirit follows the story of Ippo Makunouchi, a timid high school student who is bullied. When a professional boxer rescues him, Ippo discovers a passion for boxing and begins training to become a professional himself. Facing intense training, tough opponents, and personal challenges, Ippo must find the courage to pursue his dream of becoming a boxing champion. The series showcases Ippo's growth as a boxer and the friendships and rivalries he forms along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/26182l.jpg" alt="Lupin III: The Castle of Cagliostro">
+                </div>
+                <div class="details">
+                    <a href="lupin-iii%3A-the-castle-of-cagliostro"><h3>Lupin III: The Castle of Cagliostro</h3></a>
+                    <p>Action</p>
+                    <p>1979</p>
+                    <br>
+                    <p>Lupin III: The Castle of Cagliostro follows master thief Arsène Lupin III as he embarks on a thrilling adventure to uncover the secrets of a counterfeit money operation. Along with his partner Jigen, Lupin infiltrates the enigmatic Cagliostro castle, where they encounter Princess Clarisse, leading them to confront a devious count. Filled with high-octane action and daring heists, Lupin must outwit his foes and unravel the mysteries surrounding the legendary treasure of Cagliostro.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1084/119096l.jpg" alt="Nodame Cantabile Finale">
+                </div>
+                <div class="details">
+                    <a href="nodame-cantabile-finale"><h3>Nodame Cantabile Finale</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Nodame Cantabile Finale continues the story of piano prodigy Shinichi Chiaki and eccentric pianist Megumi Noda as they navigate the challenges of pursuing their musical dreams while facing personal and professional hurdles. As they strive for greatness in the competitive world of classical music, their relationship deepens, leading to moments of joy, heartache, and growth. Through dedication, passion, and perseverance, Chiaki and Nodame inspire each other to reach new heights in their musical careers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1936/129119l.jpg" alt="Run with the Wind">
+                </div>
+                <div class="details">
+                    <a href="run-with-the-wind"><h3>Run with the Wind</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Ten former college track stars come together to form a long-distance running team. Initially hesitant, they commit to training for the famed Hakone Ekiden marathon race. As they face personal struggles and lack of experience, their dedication grows. Through teamwork and perseverance, they learn the true meaning of running and friendship. With each step they take, they get closer to achieving their dream of crossing the finish line together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/79597l.webp" alt="Spirited Away">
+                </div>
+                <div class="details">
+                    <a href="spirited-away"><h3>Spirited Away</h3></a>
+                    <p>Other Genre</p>
+                    <p>2001</p>
+                    <br>
+                    <p>Spirited Away follows a young girl named Chihiro who finds herself trapped in a mysterious and magical world after her parents undergo a strange transformation. To save her family and escape this realm, Chihiro must work at a magical bathhouse and navigate through various challenges and encounters with spirits. Along the way, she learns valuable lessons about courage, identity, and the power of friendship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/20310l.jpg" alt="Trigun">
+                </div>
+                <div class="details">
+                    <a href="trigun"><h3>Trigun</h3></a>
+                    <p>Action</p>
+                    <p>1998</p>
+                    <br>
+                    <p>In a desolate future where a notorious outlaw with a huge bounty on his head roams the wastelands, rumors swirl about his destructive abilities. Known only as Vash the Stampede, he's a goofy and enigmatic character, spreading chaos wherever he goes. But as his true nature and past begin to surface, it becomes evident that there's more to him than meets the eye. Bounty hunters and admirers alike are left to decipher his secrets while facing the consequences of his actions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1384/119988l.jpg" alt="Berserk">
+                </div>
+                <div class="details">
+                    <a href="berserk"><h3>Berserk</h3></a>
+                    <p>Action</p>
+                    <p>1997</p>
+                    <br>
+                    <p>Berserk follows the story of Guts, a lone mercenary seeking revenge against his former friend turned enemy, Griffith. Set in a dark medieval world, Guts is caught in a struggle between humanity and demonic forces. As he battles his way through adversity, he forms unlikely friendships and confronts his traumatic past. With intense action sequences and themes of betrayal, revenge, and sacrifice, Berserk explores the darkness of the human soul.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/87704l.webp" alt="In This Corner of the World">
+                </div>
+                <div class="details">
+                    <a href="in-this-corner-of-the-world"><h3>In This Corner of the World</h3></a>
+                    <p>Drama</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Set in Hiroshima during World War II, In This Corner of the World follows the life of Suzu, a young woman who navigates the challenges and tragedies of war. Through her daily experiences, struggles, and relationships with her family and friends, she must find strength and resilience to survive and protect her loved ones amidst the devastation of the conflict.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1604/98654l.webp" alt="Kids on the Slope">
+                </div>
+                <div class="details">
+                    <a href="kids-on-the-slope"><h3>Kids on the Slope</h3></a>
+                    <p>Drama</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Kids on the Slope, high school student Kaoru Nishimi finds solace in music when he moves to a new town. He befriends the free-spirited Sentaro Kawabuchi, a talented drummer, and together they bond over their love for jazz. As they navigate friendship, love, and personal struggles, their passion for music brings both joy and conflict into their lives.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/86733l.jpg" alt="Made in Abyss">
+                </div>
+                <div class="details">
+                    <a href="made-in-abyss"><h3>Made in Abyss</h3></a>
+                    <p>Mystery</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Made in Abyss follows the story of a young girl named Riko who befriends a robot boy named Reg. Together, they explore the enigmatic Abyss, a massive chasm that houses valuable relics and mysterious creatures. As they delve deeper into the Abyss in search of Riko's mother, they must confront various challenges and uncover the dark secrets hidden within this unfathomable abyss.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1347/117616l.jpg" alt="Ranking of Kings">
+                </div>
+                <div class="details">
+                    <a href="ranking-of-kings"><h3>Ranking of Kings</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Ranking of Kings follows the story of Bojji, a young deaf prince who dreams of becoming a great king like his father. Despite his physical limitations and being underestimated by others, Bojji sets out on a journey to prove his worth with the help of his loyal friend Kage. Together, they face challenges, make allies, and uncover dark secrets hidden within the kingdom. Bojji's courage and determination are put to the test as he navigates the complex world of royalty and strives to fulfill his destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1818/126435l.jpg" alt="Cyberpunk: Edgerunners">
+                </div>
+                <div class="details">
+                    <a href="cyberpunk%3A-edgerunners"><h3>Cyberpunk: Edgerunners</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a dystopian future where technology and humanity intertwine, a group of outlaw hackers known as Edgerunners navigate the dangerous streets of Night City. Faced with corrupt corporations, rival gangs, and advanced AI, they must use their skills to survive and uncover the truth behind a dark conspiracy. As they delve deeper into the underworld of cybercrime, alliances will be tested, secrets will be revealed, and the fate of the city will hang in the balance.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

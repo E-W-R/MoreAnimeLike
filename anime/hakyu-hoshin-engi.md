@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Hakyu Hoshin Engi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "36029";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/11/88796l.jpg" alt="Hakyu Hoshin Engi">
+                <div>
+                    <h2 id="title">Hakyu Hoshin Engi</h2>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Hakyu Hoshin Engi follows the story of Taikobo, a young immortal tasked with sealing away evil spirits threatening humanity. Alongside his allies, including the powerful Yozen and Supushan, Taikobo embarks on a perilous journey to defeat the malicious Dakki and her demon army. As the group navigates political intrigue and epic battles, Taikobo's resolve is put to the test as he strives to protect the world from destruction.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/89682l.jpg" alt="Dies irae">
+                </div>
+                <div class="details">
+                    <a href="dies-irae"><h3>Dies irae</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Dies irae follows the story of Ren Fujii, a young man living in a town overshadowed by its dark history. As Ren gets pulled into a conflict between secret societies with supernatural powers, he discovers the truth about his own identity and the dark secrets lurking within his town. As he delves deeper into the mysteries surrounding him, Ren begins to uncover a sinister plot that threatens to engulf everything he holds dear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1562/100460l.webp" alt="Fairy Gone">
+                </div>
+                <div class="details">
+                    <a href="fairy-gone"><h3>Fairy Gone</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After Fairies possess animals during a mysterious incident, they become weapons used in warfare. The story follows Marlya, a survivor of the incident, as she joins an organization that investigates and deals with crimes involving Fairies. Alongside her newfound comrades, Marlya seeks the truth behind the incident that changed her life. As political tensions rise and dark secrets are revealed, they unravel a conspiracy that may shake the very foundations of their world.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

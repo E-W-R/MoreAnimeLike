@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Tsukuyomi: Moon Phase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "343";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/13/75255l.jpg" alt="Tsukuyomi: Moon Phase">
+                <div>
+                    <h2 id="title">Tsukuyomi: Moon Phase</h2>
+                    <p>Romance</p>
+                    <p>2004</p>
+                    <br>
+                    <p>After being captured by a young photographer, a vampire girl named Hazuki strikes a deal to help him break a curse in exchange for her freedom. As they work together, they encounter supernatural creatures and dark magic while deepening their bond. With Hazuki's mysterious past coming to light, they must confront powerful enemies and navigate a world filled with danger and deceit in their quest for salvation.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 86%;"></span>
+                            </div>
+                            <p>86% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/75240l.webp" alt="Okami-San and Her Seven Companions">
+                </div>
+                <div class="details">
+                    <a href="okami-san-and-her-seven-companions"><h3>Okami-San and Her Seven Companions</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In a world where favors can be traded like commodities, the strong-willed and brave Ami works as a go-to girl for solving problems at her high school. Alongside her loyal friend Ryoko, they form a group dedicated to helping others. When a mysterious boy named Ryoshi enters their lives, secrets start to unravel, and unexpected adventures await the group as they navigate through friendships, rivalries, and the complexities of teenage life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/61781l.webp" alt="Chaika -The Coffin Princess-">
+                </div>
+                <div class="details">
+                    <a href="chaika--the-coffin-princess-"><h3>Chaika -The Coffin Princess-</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Chaika -The Coffin Princess- follows a young girl named Chaika who travels with two saboteurs, searching for the remains of her father in a post-war fantasy world. With a mysterious coffin in tow and unique magical abilities, Chaika encounters challenges and adversaries on her journey. As secrets unravel and loyalties are tested, Chaika must navigate political intrigue and confront the truth about her identity to fulfill her mission.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1062/124809l.jpg" alt="Dance in the Vampire Bund">
+                </div>
+                <div class="details">
+                    <a href="dance-in-the-vampire-bund"><h3>Dance in the Vampire Bund</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In Dance in the Vampire Bund, the story follows Mina Tepes, a young vampire princess, as she reveals the existence of vampires to the world and establishes a sanctuary for vampires in Japan called the Vampire Bund. With political intrigue, conflicts between humans and vampires, and Mina's desire for peaceful coexistence, the series delves into the complexities of supernatural society and the challenges they face to achieve harmony.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/56163l.jpg" alt="Strike the Blood">
+                </div>
+                <div class="details">
+                    <a href="strike-the-blood"><h3>Strike the Blood</h3></a>
+                    <p>Action</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Strike the Blood follows the story of Kojou Akatsuki, a high school boy who has become a powerful vampire. As his true identity is revealed, Kojou must navigate the challenges of balancing his newfound powers and maintaining his humanity. With the help of Yukina Himeragi, a sword shaman who has been tasked to observe him, Kojou faces dangerous adversaries and unravels the mysteries surrounding his existence. Together, they embark on thrilling adventures to protect the city from supernatural threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/79414l.webp" alt="And you thought there is never a girl online?">
+                </div>
+                <div class="details">
+                    <a href="and-you-thought-there-is-never-a-girl-online%3F"><h3>And you thought there is never a girl online?</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In the anime And you thought there is never a girl online?, a high school student named Hideki Nishimura, who is obsessed with online RPGs, falls in love with a female character in the game. Upon discovering that his in-game wife is actually a man in real life, he vows to never trust a girl online again. However, he later meets three girls in his school's gaming club who challenge his beliefs about online relationships.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1153/99366l.jpg" alt="Love Hina">
+                </div>
+                <div class="details">
+                    <a href="love-hina"><h3>Love Hina</h3></a>
+                    <p>Romance</p>
+                    <p>2000</p>
+                    <br>
+                    <p>Keitaro Urashima has failed his university entrance exams twice and ends up as the manager of Hinata House, a female-only dorm. Despite the challenges of living with several different girls, Keitaro is determined to fulfill his promise of attending Tokyo University. Along the way, he experiences love, misunderstandings, and hilarious situations as he tries to juggle his responsibilities and relationships. With dreams to fulfill and hearts on the line, Keitaro navigates the ups and downs of life at Hinata House.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/75554l.jpg" alt="Demon King Daimao">
+                </div>
+                <div class="details">
+                    <a href="demon-king-daimao"><h3>Demon King Daimao</h3></a>
+                    <p>Action</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In a world where individuals' future professions are foretold by a magical device, one student's fate is unexpectedly revealed to be the Demon King. Akuto Sai must now navigate through a society where his mere existence is feared and challenged at every turn. With newfound friends and enemies, he embarks on a journey to defy his predestined role and shape his own destiny. Unravel the mystery behind Akuto's true purpose in Demon King Daimao.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/20680l.webp" alt="The Familiar of Zero">
+                </div>
+                <div class="details">
+                    <a href="the-familiar-of-zero"><h3>The Familiar of Zero</h3></a>
+                    <p>Action</p>
+                    <p>2006</p>
+                    <br>
+                    <p>In The Familiar of Zero, a mage-in-training named Louise accidentally summons an ordinary boy named Saito as her familiar, despite her expectations of a powerful creature. The two must navigate their differences and work together to protect the kingdom of Tristain from various magical threats. As they face challenges and grow closer, they discover more about each other and the world around them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1558/100478l.jpg" alt="Kaze no Stigma">
+                </div>
+                <div class="details">
+                    <a href="kaze-no-stigma"><h3>Kaze no Stigma</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>After being banished from his family for his lack of talent in fire magic, Kazuma returns years later as a skilled wind magic user. He teams up with Ayano, a powerful fire magic user from the prestigious Kannagi family, to solve supernatural mysteries and battle evil spirits. As they navigate their turbulent partnership, they uncover dark secrets and must work together to protect their loved ones and the world from dangerous threats.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/21197l.jpg" alt="Shakugan no Shana: Season I">
+                </div>
+                <div class="details">
+                    <a href="shakugan-no-shana%3A-season-i"><h3>Shakugan no Shana: Season I</h3></a>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>In Shakugan no Shana: Season I, high school student Yuji Sakai discovers he's a Mystes and becomes entangled in a world of Crimson Denizens, vicious beings that consume human lives. He joins forces with the Flame Haze warrior Shana, who wields a powerful katana and fights to maintain balance in the world. Together, they battle the relentless Denizens while unraveling the mysteries of their existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1760/98794l.jpg" alt="Inu X Boku Secret Service">
+                </div>
+                <div class="details">
+                    <a href="inu-x-boku-secret-service"><h3>Inu X Boku Secret Service</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Inu X Boku Secret Service, Ririchiyo Shirakiin moves into the high-class Ayakashi Kan mansion to live alone and be independent. She is assigned a Secret Service agent named Soshi Miketsukami, who has a mysterious past. As Ririchiyo learns more about Soshi and the other residents of the mansion, she discovers hidden secrets and uncovers the true nature of her own identity. Throughout the series, Ririchiyo and Soshi navigate a complex relationship filled with secrets and supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1819/97947l.jpg" alt="The Quintessential Quintuplets">
+                </div>
+                <div class="details">
+                    <a href="the-quintessential-quintuplets"><h3>The Quintessential Quintuplets</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Futaro Uesugi, a high school student low on luck and money, is hired to tutor the wealthy and academically challenged Nakano quintuplets. Despite their varying personalities and disinterest in studying, Futaro is determined to help them succeed. As he navigates the challenges of teaching the quintuplets, he uncovers their family secrets and realizes there is more to them than meets the eye. Along the way, bonds are formed, and unexpected feelings develop.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/73700l.webp" alt="Yamada-kun and the Seven Witches">
+                </div>
+                <div class="details">
+                    <a href="yamada-kun-and-the-seven-witches"><h3>Yamada-kun and the Seven Witches</h3></a>
+                    <p>Mystery</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When high school delinquent Ryu Yamada discovers he can swap bodies with the studious Urara Shiraishi with just a kiss, they uncover a hidden world of paranormal powers at their school. Together, they must navigate the secrets and challenges of the seven witches, each with a unique ability, all while trying to keep their own powers under wraps. As their friendship deepens, they must unravel the mysteries surrounding the witches and their own pasts.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/44844l.jpg" alt="Date A Live">
+                </div>
+                <div class="details">
+                    <a href="date-a-live"><h3>Date A Live</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>In a world where dangerous beings called Spirits threaten humanity, average high school student Shido Itsuka is recruited by a secret organization to stop them. Shido's mission is unique – he must make the Spirits fall in love with him and seal their powers. Through various dates and challenges, Shido navigates the complexities of multiple Spirits while uncovering the truth behind their existence. As he forms deep connections with these otherworldly beings, Shido's journey becomes a delicate balance between love and duty.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/75242l.webp" alt="Rosario + Vampire">
+                </div>
+                <div class="details">
+                    <a href="rosario-%2B-vampire"><h3>Rosario + Vampire</h3></a>
+                    <p>Romance</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Rosario + Vampire follows Tsukune, a teenage boy who unknowingly enrolls in a school for monsters. He befriends a vampire named Moka, who becomes smitten with him. As Tsukune navigates the challenges of attending a school filled with supernatural creatures, he uncovers hidden powers within himself. Together with Moka and other friends, Tsukune faces various dangers and adventures while trying to keep his human identity a secret.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/40977l.jpg" alt="BTOOOM!">
+                </div>
+                <div class="details">
+                    <a href="btooom%21"><h3>BTOOOM!</h3></a>
+                    <p>Psychological</p>
+                    <p>2012</p>
+                    <br>
+                    <p>After waking up on a mysterious island, a young man named Ryouta discovers he is part of a deadly real-life survival game. Armed with only bombs, he must outwit and defeat other players to make it off the island alive. As the game progresses, alliances are formed and betrayals unfold, forcing Ryouta to confront the dark side of human nature in order to survive.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1649/93412l.jpg" alt="How Not to Summon a Demon Lord">
+                </div>
+                <div class="details">
+                    <a href="how-not-to-summon-a-demon-lord"><h3>How Not to Summon a Demon Lord</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In How Not to Summon a Demon Lord, a socially awkward gamer is transported into a virtual game world as his character, a powerful Demon Lord. With his vast knowledge of the game and newfound abilities, he must navigate this new world filled with magic and danger. Along the way, he forms unexpected friendships with two girls who also summoned him, as they embark on a quest to uncover the mysteries surrounding their summoning.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/32873l.webp" alt="Haganai: I don't have many friends">
+                </div>
+                <div class="details">
+                    <a href="haganai%3A-i-don%27t-have-many-friends"><h3>Haganai: I don't have many friends</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Kodaka Hasegawa is a high school student who struggles to make friends due to his intimidating looks. He meets the solitary and blunt Yozora Mikazuki, and together they decide to form the Neighbors Club to help each other make friends. Through various hijinks and interactions with other social misfits, the club members navigate the complexities of friendship, self-discovery, and the ups and downs of teenage life.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/79205l.webp" alt="Karin">
+                </div>
+                <div class="details">
+                    <a href="karin"><h3>Karin</h3></a>
+                    <p>Romance</p>
+                    <p>2005</p>
+                    <br>
+                    <p>Karin follows the life of Karin Maaka, a vampire born into a family of vampires who is different from the rest—she produces blood instead of drinking it. She struggles to fit in and keep her secret hidden while navigating high school life. Things take a turn when she meets Kenta Usui, a human boy who discovers her unique condition. As their friendship develops, Karin's world becomes more complicated as she tries to balance her feelings for Kenta and the challenges of being a vampire in a human world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/58383l.jpg" alt="My Bride is a Mermaid">
+                </div>
+                <div class="details">
+                    <a href="my-bride-is-a-mermaid"><h3>My Bride is a Mermaid</h3></a>
+                    <p>Romance</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Nagasumi Michishio's summer vacation takes an unexpected turn when he almost drowns and is saved by a beautiful mermaid named Sun Seto. The catch? According to mermaid law, to maintain their secret existence, Nagasumi must marry Sun or face the consequences. Now navigating high school and adjusting to his new life with a chaotic underwater family, Nagasumi must keep his marriage a secret while dealing with quirky and dangerous mermaid traditions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/75195l.webp" alt="Blue Exorcist">
+                </div>
+                <div class="details">
+                    <a href="blue-exorcist"><h3>Blue Exorcist</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Blue Exorcist follows Rin Okumura, a teenager who discovers he is the son of Satan. Determined to become an exorcist and defeat his demonic heritage, Rin enrolls in True Cross Academy to learn the ways of exorcism. Alongside his classmates, Rin faces various challenges and battles against demons to protect the human world. As he hones his powers and struggles with his identity, Rin must navigate the complex world of exorcism and uncover the truth about his origins.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/74045l.jpg" alt="Infinite Stratos">
+                </div>
+                <div class="details">
+                    <a href="infinite-stratos"><h3>Infinite Stratos</h3></a>
+                    <p>Romance</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Infinite Stratos follows a world where powerful exoskeleton suits named Infinite Stratos are created, but only women can pilot them. Ichika Orimura is the first male capable of controlling an IS unit and is enrolled in an academy exclusively for IS pilots. Surrounded by female classmates, Ichika faces various challenges as he trains to become an IS pilot while also unraveling the mysteries of his unique abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/86578l.webp" alt="Kakegurui">
+                </div>
+                <div class="details">
+                    <a href="kakegurui"><h3>Kakegurui</h3></a>
+                    <p>Mystery</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a prestigious academy where gambling determines social status, a transfer student named Yumeko Jabami joins the school. But she quickly reveals her obsession with the thrill of high-stakes gambling and her exceptional ability to outwit her opponents. As Yumeko navigates the ruthless world of gambling against wealthy and powerful students, her true motives and strategy remain a mystery to those around her.Will she conquer the school with her unparalleled gambling skills?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/39777l.webp" alt="Say "I Love You."">
+                </div>
+                <div class="details">
+                    <a href="say-%22i-love-you.%22"><h3>Say "I Love You."</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Say 'I Love You.' follows the story of Mei Tachibana, a reserved high school student who distances herself from forming friendships due to a past trauma. However, her outlook on relationships begins to change when she accidentally befriends the popular and outgoing Yamato Kurosawa. As Mei navigates the complexities of friendship, love, and self-discovery, she learns to open up to others and trust in her own feelings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/21834l.webp" alt="Claymore">
+                </div>
+                <div class="details">
+                    <a href="claymore"><h3>Claymore</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Claymore follows Clare, a half-human, half-demon warrior known as a Claymore, as she battles Yoma - shape-shifting demons that terrorize villages. As Clare seeks revenge against the Yoma who destroyed her hometown, she teams up with other Claymores to fight the threat. However, as she delves deeper into the world of Claymores, she uncovers dark secrets that could change everything she knows about her existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 20%;"></span>
+                            </div>
+                            <p>20% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1799/114806l.webp" alt="Ground Control to Psychoelectric Girl">
+                </div>
+                <div class="details">
+                    <a href="ground-control-to-psychoelectric-girl"><h3>Ground Control to Psychoelectric Girl</h3></a>
+                    <p>Comedy</p>
+                    <p>2011</p>
+                    <br>
+                    <p>After a dull high school boy discovers a girl claiming to be an alien living in his house, his mundane life takes a bizarre turn. As he gets to know her eccentricities, he is thrust into a world of peculiar occurrences and inexplicable events. Together, they navigate the complexities of friendship, family, and the blurred lines between reality and imagination in this whimsical and heartwarming slice-of-life anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/75550l.webp" alt="Student Council Staff Members">
+                </div>
+                <div class="details">
+                    <a href="student-council-staff-members"><h3>Student Council Staff Members</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>In a prestigious high school, a group of dedicated students come together to form the Student Council. As they navigate the challenges of school life, from organizing events and addressing student concerns to balancing their personal lives, the council members develop deep friendships and discover the importance of working together to make a positive impact on their school community. Through dedication and teamwork, they strive to create a better environment for everyone.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/75521l.jpg" alt="Is This a Zombie?">
+                </div>
+                <div class="details">
+                    <a href="is-this-a-zombie%3F"><h3>Is This a Zombie?</h3></a>
+                    <p>Action</p>
+                    <p>2011</p>
+                    <br>
+                    <p>A normal high school boy is mistakenly resurrected as a zombie by a necromancer named Eucliwood Hellscythe. Now he must navigate the challenges of his undead existence while dealing with other supernatural beings, including a magical girl and a vampire ninja. With his new companions, he must battle evil forces while trying to understand the mysteries surrounding his resurrection. Juggling school life and fighting against dark forces, the boy embarks on a humorous and action-packed adventure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/60781l.webp" alt="Cardcaptor Sakura">
+                </div>
+                <div class="details">
+                    <a href="cardcaptor-sakura"><h3>Cardcaptor Sakura</h3></a>
+                    <p>Drama</p>
+                    <p>1998</p>
+                    <br>
+                    <p>Cardcaptor Sakura follows Sakura Kinomoto, a young girl who accidentally releases a set of magical cards. Tasked with recapturing the cards, Sakura enlists the help of her best friend, Tomoyo, and a magical guardian named Kero. As Sakura captures each card, she must face various challenges and enemies while uncovering the mysteries behind the cards and her own powers. Together, they embark on a whimsical and enchanting adventure to protect the world from the chaos caused by the cards.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/43361l.jpg" alt="The World God Only Knows">
+                </div>
+                <div class="details">
+                    <a href="the-world-god-only-knows"><h3>The World God Only Knows</h3></a>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>Keima Katsuragi is known as the God of Conquest in the gaming world for his ability to conquer dating sim games. However, his skills are put to the test when he is tasked by a demon to capture lost souls disguised as spirits within real girls by making them fall in love with him. Keima must now use his virtual dating expertise in the real world to save these girls from their fate.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

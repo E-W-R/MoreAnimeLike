@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Alice in Deadly School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "33839";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1614/110455l.webp" alt="Alice in Deadly School">
+                <div>
+                    <h2 id="title">Alice in Deadly School</h2>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Alice in Deadly School follows a group of high school students who find themselves trapped in their school after a mysterious earthquake. As the students navigate the deadly obstacles set by their unseen captor, they must work together to unravel the secrets of the school and find a way to escape. With danger lurking around every corner, the students must confront their fears and trust each other to survive.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1783/118956l.jpg" alt="Girls' Frontline">
+                </div>
+                <div class="details">
+                    <a href="girls%27-frontline"><h3>Girls' Frontline</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a chaotic future where military androids have become the primary weapons, a mysterious organization known as Griffin & Kryuger controls a group of elite Tactical Dolls. Among them is a newly activated Tactical Doll named M4A1 who must uncover the truth behind her past and the secrets of the world she lives in. As she battles against various factions, M4A1 and her fellow dolls must navigate through political intrigue and complex betrayals to secure their future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1373/111546l.jpg" alt="Back Arrow">
+                </div>
+                <div class="details">
+                    <a href="back-arrow"><h3>Back Arrow</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world surrounded by a massive wall, a man named Back Arrow mysteriously appears from beyond the wall. With no memories of his past, he embarks on a journey to unveil the secrets of his existence and uncover the truth behind the wall. Along the way, Back Arrow encounters various factions vying for power, leading to epic battles and unexpected alliances as he unravels the mysteries of his origins.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1039/120173l.webp" alt="Cue!">
+                </div>
+                <div class="details">
+                    <a href="cue%21"><h3>Cue!</h3></a>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where music holds immense power, a group of talented individuals known as Cue! compete in the ultimate music competition. Led by a determined young musician, they must face off against rival bands and overcome personal challenges to achieve their dreams of stardom. With friendship, rivalry, and the magic of music at its core, Cue! follows the group's journey as they strive to make their mark in the competitive music industry.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1904/118821l.jpg" alt="Can I Make Your Ears Happy in 180 Seconds?">
+                </div>
+                <div class="details">
+                    <a href="can-i-make-your-ears-happy-in-180-seconds%3F"><h3>Can I Make Your Ears Happy in 180 Seconds?</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Can I Make Your Ears Happy in 180 Seconds? follows the story of a group of aspiring musicians who strive to create the perfect song that will touch people's hearts in just 3 minutes. As they face various challenges and obstacles along the way, they must learn to work together and push their limits to achieve their dreams of success and recognition in the competitive music industry.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1106/111620l.jpg" alt="Azur Lane the Animation">
+                </div>
+                <div class="details">
+                    <a href="azur-lane-the-animation"><h3>Azur Lane the Animation</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where humans fight against mysterious creatures known as the Sirens, powerful warships infused with the spirits of historical naval vessels, called Ship Girls, arise to defend humanity. The story follows a young man named Ayanami who stumbles upon a secret alliance between the extraordinary ship girls from different nations, uniting to fight against the common enemy threatening their world. As they navigate treacherous waters and face formidable foes, the Ship Girls must learn to trust each other and uncover the truth behind the Siren's origins.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1033/116744l.jpg" alt="Alice or Alice">
+                </div>
+                <div class="details">
+                    <a href="alice-or-alice"><h3>Alice or Alice</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Alice or Alice follows the daily lives of twin sisters Alice and Rise as they navigate their close bond and sisterly antics. Despite being identical in appearance, their personalities are polar opposites, leading to a series of comedic situations and heartwarming moments. From sibling rivalry to sisterly support, the series explores the unique dynamics of their relationship as they experience the ups and downs of teenage life together.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

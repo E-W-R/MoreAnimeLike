@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Uta no Prince Sama Revolutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "21439";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/2/73328l.webp" alt="Uta no Prince Sama Revolutions">
+                <div>
+                    <h2 id="title">Uta no Prince Sama Revolutions</h2>
+                    <p>Comedy</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In Uta no Prince Sama Revolutions, follow the aspiring idols of the Saotome Academy as they navigate intense musical competitions, rivalries, and personal growth. Encountering new challenges and opportunities, the talented students must push themselves beyond their limits to achieve their dreams of becoming successful musicians. Will they be able to overcome obstacles and find their own unique musical voice in the competitive world of idol entertainment?</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 99%;"></span>
+                            </div>
+                            <p>99% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/30248l.webp" alt="Uta no Prince Sama">
+                </div>
+                <div class="details">
+                    <a href="uta-no-prince-sama"><h3>Uta no Prince Sama</h3></a>
+                    <p>Comedy</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Uta no Prince Sama follows Haruka Nanami, a talented young songwriter who enrolls in the prestigious Saotome Academy to pursue her dream of becoming a professional composer. She finds herself surrounded by a group of handsome aspiring idols, including the members of the popular boy band STARISH. As Haruka forms close bonds with these aspiring singers, she must navigate the challenges of the music industry and her developing romantic feelings while working towards her goal of creating hit songs.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 58%;"></span>
+                            </div>
+                            <p>58% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/60703l.jpg" alt="Kamigami no Asobi">
+                </div>
+                <div class="details">
+                    <a href="kamigami-no-asobi"><h3>Kamigami no Asobi</h3></a>
+                    <p>Isekai</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Yui Kusanagi is suddenly transported to a mysterious school where she must teach the gods of different mythologies about love and human emotions. With gods such as Zeus, Thor, and Anubis as her students, Yui must navigate through challenges and bond with each god to help them understand the complexities of the human heart. As the gods learn about love, Yui also discovers more about herself and the world around her.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/39495l.jpg" alt="La storia della Arcana Famiglia">
+                </div>
+                <div class="details">
+                    <a href="la-storia-della-arcana-famiglia"><h3>La storia della Arcana Famiglia</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In La storia della Arcana Famiglia, the powerful Arcana Famiglia organization governs the island of Regalo using their mystical powers derived from Tarot cards. Felicita, the daughter of the organization's leader, must participate in a series of duels to determine who will marry her and take over the family. As she navigates through the challenges, Felicita uncovers secrets about her family and the true intentions of those around her. With betrayals and alliances forming, the fate of the Arcana Famiglia hangs in the balance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/81953l.webp" alt="Kiss Him, Not Me!">
+                </div>
+                <div class="details">
+                    <a href="kiss-him%2C-not-me%21"><h3>Kiss Him, Not Me!</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the sudden death of her beloved anime character, Kae Serinuma locks herself in her room for a week and emerges as a slim and attractive girl. Surrounded by a group of handsome boys who all fall for her, she finds herself in the middle of a romantic whirlwind. Despite the attention, Kae's heart still belongs to her fictional crush. As she navigates the affections of her suitors, hilarious and heartwarming antics ensue.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/77363l.webp" alt="Special A (S.A)">
+                </div>
+                <div class="details">
+                    <a href="special-a-%28s.a%29"><h3>Special A (S.A)</h3></a>
+                    <p>Romance</p>
+                    <p>2008</p>
+                    <br>
+                    <p>Hikari is determined to defeat the top student in the school, Kei Takishima, in academics and athletics. Despite her relentless efforts, Kei effortlessly outshines her in every competition. As they clash in various challenges, their rivalry evolves into a deep friendship and eventually love. Special A follows their journey as they navigate school life, friendships, and romantic feelings, all while striving to remain at the top of their class.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/73474l.webp" alt="Seraph of the End: Vampire Reign">
+                </div>
+                <div class="details">
+                    <a href="seraph-of-the-end%3A-vampire-reign"><h3>Seraph of the End: Vampire Reign</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>After a deadly virus decimates humanity, vampires emerge to enslave the remaining population. Yuichiro Hyakuya seeks revenge against the vampires who killed his family and enlists in the Japanese Imperial Demon Army. Alongside his friends, they train to become strong fighters to take down vampires. As secrets unravel and betrayals surface, Yuichiro discovers a power within himself that could change the course of the war between humans and vampires.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/75640l.jpg" alt="Dance with Devils">
+                </div>
+                <div class="details">
+                    <a href="dance-with-devils"><h3>Dance with Devils</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Dance with Devils follows Ritsuka Tachibana, a high school girl who gets entangled in a dangerous supernatural world when a group of handsome demons and vampires start pursuing her. As she navigates the treacherous waters of forbidden romances and dark secrets, Ritsuka must uncover the truth about her own identity and the sinister forces at play. Mixing romance and mystique, this anime delves into the complexities of love and loyalty amidst a backdrop of supernatural intrigue.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

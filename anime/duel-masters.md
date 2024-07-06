@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Duel Masters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "1685";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/3/21506l.webp" alt="Duel Masters">
+                <div>
+                    <h2 id="title">Duel Masters</h2>
+                    <p>Action</p>
+                    <p>2002</p>
+                    <br>
+                    <p>In Duel Masters, a young boy named Shobu dreams of becoming a top Duel Masters player. With the help of his friends, he navigates through intense battles using creatures and spells in the Kaijudo trading card game. As he hones his skills and crafts his deck, Shobu faces formidable opponents and encounters thrilling adventures on his journey to become the Duel Masters champion.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/21568l.jpg" alt="Bakugan Battle Brawlers">
+                </div>
+                <div class="details">
+                    <a href="bakugan-battle-brawlers"><h3>Bakugan Battle Brawlers</h3></a>
+                    <p>Action</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Bakugan Battle Brawlers follows Dan Kuso and his friends as they enter a parallel universe and become involved in a high-stakes game using creatures called Bakugan. As they compete in battles against other Brawlers, they uncover a sinister plot and must work together to protect both worlds from looming danger. With strategy, teamwork, and powerful Bakugan, they fight to save the day and emerge as true champions in this thrilling anime series.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1649/93412l.jpg" alt="How Not to Summon a Demon Lord">
+                </div>
+                <div class="details">
+                    <a href="how-not-to-summon-a-demon-lord"><h3>How Not to Summon a Demon Lord</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In How Not to Summon a Demon Lord, a socially awkward gamer is transported into a virtual game world as his character, a powerful Demon Lord. With his vast knowledge of the game and newfound abilities, he must navigate this new world filled with magic and danger. Along the way, he forms unexpected friendships with two girls who also summoned him, as they embark on a quest to uncover the mysteries surrounding their summoning.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/86468l.jpg" alt="Eromanga Sensei">
+                </div>
+                <div class="details">
+                    <a href="eromanga-sensei"><h3>Eromanga Sensei</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Eromanga Sensei follows high school student Masamune Izumi, a light novel author who collaborates with a mysterious illustrator known as Eromanga Sensei. Masamune soon discovers that Eromanga Sensei is his reclusive younger step-sister Sagiri. Together, they navigate the challenges of the publishing industry and form a heartwarming bond as they work together to create popular light novels. However, their journey is filled with comedic mishaps and unexpected developments that test their relationship.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1429/127983l.webp" alt="Beyblade">
+                </div>
+                <div class="details">
+                    <a href="beyblade"><h3>Beyblade</h3></a>
+                    <p>Sports</p>
+                    <p>2001</p>
+                    <br>
+                    <p>In Beyblade, young bladers compete in intense battles using customizable spinning tops called Beyblades. The main character, Tyson, dreams of becoming the world's greatest Beyblade champion. Along with his friends Kai, Max, and Ray, they form the Bladebreakers and travel the world to hone their skills and compete in tournaments. As they face various opponents and challenges, they strive to perfect their techniques and teamwork to achieve victory.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

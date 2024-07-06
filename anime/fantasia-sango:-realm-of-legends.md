@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Fantasia Sango: Realm of Legends</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "49514";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1831/122007l.jpg" alt="Fantasia Sango: Realm of Legends">
+                <div>
+                    <h2 id="title">Fantasia Sango: Realm of Legends</h2>
+                    <p>Other Genre</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where humans and supernatural beings coexist, a powerful artifact called the Sango is said to grant immense power to whoever possesses it. Factions of different races fight to control the Sango, leading to a war that threatens the delicate balance of the realm. As chaos engulfs the land, a group of unlikely heroes must band together to prevent disaster and uncover the truth behind the ancient legend of the Sango.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <p>80% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1475/120394l.jpg" alt="Futsal Boys!!!!!">
+                </div>
+                <div class="details">
+                    <a href="futsal-boys%21%21%21%21%21"><h3>Futsal Boys!!!!!</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Futsal Boys!!!!! follows a group of high school boys who form a futsal (indoor soccer) team to compete in tournaments and improve their skills. With each member bringing their own unique playing style and personality to the team, they must work together to overcome challenges both on and off the court. As they train, bond, and face off against formidable opponents, the boys strive to reach their ultimate goal of becoming futsal champions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1652/118466l.jpg" alt="Deep Insanity: The Lost Child">
+                </div>
+                <div class="details">
+                    <a href="deep-insanity%3A-the-lost-child"><h3>Deep Insanity: The Lost Child</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where a mysterious illness turns people into monsters, a group of medical professionals known as Oni Doctors embark on a dangerous journey to find a cure. Among them is a young and talented doctor named Ritsu, who must navigate through treacherous lands filled with danger and mystery. As they uncover the truth behind the epidemic, they face unimaginable challenges that test their strength and determination.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1783/118956l.jpg" alt="Girls' Frontline">
+                </div>
+                <div class="details">
+                    <a href="girls%27-frontline"><h3>Girls' Frontline</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a chaotic future where military androids have become the primary weapons, a mysterious organization known as Griffin & Kryuger controls a group of elite Tactical Dolls. Among them is a newly activated Tactical Doll named M4A1 who must uncover the truth behind her past and the secrets of the world she lives in. As she battles against various factions, M4A1 and her fellow dolls must navigate through political intrigue and complex betrayals to secure their future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1635/117200l.webp" alt="D_Cide Traumerei the Animation">
+                </div>
+                <div class="details">
+                    <a href="d_cide-traumerei-the-animation"><h3>D_Cide Traumerei the Animation</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In D_Cide Traumerei the Animation, high school student Rando suddenly finds himself plunged into a dangerous and mysterious world known as the Shadowside. Teaming up with a group of other individuals with unique abilities, they must fight against menacing creatures called Nightmares that threaten both the Shadowside and the real world. As Rando learns more about his newfound powers and the truth behind the Shadowside's existence, he embarks on a perilous journey full of unexpected twists and challenges.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1387/134151l.jpg" alt="Summoned to Another World for a Second Time">
+                </div>
+                <div class="details">
+                    <a href="summoned-to-another-world-for-a-second-time"><h3>Summoned to Another World for a Second Time</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After being summoned to a fantasy world once, protagonist Yuji finds himself back in the same world, but with his memories intact. Determined to use his knowledge to change his fate this time, Yuji sets out on a new adventure filled with magic, battles, and unexpected twists. With a second chance at life in this mysterious realm, Yuji must navigate new challenges and make choices that will shape his destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1849/95019l.jpg" alt="Conception">
+                </div>
+                <div class="details">
+                    <a href="conception"><h3>Conception</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In a fantasy world, Conception follows Itsuki, who is summoned to save imperiled worlds by mating with twelve maidens from the star constellations. Together with his childhood friend, Mahiru, they must navigate challenges and battles in each world they visit, conceiving Star Children to aid them. As they journey through these strange realms, Itsuki's resolve is tested as he reinforces bonds with the maidens and uncovers the mysteries behind their quest.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1158/141710l.jpg" alt="The Banished Former Hero Lives as He Pleases">
+                </div>
+                <div class="details">
+                    <a href="the-banished-former-hero-lives-as-he-pleases"><h3>The Banished Former Hero Lives as He Pleases</h3></a>
+                    <p>Action</p>
+                    <p>2024</p>
+                    <br>
+                    <p>After being banished from his world, the former hero decides to live a carefree life in a remote village. Despite his overwhelming power, he chooses to keep a low profile and avoid conflict. However, when dark forces threaten the peace of his new home, he must decide whether to continue hiding his abilities or step up to protect those he has come to care for.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1384/127328l.jpg" alt="I've Somehow Gotten Stronger When I Improved My Farm-Related Skills">
+                </div>
+                <div class="details">
+                    <a href="i%27ve-somehow-gotten-stronger-when-i-improved-my-farm-related-skills"><h3>I've Somehow Gotten Stronger When I Improved My Farm-Related Skills</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After a chance discovery, a young farmer realizes that improving his farming skills enhances his physical abilities as well. Now, with newfound strength, he decides to embark on a journey to explore his powers further while continuing to cultivate his farm. Along the way, he encounters challenges that test both his farming and combat skills, leading him to uncover the true extent of his remarkable abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1160/138465l.jpg" alt="Protocol: Rain">
+                </div>
+                <div class="details">
+                    <a href="protocol%3A-rain"><h3>Protocol: Rain</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a future world where humans have built a protective dome to shield themselves from the toxic rain outside, a group of skilled individuals known as Rain Protectors risk their lives to retrieve essential resources. When a rookie Rain Protector uncovers a dark secret about the true nature of the rain, she must decide whether to follow orders or challenge the authorities to uncover the truth and potentially save humanity from impending disaster.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1729/141091l.webp" alt="Shine On! Bakumatsu Bad Boys">
+                </div>
+                <div class="details">
+                    <a href="shine-on%21-bakumatsu-bad-boys"><h3>Shine On! Bakumatsu Bad Boys</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Shine On! Bakumatsu Bad Boys, a group of rebellious samurai in the final years of the Edo period come together to overthrow the corrupt shogunate. With their unique skills and unwavering determination, they navigate the dangerous political landscape of the Bakumatsu era, facing betrayal and battles along the way. As they fight for justice and a better future for Japan, their bond is tested, and they must come to terms with the sacrifices required for their cause.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1634/114551l.jpg" alt="Blue Reflection Ray">
+                </div>
+                <div class="details">
+                    <a href="blue-reflection-ray"><h3>Blue Reflection Ray</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Blue Reflection Ray follows the story of Ruka and Ao, two high school girls who gain the power to transform into magical warriors known as Reflector. They must battle dangerous creatures called Sephira that threaten their world. Along the way, they uncover the truth behind their newfound powers and form deep bonds with their classmates as they navigate the challenges of adolescence and the responsibilities that come with being magical girls.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 21%;"></span>
+                            </div>
+                            <p>21% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1885/109122l.jpg" alt="King's Raid: Successors of the Will">
+                </div>
+                <div class="details">
+                    <a href="king%27s-raid%3A-successors-of-the-will"><h3>King's Raid: Successors of the Will</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In the kingdom of Orvelia, a group of heroes must band together to protect their land from the threats that loom over them. When a powerful dark force emerges, they must uncover ancient secrets and wield the power of the legendary artifacts known as the Kingsraid to save their kingdom. With the fate of Orvelia hanging in the balance, these successors of the will must rise to the challenge and prove themselves as true heroes.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1558/113940l.jpg" alt="Hortensia SAGA">
+                </div>
+                <div class="details">
+                    <a href="hortensia-saga"><h3>Hortensia SAGA</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In the kingdom of Hortensia, a young protagonist must navigate political turmoil and warfare as different factions vie for power and control. With alliances constantly shifting and betrayal lurking in every corner, our hero must rise up and lead their allies to protect the kingdom from chaos and destruction. Set in a medieval fantasy world, Hortensia Saga is a tale of courage, honor, and the struggle for a better tomorrow.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1014/117452l.webp" alt="Build-Divide -#000000- Code Black">
+                </div>
+                <div class="details">
+                    <a href="build-divide--%23000000--code-black"><h3>Build-Divide -#000000- Code Black</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a futuristic world where virtual reality games reign supreme, a mysterious black code threatens to destroy the digital realm. As players scramble to uncover the truth behind the enigmatic code, alliances are formed, betrayals are revealed, and the line between reality and the virtual world blurs. With high-stakes battles and unexpected twists at every turn, Build-Divide -#000000- Code Black follows a group of gamers as they race against time to save their beloved game from impending doom.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

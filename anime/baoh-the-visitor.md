@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Baoh the Visitor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "1468";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1274/112464l.jpg" alt="Baoh the Visitor">
+                <div>
+                    <h2 id="title">Baoh the Visitor</h2>
+                    <p>Action</p>
+                    <p>1989</p>
+                    <br>
+                    <p>Baoh is a teenager who gains extraordinary abilities after being experimented on by a secret organization. Using his newfound powers, he seeks to escape his captors and uncover the truth behind their sinister motives. Alongside a mysterious girl named Sumire, Baoh must evade the organization's relentless assassins while coming to terms with his own inner turmoil. With danger at every turn, Baoh must harness his powers to survive and protect those he cares about.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 68%;"></span>
+                            </div>
+                            <p>68% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/17896l.jpg" alt="Bio Hunter">
+                </div>
+                <div class="details">
+                    <a href="bio-hunter"><h3>Bio Hunter</h3></a>
+                    <p>Action</p>
+                    <p>1995</p>
+                    <br>
+                    <p>In Bio Hunter, two scientists investigate a mysterious virus that mutates humans into monstrous creatures. When one of the scientists becomes infected, his friend must find a cure before it's too late. As they delve deeper into the origins of the virus, they uncover a sinister conspiracy that threatens all of mankind. With time running out, they must confront their own inner demons and make a difficult choice to save humanity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1645/94523l.jpg" alt="Black Magic M-66">
+                </div>
+                <div class="details">
+                    <a href="black-magic-m-66"><h3>Black Magic M-66</h3></a>
+                    <p>Action</p>
+                    <p>1987</p>
+                    <br>
+                    <p>In a futuristic world, two deadly combat robots, codenamed M-66, are unleashed to track down a renowned scientist's niece. As the machines wreak havoc, a fearless journalist and the niece herself must evade the robots' relentless pursuit and uncover the truth behind the sinister scheme that set them loose. With time running out, they must outwit these unstoppable killing machines to survive and prevent a catastrophic disaster.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/33209l.jpg" alt="Dragon's Heaven">
+                </div>
+                <div class="details">
+                    <a href="dragon%27s-heaven"><h3>Dragon's Heaven</h3></a>
+                    <p>Action</p>
+                    <p>1988</p>
+                    <br>
+                    <p>In a post-apocalyptic world, the last remaining dragon awakens to find a young girl named Iko who can communicate with him through music. Together, they set out on a journey to uncover the mysteries of their world and confront the powerful forces that seek to control the dragon's immense power. As they battle formidable enemies and forge an unbreakable bond, they discover the true meaning of courage and friendship in their quest for freedom and peace.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1538/95686l.webp" alt="Dagashi Kashi">
+                </div>
+                <div class="details">
+                    <a href="dagashi-kashi"><h3>Dagashi Kashi</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Dagashi Kashi, Kokonotsu Shikada is trying to decide whether to take over his family's dagashi (Japanese snack) store. His peaceful life is disrupted when a quirky girl named Hotaru Shidare appears, determined to recruit his father to work at her family's big candy company. To convince Kokonotsu's father, she challenges Kokonotsu to learn more about the world of dagashi. As Kokonotsu learns about different snacks, he also grows closer to Hotaru.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1377/110296l.jpg" alt="Angel Cop">
+                </div>
+                <div class="details">
+                    <a href="angel-cop"><h3>Angel Cop</h3></a>
+                    <p>Action</p>
+                    <p>1989</p>
+                    <br>
+                    <p>In a futuristic Tokyo, a special government force known as the Special Security Section battles against a group of bio-engineered terrorists who possess powerful psychic abilities. As tensions escalate, one member of the team, Angel, begins to uncover a conspiracy that goes beyond just the terrorist threat. With her newfound knowledge, Angel must navigate political corruption and personal vendettas to protect the city from an impending danger.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1419/99205l.jpg" alt="Bastard!!">
+                </div>
+                <div class="details">
+                    <a href="bastard%21%21"><h3>Bastard!!</h3></a>
+                    <p>Action</p>
+                    <p>1992</p>
+                    <br>
+                    <p>In a world threatened by the dark wizard, Dark Schneider, a young noble named Tia seeks the help of the brash and unreliable wizard. Together with a group of powerful allies, they embark on a journey to save their kingdom and defeat the forces of evil. Filled with intense battles and magical showdowns, Bastard!! follows the adventures of this unlikely group as they fight against powerful enemies and uncover the secrets of their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/18490l.webp" alt="Call Me Tonight">
+                </div>
+                <div class="details">
+                    <a href="call-me-tonight"><h3>Call Me Tonight</h3></a>
+                    <p>Romance</p>
+                    <p>1986</p>
+                    <br>
+                    <p>Rumi is a shy high school student who has the ability to transform into a sexy pop singer named Misty. When a client contacts a radio show seeking advice for his supernatural problem, Rumi transforms into Misty to help. As they delve deeper into the client's issue, Rumi and the client find themselves facing a dangerous and terrifying situation that only Misty's special abilities can resolve.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/50551l.jpg" alt="[C] CONTROL - The Money and Soul of Possibility">
+                </div>
+                <div class="details">
+                    <a href="%5Bc%5D-control---the-money-and-soul-of-possibility"><h3>[C] CONTROL - The Money and Soul of Possibility</h3></a>
+                    <p>Mystery</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Kimimaro Yoga is a college student struggling to make ends meet until he is introduced to the Financial District, where individuals can wager their future in high-stakes battles. With the help of his Asset Mashu, Kimimaro must navigate this cutthroat world of economics and danger to protect his future and uncover the dark secrets behind the Financial District.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/3751l.jpg" alt="Genocyber">
+                </div>
+                <div class="details">
+                    <a href="genocyber"><h3>Genocyber</h3></a>
+                    <p>Psychological</p>
+                    <p>1994</p>
+                    <br>
+                    <p>In a futuristic world torn by war and political unrest, the mysterious Genocyber, a powerful biological weapon, is unleashed on society. Two sisters, caught in the chaos, find themselves connected to this destructive force and must navigate through a world filled with betrayal, violence, and the dark secrets of their past. As they struggle to control the Genocyber's awesome power, they are drawn into a conflict that threatens to consume everything in its path.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1808/111697l.jpg" alt="Gleipnir">
+                </div>
+                <div class="details">
+                    <a href="gleipnir"><h3>Gleipnir</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>High school student Shuichi Kagaya can transform into a powerful monster with a mysterious suit he wears. When he saves a classmate, Claire Aoki, from a fire, she discovers his secret and blackmails him into helping her search for her sister. Together, they enter a dangerous game where others with similar abilities will stop at nothing to achieve their goals. As they unravel the truth behind their powers, Shuichi and Claire must navigate dark secrets and intense battles.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/41257l.jpg" alt="Battle Angel Alita">
+                </div>
+                <div class="details">
+                    <a href="battle-angel-alita"><h3>Battle Angel Alita</h3></a>
+                    <p>Drama</p>
+                    <p>1993</p>
+                    <br>
+                    <p>In a post-apocalyptic world, a kind scientist discovers a cyborg girl with no memories. He names her Alita and helps her navigate the dangerous streets of Iron City. As she learns about her mysterious past and incredible fighting abilities, Alita becomes determined to uncover the truth. With thrilling battles and powerful adversaries, Alita must fight to protect her loved ones and herself.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/79164l.jpg" alt="Kabaneri of the Iron Fortress">
+                </div>
+                <div class="details">
+                    <a href="kabaneri-of-the-iron-fortress"><h3>Kabaneri of the Iron Fortress</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world overrun by monstrous creatures known as Kabane, humans seek refuge in heavily fortified stations. A young engineer, Ikoma, creates a powerful weapon to fight back against the Kabane, becoming a Kabaneri - a hybrid between human and Kabane. Together with a group of survivors, including the enigmatic Mumei, they embark on a dangerous journey to reach safety and uncover the truth behind the Kabane outbreak. Betrayal, action, and survival define their path in this thrilling post-apocalyptic anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1016/107222l.webp" alt="Darwin's Game">
+                </div>
+                <div class="details">
+                    <a href="darwin%27s-game"><h3>Darwin's Game</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Sudou Kaname is an ordinary high school student who receives an invitation to download a mysterious mobile app called Darwin's Game. Little does he know that this app plunges him into a deadly game where players must fight each other using unique powers. As Kaname navigates the treacherous world of Darwin's Game, he must uncover the secrets behind the game and fight for survival against ruthless opponents.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1886/128266l.webp" alt="Noragami">
+                </div>
+                <div class="details">
+                    <a href="noragami"><h3>Noragami</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>High school girl Hiyori Iki saves a deity named Yato from an oncoming bus, leading her to become a wandering spirit. Yato dreams of becoming a famous god, but struggles to gain a following and make ends meet. Teaming up with Yato and his weapon Yukine, Hiyori embarks on supernatural adventures to help both humans and spirits, while uncovering more about Yato's mysterious past. Together, they navigate the complexities of the spirit world, facing challenges and enemies along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/75789l.webp" alt="Canaan">
+                </div>
+                <div class="details">
+                    <a href="canaan"><h3>Canaan</h3></a>
+                    <p>Mystery</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Canaan, featuring an intricate storyline, an ex-soldier and current mercenary struggles with her traumatic past. She crosses paths with a journalist and a young girl, and together they face a terrorist organization plotting a deadly attack. As they uncover the dark secrets behind the group and their own connections to it, they find themselves entangled in a dangerous web of conspiracy and betrayal.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/89563l.jpg" alt="Blade Runner: Black Out 2022">
+                </div>
+                <div class="details">
+                    <a href="blade-runner%3A-black-out-2022"><h3>Blade Runner: Black Out 2022</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In Blade Runner: Black Out 2022, set three years after the events of the original Blade Runner movie, a group of Replicant freedom fighters orchestrates a massive blackout in Los Angeles to erase the Replicant registry. As chaos ensues, the Replicants fight for their right to exist and challenge the oppressive system that seeks to control them. With stunning animation and intense action sequences, this short film explores themes of identity, rebellion, and the struggle for freedom in a dystopian future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1732/96096l.jpg" alt="Cencoroll">
+                </div>
+                <div class="details">
+                    <a href="cencoroll"><h3>Cencoroll</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>In Cencoroll, a high school student named Tetsu encounters a mysterious shape-shifting creature named Cenco. As they develop a unique bond, they find themselves drawn into a series of unexpected events involving other creatures like Cenco. Tetsu must navigate these challenges while uncovering the truth behind Cenco's existence and the secrets of their town. Action-packed and full of unexpected twists, Cencoroll delves into the thrilling adventures of Tetsu and Cenco as they face unknown dangers together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1498/134443l.jpg" alt="Tokyo Ghoul">
+                </div>
+                <div class="details">
+                    <a href="tokyo-ghoul"><h3>Tokyo Ghoul</h3></a>
+                    <p>Psychological</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Tokyo Ghoul, Kaneki finds himself transformed into a half-ghoul after a chance encounter with one of these flesh-eating creatures. Struggling to adapt to his new ghoul instincts while craving human flesh, Kaneki must navigate a world where ghouls are hunted by humans and vice versa. As he delves deeper into the ghoul society, Kaneki discovers dark secrets and must make difficult choices to protect his loved ones and himself.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

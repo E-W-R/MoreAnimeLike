@@ -7,17 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="about.css">
+    <link id="stylesheet" rel="stylesheet" href="about.css">
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
     <header>
-        <a href="index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="index" class="home-icon"><i class="fas fa-home"></i></a>
         <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
         <div class="header-content">
             <h1>Find more anime like: </h1>
             <div class="search-container">
-                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
                 <div id="autocomplete-list" class="autocomplete-items"></div>
             </div>
         </div>
@@ -26,9 +26,9 @@
             <span class="slider round"></span>
         </label>
     </header>
-    <p id="tagline"><a href="about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <p id="tagline"><a href="about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
     <div class="black-bar"></div>
-    <script src="script.js"></script>
+    <script src="about.js"></script>
     <main>
         <h2>About the Website</h2>
 
@@ -42,7 +42,7 @@
             
         <p>That used to be me, so I fixed the problem.</p>
             
-        <p>One website, 2026 anime, 56943 recommendations, no ads, no meandering introductions, and one really good algorithm.</p>
+        <p>One website. 2,026 anime. 56,943 recommendations. No ads. No meandering introductions. And one really good algorithm.</p>
         
         <br>
 
@@ -50,7 +50,7 @@
             
         <p>Anime nerds like to keep track of everything they’ve watched. So they turn to sites like MyAnimeList and AniList for logging and rating. This gives us a lot of data to work with.</p>
             
-        <p>Too much data, really. So I only looked at 102615 different people’s opinions. Which took a lot of space on my computer.</p>
+        <p>Too much data, really. So I only looked at 102,615 different people’s opinions. Or 20,943,778 ratings in total. Which took a lot of space on my computer.</p>
             
         <p>But yeah. Basically we say that two anime are similar if the people we have data on tended to give them similar ratings.</p>
             
@@ -67,6 +67,8 @@
         <p>Evan</p>
 
         <img src="coding.png" width="100">
+
+        <br><br>
     </main>
 </body>
 </html>

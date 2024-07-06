@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Shachibato! President, It's Time for Battle!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "40783";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1044/106309l.jpg" alt="Shachibato! President, It's Time for Battle!">
+                <div>
+                    <h2 id="title">Shachibato! President, It's Time for Battle!</h2>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where dungeons have emerged, companies led by Presidents must send employees to conquer them. When Minato takes over his late father's company, he's thrust into this dangerous work. With a quirky team of employees by his side, he navigates the challenging dungeons and faces off against formidable foes to ensure the company's success. Can Minato rise to the occasion and lead his team to victory?</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 73%;"></span>
+                            </div>
+                            <p>73% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1079/114017l.jpg" alt="Seven Knights Revolution: Hero Successor">
+                </div>
+                <div class="details">
+                    <a href="seven-knights-revolution%3A-hero-successor"><h3>Seven Knights Revolution: Hero Successor</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In a world where magical creatures called Sandstar threaten humanity, the Seven Knights Organization fights to protect the people. Nemo, a young man with a mysterious past, joins the organization and sets out on a journey with his fellow Knights to uncover the secrets behind the Sandstar and unlock their true potential. As they face powerful enemies and challenges along the way, Nemo must become the hero successor who will save the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 61%;"></span>
+                            </div>
+                            <p>61% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1384/127328l.jpg" alt="I've Somehow Gotten Stronger When I Improved My Farm-Related Skills">
+                </div>
+                <div class="details">
+                    <a href="i%27ve-somehow-gotten-stronger-when-i-improved-my-farm-related-skills"><h3>I've Somehow Gotten Stronger When I Improved My Farm-Related Skills</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After a chance discovery, a young farmer realizes that improving his farming skills enhances his physical abilities as well. Now, with newfound strength, he decides to embark on a journey to explore his powers further while continuing to cultivate his farm. Along the way, he encounters challenges that test both his farming and combat skills, leading him to uncover the true extent of his remarkable abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 61%;"></span>
+                            </div>
+                            <p>61% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1558/113940l.jpg" alt="Hortensia SAGA">
+                </div>
+                <div class="details">
+                    <a href="hortensia-saga"><h3>Hortensia SAGA</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In the kingdom of Hortensia, a young protagonist must navigate political turmoil and warfare as different factions vie for power and control. With alliances constantly shifting and betrayal lurking in every corner, our hero must rise up and lead their allies to protect the kingdom from chaos and destruction. Set in a medieval fantasy world, Hortensia Saga is a tale of courage, honor, and the struggle for a better tomorrow.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1885/109122l.jpg" alt="King's Raid: Successors of the Will">
+                </div>
+                <div class="details">
+                    <a href="king%27s-raid%3A-successors-of-the-will"><h3>King's Raid: Successors of the Will</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In the kingdom of Orvelia, a group of heroes must band together to protect their land from the threats that loom over them. When a powerful dark force emerges, they must uncover ancient secrets and wield the power of the legendary artifacts known as the Kingsraid to save their kingdom. With the fate of Orvelia hanging in the balance, these successors of the will must rise to the challenge and prove themselves as true heroes.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1562/100460l.webp" alt="Fairy Gone">
+                </div>
+                <div class="details">
+                    <a href="fairy-gone"><h3>Fairy Gone</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After Fairies possess animals during a mysterious incident, they become weapons used in warfare. The story follows Marlya, a survivor of the incident, as she joins an organization that investigates and deals with crimes involving Fairies. Alongside her newfound comrades, Marlya seeks the truth behind the incident that changed her life. As political tensions rise and dark secrets are revealed, they unravel a conspiracy that may shake the very foundations of their world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1506/138529l.jpg" alt="The Demon Sword Master of Excalibur Academy">
+                </div>
+                <div class="details">
+                    <a href="the-demon-sword-master-of-excalibur-academy"><h3>The Demon Sword Master of Excalibur Academy</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where demons threaten humanity, the Excalibur Academy trains talented individuals to become powerful Demon Sword Masters. Ray, a young orphan with mysterious powers, enrolls in the academy to uncover the secrets of his past. With the help of his friends and mentors, Ray must navigate intense training, fierce battles, and dark conspiracies to become the strongest Demon Sword Master and protect the world from impending doom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1072/111360l.webp" alt="Shironeko Project ZERO CHRONICLE">
+                </div>
+                <div class="details">
+                    <a href="shironeko-project-zero-chronicle"><h3>Shironeko Project ZERO CHRONICLE</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In the world of Light and Darkness, a heroic prince sets out on a quest to save his kingdom from the threat of destruction. Alongside a mysterious masked girl, the prince embarks on a journey to protect the world's balance and uncover the secrets of their intertwined fates. With battles, magic, and political intrigue at every turn, they must navigate a treacherous landscape to bring peace to their fractured realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1093/113944l.jpg" alt="Sorcerous Stabber Orphen">
+                </div>
+                <div class="details">
+                    <a href="sorcerous-stabber-orphen"><h3>Sorcerous Stabber Orphen</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Orphen, a powerful sorcerer, embarks on a quest to find his childhood friend Azalie, who has been cursed and transformed into a dragon. Alongside his companions, including a young apprentice named Majic, Orphen faces numerous challenges and adversaries in his journey. As he unravels the mysteries of Azalie's curse and his own past, Orphen must confront his inner demons and make difficult choices to save his friend and protect the world from dark forces.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1299/106117l.jpg" alt="Hatena Illusion">
+                </div>
+                <div class="details">
+                    <a href="hatena-illusion"><h3>Hatena Illusion</h3></a>
+                    <p>Romance</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Makoto Shiranui dreams of becoming a master illusionist like his vanished parents. He moves in with a wealthy family and reunites with his childhood friend Kana, who aspires to be a magician. Together, they navigate the mysterious world of magic while uncovering secrets of the family's past. As they train and perform tricks, they encounter rivals and eerie supernatural occurrences, all while striving to achieve their dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1282/102248l.webp" alt="Isekai Cheat Magician">
+                </div>
+                <div class="details">
+                    <a href="isekai-cheat-magician"><h3>Isekai Cheat Magician</h3></a>
+                    <p>Isekai</p>
+                    <p>2019</p>
+                    <br>
+                    <p>After being transported to a fantasy world, Taichi and Rin discover they possess incredible magical abilities. As they navigate this new world, they befriend allies and face dangerous foes, using their powers to protect those they care about. With their strong bond and growing skills, Taichi and Rin work together to uncover the secrets of their magical gifts and the truth behind their sudden arrival in this mysterious realm.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1132/120388l.jpg" alt="The Strongest Sage with the Weakest Crest">
+                </div>
+                <div class="details">
+                    <a href="the-strongest-sage-with-the-weakest-crest"><h3>The Strongest Sage with the Weakest Crest</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where magical abilities dictate one's worth, Mathias, possessing the weakest crest, is labeled as a failure. But when an ancient power awakens within him, he becomes the strongest sage. Determined to prove his strength, Mathias embarks on a journey to protect his loved ones and uncover the truth behind his newfound powers. As he faces formidable foes and challenges, Mathias must learn to control his abilities and fulfill his destiny as the legendary sage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1387/134151l.jpg" alt="Summoned to Another World for a Second Time">
+                </div>
+                <div class="details">
+                    <a href="summoned-to-another-world-for-a-second-time"><h3>Summoned to Another World for a Second Time</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After being summoned to a fantasy world once, protagonist Yuji finds himself back in the same world, but with his memories intact. Determined to use his knowledge to change his fate this time, Yuji sets out on a new adventure filled with magic, battles, and unexpected twists. With a second chance at life in this mysterious realm, Yuji must navigate new challenges and make choices that will shape his destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1787/115817l.webp" alt="Drug Store in Another World: The Slow Life of a Cheat Pharmacist">
+                </div>
+                <div class="details">
+                    <a href="drug-store-in-another-world%3A-the-slow-life-of-a-cheat-pharmacist"><h3>Drug Store in Another World: The Slow Life of a Cheat Pharmacist</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Reiji Kirio is transported to another world where he opens a drugstore. With his knowledge of pharmaceuticals from his previous life, Reiji uses his skills to create potions that can heal various ailments. Settling into a slow-paced life, he meets unique characters who come to rely on his remedies. As he navigates this new world, Reiji finds fulfillment in helping others and discovers the true value of his abilities as a cheat pharmacist.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1579/136295l.jpg" alt="My Unique Skill Makes Me OP Even at Level 1">
+                </div>
+                <div class="details">
+                    <a href="my-unique-skill-makes-me-op-even-at-level-1"><h3>My Unique Skill Makes Me OP Even at Level 1</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where everyone is born with a unique ability, a young boy named Hiro discovers that his power is unlike anything seen before: the ability to level up instantly. Despite starting at level 1, Hiro's potential for growth is limitless. With his newfound power, he ventures out to explore the world, facing challenges and enemies along the way. As Hiro's strength rapidly increases, he must navigate the complexities of his extraordinary skill and the responsibilities that come with it.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1589/106391l.jpg" alt="Listeners">
+                </div>
+                <div class="details">
+                    <a href="listeners"><h3>Listeners</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where music doesn't exist, Echo stumbles upon a mysterious girl named μ who has no memories but is able to produce music. Together, they embark on a journey to uncover the truth behind her abilities and the mysterious past of the city. Along the way, they encounter dangerous Earless creatures and other music-loving rebels as they seek to bring music back to the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1956/94914l.jpg" alt="Seven Senses of the Re'Union">
+                </div>
+                <div class="details">
+                    <a href="seven-senses-of-the-re%27union"><h3>Seven Senses of the Re'Union</h3></a>
+                    <p>Action</p>
+                    <p>2018</p>
+                    <br>
+                    <p>In Seven Senses of the Re'Union, Haruto enters a virtual reality MMORPG game with his friends. When one of their companions mysteriously disappears, the group severs ties. Years later, they reunite to uncover the truth behind the game's shut down and the vanishing of their friend. As they delve deeper, they confront long-buried secrets and a menacing presence threatening their reunion.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1063/98597l.jpg" alt="Ultramarine Magmell">
+                </div>
+                <div class="details">
+                    <a href="ultramarine-magmell"><h3>Ultramarine Magmell</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In Ultramarine Magmell, the sudden appearance of a new continent called Magmell leads to a surge in exploration for its unique resources. Follow the adventures of a young rescue specialist named Inyo as he navigates the dangers of this uncharted land, uncovering mysteries and helping those in need. With his special abilities and determination, Inyo faces various challenges and encounters both friends and foes in this thrilling expedition into the unknown territory of Magmell.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1874/100747l.jpg" alt="Chidori RSC">
+                </div>
+                <div class="details">
+                    <a href="chidori-rsc"><h3>Chidori RSC</h3></a>
+                    <p>Sports</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Chidori RSC follows a high school girl named Hikari who joins her school's airsoft shooting club, Chidori Rifle Shooting Club. Despite having no previous experience with firearms, she slowly immerses herself in the world of airsoft and strives to improve her skills alongside her new teammates. Through training, competitions, and friendships, Hikari discovers her passion for the sport and the camaraderie it brings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1583/119223l.webp" alt="She Professed Herself Pupil of the Wise Man">
+                </div>
+                <div class="details">
+                    <a href="she-professed-herself-pupil-of-the-wise-man"><h3>She Professed Herself Pupil of the Wise Man</h3></a>
+                    <p>Isekai</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a virtual reality MMORPG, a player named Kagami decides to role-play as an old wise man character named Dunbalf. After a major update, the game transforms into a new world where Kagami's character becomes real. Now a young girl in Dunbalf's form, she navigates the game world and uncovers her new powers as she continues her journey as the Wise Man. With her knowledge of the game, she sets out on an adventure to explore this new reality.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/63363l.jpg" alt="If Her Flag Breaks">
+                </div>
+                <div class="details">
+                    <a href="if-her-flag-breaks"><h3>If Her Flag Breaks</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Souta Hatate has an unusual ability to see flags above people's heads, indicating their future actions. Enrolling in a new school, he encounters several girls each with their own tragic pasts. Determined to change their fates, Souta uses his powers to navigate relationships and unravel mysteries surrounding the girls. As he delves deeper into their lives, Souta soon realizes the consequences of altering destiny and must make difficult choices to protect those he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1225/102250l.jpg" alt="Do You Love Your Mom and Her Two-Hit Multi-Target Attacks?">
+                </div>
+                <div class="details">
+                    <a href="do-you-love-your-mom-and-her-two-hit-multi-target-attacks%3F"><h3>Do You Love Your Mom and Her Two-Hit Multi-Target Attacks?</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Masato Oosuki is transported into a video game world with his overpowered, doting mother, Mamako. The catch? Mamako is determined to join Masato's party and protect him at all costs, much to his embarrassment. As they embark on a quest filled with comedic twists and turns, Masato must navigate not only the challenges of the game but also his complicated relationship with his loving mother.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1975/121513l.jpg" alt="Miss Kuroitsu from the Monster Development Department">
+                </div>
+                <div class="details">
+                    <a href="miss-kuroitsu-from-the-monster-development-department"><h3>Miss Kuroitsu from the Monster Development Department</h3></a>
+                    <p>Comedy</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Miss Kuroitsu from the Monster Development Department, Kuroitsu, a diligent worker in the Monster Development Department, creates various monsters for clients. Despite her kind nature, she often faces challenges due to her colleague's incompetence. With her determination and creativity, Kuroitsu strives to meet her clients' expectations and navigate the chaos in the department. Alongside her quirky coworkers, she embarks on wacky adventures in the world of monster development.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1049/131580l.jpg" alt="The Iceblade Sorcerer Shall Rule the World">
+                </div>
+                <div class="details">
+                    <a href="the-iceblade-sorcerer-shall-rule-the-world"><h3>The Iceblade Sorcerer Shall Rule the World</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where magic reigns supreme, a powerful sorcerer known as the Iceblade Sorcerer rises to claim dominance over the realms. With unrivaled ice magic at their disposal, this sorcerer seeks to bring all lands under their rule. Across the kingdoms, brave warriors and skilled mages band together to thwart the sorcerer's conquest, sparking a thrilling clash of magic and swords. The fate of the world hangs in the balance as the ultimate battle for power unfolds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1250/135256l.jpg" alt="My One-Hit Kill Sister">
+                </div>
+                <div class="details">
+                    <a href="my-one-hit-kill-sister"><h3>My One-Hit Kill Sister</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After discovering her sister possesses a powerful ability to defeat any enemy with a single strike, high school student Yuki must navigate a world filled with supernatural beings. As she grapples with her own feelings of insecurity and inadequacy, Yuki joins forces with her sister to uncover the truth behind their unique powers and face the challenges that come their way, all while forging a stronger bond as siblings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1904/120095l.jpg" alt="The Greatest Demon Lord Is Reborn as a Typical Nobody">
+                </div>
+                <div class="details">
+                    <a href="the-greatest-demon-lord-is-reborn-as-a-typical-nobody"><h3>The Greatest Demon Lord Is Reborn as a Typical Nobody</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After being defeated by a powerful hero, the greatest demon lord finds himself reincarnated in a human body with no magical abilities. Determined to regain his former power, he sets out on a comedic journey to become stronger while hiding his true identity. As he navigates high school life and forms unlikely friendships, he must also confront threats from his past life that have followed him into his new world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/78858l.jpg" alt="Hundred">
+                </div>
+                <div class="details">
+                    <a href="hundred"><h3>Hundred</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world threatened by mysterious creatures called Savage, Earth's only defense lies in the Hundred, a weapon capable of transforming into various forms. Hayato Kisaragi, a new recruit at the prestigious Little Garden academy, must uncover the secrets behind the Savage while battling alongside his peers. As Hayato navigates intense training and complex relationships, he finds himself entangled in a web of political intrigue and power struggles that could determine the fate of humanity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1576/109007l.webp" alt="Warlords of Sigrdrifa">
+                </div>
+                <div class="details">
+                    <a href="warlords-of-sigrdrifa"><h3>Warlords of Sigrdrifa</h3></a>
+                    <p>Action</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where humanity is threatened by mysterious creatures known as Pillars, young female pilots are chosen to pilot powerful mechas called Valkyries to defend Earth. The story follows a group of Valkyrie pilots, each with their own unique abilities and reasons for fighting, as they band together to protect their planet and uncover the truth behind the Pillars. As they face increasingly dangerous foes, they must learn to trust each other and harness the full potential of their mechas to save humanity.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1111/113327l.webp" alt="Osamake: Romcom Where The Childhood Friend Won't Lose">
+                </div>
+                <div class="details">
+                    <a href="osamake%3A-romcom-where-the-childhood-friend-won%27t-lose"><h3>Osamake: Romcom Where The Childhood Friend Won't Lose</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>After being rejected by his childhood friend, Sueharu decides to pursue another girl to make her jealous. However, his carefully crafted plan takes an unexpected turn when other girls start to confess their feelings for him. Juggling between past relationships and new love interests, Sueharu finds himself in a whirlwind of romantic complications, unsure of who truly holds his heart. Will he find his one true love amidst the chaos of teenage emotions?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/74541l.webp" alt="Sky Wizards Academy">
+                </div>
+                <div class="details">
+                    <a href="sky-wizards-academy"><h3>Sky Wizards Academy</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where demons threaten humanity, young mage Kanata is tasked with training a group of misfit students at the Sky Wizards Academy. As they struggle to work together and overcome their personal issues, they must learn to harness their magical abilities to protect their world. With the fate of humanity hanging in the balance, Kanata and his students must rise to the challenge and become the heroes they were destined to be.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1585/95225l.webp" alt="The Master of Ragnarok & Blesser of Einherjar">
+                </div>
+                <div class="details">
+                    <a href="the-master-of-ragnarok-%26-blesser-of-einherjar"><h3>The Master of Ragnarok & Blesser of Einherjar</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Yuuto Suoh is a high school student who is suddenly transported to a parallel world inhabited by tribes inspired by Norse mythology. With his smartphone and knowledge of ancient tactics, he rises to power and becomes the Wolf Clan leader. Alongside his warriors, including the Einherjar, Yuuto navigates political intrigue and battles to unite the land under his rule. The anime follows his quest for dominance and the challenges he faces as he strives to protect both his new world and the loved ones he left behind.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

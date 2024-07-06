@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like On a Lustful Night Mingling with a Priest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "34823";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/9/86606l.jpg" alt="On a Lustful Night Mingling with a Priest">
+                <div>
+                    <h2 id="title">On a Lustful Night Mingling with a Priest</h2>
+                    <p>Drama</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After accidentally stumbling upon a sacred ritual, a curious high school student finds herself entangled in a forbidden relationship with a mysterious priest. As their bond deepens, they must navigate the complexities of love, desire, and societal expectations while facing challenges that threaten to tear them apart. Amidst secrets and moral dilemmas, the two must confront their feelings and decide if their connection is worth the consequences it may bring.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/89091l.webp" alt="25-Year-Old High School Girl, I Wouldn’t Do This with a Kid">
+                </div>
+                <div class="details">
+                    <a href="25-year-old-high-school-girl%2C-i-wouldn%E2%80%99t-do-this-with-a-kid"><h3>25-Year-Old High School Girl, I Wouldn’t Do This with a Kid</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>25-year-old office worker Serina wakes up one morning to find herself back in her high school body. Determined not to repeat any mistakes from her past, she navigates the challenges of high school life with her new mature mindset. As she interacts with her teenage classmates and teachers, she learns valuable lessons about friendship, love, and self-acceptance. Will Serina be able to make the most of this second chance at high school?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1117/121859l.webp" alt="Pupa">
+                </div>
+                <div class="details">
+                    <a href="pupa"><h3>Pupa</h3></a>
+                    <p>Psychological</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Pupa follows siblings Utsutsu and Yume Hasegawa, who share a tragic and mysterious bond involving a strange virus that transforms Yume into a flesh-eating monster. As Utsutsu tries to protect his sister and understand the source of their affliction, dark secrets about their family and the origins of the virus come to light. The series delves into themes of sacrifice, survival, and the lengths one will go to protect their loved ones.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

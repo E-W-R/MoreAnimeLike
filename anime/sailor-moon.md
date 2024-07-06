@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Sailor Moon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "530";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1440/92258l.jpg" alt="Sailor Moon">
+                <div>
+                    <h2 id="title">Sailor Moon</h2>
+                    <p>Romance</p>
+                    <p>1992</p>
+                    <br>
+                    <p>Usagi Tsukino discovers she is the reincarnation of Sailor Moon, a magical warrior destined to protect the Earth from evil forces. Joined by other Sailor Guardians, she must find the Legendary Silver Crystal before the Dark Kingdom uses it to conquer the world. As she battles villains and uncovers her past, Usagi learns the importance of friendship and love in her mission to save the world from chaos.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1217/117018l.jpg" alt="Otaku no Video">
+                </div>
+                <div class="details">
+                    <a href="otaku-no-video"><h3>Otaku no Video</h3></a>
+                    <p>Drama</p>
+                    <p>1991</p>
+                    <br>
+                    <p>Otaku no Video follows the life of Ken Kubo, a college student who starts embracing his otaku lifestyle after being dumped by his girlfriend. Together with his friend, they dive into the world of anime, manga, and video games, eventually forming their own successful company. The series explores the struggles and triumphs of being an otaku in a society that often looks down on their hobbies.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 63%;"></span>
+                            </div>
+                            <p>63% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/69909l.webp" alt="tsuritama">
+                </div>
+                <div class="details">
+                    <a href="tsuritama"><h3>tsuritama</h3></a>
+                    <p>Comedy</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Tsuritama, a socially awkward high school student named Yuki moves to a seaside town, where he meets an eccentric boy named Haru who claims to be an alien. Haru introduces Yuki to the world of fishing, and together with a local fishing expert and an Indian government agent, they form an unlikely group determined to catch a legendary fish. As they embark on fishing adventures, they discover the true meaning of friendship, teamwork, and self-discovery.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1662/118849l.webp" alt="Taisho Otome Fairy Tale">
+                </div>
+                <div class="details">
+                    <a href="taisho-otome-fairy-tale"><h3>Taisho Otome Fairy Tale</h3></a>
+                    <p>Romance</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Taisho Otome Fairy Tale, a story set in the Taisho era of Japan, a young man named Tamahiko is forced to marry a seemingly unrefined and uneducated girl named Yuzuki. Though initially resistant to the arrangement, Tamahiko soon learns of Yuzuki's hidden intelligence and kind heart. As they navigate their new life together, the couple begins to understand and appreciate each other's strengths, ultimately forming a deep and heartfelt connection.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1139/104708l.jpg" alt="If My Favorite Pop Idol Made It to the Budokan, I Would Die">
+                </div>
+                <div class="details">
+                    <a href="if-my-favorite-pop-idol-made-it-to-the-budokan%2C-i-would-die"><h3>If My Favorite Pop Idol Made It to the Budokan, I Would Die</h3></a>
+                    <p>Comedy</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Eripiyo, an enthusiastic fan, is in love with the idol Momose. Determined to support her favorite idol, Eripiyo joins her small and unknown fan club. Through her devotion, Eripiyo hopes to bring Momose the fame she deserves. As the fan club grows, Eripiyo navigates the ups and downs of being an idol supporter while learning important life lessons along the way.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1683/97042l.jpg" alt="Magic Knight Rayearth">
+                </div>
+                <div class="details">
+                    <a href="magic-knight-rayearth"><h3>Magic Knight Rayearth</h3></a>
+                    <p>Action</p>
+                    <p>1994</p>
+                    <br>
+                    <p>Magic Knight Rayearth follows three ordinary girls who are summoned to the magical land of Cephiro to become legendary Magic Knights and save the Princess Emeraude. As they embark on their quest, they must overcome various trials and challenges to awaken their true powers and fulfill their destiny. With newfound friendships and powers, the girls must battle against dark forces to bring peace to Cephiro.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1069/133679l.jpg" alt="Magical DoReMi">
+                </div>
+                <div class="details">
+                    <a href="magical-doremi"><h3>Magical DoReMi</h3></a>
+                    <p>Comedy</p>
+                    <p>1999</p>
+                    <br>
+                    <p>Magical DoReMi follows a young girl named Doremi Harukaze who discovers she is a witch apprentice. Alongside her friends Hazuki and Aiko, they navigate the whimsical world of magic while learning important life lessons. Through various trials and tribulations, the girls strive to become full-fledged witches and uphold the responsibilities that come with their magical abilities. With each challenge they face, they learn the true power of friendship and the importance of believing in oneself.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 53%;"></span>
+                            </div>
+                            <p>53% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/20673l.jpg" alt="Dirty Pair">
+                </div>
+                <div class="details">
+                    <a href="dirty-pair"><h3>Dirty Pair</h3></a>
+                    <p>Comedy</p>
+                    <p>1985</p>
+                    <br>
+                    <p>Dirty Pair follows the adventures of Kei and Yuri, two trouble consultants for the World Welfare Works Association, solving cases across the galaxy. Known for their efficiency and penchant for destruction, the duo's missions often involve high-stakes situations, leading to chaotic but humorous outcomes. Together, they navigate through various challenges, facing dangerous criminals and uncovering dark conspiracies while trying to avoid causing too much collateral damage in the process.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/5061l.webp" alt="Shugo Chara!">
+                </div>
+                <div class="details">
+                    <a href="shugo-chara%21"><h3>Shugo Chara!</h3></a>
+                    <p>Comedy</p>
+                    <p>2007</p>
+                    <br>
+                    <p>Shugo Chara! follows the story of Amu Hinamori, a girl who is seen as cool and aloof by her classmates. One day, she discovers three colorful eggs that hatch into Guardian Characters who help her unlock her true personality. With the help of her Guardian Characters and her friends, Amu learns to embrace her true self and navigate the challenges of adolescence while also dealing with mysterious happenings in her town.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1589/95329l.jpg" alt="InuYasha">
+                </div>
+                <div class="details">
+                    <a href="inuyasha"><h3>InuYasha</h3></a>
+                    <p>Action</p>
+                    <p>2000</p>
+                    <br>
+                    <p>When Kagome, a modern-day high school girl, is transported to feudal Japan, she meets a half-demon, InuYasha. Together, they embark on a quest to collect the shattered pieces of the powerful Shikon Jewel. Along the way, they are joined by a band of misfit allies as they battle demons and rival factions seeking to use the jewel for their own sinister purposes. Kagome and InuYasha's relationship grows as they face various challenges and threats in their dangerous adventure.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/80079l.webp" alt="Ringing Bell">
+                </div>
+                <div class="details">
+                    <a href="ringing-bell"><h3>Ringing Bell</h3></a>
+                    <p>Drama</p>
+                    <p>1978</p>
+                    <br>
+                    <p>After witnessing the brutal murder of his mother by a wolf, a young lamb named Chirin seeks revenge by seeking out the wolf. As he grows stronger and more ruthless, Chirin must come to terms with his inner darkness and the consequences of his actions. Will he find the vengeance he seeks, or discover a different path to true strength and understanding?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1787/140239l.webp" alt="Pokémon">
+                </div>
+                <div class="details">
+                    <a href="pok%C3%A9mon"><h3>Pokémon</h3></a>
+                    <p>Action</p>
+                    <p>1997</p>
+                    <br>
+                    <p>In the world of Pokémon, young trainers embark on a journey to catch and train mysterious creatures known as Pokémon. The main character, Ash Ketchum, dreams of becoming a Pokémon Master and travels with his friends Pikachu, Misty, and Brock to compete in Pokémon battles and tournaments. Along the way, they face challenges from rival trainers and the nefarious Team Rocket, all while forging bonds with their Pokémon partners.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1734/118930l.jpg" alt="The Squid Girl">
+                </div>
+                <div class="details">
+                    <a href="the-squid-girl"><h3>The Squid Girl</h3></a>
+                    <p>Comedy</p>
+                    <p>2010</p>
+                    <br>
+                    <p>The Squid Girl follows the misadventures of a young humanoid squid girl who emerges from the ocean with plans to conquer humanity as punishment for polluting the seas. However, she ends up working at a beachside restaurant run by the Aizawa siblings after accidentally damaging their property. As Squid Girl interacts with humans and navigates the challenges of daily life, she slowly begins to question her initial mission.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/48723l.webp" alt="Saint☆Young Men (Movie)">
+                </div>
+                <div class="details">
+                    <a href="saint%E2%98%86young-men-%28movie%29"><h3>Saint☆Young Men (Movie)</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Saint☆Young Men follows the comedic daily life adventures of Jesus Christ and Gautama Buddha as they take a vacation on Earth and live together in a small apartment in Tokyo. Despite their divine backgrounds, they attempt to blend in with human society while dealing with the challenges and hilarity that come with it. The movie explores the unique dynamics of their friendship and the humorous situations that arise as they navigate modern life in Japan.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1901/139910l.jpg" alt="Tearmoon Empire">
+                </div>
+                <div class="details">
+                    <a href="tearmoon-empire"><h3>Tearmoon Empire</h3></a>
+                    <p>Comedy</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In the Tearmoon Empire, a spoiled noblewoman is suddenly reincarnated as the villainess in her favorite otome game. Determined to avoid her character's tragic fate, she must navigate political intrigue, mend relationships with the game's characters, and secure her happy ending. With her sharp wit and charm, she sets out to rewrite her destiny and become the beloved queen of the empire.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/19870l.webp" alt="Slayers">
+                </div>
+                <div class="details">
+                    <a href="slayers"><h3>Slayers</h3></a>
+                    <p>Action</p>
+                    <p>1995</p>
+                    <br>
+                    <p>In a medieval world, the fiery red-headed sorceress Lina Inverse travels with swordsman Gourry Gabriev as they embark on adventures filled with magic, monsters, and comedic mishaps. Along the way, they encounter new friends and foes while seeking out powerful magical artifacts. As they navigate through various challenges and battles, Lina's immense magical abilities and Gourry's skilled swordsmanship are put to the test in their quest for treasure and glory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/6441l.jpg" alt="Ranma ½">
+                </div>
+                <div class="details">
+                    <a href="ranma-%C2%BD"><h3>Ranma ½</h3></a>
+                    <p>Action</p>
+                    <p>1989</p>
+                    <br>
+                    <p>Ranma ½ follows the humorous adventures of Ranma Saotome, a skilled martial artist who has a peculiar curse. When splashed with cold water, he transforms into a girl and back into a boy when doused with hot water. With this secret, Ranma navigates various challenges, including rival martial artists, love interests, and his own chaotic family dynamics. As he faces these obstacles, Ranma must find a way to break the curse while honing his martial arts skills.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1512/142456l.webp" alt="Pretty Cure">
+                </div>
+                <div class="details">
+                    <a href="pretty-cure"><h3>Pretty Cure</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>Pretty Cure follows a group of young girls who possess magical abilities and must protect the world from evil forces. With the help of cute mascots and powerful transformations, they battle villains to save the day. As the girls learn to work together and overcome their own personal challenges, they discover the true power of friendship and courage. Join them on their colorful and exciting adventures to defeat darkness and bring light to the world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1483/107061l.webp" alt="My Next Life as a Villainess: All Routes Lead to Doom!">
+                </div>
+                <div class="details">
+                    <a href="my-next-life-as-a-villainess%3A-all-routes-lead-to-doom%21"><h3>My Next Life as a Villainess: All Routes Lead to Doom!</h3></a>
+                    <p>Isekai</p>
+                    <p>2020</p>
+                    <br>
+                    <p>After hitting her head, high schooler Katarina Claes remembers her past life as a Japanese otaku. She realizes she's been reincarnated into an otome game she used to play as the villainess. Desperate to avoid her doom ending, she navigates the game's world and tries to change her fate, inadvertently winning the hearts of all the male leads. Will her efforts lead her to a happy ending, or is her destiny set in stone?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/77055l.jpg" alt="Yu-Gi-Oh!">
+                </div>
+                <div class="details">
+                    <a href="yu-gi-oh%21"><h3>Yu-Gi-Oh!</h3></a>
+                    <p>Action</p>
+                    <p>2000</p>
+                    <br>
+                    <p>Yu-Gi-Oh! follows Yugi Mutou, a shy high school student with a passion for games. When he solves an ancient Egyptian puzzle, he becomes host to a mysterious spirit who helps him master the game of Duel Monsters. Yugi and his friends face off against rivals in intense battles, using strategy, skill, and a touch of magic to prevail. As the stakes grow higher, Yugi must unlock the secrets of his other self to save the ones he cares about.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/75544l.jpg" alt="Kyou kara Maou!">
+                </div>
+                <div class="details">
+                    <a href="kyou-kara-maou%21"><h3>Kyou kara Maou!</h3></a>
+                    <p>Isekai</p>
+                    <p>2004</p>
+                    <br>
+                    <p>After being flushed down a toilet, high school student Yuri is transported to another world where he is pronounced the Demon King. Unaware of this title, Yuri embarks on a journey to understand his new role while navigating political intrigue, forming alliances, and discovering his own powers. With a mix of humor, adventure, and fantasy elements, Kyou kara Maou! follows Yuri's quest to bring peace to the realm and unite humans and demons.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1683/91888l.webp" alt="Umamusume: Pretty Derby">
+                </div>
+                <div class="details">
+                    <a href="umamusume%3A-pretty-derby"><h3>Umamusume: Pretty Derby</h3></a>
+                    <p>Sports</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Uma Musume: Pretty Derby follows Special Week, a young horse girl with dreams of becoming the greatest racehorse in Japan. She enrolls in the prestigious Tracen Academy, where she trains alongside other talented horse girls to compete in the Twinkle Series. Through friendship, rivalry, and hard work, Special Week strives to fulfill her late mother's wishes and reach the pinnacle of horse racing. With intense training and thrilling races, she embarks on a journey of growth and self-discovery in the competitive world of racing.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1190/95421l.webp" alt="Samurai 7">
+                </div>
+                <div class="details">
+                    <a href="samurai-7"><h3>Samurai 7</h3></a>
+                    <p>Action</p>
+                    <p>2004</p>
+                    <br>
+                    <p>In a world where samurais are replaced by giant robots, a small village oppressed by bandits seeks out seven skilled warriors to help protect them. As the samurais take on the powerful enemies, they uncover dark secrets and form bonds that will test their loyalty and values. Amidst intense battles and intricate political schemes, the samurais must come together to save the village and restore peace to the land.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/13151l.jpg" alt="Animal Crossing: The Movie">
+                </div>
+                <div class="details">
+                    <a href="animal-crossing%3A-the-movie"><h3>Animal Crossing: The Movie</h3></a>
+                    <p>Other Genre</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Animal Crossing: The Movie follows a young protagonist who moves to a peaceful village filled with anthropomorphic animals. As they settle in, they befriend the quirky villagers and immerse themselves in various activities such as fishing, bug catching, and fossil hunting. Together with their new friends, they experience the joys of small-town life, decorate their homes, and participate in seasonal events. The movie captures the charm and heartwarming adventures of the popular video game series.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1055/118890l.webp" alt="My Senpai is Annoying">
+                </div>
+                <div class="details">
+                    <a href="my-senpai-is-annoying"><h3>My Senpai is Annoying</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Futaba Igarashi is a hard-working office employee who is constantly annoyed by her loud and childish senpai, Harumi Takeda. Despite her frustrations, Futaba finds herself developing a close friendship with Harumi as they navigate the ups and downs of office life together. Will Futaba learn to tolerate her annoying senpai, or will their contrasting personalities lead to even more chaos in the workplace?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/82559l.jpg" alt="Castle Town Dandelion">
+                </div>
+                <div class="details">
+                    <a href="castle-town-dandelion"><h3>Castle Town Dandelion</h3></a>
+                    <p>Comedy</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In Castle Town Dandelion, the royal family's daily lives are broadcasted on television due to their supernatural powers, which they must use to win the public's support for the next ruler. The story follows Akane, a shy princess with the power to manipulate gravity, as she navigates the challenges of balancing her royal duties with her desire for a normal life. As the siblings showcase their powers, they learn more about each other and themselves in this heartwarming and humorous tale.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/64897l.jpg" alt="Inari Kon Kon">
+                </div>
+                <div class="details">
+                    <a href="inari-kon-kon"><h3>Inari Kon Kon</h3></a>
+                    <p>Romance</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In Inari Kon Kon, a young girl named Inari saves a fox spirit from danger and is granted the ability to transform into anyone she wants. With her newfound power, Inari navigates her daily life, learning valuable lessons about friendship and self-acceptance along the way. As she tries to balance her ordinary life with extraordinary abilities, Inari must also come to terms with her own desires and insecurities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1864/93518l.jpg" alt="Wotakoi: Love is Hard for Otaku">
+                </div>
+                <div class="details">
+                    <a href="wotakoi%3A-love-is-hard-for-otaku"><h3>Wotakoi: Love is Hard for Otaku</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>After discovering they are both otaku, childhood friends Narumi and Hirotaka navigate the ups and downs of dating while working at the same company. Their unique bond grows as they explore their shared interests in video games, manga, and cosplay. Alongside their quirky friends, they learn that love can be challenging even for two people who seem to understand each other so well.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/85429l.webp" alt="Kamisama Kiss">
+                </div>
+                <div class="details">
+                    <a href="kamisama-kiss"><h3>Kamisama Kiss</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Kamisama Kiss follows a high school girl who becomes a local deity after she unexpectedly inherits a shrine. With the help of a fox familiar, she navigates the challenges of her new divine status, dealing with mischievous spirits and forming alliances with other supernatural beings. Along the way, she encounters romance and must learn to balance her human and divine responsibilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1424/113342l.jpg" alt="Shadows House">
+                </div>
+                <div class="details">
+                    <a href="shadows-house"><h3>Shadows House</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In Shadows House, living dolls serve as the faces for the shadow aristocrats, who are beings made of soot and ash. A young living doll named Emilico begins serving Kate, a shadow aristocrat who seems to hide many secrets within the mysterious mansion they both reside in. As Emilico navigates her duties and uncovers the truth behind the shadows, she learns more about her own identity and the dark history of the Shadows Household.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 43%;"></span>
+                            </div>
+                            <p>43% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1578/94205l.jpg" alt="Kase-san and Morning Glories">
+                </div>
+                <div class="details">
+                    <a href="kase-san-and-morning-glories"><h3>Kase-san and Morning Glories</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Kase-san and Morning Glories follows the blossoming relationship between high school girls, Yui Yamada and Tomoka Kase. Yui, a shy and reserved member of the gardening club, is intrigued by the outgoing and athletic Tomoka. As they navigate the ups and downs of young love, the pair learn more about themselves and each other. With a focus on their personal growth and the challenges of young romance, this heartwarming anime explores themes of self-acceptance and love.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

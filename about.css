@@ -7,6 +7,18 @@ body {
     align-items: center;
 }
 
+.header-content, h1, header, .home-icon {
+    box-sizing: border-box;
+}
+
+.search-container, .autocomplete-items {
+    box-sizing: border-box;
+}
+
+.anime-details, .recommendation, .rank-container, .graphics, .similarity-meter, .details {
+    box-sizing: border-box;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -43,8 +55,7 @@ main img {
 }
 
 .home-icon {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-right: 40px;
     font-size: 2.5em; /* Adjust size as needed */
     color: white; /* Set color for the icon */
 }
@@ -52,6 +63,7 @@ main img {
 h1 {
     text-align: center;
     margin-right: 20px;
+    margin-left: -30px;
 }
 
 .search-container {
@@ -139,12 +151,11 @@ a {
 
 /* Switch Styles */
 .switch {
-    margin-right: 20px;
     position: relative;
     display: inline-block;
     width: 80px;
     height: 40px;
-    margin-left: 20px;
+    min-width: 80px;
 }
 
 .switch input {

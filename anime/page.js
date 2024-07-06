@@ -1,3 +1,17 @@
+function switchStylesheet() {
+    var stylesheet = document.getElementById('stylesheet');
+    if (window.innerWidth <= 700) {
+        stylesheet.href = 'page_mobile.css';
+    } else if (window.innerWidth <= 1000) {
+        stylesheet.href = 'page_tablet.css';
+    } else {
+        stylesheet.href = 'page.css';
+    }
+}
+
+window.addEventListener('load', switchStylesheet);
+window.addEventListener('resize', switchStylesheet);
+
 function adjustFontSize() {
     const textElement = document.getElementById('title');
     const textLength = textElement.innerText.length;
@@ -80,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('better_page.json')
         .then(response => response.json())
         .then(data => {
-            const labels = ["Adventure", "Romance", "Sports", "Drama", "Comedy", "Fantasy", "Psychological", "Supernatural", "Action", "Isekai", "Mystery", "Slice of Life"];
+            const labels = ["Adventure", "Romance", "Sports", "Drama", "Fantasy", "Supernatural", "Psychological", "Comedy", "Action", "Isekai", "Mystery", "Slice of Life"];
             const dataset1 = {
                 label: 'Genre Similarity',
                 data: data[number],
@@ -187,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             formatter: function(value, context) {
                                 return context.chart.data.labels[context.dataIndex];
                             },
-                            offset: 155, // Adjust the offset to move the labels outside the chart
+                            offset: 150, // Adjust the offset to move the labels outside the chart
                             textAlign: 'center',
                             clip: false,
                         }                        

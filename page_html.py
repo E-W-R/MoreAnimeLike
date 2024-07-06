@@ -13,7 +13,7 @@ with open("descriptions.json", "r") as f:
 def delete_non_html_files(directory):
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
-        if os.path.isfile(file_path) and filename.endswith('.html'):
+        if os.path.isfile(file_path) and (filename.endswith('.html') or "." not in filename):
             os.remove(file_path)
 delete_non_html_files("anime")
 
@@ -40,11 +40,14 @@ tail = """
 </html>
 """
 
+A, B = 0, 0
+
 for ID1 in ids:
+    A += 1
     out = ""
     row1 = df.loc[ID1]
     name1 = row1['title']
-    url1 = url_dict[ID1] + '.html'
+    url1 = url_dict[ID1]
     genre1 = row1['main_genre']
     if genre1 == "Other":
         genre1 = "Other Genre"
@@ -55,7 +58,7 @@ for ID1 in ids:
         year1 = year1[:4]
     description1 = descriptions[str(ID1)]
     image1 = row1["picture"]
-    similar = [ids[j] for j in np.argsort(sim[str(ID1)])[-31:-1]]
+    similar = [ids[j] for j in np.argsort(sim[str(ID1)])[-31:-1]][::-1]
 
     head = f"""
 <!DOCTYPE html>
@@ -67,19 +70,21 @@ for ID1 in ids:
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="page.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
     <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="page.js"></script>
 </head>
 <body>
     <header>
         <script>const number = "{ID1}";</script>
-        <a href="../index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
         <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
         <div class="header-content">
             <h1>Find more anime like: </h1>
             <div class="search-container">
-                <input type="text" id="searchBox" class="searchBox" placeholder="">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
                 <div id="autocomplete-list" class="autocomplete-items"></div>
             </div>
         </div>
@@ -88,7 +93,7 @@ for ID1 in ids:
             <span class="slider round"></span>
         </label>
     </header>
-    <p id="tagline"><a href="../about.html">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
     <div class="black-bar"></div>
     <main>
         <section id="main-anime">
@@ -98,22 +103,22 @@ for ID1 in ids:
                     <h2 id="title">{name1}</h2>
                     <p>{genre1}</p>
                     <p>{year1}</p>
-                    <br><br>
+                    <br>
                     <p>{description1}</p>
                 </div>
             </div>
-            <div id="d3-container"></div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
         </section>
         <br>
         <section id="recommendations">
 """
     out += head
 
-    rank = 30
+    rank = 1
     for ID2 in similar:
         row2 = df.loc[ID2]
         name2 = row2['title']
-        url2 = url_dict[ID2] + '.html'
+        url2 = url_dict[ID2]
         genre2 = row2['main_genre']
         if genre2 == "Other":
             genre2 = "Other Genre"
@@ -126,22 +131,23 @@ for ID1 in ids:
         image2 = row2["picture"]
         sim_pct = str(min(round((float(sim[str(ID1)][ID2]) - 0.86) * 100 // 0.06), 99)) + "%"
         if int(sim_pct[:-1]) < 5:
-            rank -= 1
             continue
 
+        B += 1
         body = f"""
             <div class="recommendation">
-                <div class="rank-container">
-                    <div class="rank">{rank}</div>
-                    <div class="similarity-meter">
-                        <div class="meter">
-                            <span style="width: {sim_pct};"></span>
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">{rank}</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: {sim_pct};"></span>
+                            </div>
+                            <p>{sim_pct} Similarity</p>
                         </div>
-                        <p>{sim_pct} Similarity</p>
                     </div>
+                    <img src="{image2}" alt="{name2}">
                 </div>
-                <div class="rec-details"></div>
-                <img src="{image2}" alt="{name2}">
                 <div class="details">
                     <a href="{url2}"><h3>{name2}</h3></a>
                     <p>{genre2}</p>
@@ -152,18 +158,19 @@ for ID1 in ids:
             </div>
 """
         out += body
-        rank -= 1
+        rank += 1
 
     out += tail
 
     outname = name1.lower().replace(' ', '-').replace('/', '')
-    with open(f'anime/{outname}.html', 'w') as f:
+    with open(f'anime/{outname}.md', 'w') as f:
         f.write(out)
 
 out = []
-directory = "anime"
-for filename in os.listdir(directory):
-    file_path = os.path.join(directory, filename)
-    out.append("../" + file_path)
+for ID in ids:
+    url = url_dict[ID]
+    out.append("../anime/" + url)
 with open("pages.json", "w") as f:
     json.dump({"pages": out}, f, indent = 4)
+
+print(A, B)

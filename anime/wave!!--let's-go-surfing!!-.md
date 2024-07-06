@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like WAVE!! -Let's go surfing!!-</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "46118";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1807/113870l.jpg" alt="WAVE!! -Let's go surfing!!-">
+                <div>
+                    <h2 id="title">WAVE!! -Let's go surfing!!-</h2>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Wave!! -Let's go surfing!!- follows high school student Masaki Hinaoka as he discovers his passion for surfing and joins his school's surfing club in Shonan. Alongside his friends, Masaki navigates the challenges of the surfing world, striving to improve his skills and compete in various surfing competitions. The series explores friendship, determination, and the exhilarating world of surfing through the eyes of these young surfers.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1907/110083l.jpg" alt="2.43: Seiin High School Boys Volleyball Team">
+                </div>
+                <div class="details">
+                    <a href="2.43%3A-seiin-high-school-boys-volleyball-team"><h3>2.43: Seiin High School Boys Volleyball Team</h3></a>
+                    <p>Sports</p>
+                    <p>2021</p>
+                    <br>
+                    <p>When transfer student Kimichika Haijima reluctantly joins the Seiin High School boys' volleyball team, he reunites with his childhood friend, Yuni Kuroba. Determined to make it to the nationals, the two lead the inexperienced team as they navigate personal struggles and intense competitions. Through hard work and teamwork, they aim to overcome their differences and rise to the top of the volleyball world.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

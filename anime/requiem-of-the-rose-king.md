@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Requiem of the Rose King</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "42892";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1046/118527l.webp" alt="Requiem of the Rose King">
+                <div>
+                    <h2 id="title">Requiem of the Rose King</h2>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>Requiem of the Rose King is a historical fantasy anime following the tragic story of Richard, born intersex and cursed by his mother, Queen Margaret, for being different. Richard, caught in a web of political intrigue and violence within the Wars of the Roses, struggles with his identity while being manipulated by those around him. As he navigates the dangerous world of medieval England, Richard must decide whether to follow his heart or succumb to the darkness threatening to consume him.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1046/97025l.webp" alt="Girly Air Force">
+                </div>
+                <div class="details">
+                    <a href="girly-air-force"><h3>Girly Air Force</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In Girly Air Force, humanity faces an invasion by mysterious creatures known as the Zai. In response, advanced fighter jets called Daughters, each equipped with an AI system, are created to combat the threat. Kei Narutani, a young man with a traumatic past, becomes involved in the conflict when he encounters a prototype Daughter named Gripen. As they fight together, Kei learns more about the truth behind the Zai and the secrets of the Daughters.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1729/141091l.webp" alt="Shine On! Bakumatsu Bad Boys">
+                </div>
+                <div class="details">
+                    <a href="shine-on%21-bakumatsu-bad-boys"><h3>Shine On! Bakumatsu Bad Boys</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Shine On! Bakumatsu Bad Boys, a group of rebellious samurai in the final years of the Edo period come together to overthrow the corrupt shogunate. With their unique skills and unwavering determination, they navigate the dangerous political landscape of the Bakumatsu era, facing betrayal and battles along the way. As they fight for justice and a better future for Japan, their bond is tested, and they must come to terms with the sacrifices required for their cause.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1413/121836l.jpg" alt="Extreme Hearts">
+                </div>
+                <div class="details">
+                    <a href="extreme-hearts"><h3>Extreme Hearts</h3></a>
+                    <p>Sports</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In Extreme Hearts, a group of high school students discover a secret underground fighting ring where participants battle using their unique abilities. As the main protagonist navigates through intense matches and forms unexpected alliances, they uncover the dark past and motives behind the organization. With each victory, they inch closer to the truth, but also face greater risks and challenges. Will they emerge victorious and expose the secrets of the Extreme Hearts?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1634/114551l.jpg" alt="Blue Reflection Ray">
+                </div>
+                <div class="details">
+                    <a href="blue-reflection-ray"><h3>Blue Reflection Ray</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Blue Reflection Ray follows the story of Ruka and Ao, two high school girls who gain the power to transform into magical warriors known as Reflector. They must battle dangerous creatures called Sephira that threaten their world. Along the way, they uncover the truth behind their newfound powers and form deep bonds with their classmates as they navigate the challenges of adolescence and the responsibilities that come with being magical girls.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/75791l.webp" alt="Hetalia Axis Powers">
+                </div>
+                <div class="details">
+                    <a href="hetalia-axis-powers"><h3>Hetalia Axis Powers</h3></a>
+                    <p>Comedy</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Hetalia Axis Powers follows personifications of different countries throughout key historical events, with a focus on the Axis Powers during World War II. The series offers a humorous and light-hearted take on history, showcasing the relationships and interactions between nations. Through comedic scenarios and cultural stereotypes, viewers witness how these characters navigate through wars, alliances, and everyday life in a satirical manner.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/79448l.jpg" alt="Ace Attorney">
+                </div>
+                <div class="details">
+                    <a href="ace-attorney"><h3>Ace Attorney</h3></a>
+                    <p>Mystery</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Ace Attorney follows rookie defense attorney Phoenix Wright as he takes on challenging court cases to prove his clients' innocence. With the help of his mentor, Mia Fey, and his friends, Wright investigates crime scenes, cross-examines witnesses, and uncovers contradictions to uncover the truth. As he goes head-to-head against rival prosecutors, including the formidable Miles Edgeworth, Wright must use his sharp intellect and quick thinking to secure a not guilty verdict for his clients.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1223/114346l.jpg" alt="Bungo and Alchemist -Gears of Judgement-">
+                </div>
+                <div class="details">
+                    <a href="bungo-and-alchemist--gears-of-judgement-"><h3>Bungo and Alchemist -Gears of Judgement-</h3></a>
+                    <p>Other Genre</p>
+                    <p>2020</p>
+                    <br>
+                    <p>In a world where famous literary figures come to life, a young alchemist named Asano Arisu discovers a way to give them physical bodies using the power of words. She teams up with renowned authors like Ryunosuke Akutagawa and Ougai Mori to fight evil creatures known as Taints. As they delve deeper into the mysteries surrounding the Taints, they must uncover the truth behind their existence and the dark forces controlling them.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1556/111623l.jpg" alt="Special 7: Special Crime Investigation Unit">
+                </div>
+                <div class="details">
+                    <a href="special-7%3A-special-crime-investigation-unit"><h3>Special 7: Special Crime Investigation Unit</h3></a>
+                    <p>Mystery</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where supernatural beings exist, the Special Crime Investigation Unit is tasked with solving crimes involving these beings. The elite team, Special 7, comprised of both humans and supernatural beings, must navigate complex cases that threaten the delicate balance between the two worlds. As they delve deeper into the mysteries and secrets surrounding these cases, they uncover a sinister plot that could have dire consequences for both humans and supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/79158l.jpg" alt="Battery">
+                </div>
+                <div class="details">
+                    <a href="battery"><h3>Battery</h3></a>
+                    <p>Sports</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Battery follows the story of Harada Takumi, a skilled pitcher who doesn't play well with others, and Nagakura Gou, a talented catcher with a passion for the game. The two boy's lives intertwine when they are placed on the same baseball team. Together, they must navigate the challenges of high school baseball, team dynamics, and personal struggles as they strive for success on the field. Through their journey, they learn important lessons about friendship, trust, and the true meaning of teamwork.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

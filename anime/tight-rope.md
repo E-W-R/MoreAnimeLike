@@ -1,0 +1,584 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Tight-rope</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "12695";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/2/38305l.jpg" alt="Tight-rope">
+                <div>
+                    <h2 id="title">Tight-rope</h2>
+                    <p>Other Genre</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Tightrope follows the dangerous journey of two high school boys thrust into the world of organized crime, facing challenges and threats as they navigate the treacherous underworld. Balancing their personal struggles and developing bond, they must confront the harsh realities of their dangerous new environment. With their lives at stake, they must rely on each other to survive the perilous circumstances that threaten to tear them apart.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 78%;"></span>
+                            </div>
+                            <p>78% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/81045l.jpg" alt="Spiritpact">
+                </div>
+                <div class="details">
+                    <a href="spiritpact"><h3>Spiritpact</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Spiritpact, a young exorcist named Keika You is suddenly killed but finds himself resurrected by a handsome spirit named Tanmoku Ki. Forced into a contract to fight evil spirits together, the mismatched duo must navigate a dangerous world of supernatural threats while uncovering the secrets of their pasts. Keika's newfound abilities and his evolving relationship with Tanmoku present challenges as they work together to protect the living from supernatural dangers.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 66%;"></span>
+                            </div>
+                            <p>66% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1869/118766l.jpg" alt="The Night Beyond the Tricornered Window">
+                </div>
+                <div class="details">
+                    <a href="the-night-beyond-the-tricornered-window"><h3>The Night Beyond the Tricornered Window</h3></a>
+                    <p>Mystery</p>
+                    <p>2021</p>
+                    <br>
+                    <p>The Night Beyond the Tricornered Window follows the story of a bookstore employee who can see and communicate with spirits. He forms an unlikely partnership with a handsome exorcist, and the two team up to solve mysterious and chilling supernatural cases. As they delve deeper into the world of spirits and the occult, they uncover dark secrets and confront their own inner demons. Together, they must navigate a dangerous and eerie world where nothing is as it seems.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 56%;"></span>
+                            </div>
+                            <p>56% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/67085l.jpg" alt="Merman in my Tub">
+                </div>
+                <div class="details">
+                    <a href="merman-in-my-tub"><h3>Merman in my Tub</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>When Tatsumi stumbles upon a merman named Wakasa in his bathtub, his ordinary life takes a whimsical turn. Wakasa decides to make Tatsumi's bathtub his new home, much to Tatsumi's chagrin. As Wakasa and other eccentric supernatural beings start living with Tatsumi, hilarious antics and daily life adventures ensue. Will Tatsumi be able to handle his newfound bizarre roommates, or will chaos reign in his once peaceful home?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/2/80966l.jpg" alt="The Highschool Life of a Fudanshi">
+                </div>
+                <div class="details">
+                    <a href="the-highschool-life-of-a-fudanshi"><h3>The Highschool Life of a Fudanshi</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>Sakaguchi is a high school student with a unique hobby: he's a fudanshi, a male fan of boys' love manga. Despite the teasing from his classmates, Sakaguchi finds solace in his online fudanshi community. When he befriends a popular female otaku, their shared passion for manga deepens their bond. As they navigate the challenges of adolescence together, Sakaguchi learns the true meaning of friendship and acceptance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <p>50% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/80009l.jpg" alt="The Morose Mononokean">
+                </div>
+                <div class="details">
+                    <a href="the-morose-mononokean"><h3>The Morose Mononokean</h3></a>
+                    <p>Comedy</p>
+                    <p>2016</p>
+                    <br>
+                    <p>The Morose Mononokean follows the story of high school student Hanae Ashiya, who accidentally summons a yokai and seeks help from the Mononokean, an exorcist who helps cleanse spirits and yokai. To repay his debt, Hanae becomes the Mononokean's assistant, embarking on various supernatural adventures and learning about the spirit world along the way. Together, they solve yokai-related issues and unravel mysteries surrounding the supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/7/43465l.jpg" alt="This Boy Caught A Merman">
+                </div>
+                <div class="details">
+                    <a href="this-boy-caught-a-merman"><h3>This Boy Caught A Merman</h3></a>
+                    <p>Drama</p>
+                    <p>2012</p>
+                    <br>
+                    <p>When a young man discovers a wounded merman washed up on the shore, he decides to nurse him back to health in secret. As the mysterious merman begins to adapt to life on land, their bond deepens. However, their growing relationship is soon threatened by the merman's past and the challenges they face as two beings from different worlds.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/30248l.webp" alt="Uta no Prince Sama">
+                </div>
+                <div class="details">
+                    <a href="uta-no-prince-sama"><h3>Uta no Prince Sama</h3></a>
+                    <p>Comedy</p>
+                    <p>2011</p>
+                    <br>
+                    <p>Uta no Prince Sama follows Haruka Nanami, a talented young songwriter who enrolls in the prestigious Saotome Academy to pursue her dream of becoming a professional composer. She finds herself surrounded by a group of handsome aspiring idols, including the members of the popular boy band STARISH. As Haruka forms close bonds with these aspiring singers, she must navigate the challenges of the music industry and her developing romantic feelings while working towards her goal of creating hit songs.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1218/135107l.webp" alt="Mashle: Magic and Muscles">
+                </div>
+                <div class="details">
+                    <a href="mashle%3A-magic-and-muscles"><h3>Mashle: Magic and Muscles</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where magic is everything, Mash Vandead is born without the ability to use it. Despite this, he trains his body to the peak of human ability. When he enrolls in the prestigious Easton Magic Academy, Mash must rely on his incredible strength to survive the challenges and dangers that come his way. Through his unmatched physical prowess and unwavering determination, Mash begins to unravel the mysteries of this magical world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/46639l.jpg" alt="Karneval">
+                </div>
+                <div class="details">
+                    <a href="karneval"><h3>Karneval</h3></a>
+                    <p>Mystery</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Karneval follows Nai, a naive boy searching for a friend named Karoku. His quest leads him to Gareki, a skilled thief, and the mysterious organization Circus. As they uncover dark secrets, they must navigate a dangerous world filled with powerful enemies and deadly creatures. Together, they unravel the truth behind Nai's past and the enigmatic Karoku, all while facing the looming threat of Varuga – monstrous beings that threaten their very existence.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 26%;"></span>
+                            </div>
+                            <p>26% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/70143l.jpg" alt="Gakuen Heaven">
+                </div>
+                <div class="details">
+                    <a href="gakuen-heaven"><h3>Gakuen Heaven</h3></a>
+                    <p>Drama</p>
+                    <p>2006</p>
+                    <br>
+                    <p>Gakuen Heaven follows Keita Ito, a young high school student who is unexpectedly accepted into the prestigious Bell Liberty Academy, known for its elite student body. Thrust into a world of competition and secrets, Keita navigates relationships with his classmates and discovers the true purpose behind his admission to the school. As he unravels the mysteries of Bell Liberty Academy, Keita must confront his own past and make difficult decisions that will shape his future.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/21856l.webp" alt="Gravitation">
+                </div>
+                <div class="details">
+                    <a href="gravitation"><h3>Gravitation</h3></a>
+                    <p>Comedy</p>
+                    <p>2000</p>
+                    <br>
+                    <p>Gravitation follows the story of Shuichi Shindo, a passionate young musician aiming to become a famous singer. After encountering the successful novelist Eiri Yuki, Shuichi finds himself immediately infatuated. Despite facing challenges in the highly competitive music industry and navigating the complexities of relationships, Shuichi remains determined to pursue his dreams and win over Eiri's heart. The series explores themes of love, ambition, and self-discovery against the backdrop of the bustling entertainment world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1066/106556l.jpg" alt="The Millionaire Detective – Balance: UNLIMITED">
+                </div>
+                <div class="details">
+                    <a href="the-millionaire-detective-%E2%80%93-balance%3A-unlimited"><h3>The Millionaire Detective – Balance: UNLIMITED</h3></a>
+                    <p>Mystery</p>
+                    <p>2020</p>
+                    <br>
+                    <p>When elite detective Daisuke Kambe joins the Modern Crime Prevention Task Force, his unorthodox methods clash with his partner Haru Kato's sense of justice. Together, they solve bizarre cases in the bustling city of Tokyo. But as they delve deeper into the mysteries surrounding Daisuke's fortune, they uncover a web of corruption and secrets that will test their partnership and values.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/86825l.jpg" alt="Hitorijime My Hero">
+                </div>
+                <div class="details">
+                    <a href="hitorijime-my-hero"><h3>Hitorijime My Hero</h3></a>
+                    <p>Drama</p>
+                    <p>2017</p>
+                    <br>
+                    <p>High school student Masahiro Setagawa finds himself being protected by a mysterious older man named Kousuke Ooshiba. As Masahiro becomes entangled in Kousuke's world, he discovers a new sense of purpose and the two develop a close bond. However, their relationship is soon put to the test as they navigate through challenges and conflicts that threaten to tear them apart.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1760/98794l.jpg" alt="Inu X Boku Secret Service">
+                </div>
+                <div class="details">
+                    <a href="inu-x-boku-secret-service"><h3>Inu X Boku Secret Service</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In Inu X Boku Secret Service, Ririchiyo Shirakiin moves into the high-class Ayakashi Kan mansion to live alone and be independent. She is assigned a Secret Service agent named Soshi Miketsukami, who has a mysterious past. As Ririchiyo learns more about Soshi and the other residents of the mansion, she discovers hidden secrets and uncovers the true nature of her own identity. Throughout the series, Ririchiyo and Soshi navigate a complex relationship filled with secrets and supernatural beings.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/76599l.webp" alt="Love Stage!!">
+                </div>
+                <div class="details">
+                    <a href="love-stage%21%21"><h3>Love Stage!!</h3></a>
+                    <p>Comedy</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Love Stage!! follows the story of Izumi Sena, a college student from a family of entertainers who has no interest in the spotlight. When he is forced to participate in a commercial, he reunites with Ryoma Ichijou, a famous actor and his former crush from childhood. As they work together, feelings resurface, forcing Izumi to confront his past and his true desires. The series explores love, self-discovery, and finding the courage to be true to oneself.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 16%;"></span>
+                            </div>
+                            <p>16% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1189/111994l.webp" alt="Tanaka-kun is Always Listless">
+                </div>
+                <div class="details">
+                    <a href="tanaka-kun-is-always-listless"><h3>Tanaka-kun is Always Listless</h3></a>
+                    <p>Other Genre</p>
+                    <p>2016</p>
+                    <br>
+                    <p>The series follows Tanaka, a high school student who is perpetually tired and unenthusiastic about everything. His goal is to live life as effortlessly as possible and avoid any form of exertion. Despite his apathetic demeanor, Tanaka's friends continue to involve him in various activities, leading to comedic situations and heartwarming moments as they navigate the ups and downs of high school life together.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/74415l.jpg" alt="Gangsta.">
+                </div>
+                <div class="details">
+                    <a href="gangsta."><h3>Gangsta.</h3></a>
+                    <p>Action</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In the crime-ridden city of Ergastulum, Twilights - superhuman beings with heightened physical abilities - are employed as mercenaries. Worick and Nicolas, a duo of skilled Twilights, take on dangerous and morally ambiguous jobs to make a living. As they navigate the treacherous underworld of Ergastulum, they uncover secrets that could change everything.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 13%;"></span>
+                            </div>
+                            <p>13% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/65605l.webp" alt="Hybrid Child">
+                </div>
+                <div class="details">
+                    <a href="hybrid-child"><h3>Hybrid Child</h3></a>
+                    <p>Drama</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Hybrid Child follows the unique and emotional relationships between human owners and their sentient android companions known as Hybrid Children. Each hybrid child grows and learns from the love they receive, reflecting the bittersweet nature of their existence. Through various heartwarming and heartbreaking stories, the series explores the complexities of love, growth, and the bonds that form between humans and their artificial creations.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/47607l.jpg" alt="K">
+                </div>
+                <div class="details">
+                    <a href="k"><h3>K</h3></a>
+                    <p>Mystery</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In a world where humans coexist with monsters, a young adventurer dreams of becoming the greatest hero. He embarks on a journey with his friends, encountering dangerous creatures and powerful enemies along the way. With a mix of action, friendship, and a touch of humor, the group faces challenges that test their strength and resolve. Will they be able to fulfill their destinies and save the world from destruction?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1630/138388l.jpg" alt="My New Boss Is Goofy">
+                </div>
+                <div class="details">
+                    <a href="my-new-boss-is-goofy"><h3>My New Boss Is Goofy</h3></a>
+                    <p>Other Genre</p>
+                    <p>2023</p>
+                    <br>
+                    <p>When Kira Maruyama starts her dream job at a prestigious company, she is shocked to discover that her new boss is none other than Takumi Kato, a playful and carefree man known for his goofy antics. Despite their contrasting personalities, Kira is determined to prove herself as a capable employee. As they navigate the challenges of the workplace together, they form an unexpected bond that transcends their initial impressions.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 11%;"></span>
+                            </div>
+                            <p>11% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1535/117726l.jpg" alt="The Way of the Househusband">
+                </div>
+                <div class="details">
+                    <a href="the-way-of-the-househusband"><h3>The Way of the Househusband</h3></a>
+                    <p>Comedy</p>
+                    <p>2021</p>
+                    <br>
+                    <p>The Way of the Househusband follows the daily life of Tatsu, a former feared yakuza boss who has now retired to become a househusband. Despite his intimidating appearance, Tatsu navigates domestic chores and grocery shopping with the same level of intensity and seriousness he had in his yakuza days. As he strives to be the perfect househusband for his career-driven wife, hilarious situations ensue as Tatsu's old yakuza habits often clash with his new lifestyle.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 8%;"></span>
+                            </div>
+                            <p>8% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/18179l.jpg" alt="Fairy Tail">
+                </div>
+                <div class="details">
+                    <a href="fairy-tail"><h3>Fairy Tail</h3></a>
+                    <p>Action</p>
+                    <p>2009</p>
+                    <br>
+                    <p>Fairy Tail follows a group of powerful wizards in the magical guild Fairy Tail as they take on various missions to earn a living. The story focuses on the adventures of Lucy, Natsu, and their friends as they battle dark guilds, uncover ancient mysteries, and protect their beloved guild from powerful adversaries. With bonds of friendship and magic, they face challenges together and grow stronger in their quest for fame, fortune, and camaraderie.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/81953l.webp" alt="Kiss Him, Not Me!">
+                </div>
+                <div class="details">
+                    <a href="kiss-him%2C-not-me%21"><h3>Kiss Him, Not Me!</h3></a>
+                    <p>Romance</p>
+                    <p>2016</p>
+                    <br>
+                    <p>After the sudden death of her beloved anime character, Kae Serinuma locks herself in her room for a week and emerges as a slim and attractive girl. Surrounded by a group of handsome boys who all fall for her, she finds herself in the middle of a romantic whirlwind. Despite the attention, Kae's heart still belongs to her fictional crush. As she navigates the affections of her suitors, hilarious and heartwarming antics ensue.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/39779l.jpg" alt="My Little Monster">
+                </div>
+                <div class="details">
+                    <a href="my-little-monster"><h3>My Little Monster</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Shizuku, a serious and dedicated student, crosses paths with Haru, a troublemaking and impulsive classmate. Their unexpected encounter ignites a unique friendship that takes them on a rollercoaster ride of emotions and self-discovery. As they navigate the complexities of relationships and growing up, Shizuku and Haru learn valuable lessons about love, friendship, and the importance of understanding and accepting oneself and others.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

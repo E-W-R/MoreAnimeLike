@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Samurai Jam -Bakumatsu Rock-</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "23037";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/11/62557l.jpg" alt="Samurai Jam -Bakumatsu Rock-">
+                <div>
+                    <h2 id="title">Samurai Jam -Bakumatsu Rock-</h2>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a fictional version of the Bakumatsu era, music is banned. A group of rebellious rock musicians, led by the talented rocker Ryoma Sakamoto, rise up against the oppressive government through the power of rock 'n' roll. With their music and passion, they aim to bring about social change and create a new era of freedom. Join them on their journey as they challenge the status quo and fight for their beliefs.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/61885l.jpg" alt="Blade & Soul">
+                </div>
+                <div class="details">
+                    <a href="blade-%26-soul"><h3>Blade & Soul</h3></a>
+                    <p>Action</p>
+                    <p>2014</p>
+                    <br>
+                    <p>Alka is on a quest for revenge in a world where martial arts and dark magic reign. Haunted by her tragic past, she seeks to avenge her master's death. Along the way, she encounters new allies and enemies, each with their own motives. As she delves deeper into the secrets of her past, Alka must confront powerful foes while grappling with her own inner turmoil. The path she walks is fraught with danger and betrayal, but she is determined to see her quest through to the end.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/39495l.jpg" alt="La storia della Arcana Famiglia">
+                </div>
+                <div class="details">
+                    <a href="la-storia-della-arcana-famiglia"><h3>La storia della Arcana Famiglia</h3></a>
+                    <p>Romance</p>
+                    <p>2012</p>
+                    <br>
+                    <p>In La storia della Arcana Famiglia, the powerful Arcana Famiglia organization governs the island of Regalo using their mystical powers derived from Tarot cards. Felicita, the daughter of the organization's leader, must participate in a series of duels to determine who will marry her and take over the family. As she navigates through the challenges, Felicita uncovers secrets about her family and the true intentions of those around her. With betrayals and alliances forming, the fate of the Arcana Famiglia hangs in the balance.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 28%;"></span>
+                            </div>
+                            <p>28% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/10/68451l.webp" alt="Cute High Earth Defense Club LOVE!">
+                </div>
+                <div class="details">
+                    <a href="cute-high-earth-defense-club-love%21"><h3>Cute High Earth Defense Club LOVE!</h3></a>
+                    <p>Comedy</p>
+                    <p>2015</p>
+                    <br>
+                    <p>When five high school boys are chosen by a mysterious pink wombat to protect Earth, they must transform into magical boys with powers to defend their planet from otherworldly foes. As they navigate their everyday lives and fight off evil, they must learn to work together and harness the power of love to save the day. With humor, friendship, and a sprinkle of magical girl elements, this anime is a whimsical twist on the classic mahou shonen genre.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 25%;"></span>
+                            </div>
+                            <p>25% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/51409l.jpg" alt="Brothers Conflict">
+                </div>
+                <div class="details">
+                    <a href="brothers-conflict"><h3>Brothers Conflict</h3></a>
+                    <p>Romance</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Brothers Conflict follows the story of Ema Hinata, a high school girl who moves into a new apartment complex with her 13 stepbrothers. As she navigates living with her newfound siblings, Ema begins to develop close relationships with each of them. The brothers all have unique personalities and feelings towards Ema, leading to jealousy and competition among them as they vie for her attention and affection. As Ema forms bonds with her brothers, she discovers more about herself and her own desires.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/6/75642l.webp" alt="DRAMAtical Murder">
+                </div>
+                <div class="details">
+                    <a href="dramatical-murder"><h3>DRAMAtical Murder</h3></a>
+                    <p>Mystery</p>
+                    <p>2014</p>
+                    <br>
+                    <p>In a futuristic city, a popular virtual reality game called Rhyme has taken over daily life, turning into a dangerous competition. Aoba Seragaki prefers to stay out of the game's chaos until a fateful encounter pulls him into the ruthless world of Rhyme. As Aoba delves deeper, he uncovers dark secrets about the game and his own mysterious past, forcing him to confront dangerous adversaries and challenging his perception of reality.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 18%;"></span>
+                            </div>
+                            <p>18% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/4/68839l.jpg" alt="Absolute Duo">
+                </div>
+                <div class="details">
+                    <a href="absolute-duo"><h3>Absolute Duo</h3></a>
+                    <p>Romance</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In a world where students train to become skilled fighters using weapons generated from their souls, Tor Kokonoe enters Koryo Academy. He forms a Duo with the mysterious and powerful Julie Sigtuna. Together, they navigate friendships, rivalries, and intense battles as they uncover dark secrets surrounding their pasts. Tor and Julie must work together to overcome challenges and become the strongest Duo at the academy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 15%;"></span>
+                            </div>
+                            <p>15% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/89985l.jpg" alt="Citrus">
+                </div>
+                <div class="details">
+                    <a href="citrus"><h3>Citrus</h3></a>
+                    <p>Drama</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Yuzu Aihara is an outgoing high school girl who moves to a new city and starts attending an all-girls school. She quickly clashes with the student council president, Mei Aihara, who turns out to be her new step-sister. Despite their rocky start, Yuzu finds herself drawn to Mei in unexpected ways, leading to a complex and dramatic relationship between the two girls as they navigate love, jealousy, and their own personal struggles.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 6%;"></span>
+                            </div>
+                            <p>6% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/77844l.jpg" alt="Divine Gate">
+                </div>
+                <div class="details">
+                    <a href="divine-gate"><h3>Divine Gate</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In Divine Gate, a mystical portal appears, connecting the human world with those of gods and demons. Three young individuals are chosen to explore this gate and uncover its secrets. As they embark on this journey, they encounter various challenges and meet new allies who each possess unique abilities. Working together, they strive to unlock the truth behind the Divine Gate and bring balance to the different realms.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 5%;"></span>
+                            </div>
+                            <p>5% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/13/57251l.webp" alt="Code:Breaker">
+                </div>
+                <div class="details">
+                    <a href="code%3Abreaker"><h3>Code:Breaker</h3></a>
+                    <p>Action</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Code:Breaker follows Sakura, a high school student who witnesses a mysterious group of vigilantes with supernatural abilities, led by Rei, known as the Code:Breakers. As Sakura delves deeper into Rei's world, she discovers the dark secrets behind his mission to eliminate evildoers. Caught between justice and morality, Sakura finds herself entangled in a dangerous game of power and morality that challenges her beliefs and the true nature of justice.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

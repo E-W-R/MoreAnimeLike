@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Today We Start Our Love</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "8560";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/4/37023l.jpg" alt="Today We Start Our Love">
+                <div>
+                    <h2 id="title">Today We Start Our Love</h2>
+                    <p>Romance</p>
+                    <p>2010</p>
+                    <br>
+                    <p>After her parents' separation, Aoi moves into her grandfather's temple where she meets Shusei, a good-looking and standoffish young man. Despite their initial clashes, Aoi and Shusei find themselves living under the same roof due to unforeseen circumstances. As they navigate their new living situation, their relationship takes unexpected turns filled with misunderstandings, jealousy, and budding feelings. Will they be able to set aside their differences and find love?</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 23%;"></span>
+                            </div>
+                            <p>23% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1311/128738l.webp" alt="Amnesia">
+                </div>
+                <div class="details">
+                    <a href="amnesia"><h3>Amnesia</h3></a>
+                    <p>Mystery</p>
+                    <p>2013</p>
+                    <br>
+                    <p>After waking up with no memory, a young girl must navigate a mysterious world filled with supernatural beings. As she tries to piece together her past, she uncovers dark secrets about those around her and the truth about her own identity. With the help of newfound friends, she must unravel the mysteries of her forgotten past before it's too late. Will she be able to uncover the truth and regain her memories, or will the darkness consume her?</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,3 +1,15 @@
+function switchStylesheet() {
+    var stylesheet = document.getElementById('stylesheet');
+    if (window.innerWidth <= 700) {
+        stylesheet.href = 'style_mobile.css';
+    } else {
+        stylesheet.href = 'style.css';
+    }
+}
+
+window.addEventListener('load', switchStylesheet);
+window.addEventListener('resize', switchStylesheet);
+
 async function getRandomPage() {
     const response = await fetch('pages.json');
     const data = await response.json();

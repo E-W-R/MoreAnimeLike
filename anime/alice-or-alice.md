@@ -1,0 +1,716 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Anime Like Alice or Alice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="stylesheet" rel="stylesheet" href="page.css">
+    <link rel="icon" href="../favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="page.js"></script>
+</head>
+<body>
+    <header>
+        <script>const number = "36001";</script>
+        <a href="../index" class="home-icon"><i class="fas fa-home"></i></a>
+        <a href="javascript:void(0);" class="home-icon", id="randomPageLink"><i class="fas fa-random"></i></a>
+        <div class="header-content">
+            <h1>Find more anime like: </h1>
+            <div class="search-container">
+                <input type="text" id="searchBox" class="searchBox" placeholder="Search">
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <p id="tagline"><a href="../about">Discover more anime like your favorites based on the experiences of over one hundred thousand others.</a></p>
+    <div class="black-bar"></div>
+    <main>
+        <section id="main-anime">
+            <div class="anime-details">
+                <img src="https://cdn.myanimelist.net/images/anime/1033/116744l.jpg" alt="Alice or Alice">
+                <div>
+                    <h2 id="title">Alice or Alice</h2>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Alice or Alice follows the daily lives of twin sisters Alice and Rise as they navigate their close bond and sisterly antics. Despite being identical in appearance, their personalities are polar opposites, leading to a series of comedic situations and heartwarming moments. From sibling rivalry to sisterly support, the series explores the unique dynamics of their relationship as they experience the ups and downs of teenage life together.</p>
+                </div>
+            </div>
+            <canvas id="myPolarAreaChart" width="40px" height="40px"></canvas>
+        </section>
+        <br>
+        <section id="recommendations">
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">1</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 86%;"></span>
+                            </div>
+                            <p>86% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/87837l.jpg" alt="Battle Girl High School">
+                </div>
+                <div class="details">
+                    <a href="battle-girl-high-school"><h3>Battle Girl High School</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In Battle Girl High School, a group of high school girls are chosen to protect the world from mysterious creatures known as the Irousu. Using their unique abilities and teamwork, the girls must train and battle to ensure the safety of their school and humanity. As they face stronger enemies and uncover the truth behind the Irousu invasion, the girls must bond together and overcome challenges to protect what they hold dear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">2</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 81%;"></span>
+                            </div>
+                            <p>81% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1594/108629l.jpg" alt="Love To-LIE-Angle">
+                </div>
+                <div class="details">
+                    <a href="love-to-lie-angle"><h3>Love To-LIE-Angle</h3></a>
+                    <p>Comedy</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Love To-LIE-Angle follows the story of a high school student who accidentally discovers a fellow classmate's secret: she is a famous idol hiding her true identity. The protagonist is then blackmailed into keeping her secret, leading to comical and heartwarming situations as they navigate the challenges of balancing school life with the hidden world of celebrity. As their relationship deepens, they must confront their true feelings amidst the pressures of fame and secrecy.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">3</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1969/116702l.webp" alt="Nora, Princess, and Stray Cat">
+                </div>
+                <div class="details">
+                    <a href="nora%2C-princess%2C-and-stray-cat"><h3>Nora, Princess, and Stray Cat</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Nora, a high school student, comes across a mysterious girl named Patricia, who turns out to be a princess from the Netherworld. Together with his pet cat, Nora gets entangled in magical mishaps and must help Patricia reclaim her throne. As they journey through different realms and encounter various challenges, Nora learns the true meaning of friendship and loyalty.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">4</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <p>70% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1957/111714l.jpg" alt="Rainy Cocoa">
+                </div>
+                <div class="details">
+                    <a href="rainy-cocoa"><h3>Rainy Cocoa</h3></a>
+                    <p>Comedy</p>
+                    <p>2015</p>
+                    <br>
+                    <p>Rainy Cocoa follows the story of a young college student named Aoi Tokura who starts working at his family's café, Rainy Color. Aoi meets various charming and quirky customers, including his childhood friend Keiichi Iwase. Together, they navigate the ups and downs of running a café and forming new friendships. The series focuses on Aoi's experiences and interactions with the eclectic mix of characters who frequent Rainy Color.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">5</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1524/97286l.webp" alt="Nobunaga Teacher's Young Bride">
+                </div>
+                <div class="details">
+                    <a href="nobunaga-teacher%27s-young-bride"><h3>Nobunaga Teacher's Young Bride</h3></a>
+                    <p>Romance</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Maya, a high school girl, time travels to the Warring States period and marries Oda Nobunaga, who's now a teacher. Trying to keep her secret, Maya navigates life as a student by day and a feudal lord's wife by night. Balancing her modern values with the traditions of the past, Maya finds herself caught in various comedic and heartwarming situations as she tries to live a double life. Will she be able to keep up the charade, or will her two worlds collide?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">6</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <p>60% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1299/106117l.jpg" alt="Hatena Illusion">
+                </div>
+                <div class="details">
+                    <a href="hatena-illusion"><h3>Hatena Illusion</h3></a>
+                    <p>Romance</p>
+                    <p>2020</p>
+                    <br>
+                    <p>Makoto Shiranui dreams of becoming a master illusionist like his vanished parents. He moves in with a wealthy family and reunites with his childhood friend Kana, who aspires to be a magician. Together, they navigate the mysterious world of magic while uncovering secrets of the family's past. As they train and perform tricks, they encounter rivals and eerie supernatural occurrences, all while striving to achieve their dreams.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">7</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 55%;"></span>
+                            </div>
+                            <p>55% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/3/77048l.jpg" alt="Anime de Training! Ex">
+                </div>
+                <div class="details">
+                    <a href="anime-de-training%21-ex"><h3>Anime de Training! Ex</h3></a>
+                    <p>Sports</p>
+                    <p>2015</p>
+                    <br>
+                    <p>In 'Anime de Training! Ex', our protagonist meets a mysterious girl who introduces her to the world of female bodybuilding. Inspired by the girl's dedication, she decides to transform her lifestyle and pursue her own fitness goals. Along the way, she encounters various challenges and competitions that test her physical and mental strength. Will she be able to push through and achieve her dreams of becoming a strong and confident athlete?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">8</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 51%;"></span>
+                            </div>
+                            <p>51% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/89091l.webp" alt="25-Year-Old High School Girl, I Wouldn’t Do This with a Kid">
+                </div>
+                <div class="details">
+                    <a href="25-year-old-high-school-girl%2C-i-wouldn%E2%80%99t-do-this-with-a-kid"><h3>25-Year-Old High School Girl, I Wouldn’t Do This with a Kid</h3></a>
+                    <p>Other Genre</p>
+                    <p>2018</p>
+                    <br>
+                    <p>25-year-old office worker Serina wakes up one morning to find herself back in her high school body. Determined not to repeat any mistakes from her past, she navigates the challenges of high school life with her new mature mindset. As she interacts with her teenage classmates and teachers, she learns valuable lessons about friendship, love, and self-acceptance. Will Serina be able to make the most of this second chance at high school?</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">9</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1660/98376l.jpg" alt="Joshi Kausei">
+                </div>
+                <div class="details">
+                    <a href="joshi-kausei"><h3>Joshi Kausei</h3></a>
+                    <p>Comedy</p>
+                    <p>2019</p>
+                    <br>
+                    <p>Joshi Kausei follows the daily lives of three high school girls, Momoko, Shibumi, and Mayumi, as they navigate various humorous and light-hearted situations without any dialogue. Through simple yet expressive gestures and actions, the girls bond over everyday experiences and form a strong friendship. The series focuses on the girls' interactions, showcasing their unique personalities and friendship dynamics in a charming and delightful manner.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">10</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 48%;"></span>
+                            </div>
+                            <p>48% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/5/86625l.jpg" alt="Frame Arms Girl">
+                </div>
+                <div class="details">
+                    <a href="frame-arms-girl"><h3>Frame Arms Girl</h3></a>
+                    <p>Action</p>
+                    <p>2017</p>
+                    <br>
+                    <p>Frame Arms Girl follows the story of Ao Gennai, a high school student who receives a mysterious package containing Gourai, a tiny robot girl known as a Frame Arms Girl. As Ao learns how to customize and battle with Gourai, she meets more Frame Arms Girls who join in the fun. Together, they embark on exciting adventures and face off against other Frame Arms Girls in friendly competitions. With each battle, Ao and her new friends grow closer and discover the true power of teamwork.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">11</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 46%;"></span>
+                            </div>
+                            <p>46% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1384/127328l.jpg" alt="I've Somehow Gotten Stronger When I Improved My Farm-Related Skills">
+                </div>
+                <div class="details">
+                    <a href="i%27ve-somehow-gotten-stronger-when-i-improved-my-farm-related-skills"><h3>I've Somehow Gotten Stronger When I Improved My Farm-Related Skills</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>After a chance discovery, a young farmer realizes that improving his farming skills enhances his physical abilities as well. Now, with newfound strength, he decides to embark on a journey to explore his powers further while continuing to cultivate his farm. Along the way, he encounters challenges that test both his farming and combat skills, leading him to uncover the true extent of his remarkable abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">12</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 45%;"></span>
+                            </div>
+                            <p>45% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/45352l.jpg" alt="Boku no Imouto wa "Osaka Okan"">
+                </div>
+                <div class="details">
+                    <a href="boku-no-imouto-wa-%22osaka-okan%22"><h3>Boku no Imouto wa "Osaka Okan"</h3></a>
+                    <p>Comedy</p>
+                    <p>2012</p>
+                    <br>
+                    <p>Boku no Imouto wa 'Osaka Okan' follows the daily life of Kyousuke Asakura and his younger sister Natasha, who is originally from Osaka. With her energetic and loud personality, Natasha often brings chaos and laughter into their lives. As the siblings navigate through various comical situations, they learn the importance of family bonds and cultural differences.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">13</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 41%;"></span>
+                            </div>
+                            <p>41% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1558/113940l.jpg" alt="Hortensia SAGA">
+                </div>
+                <div class="details">
+                    <a href="hortensia-saga"><h3>Hortensia SAGA</h3></a>
+                    <p>Action</p>
+                    <p>2021</p>
+                    <br>
+                    <p>In the kingdom of Hortensia, a young protagonist must navigate political turmoil and warfare as different factions vie for power and control. With alliances constantly shifting and betrayal lurking in every corner, our hero must rise up and lead their allies to protect the kingdom from chaos and destruction. Set in a medieval fantasy world, Hortensia Saga is a tale of courage, honor, and the struggle for a better tomorrow.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">14</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1387/134151l.jpg" alt="Summoned to Another World for a Second Time">
+                </div>
+                <div class="details">
+                    <a href="summoned-to-another-world-for-a-second-time"><h3>Summoned to Another World for a Second Time</h3></a>
+                    <p>Isekai</p>
+                    <p>2023</p>
+                    <br>
+                    <p>After being summoned to a fantasy world once, protagonist Yuji finds himself back in the same world, but with his memories intact. Determined to use his knowledge to change his fate this time, Yuji sets out on a new adventure filled with magic, battles, and unexpected twists. With a second chance at life in this mysterious realm, Yuji must navigate new challenges and make choices that will shape his destiny.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">15</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1655/111626l.jpg" alt="Kandagawa Jet Girls">
+                </div>
+                <div class="details">
+                    <a href="kandagawa-jet-girls"><h3>Kandagawa Jet Girls</h3></a>
+                    <p>Other Genre</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In Kandagawa Jet Girls, high school students Rin Namiki and Misa Aoi team up to compete in Jet Racing, a popular sport where two girls ride a jet ski together. As they navigate the waters and compete against other teams, Rin and Misa aim to win races and ultimately become the top Jet Racing team in the tournament. With their unique skills and determination, the duo face various challenges on and off the water in their quest for victory.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">16</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/47377l.jpg" alt="Cyclops Shoujo Saipuu">
+                </div>
+                <div class="details">
+                    <a href="cyclops-shoujo-saipuu"><h3>Cyclops Shoujo Saipuu</h3></a>
+                    <p>Comedy</p>
+                    <p>2013</p>
+                    <br>
+                    <p>Cyclops Shoujo Saipuu follows the daily life of Fuuka, a high school girl, who has a unique physical characteristic - a single eye in the middle of her forehead. Despite her unusual appearance, Fuuka tries to navigate through the ups and downs of teenage life, dealing with friendships, crushes, and self-acceptance. With a mix of comedy and slice-of-life moments, the series explores Fuuka's experiences and how she overcomes challenges with a positive attitude.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">17</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/11/80684l.jpg" alt="Ange Vierge">
+                </div>
+                <div class="details">
+                    <a href="ange-vierge"><h3>Ange Vierge</h3></a>
+                    <p>Action</p>
+                    <p>2016</p>
+                    <br>
+                    <p>In a world facing destruction by sinister forces known as the Ecliptic, girls from different dimensions are chosen to wield extraordinary powers. As they come together to form alliances and fight against the looming threat, these girls must overcome their differences and work together to protect their worlds from annihilation. With unique abilities and fierce determination, they must unlock the true potential of their powers to save everything they hold dear.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">18</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <p>40% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/8/90088l.webp" alt="Maerchen Maedchen">
+                </div>
+                <div class="details">
+                    <a href="maerchen-maedchen"><h3>Maerchen Maedchen</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Maerchen Maedchen follows Hazuki Kagimura, a shy bookworm who discovers the world of magic and fairy tales. As a chosen mage, Hazuki attends the prestigious Kuzunoha Academy to compete in the annual Hexen Nachtmusik tournament. Alongside her new friends, Hazuki trains to become a powerful mage while unraveling the mysteries of the academy's past. With enchanting battles and deep friendships, Hazuki ventures deeper into the world of magic, determined to find her place among the mages.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">19</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/12/86741l.jpg" alt="Action Heroine Cheer Fruits">
+                </div>
+                <div class="details">
+                    <a href="action-heroine-cheer-fruits"><h3>Action Heroine Cheer Fruits</h3></a>
+                    <p>Comedy</p>
+                    <p>2017</p>
+                    <br>
+                    <p>In a town where local heroines entertain the citizens, a group of high school girls form their own superhero team to revitalize their community. With determination and teamwork, they aim to win over the hearts of the people through their entertaining performances and exciting adventures. However, they must overcome challenges and rivals to achieve their goal of becoming beloved heroines.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">20</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 38%;"></span>
+                            </div>
+                            <p>38% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1537/117590l.webp" alt="The Fruit of Evolution: Before I Knew It, My Life Had It Made">
+                </div>
+                <div class="details">
+                    <a href="the-fruit-of-evolution%3A-before-i-knew-it%2C-my-life-had-it-made"><h3>The Fruit of Evolution: Before I Knew It, My Life Had It Made</h3></a>
+                    <p>Isekai</p>
+                    <p>2021</p>
+                    <br>
+                    <p>High school student Seiichi is transported to another world along with his classmates but is left behind in the weakest class. However, after being abandoned in a dangerous forest, he discovers a mysterious fruit that grants him the power to evolve at an incredible speed. With newfound strength and abilities, Seiichi sets out on a journey to prove his worth and find his place in this new world.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">21</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1132/120388l.jpg" alt="The Strongest Sage with the Weakest Crest">
+                </div>
+                <div class="details">
+                    <a href="the-strongest-sage-with-the-weakest-crest"><h3>The Strongest Sage with the Weakest Crest</h3></a>
+                    <p>Action</p>
+                    <p>2022</p>
+                    <br>
+                    <p>In a world where magical abilities dictate one's worth, Mathias, possessing the weakest crest, is labeled as a failure. But when an ancient power awakens within him, he becomes the strongest sage. Determined to prove his strength, Mathias embarks on a journey to protect his loved ones and uncover the truth behind his newfound powers. As he faces formidable foes and challenges, Mathias must learn to control his abilities and fulfill his destiny as the legendary sage.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">22</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1708/96962l.jpg" alt="Grimms Notes The Animation">
+                </div>
+                <div class="details">
+                    <a href="grimms-notes-the-animation"><h3>Grimms Notes The Animation</h3></a>
+                    <p>Action</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In a world where every story is a reality, characters from famous fairy tales are faced with a threat that could endanger their existence. To stop the malevolent forces that seek to disrupt the balance of their land, a group of heroes known as the Story Tellers embarks on a quest to restore harmony and protect their world. Join them as they navigate through different storylines, facing various challenges and uncovering the mysteries behind their unique abilities.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">23</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1634/114551l.jpg" alt="Blue Reflection Ray">
+                </div>
+                <div class="details">
+                    <a href="blue-reflection-ray"><h3>Blue Reflection Ray</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Blue Reflection Ray follows the story of Ruka and Ao, two high school girls who gain the power to transform into magical warriors known as Reflector. They must battle dangerous creatures called Sephira that threaten their world. Along the way, they uncover the truth behind their newfound powers and form deep bonds with their classmates as they navigate the challenges of adolescence and the responsibilities that come with being magical girls.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">24</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 36%;"></span>
+                            </div>
+                            <p>36% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1014/123301l.jpg" alt="My First Girlfriend is a Gal: My First Cultural Festival">
+                </div>
+                <div class="details">
+                    <a href="my-first-girlfriend-is-a-gal%3A-my-first-cultural-festival"><h3>My First Girlfriend is a Gal: My First Cultural Festival</h3></a>
+                    <p>Romance</p>
+                    <p>2017</p>
+                    <br>
+                    <p>After starting to date his first girlfriend, Junichi and Yukana navigate the ups and downs of high school life together as they prepare for the cultural festival. Junichi finds himself facing new challenges and insecurities as he tries to preserve his relationship with Yukana amidst misunderstandings and unexpected obstacles. With the cultural festival approaching, the couple must learn to communicate and support each other to overcome their problems and strengthen their bond.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">25</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1904/118821l.jpg" alt="Can I Make Your Ears Happy in 180 Seconds?">
+                </div>
+                <div class="details">
+                    <a href="can-i-make-your-ears-happy-in-180-seconds%3F"><h3>Can I Make Your Ears Happy in 180 Seconds?</h3></a>
+                    <p>Other Genre</p>
+                    <p>2021</p>
+                    <br>
+                    <p>Can I Make Your Ears Happy in 180 Seconds? follows the story of a group of aspiring musicians who strive to create the perfect song that will touch people's hearts in just 3 minutes. As they face various challenges and obstacles along the way, they must learn to work together and push their limits to achieve their dreams of success and recognition in the competitive music industry.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">26</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 35%;"></span>
+                            </div>
+                            <p>35% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1585/95225l.webp" alt="The Master of Ragnarok & Blesser of Einherjar">
+                </div>
+                <div class="details">
+                    <a href="the-master-of-ragnarok-%26-blesser-of-einherjar"><h3>The Master of Ragnarok & Blesser of Einherjar</h3></a>
+                    <p>Isekai</p>
+                    <p>2018</p>
+                    <br>
+                    <p>Yuuto Suoh is a high school student who is suddenly transported to a parallel world inhabited by tribes inspired by Norse mythology. With his smartphone and knowledge of ancient tactics, he rises to power and becomes the Wolf Clan leader. Alongside his warriors, including the Einherjar, Yuuto navigates political intrigue and battles to unite the land under his rule. The anime follows his quest for dominance and the challenges he faces as he strives to protect both his new world and the loved ones he left behind.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">27</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 33%;"></span>
+                            </div>
+                            <p>33% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1506/138529l.jpg" alt="The Demon Sword Master of Excalibur Academy">
+                </div>
+                <div class="details">
+                    <a href="the-demon-sword-master-of-excalibur-academy"><h3>The Demon Sword Master of Excalibur Academy</h3></a>
+                    <p>Action</p>
+                    <p>2023</p>
+                    <br>
+                    <p>In a world where demons threaten humanity, the Excalibur Academy trains talented individuals to become powerful Demon Sword Masters. Ray, a young orphan with mysterious powers, enrolls in the academy to uncover the secrets of his past. With the help of his friends and mentors, Ray must navigate intense training, fierce battles, and dark conspiracies to become the strongest Demon Sword Master and protect the world from impending doom.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">28</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/9/83777l.jpg" alt="One Room">
+                </div>
+                <div class="details">
+                    <a href="one-room"><h3>One Room</h3></a>
+                    <p>Other Genre</p>
+                    <p>2017</p>
+                    <br>
+                    <p>One Room follows the life of a young man from the perspective of three different girls, each episode focusing on one girl's interactions with him in his small apartment. As the girls navigate their daily lives alongside the protagonist, viewers get a glimpse into their unique personalities and relationships with him. Experience heartwarming moments and simple, everyday experiences in this charming slice-of-life anime.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">29</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 31%;"></span>
+                            </div>
+                            <p>31% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1050/108631l.webp" alt="Jingai-san no Yome">
+                </div>
+                <div class="details">
+                    <a href="jingai-san-no-yome"><h3>Jingai-san no Yome</h3></a>
+                    <p>Romance</p>
+                    <p>2018</p>
+                    <br>
+                    <p>When high schooler Tomari Hinowa is suddenly approached by a mysterious creature and asked to become his bride, she is initially hesitant but eventually agrees. Living together in secrecy, they navigate the challenges of their unique relationship while trying to keep it hidden from others. As Tomari learns more about her unconventional spouse and his world, their bond deepens and they face various obstacles that test their love and commitment to each other.</p>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <div class="graphics">
+                    <div class="rank-container">
+                        <div class="rank">30</div>
+                        <div class="similarity-meter">
+                            <div class="meter">
+                                <span style="width: 30%;"></span>
+                            </div>
+                            <p>30% Similarity</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.myanimelist.net/images/anime/1824/100449l.jpg" alt="Cinderella Nine">
+                </div>
+                <div class="details">
+                    <a href="cinderella-nine"><h3>Cinderella Nine</h3></a>
+                    <p>Sports</p>
+                    <p>2019</p>
+                    <br>
+                    <p>In Cinderella Nine, Tsubasa Arihara revives her school's defunct baseball team with a group of girls from different backgrounds. Together, they work hard to overcome challenges and compete in the high school baseball league. With determination, friendship, and a love for the sport, the team strives to make a name for themselves and prove that they have what it takes to succeed on the baseball field.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
