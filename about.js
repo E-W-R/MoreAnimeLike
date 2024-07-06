@@ -1,9 +1,9 @@
 function switchStylesheet() {
     var stylesheet = document.getElementById('stylesheet');
     if (window.innerWidth <= 700) {
-        stylesheet.href = 'about_mobile.css';
+        stylesheet.href = '/about_mobile.css';
     } else {
-        stylesheet.href = 'about.css';
+        stylesheet.href = '/about.css';
     }
 }
 
