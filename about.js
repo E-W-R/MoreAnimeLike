@@ -11,7 +11,7 @@ window.addEventListener('load', switchStylesheet);
 window.addEventListener('resize', switchStylesheet);
 
 async function getRandomPage() {
-    const response = await fetch('pages.json');
+    const response = await fetch('/pages.json');
     const data = await response.json();
     const pages = data.pages;
 
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    d3.json("graph.json").then(data => {
+    d3.json("/graph.json").then(data => {
         const nodes = data.nodes;
         const edges = data.edges;
 
