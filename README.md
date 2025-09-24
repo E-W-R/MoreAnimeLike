@@ -1,1 +1,1 @@
-# [MoreAnimeLike.com](https://www.moreanimelike.com)
+# [MoreAnimeLike.com](https://e-w-r.github.io/MoreAnimeLike/)
